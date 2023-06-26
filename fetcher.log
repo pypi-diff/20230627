@@ -428,3 +428,116 @@
 [2023-06-27 00:29:26] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
 [2023-06-27 00:29:26] INFO root fetch - main [MainThread]: End processing [pipenv]: success
 [2023-06-27 00:29:26] INFO root fetch - main [MainThread]: Store serial: [18653592]
+[2023-06-27 00:34:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653592]
+[2023-06-27 00:34:35] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-27 00:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gym-jiminy
+[2023-06-27 00:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gym-jiminy-rllib
+[2023-06-27 00:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gym-jiminy-toolbox
+[2023-06-27 00:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunpeek
+[2023-06-27 00:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gym-jiminy-zoo
+[2023-06-27 00:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SNIIMAPP-2
+[2023-06-27 00:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yandil
+[2023-06-27 00:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irisml-tasks-training
+[2023-06-27 00:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: linpg
+[2023-06-27 00:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dkist-processing-test
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy-rllib]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-27 00:34:35] INFO root fetch - processPackages [linpg]: New version: [3.7.0] Old Version: [3.6.1]
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy-zoo]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy-toolbox]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-27 00:34:35] INFO root fetch - processPackages [irisml-tasks-training]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-06-27 00:34:35] WARNING root fetch - processPackages [SNIIMAPP-2]: Skipping, unable to determine old version
+[2023-06-27 00:34:35] INFO root fetch - processPackages [SNIIMAPP-2]: Start processing: hikari-crescent
+[2023-06-27 00:34:35] INFO root fetch - main [MainThread]: End processing [SNIIMAPP-2] error
+[2023-06-27 00:34:35] INFO root fetch - processPackages [yandil]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-27 00:34:35] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 00:34:35] INFO root fetch - processPackages [dkist-processing-test]: New version: [1.3.0rc3] Old Version: [1.3.0rc2]
+[2023-06-27 00:34:35] INFO root fetch - processPackages [hikari-crescent]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-27 00:34:35] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/ec/00/b6b6488c6bab3adf6692722d4836203bd9f03ec454ac8197d10d78c91bd9/yandil-0.2.1.tar.gz
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy-zoo]: Downloading https://files.pythonhosted.org/packages/b9/e5/8035703de6871724b16b65ae74176dd605eb0c37f431beea65033afd24b2/gym_jiminy_zoo-1.7.8-py3-none-any.whl
+[2023-06-27 00:34:35] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/f5/0d/fdc4d5906a243a939711512286dac73f42a9efbb03b8d0f163470e273c91/irisml-tasks-training-0.0.80.tar.gz
+[2023-06-27 00:34:35] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy-rllib]: Downloading https://files.pythonhosted.org/packages/39/59/d0a8e54cf37a5cdbfe373f3d0539b13e1ed729d94e6eafec2764425ef5bd/gym_jiminy_rllib-1.7.8-py3-none-any.whl
+[2023-06-27 00:34:35] INFO root fetch - processPackages [linpg]: Downloading https://files.pythonhosted.org/packages/e4/8d/25a2642bc90fdc5320519b6a740221ec992afdabe871b8e3303592de372b/linpg-3.6.1.tar.gz
+[2023-06-27 00:34:35] WARNING root fetch - processPackages [gym-jiminy-zoo]: Skipping package: exceeds size limit 39291345>=10485760
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy-zoo]: Start processing: pdf-watermark
+[2023-06-27 00:34:35] INFO root fetch - main [MainThread]: End processing [gym-jiminy-zoo] error
+[2023-06-27 00:34:35] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/46/31/ec56b6351e37aad011e44fcf3edf1557fbae590bf5bca9e3af94314ac487/dkist-processing-test-1.3.0rc2.tar.gz
+[2023-06-27 00:34:35] INFO root fetch - processPackages [hikari-crescent]: Downloading https://files.pythonhosted.org/packages/ef/0f/1bac2dcd04eac65c1cc4691f1fd8ba38de2b51230ee641ac8f7cd9435bf9/hikari_crescent-0.6.1.tar.gz
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy]: Downloading https://files.pythonhosted.org/packages/e1/bd/3ea7d70805280f4b2d96abac0617e82971683d968bde6b736e91b98d2ac8/gym_jiminy-1.7.8-py3-none-any.whl
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy-toolbox]: Downloading https://files.pythonhosted.org/packages/b7/23/dc54d9030b96775887524c4f4375dc30172b78fb47f7fe4b36088d6046c3/gym_jiminy_toolbox-1.7.8-py3-none-any.whl
+[2023-06-27 00:34:35] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/83/68/666ef3d5ff1d51ff3a366e493ebefb88365a88a7237f28de08b1163a38b3/yandil-0.2.2.tar.gz
+[2023-06-27 00:34:35] WARNING root fetch - processPackages [pdf-watermark]: Skipping, unable to determine old version
+[2023-06-27 00:34:35] INFO root fetch - processPackages [pdf-watermark]: Start processing: starlette-admin
+[2023-06-27 00:34:35] INFO root fetch - main [MainThread]: End processing [pdf-watermark] error
+[2023-06-27 00:34:35] INFO root fetch - processPackages [yandil]: executing diffoscope
+[2023-06-27 00:34:35] INFO root fetch - processPackages [yandil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandil-0.2.1.tar.gz tmp/yandil-0.2.2.tar.gz --markdown 20230627/y/yandil/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-27 00:34:35] INFO root fetch - processPackages [starlette-admin]: New version: [0.9.0.dev0] Old Version: [0.9.0]
+[2023-06-27 00:34:35] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/03/95/02a31958b7096b95e04d4d97bdb225fccca86651bbe1faf0e72395d98604/irisml-tasks-training-0.0.9.tar.gz
+[2023-06-27 00:34:35] INFO root fetch - processPackages [hikari-crescent]: Downloading https://files.pythonhosted.org/packages/e4/07/e5b4650a950640da53902d8daf250a2a7efffcef98f8e229ea480a24915f/hikari_crescent-0.6.2.tar.gz
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy-rllib]: Downloading https://files.pythonhosted.org/packages/a9/d7/fbc92fcfd49cd00029c7e214cf6176d100be9f2205da85e7f0738aac5952/gym_jiminy_rllib-1.7.9-py3-none-any.whl
+[2023-06-27 00:34:35] INFO root fetch - processPackages [starlette-admin]: Downloading https://files.pythonhosted.org/packages/16/be/8526ff7382767cca533fd88cdc1e3483a93a09c7f1ad6604c55422abb18b/starlette_admin-0.9.0.tar.gz
+[2023-06-27 00:34:35] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-06-27 00:34:35] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/80/3f/b77d68062360ab0eb413cbe69fa21f155f20a4365d6136eb8b448e0b6703/dkist-processing-test-1.3.0rc3.tar.gz
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy-toolbox]: Downloading https://files.pythonhosted.org/packages/60/45/ae0293a8fda333f095533f3a5cee0aa26b83c4b822223bec74356eb09fde/gym_jiminy_toolbox-1.7.9-py3-none-any.whl
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy]: Downloading https://files.pythonhosted.org/packages/0e/bf/13ba1b4ce91a76f3cfe14b640b6bb3d0c1ef54680e571ddbd73a68a7a65b/gym_jiminy-1.7.9-py3-none-any.whl
+[2023-06-27 00:34:35] INFO root fetch - processPackages [hikari-crescent]: executing diffoscope
+[2023-06-27 00:34:35] INFO root fetch - processPackages [hikari-crescent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_crescent-0.6.1.tar.gz tmp/hikari_crescent-0.6.2.tar.gz --markdown 20230627/h/hikari-crescent/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-27 00:34:35] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-06-27 00:34:35] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230627/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy-rllib]: executing diffoscope
+[2023-06-27 00:34:35] INFO root fetch - processPackages [gym-jiminy-rllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_jiminy_rllib-1.7.8-py3-none-any.whl.zip tmp/gym_jiminy_rllib-1.7.9-py3-none-any.whl.zip --markdown 20230627/g/gym-jiminy-rllib/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-06-27 00:34:35] INFO root fetch - processPackages [linpg]: Downloading https://files.pythonhosted.org/packages/b6/83/f60792a5e90a8d88821ad4613849a75a1df3346c07f2a244f83277a972cb/linpg-3.7.0.tar.gz
+[2023-06-27 00:34:36] INFO root fetch - processPackages [starlette-admin]: Downloading https://files.pythonhosted.org/packages/cc/51/3c4517374ede214bd53159b7f53dcc95dc0392867df718801b40c4531317/starlette_admin-0.9.0.dev0.tar.gz
+[2023-06-27 00:34:36] INFO root fetch - processPackages [dkist-processing-test]: executing diffoscope
+[2023-06-27 00:34:36] INFO root fetch - processPackages [dkist-processing-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-test-1.3.0rc2.tar.gz tmp/dkist-processing-test-1.3.0rc3.tar.gz --markdown 20230627/d/dkist-processing-test/1.3.0rc2-1.3.0rc3/diff.md --exclude *.pyd
+[2023-06-27 00:34:36] INFO root fetch - processPackages [gym-jiminy]: executing diffoscope
+[2023-06-27 00:34:36] INFO root fetch - processPackages [gym-jiminy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_jiminy-1.7.8-py3-none-any.whl.zip tmp/gym_jiminy-1.7.9-py3-none-any.whl.zip --markdown 20230627/g/gym-jiminy/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-06-27 00:34:36] INFO root fetch - processPackages [gym-jiminy-toolbox]: executing diffoscope
+[2023-06-27 00:34:36] INFO root fetch - processPackages [gym-jiminy-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_jiminy_toolbox-1.7.8-py3-none-any.whl.zip tmp/gym_jiminy_toolbox-1.7.9-py3-none-any.whl.zip --markdown 20230627/g/gym-jiminy-toolbox/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-06-27 00:34:36] INFO root fetch - processPackages [starlette-admin]: executing diffoscope
+[2023-06-27 00:34:36] INFO root fetch - processPackages [starlette-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_admin-0.9.0.tar.gz tmp/starlette_admin-0.9.0.dev0.tar.gz --markdown 20230627/s/starlette-admin/0.9.0-0.9.0.dev0/diff.md --exclude *.pyd
+[2023-06-27 00:34:36] INFO root fetch - processPackages [irisml-tasks-training]: executing diffoscope
+[2023-06-27 00:34:36] INFO root fetch - processPackages [irisml-tasks-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-training-0.0.80.tar.gz tmp/irisml-tasks-training-0.0.9.tar.gz --markdown 20230627/i/irisml-tasks-training/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 00:34:37] INFO root fetch - processPackages [linpg]: executing diffoscope
+[2023-06-27 00:34:37] INFO root fetch - processPackages [linpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linpg-3.6.1.tar.gz tmp/linpg-3.7.0.tar.gz --markdown 20230627/l/linpg/3.6.1-3.7.0/diff.md --exclude *.pyd
+[2023-06-27 00:34:37] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.2.1.tar.gz]
+[2023-06-27 00:34:37] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.2.2.tar.gz]
+[2023-06-27 00:34:37] INFO root fetch - processPackages [yandil]: Start processing: rocm-docs-core
+[2023-06-27 00:34:37] INFO root fetch - main [MainThread]: End processing [yandil]: success
+[2023-06-27 00:34:37] INFO root fetch - processPackages [rocm-docs-core]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-27 00:34:37] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/f9/19/0159088f20edfe3151203150b7200a110b31f38e54a6970440c78832b50b/rocm-docs-core-0.9.1.tar.gz
+[2023-06-27 00:34:37] INFO root fetch - processPackages [gym-jiminy-rllib]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy_rllib-1.7.8-py3-none-any.whl.zip]
+[2023-06-27 00:34:37] INFO root fetch - processPackages [gym-jiminy-rllib]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy_rllib-1.7.9-py3-none-any.whl.zip]
+[2023-06-27 00:34:37] INFO root fetch - main [MainThread]: End processing [gym-jiminy-rllib]: success
+[2023-06-27 00:34:37] INFO root fetch - processPackages [gym-jiminy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy_toolbox-1.7.8-py3-none-any.whl.zip]
+[2023-06-27 00:34:37] INFO root fetch - processPackages [gym-jiminy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy_toolbox-1.7.9-py3-none-any.whl.zip]
+[2023-06-27 00:34:37] INFO root fetch - main [MainThread]: End processing [gym-jiminy-toolbox]: success
+[2023-06-27 00:34:37] INFO root fetch - processPackages [hikari-crescent]: Remove: archive file [/home/abi/fetcher/tmp/hikari_crescent-0.6.1.tar.gz]
+[2023-06-27 00:34:37] INFO root fetch - processPackages [hikari-crescent]: Remove: archive file [/home/abi/fetcher/tmp/hikari_crescent-0.6.2.tar.gz]
+[2023-06-27 00:34:37] INFO root fetch - main [MainThread]: End processing [hikari-crescent]: success
+[2023-06-27 00:34:37] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-06-27 00:34:37] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-06-27 00:34:37] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-06-27 00:34:37] INFO root fetch - processPackages [gym-jiminy]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy-1.7.8-py3-none-any.whl.zip]
+[2023-06-27 00:34:37] INFO root fetch - processPackages [gym-jiminy]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy-1.7.9-py3-none-any.whl.zip]
+[2023-06-27 00:34:37] INFO root fetch - main [MainThread]: End processing [gym-jiminy]: success
+[2023-06-27 00:34:37] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.3.0rc2.tar.gz]
+[2023-06-27 00:34:37] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.3.0rc3.tar.gz]
+[2023-06-27 00:34:37] INFO root fetch - main [MainThread]: End processing [dkist-processing-test]: success
+[2023-06-27 00:34:38] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/10/67/d954e3cefa6dc2afd82d2fc11f424737a09b28d389ba8c96edaaad0b6172/rocm-docs-core-0.9.2.tar.gz
+[2023-06-27 00:34:38] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.80.tar.gz]
+[2023-06-27 00:34:38] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.9.tar.gz]
+[2023-06-27 00:34:38] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
+[2023-06-27 00:34:38] INFO root fetch - processPackages [rocm-docs-core]: executing diffoscope
+[2023-06-27 00:34:38] INFO root fetch - processPackages [rocm-docs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocm-docs-core-0.9.1.tar.gz tmp/rocm-docs-core-0.9.2.tar.gz --markdown 20230627/r/rocm-docs-core/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-27 00:34:38] INFO root fetch - processPackages [linpg]: Remove: archive file [/home/abi/fetcher/tmp/linpg-3.6.1.tar.gz]
+[2023-06-27 00:34:38] INFO root fetch - processPackages [linpg]: Remove: archive file [/home/abi/fetcher/tmp/linpg-3.7.0.tar.gz]
+[2023-06-27 00:34:38] INFO root fetch - main [MainThread]: End processing [linpg]: success
+[2023-06-27 00:34:39] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm-docs-core-0.9.1.tar.gz]
+[2023-06-27 00:34:39] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm-docs-core-0.9.2.tar.gz]
+[2023-06-27 00:34:39] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
+[2023-06-27 00:34:40] INFO root fetch - processPackages [starlette-admin]: Remove: archive file [/home/abi/fetcher/tmp/starlette_admin-0.9.0.tar.gz]
+[2023-06-27 00:34:40] INFO root fetch - processPackages [starlette-admin]: Remove: archive file [/home/abi/fetcher/tmp/starlette_admin-0.9.0.dev0.tar.gz]
+[2023-06-27 00:34:40] INFO root fetch - main [MainThread]: End processing [starlette-admin]: success
+[2023-06-27 00:34:40] INFO root fetch - main [MainThread]: Store serial: [18653651]
