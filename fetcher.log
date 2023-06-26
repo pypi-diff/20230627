@@ -1088,3 +1088,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 01:06:32] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230626.tar.gz]
 [2023-06-27 01:06:32] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
 [2023-06-27 01:06:32] INFO root fetch - main [MainThread]: Store serial: [18653856]
+[2023-06-27 01:11:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653856]
+[2023-06-27 01:11:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-27 01:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diself
+[2023-06-27 01:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databricks-session
+[2023-06-27 01:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MacAppOpener
+[2023-06-27 01:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slangpy
+[2023-06-27 01:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kgdata
+[2023-06-27 01:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pp-project-pkg
+[2023-06-27 01:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: upSmtEngine
+[2023-06-27 01:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-27 01:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aicodebot
+[2023-06-27 01:11:40] WARNING root fetch - processPackages [databricks-session]: Skipping, unable to determine old version
+[2023-06-27 01:11:40] INFO root fetch - main [MainThread]: End processing [databricks-session] error
+[2023-06-27 01:11:40] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306262308] Old Version: [1.0.202306231249]
+[2023-06-27 01:11:40] INFO root fetch - processPackages [MacAppOpener]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 01:11:40] WARNING root fetch - processPackages [diself]: Skipping, unable to determine old version
+[2023-06-27 01:11:40] INFO root fetch - main [MainThread]: End processing [diself] error
+[2023-06-27 01:11:40] INFO root fetch - processPackages [upSmtEngine]: New version: [2023.6.26.2] Old Version: [2023.6.26]
+[2023-06-27 01:11:40] INFO root fetch - processPackages [kgdata]: New version: [3.9.2] Old Version: [3.9.0]
+[2023-06-27 01:11:40] INFO root fetch - processPackages [slangpy]: New version: [1.0.0] Old Version: [0.2.9]
+[2023-06-27 01:11:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.376] Old Version: [0.3.375]
+[2023-06-27 01:11:40] INFO root fetch - processPackages [upSmtEngine]: Downloading https://files.pythonhosted.org/packages/16/b2/a638d52eb5da85fea692874f6f756ae22655a87fbc9c6d362e7705b95fd4/upSmtEngine-2023.6.26.tar.gz
+[2023-06-27 01:11:40] INFO root fetch - processPackages [aicodebot]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-27 01:11:40] INFO root fetch - processPackages [slangpy]: Downloading https://files.pythonhosted.org/packages/4d/a2/a49e683d29995a84b7d4ace2217129e6164e912a3d4541aef85d9de8aaa8/slangpy-0.2.9.tar.gz
+[2023-06-27 01:11:40] INFO root fetch - processPackages [MacAppOpener]: Downloading https://files.pythonhosted.org/packages/18/c4/70a44953d295ba842906f2bdd7300a3929d712a23b487b5e4ee2ca2de96d/MacAppOpener-0.0.1.tar.gz
+[2023-06-27 01:11:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/96/b4/0304d64f746624a063d4eb7ec0e75b8a02010d31e9530622392fd1eff1ed/pepperize.cdk-ses-smtp-credentials-0.3.375.tar.gz
+[2023-06-27 01:11:41] INFO root fetch - processPackages [kgdata]: Downloading https://files.pythonhosted.org/packages/00/81/6b97fd64cdaa9683b028ddf5fd6dff8bbc93f1312cded728ab66ace65a8c/kgdata-3.9.0.tar.gz
+[2023-06-27 01:11:41] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/8d/f7/f364e8817e6bcf98bc5f944a2ea1970b3d9f1e30b3c46e7f4017a5d3442f/pp_project_pkg-1.0.202306262308-py3-none-any.whl
+[2023-06-27 01:11:41] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/02/4e/afc5d634b695026e57c0b2face49244a2d05d928889a4d063dba210c39a8/aicodebot-0.4.1.tar.gz
+[2023-06-27 01:11:41] INFO root fetch - processPackages [upSmtEngine]: Downloading https://files.pythonhosted.org/packages/31/28/5ff5d6e0238b86c4ecfef27112bd9b1f754d294e9a2810ff482cbcae6fc3/upSmtEngine-2023.6.26.2.tar.gz
+[2023-06-27 01:11:41] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-27 01:11:41] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306231249-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306262308-py3-none-any.whl.zip --markdown 20230627/p/pp-project-pkg/1.0.202306231249-1.0.202306262308/diff.md --exclude *.pyd
+[2023-06-27 01:11:41] INFO root fetch - processPackages [MacAppOpener]: Downloading https://files.pythonhosted.org/packages/4b/da/5ed93a6d7c858507162d690a6e5e4baf0667d63c2da03f85bb657b0c6e3b/MacAppOpener-0.0.2-py3-none-any.whl
+[2023-06-27 01:11:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/6e/4f/a87454e49767162e44a3dcf7b6787f620ee5fb84fd219addedaa76a8135d/pepperize.cdk-ses-smtp-credentials-0.3.376.tar.gz
+[2023-06-27 01:11:41] INFO root fetch - processPackages [upSmtEngine]: executing diffoscope
+[2023-06-27 01:11:41] INFO root fetch - processPackages [upSmtEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upSmtEngine-2023.6.26.tar.gz tmp/upSmtEngine-2023.6.26.2.tar.gz --markdown 20230627/u/upSmtEngine/2023.6.26-2023.6.26.2/diff.md --exclude *.pyd
+[2023-06-27 01:11:41] INFO root fetch - processPackages [MacAppOpener]: executing diffoscope
+[2023-06-27 01:11:41] INFO root fetch - processPackages [MacAppOpener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MacAppOpener-0.0.1.tar.gz tmp/MacAppOpener-0.0.2-py3-none-any.whl.zip --markdown 20230627/M/MacAppOpener/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 01:11:41] INFO root fetch - processPackages [kgdata]: Downloading https://files.pythonhosted.org/packages/68/6b/fefc9c73ddff552d605f33696168031be27cad88c66b65f8cd5a4ee09c8b/kgdata-3.9.2.tar.gz
+[2023-06-27 01:11:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-27 01:11:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.375.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.376.tar.gz --markdown 20230627/p/pepperize.cdk-ses-smtp-credentials/0.3.375-0.3.376/diff.md --exclude *.pyd
+[2023-06-27 01:11:41] INFO root fetch - processPackages [kgdata]: executing diffoscope
+[2023-06-27 01:11:41] INFO root fetch - processPackages [kgdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgdata-3.9.0.tar.gz tmp/kgdata-3.9.2.tar.gz --markdown 20230627/k/kgdata/3.9.0-3.9.2/diff.md --exclude *.pyd
+[2023-06-27 01:11:41] WARNING root fetch - processPackages [slangpy]: Skipping package: exceeds size limit 12953237>=10485760
+[2023-06-27 01:11:41] INFO root fetch - main [MainThread]: End processing [slangpy] error
+[2023-06-27 01:11:41] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f5/fc/3b9cc88426ce6783e2bd6d5e6a23d5b5617b7b002166e9a8bf24666ae843/aicodebot-0.5.0.tar.gz
+[2023-06-27 01:11:41] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-06-27 01:11:41] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.4.1.tar.gz tmp/aicodebot-0.5.0.tar.gz --markdown 20230627/a/aicodebot/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-27 01:11:42] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306231249-py3-none-any.whl.zip]
+[2023-06-27 01:11:42] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306262308-py3-none-any.whl.zip]
+[2023-06-27 01:11:42] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-27 01:11:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.375.tar.gz]
+[2023-06-27 01:11:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.376.tar.gz]
+[2023-06-27 01:11:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-27 01:11:42] INFO root fetch - processPackages [MacAppOpener]: Remove: archive file [/home/abi/fetcher/tmp/MacAppOpener-0.0.1.tar.gz]
+[2023-06-27 01:11:42] INFO root fetch - processPackages [MacAppOpener]: Remove: archive file [/home/abi/fetcher/tmp/MacAppOpener-0.0.2-py3-none-any.whl.zip]
+[2023-06-27 01:11:42] INFO root fetch - main [MainThread]: End processing [MacAppOpener]: success
+[2023-06-27 01:11:42] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.4.1.tar.gz]
+[2023-06-27 01:11:42] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.5.0.tar.gz]
+[2023-06-27 01:11:42] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-06-27 01:11:42] INFO root fetch - processPackages [kgdata]: Remove: archive file [/home/abi/fetcher/tmp/kgdata-3.9.0.tar.gz]
+[2023-06-27 01:11:42] INFO root fetch - processPackages [kgdata]: Remove: archive file [/home/abi/fetcher/tmp/kgdata-3.9.2.tar.gz]
+[2023-06-27 01:11:42] INFO root fetch - main [MainThread]: End processing [kgdata]: success
+[2023-06-27 01:11:46] INFO root fetch - processPackages [upSmtEngine]: Remove: archive file [/home/abi/fetcher/tmp/upSmtEngine-2023.6.26.tar.gz]
+[2023-06-27 01:11:46] INFO root fetch - processPackages [upSmtEngine]: Remove: archive file [/home/abi/fetcher/tmp/upSmtEngine-2023.6.26.2.tar.gz]
+[2023-06-27 01:11:46] INFO root fetch - main [MainThread]: End processing [upSmtEngine]: success
+[2023-06-27 01:11:46] INFO root fetch - main [MainThread]: Store serial: [18653909]
