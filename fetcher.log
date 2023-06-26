@@ -664,3 +664,60 @@
 [2023-06-27 00:45:04] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.6.5.tar.gz]
 [2023-06-27 00:45:04] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2023-06-27 00:45:04] INFO root fetch - main [MainThread]: Store serial: [18653704]
+[2023-06-27 00:50:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653704]
+[2023-06-27 00:50:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-27 00:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uranography
+[2023-06-27 00:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ignoreexceptions
+[2023-06-27 00:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrefact
+[2023-06-27 00:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reliableGPT
+[2023-06-27 00:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: landingai
+[2023-06-27 00:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tcare-sbvalidator
+[2023-06-27 00:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telexy.mars
+[2023-06-27 00:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ablator-ken-test2
+[2023-06-27 00:50:13] WARNING root fetch - processPackages [uranography]: Skipping, unable to determine old version
+[2023-06-27 00:50:13] INFO root fetch - main [MainThread]: End processing [uranography] error
+[2023-06-27 00:50:13] WARNING root fetch - processPackages [ignoreexceptions]: Skipping, unable to determine old version
+[2023-06-27 00:50:13] INFO root fetch - main [MainThread]: End processing [ignoreexceptions] error
+[2023-06-27 00:50:13] INFO root fetch - processPackages [pyrefact]: New version: [9] Old Version: [88]
+[2023-06-27 00:50:13] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-27 00:50:13] INFO root fetch - processPackages [telexy.mars]: New version: [1.23.626] Old Version: [1.23.621]
+[2023-06-27 00:50:13] WARNING root fetch - processPackages [ablator-ken-test2]: Skipping, unable to determine old version
+[2023-06-27 00:50:13] INFO root fetch - main [MainThread]: End processing [ablator-ken-test2] error
+[2023-06-27 00:50:13] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.906] Old Version: [0.2.905]
+[2023-06-27 00:50:13] INFO root fetch - processPackages [tcare-sbvalidator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 00:50:13] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/06/c2/a10191fe59f9ecb208c71690197ea6d8d6d9a28bd9c407043479218cc861/reliableGPT-0.2.905.tar.gz
+[2023-06-27 00:50:13] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/84/a0/0a376ccd587d0d2b85f635daec34ea4220449988f5a180432d0e8f37a0cb/pyrefact-88.tar.gz
+[2023-06-27 00:50:13] INFO root fetch - processPackages [telexy.mars]: Downloading https://files.pythonhosted.org/packages/3b/aa/dd225eac27d38b84cfff5b7dd8575fe41e1e2e436d5df61ad7ee4d503bd0/telexy.mars-1.23.621.tar.gz
+[2023-06-27 00:50:13] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-27 00:50:13] INFO root fetch - processPackages [tcare-sbvalidator]: Downloading https://files.pythonhosted.org/packages/b2/02/026be432180934bd537c76780246eedfb3f813cc53259e3cad20d88b1e60/tcare_sbvalidator-0.0.8.tar.gz
+[2023-06-27 00:50:13] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/92/69/b0a81651c4e63329d247695fc090a58517ad8a656207221fd686c0afa721/reliableGPT-0.2.906.tar.gz
+[2023-06-27 00:50:13] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/ec/25/07a98c4557e35e22a88708b9a988bbedf69d9c83d14aa843166c1bc82677/pyrefact-9.tar.gz
+[2023-06-27 00:50:13] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-27 00:50:13] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.905.tar.gz tmp/reliableGPT-0.2.906.tar.gz --markdown 20230627/r/reliableGPT/0.2.905-0.2.906/diff.md --exclude *.pyd
+[2023-06-27 00:50:13] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-27 00:50:13] INFO root fetch - processPackages [telexy.mars]: Downloading https://files.pythonhosted.org/packages/c0/b6/c34e5ddc9e289e208571d7579e7cb5b40bc22db1a51dd9fad5e22b813a77/telexy.mars-1.23.626.tar.gz
+[2023-06-27 00:50:13] INFO root fetch - processPackages [telexy.mars]: executing diffoscope
+[2023-06-27 00:50:13] INFO root fetch - processPackages [telexy.mars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telexy.mars-1.23.621.tar.gz tmp/telexy.mars-1.23.626.tar.gz --markdown 20230627/t/telexy.mars/1.23.621-1.23.626/diff.md --exclude *.pyd
+[2023-06-27 00:50:13] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-27 00:50:13] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230627/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-27 00:50:13] INFO root fetch - processPackages [pyrefact]: executing diffoscope
+[2023-06-27 00:50:13] INFO root fetch - processPackages [pyrefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrefact-88.tar.gz tmp/pyrefact-9.tar.gz --markdown 20230627/p/pyrefact/88-9/diff.md --exclude *.pyd
+[2023-06-27 00:50:13] INFO root fetch - processPackages [tcare-sbvalidator]: Downloading https://files.pythonhosted.org/packages/c6/42/8263377fcc49b705be8f8c4cf9e1f21a0ab47ae885e23f8d264f0671f528/tcare_sbvalidator-0.0.9.tar.gz
+[2023-06-27 00:50:13] INFO root fetch - processPackages [tcare-sbvalidator]: executing diffoscope
+[2023-06-27 00:50:13] INFO root fetch - processPackages [tcare-sbvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcare_sbvalidator-0.0.8.tar.gz tmp/tcare_sbvalidator-0.0.9.tar.gz --markdown 20230627/t/tcare-sbvalidator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 00:50:14] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-27 00:50:14] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-27 00:50:14] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-27 00:50:14] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.905.tar.gz]
+[2023-06-27 00:50:14] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.906.tar.gz]
+[2023-06-27 00:50:14] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-27 00:50:14] INFO root fetch - processPackages [telexy.mars]: Remove: archive file [/home/abi/fetcher/tmp/telexy.mars-1.23.621.tar.gz]
+[2023-06-27 00:50:14] INFO root fetch - processPackages [telexy.mars]: Remove: archive file [/home/abi/fetcher/tmp/telexy.mars-1.23.626.tar.gz]
+[2023-06-27 00:50:14] INFO root fetch - main [MainThread]: End processing [telexy.mars]: success
+[2023-06-27 00:50:14] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-88.tar.gz]
+[2023-06-27 00:50:14] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-9.tar.gz]
+[2023-06-27 00:50:14] INFO root fetch - main [MainThread]: End processing [pyrefact]: success
+[2023-06-27 00:50:15] INFO root fetch - processPackages [tcare-sbvalidator]: Remove: archive file [/home/abi/fetcher/tmp/tcare_sbvalidator-0.0.8.tar.gz]
+[2023-06-27 00:50:15] INFO root fetch - processPackages [tcare-sbvalidator]: Remove: archive file [/home/abi/fetcher/tmp/tcare_sbvalidator-0.0.9.tar.gz]
+[2023-06-27 00:50:15] INFO root fetch - main [MainThread]: End processing [tcare-sbvalidator]: success
+[2023-06-27 00:50:15] INFO root fetch - main [MainThread]: Store serial: [18653733]
