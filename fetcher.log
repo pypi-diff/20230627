@@ -1336,3 +1336,98 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 01:16:58] INFO root fetch - processPackages [jupyter-ascending]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ascending-0.1.9.tar.gz]
 [2023-06-27 01:16:58] INFO root fetch - main [MainThread]: End processing [jupyter-ascending]: success
 [2023-06-27 01:16:58] INFO root fetch - main [MainThread]: Store serial: [18653948]
+[2023-06-27 01:22:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653948]
+[2023-06-27 01:22:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diself
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wf-postgres-client
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wf-honeycomb-rds-client
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mplfooty
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: incantoos
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langsmith
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ignoreexceptions
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pylance
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rvtools
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-27 01:22:07] INFO root fetch - processPackages [langsmith]: New version: [0.0.1] Old Version: [0.0.0rc0]
+[2023-06-27 01:22:07] INFO root fetch - processPackages [diself]: New version: [0.3] Old Version: [0.2]
+[2023-06-27 01:22:07] INFO root fetch - processPackages [mplfooty]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 01:22:07] INFO root fetch - processPackages [wf-postgres-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-27 01:22:07] INFO root fetch - processPackages [incantoos]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ignoreexceptions]: New version: [0.11] Old Version: [0.10]
+[2023-06-27 01:22:07] INFO root fetch - processPackages [pylance]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-27 01:22:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.378] Old Version: [0.3.377]
+[2023-06-27 01:22:07] INFO root fetch - processPackages [wf-honeycomb-rds-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-27 01:22:07] INFO root fetch - processPackages [rvtools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-27 01:22:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/94/41/a4879c048600d5fbde345e0bb6244cd8436082c500c72e974413d6d6570a/pepperize.cdk-ses-smtp-credentials-0.3.377.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/1d/32/45fea9724a10aaba9b405fce79a8404cc073aa8b6f04aaacbbd4b5994951/langsmith-0.0.0rc0.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [wf-postgres-client]: Downloading https://files.pythonhosted.org/packages/03/3c/8a9d72eb5576b1ec1d652e99239c35e9bd83ac08854c4c68728e564a5ce9/wf_postgres_client-0.1.0.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [incantoos]: Downloading https://files.pythonhosted.org/packages/86/5b/643cfca9c55268ee0061add01bdcee5d74c84b57a89c07754b48fbc83156/incantoos-1.0.2.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ignoreexceptions]: Downloading https://files.pythonhosted.org/packages/0b/19/8865c292303d2222e178fe5cce1f27f571ab367c824e24047c372c2ad6b3/ignoreexceptions-0.10.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [wf-honeycomb-rds-client]: Downloading https://files.pythonhosted.org/packages/0b/e5/b358abcb0eeace2e3b0bf9cd952ac0467674577d57fab5313b6275c5d2d5/wf_honeycomb_rds_client-0.1.0.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [rvtools]: Downloading https://files.pythonhosted.org/packages/15/df/22c8934f1ff82cb541e1e6d28075c362b7f37e720fdbee71e1c9071310c0/rvtools-0.1.0.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [mplfooty]: Downloading https://files.pythonhosted.org/packages/cf/50/4741367a59cd542801aa50b046e4663634a7c82546542bda19f674caa332/mplfooty-0.0.2.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [diself]: Downloading https://files.pythonhosted.org/packages/80/58/98b1a0d8ff56d22bbf105bfa0b307748539f6851fc6f27f3246e07f7ff0f/diself-0.2.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/0b/38/a85d5b4477ca797164eb99edc9a81a329de2bb808690457f172c0f8bf980/pylance-0.5.0-cp38-abi3-win_amd64.whl
+[2023-06-27 01:22:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/98/0d/728a11c7b291c89e8916068515d662801450b8e332ec298ba4afe36e3bf7/pepperize.cdk-ses-smtp-credentials-0.3.378.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/2d/f8/aff081a317eb65c0b5bdd504c75890ac9e27220e4a18b49ebd1096d8f460/langsmith-0.0.1.tar.gz
+[2023-06-27 01:22:07] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 21605960>=10485760
+[2023-06-27 01:22:07] INFO root fetch - processPackages [pylance]: Start processing: diself
+[2023-06-27 01:22:07] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-06-27 01:22:07] INFO root fetch - processPackages [incantoos]: Downloading https://files.pythonhosted.org/packages/85/b8/eda7476d8b8baf07cb985a1174e64685e6ae1825c6e42d5997ce75c56c62/incantoos-1.0.3.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [diself]: New version: [0.3] Old Version: [0.2]
+[2023-06-27 01:22:07] INFO root fetch - processPackages [wf-honeycomb-rds-client]: Downloading https://files.pythonhosted.org/packages/a0/3d/97b84edc68626f39b4b81012236741d597bdad94d71ebe36e9c6cb536529/wf_honeycomb_rds_client-0.1.1.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [wf-postgres-client]: Downloading https://files.pythonhosted.org/packages/ce/31/a451cf4f8dd0b02d06a3a8e0f7e3a4727fbfc0656fb7d60417097d21e1dd/wf_postgres_client-0.1.1.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [mplfooty]: Downloading https://files.pythonhosted.org/packages/56/9a/4de3b2063bf24929335e60bcdde7e4dcd40900143a875486be86637e2c35/mplfooty-0.0.3.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [rvtools]: Downloading https://files.pythonhosted.org/packages/14/2c/851e845feec2315864395ccef435a997314c378fbec9c92a892f5dc3999b/rvtools-0.1.1.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ignoreexceptions]: Downloading https://files.pythonhosted.org/packages/7c/1a/7a21876a4d813fa2d0c6be1b97ad214f3d759ea82534479173a109f7926c/ignoreexceptions-0.11.tar.gz
+[2023-06-27 01:22:07] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2023-06-27 01:22:07] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.0.0rc0.tar.gz tmp/langsmith-0.0.1.tar.gz --markdown 20230627/l/langsmith/0.0.0rc0-0.0.1/diff.md --exclude *.pyd
+[2023-06-27 01:22:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-27 01:22:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.377.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.378.tar.gz --markdown 20230627/p/pepperize.cdk-ses-smtp-credentials/0.3.377-0.3.378/diff.md --exclude *.pyd
+[2023-06-27 01:22:07] INFO root fetch - processPackages [incantoos]: executing diffoscope
+[2023-06-27 01:22:07] INFO root fetch - processPackages [incantoos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/incantoos-1.0.2.tar.gz tmp/incantoos-1.0.3.tar.gz --markdown 20230627/i/incantoos/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 01:22:07] INFO root fetch - processPackages [mplfooty]: executing diffoscope
+[2023-06-27 01:22:07] INFO root fetch - processPackages [mplfooty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mplfooty-0.0.2.tar.gz tmp/mplfooty-0.0.3.tar.gz --markdown 20230627/m/mplfooty/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ignoreexceptions]: executing diffoscope
+[2023-06-27 01:22:07] INFO root fetch - processPackages [ignoreexceptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignoreexceptions-0.10.tar.gz tmp/ignoreexceptions-0.11.tar.gz --markdown 20230627/i/ignoreexceptions/0.10-0.11/diff.md --exclude *.pyd
+[2023-06-27 01:22:08] INFO root fetch - processPackages [wf-honeycomb-rds-client]: executing diffoscope
+[2023-06-27 01:22:08] INFO root fetch - processPackages [wf-honeycomb-rds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf_honeycomb_rds_client-0.1.0.tar.gz tmp/wf_honeycomb_rds_client-0.1.1.tar.gz --markdown 20230627/w/wf-honeycomb-rds-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-27 01:22:08] INFO root fetch - processPackages [diself]: Downloading https://files.pythonhosted.org/packages/6c/cd/523d0e66ce649e5cd6e953a7c5754e62f60176046ebf6127fdcc58d7eb5a/diself-0.3.tar.gz
+[2023-06-27 01:22:08] INFO root fetch - processPackages [diself]: Downloading https://files.pythonhosted.org/packages/6c/cd/523d0e66ce649e5cd6e953a7c5754e62f60176046ebf6127fdcc58d7eb5a/diself-0.3.tar.gz
+[2023-06-27 01:22:08] INFO root fetch - processPackages [wf-postgres-client]: executing diffoscope
+[2023-06-27 01:22:08] INFO root fetch - processPackages [wf-postgres-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf_postgres_client-0.1.0.tar.gz tmp/wf_postgres_client-0.1.1.tar.gz --markdown 20230627/w/wf-postgres-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-27 01:22:08] INFO root fetch - processPackages [rvtools]: executing diffoscope
+[2023-06-27 01:22:08] INFO root fetch - processPackages [rvtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rvtools-0.1.0.tar.gz tmp/rvtools-0.1.1.tar.gz --markdown 20230627/r/rvtools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-27 01:22:08] INFO root fetch - processPackages [diself]: executing diffoscope
+[2023-06-27 01:22:08] INFO root fetch - processPackages [diself]: executing diffoscope
+[2023-06-27 01:22:08] INFO root fetch - processPackages [diself]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diself-0.2.tar.gz tmp/diself-0.3.tar.gz --markdown 20230627/d/diself/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-27 01:22:08] INFO root fetch - processPackages [diself]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diself-0.2.tar.gz tmp/diself-0.3.tar.gz --markdown 20230627/d/diself/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-27 01:22:09] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.0rc0.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.1.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2023-06-27 01:22:09] INFO root fetch - processPackages [incantoos]: Remove: archive file [/home/abi/fetcher/tmp/incantoos-1.0.2.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - processPackages [incantoos]: Remove: archive file [/home/abi/fetcher/tmp/incantoos-1.0.3.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [incantoos]: success
+[2023-06-27 01:22:09] INFO root fetch - processPackages [ignoreexceptions]: Remove: archive file [/home/abi/fetcher/tmp/ignoreexceptions-0.10.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - processPackages [ignoreexceptions]: Remove: archive file [/home/abi/fetcher/tmp/ignoreexceptions-0.11.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [ignoreexceptions]: success
+[2023-06-27 01:22:09] INFO root fetch - processPackages [wf-postgres-client]: Remove: archive file [/home/abi/fetcher/tmp/wf_postgres_client-0.1.0.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - processPackages [wf-postgres-client]: Remove: archive file [/home/abi/fetcher/tmp/wf_postgres_client-0.1.1.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [wf-postgres-client]: success
+[2023-06-27 01:22:09] INFO root fetch - processPackages [rvtools]: Remove: archive file [/home/abi/fetcher/tmp/rvtools-0.1.0.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - processPackages [rvtools]: Remove: archive file [/home/abi/fetcher/tmp/rvtools-0.1.1.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [rvtools]: success
+[2023-06-27 01:22:09] INFO root fetch - processPackages [mplfooty]: Remove: archive file [/home/abi/fetcher/tmp/mplfooty-0.0.2.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.377.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - processPackages [mplfooty]: Remove: archive file [/home/abi/fetcher/tmp/mplfooty-0.0.3.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.378.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [mplfooty]: success
+[2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-27 01:22:09] INFO root fetch - processPackages [wf-honeycomb-rds-client]: Remove: archive file [/home/abi/fetcher/tmp/wf_honeycomb_rds_client-0.1.0.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - processPackages [wf-honeycomb-rds-client]: Remove: archive file [/home/abi/fetcher/tmp/wf_honeycomb_rds_client-0.1.1.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [wf-honeycomb-rds-client]: success
+[2023-06-27 01:22:09] INFO root fetch - processPackages [diself]: Remove: archive file [/home/abi/fetcher/tmp/diself-0.2.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - processPackages [diself]: Remove: archive file [/home/abi/fetcher/tmp/diself-0.3.tar.gz]
+[2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [diself]: success
+[2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [diself]: success
+[2023-06-27 01:22:09] INFO root fetch - main [MainThread]: Store serial: [18653984]
