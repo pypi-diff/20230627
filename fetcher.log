@@ -1155,3 +1155,184 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 01:11:46] INFO root fetch - processPackages [upSmtEngine]: Remove: archive file [/home/abi/fetcher/tmp/upSmtEngine-2023.6.26.2.tar.gz]
 [2023-06-27 01:11:46] INFO root fetch - main [MainThread]: End processing [upSmtEngine]: success
 [2023-06-27 01:11:46] INFO root fetch - main [MainThread]: Store serial: [18653909]
+[2023-06-27 01:16:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653909]
+[2023-06-27 01:16:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-27 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyphetools
+[2023-06-27 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cabinet
+[2023-06-27 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kolibri-explore-plugin
+[2023-06-27 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reliableGPT
+[2023-06-27 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MacAppOpener
+[2023-06-27 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyter-ascending
+[2023-06-27 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SNIIMAPP-2
+[2023-06-27 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flook
+[2023-06-27 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reliableGPT
+[2023-06-27 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MacAppOpener
+[2023-06-27 01:16:55] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.6.26.1]
+[2023-06-27 01:16:55] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.911] Old Version: [0.2.910]
+[2023-06-27 01:16:55] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.911] Old Version: [0.2.910]
+[2023-06-27 01:16:55] INFO root fetch - processPackages [SNIIMAPP-2]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-27 01:16:55] INFO root fetch - processPackages [pyphetools]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-27 01:16:55] INFO root fetch - processPackages [MacAppOpener]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-27 01:16:55] INFO root fetch - processPackages [flook]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-27 01:16:55] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-06-27 01:16:55] INFO root fetch - processPackages [MacAppOpener]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-27 01:16:55] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/c4/fe/5f696e5da1a850fe1da292177301ad31f017eb3a1f881ef98c207bff2538/flook-0.1.5.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [jupyter-ascending]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 01:16:55] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/1d/b1/8474d1ad3d9a54832aea43c4add16115fba34cc87dc643028cf2caa76d16/reliableGPT-0.2.910.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/1d/b1/8474d1ad3d9a54832aea43c4add16115fba34cc87dc643028cf2caa76d16/reliableGPT-0.2.910.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [MacAppOpener]: Downloading https://files.pythonhosted.org/packages/a6/a2/c69fd805d1f1d81a8749e8d55c28c43a54ff2ca7c29d73a474e7b6a7b280/MacAppOpener-0.0.3-py3-none-any.whl
+[2023-06-27 01:16:55] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/b0/bf/85efc95e06fa8b38d1d906688a4a5b538bc635fa74b2519e6a2c5b221c30/cabinet-2023.6.26.1.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [MacAppOpener]: Downloading https://files.pythonhosted.org/packages/a6/a2/c69fd805d1f1d81a8749e8d55c28c43a54ff2ca7c29d73a474e7b6a7b280/MacAppOpener-0.0.3-py3-none-any.whl
+[2023-06-27 01:16:55] INFO root fetch - processPackages [SNIIMAPP-2]: Downloading https://files.pythonhosted.org/packages/42/53/98db1a5659edb6d0f8bd498c1654f247a4c33ca490c41c9a126ee7b38ddc/SNIIMAPP_2-0.2.1.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/05/e5/b89d6294d323ca0e6abf9d4d70422b8487e84090e861d468f80fde0e7efa/pyphetools-0.3.2.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/ce/f9/31b5cbfd9a83d09f22e7a4a1bcfe80aa5ac42dcb7177d812abc4159b1f22/kolibri_explore_plugin-6.8.0-py2.py3-none-any.whl
+[2023-06-27 01:16:55] INFO root fetch - processPackages [jupyter-ascending]: Downloading https://files.pythonhosted.org/packages/6b/03/0a9fd2736bd022850f2cca0469fb0ee487eca884d65113422e36b72a6397/jupyter_ascending-0.1.8.tar.gz
+[2023-06-27 01:16:55] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 17418137>=10485760
+[2023-06-27 01:16:55] INFO root fetch - processPackages [kolibri-explore-plugin]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-27 01:16:55] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-06-27 01:16:55] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/ef/5f/3a892b4ac906235e43098c62f4df1e49712da7c9e7bc5d184bccc2a8e83d/flook-0.2.0.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.377] Old Version: [0.3.376]
+[2023-06-27 01:16:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/6e/4f/a87454e49767162e44a3dcf7b6787f620ee5fb84fd219addedaa76a8135d/pepperize.cdk-ses-smtp-credentials-0.3.376.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [MacAppOpener]: Downloading https://files.pythonhosted.org/packages/ae/af/b72b1e9d97ff3a3af14cdfe464da64f1333b8052ba19350ba4be35f1d85a/MacAppOpener-0.0.4-py3-none-any.whl
+[2023-06-27 01:16:55] INFO root fetch - processPackages [flook]: executing diffoscope
+[2023-06-27 01:16:55] INFO root fetch - processPackages [MacAppOpener]: Downloading https://files.pythonhosted.org/packages/ae/af/b72b1e9d97ff3a3af14cdfe464da64f1333b8052ba19350ba4be35f1d85a/MacAppOpener-0.0.4-py3-none-any.whl
+[2023-06-27 01:16:55] INFO root fetch - processPackages [flook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flook-0.1.5.tar.gz tmp/flook-0.2.0.tar.gz --markdown 20230627/f/flook/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-27 01:16:55] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/6d/88/b9b6e2bdb8f3db67596ea3e5acb7e79fc745fe7ea252d7abae9e3e9ed7b4/reliableGPT-0.2.911.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [SNIIMAPP-2]: Downloading https://files.pythonhosted.org/packages/00/46/fec0176eea41884cf45b7a721cb0dfe823d19867a78976edf35b103d7d29/SNIIMAPP_2-0.2.2.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/6d/88/b9b6e2bdb8f3db67596ea3e5acb7e79fc745fe7ea252d7abae9e3e9ed7b4/reliableGPT-0.2.911.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/7e/f2/57907c4feff2e6a0a22f463037b3d7167fe3d816a26bba2f88db3991f3af/pyphetools-0.3.3.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-27 01:16:55] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.910.tar.gz tmp/reliableGPT-0.2.911.tar.gz --markdown 20230627/r/reliableGPT/0.2.910-0.2.911/diff.md --exclude *.pyd
+[2023-06-27 01:16:55] INFO root fetch - processPackages [SNIIMAPP-2]: executing diffoscope
+[2023-06-27 01:16:55] INFO root fetch - processPackages [SNIIMAPP-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SNIIMAPP_2-0.2.1.tar.gz tmp/SNIIMAPP_2-0.2.2.tar.gz --markdown 20230627/S/SNIIMAPP-2/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-27 01:16:55] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-27 01:16:55] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.910.tar.gz tmp/reliableGPT-0.2.911.tar.gz --markdown 20230627/r/reliableGPT/0.2.910-0.2.911/diff.md --exclude *.pyd
+[2023-06-27 01:16:55] INFO root fetch - processPackages [MacAppOpener]: executing diffoscope
+[2023-06-27 01:16:55] INFO root fetch - processPackages [MacAppOpener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MacAppOpener-0.0.3-py3-none-any.whl.zip tmp/MacAppOpener-0.0.4-py3-none-any.whl.zip --markdown 20230627/M/MacAppOpener/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-27 01:16:55] INFO root fetch - processPackages [MacAppOpener]: executing diffoscope
+[2023-06-27 01:16:55] INFO root fetch - processPackages [MacAppOpener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MacAppOpener-0.0.3-py3-none-any.whl.zip tmp/MacAppOpener-0.0.4-py3-none-any.whl.zip --markdown 20230627/M/MacAppOpener/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-27 01:16:55] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-27 01:16:55] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.26.1.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230627/c/cabinet/2023.6.26.1-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-27 01:16:55] INFO root fetch - processPackages [jupyter-ascending]: Downloading https://files.pythonhosted.org/packages/f6/98/3ae5dae190c43641bc3e8245f421299f80b1e1a3e0c067ba5fb7fb3dd014/jupyter_ascending-0.1.9.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/94/41/a4879c048600d5fbde345e0bb6244cd8436082c500c72e974413d6d6570a/pepperize.cdk-ses-smtp-credentials-0.3.377.tar.gz
+[2023-06-27 01:16:55] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-06-27 01:16:55] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.3.2.tar.gz tmp/pyphetools-0.3.3.tar.gz --markdown 20230627/p/pyphetools/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-27 01:16:56] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-27 01:16:56] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.376.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.377.tar.gz --markdown 20230627/p/pepperize.cdk-ses-smtp-credentials/0.3.376-0.3.377/diff.md --exclude *.pyd
+[2023-06-27 01:16:56] INFO root fetch - processPackages [jupyter-ascending]: executing diffoscope
+[2023-06-27 01:16:56] INFO root fetch - processPackages [jupyter-ascending]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ascending-0.1.8.tar.gz tmp/jupyter_ascending-0.1.9.tar.gz --markdown 20230627/j/jupyter-ascending/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 01:16:57] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.910.tar.gz]
+[2023-06-27 01:16:57] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.911.tar.gz]
+[2023-06-27 01:16:57] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-27 01:16:57] INFO root fetch - processPackages [SNIIMAPP-2]: Remove: archive file [/home/abi/fetcher/tmp/SNIIMAPP_2-0.2.1.tar.gz]
+[2023-06-27 01:16:57] INFO root fetch - processPackages [SNIIMAPP-2]: Remove: archive file [/home/abi/fetcher/tmp/SNIIMAPP_2-0.2.2.tar.gz]
+[2023-06-27 01:16:57] INFO root fetch - main [MainThread]: End processing [SNIIMAPP-2]: success
+[2023-06-27 01:16:57] ERROR root fetch - processPackages [reliableGPT]: Diffoscope failed: gzip: tmp/reliableGPT-0.2.911.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/reliableGPT-0.2.911.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-27 01:16:57] INFO root fetch - main [MainThread]: End processing [reliableGPT] error
+[2023-06-27 01:16:57] INFO root fetch - processPackages [MacAppOpener]: Remove: archive file [/home/abi/fetcher/tmp/MacAppOpener-0.0.3-py3-none-any.whl.zip]
+[2023-06-27 01:16:57] INFO root fetch - processPackages [MacAppOpener]: Remove: archive file [/home/abi/fetcher/tmp/MacAppOpener-0.0.4-py3-none-any.whl.zip]
+[2023-06-27 01:16:57] INFO root fetch - main [MainThread]: End processing [MacAppOpener]: success
+[2023-06-27 01:16:57] INFO root fetch - main [MainThread]: End processing [MacAppOpener]: success
+[2023-06-27 01:16:57] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.26.1.tar.gz]
+[2023-06-27 01:16:57] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.8.1.tar.gz]
+[2023-06-27 01:16:57] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-27 01:16:57] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.376.tar.gz]
+[2023-06-27 01:16:57] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.377.tar.gz]
+[2023-06-27 01:16:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-27 01:16:57] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.1.5.tar.gz]
+[2023-06-27 01:16:57] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.2.0.tar.gz]
+[2023-06-27 01:16:57] INFO root fetch - main [MainThread]: End processing [flook]: success
+[2023-06-27 01:16:58] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.3.2.tar.gz]
+[2023-06-27 01:16:58] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.3.3.tar.gz]
+[2023-06-27 01:16:58] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-06-27 01:16:58] INFO root fetch - processPackages [jupyter-ascending]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ascending-0.1.8.tar.gz]
+[2023-06-27 01:16:58] INFO root fetch - processPackages [jupyter-ascending]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ascending-0.1.9.tar.gz]
+[2023-06-27 01:16:58] INFO root fetch - main [MainThread]: End processing [jupyter-ascending]: success
+[2023-06-27 01:16:58] INFO root fetch - main [MainThread]: Store serial: [18653948]
