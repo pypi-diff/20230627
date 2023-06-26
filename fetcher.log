@@ -721,3 +721,81 @@
 [2023-06-27 00:50:15] INFO root fetch - processPackages [tcare-sbvalidator]: Remove: archive file [/home/abi/fetcher/tmp/tcare_sbvalidator-0.0.9.tar.gz]
 [2023-06-27 00:50:15] INFO root fetch - main [MainThread]: End processing [tcare-sbvalidator]: success
 [2023-06-27 00:50:15] INFO root fetch - main [MainThread]: Store serial: [18653733]
+[2023-06-27 00:55:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653733]
+[2023-06-27 00:55:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-27 00:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reliableGPT
+[2023-06-27 00:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-gesha
+[2023-06-27 00:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvflare
+[2023-06-27 00:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telexy.sam
+[2023-06-27 00:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: install-pybci
+[2023-06-27 00:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pbit
+[2023-06-27 00:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-sdk-preview
+[2023-06-27 00:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-sdk
+[2023-06-27 00:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mujoco-dev
+[2023-06-27 00:55:23] INFO root fetch - processPackages [django-gesha]: New version: [0.1a5] Old Version: [0.1a4]
+[2023-06-27 00:55:23] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.907] Old Version: [0.2.906]
+[2023-06-27 00:55:23] WARNING root fetch - processPackages [telexy.sam]: Skipping, unable to determine old version
+[2023-06-27 00:55:23] INFO root fetch - processPackages [pbit]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-27 00:55:23] INFO root fetch - main [MainThread]: End processing [telexy.sam] error
+[2023-06-27 00:55:23] INFO root fetch - processPackages [nvflare]: New version: [2.3.1] Old Version: [2.3.0rc8]
+[2023-06-27 00:55:23] INFO root fetch - processPackages [install-pybci]: New version: [1.0.0] Old Version: [0.2.4b2]
+[2023-06-27 00:55:23] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-27 00:55:23] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-27 00:55:23] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/92/69/b0a81651c4e63329d247695fc090a58517ad8a656207221fd686c0afa721/reliableGPT-0.2.906.tar.gz
+[2023-06-27 00:55:23] INFO root fetch - processPackages [django-gesha]: Downloading https://files.pythonhosted.org/packages/26/62/9e63ac7f5c1cb61a5ba08201f03f6c026b3d7d4a4708ca2d55048e848ae0/django-gesha-0.1a4.tar.gz
+[2023-06-27 00:55:23] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-06-27 00:55:23] INFO root fetch - processPackages [pbit]: Downloading https://files.pythonhosted.org/packages/dc/6c/8827ac979cedceef4e0d77b607d79460ef43ca130f296cdf8e7c314e6ea0/pbit-0.2.6.tar.gz
+[2023-06-27 00:55:23] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-06-27 00:55:23] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/a2/db/76fadf1c2f098f5a614b5a64227037f9d8d6c44ff96454dafa099ff8bfc5/nvflare-2.3.0rc8-py3-none-any.whl
+[2023-06-27 00:55:23] INFO root fetch - processPackages [install-pybci]: Downloading https://files.pythonhosted.org/packages/d6/d9/02e27bb4a415c01d139898f07fcc23d26e2677d633975db92df664e1c398/install-pybci-0.2.4b2.tar.gz
+[2023-06-27 00:55:23] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev543559919] Old Version: [2.3.6.dev542343761]
+[2023-06-27 00:55:24] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-06-27 00:55:24] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/34/cf/d982ed6e84c5f0cf39ca55882b29b67841957a9172e35b7b3a9c4283c1ab/reliableGPT-0.2.907.tar.gz
+[2023-06-27 00:55:24] INFO root fetch - processPackages [django-gesha]: Downloading https://files.pythonhosted.org/packages/d6/97/f1740dcfd910418b32c745495247b9a24498d27dc6ddf647ded5ad85d9eb/django-gesha-0.1a5.tar.gz
+[2023-06-27 00:55:24] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-06-27 00:55:24] INFO root fetch - processPackages [pbit]: Downloading https://files.pythonhosted.org/packages/8c/1a/a5df84a31ce2a4a4feb8642b2abfc7900d6f18eca8d18526611d71480814/pbit-0.2.7.tar.gz
+[2023-06-27 00:55:24] INFO root fetch - processPackages [install-pybci]: Downloading https://files.pythonhosted.org/packages/d3/11/e103fcccf1707ac47f92db1f9010bc5c8f878c24c1391d8f2a1670f8a2c1/install-pybci-1.0.0.tar.gz
+[2023-06-27 00:55:24] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/cd/86/de53c96b249a9cfac7a7f4ed0e7239775f4f8e802d1334c9bff047ee027f/mujoco_dev-2.3.6.dev542343761-cp39-cp39-win_amd64.whl
+[2023-06-27 00:55:24] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-27 00:55:24] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.906.tar.gz tmp/reliableGPT-0.2.907.tar.gz --markdown 20230627/r/reliableGPT/0.2.906-0.2.907/diff.md --exclude *.pyd
+[2023-06-27 00:55:24] INFO root fetch - processPackages [django-gesha]: executing diffoscope
+[2023-06-27 00:55:24] INFO root fetch - processPackages [django-gesha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-gesha-0.1a4.tar.gz tmp/django-gesha-0.1a5.tar.gz --markdown 20230627/d/django-gesha/0.1a4-0.1a5/diff.md --exclude *.pyd
+[2023-06-27 00:55:24] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-06-27 00:55:24] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230627/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-27 00:55:24] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-06-27 00:55:24] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230627/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-27 00:55:24] INFO root fetch - processPackages [pbit]: executing diffoscope
+[2023-06-27 00:55:24] INFO root fetch - processPackages [pbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbit-0.2.6.tar.gz tmp/pbit-0.2.7.tar.gz --markdown 20230627/p/pbit/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-27 00:55:24] INFO root fetch - processPackages [install-pybci]: executing diffoscope
+[2023-06-27 00:55:24] INFO root fetch - processPackages [install-pybci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/install-pybci-0.2.4b2.tar.gz tmp/install-pybci-1.0.0.tar.gz --markdown 20230627/i/install-pybci/0.2.4b2-1.0.0/diff.md --exclude *.pyd
+[2023-06-27 00:55:24] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/4e/f1/24620227b2d4dc1b1f3ba96e9b46bd7213d0bb93c8616e8d71cb12754021/nvflare-2.3.1-py3-none-any.whl
+[2023-06-27 00:55:24] INFO root fetch - processPackages [nvflare]: executing diffoscope
+[2023-06-27 00:55:24] INFO root fetch - processPackages [nvflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvflare-2.3.0rc8-py3-none-any.whl.zip tmp/nvflare-2.3.1-py3-none-any.whl.zip --markdown 20230627/n/nvflare/2.3.0rc8-2.3.1/diff.md --exclude *.pyd
+[2023-06-27 00:55:25] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/52/34/f9c99125022a557acd5f494225d48a74006493cf29b599a510d9f892b099/mujoco_dev-2.3.6.dev543559919-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-27 00:55:25] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.906.tar.gz]
+[2023-06-27 00:55:25] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.907.tar.gz]
+[2023-06-27 00:55:25] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-27 00:55:25] INFO root fetch - processPackages [pbit]: Remove: archive file [/home/abi/fetcher/tmp/pbit-0.2.6.tar.gz]
+[2023-06-27 00:55:25] INFO root fetch - processPackages [pbit]: Remove: archive file [/home/abi/fetcher/tmp/pbit-0.2.7.tar.gz]
+[2023-06-27 00:55:25] INFO root fetch - main [MainThread]: End processing [pbit]: success
+[2023-06-27 00:55:25] INFO root fetch - processPackages [install-pybci]: Remove: archive file [/home/abi/fetcher/tmp/install-pybci-0.2.4b2.tar.gz]
+[2023-06-27 00:55:25] INFO root fetch - processPackages [install-pybci]: Remove: archive file [/home/abi/fetcher/tmp/install-pybci-1.0.0.tar.gz]
+[2023-06-27 00:55:25] INFO root fetch - main [MainThread]: End processing [install-pybci]: success
+[2023-06-27 00:55:25] INFO root fetch - processPackages [django-gesha]: Remove: archive file [/home/abi/fetcher/tmp/django-gesha-0.1a4.tar.gz]
+[2023-06-27 00:55:25] INFO root fetch - processPackages [django-gesha]: Remove: archive file [/home/abi/fetcher/tmp/django-gesha-0.1a5.tar.gz]
+[2023-06-27 00:55:25] INFO root fetch - main [MainThread]: End processing [django-gesha]: success
+[2023-06-27 00:55:26] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-06-27 00:55:26] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev542343761-cp39-cp39-win_amd64.whl.zip tmp/mujoco_dev-2.3.6.dev543559919-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230627/m/mujoco-dev/2.3.6.dev542343761-2.3.6.dev543559919/diff.md --exclude *.pyd
+[2023-06-27 00:55:28] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev542343761-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 00:55:28] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev543559919-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-06-27 00:55:28] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-06-27 00:55:30] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.3.0rc8-py3-none-any.whl.zip]
+[2023-06-27 00:55:30] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.3.1-py3-none-any.whl.zip]
+[2023-06-27 00:55:30] INFO root fetch - main [MainThread]: End processing [nvflare]: success
+[2023-06-27 00:55:43] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-06-27 00:55:43] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-06-27 00:55:43] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-06-27 00:55:57] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-06-27 00:55:57] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-06-27 00:55:57] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-06-27 00:55:57] INFO root fetch - main [MainThread]: Store serial: [18653765]
