@@ -541,3 +541,68 @@
 [2023-06-27 00:34:40] INFO root fetch - processPackages [starlette-admin]: Remove: archive file [/home/abi/fetcher/tmp/starlette_admin-0.9.0.dev0.tar.gz]
 [2023-06-27 00:34:40] INFO root fetch - main [MainThread]: End processing [starlette-admin]: success
 [2023-06-27 00:34:40] INFO root fetch - main [MainThread]: Store serial: [18653651]
+[2023-06-27 00:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653651]
+[2023-06-27 00:39:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-27 00:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zeroscratches
+[2023-06-27 00:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flexsea
+[2023-06-27 00:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: featurepy
+[2023-06-27 00:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-stt-plugin-nemo
+[2023-06-27 00:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: albylib
+[2023-06-27 00:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bisque-metadoc
+[2023-06-27 00:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telexy.sam
+[2023-06-27 00:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c-custom-code-checker
+[2023-06-27 00:39:49] INFO root fetch - processPackages [flexsea]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-06-27 00:39:49] WARNING root fetch - processPackages [albylib]: Skipping, unable to determine old version
+[2023-06-27 00:39:49] INFO root fetch - processPackages [telexy.sam]: New version: [1.23.629] Old Version: [1.23.628]
+[2023-06-27 00:39:49] INFO root fetch - main [MainThread]: End processing [albylib] error
+[2023-06-27 00:39:49] INFO root fetch - processPackages [zeroscratches]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-27 00:39:49] INFO root fetch - processPackages [c-custom-code-checker]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 00:39:49] INFO root fetch - processPackages [featurepy]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-27 00:39:49] INFO root fetch - processPackages [neon-stt-plugin-nemo]: New version: [0.0.4a1] Old Version: [0.0.3a3]
+[2023-06-27 00:39:49] INFO root fetch - processPackages [bisque-metadoc]: New version: [0.6.3.28] Old Version: [0.6.3.27]
+[2023-06-27 00:39:49] INFO root fetch - processPackages [c-custom-code-checker]: Downloading https://files.pythonhosted.org/packages/e7/0e/61bbbf34a35474b28b4e246519fc85b5a37f2ab8adb0284502fb4ac640f5/c_custom_code_checker-1.0.2.tar.gz
+[2023-06-27 00:39:49] INFO root fetch - processPackages [telexy.sam]: Downloading https://files.pythonhosted.org/packages/59/00/26c5cf2edb666c17cf7ae6ae8a419f80e91935b8c0ef350b2a19743dfe2a/telexy.sam-1.23.628.tar.gz
+[2023-06-27 00:39:49] INFO root fetch - processPackages [flexsea]: Downloading https://files.pythonhosted.org/packages/73/13/5e6a24eca54dfb5d33c482a558ba5eec2335484350b7b286b306d01712b9/flexsea-9.1.0-py3-none-any.whl
+[2023-06-27 00:39:49] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Downloading https://files.pythonhosted.org/packages/4b/b0/fc3c6f5a615538eafd1a97e7640b096caf66e425902ed438dee23eb0bdc8/neon_stt_plugin_nemo-0.0.3a3-py3-none-any.whl
+[2023-06-27 00:39:49] INFO root fetch - processPackages [zeroscratches]: Downloading https://files.pythonhosted.org/packages/fc/6c/a530e0c65d8ba181c387322b6973bfa217dd302a488784423bd5c9d32902/zeroscratches-1.0.1-py3-none-any.whl
+[2023-06-27 00:39:49] INFO root fetch - processPackages [featurepy]: Downloading https://files.pythonhosted.org/packages/d2/b9/1ca15e3f3257497fd5683f819208429765f0c106f49336ddeaa8ddbbbd25/featurepy-0.2.4.tar.gz
+[2023-06-27 00:39:49] INFO root fetch - processPackages [bisque-metadoc]: Downloading https://files.pythonhosted.org/packages/62/ef/d49275d9efee01832302ff592b3c151933446f4608db864f748322e2c491/bisque_metadoc-0.6.3.27-py3-none-any.whl
+[2023-06-27 00:39:49] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Downloading https://files.pythonhosted.org/packages/eb/f7/170eb399650dc0bde39a73110e34d8f6db42c9820da1118bc76452f26e0d/neon-stt-plugin-nemo-0.0.4a1.tar.gz
+[2023-06-27 00:39:49] INFO root fetch - processPackages [telexy.sam]: Downloading https://files.pythonhosted.org/packages/ad/40/0893e322de348e5a821c0d1ed1896c56473e1e7b7e40f9cb85132b539434/telexy.sam-1.23.629.tar.gz
+[2023-06-27 00:39:49] INFO root fetch - processPackages [c-custom-code-checker]: Downloading https://files.pythonhosted.org/packages/b5/01/3dcf1be9d1f03d2bea568716cde075a11dffc5d1d54b3c6729cb3098f054/c_custom_code_checker-1.0.3.tar.gz
+[2023-06-27 00:39:49] INFO root fetch - processPackages [zeroscratches]: Downloading https://files.pythonhosted.org/packages/3b/f8/6014903bd72aee0c8c6b7cb5eeeac2a1506c631e3c971f0adb6f07ebe59f/zeroscratches-1.0.2-py3-none-any.whl
+[2023-06-27 00:39:49] INFO root fetch - processPackages [featurepy]: Downloading https://files.pythonhosted.org/packages/03/97/c2e55efbf6a246111000535e61ec3c0ab27577ad2c61c263130e093671d2/featurepy-0.2.5.tar.gz
+[2023-06-27 00:39:49] INFO root fetch - processPackages [telexy.sam]: executing diffoscope
+[2023-06-27 00:39:49] INFO root fetch - processPackages [telexy.sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telexy.sam-1.23.628.tar.gz tmp/telexy.sam-1.23.629.tar.gz --markdown 20230627/t/telexy.sam/1.23.628-1.23.629/diff.md --exclude *.pyd
+[2023-06-27 00:39:49] INFO root fetch - processPackages [bisque-metadoc]: Downloading https://files.pythonhosted.org/packages/26/39/356c19ae408a8f1e959481d6edc302578302045bf887c2902a8538b95463/bisque_metadoc-0.6.3.28-py3-none-any.whl
+[2023-06-27 00:39:49] INFO root fetch - processPackages [c-custom-code-checker]: executing diffoscope
+[2023-06-27 00:39:49] INFO root fetch - processPackages [c-custom-code-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c_custom_code_checker-1.0.2.tar.gz tmp/c_custom_code_checker-1.0.3.tar.gz --markdown 20230627/c/c-custom-code-checker/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 00:39:49] INFO root fetch - processPackages [neon-stt-plugin-nemo]: executing diffoscope
+[2023-06-27 00:39:49] INFO root fetch - processPackages [neon-stt-plugin-nemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_stt_plugin_nemo-0.0.3a3-py3-none-any.whl.zip tmp/neon-stt-plugin-nemo-0.0.4a1.tar.gz --markdown 20230627/n/neon-stt-plugin-nemo/0.0.3a3-0.0.4a1/diff.md --exclude *.pyd
+[2023-06-27 00:39:49] INFO root fetch - processPackages [featurepy]: executing diffoscope
+[2023-06-27 00:39:49] INFO root fetch - processPackages [featurepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurepy-0.2.4.tar.gz tmp/featurepy-0.2.5.tar.gz --markdown 20230627/f/featurepy/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-27 00:39:49] INFO root fetch - processPackages [bisque-metadoc]: executing diffoscope
+[2023-06-27 00:39:49] INFO root fetch - processPackages [bisque-metadoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisque_metadoc-0.6.3.27-py3-none-any.whl.zip tmp/bisque_metadoc-0.6.3.28-py3-none-any.whl.zip --markdown 20230627/b/bisque-metadoc/0.6.3.27-0.6.3.28/diff.md --exclude *.pyd
+[2023-06-27 00:39:49] INFO root fetch - processPackages [zeroscratches]: executing diffoscope
+[2023-06-27 00:39:49] INFO root fetch - processPackages [zeroscratches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroscratches-1.0.1-py3-none-any.whl.zip tmp/zeroscratches-1.0.2-py3-none-any.whl.zip --markdown 20230627/z/zeroscratches/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-27 00:39:49] WARNING root fetch - processPackages [flexsea]: Skipping package: exceeds size limit 13968448>=10485760
+[2023-06-27 00:39:49] INFO root fetch - main [MainThread]: End processing [flexsea] error
+[2023-06-27 00:39:50] INFO root fetch - processPackages [telexy.sam]: Remove: archive file [/home/abi/fetcher/tmp/telexy.sam-1.23.628.tar.gz]
+[2023-06-27 00:39:50] INFO root fetch - processPackages [telexy.sam]: Remove: archive file [/home/abi/fetcher/tmp/telexy.sam-1.23.629.tar.gz]
+[2023-06-27 00:39:50] INFO root fetch - main [MainThread]: End processing [telexy.sam]: success
+[2023-06-27 00:39:50] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Remove: archive file [/home/abi/fetcher/tmp/neon_stt_plugin_nemo-0.0.3a3-py3-none-any.whl.zip]
+[2023-06-27 00:39:50] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Remove: archive file [/home/abi/fetcher/tmp/neon-stt-plugin-nemo-0.0.4a1.tar.gz]
+[2023-06-27 00:39:50] INFO root fetch - main [MainThread]: End processing [neon-stt-plugin-nemo]: success
+[2023-06-27 00:39:50] INFO root fetch - processPackages [featurepy]: Remove: archive file [/home/abi/fetcher/tmp/featurepy-0.2.4.tar.gz]
+[2023-06-27 00:39:50] INFO root fetch - processPackages [featurepy]: Remove: archive file [/home/abi/fetcher/tmp/featurepy-0.2.5.tar.gz]
+[2023-06-27 00:39:50] INFO root fetch - main [MainThread]: End processing [featurepy]: success
+[2023-06-27 00:39:51] INFO root fetch - processPackages [bisque-metadoc]: Remove: archive file [/home/abi/fetcher/tmp/bisque_metadoc-0.6.3.27-py3-none-any.whl.zip]
+[2023-06-27 00:39:51] INFO root fetch - processPackages [bisque-metadoc]: Remove: archive file [/home/abi/fetcher/tmp/bisque_metadoc-0.6.3.28-py3-none-any.whl.zip]
+[2023-06-27 00:39:51] INFO root fetch - main [MainThread]: End processing [bisque-metadoc]: success
+[2023-06-27 00:39:51] INFO root fetch - processPackages [c-custom-code-checker]: Remove: archive file [/home/abi/fetcher/tmp/c_custom_code_checker-1.0.2.tar.gz]
+[2023-06-27 00:39:51] INFO root fetch - processPackages [c-custom-code-checker]: Remove: archive file [/home/abi/fetcher/tmp/c_custom_code_checker-1.0.3.tar.gz]
+[2023-06-27 00:39:51] INFO root fetch - main [MainThread]: End processing [c-custom-code-checker]: success
+[2023-06-27 00:39:51] INFO root fetch - processPackages [zeroscratches]: Remove: archive file [/home/abi/fetcher/tmp/zeroscratches-1.0.1-py3-none-any.whl.zip]
+[2023-06-27 00:39:51] INFO root fetch - processPackages [zeroscratches]: Remove: archive file [/home/abi/fetcher/tmp/zeroscratches-1.0.2-py3-none-any.whl.zip]
+[2023-06-27 00:39:51] INFO root fetch - main [MainThread]: End processing [zeroscratches]: success
+[2023-06-27 00:39:51] INFO root fetch - main [MainThread]: Store serial: [18653675]
