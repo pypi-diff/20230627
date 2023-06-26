@@ -799,3 +799,241 @@
 [2023-06-27 00:55:57] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-06-27 00:55:57] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-06-27 00:55:57] INFO root fetch - main [MainThread]: Store serial: [18653765]
+[2023-06-27 01:01:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653765]
+[2023-06-27 01:01:06] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-27 01:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gnss-lib-py
+[2023-06-27 01:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-06-27 01:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reliableGPT
+[2023-06-27 01:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvflare
+[2023-06-27 01:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AA-stat
+[2023-06-27 01:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upSmtEngine
+[2023-06-27 01:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: batcave
+[2023-06-27 01:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PureFlow
+[2023-06-27 01:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: batcave
+[2023-06-27 01:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: macedon
+[2023-06-27 01:01:06] INFO root fetch - processPackages [macedon]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-27 01:01:06] INFO root fetch - processPackages [gnss-lib-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 01:01:06] INFO root fetch - processPackages [upSmtEngine]: New version: [2023.6.26] Old Version: [1.0.0]
+[2023-06-27 01:01:06] INFO root fetch - processPackages [batcave]: New version: [42.0.4rc0] Old Version: [42.0.4]
+[2023-06-27 01:01:06] INFO root fetch - processPackages [AA-stat]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-06-27 01:01:06] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.908] Old Version: [0.2.907]
+[2023-06-27 01:01:06] INFO root fetch - processPackages [batcave]: New version: [42.0.4rc0] Old Version: [42.0.4]
+[2023-06-27 01:01:06] INFO root fetch - processPackages [nvflare]: New version: [2.4.0rc1] Old Version: [2.3.1]
+[2023-06-27 01:01:06] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-27 01:01:06] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/34/cf/d982ed6e84c5f0cf39ca55882b29b67841957a9172e35b7b3a9c4283c1ab/reliableGPT-0.2.907.tar.gz
+[2023-06-27 01:01:06] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/4e/f1/24620227b2d4dc1b1f3ba96e9b46bd7213d0bb93c8616e8d71cb12754021/nvflare-2.3.1-py3-none-any.whl
+[2023-06-27 01:01:06] WARNING root fetch - processPackages [PureFlow]: Skipping, unable to determine old version
+[2023-06-27 01:01:06] INFO root fetch - processPackages [PureFlow]: Start processing: telexy.sam
+[2023-06-27 01:01:06] INFO root fetch - main [MainThread]: End processing [PureFlow] error
+[2023-06-27 01:01:06] WARNING root fetch - processPackages [telexy.sam]: Skipping, unable to determine old version
+[2023-06-27 01:01:06] INFO root fetch - processPackages [telexy.sam]: Start processing: wormcat-batch
+[2023-06-27 01:01:06] INFO root fetch - main [MainThread]: End processing [telexy.sam] error
+[2023-06-27 01:01:06] INFO root fetch - processPackages [wormcat-batch]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 01:01:06] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/c7/13/28274c3531756f8f7c76a601e2085ca7b010368a54dcb8f5157c9d85dcb7/batcave-42.0.4.tar.gz
+[2023-06-27 01:01:06] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/c7/13/28274c3531756f8f7c76a601e2085ca7b010368a54dcb8f5157c9d85dcb7/batcave-42.0.4.tar.gz
+[2023-06-27 01:01:06] INFO root fetch - processPackages [upSmtEngine]: Downloading https://files.pythonhosted.org/packages/c8/3f/c4b5344d35924a5e39fcb483ce3065010dbc717e3cc061306bcecff810f9/upSmtEngine-1.0.0-py3-none-any.whl
+[2023-06-27 01:01:06] INFO root fetch - processPackages [gnss-lib-py]: Downloading https://files.pythonhosted.org/packages/1f/f4/c2e78b86409dc2ba369a7cd4ac05b3e4b7cc548ee5b26721ddf1d07c3f13/gnss_lib_py-0.1.8.tar.gz
+[2023-06-27 01:01:06] INFO root fetch - processPackages [macedon]: Downloading https://files.pythonhosted.org/packages/e8/3a/e00540e6b6dcac23a1a6d39fdbd799da5d792b7ed95c9fd3dd7ed496b241/macedon-0.9.7.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [AA-stat]: Downloading https://files.pythonhosted.org/packages/bc/ff/ba4c648e351bf1d6aea988089ab1937ada8d9c5285a2b2e38f88eff9b2a8/AA_stat-2.5.4.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/ef/b2/444a9e14e94f1793456da0d377e980a82a4920f2a19ac26b36a6db1aa399/nvflare-2.4.0rc1-py3-none-any.whl
+[2023-06-27 01:01:07] INFO root fetch - processPackages [wormcat-batch]: Downloading https://files.pythonhosted.org/packages/54/a0/40a0c70ed5a48e492203ed52029bbdc348b4b0638ae5949d4180e96a00b0/wormcat_batch-1.0.0.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/75/14/16887feaabdd9042c48c84c9659ef90e4b9402b4ed93d5ea4b9ee7584b20/reliableGPT-0.2.908.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [upSmtEngine]: Downloading https://files.pythonhosted.org/packages/16/b2/a638d52eb5da85fea692874f6f756ae22655a87fbc9c6d362e7705b95fd4/upSmtEngine-2023.6.26.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-27 01:01:07] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.907.tar.gz tmp/reliableGPT-0.2.908.tar.gz --markdown 20230627/r/reliableGPT/0.2.907-0.2.908/diff.md --exclude *.pyd
+[2023-06-27 01:01:07] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/5b/71/76e4714969f1ba969fc92ca2fe052270fb60a5279b36fe74d74dfc225fa7/batcave-42.0.4rc0.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/5b/71/76e4714969f1ba969fc92ca2fe052270fb60a5279b36fe74d74dfc225fa7/batcave-42.0.4rc0.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [upSmtEngine]: executing diffoscope
+[2023-06-27 01:01:07] INFO root fetch - processPackages [upSmtEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upSmtEngine-1.0.0-py3-none-any.whl.zip tmp/upSmtEngine-2023.6.26.tar.gz --markdown 20230627/u/upSmtEngine/1.0.0-2023.6.26/diff.md --exclude *.pyd
+[2023-06-27 01:01:07] INFO root fetch - processPackages [AA-stat]: Downloading https://files.pythonhosted.org/packages/d2/f4/94407c65449e7cf61906b4c3871dccc92c9119c9a2c642080efdb36a98ac/AA_stat-2.5.5.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [nvflare]: executing diffoscope
+[2023-06-27 01:01:07] INFO root fetch - processPackages [nvflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvflare-2.3.1-py3-none-any.whl.zip tmp/nvflare-2.4.0rc1-py3-none-any.whl.zip --markdown 20230627/n/nvflare/2.3.1-2.4.0rc1/diff.md --exclude *.pyd
+[2023-06-27 01:01:07] INFO root fetch - processPackages [gnss-lib-py]: Downloading https://files.pythonhosted.org/packages/8c/a4/93a452c96ab4badf06171b93822da3c16717c667cb4d2e4305309e87f40d/gnss_lib_py-0.1.9.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [macedon]: Downloading https://files.pythonhosted.org/packages/51/f0/fc967013cd870c8279c86fe2786c4bebed2c1d4d14c4f02f47f5a7be13bc/macedon-0.9.9.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [batcave]: executing diffoscope
+[2023-06-27 01:01:07] INFO root fetch - processPackages [batcave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcave-42.0.4.tar.gz tmp/batcave-42.0.4rc0.tar.gz --markdown 20230627/b/batcave/42.0.4-42.0.4rc0/diff.md --exclude *.pyd
+[2023-06-27 01:01:07] INFO root fetch - processPackages [AA-stat]: executing diffoscope
+[2023-06-27 01:01:07] INFO root fetch - processPackages [AA-stat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AA_stat-2.5.4.tar.gz tmp/AA_stat-2.5.5.tar.gz --markdown 20230627/A/AA-stat/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-06-27 01:01:07] INFO root fetch - processPackages [batcave]: executing diffoscope
+[2023-06-27 01:01:07] INFO root fetch - processPackages [batcave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcave-42.0.4.tar.gz tmp/batcave-42.0.4rc0.tar.gz --markdown 20230627/b/batcave/42.0.4-42.0.4rc0/diff.md --exclude *.pyd
+[2023-06-27 01:01:07] INFO root fetch - processPackages [wormcat-batch]: Downloading https://files.pythonhosted.org/packages/8a/ae/31c8a4a4a1fe6af39e858b4e5f3ee57a0ad38304dddf10ce16cbf3534d76/wormcat_batch-1.0.1.tar.gz
+[2023-06-27 01:01:07] INFO root fetch - processPackages [gnss-lib-py]: executing diffoscope
+[2023-06-27 01:01:07] INFO root fetch - processPackages [wormcat-batch]: executing diffoscope
+[2023-06-27 01:01:07] INFO root fetch - processPackages [gnss-lib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnss_lib_py-0.1.8.tar.gz tmp/gnss_lib_py-0.1.9.tar.gz --markdown 20230627/g/gnss-lib-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 01:01:07] INFO root fetch - processPackages [wormcat-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wormcat_batch-1.0.0.tar.gz tmp/wormcat_batch-1.0.1.tar.gz --markdown 20230627/w/wormcat-batch/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 01:01:07] INFO root fetch - processPackages [macedon]: executing diffoscope
+[2023-06-27 01:01:07] INFO root fetch - processPackages [macedon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macedon-0.9.7.tar.gz tmp/macedon-0.9.9.tar.gz --markdown 20230627/m/macedon/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-27 01:01:08] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.907.tar.gz]
+[2023-06-27 01:01:08] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.908.tar.gz]
+[2023-06-27 01:01:08] INFO root fetch - processPackages [reliableGPT]: Start processing: pbit
+[2023-06-27 01:01:08] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-27 01:01:08] INFO root fetch - processPackages [pbit]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-27 01:01:08] INFO root fetch - processPackages [pbit]: Downloading https://files.pythonhosted.org/packages/8c/1a/a5df84a31ce2a4a4feb8642b2abfc7900d6f18eca8d18526611d71480814/pbit-0.2.7.tar.gz
+[2023-06-27 01:01:08] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-27 01:01:09] INFO root fetch - processPackages [wormcat-batch]: Remove: archive file [/home/abi/fetcher/tmp/wormcat_batch-1.0.0.tar.gz]
+[2023-06-27 01:01:09] INFO root fetch - processPackages [wormcat-batch]: Remove: archive file [/home/abi/fetcher/tmp/wormcat_batch-1.0.1.tar.gz]
+[2023-06-27 01:01:09] INFO root fetch - processPackages [wormcat-batch]: Start processing: e-models
+[2023-06-27 01:01:09] INFO root fetch - main [MainThread]: End processing [wormcat-batch]: success
+[2023-06-27 01:01:09] INFO root fetch - processPackages [pbit]: Downloading https://files.pythonhosted.org/packages/1e/64/0b449a3b94e1a877aaf25e5d6e13d4bc1af8f44c12b7f70f3c7257ce76a0/pbit-0.2.8.tar.gz
+[2023-06-27 01:01:09] INFO root fetch - processPackages [e-models]: New version: [1.4.0.1] Old Version: [1.4]
+[2023-06-27 01:01:09] INFO root fetch - processPackages [pbit]: executing diffoscope
+[2023-06-27 01:01:09] INFO root fetch - processPackages [pbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbit-0.2.7.tar.gz tmp/pbit-0.2.8.tar.gz --markdown 20230627/p/pbit/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-27 01:01:09] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/da/26/35ba8cbddb2282fe599d1cbd9109f09dc61db34718201d5fca8738b55bd6/e-models-1.4.tar.gz
+[2023-06-27 01:01:09] INFO root fetch - processPackages [batcave]: Remove: archive file [/home/abi/fetcher/tmp/batcave-42.0.4.tar.gz]
+[2023-06-27 01:01:09] INFO root fetch - processPackages [batcave]: Remove: archive file [/home/abi/fetcher/tmp/batcave-42.0.4rc0.tar.gz]
+[2023-06-27 01:01:09] INFO root fetch - processPackages [batcave]: Start processing: reliableGPT
+[2023-06-27 01:01:09] INFO root fetch - main [MainThread]: End processing [batcave]: success
+[2023-06-27 01:01:09] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.909] Old Version: [0.2.908]
+[2023-06-27 01:01:09] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-27 01:01:09] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230627/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-27 01:01:09] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/75/14/16887feaabdd9042c48c84c9659ef90e4b9402b4ed93d5ea4b9ee7584b20/reliableGPT-0.2.908.tar.gz
+[2023-06-27 01:01:09] INFO root fetch - processPackages [macedon]: Remove: archive file [/home/abi/fetcher/tmp/macedon-0.9.7.tar.gz]
+[2023-06-27 01:01:09] INFO root fetch - processPackages [macedon]: Remove: archive file [/home/abi/fetcher/tmp/macedon-0.9.9.tar.gz]
+[2023-06-27 01:01:09] INFO root fetch - processPackages [macedon]: Start processing: pioreactor-logs2slack
+[2023-06-27 01:01:09] INFO root fetch - main [MainThread]: End processing [macedon]: success
+[2023-06-27 01:01:09] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/fe/67/d8843fbbc6a542717ac00da20574f81cf46a0c66b83f4a74ca17c50c41d6/e-models-1.4.0.1.tar.gz
+[2023-06-27 01:01:09] INFO root fetch - processPackages [pioreactor-logs2slack]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-27 01:01:09] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2023-06-27 01:01:09] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.4.tar.gz tmp/e-models-1.4.0.1.tar.gz --markdown 20230627/e/e-models/1.4-1.4.0.1/diff.md --exclude *.pyd
+[2023-06-27 01:01:09] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/96/16/4fce9ee5726e972a0af47cabc6d1bc175273506e76f07febb5f5e7623c01/reliableGPT-0.2.909.tar.gz
+[2023-06-27 01:01:09] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-27 01:01:09] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.908.tar.gz tmp/reliableGPT-0.2.909.tar.gz --markdown 20230627/r/reliableGPT/0.2.908-0.2.909/diff.md --exclude *.pyd
+[2023-06-27 01:01:09] INFO root fetch - processPackages [pioreactor-logs2slack]: Downloading https://files.pythonhosted.org/packages/a8/ff/4ea0ca5de318a29a48cf35e4493613f4299ae22a6d5796e583e1459eef77/pioreactor_logs2slack-0.2.2-py3-none-any.whl
+[2023-06-27 01:01:10] INFO root fetch - processPackages [gnss-lib-py]: Remove: archive file [/home/abi/fetcher/tmp/gnss_lib_py-0.1.8.tar.gz]
+[2023-06-27 01:01:10] INFO root fetch - processPackages [gnss-lib-py]: Remove: archive file [/home/abi/fetcher/tmp/gnss_lib_py-0.1.9.tar.gz]
+[2023-06-27 01:01:10] INFO root fetch - processPackages [gnss-lib-py]: Start processing: latch
+[2023-06-27 01:01:10] INFO root fetch - main [MainThread]: End processing [gnss-lib-py]: success
+[2023-06-27 01:01:10] INFO root fetch - processPackages [pioreactor-logs2slack]: Downloading https://files.pythonhosted.org/packages/b9/57/b224957a9fd9aea4f8d18b82c2d986ddad9405590dc0c2f88230f707a937/pioreactor_logs2slack-0.2.3-py3-none-any.whl
+[2023-06-27 01:01:10] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-27 01:01:10] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-27 01:01:10] INFO root fetch - processPackages [upSmtEngine]: Remove: archive file [/home/abi/fetcher/tmp/upSmtEngine-1.0.0-py3-none-any.whl.zip]
+[2023-06-27 01:01:10] INFO root fetch - processPackages [upSmtEngine]: Remove: archive file [/home/abi/fetcher/tmp/upSmtEngine-2023.6.26.tar.gz]
+[2023-06-27 01:01:10] INFO root fetch - processPackages [upSmtEngine]: Start processing: data-repo-client
+[2023-06-27 01:01:10] INFO root fetch - main [MainThread]: End processing [upSmtEngine]: success
+[2023-06-27 01:01:10] ERROR root fetch - processPackages [batcave]: Diffoscope failed: gzip: tmp/batcave-42.0.4rc0.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/batcave-42.0.4rc0.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-27 01:01:10] INFO root fetch - main [MainThread]: End processing [batcave] error
+[2023-06-27 01:01:10] INFO root fetch - processPackages [pioreactor-logs2slack]: executing diffoscope
+[2023-06-27 01:01:10] INFO root fetch - processPackages [pioreactor-logs2slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pioreactor_logs2slack-0.2.2-py3-none-any.whl.zip tmp/pioreactor_logs2slack-0.2.3-py3-none-any.whl.zip --markdown 20230627/p/pioreactor-logs2slack/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-27 01:01:10] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-27 01:01:10] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.495.0]
+[2023-06-27 01:01:10] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-27 01:01:10] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230627/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-27 01:01:10] INFO root fetch - processPackages [pbit]: Remove: archive file [/home/abi/fetcher/tmp/pbit-0.2.7.tar.gz]
+[2023-06-27 01:01:10] INFO root fetch - processPackages [pbit]: Remove: archive file [/home/abi/fetcher/tmp/pbit-0.2.8.tar.gz]
+[2023-06-27 01:01:10] INFO root fetch - main [MainThread]: End processing [pbit]: success
+[2023-06-27 01:01:10] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/39/d3/346e4113d3ebdaa08d76a2ee3996fb676c7ec970c7f3c47db7e213467e5f/data-repo-client-1.495.0.tar.gz
+[2023-06-27 01:01:10] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.4.tar.gz]
+[2023-06-27 01:01:10] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.4.0.1.tar.gz]
+[2023-06-27 01:01:10] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2023-06-27 01:01:10] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/19/fa/5b70d821d8c8a059d230c6bfc9611cca8674093f2e0058fe6c06a5041daf/data-repo-client-1.64.0.tar.gz
+[2023-06-27 01:01:11] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-06-27 01:01:11] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.495.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230627/d/data-repo-client/1.495.0-1.64.0/diff.md --exclude *.pyd
+[2023-06-27 01:01:11] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.908.tar.gz]
+[2023-06-27 01:01:11] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.909.tar.gz]
+[2023-06-27 01:01:11] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-27 01:01:11] INFO root fetch - processPackages [pioreactor-logs2slack]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor_logs2slack-0.2.2-py3-none-any.whl.zip]
+[2023-06-27 01:01:11] INFO root fetch - processPackages [pioreactor-logs2slack]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor_logs2slack-0.2.3-py3-none-any.whl.zip]
+[2023-06-27 01:01:11] INFO root fetch - main [MainThread]: End processing [pioreactor-logs2slack]: success
+[2023-06-27 01:01:11] INFO root fetch - processPackages [AA-stat]: Remove: archive file [/home/abi/fetcher/tmp/AA_stat-2.5.4.tar.gz]
+[2023-06-27 01:01:11] INFO root fetch - processPackages [AA-stat]: Remove: archive file [/home/abi/fetcher/tmp/AA_stat-2.5.5.tar.gz]
+[2023-06-27 01:01:11] INFO root fetch - main [MainThread]: End processing [AA-stat]: success
+[2023-06-27 01:01:11] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-27 01:01:11] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-27 01:01:11] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-27 01:01:13] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-1.495.0.tar.gz]
+[2023-06-27 01:01:13] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-1.64.0.tar.gz]
+[2023-06-27 01:01:13] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-06-27 01:01:14] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-27 01:01:14] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-27 01:01:14] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-27 01:01:17] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.3.1-py3-none-any.whl.zip]
+[2023-06-27 01:01:17] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.0rc1-py3-none-any.whl.zip]
+[2023-06-27 01:01:17] INFO root fetch - main [MainThread]: End processing [nvflare]: success
+[2023-06-27 01:01:17] INFO root fetch - main [MainThread]: Store serial: [18653821]
