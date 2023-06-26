@@ -335,3 +335,96 @@
 [2023-06-27 00:24:09] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.3.tar.gz]
 [2023-06-27 00:24:09] INFO root fetch - main [MainThread]: End processing [aind-data-transfer]: success
 [2023-06-27 00:24:09] INFO root fetch - main [MainThread]: Store serial: [18653553]
+[2023-06-27 00:29:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653553]
+[2023-06-27 00:29:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-27 00:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bien
+[2023-06-27 00:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydmclab
+[2023-06-27 00:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kennytestupload
+[2023-06-27 00:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graph-theory
+[2023-06-27 00:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-helper-mod
+[2023-06-27 00:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pychame
+[2023-06-27 00:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trimnet
+[2023-06-27 00:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: optimum-intel
+[2023-06-27 00:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: id3manager
+[2023-06-27 00:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipenv
+[2023-06-27 00:29:18] WARNING root fetch - processPackages [bien]: Skipping, unable to determine old version
+[2023-06-27 00:29:18] INFO root fetch - processPackages [bien]: Start processing: PureFlow
+[2023-06-27 00:29:18] INFO root fetch - main [MainThread]: End processing [bien] error
+[2023-06-27 00:29:18] INFO root fetch - processPackages [py-helper-mod]: New version: [0.0.35] Old Version: [0.0.33]
+[2023-06-27 00:29:18] INFO root fetch - processPackages [pydmclab]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 00:29:18] INFO root fetch - processPackages [optimum-intel]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-27 00:29:18] INFO root fetch - processPackages [trimnet]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-27 00:29:18] INFO root fetch - processPackages [kennytestupload]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 00:29:18] INFO root fetch - processPackages [pychame]: New version: [1.0.3a0] Old Version: [1.0.2a0]
+[2023-06-27 00:29:18] INFO root fetch - processPackages [graph-theory]: New version: [2023.1.1] Old Version: [2022.4.3]
+[2023-06-27 00:29:18] INFO root fetch - processPackages [trimnet]: Downloading https://files.pythonhosted.org/packages/b8/b8/a20032d623db8640fb62e263ecdd5b694c8a3512ca33804272bade84be8d/trimnet-1.0.3.tar.gz
+[2023-06-27 00:29:18] INFO root fetch - processPackages [kennytestupload]: Downloading https://files.pythonhosted.org/packages/fa/5e/0bbc92aa7de45b976d6db0f84fd497ae0a266e7c188081c2c0ee08cb062c/kennytestupload-0.0.8.tar.gz
+[2023-06-27 00:29:18] INFO root fetch - processPackages [pychame]: Downloading https://files.pythonhosted.org/packages/b3/b8/73b03ff5e0a25db970a8d1c52b774b169cddda6a0c4b2f73c40dfc565967/pychame-1.0.2a0.tar.gz
+[2023-06-27 00:29:18] WARNING root fetch - processPackages [id3manager]: Skipping, unable to determine old version
+[2023-06-27 00:29:18] INFO root fetch - processPackages [id3manager]: Start processing: gigagan-pytorch
+[2023-06-27 00:29:18] INFO root fetch - main [MainThread]: End processing [id3manager] error
+[2023-06-27 00:29:18] WARNING root fetch - processPackages [PureFlow]: Skipping, unable to determine old version
+[2023-06-27 00:29:18] INFO root fetch - main [MainThread]: End processing [PureFlow] error
+[2023-06-27 00:29:18] INFO root fetch - processPackages [pipenv]: New version: [9.1.0] Old Version: [9.0.3]
+[2023-06-27 00:29:18] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/b0/a3/3d524ed35b6e56cf62986e0526baca05e450fb76886f5c4801ba7b1b1eb5/py-helper-mod-0.0.33.tar.gz
+[2023-06-27 00:29:18] INFO root fetch - processPackages [optimum-intel]: Downloading https://files.pythonhosted.org/packages/14/de/12027d9cf4a6609179e5222db61c360fceeba92bf6d4b35dedff8c1c86ea/optimum-intel-1.9.1.tar.gz
+[2023-06-27 00:29:18] INFO root fetch - processPackages [pydmclab]: Downloading https://files.pythonhosted.org/packages/04/f6/b601a7300485ce3355dd359a07b070404f5568fd307dd88f8d6c2ceccd6e/pydmclab-1.0.0.tar.gz
+[2023-06-27 00:29:18] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 00:29:18] INFO root fetch - processPackages [kennytestupload]: Downloading https://files.pythonhosted.org/packages/05/9f/5d19ff282f087abe3fead1a0c12310e79924b57850ceaa87da964c5102ba/kennytestupload-0.0.9.tar.gz
+[2023-06-27 00:29:18] INFO root fetch - processPackages [graph-theory]: Downloading https://files.pythonhosted.org/packages/b1/d7/9397df817578187cefb2edc696c92bdccad3ff97a80ba43f1cf1350cfd0a/graph_theory-2022.4.3-py3-none-any.whl
+[2023-06-27 00:29:18] INFO root fetch - processPackages [pychame]: Downloading https://files.pythonhosted.org/packages/fd/bf/87a7cc87e23e7409a8eeec31e95075a53a1af73400e1b53141c766cb46c8/pychame-1.0.3a0.tar.gz
+[2023-06-27 00:29:18] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/df/eb/d796f85bc65969569a250c896c8b7d7aacb25a6857914c08cf4ed9bfc7f6/pipenv-9.0.3.tar.gz
+[2023-06-27 00:29:18] INFO root fetch - processPackages [pychame]: executing diffoscope
+[2023-06-27 00:29:18] INFO root fetch - processPackages [pychame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychame-1.0.2a0.tar.gz tmp/pychame-1.0.3a0.tar.gz --markdown 20230627/p/pychame/1.0.2a0-1.0.3a0/diff.md --exclude *.pyd
+[2023-06-27 00:29:18] INFO root fetch - processPackages [kennytestupload]: executing diffoscope
+[2023-06-27 00:29:18] INFO root fetch - processPackages [kennytestupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kennytestupload-0.0.8.tar.gz tmp/kennytestupload-0.0.9.tar.gz --markdown 20230627/k/kennytestupload/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 00:29:18] INFO root fetch - processPackages [trimnet]: Downloading https://files.pythonhosted.org/packages/4e/6e/264b474d300c87c563e17dc018fbcb8a0db07862d19fce3e6951634248ba/trimnet-1.0.4.tar.gz
+[2023-06-27 00:29:18] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/c0/aa/26bf6b7a863fb9525dd2ca84ff5122173d9bcd4d108b07c4aa8bb92431c7/gigagan-pytorch-0.0.8.tar.gz
+[2023-06-27 00:29:18] INFO root fetch - processPackages [trimnet]: executing diffoscope
+[2023-06-27 00:29:18] INFO root fetch - processPackages [trimnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trimnet-1.0.3.tar.gz tmp/trimnet-1.0.4.tar.gz --markdown 20230627/t/trimnet/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-27 00:29:18] INFO root fetch - processPackages [optimum-intel]: Downloading https://files.pythonhosted.org/packages/6d/89/f42107eed57d301593c7f9125472d292a67653f64555f7b69b512f688c24/optimum-intel-1.9.2.tar.gz
+[2023-06-27 00:29:19] INFO root fetch - processPackages [pydmclab]: Downloading https://files.pythonhosted.org/packages/bc/ef/295443ced1296831c8994f1904b90398cd2c376c68ee59cdb6a57fb8a318/pydmclab-1.0.1.tar.gz
+[2023-06-27 00:29:19] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/cc/13/d243c644e32c278e44d38e711d9d4b83ab2f21436ca159739e7304ed6eab/py-helper-mod-0.0.35.tar.gz
+[2023-06-27 00:29:19] INFO root fetch - processPackages [graph-theory]: Downloading https://files.pythonhosted.org/packages/0a/66/fe8afa2905eecbeed404af3b4c84978015f8d1de616ad0e6df38bd1080af/graph_theory-2023.1.1-py3-none-any.whl
+[2023-06-27 00:29:19] INFO root fetch - processPackages [optimum-intel]: executing diffoscope
+[2023-06-27 00:29:19] INFO root fetch - processPackages [optimum-intel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-intel-1.9.1.tar.gz tmp/optimum-intel-1.9.2.tar.gz --markdown 20230627/o/optimum-intel/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-27 00:29:19] INFO root fetch - processPackages [pydmclab]: executing diffoscope
+[2023-06-27 00:29:19] INFO root fetch - processPackages [pydmclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmclab-1.0.0.tar.gz tmp/pydmclab-1.0.1.tar.gz --markdown 20230627/p/pydmclab/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 00:29:19] INFO root fetch - processPackages [py-helper-mod]: executing diffoscope
+[2023-06-27 00:29:19] INFO root fetch - processPackages [py-helper-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-helper-mod-0.0.33.tar.gz tmp/py-helper-mod-0.0.35.tar.gz --markdown 20230627/p/py-helper-mod/0.0.33-0.0.35/diff.md --exclude *.pyd
+[2023-06-27 00:29:19] INFO root fetch - processPackages [graph-theory]: executing diffoscope
+[2023-06-27 00:29:19] INFO root fetch - processPackages [graph-theory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_theory-2022.4.3-py3-none-any.whl.zip tmp/graph_theory-2023.1.1-py3-none-any.whl.zip --markdown 20230627/g/graph-theory/2022.4.3-2023.1.1/diff.md --exclude *.pyd
+[2023-06-27 00:29:19] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/88/15/d88c491945eed450311a7b87b5c2fc81ce2bdeb29f0c7c042a11e387769b/gigagan-pytorch-0.0.9.tar.gz
+[2023-06-27 00:29:19] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/53/66/3f7451f27ce52b194f289c5b3ceb6b159ba177a932bea1fef8e1885ccf92/pipenv-9.1.0.tar.gz
+[2023-06-27 00:29:19] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-06-27 00:29:19] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.0.8.tar.gz tmp/gigagan-pytorch-0.0.9.tar.gz --markdown 20230627/g/gigagan-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 00:29:20] INFO root fetch - processPackages [pychame]: Remove: archive file [/home/abi/fetcher/tmp/pychame-1.0.2a0.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - processPackages [pychame]: Remove: archive file [/home/abi/fetcher/tmp/pychame-1.0.3a0.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - main [MainThread]: End processing [pychame]: success
+[2023-06-27 00:29:20] INFO root fetch - processPackages [kennytestupload]: Remove: archive file [/home/abi/fetcher/tmp/kennytestupload-0.0.8.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - processPackages [kennytestupload]: Remove: archive file [/home/abi/fetcher/tmp/kennytestupload-0.0.9.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - main [MainThread]: End processing [kennytestupload]: success
+[2023-06-27 00:29:20] INFO root fetch - processPackages [trimnet]: Remove: archive file [/home/abi/fetcher/tmp/trimnet-1.0.3.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - processPackages [trimnet]: Remove: archive file [/home/abi/fetcher/tmp/trimnet-1.0.4.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - main [MainThread]: End processing [trimnet]: success
+[2023-06-27 00:29:20] INFO root fetch - processPackages [py-helper-mod]: Remove: archive file [/home/abi/fetcher/tmp/py-helper-mod-0.0.33.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - processPackages [py-helper-mod]: Remove: archive file [/home/abi/fetcher/tmp/py-helper-mod-0.0.35.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - main [MainThread]: End processing [py-helper-mod]: success
+[2023-06-27 00:29:20] INFO root fetch - processPackages [graph-theory]: Remove: archive file [/home/abi/fetcher/tmp/graph_theory-2022.4.3-py3-none-any.whl.zip]
+[2023-06-27 00:29:20] INFO root fetch - processPackages [graph-theory]: Remove: archive file [/home/abi/fetcher/tmp/graph_theory-2023.1.1-py3-none-any.whl.zip]
+[2023-06-27 00:29:20] INFO root fetch - main [MainThread]: End processing [graph-theory]: success
+[2023-06-27 00:29:20] INFO root fetch - processPackages [pipenv]: executing diffoscope
+[2023-06-27 00:29:20] INFO root fetch - processPackages [pipenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-9.0.3.tar.gz tmp/pipenv-9.1.0.tar.gz --markdown 20230627/p/pipenv/9.0.3-9.1.0/diff.md --exclude *.pyd
+[2023-06-27 00:29:20] INFO root fetch - processPackages [optimum-intel]: Remove: archive file [/home/abi/fetcher/tmp/optimum-intel-1.9.1.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - processPackages [optimum-intel]: Remove: archive file [/home/abi/fetcher/tmp/optimum-intel-1.9.2.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - main [MainThread]: End processing [optimum-intel]: success
+[2023-06-27 00:29:20] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.8.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.9.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-06-27 00:29:20] INFO root fetch - processPackages [pydmclab]: Remove: archive file [/home/abi/fetcher/tmp/pydmclab-1.0.0.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - processPackages [pydmclab]: Remove: archive file [/home/abi/fetcher/tmp/pydmclab-1.0.1.tar.gz]
+[2023-06-27 00:29:20] INFO root fetch - main [MainThread]: End processing [pydmclab]: success
+[2023-06-27 00:29:26] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.0.3.tar.gz]
+[2023-06-27 00:29:26] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
+[2023-06-27 00:29:26] INFO root fetch - main [MainThread]: End processing [pipenv]: success
+[2023-06-27 00:29:26] INFO root fetch - main [MainThread]: Store serial: [18653592]
