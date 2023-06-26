@@ -281,3 +281,57 @@
 [2023-06-27 00:18:56] INFO root fetch - processPackages [descarteslabs]: Remove: archive file [/home/abi/fetcher/tmp/descarteslabs-2.0.2.tar.gz]
 [2023-06-27 00:18:56] INFO root fetch - main [MainThread]: End processing [descarteslabs]: success
 [2023-06-27 00:18:56] INFO root fetch - main [MainThread]: Store serial: [18653530]
+[2023-06-27 00:24:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653530]
+[2023-06-27 00:24:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-27 00:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BlueDesc-pywrapper
+[2023-06-27 00:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vipes
+[2023-06-27 00:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-data-transfer
+[2023-06-27 00:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vivintpy
+[2023-06-27 00:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal-client
+[2023-06-27 00:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal
+[2023-06-27 00:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taxhub
+[2023-06-27 00:24:05] INFO root fetch - processPackages [vivintpy]: New version: [2023.3.4] Old Version: [2023.3.3]
+[2023-06-27 00:24:05] WARNING root fetch - processPackages [BlueDesc-pywrapper]: Skipping, unable to determine old version
+[2023-06-27 00:24:05] INFO root fetch - main [MainThread]: End processing [BlueDesc-pywrapper] error
+[2023-06-27 00:24:05] INFO root fetch - processPackages [modal-client]: New version: [0.49.2475] Old Version: [0.49.2471]
+[2023-06-27 00:24:05] INFO root fetch - processPackages [modal]: New version: [0.49.2475] Old Version: [0.49.2471]
+[2023-06-27 00:24:05] WARNING root fetch - processPackages [vipes]: Skipping, unable to determine old version
+[2023-06-27 00:24:05] INFO root fetch - main [MainThread]: End processing [vipes] error
+[2023-06-27 00:24:05] INFO root fetch - processPackages [taxhub]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-27 00:24:05] INFO root fetch - processPackages [aind-data-transfer]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-27 00:24:05] INFO root fetch - processPackages [vivintpy]: Downloading https://files.pythonhosted.org/packages/d5/21/14c9773b61f865729923d666ef13fbdb9c685014ae0975351af37a0683d6/vivintpy-2023.3.3.tar.gz
+[2023-06-27 00:24:05] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/f9/86/bb7c1790450f4f22a96cee6647948e6669758fc108abd2f2181713ce1008/modal-0.49.2471-py3-none-any.whl
+[2023-06-27 00:24:05] INFO root fetch - processPackages [taxhub]: Downloading https://files.pythonhosted.org/packages/fd/75/01b426153cfc0ef6a9b67a464442af324bd76c656db7c4fe44559fa46536/taxhub-1.9.3.tar.gz
+[2023-06-27 00:24:05] INFO root fetch - processPackages [aind-data-transfer]: Downloading https://files.pythonhosted.org/packages/c6/c0/d43cf5b63152fa04e14114f721f196be5dd4bdfdd260c46ab01f94dbc621/aind-data-transfer-0.9.2.tar.gz
+[2023-06-27 00:24:05] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/82/52/5a6445b7bb30899d2c2e9d8810c27ceccba92368d99b1e1f3d4e39a3a34c/modal_client-0.49.2471-py3-none-any.whl
+[2023-06-27 00:24:05] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/40/ec/54c66255f6a415dbad7187482f18cb883a99e1b30e67293e94aec06a46b8/modal-0.49.2475-py3-none-any.whl
+[2023-06-27 00:24:05] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/4a/74/dc673fb0e406f798d6482e986fa6cf471b8ef4bd8a411a926ad4859c0be5/modal_client-0.49.2475-py3-none-any.whl
+[2023-06-27 00:24:05] INFO root fetch - processPackages [aind-data-transfer]: Downloading https://files.pythonhosted.org/packages/ee/dc/9a630eab65d1c84402e0889b488d378cf516a68beee16401bf6e0c916cff/aind-data-transfer-0.9.3.tar.gz
+[2023-06-27 00:24:05] INFO root fetch - processPackages [vivintpy]: Downloading https://files.pythonhosted.org/packages/a3/98/e1e6c57048222aaad5c022fbd252f2cb964a7038e67248f4eb5c70aef9af/vivintpy-2023.3.4.tar.gz
+[2023-06-27 00:24:05] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-06-27 00:24:05] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.49.2471-py3-none-any.whl.zip tmp/modal-0.49.2475-py3-none-any.whl.zip --markdown 20230627/m/modal/0.49.2471-0.49.2475/diff.md --exclude *.pyd
+[2023-06-27 00:24:06] INFO root fetch - processPackages [taxhub]: Downloading https://files.pythonhosted.org/packages/89/88/a9a6e22ed0a383aacf3e111b9ff77bcef44a8b8713b63ff908e99841d8e5/taxhub-1.9.4.tar.gz
+[2023-06-27 00:24:06] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-06-27 00:24:06] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2471-py3-none-any.whl.zip tmp/modal_client-0.49.2475-py3-none-any.whl.zip --markdown 20230627/m/modal-client/0.49.2471-0.49.2475/diff.md --exclude *.pyd
+[2023-06-27 00:24:06] INFO root fetch - processPackages [aind-data-transfer]: executing diffoscope
+[2023-06-27 00:24:06] INFO root fetch - processPackages [aind-data-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-transfer-0.9.2.tar.gz tmp/aind-data-transfer-0.9.3.tar.gz --markdown 20230627/a/aind-data-transfer/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-27 00:24:06] INFO root fetch - processPackages [vivintpy]: executing diffoscope
+[2023-06-27 00:24:06] INFO root fetch - processPackages [vivintpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vivintpy-2023.3.3.tar.gz tmp/vivintpy-2023.3.4.tar.gz --markdown 20230627/v/vivintpy/2023.3.3-2023.3.4/diff.md --exclude *.pyd
+[2023-06-27 00:24:06] INFO root fetch - processPackages [taxhub]: executing diffoscope
+[2023-06-27 00:24:06] INFO root fetch - processPackages [taxhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxhub-1.9.3.tar.gz tmp/taxhub-1.9.4.tar.gz --markdown 20230627/t/taxhub/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-06-27 00:24:06] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2471-py3-none-any.whl.zip]
+[2023-06-27 00:24:06] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2475-py3-none-any.whl.zip]
+[2023-06-27 00:24:06] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-06-27 00:24:07] INFO root fetch - processPackages [vivintpy]: Remove: archive file [/home/abi/fetcher/tmp/vivintpy-2023.3.3.tar.gz]
+[2023-06-27 00:24:07] INFO root fetch - processPackages [vivintpy]: Remove: archive file [/home/abi/fetcher/tmp/vivintpy-2023.3.4.tar.gz]
+[2023-06-27 00:24:07] INFO root fetch - main [MainThread]: End processing [vivintpy]: success
+[2023-06-27 00:24:07] INFO root fetch - processPackages [taxhub]: Remove: archive file [/home/abi/fetcher/tmp/taxhub-1.9.3.tar.gz]
+[2023-06-27 00:24:07] INFO root fetch - processPackages [taxhub]: Remove: archive file [/home/abi/fetcher/tmp/taxhub-1.9.4.tar.gz]
+[2023-06-27 00:24:07] INFO root fetch - main [MainThread]: End processing [taxhub]: success
+[2023-06-27 00:24:07] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2471-py3-none-any.whl.zip]
+[2023-06-27 00:24:07] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2475-py3-none-any.whl.zip]
+[2023-06-27 00:24:07] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-06-27 00:24:09] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.2.tar.gz]
+[2023-06-27 00:24:09] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.3.tar.gz]
+[2023-06-27 00:24:09] INFO root fetch - main [MainThread]: End processing [aind-data-transfer]: success
+[2023-06-27 00:24:09] INFO root fetch - main [MainThread]: Store serial: [18653553]
