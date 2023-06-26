@@ -1640,3 +1640,150 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 01:43:21] INFO root fetch - processPackages [dkist-processing-common]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-common-3.0.0rc9.tar.gz]
 [2023-06-27 01:43:21] INFO root fetch - main [MainThread]: End processing [dkist-processing-common]: success
 [2023-06-27 01:43:21] INFO root fetch - main [MainThread]: Store serial: [18654089]
+[2023-06-27 01:48:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18654089]
+[2023-06-27 01:48:29] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-27 01:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databento-dbn
+[2023-06-27 01:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-06-27 01:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytypedstream
+[2023-06-27 01:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clubscore
+[2023-06-27 01:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flardl
+[2023-06-27 01:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnauth-django
+[2023-06-27 01:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: contextplot
+[2023-06-27 01:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-dali-nightly-cuda110
+[2023-06-27 01:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skyplane-nightly
+[2023-06-27 01:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: greyhorse-sqla
+[2023-06-27 01:48:29] WARNING root fetch - processPackages [pytypedstream]: Skipping, unable to determine old version
+[2023-06-27 01:48:29] INFO root fetch - processPackages [pytypedstream]: Start processing: greyhorse-core
+[2023-06-27 01:48:29] INFO root fetch - main [MainThread]: End processing [pytypedstream] error
+[2023-06-27 01:48:29] INFO root fetch - processPackages [contextplot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 01:48:29] INFO root fetch - processPackages [databento-dbn]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-27 01:48:29] INFO root fetch - processPackages [lnauth-django]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-27 01:48:29] INFO root fetch - processPackages [clubscore]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-27 01:48:29] INFO root fetch - processPackages [greyhorse-sqla]: New version: [0.3] Old Version: [0.2]
+[2023-06-27 01:48:29] INFO root fetch - processPackages [flardl]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-06-27 01:48:29] INFO root fetch - processPackages [greyhorse-core]: New version: [0.3] Old Version: [0.2]
+[2023-06-27 01:48:29] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.28.0.dev20230623] Old Version: [1.28.0.dev20230620]
+[2023-06-27 01:48:30] INFO root fetch - processPackages [lnauth-django]: Downloading https://files.pythonhosted.org/packages/9a/7a/330d6778099de141187141d407d3803ee575d0d33b5a7a62c5ae2293b09e/lnauth_django-0.2.0.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.28.0.dev20230623] Old Version: [1.28.0.dev20230620]
+[2023-06-27 01:48:30] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev202306262344] Old Version: [0.3.2.dev202306252122]
+[2023-06-27 01:48:30] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/a0/29/5f5fb855ad74c9b3f0ae53831690e3a59e8115584d1032c6a83f844adc62/clubscore-0.2.3.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [contextplot]: Downloading https://files.pythonhosted.org/packages/c5/ec/8ce0bb850838a1e1701061f5dde8845204824d8bdf7f151829219012559d/contextplot-0.0.1.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [databento-dbn]: Downloading https://files.pythonhosted.org/packages/d8/2d/267d212f53ccb4c450d053f0f04a51902b63634261f3dd7c9d61c33e681b/databento_dbn-0.7.0-cp39-none-win_amd64.whl
+[2023-06-27 01:48:30] INFO root fetch - processPackages [greyhorse-sqla]: Downloading https://files.pythonhosted.org/packages/83/ea/b84af85590a72f6dc606b05562dfab986b60c2cf0de8e811fe64fab9901c/greyhorse_sqla-0.2.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [flardl]: Downloading https://files.pythonhosted.org/packages/fc/9a/aefec994a6dcf9b1c0e790b33e07ae1f296675b8e83cc432d1283fd3a637/flardl-0.0.0.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/1e/dc/2966ad8808f70287a61dd171e6656c5d236bfef04b69333261e61cae223c/nvidia-dali-nightly-cuda110-1.28.0.dev20230620.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [greyhorse-core]: Downloading https://files.pythonhosted.org/packages/60/db/1bd26fa4bde7af267066d1e8348cb5c7dedf865166889cda4d61a2d6d395/greyhorse_core-0.2.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/56/d2/74b938a4b5c8a2509d115353c51ba2ea5faa804f3cfa9cff53b568c20d8b/skyplane_nightly-0.3.2.dev202306252122.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [lnauth-django]: Downloading https://files.pythonhosted.org/packages/39/70/b9a95c9a0184ad61fa264b3f99b681b926304d4dd179ed81ebaad86a6fdd/lnauth_django-0.2.1.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/6f/83/719a9acf2e87348f19be8071dbd810e0a2e3b7698dc3cd95bf470a8218a4/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230620.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [lnauth-django]: executing diffoscope
+[2023-06-27 01:48:30] INFO root fetch - processPackages [lnauth-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnauth_django-0.2.0.tar.gz tmp/lnauth_django-0.2.1.tar.gz --markdown 20230627/l/lnauth-django/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-27 01:48:30] INFO root fetch - processPackages [databento-dbn]: Downloading https://files.pythonhosted.org/packages/9b/dc/d48f0e8e7d947db885447d77dd23760187cc277713743f157039b4b7e89e/databento_dbn-0.7.1-cp39-none-win_amd64.whl
+[2023-06-27 01:48:30] INFO root fetch - processPackages [contextplot]: Downloading https://files.pythonhosted.org/packages/d4/77/35a313ab8246220320bbb1410cf0c0e45d69049c6ef115fc76e090b0a9c6/contextplot-0.0.2.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/2f/38/549e57d7effa0909ec8b4ae2a5e00fe68b215f9723472bf0ea478f9c193f/clubscore-0.2.4.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [contextplot]: executing diffoscope
+[2023-06-27 01:48:30] INFO root fetch - processPackages [contextplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contextplot-0.0.1.tar.gz tmp/contextplot-0.0.2.tar.gz --markdown 20230627/c/contextplot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 01:48:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/73/c1/5ab3920592678d6211cd5dcd4b38e806a8f24d3ae671e8239fc2d2c38bc7/nvidia-dali-nightly-cuda110-1.28.0.dev20230623.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [databento-dbn]: executing diffoscope
+[2023-06-27 01:48:30] INFO root fetch - processPackages [databento-dbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databento_dbn-0.7.0-cp39-none-win_amd64.whl.zip tmp/databento_dbn-0.7.1-cp39-none-win_amd64.whl.zip --markdown 20230627/d/databento-dbn/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-27 01:48:30] INFO root fetch - processPackages [greyhorse-sqla]: Downloading https://files.pythonhosted.org/packages/c8/e1/d24a711d94ff64fb6597458a5303327e396b05de4c5d08c78bcd44795b5d/greyhorse_sqla-0.3.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/7e/b0/b0678082c47e1d7b7ecbc8b27eb66e5f928fa00ab12ee13fa1a16a529af5/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230623.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [clubscore]: executing diffoscope
+[2023-06-27 01:48:30] INFO root fetch - processPackages [clubscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clubscore-0.2.3.tar.gz tmp/clubscore-0.2.4.tar.gz --markdown 20230627/c/clubscore/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-27 01:48:30] INFO root fetch - processPackages [flardl]: Downloading https://files.pythonhosted.org/packages/f4/d9/a8c59629fff46a10e021aaabaf090fddf5980494650605e1b006ab589e67/flardl-0.0.2.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [greyhorse-sqla]: executing diffoscope
+[2023-06-27 01:48:30] INFO root fetch - processPackages [greyhorse-sqla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greyhorse_sqla-0.2.tar.gz tmp/greyhorse_sqla-0.3.tar.gz --markdown 20230627/g/greyhorse-sqla/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-27 01:48:30] INFO root fetch - processPackages [greyhorse-core]: Downloading https://files.pythonhosted.org/packages/85/ff/78d5397826ebed3b1629f70dbc95bb4b946fa8838b22aa858a390c1c82ce/greyhorse_core-0.3.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [flardl]: executing diffoscope
+[2023-06-27 01:48:30] INFO root fetch - processPackages [flardl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flardl-0.0.0.tar.gz tmp/flardl-0.0.2.tar.gz --markdown 20230627/f/flardl/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 01:48:30] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/aa/36/f53446cc47fa7150afd9a8eedbe855ab4498f97432549ac9b172bcd3390c/skyplane_nightly-0.3.2.dev202306262344.tar.gz
+[2023-06-27 01:48:30] INFO root fetch - processPackages [greyhorse-core]: executing diffoscope
+[2023-06-27 01:48:30] INFO root fetch - processPackages [greyhorse-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greyhorse_core-0.2.tar.gz tmp/greyhorse_core-0.3.tar.gz --markdown 20230627/g/greyhorse-core/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-27 01:48:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2023-06-27 01:48:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230620.tar.gz tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230623.tar.gz --markdown 20230627/n/nvidia-dali-nightly-cuda110/1.28.0.dev20230620-1.28.0.dev20230623/diff.md --exclude *.pyd
+[2023-06-27 01:48:30] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-06-27 01:48:30] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230620.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230623.tar.gz --markdown 20230627/n/nvidia-dali-tf-plugin-nightly-cuda110/1.28.0.dev20230620-1.28.0.dev20230623/diff.md --exclude *.pyd
+[2023-06-27 01:48:30] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-06-27 01:48:30] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev202306252122.tar.gz tmp/skyplane_nightly-0.3.2.dev202306262344.tar.gz --markdown 20230627/s/skyplane-nightly/0.3.2.dev202306252122-0.3.2.dev202306262344/diff.md --exclude *.pyd
+[2023-06-27 01:48:31] INFO root fetch - processPackages [lnauth-django]: Remove: archive file [/home/abi/fetcher/tmp/lnauth_django-0.2.0.tar.gz]
+[2023-06-27 01:48:31] INFO root fetch - processPackages [lnauth-django]: Remove: archive file [/home/abi/fetcher/tmp/lnauth_django-0.2.1.tar.gz]
+[2023-06-27 01:48:31] INFO root fetch - processPackages [lnauth-django]: Start processing: gigagan-pytorch
+[2023-06-27 01:48:31] INFO root fetch - main [MainThread]: End processing [lnauth-django]: success
+[2023-06-27 01:48:31] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 01:48:31] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/c0/aa/26bf6b7a863fb9525dd2ca84ff5122173d9bcd4d108b07c4aa8bb92431c7/gigagan-pytorch-0.0.8.tar.gz
+[2023-06-27 01:48:31] INFO root fetch - processPackages [contextplot]: Remove: archive file [/home/abi/fetcher/tmp/contextplot-0.0.1.tar.gz]
+[2023-06-27 01:48:31] INFO root fetch - processPackages [contextplot]: Remove: archive file [/home/abi/fetcher/tmp/contextplot-0.0.2.tar.gz]
+[2023-06-27 01:48:31] INFO root fetch - processPackages [contextplot]: Start processing: release-gitter
+[2023-06-27 01:48:31] INFO root fetch - main [MainThread]: End processing [contextplot]: success
+[2023-06-27 01:48:32] INFO root fetch - processPackages [release-gitter]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [databento-dbn]: Remove: archive file [/home/abi/fetcher/tmp/databento_dbn-0.7.0-cp39-none-win_amd64.whl.zip]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [databento-dbn]: Remove: archive file [/home/abi/fetcher/tmp/databento_dbn-0.7.1-cp39-none-win_amd64.whl.zip]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [databento-dbn]: Start processing: mosaik-pv
+[2023-06-27 01:48:32] INFO root fetch - main [MainThread]: End processing [databento-dbn]: success
+[2023-06-27 01:48:32] WARNING root fetch - processPackages [mosaik-pv]: Skipping, unable to determine old version
+[2023-06-27 01:48:32] INFO root fetch - processPackages [mosaik-pv]: Start processing: simple-code
+[2023-06-27 01:48:32] INFO root fetch - main [MainThread]: End processing [mosaik-pv] error
+[2023-06-27 01:48:32] WARNING root fetch - processPackages [simple-code]: Skipping, unable to determine old version
+[2023-06-27 01:48:32] INFO root fetch - processPackages [simple-code]: Start processing: autopack-tools
+[2023-06-27 01:48:32] INFO root fetch - main [MainThread]: End processing [simple-code] error
+[2023-06-27 01:48:32] INFO root fetch - processPackages [autopack-tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/88/15/d88c491945eed450311a7b87b5c2fc81ce2bdeb29f0c7c042a11e387769b/gigagan-pytorch-0.0.9.tar.gz
+[2023-06-27 01:48:32] INFO root fetch - processPackages [release-gitter]: Downloading https://files.pythonhosted.org/packages/f4/bf/9b2e730e40f25ba6db0d1ed7f53850e357cd4de9d9973601a62ba53c9df7/release-gitter-2.1.0.tar.gz
+[2023-06-27 01:48:32] INFO root fetch - processPackages [greyhorse-sqla]: Remove: archive file [/home/abi/fetcher/tmp/greyhorse_sqla-0.2.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [greyhorse-sqla]: Remove: archive file [/home/abi/fetcher/tmp/greyhorse_sqla-0.3.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [greyhorse-sqla]: Start processing: embykeeper
+[2023-06-27 01:48:32] INFO root fetch - main [MainThread]: End processing [greyhorse-sqla]: success
+[2023-06-27 01:48:32] INFO root fetch - processPackages [embykeeper]: New version: [2.2.5] Old Version: [2.2.3]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230620.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230623.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Start processing: wiliot-api
+[2023-06-27 01:48:32] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2023-06-27 01:48:32] INFO root fetch - processPackages [wiliot-api]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/40/a1/66f5c6a34c33523fac764391e7dae9c8e5b6d351893a94d9d5c390aea1ba/autopack_tools-0.1.3.tar.gz
+[2023-06-27 01:48:32] INFO root fetch - processPackages [flardl]: Remove: archive file [/home/abi/fetcher/tmp/flardl-0.0.0.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [flardl]: Remove: archive file [/home/abi/fetcher/tmp/flardl-0.0.2.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - main [MainThread]: End processing [flardl]: success
+[2023-06-27 01:48:32] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/ba/87/d176d63e59018b012093f05776610ff266de054540a889e1c565fdff5373/embykeeper-2.2.3.tar.gz
+[2023-06-27 01:48:32] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-06-27 01:48:32] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.0.8.tar.gz tmp/gigagan-pytorch-0.0.9.tar.gz --markdown 20230627/g/gigagan-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 01:48:32] INFO root fetch - processPackages [clubscore]: Remove: archive file [/home/abi/fetcher/tmp/clubscore-0.2.3.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [clubscore]: Remove: archive file [/home/abi/fetcher/tmp/clubscore-0.2.4.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - main [MainThread]: End processing [clubscore]: success
+[2023-06-27 01:48:32] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230620.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230623.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-06-27 01:48:32] INFO root fetch - processPackages [greyhorse-core]: Remove: archive file [/home/abi/fetcher/tmp/greyhorse_core-0.2.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - processPackages [greyhorse-core]: Remove: archive file [/home/abi/fetcher/tmp/greyhorse_core-0.3.tar.gz]
+[2023-06-27 01:48:32] INFO root fetch - main [MainThread]: End processing [greyhorse-core]: success
+[2023-06-27 01:48:32] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/fa/b3/c61958c4b3c7889bfeaa047daa93d30fbfbbdc7c6e43560217993d228d42/wiliot-api-4.2.0.tar.gz
+[2023-06-27 01:48:32] INFO root fetch - processPackages [release-gitter]: Downloading https://files.pythonhosted.org/packages/f2/1d/f9afcfe2eac1a2d63cf0e60fc005164c23d5e9cf623cd46272faf4273f51/release-gitter-2.1.1.tar.gz
+[2023-06-27 01:48:32] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/01/0c/8195cdec471e8f78f16d56007e6716ac9cfd8e1f68ffb69916e25efc2aad/autopack_tools-0.1.4.tar.gz
+[2023-06-27 01:48:32] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/77/16/0b70ba27d9fe6f7e0cf579d7ac1ba367505b2e127dc5669f17bc633e4ca8/embykeeper-2.2.5.tar.gz
+[2023-06-27 01:48:32] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-06-27 01:48:32] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.1.3.tar.gz tmp/autopack_tools-0.1.4.tar.gz --markdown 20230627/a/autopack-tools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-27 01:48:32] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-06-27 01:48:32] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.2.3.tar.gz tmp/embykeeper-2.2.5.tar.gz --markdown 20230627/e/embykeeper/2.2.3-2.2.5/diff.md --exclude *.pyd
+[2023-06-27 01:48:32] INFO root fetch - processPackages [release-gitter]: executing diffoscope
+[2023-06-27 01:48:32] INFO root fetch - processPackages [release-gitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/release-gitter-2.1.0.tar.gz tmp/release-gitter-2.1.1.tar.gz --markdown 20230627/r/release-gitter/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-27 01:48:32] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/b9/61/a3be27ce7f4cacbc71eb7037f4a7fdeee19067c1bf94a6433664c9aaa6af/wiliot-api-4.3.0.tar.gz
+[2023-06-27 01:48:32] INFO root fetch - processPackages [wiliot-api]: executing diffoscope
+[2023-06-27 01:48:32] INFO root fetch - processPackages [wiliot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-api-4.2.0.tar.gz tmp/wiliot-api-4.3.0.tar.gz --markdown 20230627/w/wiliot-api/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-06-27 01:48:33] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202306252122.tar.gz]
+[2023-06-27 01:48:33] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202306262344.tar.gz]
+[2023-06-27 01:48:33] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-06-27 01:48:33] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.8.tar.gz]
+[2023-06-27 01:48:33] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.9.tar.gz]
+[2023-06-27 01:48:33] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-06-27 01:48:33] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.3.tar.gz]
+[2023-06-27 01:48:33] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.4.tar.gz]
+[2023-06-27 01:48:33] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-06-27 01:48:33] INFO root fetch - processPackages [release-gitter]: Remove: archive file [/home/abi/fetcher/tmp/release-gitter-2.1.0.tar.gz]
+[2023-06-27 01:48:33] INFO root fetch - processPackages [release-gitter]: Remove: archive file [/home/abi/fetcher/tmp/release-gitter-2.1.1.tar.gz]
+[2023-06-27 01:48:33] INFO root fetch - main [MainThread]: End processing [release-gitter]: success
+[2023-06-27 01:48:34] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.2.0.tar.gz]
+[2023-06-27 01:48:34] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.3.0.tar.gz]
+[2023-06-27 01:48:34] INFO root fetch - main [MainThread]: End processing [wiliot-api]: success
+[2023-06-27 01:48:34] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.3.tar.gz]
+[2023-06-27 01:48:34] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.5.tar.gz]
+[2023-06-27 01:48:34] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-06-27 01:48:34] INFO root fetch - main [MainThread]: Store serial: [18654174]
