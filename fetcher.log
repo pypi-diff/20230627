@@ -1431,3 +1431,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [diself]: success
 [2023-06-27 01:22:09] INFO root fetch - main [MainThread]: End processing [diself]: success
 [2023-06-27 01:22:09] INFO root fetch - main [MainThread]: Store serial: [18653984]
+[2023-06-27 01:27:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653984]
+[2023-06-27 01:27:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-27 01:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qctrl-commons
+[2023-06-27 01:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quil
+[2023-06-27 01:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dtschema
+[2023-06-27 01:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: contextplot
+[2023-06-27 01:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reliableGPT
+[2023-06-27 01:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reliableGPT
+[2023-06-27 01:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lnauth-django
+[2023-06-27 01:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-27 01:27:18] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.913] Old Version: [0.2.911]
+[2023-06-27 01:27:18] INFO root fetch - processPackages [dtschema]: New version: [2023.6] Old Version: [2023.4]
+[2023-06-27 01:27:18] WARNING root fetch - processPackages [contextplot]: Skipping, unable to determine old version
+[2023-06-27 01:27:18] INFO root fetch - main [MainThread]: End processing [contextplot] error
+[2023-06-27 01:27:18] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.378] Old Version: [0.3.377]
+[2023-06-27 01:27:18] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.913] Old Version: [0.2.911]
+[2023-06-27 01:27:18] INFO root fetch - processPackages [quil]: New version: [0.2.0rc7] Old Version: [0.2.0rc6]
+[2023-06-27 01:27:18] INFO root fetch - processPackages [qctrl-commons]: New version: [9.0.0] Old Version: [8.1.0]
+[2023-06-27 01:27:18] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/6d/88/b9b6e2bdb8f3db67596ea3e5acb7e79fc745fe7ea252d7abae9e3e9ed7b4/reliableGPT-0.2.911.tar.gz
+[2023-06-27 01:27:18] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/94/41/a4879c048600d5fbde345e0bb6244cd8436082c500c72e974413d6d6570a/pepperize.cdk-ses-smtp-credentials-0.3.377.tar.gz
+[2023-06-27 01:27:18] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/6d/88/b9b6e2bdb8f3db67596ea3e5acb7e79fc745fe7ea252d7abae9e3e9ed7b4/reliableGPT-0.2.911.tar.gz
+[2023-06-27 01:27:18] INFO root fetch - processPackages [lnauth-django]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-27 01:27:19] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/37/29/8ce7faf097161b0654580c1f2b7039b9362b1b34a46ef319d1a2a34320a1/quil-0.2.0rc6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-27 01:27:19] INFO root fetch - processPackages [dtschema]: Downloading https://files.pythonhosted.org/packages/e3/70/f19d8f7c0ad527a368d06a7acb1091f82916a0fcb4953942da96eb6e3456/dtschema-2023.4.tar.gz
+[2023-06-27 01:27:19] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/46/db/d0de42840a30f78ba5260811263005b4cdbad033c1657ac8496e03ef08e2/qctrl-commons-8.1.0.tar.gz
+[2023-06-27 01:27:19] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/98/0d/728a11c7b291c89e8916068515d662801450b8e332ec298ba4afe36e3bf7/pepperize.cdk-ses-smtp-credentials-0.3.378.tar.gz
+[2023-06-27 01:27:19] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/c3/3e/984365324ffcb1c09b4a70720e5eff02fc636569c95069fb91093d11f56a/reliableGPT-0.2.913.tar.gz
+[2023-06-27 01:27:19] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/c3/3e/984365324ffcb1c09b4a70720e5eff02fc636569c95069fb91093d11f56a/reliableGPT-0.2.913.tar.gz
+[2023-06-27 01:27:19] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-27 01:27:19] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.377.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.378.tar.gz --markdown 20230627/p/pepperize.cdk-ses-smtp-credentials/0.3.377-0.3.378/diff.md --exclude *.pyd
+[2023-06-27 01:27:19] INFO root fetch - processPackages [lnauth-django]: Downloading https://files.pythonhosted.org/packages/b6/cf/28c67fc84e10b35bd4ec84c1349d2be41b3dd154a479c55bd621459f25d9/lnauth_django-0.1.0.tar.gz
+[2023-06-27 01:27:19] INFO root fetch - processPackages [dtschema]: Downloading https://files.pythonhosted.org/packages/24/cc/a5d1cdf1e1f2be9579e22fe85f9a35d677c5a6ad36c0c590e60ea532fa72/dtschema-2023.6.tar.gz
+[2023-06-27 01:27:19] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-27 01:27:19] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.911.tar.gz tmp/reliableGPT-0.2.913.tar.gz --markdown 20230627/r/reliableGPT/0.2.911-0.2.913/diff.md --exclude *.pyd
+[2023-06-27 01:27:19] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-27 01:27:19] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.911.tar.gz tmp/reliableGPT-0.2.913.tar.gz --markdown 20230627/r/reliableGPT/0.2.911-0.2.913/diff.md --exclude *.pyd
+[2023-06-27 01:27:19] INFO root fetch - processPackages [dtschema]: executing diffoscope
+[2023-06-27 01:27:19] INFO root fetch - processPackages [dtschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtschema-2023.4.tar.gz tmp/dtschema-2023.6.tar.gz --markdown 20230627/d/dtschema/2023.4-2023.6/diff.md --exclude *.pyd
+[2023-06-27 01:27:19] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/52/e6/108f3806637d0e22c3ca08e15d9dd71a4b256080e9616b42a0fdf859a5c6/qctrl-commons-9.0.0.tar.gz
+[2023-06-27 01:27:19] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/0a/1d/f33c7e591084fd98ae966abba574b24d50f26e7c3662e7f0d96a94163360/quil-0.2.0rc7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-27 01:27:19] INFO root fetch - processPackages [qctrl-commons]: executing diffoscope
+[2023-06-27 01:27:19] INFO root fetch - processPackages [qctrl-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl-commons-8.1.0.tar.gz tmp/qctrl-commons-9.0.0.tar.gz --markdown 20230627/q/qctrl-commons/8.1.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-27 01:27:19] INFO root fetch - processPackages [lnauth-django]: Downloading https://files.pythonhosted.org/packages/9a/7a/330d6778099de141187141d407d3803ee575d0d33b5a7a62c5ae2293b09e/lnauth_django-0.2.0.tar.gz
+[2023-06-27 01:27:19] INFO root fetch - processPackages [lnauth-django]: executing diffoscope
+[2023-06-27 01:27:19] INFO root fetch - processPackages [lnauth-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnauth_django-0.1.0.tar.gz tmp/lnauth_django-0.2.0.tar.gz --markdown 20230627/l/lnauth-django/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-27 01:27:19] INFO root fetch - processPackages [quil]: executing diffoscope
+[2023-06-27 01:27:19] INFO root fetch - processPackages [quil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quil-0.2.0rc6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/quil-0.2.0rc7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230627/q/quil/0.2.0rc6-0.2.0rc7/diff.md --exclude *.pyd
+[2023-06-27 01:27:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.377.tar.gz]
+[2023-06-27 01:27:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.378.tar.gz]
+[2023-06-27 01:27:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-27 01:27:20] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.911.tar.gz]
+[2023-06-27 01:27:20] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.913.tar.gz]
+[2023-06-27 01:27:20] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-27 01:27:20] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-27 01:27:20] INFO root fetch - processPackages [lnauth-django]: Remove: archive file [/home/abi/fetcher/tmp/lnauth_django-0.1.0.tar.gz]
+[2023-06-27 01:27:20] INFO root fetch - processPackages [lnauth-django]: Remove: archive file [/home/abi/fetcher/tmp/lnauth_django-0.2.0.tar.gz]
+[2023-06-27 01:27:20] INFO root fetch - main [MainThread]: End processing [lnauth-django]: success
+[2023-06-27 01:27:21] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-8.1.0.tar.gz]
+[2023-06-27 01:27:21] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-9.0.0.tar.gz]
+[2023-06-27 01:27:21] INFO root fetch - main [MainThread]: End processing [qctrl-commons]: success
+[2023-06-27 01:27:21] INFO root fetch - processPackages [dtschema]: Remove: archive file [/home/abi/fetcher/tmp/dtschema-2023.4.tar.gz]
+[2023-06-27 01:27:21] INFO root fetch - processPackages [dtschema]: Remove: archive file [/home/abi/fetcher/tmp/dtschema-2023.6.tar.gz]
+[2023-06-27 01:27:21] INFO root fetch - main [MainThread]: End processing [dtschema]: success
+[2023-06-27 01:27:43] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-27 01:27:43] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-27 01:27:43] INFO root fetch - main [MainThread]: End processing [quil]: success
+[2023-06-27 01:27:43] INFO root fetch - main [MainThread]: Store serial: [18654020]
