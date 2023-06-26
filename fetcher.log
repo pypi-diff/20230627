@@ -1,0 +1,78 @@
+[2023-06-27 00:05:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653337]
+[2023-06-27 00:05:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-27 00:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: css-selector-minifier
+[2023-06-27 00:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wallaroo
+[2023-06-27 00:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-aggregator
+[2023-06-27 00:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-grammar
+[2023-06-27 00:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MGSurvE
+[2023-06-27 00:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentry-arroyo
+[2023-06-27 00:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langsmith
+[2023-06-27 00:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drfetools
+[2023-06-27 00:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fast-matrix-market
+[2023-06-27 00:05:29] INFO root fetch - processPackages [data-aggregator]: New version: [1.2.1] Old Version: [1.1.2]
+[2023-06-27 00:05:29] INFO root fetch - processPackages [wallaroo]: New version: [2023.2.1rc1] Old Version: [2023.2.0rc4]
+[2023-06-27 00:05:29] INFO root fetch - processPackages [css-selector-minifier]: New version: [2.0] Old Version: [1.2.15]
+[2023-06-27 00:05:29] INFO root fetch - processPackages [torch-grammar]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-27 00:05:29] WARNING root fetch - processPackages [langsmith]: Skipping, unable to determine old version
+[2023-06-27 00:05:29] INFO root fetch - main [MainThread]: End processing [langsmith] error
+[2023-06-27 00:05:29] INFO root fetch - processPackages [MGSurvE]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 00:05:29] INFO root fetch - processPackages [sentry-arroyo]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-27 00:05:29] INFO root fetch - processPackages [fast-matrix-market]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-27 00:05:29] INFO root fetch - processPackages [drfetools]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-27 00:05:29] INFO root fetch - processPackages [MGSurvE]: Downloading https://files.pythonhosted.org/packages/3d/17/a07496419a6bc660d511967bd97e9400d11fcd4e2b6b681b1119774e2b78/MGSurvE-1.0.2.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [fast-matrix-market]: Downloading https://files.pythonhosted.org/packages/5e/f0/d3f0c63694c3a57d54a49ea52eea096b3056f85ebf58024524d3bff1ef96/fast-matrix-market-1.7.0.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [data-aggregator]: Downloading https://files.pythonhosted.org/packages/1c/0a/b671c9544e3b95f6f0272c9754073ef7b0df44d670653b87afa56f775ebc/data_aggregator-1.1.2.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [css-selector-minifier]: Downloading https://files.pythonhosted.org/packages/5c/02/eb7c2cc8ef4b34d8fc876b59c99c13706d67baaad2a8de7f82b2e8c1b303/css_selector_minifier-1.2.15.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [wallaroo]: Downloading https://files.pythonhosted.org/packages/1c/22/3a9a6d021303e71e96a8a537a758f9d9fe68694caac9b62c0f2209d0452c/wallaroo-2023.2.0rc4-py3-none-any.whl
+[2023-06-27 00:05:29] INFO root fetch - processPackages [sentry-arroyo]: Downloading https://files.pythonhosted.org/packages/33/e1/d5ea1b22b184f43c89eebc82467cf5401a9d986666a8ea6294a7b4969699/sentry-arroyo-2.9.0.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [drfetools]: Downloading https://files.pythonhosted.org/packages/c0/82/e7559d32fb756ccc3f92cb34651c634c2aee91d6bf1bc61d192cd7709ab8/drfetools-0.3.0.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [torch-grammar]: Downloading https://files.pythonhosted.org/packages/f3/2a/a2559ae951f651962109789909a1db640d26492d8466c9a5a162f41544a8/torch_grammar-0.2.1.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [MGSurvE]: Downloading https://files.pythonhosted.org/packages/4e/6d/07e72778fb28b129536c68ed2f04124226ed60037ed8db4bd3fc80ff39fc/MGSurvE-1.0.3.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [fast-matrix-market]: Downloading https://files.pythonhosted.org/packages/8a/78/d4fd716cddca43c5b526c70a989ea091cac39eb0b7bf866f7d296e914a7c/fast-matrix-market-1.7.1.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [css-selector-minifier]: Downloading https://files.pythonhosted.org/packages/1f/5a/7d2d69b2fe30771631962df3974d7118f7f7f8c071ce35b5210b1142c85c/css_selector_minifier-2.0.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [data-aggregator]: Downloading https://files.pythonhosted.org/packages/1d/da/231125b7fff64cfdb5a5b7629c1f4e2e055c0c46d705914b8964cab63b7a/data_aggregator-1.2.1.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [sentry-arroyo]: Downloading https://files.pythonhosted.org/packages/d4/1a/90766875f9eaa1377c255103ddf3aa1ef3182ea97e8782b0779ebd2e4769/sentry-arroyo-2.9.1.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [fast-matrix-market]: executing diffoscope
+[2023-06-27 00:05:29] INFO root fetch - processPackages [fast-matrix-market]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-matrix-market-1.7.0.tar.gz tmp/fast-matrix-market-1.7.1.tar.gz --markdown 20230627/f/fast-matrix-market/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-27 00:05:29] INFO root fetch - processPackages [MGSurvE]: executing diffoscope
+[2023-06-27 00:05:29] INFO root fetch - processPackages [MGSurvE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MGSurvE-1.0.2.tar.gz tmp/MGSurvE-1.0.3.tar.gz --markdown 20230627/M/MGSurvE/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 00:05:29] INFO root fetch - processPackages [css-selector-minifier]: executing diffoscope
+[2023-06-27 00:05:29] INFO root fetch - processPackages [css-selector-minifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/css_selector_minifier-1.2.15.tar.gz tmp/css_selector_minifier-2.0.tar.gz --markdown 20230627/c/css-selector-minifier/1.2.15-2.0/diff.md --exclude *.pyd
+[2023-06-27 00:05:29] INFO root fetch - processPackages [torch-grammar]: Downloading https://files.pythonhosted.org/packages/3b/c8/0766aa59e67196c51feee1804b3667a9869ebf50890d2a3c5b2f6a826a0a/torch_grammar-0.3.0.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [drfetools]: Downloading https://files.pythonhosted.org/packages/4d/01/9f84a0870575a670ad1d7f4cc2e9db5a8c0f8d1a2cb0337962c70ac7a753/drfetools-0.3.1.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [data-aggregator]: executing diffoscope
+[2023-06-27 00:05:29] INFO root fetch - processPackages [data-aggregator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_aggregator-1.1.2.tar.gz tmp/data_aggregator-1.2.1.tar.gz --markdown 20230627/d/data-aggregator/1.1.2-1.2.1/diff.md --exclude *.pyd
+[2023-06-27 00:05:29] INFO root fetch - processPackages [wallaroo]: Downloading https://files.pythonhosted.org/packages/22/e0/14d18414a7be22871bbd75c56110f5281e85946fda340b0680b833243880/wallaroo-2023.2.1rc1.tar.gz
+[2023-06-27 00:05:29] INFO root fetch - processPackages [sentry-arroyo]: executing diffoscope
+[2023-06-27 00:05:29] INFO root fetch - processPackages [sentry-arroyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-arroyo-2.9.0.tar.gz tmp/sentry-arroyo-2.9.1.tar.gz --markdown 20230627/s/sentry-arroyo/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-27 00:05:29] INFO root fetch - processPackages [torch-grammar]: executing diffoscope
+[2023-06-27 00:05:29] INFO root fetch - processPackages [torch-grammar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_grammar-0.2.1.tar.gz tmp/torch_grammar-0.3.0.tar.gz --markdown 20230627/t/torch-grammar/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-27 00:05:30] INFO root fetch - processPackages [drfetools]: executing diffoscope
+[2023-06-27 00:05:30] INFO root fetch - processPackages [drfetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drfetools-0.3.0.tar.gz tmp/drfetools-0.3.1.tar.gz --markdown 20230627/d/drfetools/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-27 00:05:30] INFO root fetch - processPackages [wallaroo]: executing diffoscope
+[2023-06-27 00:05:30] INFO root fetch - processPackages [wallaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wallaroo-2023.2.0rc4-py3-none-any.whl.zip tmp/wallaroo-2023.2.1rc1.tar.gz --markdown 20230627/w/wallaroo/2023.2.0rc4-2023.2.1rc1/diff.md --exclude *.pyd
+[2023-06-27 00:05:31] INFO root fetch - processPackages [css-selector-minifier]: Remove: archive file [/home/abi/fetcher/tmp/css_selector_minifier-1.2.15.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - processPackages [css-selector-minifier]: Remove: archive file [/home/abi/fetcher/tmp/css_selector_minifier-2.0.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - main [MainThread]: End processing [css-selector-minifier]: success
+[2023-06-27 00:05:31] INFO root fetch - processPackages [MGSurvE]: Remove: archive file [/home/abi/fetcher/tmp/MGSurvE-1.0.2.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - processPackages [MGSurvE]: Remove: archive file [/home/abi/fetcher/tmp/MGSurvE-1.0.3.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - main [MainThread]: End processing [MGSurvE]: success
+[2023-06-27 00:05:31] INFO root fetch - processPackages [torch-grammar]: Remove: archive file [/home/abi/fetcher/tmp/torch_grammar-0.2.1.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - processPackages [torch-grammar]: Remove: archive file [/home/abi/fetcher/tmp/torch_grammar-0.3.0.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - main [MainThread]: End processing [torch-grammar]: success
+[2023-06-27 00:05:31] INFO root fetch - processPackages [sentry-arroyo]: Remove: archive file [/home/abi/fetcher/tmp/sentry-arroyo-2.9.0.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - processPackages [sentry-arroyo]: Remove: archive file [/home/abi/fetcher/tmp/sentry-arroyo-2.9.1.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - main [MainThread]: End processing [sentry-arroyo]: success
+[2023-06-27 00:05:31] INFO root fetch - processPackages [fast-matrix-market]: Remove: archive file [/home/abi/fetcher/tmp/fast-matrix-market-1.7.0.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - processPackages [fast-matrix-market]: Remove: archive file [/home/abi/fetcher/tmp/fast-matrix-market-1.7.1.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - main [MainThread]: End processing [fast-matrix-market]: success
+[2023-06-27 00:05:31] INFO root fetch - processPackages [drfetools]: Remove: archive file [/home/abi/fetcher/tmp/drfetools-0.3.0.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - processPackages [drfetools]: Remove: archive file [/home/abi/fetcher/tmp/drfetools-0.3.1.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - main [MainThread]: End processing [drfetools]: success
+[2023-06-27 00:05:31] INFO root fetch - processPackages [data-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/data_aggregator-1.1.2.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - processPackages [data-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/data_aggregator-1.2.1.tar.gz]
+[2023-06-27 00:05:31] INFO root fetch - main [MainThread]: End processing [data-aggregator]: success
+[2023-06-27 00:05:38] INFO root fetch - processPackages [wallaroo]: Remove: archive file [/home/abi/fetcher/tmp/wallaroo-2023.2.0rc4-py3-none-any.whl.zip]
+[2023-06-27 00:05:38] INFO root fetch - processPackages [wallaroo]: Remove: archive file [/home/abi/fetcher/tmp/wallaroo-2023.2.1rc1.tar.gz]
+[2023-06-27 00:05:38] INFO root fetch - main [MainThread]: End processing [wallaroo]: success
+[2023-06-27 00:05:38] INFO root fetch - main [MainThread]: Store serial: [18653377]
