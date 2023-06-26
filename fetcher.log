@@ -178,3 +178,106 @@
 [2023-06-27 00:13:29] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.4.0rc1.tar.gz]
 [2023-06-27 00:13:29] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
 [2023-06-27 00:13:29] INFO root fetch - main [MainThread]: Store serial: [18653464]
+[2023-06-27 00:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653464]
+[2023-06-27 00:18:52] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-terraform-registry
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramanspy
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fixit1
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PureFlow
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-stt-http-server
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metamaterailanalisiscode
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vwo-python-sdk
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shub-workflow
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vwo-python-sdk
+[2023-06-27 00:18:52] WARNING root fetch - processPackages [metamaterailanalisiscode]: Skipping, unable to determine old version
+[2023-06-27 00:18:52] INFO root fetch - processPackages [metamaterailanalisiscode]: Start processing: datahtml
+[2023-06-27 00:18:52] INFO root fetch - main [MainThread]: End processing [metamaterailanalisiscode] error
+[2023-06-27 00:18:52] INFO root fetch - processPackages [vwo-python-sdk]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-27 00:18:52] WARNING root fetch - processPackages [PureFlow]: Skipping, unable to determine old version
+[2023-06-27 00:18:52] INFO root fetch - processPackages [PureFlow]: Start processing: descarteslabs
+[2023-06-27 00:18:52] INFO root fetch - main [MainThread]: End processing [PureFlow] error
+[2023-06-27 00:18:52] INFO root fetch - processPackages [aws-terraform-registry]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-27 00:18:52] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ramanspy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ovos-stt-http-server]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-06-27 00:18:52] WARNING root fetch - processPackages [fixit1]: Skipping, unable to determine old version
+[2023-06-27 00:18:52] INFO root fetch - processPackages [fixit1]: Start processing: upSmtEngine
+[2023-06-27 00:18:52] INFO root fetch - main [MainThread]: End processing [fixit1] error
+[2023-06-27 00:18:52] INFO root fetch - processPackages [vwo-python-sdk]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-27 00:18:52] INFO root fetch - processPackages [datahtml]: New version: [0.4.0rc5] Old Version: [0.4.0rc4]
+[2023-06-27 00:18:52] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 00:18:52] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/93/cd/71cad63a3e8c01cd40d3c51f48446390060bf24d4ee8a8a12198de612624/datahtml-0.4.0rc4.tar.gz
+[2023-06-27 00:18:52] INFO root fetch - processPackages [descarteslabs]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-27 00:18:52] WARNING root fetch - processPackages [upSmtEngine]: Skipping, unable to determine old version
+[2023-06-27 00:18:52] INFO root fetch - processPackages [upSmtEngine]: Start processing: pyscal-rdf
+[2023-06-27 00:18:52] INFO root fetch - main [MainThread]: End processing [upSmtEngine] error
+[2023-06-27 00:18:52] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/43/9e/831877c33ce8e4f020b1efcae45cc76f3cf9f114301cf91c925dadedbad4/vwo-python-sdk-1.8.2.tar.gz
+[2023-06-27 00:18:52] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/43/9e/831877c33ce8e4f020b1efcae45cc76f3cf9f114301cf91c925dadedbad4/vwo-python-sdk-1.8.2.tar.gz
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ovos-stt-http-server]: Downloading https://files.pythonhosted.org/packages/ff/6e/e83d3b6b2bd58bd3acb15073483478b99cb57dbdac3a823d79a810f1794c/ovos-stt-http-server-0.0.2a8.tar.gz
+[2023-06-27 00:18:52] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-27 00:18:52] INFO root fetch - processPackages [pyscal-rdf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 00:18:52] INFO root fetch - processPackages [ramanspy]: Downloading https://files.pythonhosted.org/packages/ef/d0/63ebba5fb6f2fedc0f644f997d507dbd48d30db720812a0f46883e4ed16b/ramanspy-0.0.2.tar.gz
+[2023-06-27 00:18:52] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/b8/b5/f37b87a1a4c72917366bc3b9794f1729c62b0130131750ba52c35c41e5e4/shub-workflow-1.9.7.3.tar.gz
+[2023-06-27 00:18:52] INFO root fetch - processPackages [aws-terraform-registry]: Downloading https://files.pythonhosted.org/packages/5f/ee/2858dc75f040638235b5f7d464db12191cfbf2e9dfe600c100edc27cdd28/aws_terraform_registry-1.0.0.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/04/54/bf7e5d92ad74c3b176e626f9aca73b00337aa83fdf5fa33eea1f4d603301/pyscal_rdf-0.0.8.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [descarteslabs]: Downloading https://files.pythonhosted.org/packages/49/df/3770b4f33add83879a68a477777c2663fa3a1e54db212cb7957daeae5e17/descarteslabs-2.0.1.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/82/a9/9a3fd59cf64235fa5874c1942120a967ca65204c9f100e13ddeae2199426/pyscal_rdf-0.0.9.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [ramanspy]: Downloading https://files.pythonhosted.org/packages/0e/f1/87569ed3a3c76f172b634fad05b702f5d16aaa6fdd58a25b7c4aeb1e475c/ramanspy-0.0.3.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/da/72/3c1b74f57b5b647b27a01d8c3a65b25ee7acc4aa566fa905f1dde110e5d2/vwo-python-sdk-1.9.0.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/da/72/3c1b74f57b5b647b27a01d8c3a65b25ee7acc4aa566fa905f1dde110e5d2/vwo-python-sdk-1.9.0.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [pyscal-rdf]: executing diffoscope
+[2023-06-27 00:18:53] INFO root fetch - processPackages [pyscal-rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscal_rdf-0.0.8.tar.gz tmp/pyscal_rdf-0.0.9.tar.gz --markdown 20230627/p/pyscal-rdf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 00:18:53] INFO root fetch - processPackages [aws-terraform-registry]: Downloading https://files.pythonhosted.org/packages/50/a9/811f82e718860365570b7f8e0e4e966be9a9efa991a0b0e68aabfa49ff94/aws_terraform_registry-1.1.0.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/56/67/83548ca4821a57beef534c4bbf9ef87c7c9bcc4fff13723e405409c3aaa0/datahtml-0.4.0rc5.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/06/49/c3ec898ce5372e567e1a288374d950650ae37bcffa6f46c6d7233228eee6/shub-workflow-1.9.7.4.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [ovos-stt-http-server]: Downloading https://files.pythonhosted.org/packages/fc/d1/2a4c484248ab21a0d86d7a61a2e11b4dad5321d196d5600f1b33a1e202a0/ovos-stt-http-server-0.0.2a9.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-27 00:18:53] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 00:18:53] INFO root fetch - processPackages [vwo-python-sdk]: executing diffoscope
+[2023-06-27 00:18:53] INFO root fetch - processPackages [vwo-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vwo-python-sdk-1.8.2.tar.gz tmp/vwo-python-sdk-1.9.0.tar.gz --markdown 20230627/v/vwo-python-sdk/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-27 00:18:53] INFO root fetch - processPackages [ramanspy]: executing diffoscope
+[2023-06-27 00:18:53] INFO root fetch - processPackages [ramanspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramanspy-0.0.2.tar.gz tmp/ramanspy-0.0.3.tar.gz --markdown 20230627/r/ramanspy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 00:18:53] INFO root fetch - processPackages [vwo-python-sdk]: executing diffoscope
+[2023-06-27 00:18:53] INFO root fetch - processPackages [vwo-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vwo-python-sdk-1.8.2.tar.gz tmp/vwo-python-sdk-1.9.0.tar.gz --markdown 20230627/v/vwo-python-sdk/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-27 00:18:53] INFO root fetch - processPackages [aws-terraform-registry]: executing diffoscope
+[2023-06-27 00:18:53] INFO root fetch - processPackages [aws-terraform-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_terraform_registry-1.0.0.tar.gz tmp/aws_terraform_registry-1.1.0.tar.gz --markdown 20230627/a/aws-terraform-registry/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-27 00:18:53] INFO root fetch - processPackages [descarteslabs]: Downloading https://files.pythonhosted.org/packages/5f/c3/40ae21c4e74b573c24ebf678f9bfd6178dd89a30d5e94d9a94590246dcd5/descarteslabs-2.0.2.tar.gz
+[2023-06-27 00:18:53] INFO root fetch - processPackages [datahtml]: executing diffoscope
+[2023-06-27 00:18:53] INFO root fetch - processPackages [datahtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datahtml-0.4.0rc4.tar.gz tmp/datahtml-0.4.0rc5.tar.gz --markdown 20230627/d/datahtml/0.4.0rc4-0.4.0rc5/diff.md --exclude *.pyd
+[2023-06-27 00:18:53] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-06-27 00:18:53] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230627/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-06-27 00:18:53] INFO root fetch - processPackages [ovos-stt-http-server]: executing diffoscope
+[2023-06-27 00:18:53] INFO root fetch - processPackages [ovos-stt-http-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-stt-http-server-0.0.2a8.tar.gz tmp/ovos-stt-http-server-0.0.2a9.tar.gz --markdown 20230627/o/ovos-stt-http-server/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-06-27 00:18:53] INFO root fetch - processPackages [descarteslabs]: executing diffoscope
+[2023-06-27 00:18:53] INFO root fetch - processPackages [descarteslabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/descarteslabs-2.0.1.tar.gz tmp/descarteslabs-2.0.2.tar.gz --markdown 20230627/d/descarteslabs/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-27 00:18:55] INFO root fetch - processPackages [ovos-stt-http-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos-stt-http-server-0.0.2a8.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - processPackages [ovos-stt-http-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos-stt-http-server-0.0.2a9.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - main [MainThread]: End processing [ovos-stt-http-server]: success
+[2023-06-27 00:18:55] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.0.8.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.0.9.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - main [MainThread]: End processing [pyscal-rdf]: success
+[2023-06-27 00:18:55] INFO root fetch - processPackages [aws-terraform-registry]: Remove: archive file [/home/abi/fetcher/tmp/aws_terraform_registry-1.0.0.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - processPackages [aws-terraform-registry]: Remove: archive file [/home/abi/fetcher/tmp/aws_terraform_registry-1.1.0.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - main [MainThread]: End processing [aws-terraform-registry]: success
+[2023-06-27 00:18:55] INFO root fetch - processPackages [vwo-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vwo-python-sdk-1.8.2.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - processPackages [vwo-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vwo-python-sdk-1.9.0.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - main [MainThread]: End processing [vwo-python-sdk]: success
+[2023-06-27 00:18:55] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc4.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc5.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - main [MainThread]: End processing [datahtml]: success
+[2023-06-27 00:18:55] INFO root fetch - processPackages [ramanspy]: Remove: archive file [/home/abi/fetcher/tmp/ramanspy-0.0.2.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - processPackages [ramanspy]: Remove: archive file [/home/abi/fetcher/tmp/ramanspy-0.0.3.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - main [MainThread]: End processing [ramanspy]: success
+[2023-06-27 00:18:55] INFO root fetch - processPackages [shub-workflow]: Remove: archive file [/home/abi/fetcher/tmp/shub-workflow-1.9.7.3.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - processPackages [shub-workflow]: Remove: archive file [/home/abi/fetcher/tmp/shub-workflow-1.9.7.4.tar.gz]
+[2023-06-27 00:18:55] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-06-27 00:18:55] INFO root fetch - main [MainThread]: End processing [vwo-python-sdk]: success
+[2023-06-27 00:18:56] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-27 00:18:56] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-27 00:18:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-27 00:18:56] INFO root fetch - processPackages [descarteslabs]: Remove: archive file [/home/abi/fetcher/tmp/descarteslabs-2.0.1.tar.gz]
+[2023-06-27 00:18:56] INFO root fetch - processPackages [descarteslabs]: Remove: archive file [/home/abi/fetcher/tmp/descarteslabs-2.0.2.tar.gz]
+[2023-06-27 00:18:56] INFO root fetch - main [MainThread]: End processing [descarteslabs]: success
+[2023-06-27 00:18:56] INFO root fetch - main [MainThread]: Store serial: [18653530]
