@@ -1616,3 +1616,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 01:38:10] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
 [2023-06-27 01:38:10] INFO root fetch - main [MainThread]: End processing [m23]: success
 [2023-06-27 01:38:10] INFO root fetch - main [MainThread]: Store serial: [18654079]
+[2023-06-27 01:43:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18654079]
+[2023-06-27 01:43:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-27 01:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-ecosystem-services
+[2023-06-27 01:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dkist-processing-common
+[2023-06-27 01:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: platformer1234
+[2023-06-27 01:43:19] WARNING root fetch - processPackages [platformer1234]: Skipping, unable to determine old version
+[2023-06-27 01:43:19] INFO root fetch - main [MainThread]: End processing [platformer1234] error
+[2023-06-27 01:43:19] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-27 01:43:19] INFO root fetch - processPackages [dkist-processing-common]: New version: [3.0.0rc9] Old Version: [3.0.0rc8]
+[2023-06-27 01:43:19] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-27 01:43:19] INFO root fetch - processPackages [dkist-processing-common]: Downloading https://files.pythonhosted.org/packages/a1/af/9a25c690b73dc67bf3f5860e5def8122369f4b1ae8f0942decb07ddadef4/dkist-processing-common-3.0.0rc8.tar.gz
+[2023-06-27 01:43:19] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-27 01:43:19] INFO root fetch - processPackages [dkist-processing-common]: Downloading https://files.pythonhosted.org/packages/3c/1f/22dc9e7acbbcb5ebc69c20870d8e380b4a8a64835d431e07bb5d69ff8266/dkist-processing-common-3.0.0rc9.tar.gz
+[2023-06-27 01:43:19] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-27 01:43:19] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230627/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-27 01:43:19] INFO root fetch - processPackages [dkist-processing-common]: executing diffoscope
+[2023-06-27 01:43:19] INFO root fetch - processPackages [dkist-processing-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-common-3.0.0rc8.tar.gz tmp/dkist-processing-common-3.0.0rc9.tar.gz --markdown 20230627/d/dkist-processing-common/3.0.0rc8-3.0.0rc9/diff.md --exclude *.pyd
+[2023-06-27 01:43:20] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-27 01:43:20] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-27 01:43:20] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-27 01:43:21] INFO root fetch - processPackages [dkist-processing-common]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-common-3.0.0rc8.tar.gz]
+[2023-06-27 01:43:21] INFO root fetch - processPackages [dkist-processing-common]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-common-3.0.0rc9.tar.gz]
+[2023-06-27 01:43:21] INFO root fetch - main [MainThread]: End processing [dkist-processing-common]: success
+[2023-06-27 01:43:21] INFO root fetch - main [MainThread]: Store serial: [18654089]
