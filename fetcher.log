@@ -606,3 +606,61 @@
 [2023-06-27 00:39:51] INFO root fetch - processPackages [zeroscratches]: Remove: archive file [/home/abi/fetcher/tmp/zeroscratches-1.0.2-py3-none-any.whl.zip]
 [2023-06-27 00:39:51] INFO root fetch - main [MainThread]: End processing [zeroscratches]: success
 [2023-06-27 00:39:51] INFO root fetch - main [MainThread]: Store serial: [18653675]
+[2023-06-27 00:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653675]
+[2023-06-27 00:45:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-27 00:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openllm
+[2023-06-27 00:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: albylib
+[2023-06-27 00:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macpie
+[2023-06-27 00:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kivymd-extensions.akivymd
+[2023-06-27 00:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parsl
+[2023-06-27 00:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bittensor-config
+[2023-06-27 00:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bittensor-wallet
+[2023-06-27 00:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: navi-pro
+[2023-06-27 00:45:00] INFO root fetch - processPackages [macpie]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-27 00:45:00] WARNING root fetch - processPackages [bittensor-wallet]: Skipping, unable to determine old version
+[2023-06-27 00:45:00] INFO root fetch - processPackages [openllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 00:45:00] INFO root fetch - main [MainThread]: End processing [bittensor-wallet] error
+[2023-06-27 00:45:00] WARNING root fetch - processPackages [bittensor-config]: Skipping, unable to determine old version
+[2023-06-27 00:45:00] INFO root fetch - processPackages [kivymd-extensions.akivymd]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-27 00:45:00] INFO root fetch - main [MainThread]: End processing [bittensor-config] error
+[2023-06-27 00:45:00] INFO root fetch - processPackages [albylib]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-27 00:45:00] INFO root fetch - processPackages [parsl]: New version: [2023.6.5] Old Version: [2023.6.26]
+[2023-06-27 00:45:00] INFO root fetch - processPackages [navi-pro]: New version: [7.1.9] Old Version: [7.1.8]
+[2023-06-27 00:45:00] WARNING root fetch - processPackages [albylib]: fallback to get urls: [0.1.0]
+[2023-06-27 00:45:00] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/69/cc/09d77e25ca5797059a9243afde624499915528af92e6833e1f1d095be2d5/openllm-0.1.8.tar.gz
+[2023-06-27 00:45:00] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/61/ce/5e33e4acf625fda58eb20acf8fd34324f8c6f2b553e35d12de6bb081bc25/parsl-2023.6.26.tar.gz
+[2023-06-27 00:45:00] WARNING root fetch - processPackages [albylib]: None
+[2023-06-27 00:45:00] INFO root fetch - processPackages [kivymd-extensions.akivymd]: Downloading https://files.pythonhosted.org/packages/7e/ea/d2898e77454bad56415379e79e152c07b7602855bd44c001ffbd0eb9f48d/kivymd_extensions.akivymd-1.2.6.tar.gz
+[2023-06-27 00:45:00] INFO root fetch - processPackages [macpie]: Downloading https://files.pythonhosted.org/packages/bc/c6/7369d03ec22a4957511f0ecee88a624b3bc9b521475954f1982579af1d13/macpie-0.6.0.tar.gz
+[2023-06-27 00:45:00] INFO root fetch - processPackages [navi-pro]: Downloading https://files.pythonhosted.org/packages/11/5b/b7b3c6880e997e96267e73a5ad0ad17110f5635803001d629fb4d6da9599/navi%20pro-7.1.8.tar.gz
+[2023-06-27 00:45:00] WARNING root fetch - processPackages [albylib]: None
+[2023-06-27 00:45:00] WARNING root fetch - processPackages [albylib]: unable to get url for both version [0.1.0]
+[2023-06-27 00:45:00] WARNING root fetch - processPackages [albylib]: None
+[2023-06-27 00:45:00] INFO root fetch - main [MainThread]: End processing [albylib] error
+[2023-06-27 00:45:00] WARNING root fetch - processPackages [macpie]: Skipping package: exceeds size limit 21842070>=10485760
+[2023-06-27 00:45:00] INFO root fetch - main [MainThread]: End processing [macpie] error
+[2023-06-27 00:45:00] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/38/83/17847e1f1f6a2c7fcabf5f2438004df559ee716ebc308fe5ccb489dfac1f/parsl-2023.6.5.tar.gz
+[2023-06-27 00:45:00] INFO root fetch - processPackages [kivymd-extensions.akivymd]: Downloading https://files.pythonhosted.org/packages/53/af/d0c4eda39c5e9336ab9aacc9627cde88d8f72f84658d9b5671c152893832/kivymd_extensions.akivymd-1.2.7.tar.gz
+[2023-06-27 00:45:00] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/28/3e/a9330f38c746d3d17186006e87b6db6cd783f6aae338b8e382351a3ce53e/openllm-0.1.9.tar.gz
+[2023-06-27 00:45:00] INFO root fetch - processPackages [navi-pro]: Downloading https://files.pythonhosted.org/packages/22/03/8668c4d06fb58aa7c1db0cd41a69526521462525427e2bfedf5fad67c5c6/navi%20pro-7.1.9.tar.gz
+[2023-06-27 00:45:00] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-06-27 00:45:00] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.6.26.tar.gz tmp/parsl-2023.6.5.tar.gz --markdown 20230627/p/parsl/2023.6.26-2023.6.5/diff.md --exclude *.pyd
+[2023-06-27 00:45:00] INFO root fetch - processPackages [kivymd-extensions.akivymd]: executing diffoscope
+[2023-06-27 00:45:00] INFO root fetch - processPackages [kivymd-extensions.akivymd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivymd_extensions.akivymd-1.2.6.tar.gz tmp/kivymd_extensions.akivymd-1.2.7.tar.gz --markdown 20230627/k/kivymd-extensions.akivymd/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-27 00:45:00] INFO root fetch - processPackages [navi-pro]: executing diffoscope
+[2023-06-27 00:45:00] INFO root fetch - processPackages [navi-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navi pro-7.1.8.tar.gz tmp/navi pro-7.1.9.tar.gz --markdown 20230627/n/navi-pro/7.1.8-7.1.9/diff.md --exclude *.pyd
+[2023-06-27 00:45:01] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-06-27 00:45:01] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.1.8.tar.gz tmp/openllm-0.1.9.tar.gz --markdown 20230627/o/openllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 00:45:02] INFO root fetch - processPackages [kivymd-extensions.akivymd]: Remove: archive file [/home/abi/fetcher/tmp/kivymd_extensions.akivymd-1.2.6.tar.gz]
+[2023-06-27 00:45:02] INFO root fetch - processPackages [kivymd-extensions.akivymd]: Remove: archive file [/home/abi/fetcher/tmp/kivymd_extensions.akivymd-1.2.7.tar.gz]
+[2023-06-27 00:45:02] INFO root fetch - main [MainThread]: End processing [kivymd-extensions.akivymd]: success
+[2023-06-27 00:45:02] INFO root fetch - processPackages [navi-pro]: Remove: archive file [/home/abi/fetcher/tmp/navi pro-7.1.8.tar.gz]
+[2023-06-27 00:45:02] INFO root fetch - processPackages [navi-pro]: Remove: archive file [/home/abi/fetcher/tmp/navi pro-7.1.9.tar.gz]
+[2023-06-27 00:45:02] INFO root fetch - main [MainThread]: End processing [navi-pro]: success
+[2023-06-27 00:45:03] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.8.tar.gz]
+[2023-06-27 00:45:03] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.9.tar.gz]
+[2023-06-27 00:45:03] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-06-27 00:45:04] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.6.26.tar.gz]
+[2023-06-27 00:45:04] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.6.5.tar.gz]
+[2023-06-27 00:45:04] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-06-27 00:45:04] INFO root fetch - main [MainThread]: Store serial: [18653704]
