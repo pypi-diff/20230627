@@ -76,3 +76,105 @@
 [2023-06-27 00:05:38] INFO root fetch - processPackages [wallaroo]: Remove: archive file [/home/abi/fetcher/tmp/wallaroo-2023.2.1rc1.tar.gz]
 [2023-06-27 00:05:38] INFO root fetch - main [MainThread]: End processing [wallaroo]: success
 [2023-06-27 00:05:38] INFO root fetch - main [MainThread]: Store serial: [18653377]
+[2023-06-27 00:10:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653377]
+[2023-06-27 00:11:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-27 00:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vegafusion-python-embed
+[2023-06-27 00:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trimnet
+[2023-06-27 00:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orso
+[2023-06-27 00:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: result
+[2023-06-27 00:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vegafusion
+[2023-06-27 00:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vegafusion-jupyter
+[2023-06-27 00:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telexy.sam
+[2023-06-27 00:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: featurepy
+[2023-06-27 00:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-27 00:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iblm
+[2023-06-27 00:11:01] INFO root fetch - processPackages [featurepy]: New version: [0.2.3] Old Version: [0.2.2.1]
+[2023-06-27 00:11:01] INFO root fetch - processPackages [trimnet]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-06-27 00:11:01] INFO root fetch - processPackages [telexy.sam]: New version: [1.23.627] Old Version: [1.23.626]
+[2023-06-27 00:11:01] INFO root fetch - processPackages [vegafusion-python-embed]: New version: [1.4.0rc1] Old Version: [1.3.0rc4]
+[2023-06-27 00:11:01] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 00:11:01] INFO root fetch - processPackages [featurepy]: Downloading https://files.pythonhosted.org/packages/29/61/2d31eb7f162d111a15cd4cd72fc389c0beaf282d97c15f83dda683e160ff/featurepy-0.2.2.1.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/1c/66/5aad0089df0da0e221630da2c585677459a251fa6db22921c5846de42924/orso-0.0.8.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [vegafusion]: New version: [1.4.0rc1] Old Version: [1.3.0rc4]
+[2023-06-27 00:11:02] INFO root fetch - processPackages [result]: New version: [0.9.0] Old Version: [0.8.0b1]
+[2023-06-27 00:11:02] INFO root fetch - processPackages [vegafusion-jupyter]: New version: [1.4.0rc1] Old Version: [1.3.0rc4]
+[2023-06-27 00:11:02] INFO root fetch - processPackages [iblm]: New version: [0.1.45] Old Version: [0.1.1]
+[2023-06-27 00:11:02] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 00:11:02] INFO root fetch - processPackages [trimnet]: Downloading https://files.pythonhosted.org/packages/4a/f6/592a07f6e301f512c41de6baec8b9498317a02384e61fa387d1d01a413b7/trimnet-1.0.1.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/61/fc/2da387b42c7ed49f9b461d66a6098f8c400232ed1499ff5056d719cdfdd6/vegafusion_python_embed-1.3.0_rc4.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [telexy.sam]: Downloading https://files.pythonhosted.org/packages/2d/fb/f3e8666a5dc3d51e04677a0e99a4a7f80c46b56e3f2b018b38701dba3188/telexy.sam-1.23.626-py3-none-any.whl
+[2023-06-27 00:11:02] INFO root fetch - processPackages [featurepy]: Downloading https://files.pythonhosted.org/packages/75/bb/3110099b66d254889585d3d73f3e19b394f9384905c66669f7f7430b593d/featurepy-0.2.3.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/d0/a6/e427d299b4d15d22164372c94c2665865951bb26973a967eca19d3d2493c/orso-0.0.9.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/e8/51/d6c056f58269f22317e132bd493e6caccb814f6f5aa5f8cacb155df21b57/vegafusion-1.3.0rc4.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [featurepy]: executing diffoscope
+[2023-06-27 00:11:02] INFO root fetch - processPackages [featurepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurepy-0.2.2.1.tar.gz tmp/featurepy-0.2.3.tar.gz --markdown 20230627/f/featurepy/0.2.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-06-27 00:11:02] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-06-27 00:11:02] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.8.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230627/o/orso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 00:11:02] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/7d/82/86e2b39e6c16e534e4f904f54e5f86c160ad29d6fc9a8a32bc3f5f4bb835/result-0.8.0b1.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/ff/db/ed963bd6ff7cdbca0b842a29c7ff7746ffdca9d3f73638a0471550a6e812/vegafusion-jupyter-1.3.0rc4.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [iblm]: Downloading https://files.pythonhosted.org/packages/42/8b/83e70df4532188843ccecc93d4397078abc01874ce11a9bcbdd51e4e68b5/iblm-0.1.1.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [trimnet]: Downloading https://files.pythonhosted.org/packages/b8/b8/a20032d623db8640fb62e263ecdd5b694c8a3512ca33804272bade84be8d/trimnet-1.0.3.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [telexy.sam]: Downloading https://files.pythonhosted.org/packages/de/fe/13a61267561ecda763732a10e5c844c5897af92ee1bb61d8b49528b56c91/telexy.sam-1.23.627.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [trimnet]: executing diffoscope
+[2023-06-27 00:11:02] INFO root fetch - processPackages [trimnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trimnet-1.0.1.tar.gz tmp/trimnet-1.0.3.tar.gz --markdown 20230627/t/trimnet/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 00:11:02] INFO root fetch - processPackages [telexy.sam]: executing diffoscope
+[2023-06-27 00:11:02] INFO root fetch - processPackages [telexy.sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telexy.sam-1.23.626-py3-none-any.whl.zip tmp/telexy.sam-1.23.627.tar.gz --markdown 20230627/t/telexy.sam/1.23.626-1.23.627/diff.md --exclude *.pyd
+[2023-06-27 00:11:02] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/2b/75/b1ec62b47e4a644d6186c5db0b848fe9a977df591419ed54dab935161b90/vegafusion-1.4.0rc1.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [iblm]: Downloading https://files.pythonhosted.org/packages/27/37/cc6b577d14e2542c4be4829cdbf4324267a125c4181017bcd458d9f77295/iblm-0.1.45.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [vegafusion]: executing diffoscope
+[2023-06-27 00:11:02] INFO root fetch - processPackages [vegafusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-1.3.0rc4.tar.gz tmp/vegafusion-1.4.0rc1.tar.gz --markdown 20230627/v/vegafusion/1.3.0rc4-1.4.0rc1/diff.md --exclude *.pyd
+[2023-06-27 00:11:02] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-27 00:11:02] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 00:11:02] INFO root fetch - processPackages [iblm]: executing diffoscope
+[2023-06-27 00:11:02] INFO root fetch - processPackages [iblm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iblm-0.1.1.tar.gz tmp/iblm-0.1.45.tar.gz --markdown 20230627/i/iblm/0.1.1-0.1.45/diff.md --exclude *.pyd
+[2023-06-27 00:11:02] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/e1/d2/a6ac37982c8e314f71acd5d4a509dfde718f0c0fc8590b35b7d64101097e/result-0.9.0.tar.gz
+[2023-06-27 00:11:02] INFO root fetch - processPackages [result]: executing diffoscope
+[2023-06-27 00:11:02] INFO root fetch - processPackages [result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/result-0.8.0b1.tar.gz tmp/result-0.9.0.tar.gz --markdown 20230627/r/result/0.8.0b1-0.9.0/diff.md --exclude *.pyd
+[2023-06-27 00:11:03] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.8.tar.gz]
+[2023-06-27 00:11:03] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
+[2023-06-27 00:11:03] INFO root fetch - processPackages [orso]: Start processing: word-search-generator
+[2023-06-27 00:11:03] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-06-27 00:11:03] INFO root fetch - processPackages [telexy.sam]: Remove: archive file [/home/abi/fetcher/tmp/telexy.sam-1.23.626-py3-none-any.whl.zip]
+[2023-06-27 00:11:03] INFO root fetch - processPackages [telexy.sam]: Remove: archive file [/home/abi/fetcher/tmp/telexy.sam-1.23.627.tar.gz]
+[2023-06-27 00:11:03] INFO root fetch - main [MainThread]: End processing [telexy.sam]: success
+[2023-06-27 00:11:03] INFO root fetch - processPackages [trimnet]: Remove: archive file [/home/abi/fetcher/tmp/trimnet-1.0.1.tar.gz]
+[2023-06-27 00:11:03] INFO root fetch - processPackages [trimnet]: Remove: archive file [/home/abi/fetcher/tmp/trimnet-1.0.3.tar.gz]
+[2023-06-27 00:11:03] INFO root fetch - main [MainThread]: End processing [trimnet]: success
+[2023-06-27 00:11:03] INFO root fetch - processPackages [featurepy]: Remove: archive file [/home/abi/fetcher/tmp/featurepy-0.2.2.1.tar.gz]
+[2023-06-27 00:11:03] INFO root fetch - processPackages [featurepy]: Remove: archive file [/home/abi/fetcher/tmp/featurepy-0.2.3.tar.gz]
+[2023-06-27 00:11:03] INFO root fetch - main [MainThread]: End processing [featurepy]: success
+[2023-06-27 00:11:03] INFO root fetch - processPackages [word-search-generator]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-06-27 00:11:03] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/84/c8/7498406f0e3824abc375dffc79040e9bfae7fb2e315aaed6df69246c94f3/vegafusion-jupyter-1.4.0rc1.tar.gz
+[2023-06-27 00:11:03] INFO root fetch - processPackages [iblm]: Remove: archive file [/home/abi/fetcher/tmp/iblm-0.1.1.tar.gz]
+[2023-06-27 00:11:03] INFO root fetch - processPackages [iblm]: Remove: archive file [/home/abi/fetcher/tmp/iblm-0.1.45.tar.gz]
+[2023-06-27 00:11:03] INFO root fetch - main [MainThread]: End processing [iblm]: success
+[2023-06-27 00:11:04] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/39/29/367307db91fd8807af63a9b588d2095b51e7b5c8b33533dce92e35c7a64b/vegafusion_python_embed-1.4.0_rc1.tar.gz
+[2023-06-27 00:11:04] INFO root fetch - processPackages [word-search-generator]: Downloading https://files.pythonhosted.org/packages/32/c1/91d99a59a09d6665e7a8854f05d4dfc58d802e3b53c4aeaf5f3ef2476b55/word-search-generator-3.3.0.tar.gz
+[2023-06-27 00:11:04] INFO root fetch - processPackages [word-search-generator]: Downloading https://files.pythonhosted.org/packages/e7/f0/c4a47f5539db63c5b3f70d0abd3f05b470ad97bc15058840d5a519bad44b/word-search-generator-3.4.0.tar.gz
+[2023-06-27 00:11:04] INFO root fetch - processPackages [vegafusion]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-1.3.0rc4.tar.gz]
+[2023-06-27 00:11:04] INFO root fetch - processPackages [vegafusion]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-1.4.0rc1.tar.gz]
+[2023-06-27 00:11:04] INFO root fetch - main [MainThread]: End processing [vegafusion]: success
+[2023-06-27 00:11:04] INFO root fetch - processPackages [result]: Remove: archive file [/home/abi/fetcher/tmp/result-0.8.0b1.tar.gz]
+[2023-06-27 00:11:04] INFO root fetch - processPackages [result]: Remove: archive file [/home/abi/fetcher/tmp/result-0.9.0.tar.gz]
+[2023-06-27 00:11:04] INFO root fetch - main [MainThread]: End processing [result]: success
+[2023-06-27 00:11:04] INFO root fetch - processPackages [word-search-generator]: executing diffoscope
+[2023-06-27 00:11:04] INFO root fetch - processPackages [word-search-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/word-search-generator-3.3.0.tar.gz tmp/word-search-generator-3.4.0.tar.gz --markdown 20230627/w/word-search-generator/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-06-27 00:11:04] INFO root fetch - processPackages [vegafusion-jupyter]: executing diffoscope
+[2023-06-27 00:11:04] INFO root fetch - processPackages [vegafusion-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-jupyter-1.3.0rc4.tar.gz tmp/vegafusion-jupyter-1.4.0rc1.tar.gz --markdown 20230627/v/vegafusion-jupyter/1.3.0rc4-1.4.0rc1/diff.md --exclude *.pyd
+[2023-06-27 00:11:05] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-27 00:11:05] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-27 00:11:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-27 00:11:05] INFO root fetch - processPackages [vegafusion-python-embed]: executing diffoscope
+[2023-06-27 00:11:05] INFO root fetch - processPackages [vegafusion-python-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion_python_embed-1.3.0_rc4.tar.gz tmp/vegafusion_python_embed-1.4.0_rc1.tar.gz --markdown 20230627/v/vegafusion-python-embed/1.3.0rc4-1.4.0rc1/diff.md --exclude *.pyd
+[2023-06-27 00:11:05] INFO root fetch - processPackages [word-search-generator]: Remove: archive file [/home/abi/fetcher/tmp/word-search-generator-3.3.0.tar.gz]
+[2023-06-27 00:11:05] INFO root fetch - processPackages [word-search-generator]: Remove: archive file [/home/abi/fetcher/tmp/word-search-generator-3.4.0.tar.gz]
+[2023-06-27 00:11:05] INFO root fetch - main [MainThread]: End processing [word-search-generator]: success
+[2023-06-27 00:11:38] INFO root fetch - processPackages [vegafusion-python-embed]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion_python_embed-1.3.0_rc4.tar.gz]
+[2023-06-27 00:11:38] INFO root fetch - processPackages [vegafusion-python-embed]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion_python_embed-1.4.0_rc1.tar.gz]
+[2023-06-27 00:11:38] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed]: success
+[2023-06-27 00:13:29] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.3.0rc4.tar.gz]
+[2023-06-27 00:13:29] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.4.0rc1.tar.gz]
+[2023-06-27 00:13:29] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
+[2023-06-27 00:13:29] INFO root fetch - main [MainThread]: Store serial: [18653464]
