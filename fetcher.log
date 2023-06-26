@@ -1787,3 +1787,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 01:48:34] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.5.tar.gz]
 [2023-06-27 01:48:34] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
 [2023-06-27 01:48:34] INFO root fetch - main [MainThread]: Store serial: [18654174]
+[2023-06-27 01:53:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18654174]
+[2023-06-27 01:53:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-27 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upSmtEngine
+[2023-06-27 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bisque-metadoc
+[2023-06-27 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diself
+[2023-06-27 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qctrl-visualizer
+[2023-06-27 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dccs-logo
+[2023-06-27 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-converter
+[2023-06-27 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: platformer1234
+[2023-06-27 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-aws
+[2023-06-27 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chdb
+[2023-06-27 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flook
+[2023-06-27 01:53:43] WARNING root fetch - processPackages [dccs-logo]: Skipping, unable to determine old version
+[2023-06-27 01:53:43] WARNING root fetch - processPackages [dbt-converter]: Skipping, unable to determine old version
+[2023-06-27 01:53:43] INFO root fetch - main [MainThread]: End processing [dccs-logo] error
+[2023-06-27 01:53:43] INFO root fetch - main [MainThread]: End processing [dbt-converter] error
+[2023-06-27 01:53:43] WARNING root fetch - processPackages [diself]: Skipping, unable to determine old version
+[2023-06-27 01:53:43] INFO root fetch - main [MainThread]: End processing [diself] error
+[2023-06-27 01:53:43] INFO root fetch - processPackages [flook]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-27 01:53:43] INFO root fetch - processPackages [upSmtEngine]: New version: [2023.6.27.5] Old Version: [2023.6.26.2]
+[2023-06-27 01:53:43] INFO root fetch - processPackages [bisque-metadoc]: New version: [0.6.3.29] Old Version: [0.6.3.28]
+[2023-06-27 01:53:43] INFO root fetch - processPackages [platformer1234]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 01:53:43] INFO root fetch - processPackages [qctrl-visualizer]: New version: [6.0.0] Old Version: [5.0.1]
+[2023-06-27 01:53:43] INFO root fetch - processPackages [pulumi-aws]: New version: [6.0.0a2] Old Version: [6.0.0a1]
+[2023-06-27 01:53:43] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/c4/fe/5f696e5da1a850fe1da292177301ad31f017eb3a1f881ef98c207bff2538/flook-0.1.5.tar.gz
+[2023-06-27 01:53:43] INFO root fetch - processPackages [bisque-metadoc]: Downloading https://files.pythonhosted.org/packages/26/39/356c19ae408a8f1e959481d6edc302578302045bf887c2902a8538b95463/bisque_metadoc-0.6.3.28-py3-none-any.whl
+[2023-06-27 01:53:43] INFO root fetch - processPackages [chdb]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-27 01:53:43] INFO root fetch - processPackages [platformer1234]: Downloading https://files.pythonhosted.org/packages/0e/87/19a81350b7c9ed18461e40c0d917dc318a770510acf55759e830b18008ba/platformer1234-0.0.1.tar.gz
+[2023-06-27 01:53:43] INFO root fetch - processPackages [upSmtEngine]: Downloading https://files.pythonhosted.org/packages/31/28/5ff5d6e0238b86c4ecfef27112bd9b1f754d294e9a2810ff482cbcae6fc3/upSmtEngine-2023.6.26.2.tar.gz
+[2023-06-27 01:53:43] INFO root fetch - processPackages [qctrl-visualizer]: Downloading https://files.pythonhosted.org/packages/1f/48/10aa7322c3d81588da4e5e9a706e9bb3ee3a2c9a35f2cd90c6d7f293c2fe/qctrl_visualizer-5.0.1.tar.gz
+[2023-06-27 01:53:43] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/ef/5f/3a892b4ac906235e43098c62f4df1e49712da7c9e7bc5d184bccc2a8e83d/flook-0.2.0.tar.gz
+[2023-06-27 01:53:43] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/cb/4d/71b217ffa76349bc6dfe750451addec15e5a2936f12c72bdc65e6f905da0/pulumi_aws-6.0.0a1.tar.gz
+[2023-06-27 01:53:43] INFO root fetch - processPackages [bisque-metadoc]: Downloading https://files.pythonhosted.org/packages/24/9c/944651e18c646b9edd5f500c9056201f44f58eff8c7b9c0dd3bbad8106b4/bisque_metadoc-0.6.3.29-py3-none-any.whl
+[2023-06-27 01:53:43] INFO root fetch - processPackages [chdb]: Downloading https://files.pythonhosted.org/packages/46/34/78cda0c6a8c072a692d2240af17a7c99de4739831f72ec6589ec96e8952b/chdb-0.8.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-27 01:53:43] INFO root fetch - processPackages [flook]: executing diffoscope
+[2023-06-27 01:53:43] INFO root fetch - processPackages [flook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flook-0.1.5.tar.gz tmp/flook-0.2.0.tar.gz --markdown 20230627/f/flook/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-27 01:53:43] INFO root fetch - processPackages [platformer1234]: Downloading https://files.pythonhosted.org/packages/4d/43/24a4cdd0c5f43a9dd76ebfbcd39047054b43010feee9f475ed46988042b2/platformer1234-0.0.2.tar.gz
+[2023-06-27 01:53:43] INFO root fetch - processPackages [bisque-metadoc]: executing diffoscope
+[2023-06-27 01:53:43] INFO root fetch - processPackages [bisque-metadoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisque_metadoc-0.6.3.28-py3-none-any.whl.zip tmp/bisque_metadoc-0.6.3.29-py3-none-any.whl.zip --markdown 20230627/b/bisque-metadoc/0.6.3.28-0.6.3.29/diff.md --exclude *.pyd
+[2023-06-27 01:53:43] INFO root fetch - processPackages [upSmtEngine]: Downloading https://files.pythonhosted.org/packages/27/0b/51a3b1f7c7b3271df6d6609159ff026b0e8a129b90350bb1222989d6242c/upSmtEngine-2023.6.27.5.tar.gz
+[2023-06-27 01:53:43] WARNING root fetch - processPackages [chdb]: Skipping package: exceeds size limit 108993016>=10485760
+[2023-06-27 01:53:43] INFO root fetch - main [MainThread]: End processing [chdb] error
+[2023-06-27 01:53:43] INFO root fetch - processPackages [qctrl-visualizer]: Downloading https://files.pythonhosted.org/packages/cb/bf/cc6456bfc92ebe685edfb7eb5c695c7ae02352e4104b1e53b6357ef3ec6f/qctrl_visualizer-6.0.0.tar.gz
+[2023-06-27 01:53:43] INFO root fetch - processPackages [upSmtEngine]: executing diffoscope
+[2023-06-27 01:53:43] INFO root fetch - processPackages [upSmtEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upSmtEngine-2023.6.26.2.tar.gz tmp/upSmtEngine-2023.6.27.5.tar.gz --markdown 20230627/u/upSmtEngine/2023.6.26.2-2023.6.27.5/diff.md --exclude *.pyd
+[2023-06-27 01:53:43] INFO root fetch - processPackages [platformer1234]: executing diffoscope
+[2023-06-27 01:53:43] INFO root fetch - processPackages [platformer1234]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platformer1234-0.0.1.tar.gz tmp/platformer1234-0.0.2.tar.gz --markdown 20230627/p/platformer1234/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 01:53:43] INFO root fetch - processPackages [qctrl-visualizer]: executing diffoscope
+[2023-06-27 01:53:43] INFO root fetch - processPackages [qctrl-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_visualizer-5.0.1.tar.gz tmp/qctrl_visualizer-6.0.0.tar.gz --markdown 20230627/q/qctrl-visualizer/5.0.1-6.0.0/diff.md --exclude *.pyd
+[2023-06-27 01:53:44] INFO root fetch - processPackages [bisque-metadoc]: Remove: archive file [/home/abi/fetcher/tmp/bisque_metadoc-0.6.3.28-py3-none-any.whl.zip]
+[2023-06-27 01:53:44] INFO root fetch - processPackages [bisque-metadoc]: Remove: archive file [/home/abi/fetcher/tmp/bisque_metadoc-0.6.3.29-py3-none-any.whl.zip]
+[2023-06-27 01:53:44] INFO root fetch - main [MainThread]: End processing [bisque-metadoc]: success
+[2023-06-27 01:53:44] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.1.5.tar.gz]
+[2023-06-27 01:53:44] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.2.0.tar.gz]
+[2023-06-27 01:53:44] INFO root fetch - main [MainThread]: End processing [flook]: success
+[2023-06-27 01:53:44] INFO root fetch - processPackages [platformer1234]: Remove: archive file [/home/abi/fetcher/tmp/platformer1234-0.0.1.tar.gz]
+[2023-06-27 01:53:44] INFO root fetch - processPackages [platformer1234]: Remove: archive file [/home/abi/fetcher/tmp/platformer1234-0.0.2.tar.gz]
+[2023-06-27 01:53:44] INFO root fetch - main [MainThread]: End processing [platformer1234]: success
+[2023-06-27 01:53:44] INFO root fetch - processPackages [qctrl-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_visualizer-5.0.1.tar.gz]
+[2023-06-27 01:53:44] INFO root fetch - processPackages [qctrl-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_visualizer-6.0.0.tar.gz]
+[2023-06-27 01:53:44] INFO root fetch - main [MainThread]: End processing [qctrl-visualizer]: success
+[2023-06-27 01:53:45] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/c1/e0/3301415e6673a3ca90b1b33968bc8018662de35dd80aec8e92f93264a460/pulumi_aws-6.0.0a2.tar.gz
+[2023-06-27 01:53:46] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-06-27 01:53:46] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.0.0a1.tar.gz tmp/pulumi_aws-6.0.0a2.tar.gz --markdown 20230627/p/pulumi-aws/6.0.0a1-6.0.0a2/diff.md --exclude *.pyd
+[2023-06-27 01:53:47] INFO root fetch - processPackages [upSmtEngine]: Remove: archive file [/home/abi/fetcher/tmp/upSmtEngine-2023.6.26.2.tar.gz]
+[2023-06-27 01:53:47] INFO root fetch - processPackages [upSmtEngine]: Remove: archive file [/home/abi/fetcher/tmp/upSmtEngine-2023.6.27.5.tar.gz]
+[2023-06-27 01:53:47] INFO root fetch - main [MainThread]: End processing [upSmtEngine]: success
+[2023-06-27 01:54:43] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a1.tar.gz]
+[2023-06-27 01:54:43] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a2.tar.gz]
+[2023-06-27 01:54:43] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-06-27 01:54:43] INFO root fetch - main [MainThread]: Store serial: [18654206]
