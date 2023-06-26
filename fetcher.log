@@ -1037,3 +1037,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 01:01:17] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.0rc1-py3-none-any.whl.zip]
 [2023-06-27 01:01:17] INFO root fetch - main [MainThread]: End processing [nvflare]: success
 [2023-06-27 01:01:17] INFO root fetch - main [MainThread]: Store serial: [18653821]
+[2023-06-27 01:06:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18653821]
+[2023-06-27 01:06:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-27 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MotorDeCalidad
+[2023-06-27 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: banditcoot
+[2023-06-27 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt-cu101
+[2023-06-27 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-pipeline-qc
+[2023-06-27 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2023-06-27 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: telexy.sam
+[2023-06-27 01:06:29] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-27 01:06:29] INFO root fetch - processPackages [np-pipeline-qc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 01:06:29] INFO root fetch - processPackages [banditcoot]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-27 01:06:29] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230626] Old Version: [0.7.0b20230625]
+[2023-06-27 01:06:29] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230626] Old Version: [0.7.0b20230625]
+[2023-06-27 01:06:29] WARNING root fetch - processPackages [telexy.sam]: Skipping, unable to determine old version
+[2023-06-27 01:06:29] INFO root fetch - main [MainThread]: End processing [telexy.sam] error
+[2023-06-27 01:06:29] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/9e/55/26d33343b48b50fa4dc4685f8b3e0736e48b584c1074261b8ca69dda2bd2/tmnt-cu101-0.7.0b20230625.tar.gz
+[2023-06-27 01:06:29] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/df/f7/55f6ec45d5c8459a5481b47623981a693547b72269bf3783d92aba92b0b9/tmnt-0.7.0b20230625.tar.gz
+[2023-06-27 01:06:29] INFO root fetch - processPackages [banditcoot]: Downloading https://files.pythonhosted.org/packages/00/40/7ddc67bf113a9129ddc8fb9f2df8f99deb4bde32a5abebf89d2a0a38c92f/banditcoot-0.1.5.tar.gz
+[2023-06-27 01:06:29] INFO root fetch - processPackages [MotorDeCalidad]: Downloading https://files.pythonhosted.org/packages/d0/81/ddc2ac32f7d98b3665b98b4a804156419dce82d6c51d95007a15154c7421/MotorDeCalidad-1.9.8.tar.gz
+[2023-06-27 01:06:29] INFO root fetch - processPackages [np-pipeline-qc]: Downloading https://files.pythonhosted.org/packages/d7/d9/42ab3edb5a7f2acd88fe1cd3e97cc59fcef4667a651e04b686cfc33e61d9/np-pipeline-qc-0.0.8.tar.gz
+[2023-06-27 01:06:29] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/5b/bf/87cdda9bd7c5ed47bed3e1c05985a50709a03e3c66bf151c00b7a15b677c/tmnt-0.7.0b20230626.tar.gz
+[2023-06-27 01:06:29] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/1e/fa/cb0640dfa7911b3b78fe56a15a6cb6f00961fa3080cb6f1fd420086d411e/tmnt-cu101-0.7.0b20230626.tar.gz
+[2023-06-27 01:06:29] INFO root fetch - processPackages [MotorDeCalidad]: Downloading https://files.pythonhosted.org/packages/3f/36/ceedf8c8af40f8e52f69a6db0ce90933ba09e1b843e83b3d0e91e01012be/MotorDeCalidad-1.9.9.tar.gz
+[2023-06-27 01:06:29] INFO root fetch - processPackages [banditcoot]: Downloading https://files.pythonhosted.org/packages/f7/f5/0337933d5dbdad3ce747d163d492418acbe7bdc75ede3cac885e9dad6751/banditcoot-0.1.6.tar.gz
+[2023-06-27 01:06:29] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-27 01:06:29] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230625.tar.gz tmp/tmnt-0.7.0b20230626.tar.gz --markdown 20230627/t/tmnt/0.7.0b20230625-0.7.0b20230626/diff.md --exclude *.pyd
+[2023-06-27 01:06:29] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-06-27 01:06:29] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230627/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-27 01:06:29] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-27 01:06:29] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230625.tar.gz tmp/tmnt-cu101-0.7.0b20230626.tar.gz --markdown 20230627/t/tmnt-cu101/0.7.0b20230625-0.7.0b20230626/diff.md --exclude *.pyd
+[2023-06-27 01:06:29] INFO root fetch - processPackages [np-pipeline-qc]: Downloading https://files.pythonhosted.org/packages/e1/af/dbee090c6413b6bcf295c860e7055aec5626ef2bb333f4e533fd029a5937/np-pipeline-qc-0.0.9.tar.gz
+[2023-06-27 01:06:29] INFO root fetch - processPackages [banditcoot]: executing diffoscope
+[2023-06-27 01:06:29] INFO root fetch - processPackages [banditcoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banditcoot-0.1.5.tar.gz tmp/banditcoot-0.1.6.tar.gz --markdown 20230627/b/banditcoot/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-27 01:06:30] INFO root fetch - processPackages [np-pipeline-qc]: executing diffoscope
+[2023-06-27 01:06:30] INFO root fetch - processPackages [np-pipeline-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-pipeline-qc-0.0.8.tar.gz tmp/np-pipeline-qc-0.0.9.tar.gz --markdown 20230627/n/np-pipeline-qc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 01:06:30] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230625.tar.gz]
+[2023-06-27 01:06:30] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230626.tar.gz]
+[2023-06-27 01:06:30] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-27 01:06:30] INFO root fetch - processPackages [MotorDeCalidad]: Remove: archive file [/home/abi/fetcher/tmp/MotorDeCalidad-1.9.8.tar.gz]
+[2023-06-27 01:06:30] INFO root fetch - processPackages [MotorDeCalidad]: Remove: archive file [/home/abi/fetcher/tmp/MotorDeCalidad-1.9.9.tar.gz]
+[2023-06-27 01:06:30] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-06-27 01:06:31] INFO root fetch - processPackages [banditcoot]: Remove: archive file [/home/abi/fetcher/tmp/banditcoot-0.1.5.tar.gz]
+[2023-06-27 01:06:31] INFO root fetch - processPackages [banditcoot]: Remove: archive file [/home/abi/fetcher/tmp/banditcoot-0.1.6.tar.gz]
+[2023-06-27 01:06:31] INFO root fetch - main [MainThread]: End processing [banditcoot]: success
+[2023-06-27 01:06:31] INFO root fetch - processPackages [np-pipeline-qc]: Remove: archive file [/home/abi/fetcher/tmp/np-pipeline-qc-0.0.8.tar.gz]
+[2023-06-27 01:06:31] INFO root fetch - processPackages [np-pipeline-qc]: Remove: archive file [/home/abi/fetcher/tmp/np-pipeline-qc-0.0.9.tar.gz]
+[2023-06-27 01:06:31] INFO root fetch - main [MainThread]: End processing [np-pipeline-qc]: success
+[2023-06-27 01:06:32] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230625.tar.gz]
+[2023-06-27 01:06:32] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230626.tar.gz]
+[2023-06-27 01:06:32] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-27 01:06:32] INFO root fetch - main [MainThread]: Store serial: [18653856]
