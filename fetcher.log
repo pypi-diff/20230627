@@ -14592,3 +14592,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 09:16:49] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-0.7.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-27 09:16:49] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2023-06-27 09:16:49] INFO root fetch - main [MainThread]: Store serial: [18658994]
+[2023-06-27 09:21:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658994]
+[2023-06-27 09:21:58] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-27 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usls
+[2023-06-27 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-image
+[2023-06-27 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygyverhubd
+[2023-06-27 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: consolecmdtools
+[2023-06-27 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-marshmallow-openapi
+[2023-06-27 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.cdk-appflow
+[2023-06-27 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcentrapi
+[2023-06-27 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assisted-service-client
+[2023-06-27 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dcentrapi
+[2023-06-27 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymino
+[2023-06-27 09:21:58] INFO root fetch - processPackages [openai-image]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-27 09:21:58] INFO root fetch - processPackages [flask-marshmallow-openapi]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-27 09:21:58] INFO root fetch - processPackages [cdklabs.cdk-appflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 09:21:58] INFO root fetch - processPackages [dcentrapi]: New version: [0.2.9] Old Version: [0.2.85]
+[2023-06-27 09:21:58] INFO root fetch - processPackages [pygyverhubd]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 09:21:58] INFO root fetch - processPackages [consolecmdtools]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-27 09:21:58] INFO root fetch - processPackages [dcentrapi]: New version: [0.2.9] Old Version: [0.2.85]
+[2023-06-27 09:21:58] INFO root fetch - processPackages [pymino]: New version: [1.2.2.1] Old Version: [1.2.1.9]
+[2023-06-27 09:21:58] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-27 09:21:58] INFO root fetch - processPackages [usls]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 09:21:58] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/69/3f/5f9411b686cdcb5e9f58be653a1c2e059396b751ab586d61e06da4323de7/pymino-1.2.1.9.tar.gz
+[2023-06-27 09:21:58] INFO root fetch - processPackages [consolecmdtools]: Downloading https://files.pythonhosted.org/packages/53/50/091bb9edea86930eb43a068159ad11ac0e1454e09f1110e0110d281c21c7/consolecmdtools-4.0.0.tar.gz
+[2023-06-27 09:21:58] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-27 09:21:58] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Downloading https://files.pythonhosted.org/packages/82/a8/dc9e128b332314012261df1084758544ce87101e33d4349e844882fe96fd/cdklabs.cdk-appflow-0.0.8.tar.gz
+[2023-06-27 09:21:58] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/b8/e2/88f01abed4ea78d3d27a109566546f8f32b3bde10fedc71260aad727f99a/flask-marshmallow-openapi-0.2.0.tar.gz
+[2023-06-27 09:21:58] INFO root fetch - processPackages [openai-image]: Downloading https://files.pythonhosted.org/packages/b7/55/424d5d117cb4a5f1cb066db61d5aad505d6fcae21c971f2a6fac8f4d61c3/openai-image-1.0.3.tar.gz
+[2023-06-27 09:21:58] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/90/eb/c651d7f592102189c4645a156454e9dbad5b59a219031cac970be9b22df0/dcentrapi-0.2.85.tar.gz
+[2023-06-27 09:21:58] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/90/eb/c651d7f592102189c4645a156454e9dbad5b59a219031cac970be9b22df0/dcentrapi-0.2.85.tar.gz
+[2023-06-27 09:21:58] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/86/73/d3097dad89e2693ded5053ed8bccf98a74e39421664d6206d11963710cec/pymino-1.2.2.1.tar.gz
+[2023-06-27 09:21:59] INFO root fetch - processPackages [pygyverhubd]: Downloading https://files.pythonhosted.org/packages/8d/ff/aaba51485a50352e37a0ac0650b1b091439e07ea783061ff73bd4276cbd7/pygyverhubd-0.0.1.tar.gz
+[2023-06-27 09:21:59] INFO root fetch - processPackages [usls]: Downloading https://files.pythonhosted.org/packages/20/51/b9d418a763bc3f8d9f053e152cf5ca36475eae1b8c8324b68345ef7ec7a0/usls-0.2.8-py3-none-any.whl
+[2023-06-27 09:21:59] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-27 09:21:59] WARNING root fetch - processPackages [usls]: Skipping package: exceeds size limit 17146240>=10485760
+[2023-06-27 09:21:59] INFO root fetch - processPackages [usls]: Start processing: json-grep
+[2023-06-27 09:21:59] INFO root fetch - main [MainThread]: End processing [usls] error
+[2023-06-27 09:21:59] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-27 09:21:59] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.1.9.tar.gz tmp/pymino-1.2.2.1.tar.gz --markdown 20230627/p/pymino/1.2.1.9-1.2.2.1/diff.md --exclude *.pyd
+[2023-06-27 09:21:59] INFO root fetch - processPackages [json-grep]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-27 09:21:59] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-27 09:21:59] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230627/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-27 09:21:59] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Downloading https://files.pythonhosted.org/packages/9a/30/b0abb40941f8f989fac59510ee2ff1a61b483f5a352920fc34999bcc5345/cdklabs.cdk-appflow-0.0.9.tar.gz
+[2023-06-27 09:21:59] INFO root fetch - processPackages [consolecmdtools]: Downloading https://files.pythonhosted.org/packages/25/6e/7edff6ab565293d2a7cd28f4856769a75112bd911f6bf273ca3d357d08ea/consolecmdtools-4.0.1.tar.gz
+[2023-06-27 09:21:59] INFO root fetch - processPackages [openai-image]: Downloading https://files.pythonhosted.org/packages/83/1b/3b31a0f0bc461270ff9b71a8dfe271550b848db4e57932f6919e0d413d98/openai-image-1.0.4.tar.gz
+[2023-06-27 09:21:59] INFO root fetch - processPackages [cdklabs.cdk-appflow]: executing diffoscope
+[2023-06-27 09:21:59] INFO root fetch - processPackages [cdklabs.cdk-appflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-appflow-0.0.8.tar.gz tmp/cdklabs.cdk-appflow-0.0.9.tar.gz --markdown 20230627/c/cdklabs.cdk-appflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 09:21:59] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/fa/91/a0e20194fe77998ba3731e5a1b847b3940d9e1f5a1d6da26e0e4b7aae8f9/flask-marshmallow-openapi-0.3.0.tar.gz
+[2023-06-27 09:21:59] INFO root fetch - processPackages [pygyverhubd]: Downloading https://files.pythonhosted.org/packages/d5/5d/5de2afb972ceb3a3eef905bd4b0a517f08edfa2d75d3beed80c9e494f76f/pygyverhubd-0.0.2.tar.gz
+[2023-06-27 09:21:59] INFO root fetch - processPackages [consolecmdtools]: executing diffoscope
+[2023-06-27 09:21:59] INFO root fetch - processPackages [consolecmdtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consolecmdtools-4.0.0.tar.gz tmp/consolecmdtools-4.0.1.tar.gz --markdown 20230627/c/consolecmdtools/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-27 09:21:59] INFO root fetch - processPackages [flask-marshmallow-openapi]: executing diffoscope
+[2023-06-27 09:21:59] INFO root fetch - processPackages [flask-marshmallow-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-marshmallow-openapi-0.2.0.tar.gz tmp/flask-marshmallow-openapi-0.3.0.tar.gz --markdown 20230627/f/flask-marshmallow-openapi/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-27 09:21:59] INFO root fetch - processPackages [json-grep]: Downloading https://files.pythonhosted.org/packages/3d/b7/f9de37888daf260242bb918c708e59f71e4fd3037c979745d278aaf6ad7b/json-grep-1.2.0.tar.gz
+[2023-06-27 09:21:59] INFO root fetch - processPackages [pygyverhubd]: executing diffoscope
+[2023-06-27 09:21:59] INFO root fetch - processPackages [pygyverhubd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygyverhubd-0.0.1.tar.gz tmp/pygyverhubd-0.0.2.tar.gz --markdown 20230627/p/pygyverhubd/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 09:21:59] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/18/c4/6185b8c5cfa92bb9f178afe41246f9f2ec036cb0d07ae27409c995582c67/dcentrapi-0.2.9.tar.gz
+[2023-06-27 09:21:59] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/18/c4/6185b8c5cfa92bb9f178afe41246f9f2ec036cb0d07ae27409c995582c67/dcentrapi-0.2.9.tar.gz
+[2023-06-27 09:21:59] INFO root fetch - processPackages [openai-image]: executing diffoscope
+[2023-06-27 09:21:59] INFO root fetch - processPackages [openai-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-image-1.0.3.tar.gz tmp/openai-image-1.0.4.tar.gz --markdown 20230627/o/openai-image/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-27 09:21:59] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-06-27 09:21:59] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.2.85.tar.gz tmp/dcentrapi-0.2.9.tar.gz --markdown 20230627/d/dcentrapi/0.2.85-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 09:21:59] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-06-27 09:21:59] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.2.85.tar.gz tmp/dcentrapi-0.2.9.tar.gz --markdown 20230627/d/dcentrapi/0.2.85-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 09:21:59] INFO root fetch - processPackages [json-grep]: Downloading https://files.pythonhosted.org/packages/7a/c0/1c4351066ce1a449c6669f39c46342acfeec034ba56a89dde7016bc3d84b/json-grep-1.2.1.tar.gz
+[2023-06-27 09:21:59] INFO root fetch - processPackages [json-grep]: executing diffoscope
+[2023-06-27 09:21:59] INFO root fetch - processPackages [json-grep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-grep-1.2.0.tar.gz tmp/json-grep-1.2.1.tar.gz --markdown 20230627/j/json-grep/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-27 09:22:00] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-appflow-0.0.8.tar.gz]
+[2023-06-27 09:22:00] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-appflow-0.0.9.tar.gz]
+[2023-06-27 09:22:00] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-27 09:22:00] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-appflow]: success
+[2023-06-27 09:22:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-27 09:22:00] INFO root fetch - processPackages [consolecmdtools]: Remove: archive file [/home/abi/fetcher/tmp/consolecmdtools-4.0.0.tar.gz]
+[2023-06-27 09:22:00] INFO root fetch - processPackages [consolecmdtools]: Remove: archive file [/home/abi/fetcher/tmp/consolecmdtools-4.0.1.tar.gz]
+[2023-06-27 09:22:00] INFO root fetch - processPackages [consolecmdtools]: Start processing: openai-image
+[2023-06-27 09:22:00] INFO root fetch - main [MainThread]: End processing [consolecmdtools]: success
+[2023-06-27 09:22:00] INFO root fetch - processPackages [openai-image]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-27 09:22:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-27 09:22:00] INFO root fetch - processPackages [openai-image]: Remove: archive file [/home/abi/fetcher/tmp/openai-image-1.0.3.tar.gz]
+[2023-06-27 09:22:00] INFO root fetch - processPackages [openai-image]: Remove: archive file [/home/abi/fetcher/tmp/openai-image-1.0.4.tar.gz]
+[2023-06-27 09:22:00] INFO root fetch - processPackages [openai-image]: Start processing: configilm
+[2023-06-27 09:22:00] INFO root fetch - main [MainThread]: End processing [openai-image]: success
+[2023-06-27 09:22:01] INFO root fetch - processPackages [openai-image]: Downloading https://files.pythonhosted.org/packages/b7/55/424d5d117cb4a5f1cb066db61d5aad505d6fcae21c971f2a6fac8f4d61c3/openai-image-1.0.3.tar.gz
+[2023-06-27 09:22:01] INFO root fetch - processPackages [configilm]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-27 09:22:01] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.85.tar.gz]
+[2023-06-27 09:22:01] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.9.tar.gz]
+[2023-06-27 09:22:01] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-06-27 09:22:01] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-27 09:22:01] INFO root fetch - processPackages [openai-image]: Downloading https://files.pythonhosted.org/packages/83/1b/3b31a0f0bc461270ff9b71a8dfe271550b848db4e57932f6919e0d413d98/openai-image-1.0.4.tar.gz
+[2023-06-27 09:22:01] INFO root fetch - processPackages [configilm]: Downloading https://files.pythonhosted.org/packages/8d/00/d785881fc063219ebe57611499c076884b8108de396c96f5a87b9c29cc2a/configilm-0.4.3.tar.gz
+[2023-06-27 09:22:01] INFO root fetch - processPackages [openai-image]: executing diffoscope
+[2023-06-27 09:22:01] INFO root fetch - processPackages [openai-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-image-1.0.3.tar.gz tmp/openai-image-1.0.4.tar.gz --markdown 20230627/o/openai-image/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-27 09:22:01] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-06-27 09:22:01] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-27 09:22:01] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230627/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-27 09:22:01] INFO root fetch - processPackages [json-grep]: Remove: archive file [/home/abi/fetcher/tmp/json-grep-1.2.0.tar.gz]
+[2023-06-27 09:22:01] INFO root fetch - processPackages [json-grep]: Remove: archive file [/home/abi/fetcher/tmp/json-grep-1.2.1.tar.gz]
+[2023-06-27 09:22:01] INFO root fetch - main [MainThread]: End processing [json-grep]: success
+[2023-06-27 09:22:01] WARNING root fetch - processPackages [configilm]: Skipping package: exceeds size limit 44800934>=10485760
+[2023-06-27 09:22:01] INFO root fetch - main [MainThread]: End processing [configilm] error
+[2023-06-27 09:22:01] INFO root fetch - processPackages [pygyverhubd]: Remove: archive file [/home/abi/fetcher/tmp/pygyverhubd-0.0.1.tar.gz]
+[2023-06-27 09:22:01] INFO root fetch - processPackages [pygyverhubd]: Remove: archive file [/home/abi/fetcher/tmp/pygyverhubd-0.0.2.tar.gz]
+[2023-06-27 09:22:01] INFO root fetch - main [MainThread]: End processing [pygyverhubd]: success
+[2023-06-27 09:22:02] INFO root fetch - processPackages [openai-image]: Remove: archive file [/home/abi/fetcher/tmp/openai-image-1.0.3.tar.gz]
+[2023-06-27 09:22:02] INFO root fetch - processPackages [openai-image]: Remove: archive file [/home/abi/fetcher/tmp/openai-image-1.0.4.tar.gz]
+[2023-06-27 09:22:02] INFO root fetch - main [MainThread]: End processing [openai-image]: success
+[2023-06-27 09:22:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-27 09:22:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-27 09:22:02] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-27 09:22:03] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.9.tar.gz]
+[2023-06-27 09:22:03] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.2.1.tar.gz]
+[2023-06-27 09:22:03] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-27 09:22:03] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-27 09:22:03] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-27 09:22:03] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-27 09:22:04] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.2.0.tar.gz]
+[2023-06-27 09:22:04] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.3.0.tar.gz]
+[2023-06-27 09:22:04] INFO root fetch - main [MainThread]: End processing [flask-marshmallow-openapi]: success
+[2023-06-27 09:22:04] INFO root fetch - main [MainThread]: Store serial: [18659039]
