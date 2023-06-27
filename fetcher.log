@@ -20713,3 +20713,183 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 13:05:40] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.2.tar.gz]
 [2023-06-27 13:05:40] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
 [2023-06-27 13:05:40] INFO root fetch - main [MainThread]: Store serial: [18661667]
+[2023-06-27 13:10:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661667]
+[2023-06-27 13:10:52] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-27 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydivkit
+[2023-06-27 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mentord
+[2023-06-27 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-debug-toolbar
+[2023-06-27 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filter-vcf
+[2023-06-27 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-27 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: landingai
+[2023-06-27 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: siibra
+[2023-06-27 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: strinpy
+[2023-06-27 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wemp
+[2023-06-27 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jsonablr
+[2023-06-27 13:10:52] INFO root fetch - processPackages [filter-vcf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 13:10:52] INFO root fetch - processPackages [mentord]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-27 13:10:52] INFO root fetch - processPackages [siibra]: New version: [0.4a58] Old Version: [0.4a57]
+[2023-06-27 13:10:52] INFO root fetch - processPackages [wemp]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-06-27 13:10:52] INFO root fetch - processPackages [pydivkit]: New version: [25.6.0] Old Version: [13.0.0b0]
+[2023-06-27 13:10:52] INFO root fetch - processPackages [fastapi-debug-toolbar]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-27 13:10:52] INFO root fetch - processPackages [strinpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 13:10:52] WARNING root fetch - processPackages [jsonablr]: Skipping, unable to determine old version
+[2023-06-27 13:10:52] INFO root fetch - processPackages [jsonablr]: Start processing: mentord
+[2023-06-27 13:10:52] INFO root fetch - main [MainThread]: End processing [jsonablr] error
+[2023-06-27 13:10:52] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 13:10:52] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-27 13:10:52] INFO root fetch - processPackages [mentord]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-27 13:10:52] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/0a/0b/e9abda85dcf615902605043e92f626aecdd5894da9350f49720d9ec95a59/wemp-1.0.3-py3-none-any.whl
+[2023-06-27 13:10:52] INFO root fetch - processPackages [filter-vcf]: Downloading https://files.pythonhosted.org/packages/fe/83/daf68a8a1f0a074bbf4730dd5f56058ec2efe5da99e49a12fddfa58dc4ee/filter-vcf-0.1.8.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [fastapi-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/ab/83/1ba156fd417325ab30872234676269de1b720f5e58c5956382106aae1cb1/fastapi_debug_toolbar-0.3.2.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [strinpy]: Downloading https://files.pythonhosted.org/packages/10/11/767ca077324d853bab272da6117b61de058c2ac2edbd0ef21a379f234d54/strinpy-0.0.1.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/bc/c0/ac49ba5e9b88ed3d07251fe69ee8a7c9ac6bb9250aa823416146001ab422/siibra-0.4a57.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/ca/14/228557bb58334bdb3a49e297c12a12f734f7e17ada33ef7c9fc389b45795/mentord-1.0.6.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/ca/14/228557bb58334bdb3a49e297c12a12f734f7e17ada33ef7c9fc389b45795/mentord-1.0.6.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/ef/79/abae05ce4a5a90230a9b5946c4bce4e22bba13a994b959d6a16b0b546baf/pydivkit-13.0.0b0.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/b5/e2/65993c7ddf7744849cd32553cc04b62757713fe720e178b3c31de800fc2e/wemp-1.0.5-py3-none-any.whl
+[2023-06-27 13:10:52] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-27 13:10:52] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230627/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-27 13:10:52] INFO root fetch - processPackages [filter-vcf]: Downloading https://files.pythonhosted.org/packages/18/0e/29ccb5b65d4623aef0f0aab2b20d85cde319c3f337722712e05e38a39dc7/filter-vcf-0.1.9.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [wemp]: executing diffoscope
+[2023-06-27 13:10:52] INFO root fetch - processPackages [wemp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wemp-1.0.3-py3-none-any.whl.zip tmp/wemp-1.0.5-py3-none-any.whl.zip --markdown 20230627/w/wemp/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-06-27 13:10:52] INFO root fetch - processPackages [fastapi-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/09/a5/2c8b7552420a784cd7e69f083153b734558142d86291beef8d322a868191/fastapi_debug_toolbar-0.4.0.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [strinpy]: Downloading https://files.pythonhosted.org/packages/44/0b/fe2e84b13ccbe0ed255cd9bbe6dbdc6606be038946e0f4952002be5a3f8a/strinpy-0.0.2.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/72/d2/5770295febfa71be70b20c7c8210a850180fef7888bde3ee246b7d905990/siibra-0.4a58.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [filter-vcf]: executing diffoscope
+[2023-06-27 13:10:52] INFO root fetch - processPackages [filter-vcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter-vcf-0.1.8.tar.gz tmp/filter-vcf-0.1.9.tar.gz --markdown 20230627/f/filter-vcf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 13:10:52] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/bf/fc/5179be632d4f3076a6e3d6e8198a52a240dd47da5c6f19a133e6f3b71905/pydivkit-25.6.0.tar.gz
+[2023-06-27 13:10:52] INFO root fetch - processPackages [strinpy]: executing diffoscope
+[2023-06-27 13:10:52] INFO root fetch - processPackages [strinpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strinpy-0.0.1.tar.gz tmp/strinpy-0.0.2.tar.gz --markdown 20230627/s/strinpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 13:10:52] INFO root fetch - processPackages [fastapi-debug-toolbar]: executing diffoscope
+[2023-06-27 13:10:52] INFO root fetch - processPackages [fastapi-debug-toolbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_debug_toolbar-0.3.2.tar.gz tmp/fastapi_debug_toolbar-0.4.0.tar.gz --markdown 20230627/f/fastapi-debug-toolbar/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-27 13:10:53] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/4a/ff/78e07bcd2f26cce8acc6ab4faa610c325758a17d80f58414d06f7b33ea63/mentord-1.0.7.tar.gz
+[2023-06-27 13:10:53] INFO root fetch - processPackages [pydivkit]: executing diffoscope
+[2023-06-27 13:10:53] INFO root fetch - processPackages [pydivkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivkit-13.0.0b0.tar.gz tmp/pydivkit-25.6.0.tar.gz --markdown 20230627/p/pydivkit/13.0.0b0-25.6.0/diff.md --exclude *.pyd
+[2023-06-27 13:10:53] INFO root fetch - processPackages [siibra]: executing diffoscope
+[2023-06-27 13:10:53] INFO root fetch - processPackages [siibra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siibra-0.4a57.tar.gz tmp/siibra-0.4a58.tar.gz --markdown 20230627/s/siibra/0.4a57-0.4a58/diff.md --exclude *.pyd
+[2023-06-27 13:10:53] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/4a/ff/78e07bcd2f26cce8acc6ab4faa610c325758a17d80f58414d06f7b33ea63/mentord-1.0.7.tar.gz
+[2023-06-27 13:10:53] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-06-27 13:10:53] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-27 13:10:53] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-27 13:10:53] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.0.6.tar.gz tmp/mentord-1.0.7.tar.gz --markdown 20230627/m/mentord/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-27 13:10:53] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.0.6.tar.gz tmp/mentord-1.0.7.tar.gz --markdown 20230627/m/mentord/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-27 13:10:53] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-27 13:10:53] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230627/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 13:10:54] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.3-py3-none-any.whl.zip]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.5-py3-none-any.whl.zip]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [wemp]: Start processing: datagraph
+[2023-06-27 13:10:54] INFO root fetch - main [MainThread]: End processing [wemp]: success
+[2023-06-27 13:10:54] WARNING root fetch - processPackages [datagraph]: Skipping, unable to determine old version
+[2023-06-27 13:10:54] INFO root fetch - processPackages [datagraph]: Start processing: pythoncryptolibraryV2
+[2023-06-27 13:10:54] INFO root fetch - main [MainThread]: End processing [datagraph] error
+[2023-06-27 13:10:54] ERROR root fetch - processPackages [pythoncryptolibraryV2]: Unable to get metadata: No such project 'pythoncryptolibraryV2'
+[2023-06-27 13:10:54] INFO root fetch - processPackages [pythoncryptolibraryV2]: Start processing: tendril-interests
+[2023-06-27 13:10:54] INFO root fetch - main [MainThread]: End processing [pythoncryptolibraryV2] error
+[2023-06-27 13:10:54] INFO root fetch - processPackages [tendril-interests]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [landingai]: Start processing: TEST-TC
+[2023-06-27 13:10:54] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-27 13:10:54] INFO root fetch - processPackages [TEST-TC]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/69/3f/ab09f737843e9f73a7c01c1b80e52ec7171907753bb72d849b79b9a9d0f2/tendril-interests-0.2.8.tar.gz
+[2023-06-27 13:10:54] INFO root fetch - processPackages [strinpy]: Remove: archive file [/home/abi/fetcher/tmp/strinpy-0.0.1.tar.gz]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [strinpy]: Remove: archive file [/home/abi/fetcher/tmp/strinpy-0.0.2.tar.gz]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [strinpy]: Start processing: absfuyu
+[2023-06-27 13:10:54] INFO root fetch - main [MainThread]: End processing [strinpy]: success
+[2023-06-27 13:10:54] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/cc/0a/b1afcc1b2b30ce92248bc68e4f7d3ac5faee47b8f8284da276d319b77e2a/TEST_TC-0.1.4.tar.gz
+[2023-06-27 13:10:54] INFO root fetch - processPackages [absfuyu]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.6.tar.gz]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.7.tar.gz]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [mentord]: Start processing: pepperize.cdk-private-bucket
+[2023-06-27 13:10:54] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-27 13:10:54] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 13:10:54] INFO root fetch - processPackages [mentord]: Start processing: vehicle-lang
+[2023-06-27 13:10:54] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-27 13:10:54] INFO root fetch - processPackages [vehicle-lang]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-27 13:10:55] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/b1/cf/a585e684d2253d773a1451924c5aa64bec8a95b0d20d8ae1ec6d84633cd2/tendril-interests-0.2.9.tar.gz
+[2023-06-27 13:10:55] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/8b/b8/fc51b355e54d3f15a78b21e3176aae0c6cb983fa48a95a4e70fd9d417918/TEST_TC-0.1.5.tar.gz
+[2023-06-27 13:10:55] INFO root fetch - processPackages [absfuyu]: Downloading https://files.pythonhosted.org/packages/08/96/6c2baf5d71e3e77436dfed30414b2f9d8612bc77cd3b57e87677004c1c05/absfuyu-2.1.1.tar.gz
+[2023-06-27 13:10:55] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2023-06-27 13:10:55] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-interests-0.2.8.tar.gz tmp/tendril-interests-0.2.9.tar.gz --markdown 20230627/t/tendril-interests/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 13:10:55] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-06-27 13:10:55] INFO root fetch - processPackages [vehicle-lang]: Downloading https://files.pythonhosted.org/packages/69/06/aeb5c6d93f93b3fae95ac09c8ac3741079e717ec613b88f45c7ca8a5717c/vehicle_lang-0.4.1-cp39-cp39-win_amd64.whl
+[2023-06-27 13:10:55] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-06-27 13:10:55] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-0.1.4.tar.gz tmp/TEST_TC-0.1.5.tar.gz --markdown 20230627/T/TEST-TC/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 13:10:55] WARNING root fetch - processPackages [vehicle-lang]: Skipping package: exceeds size limit 11862104>=10485760
+[2023-06-27 13:10:55] INFO root fetch - processPackages [vehicle-lang]: Start processing: ProkBERT-base-test-library
+[2023-06-27 13:10:55] INFO root fetch - main [MainThread]: End processing [vehicle-lang] error
+[2023-06-27 13:10:55] WARNING root fetch - processPackages [ProkBERT-base-test-library]: Skipping, unable to determine old version
+[2023-06-27 13:10:55] INFO root fetch - processPackages [ProkBERT-base-test-library]: Start processing: how-fake-accounts
+[2023-06-27 13:10:55] INFO root fetch - main [MainThread]: End processing [ProkBERT-base-test-library] error
+[2023-06-27 13:10:55] INFO root fetch - processPackages [how-fake-accounts]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-27 13:10:55] INFO root fetch - processPackages [absfuyu]: Downloading https://files.pythonhosted.org/packages/a3/61/70784d625b4b21d14de48176cc1359723db24a8ad2e5212b99579fe60c5a/absfuyu-2.2.0.tar.gz
+[2023-06-27 13:10:55] INFO root fetch - processPackages [how-fake-accounts]: Downloading https://files.pythonhosted.org/packages/c0/0d/f2f8c8607d21f6c13e2ae1356c0e7ae7e89b8525fae23d05c8a69fe812c1/how_fake_accounts-0.2.0.tar.gz
+[2023-06-27 13:10:55] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-06-27 13:10:55] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-06-27 13:10:55] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-06-27 13:10:55] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: tendril-caching
+[2023-06-27 13:10:55] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-06-27 13:10:55] INFO root fetch - processPackages [tendril-caching]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-27 13:10:55] INFO root fetch - processPackages [absfuyu]: executing diffoscope
+[2023-06-27 13:10:55] INFO root fetch - processPackages [absfuyu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absfuyu-2.1.1.tar.gz tmp/absfuyu-2.2.0.tar.gz --markdown 20230627/a/absfuyu/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-27 13:10:55] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-06-27 13:10:55] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 13:10:55] INFO root fetch - processPackages [fastapi-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_debug_toolbar-0.3.2.tar.gz]
+[2023-06-27 13:10:55] INFO root fetch - processPackages [fastapi-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_debug_toolbar-0.4.0.tar.gz]
+[2023-06-27 13:10:55] INFO root fetch - processPackages [fastapi-debug-toolbar]: Start processing: cloud-governance
+[2023-06-27 13:10:55] INFO root fetch - main [MainThread]: End processing [fastapi-debug-toolbar]: success
+[2023-06-27 13:10:55] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-27 13:10:55] INFO root fetch - processPackages [how-fake-accounts]: Downloading https://files.pythonhosted.org/packages/d8/dd/1a2c2aee6fe9e3c37eef179adca7100b5a28282373414cfdf1d038a409e6/how_fake_accounts-0.3.0.tar.gz
+[2023-06-27 13:10:55] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-06-27 13:10:55] INFO root fetch - processPackages [tendril-caching]: Downloading https://files.pythonhosted.org/packages/0b/74/8e64e5689e633e4c363d289c39ffe4cc486ba24148a982f8b877366ef53f/tendril-caching-0.2.5.tar.gz
+[2023-06-27 13:10:55] INFO root fetch - processPackages [how-fake-accounts]: executing diffoscope
+[2023-06-27 13:10:55] INFO root fetch - processPackages [how-fake-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/how_fake_accounts-0.2.0.tar.gz tmp/how_fake_accounts-0.3.0.tar.gz --markdown 20230627/h/how-fake-accounts/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-27 13:10:55] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-06-27 13:10:55] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-06-27 13:10:55] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230627/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-27 13:10:56] INFO root fetch - processPackages [tendril-caching]: Downloading https://files.pythonhosted.org/packages/ef/8d/f025d0fbbc568140985d6793f5292454ba9cec08ce48a3a23b99f407f1dc/tendril-caching-0.2.6.tar.gz
+[2023-06-27 13:10:56] INFO root fetch - processPackages [filter-vcf]: Remove: archive file [/home/abi/fetcher/tmp/filter-vcf-0.1.8.tar.gz]
+[2023-06-27 13:10:56] INFO root fetch - processPackages [filter-vcf]: Remove: archive file [/home/abi/fetcher/tmp/filter-vcf-0.1.9.tar.gz]
+[2023-06-27 13:10:56] INFO root fetch - processPackages [filter-vcf]: Start processing: mentord
+[2023-06-27 13:10:56] INFO root fetch - main [MainThread]: End processing [filter-vcf]: success
+[2023-06-27 13:10:56] INFO root fetch - processPackages [mentord]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-27 13:10:56] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/4a/ff/78e07bcd2f26cce8acc6ab4faa610c325758a17d80f58414d06f7b33ea63/mentord-1.0.7.tar.gz
+[2023-06-27 13:10:56] INFO root fetch - processPackages [tendril-caching]: executing diffoscope
+[2023-06-27 13:10:56] INFO root fetch - processPackages [tendril-caching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-caching-0.2.5.tar.gz tmp/tendril-caching-0.2.6.tar.gz --markdown 20230627/t/tendril-caching/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-27 13:10:56] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/35/8f/618c470fed6dd072abc3655e7e46a5c6932b95267e51fdccfadf6ed59f1f/mentord-1.0.8.tar.gz
+[2023-06-27 13:10:56] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-27 13:10:56] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.0.7.tar.gz tmp/mentord-1.0.8.tar.gz --markdown 20230627/m/mentord/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-27 13:10:56] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-06-27 13:10:56] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-06-27 13:10:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-06-27 13:10:57] INFO root fetch - processPackages [how-fake-accounts]: Remove: archive file [/home/abi/fetcher/tmp/how_fake_accounts-0.2.0.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - processPackages [how-fake-accounts]: Remove: archive file [/home/abi/fetcher/tmp/how_fake_accounts-0.3.0.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - main [MainThread]: End processing [how-fake-accounts]: success
+[2023-06-27 13:10:57] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-13.0.0b0.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-25.6.0.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - main [MainThread]: End processing [pydivkit]: success
+[2023-06-27 13:10:57] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.4.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.5.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-06-27 13:10:57] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a57.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a58.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - main [MainThread]: End processing [siibra]: success
+[2023-06-27 13:10:57] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.7.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.8.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-27 13:10:57] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.2.8.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.2.9.tar.gz]
+[2023-06-27 13:10:57] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2023-06-27 13:10:58] INFO root fetch - processPackages [tendril-caching]: Remove: archive file [/home/abi/fetcher/tmp/tendril-caching-0.2.5.tar.gz]
+[2023-06-27 13:10:58] INFO root fetch - processPackages [tendril-caching]: Remove: archive file [/home/abi/fetcher/tmp/tendril-caching-0.2.6.tar.gz]
+[2023-06-27 13:10:58] INFO root fetch - main [MainThread]: End processing [tendril-caching]: success
+[2023-06-27 13:10:59] INFO root fetch - processPackages [absfuyu]: Remove: archive file [/home/abi/fetcher/tmp/absfuyu-2.1.1.tar.gz]
+[2023-06-27 13:10:59] INFO root fetch - processPackages [absfuyu]: Remove: archive file [/home/abi/fetcher/tmp/absfuyu-2.2.0.tar.gz]
+[2023-06-27 13:10:59] INFO root fetch - main [MainThread]: End processing [absfuyu]: success
+[2023-06-27 13:11:00] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-06-27 13:11:00] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-06-27 13:11:00] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-06-27 13:11:00] INFO root fetch - main [MainThread]: Store serial: [18661748]
