@@ -5875,3 +5875,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 03:17:11] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.6.8.dev0-py3-none-any.whl.zip]
 [2023-06-27 03:17:11] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
 [2023-06-27 03:17:11] INFO root fetch - main [MainThread]: Store serial: [18655661]
+[2023-06-27 03:22:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18655661]
+[2023-06-27 03:22:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-27 03:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-06-27 03:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-stt-plugin-nemo
+[2023-06-27 03:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tja2fumen
+[2023-06-27 03:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aemcmc-nightly
+[2023-06-27 03:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qsm-forward
+[2023-06-27 03:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ptyme-track
+[2023-06-27 03:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-organizations
+[2023-06-27 03:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: galight
+[2023-06-27 03:22:21] INFO root fetch - processPackages [neon-stt-plugin-nemo]: New version: [0.0.4a1] Old Version: [0.0.4]
+[2023-06-27 03:22:21] INFO root fetch - processPackages [galight]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 03:22:21] INFO root fetch - processPackages [ptyme-track]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-27 03:22:21] INFO root fetch - processPackages [qsm-forward]: New version: [0.8] Old Version: [0.7]
+[2023-06-27 03:22:21] INFO root fetch - processPackages [tja2fumen]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-27 03:22:21] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230626] Old Version: [0.0.8.dev20230625]
+[2023-06-27 03:22:21] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-06-27 03:22:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-27 03:22:21] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/a2/be/0fbf9dc3165821829f5d570963008713b4f769fd29ba6d8421df1f1fa0fa/aemcmc-nightly-0.0.8.dev20230625.tar.gz
+[2023-06-27 03:22:21] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Downloading https://files.pythonhosted.org/packages/00/b3/c12a54e44085135de31c3d320e07ed4a9d1a9b726653015ac52a4fe07f80/neon-stt-plugin-nemo-0.0.4.tar.gz
+[2023-06-27 03:22:21] INFO root fetch - processPackages [ptyme-track]: Downloading https://files.pythonhosted.org/packages/85/3a/31a0788a4365777d291cfd863bb07799b5454cd283485b7f4433c90e551d/ptyme_track-0.2.0.tar.gz
+[2023-06-27 03:22:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-27 03:22:21] INFO root fetch - processPackages [galight]: Downloading https://files.pythonhosted.org/packages/16/98/1166d2fb8af948f34dfd6b06ecb1bdf85dadda16fd8c9c0902b8e88378b0/galight-0.1.8.tar.gz
+[2023-06-27 03:22:21] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/e6/a0/19c26a94b080c813caf0e209f24aaad2a55a79a4c9c84cbe1c7df04ec70e/tja2fumen-0.0.1.tar.gz
+[2023-06-27 03:22:21] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-06-27 03:22:21] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/e8/c1/90c682fae1ecd64fd24c4f75cccbc5c090978f0b2a9e0fa4d15b0cdc85a7/qsm-forward-0.7.tar.gz
+[2023-06-27 03:22:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-27 03:22:21] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/55/6e/3492ca002cf3bdb4af99c330aa01f4c40aee5b51296abbd7f417c41b0da9/aemcmc-nightly-0.0.8.dev20230626.tar.gz
+[2023-06-27 03:22:21] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/82/f1/9d98c6837450c1e8f258b5587ece483348e0772589d430d59a92a3c7f764/tja2fumen-0.1.0.tar.gz
+[2023-06-27 03:22:22] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Downloading https://files.pythonhosted.org/packages/eb/f7/170eb399650dc0bde39a73110e34d8f6db42c9820da1118bc76452f26e0d/neon-stt-plugin-nemo-0.0.4a1.tar.gz
+[2023-06-27 03:22:22] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-27 03:22:22] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230627/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-27 03:22:22] INFO root fetch - processPackages [ptyme-track]: Downloading https://files.pythonhosted.org/packages/1d/6b/479ca99e64c4dad62ca08b4cddad9d8e0ceee0a3dd166a38d54b5dbd2aa9/ptyme_track-0.3.0.tar.gz
+[2023-06-27 03:22:22] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-27 03:22:22] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230625.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230626.tar.gz --markdown 20230627/a/aemcmc-nightly/0.0.8.dev20230625-0.0.8.dev20230626/diff.md --exclude *.pyd
+[2023-06-27 03:22:22] INFO root fetch - processPackages [tja2fumen]: executing diffoscope
+[2023-06-27 03:22:22] INFO root fetch - processPackages [tja2fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tja2fumen-0.0.1.tar.gz tmp/tja2fumen-0.1.0.tar.gz --markdown 20230627/t/tja2fumen/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-27 03:22:22] INFO root fetch - processPackages [neon-stt-plugin-nemo]: executing diffoscope
+[2023-06-27 03:22:22] INFO root fetch - processPackages [neon-stt-plugin-nemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-stt-plugin-nemo-0.0.4.tar.gz tmp/neon-stt-plugin-nemo-0.0.4a1.tar.gz --markdown 20230627/n/neon-stt-plugin-nemo/0.0.4-0.0.4a1/diff.md --exclude *.pyd
+[2023-06-27 03:22:22] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/65/46/45de4bd58406ad4eba67dd561e259f33a0fcc6af97702924894b9e75b9fb/qsm-forward-0.8.tar.gz
+[2023-06-27 03:22:22] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-06-27 03:22:22] INFO root fetch - processPackages [ptyme-track]: executing diffoscope
+[2023-06-27 03:22:22] INFO root fetch - processPackages [ptyme-track]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptyme_track-0.2.0.tar.gz tmp/ptyme_track-0.3.0.tar.gz --markdown 20230627/p/ptyme-track/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-27 03:22:22] INFO root fetch - processPackages [galight]: Downloading https://files.pythonhosted.org/packages/40/bf/be7ead8a2b2c43e388b5b016e9f94c9e6eb24054f8bb7f91a0b9e9934d0b/galight-0.1.9.tar.gz
+[2023-06-27 03:22:22] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-06-27 03:22:22] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.7.tar.gz tmp/qsm-forward-0.8.tar.gz --markdown 20230627/q/qsm-forward/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-27 03:22:22] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-06-27 03:22:22] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230627/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-06-27 03:22:22] INFO root fetch - processPackages [galight]: executing diffoscope
+[2023-06-27 03:22:22] INFO root fetch - processPackages [galight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galight-0.1.8.tar.gz tmp/galight-0.1.9.tar.gz --markdown 20230627/g/galight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 03:22:23] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-27 03:22:23] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.0.1.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.1.0.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
+[2023-06-27 03:22:23] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230625.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230626.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-27 03:22:23] INFO root fetch - processPackages [ptyme-track]: Remove: archive file [/home/abi/fetcher/tmp/ptyme_track-0.2.0.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - processPackages [ptyme-track]: Remove: archive file [/home/abi/fetcher/tmp/ptyme_track-0.3.0.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - main [MainThread]: End processing [ptyme-track]: success
+[2023-06-27 03:22:23] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Remove: archive file [/home/abi/fetcher/tmp/neon-stt-plugin-nemo-0.0.4.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Remove: archive file [/home/abi/fetcher/tmp/neon-stt-plugin-nemo-0.0.4a1.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - main [MainThread]: End processing [neon-stt-plugin-nemo]: success
+[2023-06-27 03:22:23] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.7.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.8.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-06-27 03:22:23] INFO root fetch - processPackages [galight]: Remove: archive file [/home/abi/fetcher/tmp/galight-0.1.8.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - processPackages [galight]: Remove: archive file [/home/abi/fetcher/tmp/galight-0.1.9.tar.gz]
+[2023-06-27 03:22:23] INFO root fetch - main [MainThread]: End processing [galight]: success
+[2023-06-27 03:22:25] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-06-27 03:22:25] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-06-27 03:22:25] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-06-27 03:22:25] INFO root fetch - main [MainThread]: Store serial: [18655685]
