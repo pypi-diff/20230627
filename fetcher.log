@@ -11988,3 +11988,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 06:00:47] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
 [2023-06-27 06:00:47] INFO root fetch - main [MainThread]: End processing [oci] error
 [2023-06-27 06:00:47] INFO root fetch - main [MainThread]: Store serial: [18657921]
+[2023-06-27 06:05:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657921]
+[2023-06-27 06:05:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CliRenderer
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-roborock
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-ak-31dc9f55b9684fe29acc7c0125a5d7a2
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ebbs
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-it-rea
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evals-nightly
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vizmath
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pih
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yandexcloud
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bqemulatormanager
+[2023-06-27 06:05:57] WARNING root fetch - processPackages [antchain-ak-31dc9f55b9684fe29acc7c0125a5d7a2]: Skipping, unable to determine old version
+[2023-06-27 06:05:57] INFO root fetch - main [MainThread]: End processing [antchain-ak-31dc9f55b9684fe29acc7c0125a5d7a2] error
+[2023-06-27 06:05:57] INFO root fetch - processPackages [odoo-addon-l10n-it-rea]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-27 06:05:57] INFO root fetch - processPackages [vizmath]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-27 06:05:57] INFO root fetch - processPackages [bqemulatormanager]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-27 06:05:57] INFO root fetch - processPackages [CliRenderer]: New version: [0.1.5] Old Version: [0.1.4.post1]
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ebbs]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-27 06:05:57] INFO root fetch - processPackages [pih]: New version: [1.45] Old Version: [1.43]
+[2023-06-27 06:05:57] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-06-27 06:05:57] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-27 06:05:57] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230626] Old Version: [1.0.3.dev20230625]
+[2023-06-27 06:05:57] INFO root fetch - processPackages [vizmath]: Downloading https://files.pythonhosted.org/packages/01/83/06e766fc0b1534e4b85119487e692b321caef30e3e8a55437aaaa4d06d91/vizmath-0.0.4.tar.gz
+[2023-06-27 06:05:57] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/bc/a5/7bd08437421c34e92b81b72e3d3eaf9ab00bc7dcca9dd03a427476c13e59/python_roborock-0.9.0.tar.gz
+[2023-06-27 06:05:57] INFO root fetch - processPackages [odoo-addon-l10n-it-rea]: Downloading https://files.pythonhosted.org/packages/4f/2f/bd54bc346a0ed5616b2c37cc4372152856bf97392a80373fc03e224d5953/odoo_addon_l10n_it_rea-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-27 06:05:57] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/0c/7a/2afe44a6619ee98baa2e91684ab421e977aed38e8cd393f7b8f92a5835f2/pih-1.43.tar.gz
+[2023-06-27 06:05:57] INFO root fetch - processPackages [CliRenderer]: Downloading https://files.pythonhosted.org/packages/92/2c/07cda2c5197315f17b37efbb63006a9cbbfe55ab2fb171590cba2f89ec56/CliRenderer-0.1.4.post1.tar.gz
+[2023-06-27 06:05:57] INFO root fetch - processPackages [bqemulatormanager]: Downloading https://files.pythonhosted.org/packages/cf/cf/c2137522b75d52c20ed47bd537e16054bc0490528a4f50cdf30b243be896/bqemulatormanager-0.2.0.tar.gz
+[2023-06-27 06:05:57] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/e4/4d/600e9b8522cb5e4288fadbaae0e9d2b951d0b79be24416d8b78414a5efb6/ebbs-2.2.8.tar.gz
+[2023-06-27 06:05:57] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/c4/64/4f65c5c8989219794574fc4276ed1e9b3a2969f302e4737628687f8e93dc/evals-nightly-1.0.3.dev20230625.tar.gz
+[2023-06-27 06:05:57] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2023-06-27 06:05:58] INFO root fetch - processPackages [vizmath]: Downloading https://files.pythonhosted.org/packages/d5/7a/e04600a655c2cb5cfa91d25de1be8e0eb535f35349f34f5a9769fb68856e/vizmath-0.0.5.tar.gz
+[2023-06-27 06:05:58] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-06-27 06:05:58] INFO root fetch - processPackages [vizmath]: executing diffoscope
+[2023-06-27 06:05:58] INFO root fetch - processPackages [vizmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizmath-0.0.4.tar.gz tmp/vizmath-0.0.5.tar.gz --markdown 20230627/v/vizmath/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-27 06:05:58] INFO root fetch - processPackages [odoo-addon-l10n-it-rea]: Downloading https://files.pythonhosted.org/packages/a0/b8/f017f167b4faea2010325778ad5d7a902e144812f60d1a44ee12d622255d/odoo_addon_l10n_it_rea-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-27 06:05:58] INFO root fetch - processPackages [bqemulatormanager]: Downloading https://files.pythonhosted.org/packages/ac/a6/65719608fd6d1a6b343505e157fceaf3bf06fd92f85a48295910ef07ce39/bqemulatormanager-0.2.1.tar.gz
+[2023-06-27 06:05:58] INFO root fetch - processPackages [CliRenderer]: Downloading https://files.pythonhosted.org/packages/53/a4/132274833a2d1e345369600f5e9764c0490ee7330563a0986a946f159e62/CliRenderer-0.1.5.tar.gz
+[2023-06-27 06:05:58] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/39/a3/06b4d8178e296b4685147b235976c484042122511a865c55fa843ac61e49/pih-1.45.tar.gz
+[2023-06-27 06:05:58] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-06-27 06:05:58] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230627/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-06-27 06:05:58] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/20/d0/de7341e4fa3c85d7e4cfa1717c33275e896073ef75ba174e49e8bef2cd51/evals-nightly-1.0.3.dev20230626.tar.gz
+[2023-06-27 06:05:58] INFO root fetch - processPackages [odoo-addon-l10n-it-rea]: executing diffoscope
+[2023-06-27 06:05:58] INFO root fetch - processPackages [odoo-addon-l10n-it-rea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_rea-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_rea-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-l10n-it-rea/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-27 06:05:58] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2023-06-27 06:05:58] INFO root fetch - processPackages [bqemulatormanager]: executing diffoscope
+[2023-06-27 06:05:58] INFO root fetch - processPackages [bqemulatormanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bqemulatormanager-0.2.0.tar.gz tmp/bqemulatormanager-0.2.1.tar.gz --markdown 20230627/b/bqemulatormanager/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-27 06:05:58] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/a1/17/09488d6e7c260166edfebc9cb5a173db17c6d6a621677ea3280cda9da438/ebbs-2.2.9.tar.gz
+[2023-06-27 06:05:58] INFO root fetch - processPackages [CliRenderer]: executing diffoscope
+[2023-06-27 06:05:58] INFO root fetch - processPackages [CliRenderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CliRenderer-0.1.4.post1.tar.gz tmp/CliRenderer-0.1.5.tar.gz --markdown 20230627/C/CliRenderer/0.1.4.post1-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 06:05:58] INFO root fetch - processPackages [ebbs]: executing diffoscope
+[2023-06-27 06:05:58] INFO root fetch - processPackages [ebbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebbs-2.2.8.tar.gz tmp/ebbs-2.2.9.tar.gz --markdown 20230627/e/ebbs/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-27 06:05:58] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2023-06-27 06:05:58] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20230627/y/yandexcloud/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-27 06:05:58] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-06-27 06:05:58] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.43.tar.gz tmp/pih-1.45.tar.gz --markdown 20230627/p/pih/1.43-1.45/diff.md --exclude *.pyd
+[2023-06-27 06:05:58] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-27 06:05:58] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230625.tar.gz tmp/evals-nightly-1.0.3.dev20230626.tar.gz --markdown 20230627/e/evals-nightly/1.0.3.dev20230625-1.0.3.dev20230626/diff.md --exclude *.pyd
+[2023-06-27 06:05:59] INFO root fetch - processPackages [vizmath]: Remove: archive file [/home/abi/fetcher/tmp/vizmath-0.0.4.tar.gz]
+[2023-06-27 06:05:59] INFO root fetch - processPackages [vizmath]: Remove: archive file [/home/abi/fetcher/tmp/vizmath-0.0.5.tar.gz]
+[2023-06-27 06:05:59] INFO root fetch - main [MainThread]: End processing [vizmath]: success
+[2023-06-27 06:05:59] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0.tar.gz]
+[2023-06-27 06:05:59] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0rc0.tar.gz]
+[2023-06-27 06:05:59] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-06-27 06:05:59] INFO root fetch - processPackages [CliRenderer]: Remove: archive file [/home/abi/fetcher/tmp/CliRenderer-0.1.4.post1.tar.gz]
+[2023-06-27 06:05:59] INFO root fetch - processPackages [CliRenderer]: Remove: archive file [/home/abi/fetcher/tmp/CliRenderer-0.1.5.tar.gz]
+[2023-06-27 06:05:59] INFO root fetch - main [MainThread]: End processing [CliRenderer]: success
+[2023-06-27 06:06:00] INFO root fetch - processPackages [bqemulatormanager]: Remove: archive file [/home/abi/fetcher/tmp/bqemulatormanager-0.2.0.tar.gz]
+[2023-06-27 06:06:00] INFO root fetch - processPackages [bqemulatormanager]: Remove: archive file [/home/abi/fetcher/tmp/bqemulatormanager-0.2.1.tar.gz]
+[2023-06-27 06:06:00] INFO root fetch - main [MainThread]: End processing [bqemulatormanager]: success
+[2023-06-27 06:06:00] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.8.tar.gz]
+[2023-06-27 06:06:00] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.9.tar.gz]
+[2023-06-27 06:06:00] INFO root fetch - main [MainThread]: End processing [ebbs]: success
+[2023-06-27 06:06:00] INFO root fetch - processPackages [odoo-addon-l10n-it-rea]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_rea-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-27 06:06:00] INFO root fetch - processPackages [odoo-addon-l10n-it-rea]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_rea-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-27 06:06:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-rea]: success
+[2023-06-27 06:06:00] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.43.tar.gz]
+[2023-06-27 06:06:00] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.45.tar.gz]
+[2023-06-27 06:06:00] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-06-27 06:06:02] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230625.tar.gz]
+[2023-06-27 06:06:02] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230626.tar.gz]
+[2023-06-27 06:06:02] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-27 06:06:07] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2023-06-27 06:06:07] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2023-06-27 06:06:07] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2023-06-27 06:06:07] INFO root fetch - main [MainThread]: Store serial: [18657952]
