@@ -18243,3 +18243,198 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 11:26:26] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-23.6.5.0.tar.gz]
 [2023-06-27 11:26:26] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
 [2023-06-27 11:26:26] INFO root fetch - main [MainThread]: Store serial: [18660622]
+[2023-06-27 11:31:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18660622]
+[2023-06-27 11:31:36] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-27 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQt-Fluent-Widgets
+[2023-06-27 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-exportar-deposito-xls
+[2023-06-27 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-telegram-notifier
+[2023-06-27 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akeyless
+[2023-06-27 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-chinese-holidays
+[2023-06-27 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zammad-py
+[2023-06-27 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assisted-service-client
+[2023-06-27 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pathfind
+[2023-06-27 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finflo
+[2023-06-27 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graphesn
+[2023-06-27 11:31:36] INFO root fetch - processPackages [pytest-telegram-notifier]: New version: [1.4.0] Old Version: [1.3.3]
+[2023-06-27 11:31:36] INFO root fetch - processPackages [py-chinese-holidays]: New version: [1.1.1] Old Version: [1.1]
+[2023-06-27 11:31:36] INFO root fetch - processPackages [pathfind]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 11:31:36] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-27 11:31:36] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: New version: [13.0.1.0.4.dev2] Old Version: [13.0.1.0.4.dev1]
+[2023-06-27 11:31:36] INFO root fetch - processPackages [graphesn]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 11:31:36] INFO root fetch - processPackages [zammad-py]: New version: [3.0.0] Old Version: [2.0.1]
+[2023-06-27 11:31:36] INFO root fetch - processPackages [finflo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-27 11:31:36] INFO root fetch - processPackages [akeyless]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-06-27 11:31:36] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-27 11:31:36] INFO root fetch - processPackages [pathfind]: Downloading https://files.pythonhosted.org/packages/69/dd/abc8239bdb20309eff359d116f6d621a8a626548d8bcaf11ffa2a8d87283/pathfind-0.0.8.tar.gz
+[2023-06-27 11:31:36] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/8f/f6/fbd396d214afe12c1f95383c7caea9cde8cff3f92242905d99ff7110ff91/akeyless-3.3.8.tar.gz
+[2023-06-27 11:31:36] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-27 11:31:36] INFO root fetch - processPackages [pytest-telegram-notifier]: Downloading https://files.pythonhosted.org/packages/6c/99/0261e510cd8e3a5deddfc56828776cffd86b706519114bd13a33d0d0ff3d/pytest-telegram-notifier-1.3.3.tar.gz
+[2023-06-27 11:31:36] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: Downloading https://files.pythonhosted.org/packages/c0/98/5cc6ef068821f2990a47bfe26ef7121672cebb2faac0ef258aba02e031ae/odoo13_addon_exportar_deposito_xls-13.0.1.0.4.dev1-py3-none-any.whl
+[2023-06-27 11:31:36] INFO root fetch - processPackages [py-chinese-holidays]: Downloading https://files.pythonhosted.org/packages/46/c7/a73c8f1fa25415de4878f467c1b673e79e7d805cdfca0d576d3fc8e492ed/py-chinese-holidays-1.1.tar.gz
+[2023-06-27 11:31:36] INFO root fetch - processPackages [zammad-py]: Downloading https://files.pythonhosted.org/packages/45/94/da5fe69834515f9f13a4b1d222c9fa2583cd83e9606493656f4fd4d88a93/zammad_py-2.0.1.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [graphesn]: Downloading https://files.pythonhosted.org/packages/a7/d1/253233350ce7eb747baa1191f78591ec3bd27cdc5f1cabc20d4e0292a596/graphesn-0.2.8.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/04/d4/473c3170b2653947ae4fdf747350d5d9da37102ff9e555728fe31155c998/finflo-2.0.8.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-27 11:31:37] INFO root fetch - processPackages [pathfind]: Downloading https://files.pythonhosted.org/packages/31/f1/7fff08e1d0db0a137b66e70f858a91389e71d17f9bda30b5d9c4ec234f3c/pathfind-0.0.9.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/2a/b5/50ae6c4c5d2ec98060599a92755611e74c1e561ca9bc7dae41c508e187bc/akeyless-3.3.9.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/0d/30/629d83990b4cd4b5d547fa7142fee045a55e0efd28d6a75da7341c8d7aa2/PyQt-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [pathfind]: executing diffoscope
+[2023-06-27 11:31:37] INFO root fetch - processPackages [pathfind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathfind-0.0.8.tar.gz tmp/pathfind-0.0.9.tar.gz --markdown 20230627/p/pathfind/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 11:31:37] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-27 11:31:37] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230627/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-27 11:31:37] INFO root fetch - processPackages [py-chinese-holidays]: Downloading https://files.pythonhosted.org/packages/ce/c6/00e3f793cfe0e4f9752c38a31087e17a1f65df8cb0dfc7083a25b4ab915f/py-chinese-holidays-1.1.1.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [akeyless]: executing diffoscope
+[2023-06-27 11:31:37] INFO root fetch - processPackages [akeyless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeyless-3.3.8.tar.gz tmp/akeyless-3.3.9.tar.gz --markdown 20230627/a/akeyless/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-06-27 11:31:37] INFO root fetch - processPackages [py-chinese-holidays]: executing diffoscope
+[2023-06-27 11:31:37] INFO root fetch - processPackages [py-chinese-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-chinese-holidays-1.1.tar.gz tmp/py-chinese-holidays-1.1.1.tar.gz --markdown 20230627/p/py-chinese-holidays/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-27 11:31:37] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: Downloading https://files.pythonhosted.org/packages/5b/8f/1c2ccfd80348d4ccedbc66b68580cf8be3987fcf7428bacf51f25f4473b3/odoo13_addon_exportar_deposito_xls-13.0.1.0.4.dev2-py3-none-any.whl
+[2023-06-27 11:31:37] INFO root fetch - processPackages [pytest-telegram-notifier]: Downloading https://files.pythonhosted.org/packages/c6/f9/16b7053206a006658e9a41a3fa1c7609a0f5ca96872535d31c307905e359/pytest-telegram-notifier-1.4.0.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [zammad-py]: Downloading https://files.pythonhosted.org/packages/cc/11/531d67b8da82d028b9cd4e7587de0736856b4c8282fae45367363e9c4205/zammad_py-3.0.0.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [pytest-telegram-notifier]: executing diffoscope
+[2023-06-27 11:31:37] INFO root fetch - processPackages [pytest-telegram-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-telegram-notifier-1.3.3.tar.gz tmp/pytest-telegram-notifier-1.4.0.tar.gz --markdown 20230627/p/pytest-telegram-notifier/1.3.3-1.4.0/diff.md --exclude *.pyd
+[2023-06-27 11:31:37] INFO root fetch - processPackages [zammad-py]: executing diffoscope
+[2023-06-27 11:31:37] INFO root fetch - processPackages [zammad-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zammad_py-2.0.1.tar.gz tmp/zammad_py-3.0.0.tar.gz --markdown 20230627/z/zammad-py/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2023-06-27 11:31:37] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/cc/e5/9200013d5fdb9d58e796c4748484e51997a114364e5fea45f180325456db/finflo-2.0.9.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: executing diffoscope
+[2023-06-27 11:31:37] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_exportar_deposito_xls-13.0.1.0.4.dev1-py3-none-any.whl.zip tmp/odoo13_addon_exportar_deposito_xls-13.0.1.0.4.dev2-py3-none-any.whl.zip --markdown 20230627/o/odoo13-addon-exportar-deposito-xls/13.0.1.0.4.dev1-13.0.1.0.4.dev2/diff.md --exclude *.pyd
+[2023-06-27 11:31:37] INFO root fetch - processPackages [graphesn]: Downloading https://files.pythonhosted.org/packages/d7/38/4ea8b9bcf98e0ea1ee5f6d3ac88106100148c85131f95298b8f247fe6742/graphesn-0.2.9.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/45/99/a53cc088804e0ed85b809c5b42b2034e732e7a4299763ed6c8e1fad1f470/PyQt-Fluent-Widgets-0.9.9.tar.gz
+[2023-06-27 11:31:37] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-06-27 11:31:37] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.8.tar.gz tmp/finflo-2.0.9.tar.gz --markdown 20230627/f/finflo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-27 11:31:37] INFO root fetch - processPackages [graphesn]: executing diffoscope
+[2023-06-27 11:31:37] INFO root fetch - processPackages [graphesn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphesn-0.2.8.tar.gz tmp/graphesn-0.2.9.tar.gz --markdown 20230627/g/graphesn/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 11:31:37] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-06-27 11:31:37] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.9.8.tar.gz tmp/PyQt-Fluent-Widgets-0.9.9.tar.gz --markdown 20230627/P/PyQt-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_exportar_deposito_xls-13.0.1.0.4.dev1-py3-none-any.whl.zip]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_exportar_deposito_xls-13.0.1.0.4.dev2-py3-none-any.whl.zip]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: Start processing: collapse-gtdb-tree
+[2023-06-27 11:31:39] INFO root fetch - main [MainThread]: End processing [odoo13-addon-exportar-deposito-xls]: success
+[2023-06-27 11:31:39] INFO root fetch - processPackages [collapse-gtdb-tree]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [collapse-gtdb-tree]: Downloading https://files.pythonhosted.org/packages/b5/bf/11a6614351295addb234f72338a311b6b5ed8ccd26d87c2a3c09a3d3e44a/collapse-gtdb-tree-0.0.2.tar.gz
+[2023-06-27 11:31:39] INFO root fetch - processPackages [py-chinese-holidays]: Remove: archive file [/home/abi/fetcher/tmp/py-chinese-holidays-1.1.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [py-chinese-holidays]: Remove: archive file [/home/abi/fetcher/tmp/py-chinese-holidays-1.1.1.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [py-chinese-holidays]: Start processing: numerous.sdk
+[2023-06-27 11:31:39] INFO root fetch - main [MainThread]: End processing [py-chinese-holidays]: success
+[2023-06-27 11:31:39] INFO root fetch - processPackages [pathfind]: Remove: archive file [/home/abi/fetcher/tmp/pathfind-0.0.8.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [pathfind]: Remove: archive file [/home/abi/fetcher/tmp/pathfind-0.0.9.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [pathfind]: Start processing: odoo13-addon-importar-lineas-compra
+[2023-06-27 11:31:39] INFO root fetch - main [MainThread]: End processing [pathfind]: success
+[2023-06-27 11:31:39] INFO root fetch - processPackages [numerous.sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [pytest-telegram-notifier]: Remove: archive file [/home/abi/fetcher/tmp/pytest-telegram-notifier-1.3.3.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [pytest-telegram-notifier]: Remove: archive file [/home/abi/fetcher/tmp/pytest-telegram-notifier-1.4.0.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [pytest-telegram-notifier]: Start processing: odoo13-addon-importar-lineas-pedido
+[2023-06-27 11:31:39] INFO root fetch - main [MainThread]: End processing [pytest-telegram-notifier]: success
+[2023-06-27 11:31:39] INFO root fetch - processPackages [zammad-py]: Remove: archive file [/home/abi/fetcher/tmp/zammad_py-2.0.1.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [zammad-py]: Remove: archive file [/home/abi/fetcher/tmp/zammad_py-3.0.0.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [zammad-py]: Start processing: odoo13-addon-pago-derechos-autoria
+[2023-06-27 11:31:39] INFO root fetch - main [MainThread]: End processing [zammad-py]: success
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-importar-lineas-compra]: New version: [13.0.1.0.2.dev1] Old Version: [13.0.1.0.1]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-importar-lineas-pedido]: New version: [13.0.1.0.2.dev1] Old Version: [13.0.1.0.1]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-pago-derechos-autoria]: New version: [13.0.0.0.2.dev4] Old Version: [13.0.0.0.2.dev3]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-importar-lineas-compra]: Downloading https://files.pythonhosted.org/packages/43/77/be16a865fda7e2a0b3db35740ade0ef31ffa1bacc4a7889081158c743d8b/odoo13_addon_importar_lineas_compra-13.0.1.0.1-py3-none-any.whl
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-pago-derechos-autoria]: Downloading https://files.pythonhosted.org/packages/7f/ed/a9857057dfe719aad9ad1785b6c1ea1c6bf51b371f428518c129570f62a4/odoo13_addon_pago_derechos_autoria-13.0.0.0.2.dev3-py3-none-any.whl
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-importar-lineas-pedido]: Downloading https://files.pythonhosted.org/packages/95/70/e955ab8ec3eb4fff4f18d3cd7afd19f7dc525149b04321f12508c2a536db/odoo13_addon_importar_lineas_pedido-13.0.1.0.1-py3-none-any.whl
+[2023-06-27 11:31:39] INFO root fetch - processPackages [collapse-gtdb-tree]: Downloading https://files.pythonhosted.org/packages/02/e2/4c6c2fb892d4752c07c7ab710f52e771fc8942269f4ef5b9ae21127ac487/collapse-gtdb-tree-0.0.3.tar.gz
+[2023-06-27 11:31:39] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.8.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.9.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [finflo]: Start processing: yamx
+[2023-06-27 11:31:39] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-06-27 11:31:39] INFO root fetch - processPackages [graphesn]: Remove: archive file [/home/abi/fetcher/tmp/graphesn-0.2.8.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [graphesn]: Remove: archive file [/home/abi/fetcher/tmp/graphesn-0.2.9.tar.gz]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [graphesn]: Start processing: ccxt
+[2023-06-27 11:31:39] INFO root fetch - main [MainThread]: End processing [graphesn]: success
+[2023-06-27 11:31:39] INFO root fetch - processPackages [yamx]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [collapse-gtdb-tree]: executing diffoscope
+[2023-06-27 11:31:39] INFO root fetch - processPackages [collapse-gtdb-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collapse-gtdb-tree-0.0.2.tar.gz tmp/collapse-gtdb-tree-0.0.3.tar.gz --markdown 20230627/c/collapse-gtdb-tree/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 11:31:39] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-27 11:31:39] INFO root fetch - processPackages [yamx]: Downloading https://files.pythonhosted.org/packages/f4/5a/3ea67a6599b7272ae75d9011d0be860e55663dc8f98f1d38b11423c4c93e/yamx-0.1.1.tar.gz
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-importar-lineas-compra]: Downloading https://files.pythonhosted.org/packages/e7/be/2415991205dacad39114ee8d89367cbe7b4ab7cc70c7fa470ac622ddb502/odoo13_addon_importar_lineas_compra-13.0.1.0.2.dev1-py3-none-any.whl
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-importar-lineas-pedido]: Downloading https://files.pythonhosted.org/packages/75/e9/3b1152a4e1c3126f69dc5b00db9760d0acbf18767de0e9190528e02b8b46/odoo13_addon_importar_lineas_pedido-13.0.1.0.2.dev1-py3-none-any.whl
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-pago-derechos-autoria]: Downloading https://files.pythonhosted.org/packages/40/f4/138ca75c642d3c4ddaa77d2dde173ebb58825316311e126b6cd0a116b66c/odoo13_addon_pago_derechos_autoria-13.0.0.0.2.dev4-py3-none-any.whl
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-importar-lineas-compra]: executing diffoscope
+[2023-06-27 11:31:39] INFO root fetch - processPackages [odoo13-addon-importar-lineas-compra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_importar_lineas_compra-13.0.1.0.1-py3-none-any.whl.zip tmp/odoo13_addon_importar_lineas_compra-13.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20230627/o/odoo13-addon-importar-lineas-compra/13.0.1.0.1-13.0.1.0.2.dev1/diff.md --exclude *.pyd
+[2023-06-27 11:31:39] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-27 11:31:39] INFO root fetch - processPackages [yamx]: Downloading https://files.pythonhosted.org/packages/b3/fe/a69706248fc8f713052e3a8904c2b808b545b09cacdc4c542a30b1ca86c6/yamx-0.1.2.tar.gz
+[2023-06-27 11:31:40] INFO root fetch - processPackages [odoo13-addon-importar-lineas-pedido]: executing diffoscope
+[2023-06-27 11:31:40] INFO root fetch - processPackages [odoo13-addon-importar-lineas-pedido]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_importar_lineas_pedido-13.0.1.0.1-py3-none-any.whl.zip tmp/odoo13_addon_importar_lineas_pedido-13.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20230627/o/odoo13-addon-importar-lineas-pedido/13.0.1.0.1-13.0.1.0.2.dev1/diff.md --exclude *.pyd
+[2023-06-27 11:31:40] INFO root fetch - processPackages [yamx]: executing diffoscope
+[2023-06-27 11:31:40] INFO root fetch - processPackages [yamx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamx-0.1.1.tar.gz tmp/yamx-0.1.2.tar.gz --markdown 20230627/y/yamx/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-27 11:31:40] INFO root fetch - processPackages [odoo13-addon-pago-derechos-autoria]: executing diffoscope
+[2023-06-27 11:31:40] INFO root fetch - processPackages [odoo13-addon-pago-derechos-autoria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_pago_derechos_autoria-13.0.0.0.2.dev3-py3-none-any.whl.zip tmp/odoo13_addon_pago_derechos_autoria-13.0.0.0.2.dev4-py3-none-any.whl.zip --markdown 20230627/o/odoo13-addon-pago-derechos-autoria/13.0.0.0.2.dev3-13.0.0.0.2.dev4/diff.md --exclude *.pyd
+[2023-06-27 11:31:40] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/c5/19/eb5f9aae5084b96359e6dc09800409c59b897f0ca6465db254d85a753429/numerous.sdk-0.8.0.tar.gz
+[2023-06-27 11:31:40] INFO root fetch - processPackages [collapse-gtdb-tree]: Remove: archive file [/home/abi/fetcher/tmp/collapse-gtdb-tree-0.0.2.tar.gz]
+[2023-06-27 11:31:40] INFO root fetch - processPackages [collapse-gtdb-tree]: Remove: archive file [/home/abi/fetcher/tmp/collapse-gtdb-tree-0.0.3.tar.gz]
+[2023-06-27 11:31:40] INFO root fetch - processPackages [collapse-gtdb-tree]: Start processing: ai-coach-xblock
+[2023-06-27 11:31:40] INFO root fetch - main [MainThread]: End processing [collapse-gtdb-tree]: success
+[2023-06-27 11:31:40] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/89/b1/8a2eaf2d3b5e5114385f9f271a9de81af8376e58d63490ec17de7acb2de6/numerous.sdk-0.9.0.tar.gz
+[2023-06-27 11:31:40] INFO root fetch - processPackages [ai-coach-xblock]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 11:31:41] INFO root fetch - processPackages [numerous.sdk]: executing diffoscope
+[2023-06-27 11:31:41] INFO root fetch - processPackages [numerous.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerous.sdk-0.8.0.tar.gz tmp/numerous.sdk-0.9.0.tar.gz --markdown 20230627/n/numerous.sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-27 11:31:41] INFO root fetch - processPackages [ai-coach-xblock]: Downloading https://files.pythonhosted.org/packages/02/ec/24d7c54f8550ed79fabf1ecc6f3942ea49449b32a99b814f655f9aabc6be/ai-coach-xblock-1.0.2.tar.gz
+[2023-06-27 11:31:41] INFO root fetch - processPackages [odoo13-addon-importar-lineas-compra]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_importar_lineas_compra-13.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-27 11:31:41] INFO root fetch - processPackages [odoo13-addon-importar-lineas-compra]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_importar_lineas_compra-13.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-06-27 11:31:41] INFO root fetch - processPackages [odoo13-addon-importar-lineas-compra]: Start processing: titan-iris
+[2023-06-27 11:31:41] INFO root fetch - main [MainThread]: End processing [odoo13-addon-importar-lineas-compra]: success
+[2023-06-27 11:31:41] INFO root fetch - processPackages [titan-iris]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-27 11:31:41] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d7/15/feb7c005964ea5d16b9435b52600870cbc403d0898d8d62b11352acddcef/titan-iris-0.8.8.tar.gz
+[2023-06-27 11:31:41] INFO root fetch - processPackages [odoo13-addon-pago-derechos-autoria]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_pago_derechos_autoria-13.0.0.0.2.dev3-py3-none-any.whl.zip]
+[2023-06-27 11:31:41] INFO root fetch - processPackages [odoo13-addon-pago-derechos-autoria]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_pago_derechos_autoria-13.0.0.0.2.dev4-py3-none-any.whl.zip]
+[2023-06-27 11:31:41] INFO root fetch - processPackages [odoo13-addon-pago-derechos-autoria]: Start processing: fmmh3
+[2023-06-27 11:31:41] INFO root fetch - main [MainThread]: End processing [odoo13-addon-pago-derechos-autoria]: success
+[2023-06-27 11:31:41] INFO root fetch - processPackages [ai-coach-xblock]: Downloading https://files.pythonhosted.org/packages/99/ec/ae679f40c0db9f8b702f35b342bd5792186fe609a2f395dfb4743cb068fa/ai-coach-xblock-1.0.3.tar.gz
+[2023-06-27 11:31:41] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-27 11:31:41] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/04/25/22091a26775676cd76db565c11730d38d18cffe45cb89330ebf3fd074e77/titan-iris-0.8.9.tar.gz
+[2023-06-27 11:31:41] INFO root fetch - processPackages [odoo13-addon-importar-lineas-pedido]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_importar_lineas_pedido-13.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-27 11:31:41] INFO root fetch - processPackages [odoo13-addon-importar-lineas-pedido]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_importar_lineas_pedido-13.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-06-27 11:31:41] INFO root fetch - processPackages [odoo13-addon-importar-lineas-pedido]: Start processing: cg
+[2023-06-27 11:31:41] INFO root fetch - main [MainThread]: End processing [odoo13-addon-importar-lineas-pedido]: success
+[2023-06-27 11:31:41] WARNING root fetch - processPackages [fmmh3]: Skipping, unable to determine old version
+[2023-06-27 11:31:41] INFO root fetch - processPackages [fmmh3]: Start processing: crypto-screening
+[2023-06-27 11:31:41] INFO root fetch - main [MainThread]: End processing [fmmh3] error
+[2023-06-27 11:31:41] INFO root fetch - processPackages [cg]: New version: [37.0.8] Old Version: [37.0.7]
+[2023-06-27 11:31:41] INFO root fetch - processPackages [ai-coach-xblock]: executing diffoscope
+[2023-06-27 11:31:41] INFO root fetch - processPackages [ai-coach-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-coach-xblock-1.0.2.tar.gz tmp/ai-coach-xblock-1.0.3.tar.gz --markdown 20230627/a/ai-coach-xblock/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 11:31:41] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-27 11:31:41] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.8.tar.gz tmp/titan-iris-0.8.9.tar.gz --markdown 20230627/t/titan-iris/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-27 11:31:41] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/54/2d/d93b062bcd756fd4329f676eda75f0332c78adb4d1030ecb7cb993aa2310/cg-37.0.7.tar.gz
+[2023-06-27 11:31:41] INFO root fetch - processPackages [crypto-screening]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-27 11:31:41] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/7e/ea/b6a153804f2868d70168f8263acc098257266f0e984cb55cca30ea4b9366/crypto-screening-1.1.0.tar.gz
+[2023-06-27 11:31:41] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-27 11:31:41] INFO root fetch - processPackages [yamx]: Remove: archive file [/home/abi/fetcher/tmp/yamx-0.1.1.tar.gz]
+[2023-06-27 11:31:41] INFO root fetch - processPackages [yamx]: Remove: archive file [/home/abi/fetcher/tmp/yamx-0.1.2.tar.gz]
+[2023-06-27 11:31:41] INFO root fetch - main [MainThread]: End processing [yamx]: success
+[2023-06-27 11:31:41] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-27 11:31:41] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.7.tar.gz tmp/cg-37.0.8.tar.gz --markdown 20230627/c/cg/37.0.7-37.0.8/diff.md --exclude *.pyd
+[2023-06-27 11:31:42] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/74/c7/1b6f9405168e6452f679eba13aa83b76d58a4d04b3675749c0d1e62b3308/crypto-screening-1.2.0.tar.gz
+[2023-06-27 11:31:42] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-27 11:31:42] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-27 11:31:42] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-27 11:31:42] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-06-27 11:31:42] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.1.0.tar.gz tmp/crypto-screening-1.2.0.tar.gz --markdown 20230627/c/crypto-screening/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-27 11:31:42] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-27 11:31:42] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230627/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-27 11:31:42] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.8.tar.gz]
+[2023-06-27 11:31:42] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.9.tar.gz]
+[2023-06-27 11:31:42] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-27 11:31:43] INFO root fetch - processPackages [ai-coach-xblock]: Remove: archive file [/home/abi/fetcher/tmp/ai-coach-xblock-1.0.2.tar.gz]
+[2023-06-27 11:31:43] INFO root fetch - processPackages [ai-coach-xblock]: Remove: archive file [/home/abi/fetcher/tmp/ai-coach-xblock-1.0.3.tar.gz]
+[2023-06-27 11:31:43] INFO root fetch - main [MainThread]: End processing [ai-coach-xblock]: success
+[2023-06-27 11:31:43] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-27 11:31:43] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.9.tar.gz]
+[2023-06-27 11:31:43] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-06-27 11:31:43] INFO root fetch - processPackages [numerous.sdk]: Remove: archive file [/home/abi/fetcher/tmp/numerous.sdk-0.8.0.tar.gz]
+[2023-06-27 11:31:43] INFO root fetch - processPackages [numerous.sdk]: Remove: archive file [/home/abi/fetcher/tmp/numerous.sdk-0.9.0.tar.gz]
+[2023-06-27 11:31:43] INFO root fetch - main [MainThread]: End processing [numerous.sdk]: success
+[2023-06-27 11:31:43] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.1.0.tar.gz]
+[2023-06-27 11:31:43] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.2.0.tar.gz]
+[2023-06-27 11:31:43] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-06-27 11:31:53] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-27 11:31:53] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-27 11:31:53] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-27 11:31:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.7.tar.gz]
+[2023-06-27 11:31:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-27 11:31:57] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-27 11:32:04] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.8.tar.gz]
+[2023-06-27 11:32:04] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.9.tar.gz]
+[2023-06-27 11:32:04] INFO root fetch - main [MainThread]: End processing [akeyless]: success
+[2023-06-27 11:32:04] INFO root fetch - main [MainThread]: Store serial: [18660685]
