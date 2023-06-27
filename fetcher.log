@@ -20296,3 +20296,132 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 12:49:02] INFO root fetch - processPackages [surfacetopography]: Remove: archive file [/home/abi/fetcher/tmp/surfacetopography-1.7.0.tar.gz]
 [2023-06-27 12:49:02] INFO root fetch - main [MainThread]: End processing [surfacetopography]: success
 [2023-06-27 12:49:02] INFO root fetch - main [MainThread]: Store serial: [18661479]
+[2023-06-27 12:54:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661479]
+[2023-06-27 12:54:13] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-27 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xirvik-tools
+[2023-06-27 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spyx
+[2023-06-27 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aunly-bbot
+[2023-06-27 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyko-sdk
+[2023-06-27 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PVNet
+[2023-06-27 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-oz-cli-by-os
+[2023-06-27 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nso-oc
+[2023-06-27 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osm-fieldwork
+[2023-06-27 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Products.CMFPlone
+[2023-06-27 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Geolet
+[2023-06-27 12:54:13] INFO root fetch - processPackages [spyx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 12:54:13] INFO root fetch - processPackages [PVNet]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-27 12:54:13] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 12:54:13] WARNING root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Skipping, unable to determine old version
+[2023-06-27 12:54:13] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Start processing: wemp
+[2023-06-27 12:54:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-cli-by-os] error
+[2023-06-27 12:54:13] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/d1/54/e9dd414413df4aea4b088f4abc204b8648e6e99a117cfa60c55a092c2a7c/PVNet-2.1.0.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [osm-fieldwork]: New version: [0.3.2] Old Version: [0.3.1rc2]
+[2023-06-27 12:54:13] INFO root fetch - processPackages [xirvik-tools]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-27 12:54:13] INFO root fetch - processPackages [aunly-bbot]: New version: [1.5.1] Old Version: [1.5.0b1]
+[2023-06-27 12:54:13] INFO root fetch - processPackages [nso-oc]: New version: [2.71.0] Old Version: [2.70.0]
+[2023-06-27 12:54:13] WARNING root fetch - processPackages [Geolet]: Skipping, unable to determine old version
+[2023-06-27 12:54:13] INFO root fetch - processPackages [Geolet]: Start processing: partyai
+[2023-06-27 12:54:13] INFO root fetch - main [MainThread]: End processing [Geolet] error
+[2023-06-27 12:54:13] INFO root fetch - processPackages [Products.CMFPlone]: New version: [6.0.6rc1] Old Version: [6.0.6]
+[2023-06-27 12:54:13] INFO root fetch - processPackages [wemp]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-27 12:54:13] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/03/d3/7fb8e0ae16918d31936abec49e12b457a905c8e39fb1405a1236b7e03d85/spyx-0.0.9.tar.gz
+[2023-06-27 12:54:13] WARNING root fetch - processPackages [partyai]: Skipping, unable to determine old version
+[2023-06-27 12:54:13] INFO root fetch - processPackages [partyai]: Start processing: orbit-component-base
+[2023-06-27 12:54:13] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - main [MainThread]: End processing [partyai] error
+[2023-06-27 12:54:13] INFO root fetch - processPackages [aunly-bbot]: Downloading https://files.pythonhosted.org/packages/b0/d1/b3f50b98c623ff3558a6b17733884f9881e5e764b88e5861b5bb92e7502e/aunly-bbot-1.5.0b1.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [Products.CMFPlone]: Downloading https://files.pythonhosted.org/packages/01/02/a79488a3b97bd8377d2a5d3ab55f88fecdc1cf7b62cb9eb5af9671989ad3/Products.CMFPlone-6.0.6.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [orbit-component-base]: New version: [1.0.9] Old Version: [1.0.17]
+[2023-06-27 12:54:13] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/5b/bd/2203dae3693e2dbb56bdec8ec94a2b6ab47905a4c961cbd6432e7d84db3c/nso-oc-2.70.0.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/eb/d7/0ce857b1c3b8ffed914e0af5b1be0a9a57af176376a61bbe0a40360fe450/osm-fieldwork-0.3.1rc2.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/cf/6d/a13d45261139a14e6819df810d43fda85e8205e3aa1e89273063e41a5eeb/PVNet-2.1.1.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-06-27 12:54:13] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.8.tar.gz tmp/spyx-0.0.9.tar.gz --markdown 20230627/s/spyx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 12:54:13] INFO root fetch - processPackages [xirvik-tools]: Downloading https://files.pythonhosted.org/packages/6b/53/20e648e9947a4903867b3f6cfc6648da8537aa056119b217231c42775e54/xirvik_tools-0.4.0.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-06-27 12:54:13] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230627/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 12:54:13] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/3a/68/4f15dd778804bce5576b96ff9e4f51a57192dc802505e8fe27357b13706e/wemp-1.0.1-py3-none-any.whl
+[2023-06-27 12:54:13] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/cd/49/5dad5072a524c1c468fc8291b4a23d00d61c5019951f464b2711b5b561b8/orbit_component_base-1.0.17.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-27 12:54:13] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-2.1.0.tar.gz tmp/PVNet-2.1.1.tar.gz --markdown 20230627/P/PVNet/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-27 12:54:13] INFO root fetch - processPackages [aunly-bbot]: Downloading https://files.pythonhosted.org/packages/65/3e/498608d50b807370de604204b92540cfca0fc0984e2dbb3d2d37821c3120/aunly-bbot-1.5.1.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/d2/67/10fc0971fd85e0d95f32c6146a0e2bd1c6ac0e19c2823b8712f3d6c6e918/orbit_component_base-1.0.9.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/45/6e/516b146527549bd8bb254533b42e891c74b9f22c80bf35dd9d2c6fae5006/nso-oc-2.71.0.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [xirvik-tools]: Downloading https://files.pythonhosted.org/packages/0c/cd/a8b5774782e8c7687fc4c1cb9453995eb5bb46145387cbd5791a66d26b22/xirvik_tools-0.4.1.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [aunly-bbot]: executing diffoscope
+[2023-06-27 12:54:13] INFO root fetch - processPackages [aunly-bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aunly-bbot-1.5.0b1.tar.gz tmp/aunly-bbot-1.5.1.tar.gz --markdown 20230627/a/aunly-bbot/1.5.0b1-1.5.1/diff.md --exclude *.pyd
+[2023-06-27 12:54:13] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/c3/a9/cfac107a291f954f954218ed66e26a0a829fdc008eb1bcad0d435afedf5d/osm-fieldwork-0.3.2.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-06-27 12:54:13] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-1.0.17.tar.gz tmp/orbit_component_base-1.0.9.tar.gz --markdown 20230627/o/orbit-component-base/1.0.17-1.0.9/diff.md --exclude *.pyd
+[2023-06-27 12:54:13] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/0a/47/8ef0668c46fb5afd11fb86a34de9ec969fc0aef747e4a8793ebc8fd80a56/wemp-1.0.2-py3-none-any.whl
+[2023-06-27 12:54:13] ERROR root fetch - processPackages [PVNet]: Diffoscope failed: Error: error creating container storage: the container name "busy_ganguly" is already in use by "4ff28e15f89251ed9e24288cf93c2096e37a37164af646e1800c87f1b4364f66". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-27 12:54:13] INFO root fetch - processPackages [PVNet]: Start processing: macrometa-source-collection
+[2023-06-27 12:54:13] INFO root fetch - main [MainThread]: End processing [PVNet] error
+[2023-06-27 12:54:13] INFO root fetch - processPackages [nso-oc]: executing diffoscope
+[2023-06-27 12:54:13] INFO root fetch - processPackages [nso-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nso-oc-2.70.0.tar.gz tmp/nso-oc-2.71.0.tar.gz --markdown 20230627/n/nso-oc/2.70.0-2.71.0/diff.md --exclude *.pyd
+[2023-06-27 12:54:13] INFO root fetch - processPackages [xirvik-tools]: executing diffoscope
+[2023-06-27 12:54:13] INFO root fetch - processPackages [xirvik-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xirvik_tools-0.4.0.tar.gz tmp/xirvik_tools-0.4.1.tar.gz --markdown 20230627/x/xirvik-tools/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-27 12:54:13] INFO root fetch - processPackages [Products.CMFPlone]: Downloading https://files.pythonhosted.org/packages/86/57/af81c7c32921f8d46e9d9d900d7b174de0bb19b3867adc546c03479694e7/Products.CMFPlone-6.0.6rc1.tar.gz
+[2023-06-27 12:54:13] INFO root fetch - processPackages [wemp]: executing diffoscope
+[2023-06-27 12:54:13] INFO root fetch - processPackages [wemp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wemp-1.0.1-py3-none-any.whl.zip tmp/wemp-1.0.2-py3-none-any.whl.zip --markdown 20230627/w/wemp/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-27 12:54:13] INFO root fetch - processPackages [osm-fieldwork]: executing diffoscope
+[2023-06-27 12:54:13] INFO root fetch - processPackages [osm-fieldwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm-fieldwork-0.3.1rc2.tar.gz tmp/osm-fieldwork-0.3.2.tar.gz --markdown 20230627/o/osm-fieldwork/0.3.1rc2-0.3.2/diff.md --exclude *.pyd
+[2023-06-27 12:54:13] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.54] Old Version: [0.0.53]
+[2023-06-27 12:54:14] INFO root fetch - processPackages [Products.CMFPlone]: executing diffoscope
+[2023-06-27 12:54:14] INFO root fetch - processPackages [Products.CMFPlone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.CMFPlone-6.0.6.tar.gz tmp/Products.CMFPlone-6.0.6rc1.tar.gz --markdown 20230627/P/Products.CMFPlone/6.0.6-6.0.6rc1/diff.md --exclude *.pyd
+[2023-06-27 12:54:14] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/2a/0a/3ce01ea6cbccf35a4b4345726153fc8652ba7c4ac4701d4b791d90a63b5a/macrometa-source-collection-0.0.53.tar.gz
+[2023-06-27 12:54:14] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/03/7a/7cdbf5640e6705a8bf2fc44f1eb767265a13addb61969eb6ca5231b6de8d/macrometa-source-collection-0.0.54.tar.gz
+[2023-06-27 12:54:14] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-27 12:54:14] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.53.tar.gz tmp/macrometa-source-collection-0.0.54.tar.gz --markdown 20230627/m/macrometa-source-collection/0.0.53-0.0.54/diff.md --exclude *.pyd
+[2023-06-27 12:54:15] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-06-27 12:54:15] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-06-27 12:54:15] INFO root fetch - processPackages [hyko-sdk]: Start processing: mentord
+[2023-06-27 12:54:15] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-06-27 12:54:15] INFO root fetch - processPackages [mentord]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 12:54:15] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/20/40/20d3612ee4a4869bebe0d1523c4c96ce3e36e1a1f3980ebfe818ce2ff6b6/mentord-1.0.2.tar.gz
+[2023-06-27 12:54:15] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-06-27 12:54:15] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.9.tar.gz]
+[2023-06-27 12:54:15] INFO root fetch - processPackages [spyx]: Start processing: plone.app.mosaic
+[2023-06-27 12:54:15] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-06-27 12:54:15] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/c1/f2/a81da3904261b4a8e771cb2e3f0677af0b7eb8be86fa939a2485ff23e5f4/mentord-1.0.3.tar.gz
+[2023-06-27 12:54:15] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.1-py3-none-any.whl.zip]
+[2023-06-27 12:54:15] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.2-py3-none-any.whl.zip]
+[2023-06-27 12:54:15] INFO root fetch - main [MainThread]: End processing [wemp]: success
+[2023-06-27 12:54:15] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-27 12:54:15] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.0.2.tar.gz tmp/mentord-1.0.3.tar.gz --markdown 20230627/m/mentord/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 12:54:15] INFO root fetch - processPackages [plone.app.mosaic]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-06-27 12:54:15] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.17.tar.gz]
+[2023-06-27 12:54:15] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.9.tar.gz]
+[2023-06-27 12:54:15] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-06-27 12:54:15] INFO root fetch - processPackages [plone.app.mosaic]: Downloading https://files.pythonhosted.org/packages/9a/8a/fd8c66c575f26fe216dda5185cdc3b4ae864528d9c5358e1d2ba84e0d94e/plone.app.mosaic-3.1.2.tar.gz
+[2023-06-27 12:54:15] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.53.tar.gz]
+[2023-06-27 12:54:15] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.54.tar.gz]
+[2023-06-27 12:54:15] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-27 12:54:15] INFO root fetch - processPackages [xirvik-tools]: Remove: archive file [/home/abi/fetcher/tmp/xirvik_tools-0.4.0.tar.gz]
+[2023-06-27 12:54:15] INFO root fetch - processPackages [xirvik-tools]: Remove: archive file [/home/abi/fetcher/tmp/xirvik_tools-0.4.1.tar.gz]
+[2023-06-27 12:54:15] INFO root fetch - main [MainThread]: End processing [xirvik-tools]: success
+[2023-06-27 12:54:15] INFO root fetch - processPackages [plone.app.mosaic]: Downloading https://files.pythonhosted.org/packages/df/a6/a86c13f0fb534b0cb9ad0e04e6cc82ac3141b3241a5942578053e407b26c/plone.app.mosaic-3.1.3.tar.gz
+[2023-06-27 12:54:16] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.2.tar.gz]
+[2023-06-27 12:54:16] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.3.tar.gz]
+[2023-06-27 12:54:16] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-27 12:54:16] INFO root fetch - processPackages [plone.app.mosaic]: executing diffoscope
+[2023-06-27 12:54:16] INFO root fetch - processPackages [plone.app.mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.mosaic-3.1.2.tar.gz tmp/plone.app.mosaic-3.1.3.tar.gz --markdown 20230627/p/plone.app.mosaic/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-06-27 12:54:16] INFO root fetch - processPackages [nso-oc]: Remove: archive file [/home/abi/fetcher/tmp/nso-oc-2.70.0.tar.gz]
+[2023-06-27 12:54:16] INFO root fetch - processPackages [nso-oc]: Remove: archive file [/home/abi/fetcher/tmp/nso-oc-2.71.0.tar.gz]
+[2023-06-27 12:54:16] INFO root fetch - main [MainThread]: End processing [nso-oc]: success
+[2023-06-27 12:54:16] INFO root fetch - processPackages [aunly-bbot]: Remove: archive file [/home/abi/fetcher/tmp/aunly-bbot-1.5.0b1.tar.gz]
+[2023-06-27 12:54:16] INFO root fetch - processPackages [aunly-bbot]: Remove: archive file [/home/abi/fetcher/tmp/aunly-bbot-1.5.1.tar.gz]
+[2023-06-27 12:54:16] INFO root fetch - main [MainThread]: End processing [aunly-bbot]: success
+[2023-06-27 12:54:19] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.3.1rc2.tar.gz]
+[2023-06-27 12:54:19] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.3.2.tar.gz]
+[2023-06-27 12:54:19] INFO root fetch - main [MainThread]: End processing [osm-fieldwork]: success
+[2023-06-27 12:54:20] INFO root fetch - processPackages [Products.CMFPlone]: Remove: archive file [/home/abi/fetcher/tmp/Products.CMFPlone-6.0.6.tar.gz]
+[2023-06-27 12:54:20] INFO root fetch - processPackages [Products.CMFPlone]: Remove: archive file [/home/abi/fetcher/tmp/Products.CMFPlone-6.0.6rc1.tar.gz]
+[2023-06-27 12:54:20] INFO root fetch - main [MainThread]: End processing [Products.CMFPlone]: success
+[2023-06-27 12:54:59] INFO root fetch - processPackages [plone.app.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.mosaic-3.1.2.tar.gz]
+[2023-06-27 12:54:59] INFO root fetch - processPackages [plone.app.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.mosaic-3.1.3.tar.gz]
+[2023-06-27 12:54:59] INFO root fetch - main [MainThread]: End processing [plone.app.mosaic]: success
+[2023-06-27 12:54:59] INFO root fetch - main [MainThread]: Store serial: [18661531]
