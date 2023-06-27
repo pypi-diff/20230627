@@ -14711,3 +14711,85 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 09:22:04] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.3.0.tar.gz]
 [2023-06-27 09:22:04] INFO root fetch - main [MainThread]: End processing [flask-marshmallow-openapi]: success
 [2023-06-27 09:22:04] INFO root fetch - main [MainThread]: Store serial: [18659039]
+[2023-06-27 09:27:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659039]
+[2023-06-27 09:27:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-27 09:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-27 09:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfq-nightly
+[2023-06-27 09:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymino
+[2023-06-27 09:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notion-pinecone
+[2023-06-27 09:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spotPython
+[2023-06-27 09:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: screen-cls
+[2023-06-27 09:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notion-pinecone
+[2023-06-27 09:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: diaossama-test1
+[2023-06-27 09:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: notion-pinecone
+[2023-06-27 09:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prophecy-build-tool
+[2023-06-27 09:27:13] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230626] Old Version: [0.7.3.dev20230625]
+[2023-06-27 09:27:13] INFO root fetch - processPackages [pymino]: New version: [1.2.2.1] Old Version: [1.2.1.9]
+[2023-06-27 09:27:13] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-27 09:27:13] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-27 09:27:13] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 09:27:13] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 09:27:13] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 09:27:13] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/69/3f/5f9411b686cdcb5e9f58be653a1c2e059396b751ab586d61e06da4323de7/pymino-1.2.1.9.tar.gz
+[2023-06-27 09:27:13] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-27 09:27:13] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-27 09:27:13] WARNING root fetch - processPackages [screen-cls]: Skipping, unable to determine old version
+[2023-06-27 09:27:13] INFO root fetch - processPackages [screen-cls]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-27 09:27:13] INFO root fetch - main [MainThread]: End processing [screen-cls] error
+[2023-06-27 09:27:13] WARNING root fetch - processPackages [diaossama-test1]: Skipping, unable to determine old version
+[2023-06-27 09:27:13] INFO root fetch - main [MainThread]: End processing [diaossama-test1] error
+[2023-06-27 09:27:13] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-27 09:27:13] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/67/9f/c9c117e297d93cb945db8636e23c0fe2d9dd8d80e889924956a638bd8f43/tfq_nightly-0.7.3.dev20230625-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-27 09:27:13] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-27 09:27:13] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822715>=10485760
+[2023-06-27 09:27:13] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-27 09:27:13] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-27 09:27:13] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/86/73/d3097dad89e2693ded5053ed8bccf98a74e39421664d6206d11963710cec/pymino-1.2.2.1.tar.gz
+[2023-06-27 09:27:13] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-27 09:27:13] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-27 09:27:13] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-27 09:27:13] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/86/77/bc1ba995b932b0fc38022e2ad6e46622a55812afd4dc21beb9c42b766e10/prophecy-build-tool-1.1.2.tar.gz
+[2023-06-27 09:27:14] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-27 09:27:14] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.1.9.tar.gz tmp/pymino-1.2.2.1.tar.gz --markdown 20230627/p/pymino/1.2.1.9-1.2.2.1/diff.md --exclude *.pyd
+[2023-06-27 09:27:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-27 09:27:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-27 09:27:14] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-27 09:27:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-27 09:27:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230627/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-27 09:27:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-27 09:27:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 09:27:14] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-27 09:27:14] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-27 09:27:14] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-27 09:27:14] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/43/8a/8f1dcd63d7bd8e45a99a997e3b9a683675bb31adc86aad0a0c9735ad294d/prophecy-build-tool-1.1.3.tar.gz
+[2023-06-27 09:27:14] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-27 09:27:14] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230627/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 09:27:14] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-27 09:27:14] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230627/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 09:27:14] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-27 09:27:14] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230627/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 09:27:14] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2023-06-27 09:27:14] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.1.2.tar.gz tmp/prophecy-build-tool-1.1.3.tar.gz --markdown 20230627/p/prophecy-build-tool/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-27 09:27:14] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-27 09:27:14] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230627/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 09:27:15] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.8.tar.gz]
+[2023-06-27 09:27:15] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.9.tar.gz]
+[2023-06-27 09:27:15] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-27 09:27:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-27 09:27:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-27 09:27:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-27 09:27:15] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.9.tar.gz]
+[2023-06-27 09:27:15] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.2.1.tar.gz]
+[2023-06-27 09:27:15] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-27 09:27:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-27 09:27:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-27 09:27:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-27 09:27:15] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-27 09:27:16] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-27 09:27:16] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.1.2.tar.gz]
+[2023-06-27 09:27:16] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.1.3.tar.gz]
+[2023-06-27 09:27:16] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2023-06-27 09:27:28] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-27 09:27:28] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-27 09:27:28] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-27 09:27:28] INFO root fetch - main [MainThread]: Store serial: [18659077]
