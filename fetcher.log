@@ -20173,3 +20173,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 12:43:06] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
 [2023-06-27 12:43:06] INFO root fetch - main [MainThread]: End processing [QuNet]: success
 [2023-06-27 12:43:06] INFO root fetch - main [MainThread]: Store serial: [18661429]
+[2023-06-27 12:48:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661429]
+[2023-06-27 12:48:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eotdl
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypcapkit
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fraggler
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainsaddiction
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ocamlec-plt
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zhon
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spyx
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kiara-plugin.streamlit
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hum
+[2023-06-27 12:48:16] INFO root fetch - processPackages [eotdl]: New version: [2023.6.27] Old Version: [2023.6.14.post9]
+[2023-06-27 12:48:16] INFO root fetch - processPackages [chainsaddiction]: New version: [0.2.1] Old Version: [0.1.2]
+[2023-06-27 12:48:16] WARNING root fetch - processPackages [fraggler]: Skipping, unable to determine old version
+[2023-06-27 12:48:16] INFO root fetch - processPackages [fraggler]: Start processing: mentord
+[2023-06-27 12:48:16] INFO root fetch - main [MainThread]: End processing [fraggler] error
+[2023-06-27 12:48:16] INFO root fetch - processPackages [spyx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 12:48:16] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.2.post8] Old Version: [1.0.2.post7]
+[2023-06-27 12:48:16] INFO root fetch - processPackages [kiara-plugin.streamlit]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-27 12:48:16] INFO root fetch - processPackages [zhon]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ocamlec-plt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-27 12:48:16] INFO root fetch - processPackages [hum]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 12:48:16] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-06-27 12:48:16] INFO root fetch - processPackages [mentord]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ocamlec-plt]: Downloading https://files.pythonhosted.org/packages/4b/fe/874fee9ba4e14a7f162f4d47c6bfef2588e1716bbad37e7437bc3b252c4c/ocamlec_plt-0.0.4.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/20/40/20d3612ee4a4869bebe0d1523c4c96ce3e36e1a1f3980ebfe818ce2ff6b6/mentord-1.0.2.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [eotdl]: Downloading https://files.pythonhosted.org/packages/f0/fe/d8e259bbce8ab77e39b8f7f10657cc73aec890645bec4c530019946b825a/eotdl-2023.6.14.post9.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [chainsaddiction]: Downloading https://files.pythonhosted.org/packages/ed/1e/4ba3ef9c919f0bc32d9abec8b73020cbc67a349683637a1a89d6c171ece1/chainsaddiction-0.1.2.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/06/94/8a3b932897a0df9945d693f2613f1f7e10ac36c9316ca44eba428794fe23/pypcapkit-1.0.2.post7.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [zhon]: Downloading https://files.pythonhosted.org/packages/1b/e8/f598843392c06d1184f97600475681094fed116062e627045a9b7ec3a25a/zhon-2.0.1.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [kiara-plugin.streamlit]: Downloading https://files.pythonhosted.org/packages/5c/4f/3a260979f0ecdf68de359868d898021d2e67ce8119c6a0f6c02411d676fb/kiara_plugin.streamlit-0.4.2.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [hum]: Downloading https://files.pythonhosted.org/packages/01/13/c55ea177e9a601a07aac880734f460938fa286625ac6b3d8e93fe2979f37/hum-0.1.8.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/03/d3/7fb8e0ae16918d31936abec49e12b457a905c8e39fb1405a1236b7e03d85/spyx-0.0.9.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ocamlec-plt]: Downloading https://files.pythonhosted.org/packages/98/a6/a5d41132930adde8326fbed7d35c44b8991b7990409515017be6b7610c01/ocamlec_plt-0.0.5.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-06-27 12:48:16] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.8.tar.gz tmp/spyx-0.0.9.tar.gz --markdown 20230627/s/spyx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 12:48:16] INFO root fetch - processPackages [eotdl]: Downloading https://files.pythonhosted.org/packages/24/c4/3c85e84ecabe89eccde5fba139dd307ca6f574bcafc169e2b3b9f92f8419/eotdl-2023.6.27.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ocamlec-plt]: executing diffoscope
+[2023-06-27 12:48:16] INFO root fetch - processPackages [ocamlec-plt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocamlec_plt-0.0.4.tar.gz tmp/ocamlec_plt-0.0.5.tar.gz --markdown 20230627/o/ocamlec-plt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-27 12:48:16] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/c1/f2/a81da3904261b4a8e771cb2e3f0677af0b7eb8be86fa939a2485ff23e5f4/mentord-1.0.3.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [chainsaddiction]: Downloading https://files.pythonhosted.org/packages/d1/7b/1242e00c289a19ffc84f299cfb13f0b7d4c980d815a750be957e9db36303/chainsaddiction-0.2.1.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/27/b6/c55debf2c14e5145e07f1b38b2d1ff284822b9dfcf5a4b44f758fc007f48/pypcapkit-1.0.2.post8.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [eotdl]: executing diffoscope
+[2023-06-27 12:48:16] INFO root fetch - processPackages [eotdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-2023.6.14.post9.tar.gz tmp/eotdl-2023.6.27.tar.gz --markdown 20230627/e/eotdl/2023.6.14.post9-2023.6.27/diff.md --exclude *.pyd
+[2023-06-27 12:48:16] INFO root fetch - processPackages [zhon]: Downloading https://files.pythonhosted.org/packages/cf/da/1ff0761d6c0d2fca7f19e65d19e960354dfe6cbc1664041e3c3e711d757a/zhon-2.0.2.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [kiara-plugin.streamlit]: Downloading https://files.pythonhosted.org/packages/74/17/e0b489005fedd3bc851f7bb4ca0bfe6bbd029b644ddef2976e0d0c612580/kiara_plugin.streamlit-0.4.3.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-06-27 12:48:16] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-06-27 12:48:16] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.2.post7.tar.gz tmp/pypcapkit-1.0.2.post8.tar.gz --markdown 20230627/p/pypcapkit/1.0.2.post7-1.0.2.post8/diff.md --exclude *.pyd
+[2023-06-27 12:48:16] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-27 12:48:16] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.0.2.tar.gz tmp/mentord-1.0.3.tar.gz --markdown 20230627/m/mentord/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 12:48:16] INFO root fetch - processPackages [zhon]: executing diffoscope
+[2023-06-27 12:48:16] INFO root fetch - processPackages [zhon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhon-2.0.1.tar.gz tmp/zhon-2.0.2.tar.gz --markdown 20230627/z/zhon/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-27 12:48:17] INFO root fetch - processPackages [kiara-plugin.streamlit]: executing diffoscope
+[2023-06-27 12:48:17] INFO root fetch - processPackages [kiara-plugin.streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.streamlit-0.4.2.tar.gz tmp/kiara_plugin.streamlit-0.4.3.tar.gz --markdown 20230627/k/kiara-plugin.streamlit/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-27 12:48:17] INFO root fetch - processPackages [hum]: Downloading https://files.pythonhosted.org/packages/da/5e/1d5f826b76363381c16014d298d74b0fe9f14305bdb5d7776b470be429aa/hum-0.1.9.tar.gz
+[2023-06-27 12:48:17] INFO root fetch - processPackages [chainsaddiction]: executing diffoscope
+[2023-06-27 12:48:17] INFO root fetch - processPackages [chainsaddiction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainsaddiction-0.1.2.tar.gz tmp/chainsaddiction-0.2.1.tar.gz --markdown 20230627/c/chainsaddiction/0.1.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-27 12:48:17] INFO root fetch - processPackages [hum]: executing diffoscope
+[2023-06-27 12:48:17] INFO root fetch - processPackages [hum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hum-0.1.8.tar.gz tmp/hum-0.1.9.tar.gz --markdown 20230627/h/hum/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 12:48:17] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-27 12:48:17] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230627/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-06-27 12:48:18] INFO root fetch - processPackages [zhon]: Remove: archive file [/home/abi/fetcher/tmp/zhon-2.0.1.tar.gz]
+[2023-06-27 12:48:18] INFO root fetch - processPackages [zhon]: Remove: archive file [/home/abi/fetcher/tmp/zhon-2.0.2.tar.gz]
+[2023-06-27 12:48:18] INFO root fetch - processPackages [zhon]: Start processing: nonebot-plugin-wordcloud
+[2023-06-27 12:48:18] INFO root fetch - main [MainThread]: End processing [zhon]: success
+[2023-06-27 12:48:18] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-27 12:48:18] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.2.tar.gz]
+[2023-06-27 12:48:18] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.3.tar.gz]
+[2023-06-27 12:48:18] INFO root fetch - processPackages [mentord]: Start processing: surfacetopography
+[2023-06-27 12:48:18] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-27 12:48:18] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-06-27 12:48:18] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.9.tar.gz]
+[2023-06-27 12:48:18] INFO root fetch - processPackages [spyx]: Start processing: xirvik-tools
+[2023-06-27 12:48:18] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-06-27 12:48:18] INFO root fetch - processPackages [ocamlec-plt]: Remove: archive file [/home/abi/fetcher/tmp/ocamlec_plt-0.0.4.tar.gz]
+[2023-06-27 12:48:18] INFO root fetch - processPackages [ocamlec-plt]: Remove: archive file [/home/abi/fetcher/tmp/ocamlec_plt-0.0.5.tar.gz]
+[2023-06-27 12:48:18] INFO root fetch - main [MainThread]: End processing [ocamlec-plt]: success
+[2023-06-27 12:48:18] INFO root fetch - processPackages [surfacetopography]: New version: [1.7.0] Old Version: [1.6.3]
+[2023-06-27 12:48:18] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: Downloading https://files.pythonhosted.org/packages/af/7d/5d75111cc5b1b412d20fb57fec3d15cc7874b969e02f83510795add896fa/nonebot_plugin_wordcloud-0.4.8.tar.gz
+[2023-06-27 12:48:18] INFO root fetch - processPackages [xirvik-tools]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-27 12:48:18] INFO root fetch - processPackages [chainsaddiction]: Remove: archive file [/home/abi/fetcher/tmp/chainsaddiction-0.1.2.tar.gz]
+[2023-06-27 12:48:18] INFO root fetch - processPackages [chainsaddiction]: Remove: archive file [/home/abi/fetcher/tmp/chainsaddiction-0.2.1.tar.gz]
+[2023-06-27 12:48:18] INFO root fetch - main [MainThread]: End processing [chainsaddiction]: success
+[2023-06-27 12:48:18] INFO root fetch - processPackages [surfacetopography]: Downloading https://files.pythonhosted.org/packages/2d/38/fd1493994d14ffe50ce8088ad9b6493ebf790e5380c7d0c2c3fbbd42b2d9/surfacetopography-1.6.3.tar.gz
+[2023-06-27 12:48:18] INFO root fetch - processPackages [xirvik-tools]: Downloading https://files.pythonhosted.org/packages/6b/53/20e648e9947a4903867b3f6cfc6648da8537aa056119b217231c42775e54/xirvik_tools-0.4.0.tar.gz
+[2023-06-27 12:48:19] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2023.6.14.post9.tar.gz]
+[2023-06-27 12:48:19] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2023.6.27.tar.gz]
+[2023-06-27 12:48:19] INFO root fetch - main [MainThread]: End processing [eotdl]: success
+[2023-06-27 12:48:19] INFO root fetch - processPackages [hum]: Remove: archive file [/home/abi/fetcher/tmp/hum-0.1.8.tar.gz]
+[2023-06-27 12:48:19] INFO root fetch - processPackages [hum]: Remove: archive file [/home/abi/fetcher/tmp/hum-0.1.9.tar.gz]
+[2023-06-27 12:48:19] INFO root fetch - main [MainThread]: End processing [hum]: success
+[2023-06-27 12:48:19] INFO root fetch - processPackages [surfacetopography]: Downloading https://files.pythonhosted.org/packages/1c/ff/c8b22f8d60a522f9e1e283d949bd3c59aac18a16b4b3d643b04166d8fda7/surfacetopography-1.7.0.tar.gz
+[2023-06-27 12:48:19] INFO root fetch - processPackages [xirvik-tools]: Downloading https://files.pythonhosted.org/packages/0c/cd/a8b5774782e8c7687fc4c1cb9453995eb5bb46145387cbd5791a66d26b22/xirvik_tools-0.4.1.tar.gz
+[2023-06-27 12:48:19] INFO root fetch - processPackages [xirvik-tools]: executing diffoscope
+[2023-06-27 12:48:19] INFO root fetch - processPackages [xirvik-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xirvik_tools-0.4.0.tar.gz tmp/xirvik_tools-0.4.1.tar.gz --markdown 20230627/x/xirvik-tools/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-27 12:48:19] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: Downloading https://files.pythonhosted.org/packages/78/62/2a7acd755e7bd8980eae453e7655195585206a0679511d8ef5df33d75789/nonebot_plugin_wordcloud-0.4.9.tar.gz
+[2023-06-27 12:48:19] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: executing diffoscope
+[2023-06-27 12:48:19] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_wordcloud-0.4.8.tar.gz tmp/nonebot_plugin_wordcloud-0.4.9.tar.gz --markdown 20230627/n/nonebot-plugin-wordcloud/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-27 12:48:20] INFO root fetch - processPackages [kiara-plugin.streamlit]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.streamlit-0.4.2.tar.gz]
+[2023-06-27 12:48:20] INFO root fetch - processPackages [kiara-plugin.streamlit]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.streamlit-0.4.3.tar.gz]
+[2023-06-27 12:48:20] INFO root fetch - main [MainThread]: End processing [kiara-plugin.streamlit]: success
+[2023-06-27 12:48:20] INFO root fetch - processPackages [xirvik-tools]: Remove: archive file [/home/abi/fetcher/tmp/xirvik_tools-0.4.0.tar.gz]
+[2023-06-27 12:48:20] INFO root fetch - processPackages [xirvik-tools]: Remove: archive file [/home/abi/fetcher/tmp/xirvik_tools-0.4.1.tar.gz]
+[2023-06-27 12:48:20] INFO root fetch - main [MainThread]: End processing [xirvik-tools]: success
+[2023-06-27 12:48:21] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_wordcloud-0.4.8.tar.gz]
+[2023-06-27 12:48:21] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_wordcloud-0.4.9.tar.gz]
+[2023-06-27 12:48:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-wordcloud]: success
+[2023-06-27 12:48:23] INFO root fetch - processPackages [surfacetopography]: executing diffoscope
+[2023-06-27 12:48:23] INFO root fetch - processPackages [surfacetopography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfacetopography-1.6.3.tar.gz tmp/surfacetopography-1.7.0.tar.gz --markdown 20230627/s/surfacetopography/1.6.3-1.7.0/diff.md --exclude *.pyd
+[2023-06-27 12:48:23] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post7.tar.gz]
+[2023-06-27 12:48:23] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post8.tar.gz]
+[2023-06-27 12:48:23] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-06-27 12:48:28] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-27 12:48:28] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-06-27 12:48:28] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-27 12:49:02] INFO root fetch - processPackages [surfacetopography]: Remove: archive file [/home/abi/fetcher/tmp/surfacetopography-1.6.3.tar.gz]
+[2023-06-27 12:49:02] INFO root fetch - processPackages [surfacetopography]: Remove: archive file [/home/abi/fetcher/tmp/surfacetopography-1.7.0.tar.gz]
+[2023-06-27 12:49:02] INFO root fetch - main [MainThread]: End processing [surfacetopography]: success
+[2023-06-27 12:49:02] INFO root fetch - main [MainThread]: Store serial: [18661479]
