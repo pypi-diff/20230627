@@ -16822,3 +16822,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-27 10:41:59] INFO root fetch - processPackages [cardiac-geometries]: Remove: archive file [/home/abi/fetcher/tmp/cardiac_geometries-0.6.1.tar.gz]
 [2023-06-27 10:41:59] INFO root fetch - main [MainThread]: End processing [cardiac-geometries]: success
 [2023-06-27 10:41:59] INFO root fetch - main [MainThread]: Store serial: [18659968]
+[2023-06-27 10:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659968]
+[2023-06-27 10:47:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-27 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libcnmc
+[2023-06-27 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiosumma
+[2023-06-27 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: v-quantum-annealing
+[2023-06-27 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vt2m
+[2023-06-27 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-grpc-sim
+[2023-06-27 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vstt
+[2023-06-27 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kpops
+[2023-06-27 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nics
+[2023-06-27 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RMK-support
+[2023-06-27 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfp-nightly
+[2023-06-27 10:47:09] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-27 10:47:09] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 10:47:09] INFO root fetch - processPackages [vstt]: New version: [1.0.0] Old Version: [0.31.0]
+[2023-06-27 10:47:09] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-27 10:47:09] INFO root fetch - processPackages [th2-grpc-sim]: New version: [5.0.0.dev5377566930] Old Version: [5.0.0.dev5376623916]
+[2023-06-27 10:47:09] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-27 10:47:09] INFO root fetch - processPackages [vstt]: Downloading https://files.pythonhosted.org/packages/a5/33/7ca5a42805f260c8a8cb319b6f909d55a497ef69c16cdceb4fa78069f681/vstt-0.31.0.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [vt2m]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 10:47:09] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/57/fe/54555fb5e5e37b9461a9aed86f0e264b2347cbe60ea8dad5d1c9d8ba2bd3/th2_grpc_sim-5.0.0.dev5376623916.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [nics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-27 10:47:09] INFO root fetch - processPackages [RMK-support]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 10:47:09] INFO root fetch - processPackages [kpops]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-27 10:47:09] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-27 10:47:09] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [vstt]: Downloading https://files.pythonhosted.org/packages/73/f9/3ee996b0af13c16de9d04edee9b71d3364487bd83bdc032c36bfd19c46f1/vstt-1.0.0.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-06-27 10:47:09] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [vt2m]: Downloading https://files.pythonhosted.org/packages/ac/3b/a3290506f288ad3961039e4eb8ea4968695f39a3b20f6353ef48ccec58b4/vt2m-0.1.8.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [RMK-support]: Downloading https://files.pythonhosted.org/packages/38/ff/4dbcc46c6c6c3dfdc51cab49f4bdb9cf82b667d0f06cfcb713da7bd4391a/RMK_support-1.0.0.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/00/fb/d423f0475540b58b9dafc276ce03e622a1d0fd7142474d5c562f3f0c3dce/kpops-1.2.3.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [vstt]: executing diffoscope
+[2023-06-27 10:47:09] INFO root fetch - processPackages [vstt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstt-0.31.0.tar.gz tmp/vstt-1.0.0.tar.gz --markdown 20230627/v/vstt/0.31.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-27 10:47:09] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/b6/dd/ce4a8e21e91821f1309277833b9a4de63ebcbec929064bdd1c83e192a42d/th2_grpc_sim-5.0.0.dev5377566930.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-27 10:47:09] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [th2-grpc-sim]: executing diffoscope
+[2023-06-27 10:47:09] INFO root fetch - processPackages [th2-grpc-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_sim-5.0.0.dev5376623916.tar.gz tmp/th2_grpc_sim-5.0.0.dev5377566930.tar.gz --markdown 20230627/t/th2-grpc-sim/5.0.0.dev5376623916-5.0.0.dev5377566930/diff.md --exclude *.pyd
+[2023-06-27 10:47:09] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-06-27 10:47:09] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230627/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 10:47:09] INFO root fetch - processPackages [RMK-support]: Downloading https://files.pythonhosted.org/packages/35/3a/10b172d0d29afc407919d132061f26e2f780461f277fa8a8492bb35a02a9/RMK_support-1.0.1.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/28/c9/ed0dc845f3c9d1ea9e22bbba2eb22804f6e3ff99e5cc338469af7756eee5/nics-0.9.0.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/87/b1/5eb6fb638dfe87bb7e40727bacf9d9a612b8894414e498c85feda6c65f98/kpops-1.2.4.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-27 10:47:09] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230627/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-27 10:47:09] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-27 10:47:09] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230627/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-27 10:47:09] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-06-27 10:47:09] INFO root fetch - processPackages [vt2m]: Downloading https://files.pythonhosted.org/packages/c7/fb/3793ff0b0f93c3159aa2bcb88726e9601da95dcb838b531bdef0d5403e4e/vt2m-0.1.9.tar.gz
+[2023-06-27 10:47:09] INFO root fetch - processPackages [RMK-support]: executing diffoscope
+[2023-06-27 10:47:09] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-27 10:47:09] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2023-06-27 10:47:09] INFO root fetch - processPackages [RMK-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RMK_support-1.0.0.tar.gz tmp/RMK_support-1.0.1.tar.gz --markdown 20230627/R/RMK-support/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 10:47:09] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.8.0.tar.gz tmp/nics-0.9.0.tar.gz --markdown 20230627/n/nics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-27 10:47:09] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-1.2.3.tar.gz tmp/kpops-1.2.4.tar.gz --markdown 20230627/k/kpops/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-27 10:47:09] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-06-27 10:47:09] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230627/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-27 10:47:09] INFO root fetch - processPackages [vt2m]: executing diffoscope
+[2023-06-27 10:47:09] INFO root fetch - processPackages [vt2m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vt2m-0.1.8.tar.gz tmp/vt2m-0.1.9.tar.gz --markdown 20230627/v/vt2m/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 10:47:12] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-5.0.0.dev5376623916.tar.gz]
+[2023-06-27 10:47:12] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-5.0.0.dev5377566930.tar.gz]
+[2023-06-27 10:47:12] INFO root fetch - processPackages [th2-grpc-sim]: Start processing: arlas-permissions-api
+[2023-06-27 10:47:12] INFO root fetch - main [MainThread]: End processing [th2-grpc-sim]: success
+[2023-06-27 10:47:12] INFO root fetch - processPackages [arlas-permissions-api]: New version: [24.0.2] Old Version: [24.0.0]
+[2023-06-27 10:47:12] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-27 10:47:12] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.9.0.tar.gz]
+[2023-06-27 10:47:12] INFO root fetch - processPackages [nics]: Start processing: SpoutGL
+[2023-06-27 10:47:12] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-27 10:47:12] INFO root fetch - processPackages [arlas-permissions-api]: Downloading https://files.pythonhosted.org/packages/11/21/fdfa82e5d8e40cb4bfdf2b18a6c83d548303691c8564dcb9371eda0381f4/arlas-permissions_api-24.0.0.tar.gz
+[2023-06-27 10:47:12] INFO root fetch - processPackages [SpoutGL]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-27 10:47:12] INFO root fetch - processPackages [vt2m]: Remove: archive file [/home/abi/fetcher/tmp/vt2m-0.1.8.tar.gz]
+[2023-06-27 10:47:12] INFO root fetch - processPackages [vt2m]: Remove: archive file [/home/abi/fetcher/tmp/vt2m-0.1.9.tar.gz]
+[2023-06-27 10:47:12] INFO root fetch - main [MainThread]: End processing [vt2m]: success
+[2023-06-27 10:47:12] INFO root fetch - processPackages [RMK-support]: Remove: archive file [/home/abi/fetcher/tmp/RMK_support-1.0.0.tar.gz]
+[2023-06-27 10:47:12] INFO root fetch - processPackages [RMK-support]: Remove: archive file [/home/abi/fetcher/tmp/RMK_support-1.0.1.tar.gz]
+[2023-06-27 10:47:12] INFO root fetch - main [MainThread]: End processing [RMK-support]: success
+[2023-06-27 10:47:12] INFO root fetch - processPackages [arlas-permissions-api]: Downloading https://files.pythonhosted.org/packages/bf/bb/f00435607ebde3d94107bb76e8cf795f43752904df50283faac2c3060880/arlas-permissions_api-24.0.2.tar.gz
+[2023-06-27 10:47:12] INFO root fetch - processPackages [SpoutGL]: Downloading https://files.pythonhosted.org/packages/e9/42/0b8ba3d6c4965692b7ce9f56829f3f55a2e0a3645e23a27fac5f71d2dc7b/SpoutGL-0.0.4.tar.gz
+[2023-06-27 10:47:12] INFO root fetch - processPackages [arlas-permissions-api]: executing diffoscope
+[2023-06-27 10:47:12] INFO root fetch - processPackages [arlas-permissions-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arlas-permissions_api-24.0.0.tar.gz tmp/arlas-permissions_api-24.0.2.tar.gz --markdown 20230627/a/arlas-permissions-api/24.0.0-24.0.2/diff.md --exclude *.pyd
+[2023-06-27 10:47:12] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-06-27 10:47:12] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-06-27 10:47:12] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-06-27 10:47:13] INFO root fetch - processPackages [SpoutGL]: Downloading https://files.pythonhosted.org/packages/c7/56/2b7e02331af66a0768f0e70604b5cc3d8685659f6ebfaa9cd16d9eff4cbc/SpoutGL-0.0.5.tar.gz
+[2023-06-27 10:47:13] INFO root fetch - processPackages [vstt]: Remove: archive file [/home/abi/fetcher/tmp/vstt-0.31.0.tar.gz]
+[2023-06-27 10:47:13] INFO root fetch - processPackages [vstt]: Remove: archive file [/home/abi/fetcher/tmp/vstt-1.0.0.tar.gz]
+[2023-06-27 10:47:13] INFO root fetch - main [MainThread]: End processing [vstt]: success
+[2023-06-27 10:47:13] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-1.2.3.tar.gz]
+[2023-06-27 10:47:13] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-1.2.4.tar.gz]
+[2023-06-27 10:47:13] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2023-06-27 10:47:13] INFO root fetch - processPackages [SpoutGL]: executing diffoscope
+[2023-06-27 10:47:13] INFO root fetch - processPackages [SpoutGL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpoutGL-0.0.4.tar.gz tmp/SpoutGL-0.0.5.tar.gz --markdown 20230627/S/SpoutGL/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-27 10:47:14] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-06-27 10:47:14] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-06-27 10:47:14] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-27 10:47:14] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-06-27 10:47:14] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-06-27 10:47:14] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-06-27 10:47:14] INFO root fetch - processPackages [arlas-permissions-api]: Remove: archive file [/home/abi/fetcher/tmp/arlas-permissions_api-24.0.0.tar.gz]
+[2023-06-27 10:47:14] INFO root fetch - processPackages [arlas-permissions-api]: Remove: archive file [/home/abi/fetcher/tmp/arlas-permissions_api-24.0.2.tar.gz]
+[2023-06-27 10:47:14] INFO root fetch - main [MainThread]: End processing [arlas-permissions-api]: success
+[2023-06-27 10:47:15] INFO root fetch - processPackages [SpoutGL]: Remove: archive file [/home/abi/fetcher/tmp/SpoutGL-0.0.4.tar.gz]
+[2023-06-27 10:47:15] INFO root fetch - processPackages [SpoutGL]: Remove: archive file [/home/abi/fetcher/tmp/SpoutGL-0.0.5.tar.gz]
+[2023-06-27 10:47:15] INFO root fetch - main [MainThread]: End processing [SpoutGL]: success
+[2023-06-27 10:47:26] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-27 10:47:26] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-27 10:47:26] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-27 10:47:26] INFO root fetch - main [MainThread]: Store serial: [18660008]
