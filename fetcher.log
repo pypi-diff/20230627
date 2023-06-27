@@ -19802,3 +19802,132 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 12:22:06] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.5.tar.gz]
 [2023-06-27 12:22:06] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
 [2023-06-27 12:22:06] INFO root fetch - main [MainThread]: Store serial: [18661268]
+[2023-06-27 12:27:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661268]
+[2023-06-27 12:27:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-27 12:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaflow
+[2023-06-27 12:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lacuscore
+[2023-06-27 12:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-bg-task
+[2023-06-27 12:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LLM-Toolbox
+[2023-06-27 12:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: batou
+[2023-06-27 12:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datasaurus
+[2023-06-27 12:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpm-api
+[2023-06-27 12:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crypto-screening
+[2023-06-27 12:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plonemeeting.restapi
+[2023-06-27 12:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyFRF
+[2023-06-27 12:27:15] INFO root fetch - processPackages [lacuscore]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-27 12:27:15] INFO root fetch - processPackages [django-bg-task]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-27 12:27:15] INFO root fetch - processPackages [metaflow]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-06-27 12:27:15] INFO root fetch - processPackages [gpm-api]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-27 12:27:15] INFO root fetch - processPackages [LLM-Toolbox]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-27 12:27:15] INFO root fetch - processPackages [crypto-screening]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-27 12:27:15] INFO root fetch - processPackages [datasaurus]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2023-06-27 12:27:15] INFO root fetch - processPackages [pyFRF]: New version: [0.42] Old Version: [0.41]
+[2023-06-27 12:27:15] INFO root fetch - processPackages [batou]: New version: [2.4a1] Old Version: [2.3b6]
+[2023-06-27 12:27:15] INFO root fetch - processPackages [plonemeeting.restapi]: New version: [2.1] Old Version: [2.0.2]
+[2023-06-27 12:27:15] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/e9/80/08c58e2c3c2df3a7c9bbfd770c7bbdc6845ecb24724ef11eb025573b15bd/lacuscore-1.5.8.tar.gz
+[2023-06-27 12:27:15] INFO root fetch - processPackages [django-bg-task]: Downloading https://files.pythonhosted.org/packages/a2/56/d83662336d648841995d57804561170ae0c62a2cd7ac96986f6189ca4a58/django_bg_task-0.0.3.tar.gz
+[2023-06-27 12:27:15] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/83/55/17070c5bd098ac01458f6ce1cdafb8c53dc9b64c95c885fe8902432d9c23/LLM-Toolbox-0.1.4.tar.gz
+[2023-06-27 12:27:15] INFO root fetch - processPackages [pyFRF]: Downloading https://files.pythonhosted.org/packages/75/78/b402a077b4102d9fcb40caa51ad59ab1aba5aa7c4abf7fb3422d65eedceb/pyFRF-0.41.tar.gz
+[2023-06-27 12:27:15] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/37/51/a1db120557f4d51e9082a4ccc19befb195675a00c8533542cf461887ac21/metaflow-2.9.6.tar.gz
+[2023-06-27 12:27:15] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/50/10/ad5848a1b0052ec41a5d44d623fcd5c1f3aeb38731a361232c0d73a78aa8/crypto-screening-1.2.2.tar.gz
+[2023-06-27 12:27:15] INFO root fetch - processPackages [gpm-api]: Downloading https://files.pythonhosted.org/packages/b5/db/1f769f1b558ab8a83be09e2764eeb7d3edc9a6acd9bc9073db439f74f2dd/gpm_api-0.2.2.tar.gz
+[2023-06-27 12:27:15] INFO root fetch - processPackages [batou]: Downloading https://files.pythonhosted.org/packages/32/5d/57953576604bb22b64a97a00430080a8252462497e2d32dd9008c583cbc9/batou-2.3b6.tar.gz
+[2023-06-27 12:27:15] INFO root fetch - processPackages [datasaurus]: Downloading https://files.pythonhosted.org/packages/31/96/8807ac9e3455cfb124320cf2fb19ac1177508920c9b0f81fa151c34eac19/datasaurus-0.0.1.dev1.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [plonemeeting.restapi]: Downloading https://files.pythonhosted.org/packages/19/35/9c4e35255db8459d73e1ed32396eae7450ebd2f912e0661dbca9cf79a90b/plonemeeting.restapi-2.0.2.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/ae/9a/dcd93feceadff40e40ee6bec470823163a713f2b6a2c333f3d8405121800/LLM-Toolbox-0.1.5.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/26/df/f9bd17e519216457c5e208fe72d484b5e61143c5232135d765cedcfb5d26/lacuscore-1.5.9.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [django-bg-task]: Downloading https://files.pythonhosted.org/packages/73/eb/50e538842283075e9d490e4b73729fcb68fc02e99f62a67c478ceff8fef4/django_bg_task-0.0.4.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [pyFRF]: Downloading https://files.pythonhosted.org/packages/c8/a1/3bb8161c5a1f51eb69948971e5da9bbe5e6ef871425f75ac46b4529ac0e1/pyFRF-0.42.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [lacuscore]: executing diffoscope
+[2023-06-27 12:27:16] INFO root fetch - processPackages [lacuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacuscore-1.5.8.tar.gz tmp/lacuscore-1.5.9.tar.gz --markdown 20230627/l/lacuscore/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-27 12:27:16] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/68/2a/d5b465f91ba522aef4cae29b022fbd04a13453de3ed2e4a827041968b463/metaflow-2.9.7.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [LLM-Toolbox]: executing diffoscope
+[2023-06-27 12:27:16] INFO root fetch - processPackages [LLM-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLM-Toolbox-0.1.4.tar.gz tmp/LLM-Toolbox-0.1.5.tar.gz --markdown 20230627/L/LLM-Toolbox/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 12:27:16] INFO root fetch - processPackages [pyFRF]: executing diffoscope
+[2023-06-27 12:27:16] INFO root fetch - processPackages [pyFRF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyFRF-0.41.tar.gz tmp/pyFRF-0.42.tar.gz --markdown 20230627/p/pyFRF/0.41-0.42/diff.md --exclude *.pyd
+[2023-06-27 12:27:16] INFO root fetch - processPackages [datasaurus]: Downloading https://files.pythonhosted.org/packages/6f/70/77082f90f63f42c5c8f48f9d538dbf6aa7bb2b4003d45f01b46672250172/datasaurus-0.0.1.dev2.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [batou]: Downloading https://files.pythonhosted.org/packages/1c/87/832f48b0a4caf60a4dc2427a2af29430446e3b47aa0b3211103502cec9ca/batou-2.4a1.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [django-bg-task]: executing diffoscope
+[2023-06-27 12:27:16] INFO root fetch - processPackages [django-bg-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bg_task-0.0.3.tar.gz tmp/django_bg_task-0.0.4.tar.gz --markdown 20230627/d/django-bg-task/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-27 12:27:16] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/96/a5/69a458303fbae5b82e54554fe152a37a8080f3be5c6a9749301bf21a914a/crypto-screening-1.2.3.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [gpm-api]: Downloading https://files.pythonhosted.org/packages/30/1a/6a333a2bdade013db66d83af32829fc1a97e72ee377669f24fb47df78496/gpm_api-0.2.3.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [plonemeeting.restapi]: Downloading https://files.pythonhosted.org/packages/61/9a/7c2d7661cd0ac36425539837a2b0267dcd4d8eb3c69fbc8d7a74e7b95d21/plonemeeting.restapi-2.1.tar.gz
+[2023-06-27 12:27:16] INFO root fetch - processPackages [plonemeeting.restapi]: executing diffoscope
+[2023-06-27 12:27:16] INFO root fetch - processPackages [plonemeeting.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonemeeting.restapi-2.0.2.tar.gz tmp/plonemeeting.restapi-2.1.tar.gz --markdown 20230627/p/plonemeeting.restapi/2.0.2-2.1/diff.md --exclude *.pyd
+[2023-06-27 12:27:16] INFO root fetch - processPackages [datasaurus]: executing diffoscope
+[2023-06-27 12:27:16] INFO root fetch - processPackages [datasaurus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasaurus-0.0.1.dev1.tar.gz tmp/datasaurus-0.0.1.dev2.tar.gz --markdown 20230627/d/datasaurus/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2023-06-27 12:27:16] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-06-27 12:27:16] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.2.2.tar.gz tmp/crypto-screening-1.2.3.tar.gz --markdown 20230627/c/crypto-screening/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-27 12:27:16] INFO root fetch - processPackages [metaflow]: executing diffoscope
+[2023-06-27 12:27:16] INFO root fetch - processPackages [metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-2.9.6.tar.gz tmp/metaflow-2.9.7.tar.gz --markdown 20230627/m/metaflow/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-06-27 12:27:16] INFO root fetch - processPackages [batou]: executing diffoscope
+[2023-06-27 12:27:16] INFO root fetch - processPackages [batou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batou-2.3b6.tar.gz tmp/batou-2.4a1.tar.gz --markdown 20230627/b/batou/2.3b6-2.4a1/diff.md --exclude *.pyd
+[2023-06-27 12:27:16] INFO root fetch - processPackages [gpm-api]: executing diffoscope
+[2023-06-27 12:27:16] INFO root fetch - processPackages [gpm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpm_api-0.2.2.tar.gz tmp/gpm_api-0.2.3.tar.gz --markdown 20230627/g/gpm-api/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-27 12:27:17] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.5.8.tar.gz]
+[2023-06-27 12:27:17] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.5.9.tar.gz]
+[2023-06-27 12:27:17] INFO root fetch - processPackages [lacuscore]: Start processing: Kanon4txt
+[2023-06-27 12:27:17] INFO root fetch - main [MainThread]: End processing [lacuscore]: success
+[2023-06-27 12:27:17] INFO root fetch - processPackages [Kanon4txt]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 12:27:17] INFO root fetch - processPackages [pyFRF]: Remove: archive file [/home/abi/fetcher/tmp/pyFRF-0.41.tar.gz]
+[2023-06-27 12:27:17] INFO root fetch - processPackages [pyFRF]: Remove: archive file [/home/abi/fetcher/tmp/pyFRF-0.42.tar.gz]
+[2023-06-27 12:27:17] INFO root fetch - processPackages [pyFRF]: Start processing: steampunk-spotter
+[2023-06-27 12:27:17] INFO root fetch - main [MainThread]: End processing [pyFRF]: success
+[2023-06-27 12:27:17] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/bf/f1/b6c7904515dd6b35aacd718700be5d4b01ace418a10a131b3edcbe1906a2/Kanon4txt-0.1.2.tar.gz
+[2023-06-27 12:27:17] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.0.3a1] Old Version: [2.0.2rc1]
+[2023-06-27 12:27:18] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.4.tar.gz]
+[2023-06-27 12:27:18] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.5.tar.gz]
+[2023-06-27 12:27:18] INFO root fetch - processPackages [LLM-Toolbox]: Start processing: probeinterface
+[2023-06-27 12:27:18] INFO root fetch - main [MainThread]: End processing [LLM-Toolbox]: success
+[2023-06-27 12:27:18] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/eb/2d/ef00b6f0820a0413261e00a1573a302fa1d7dea53f2ed0816581b8b917fe/Kanon4txt-0.1.3.tar.gz
+[2023-06-27 12:27:18] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/9e/6f/efedfd98c5b955b486b3787d312d3f3559dfc0795358c0f8e73e92c5b590/steampunk_spotter-2.0.2rc1-py3-none-any.whl
+[2023-06-27 12:27:18] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.2.2.tar.gz]
+[2023-06-27 12:27:18] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.2.3.tar.gz]
+[2023-06-27 12:27:18] INFO root fetch - processPackages [crypto-screening]: Start processing: petisco
+[2023-06-27 12:27:18] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-06-27 12:27:18] INFO root fetch - processPackages [Kanon4txt]: executing diffoscope
+[2023-06-27 12:27:18] INFO root fetch - processPackages [Kanon4txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kanon4txt-0.1.2.tar.gz tmp/Kanon4txt-0.1.3.tar.gz --markdown 20230627/K/Kanon4txt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 12:27:18] INFO root fetch - processPackages [django-bg-task]: Remove: archive file [/home/abi/fetcher/tmp/django_bg_task-0.0.3.tar.gz]
+[2023-06-27 12:27:18] INFO root fetch - processPackages [django-bg-task]: Remove: archive file [/home/abi/fetcher/tmp/django_bg_task-0.0.4.tar.gz]
+[2023-06-27 12:27:18] INFO root fetch - main [MainThread]: End processing [django-bg-task]: success
+[2023-06-27 12:27:18] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc5] Old Version: [2.0.0rc4]
+[2023-06-27 12:27:18] INFO root fetch - processPackages [datasaurus]: Remove: archive file [/home/abi/fetcher/tmp/datasaurus-0.0.1.dev1.tar.gz]
+[2023-06-27 12:27:18] INFO root fetch - processPackages [datasaurus]: Remove: archive file [/home/abi/fetcher/tmp/datasaurus-0.0.1.dev2.tar.gz]
+[2023-06-27 12:27:18] INFO root fetch - processPackages [probeinterface]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 12:27:18] INFO root fetch - main [MainThread]: End processing [datasaurus]: success
+[2023-06-27 12:27:18] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/e6/d2/83f85846b318af04c1d3395154f4b94ef20c5b97ed37bc221d8877ee3c5a/petisco-2.0.0rc4.tar.gz
+[2023-06-27 12:27:18] INFO root fetch - processPackages [plonemeeting.restapi]: Remove: archive file [/home/abi/fetcher/tmp/plonemeeting.restapi-2.0.2.tar.gz]
+[2023-06-27 12:27:18] INFO root fetch - processPackages [plonemeeting.restapi]: Remove: archive file [/home/abi/fetcher/tmp/plonemeeting.restapi-2.1.tar.gz]
+[2023-06-27 12:27:18] INFO root fetch - main [MainThread]: End processing [plonemeeting.restapi]: success
+[2023-06-27 12:27:18] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/51/3c/944b2a01c1219f21f2e9cfd8fdb5dd0e30cbb7555d7cb6bfe2c66de3b1f4/steampunk_spotter-2.0.3a1-py3-none-any.whl
+[2023-06-27 12:27:18] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/e6/31/dfc16402ed161c375434ebf1c5902144f067ce968efef668ffc11051016e/petisco-2.0.0rc5.tar.gz
+[2023-06-27 12:27:18] INFO root fetch - processPackages [probeinterface]: Downloading https://files.pythonhosted.org/packages/51/99/cebe372cbdf9c9596c69132042757b8a9f9e53a52586282f2b7c399792f5/probeinterface-0.2.8.tar.gz
+[2023-06-27 12:27:18] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-06-27 12:27:18] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc4.tar.gz tmp/petisco-2.0.0rc5.tar.gz --markdown 20230627/p/petisco/2.0.0rc4-2.0.0rc5/diff.md --exclude *.pyd
+[2023-06-27 12:27:18] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-06-27 12:27:18] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-2.0.2rc1-py3-none-any.whl.zip tmp/steampunk_spotter-2.0.3a1-py3-none-any.whl.zip --markdown 20230627/s/steampunk-spotter/2.0.2rc1-2.0.3a1/diff.md --exclude *.pyd
+[2023-06-27 12:27:18] INFO root fetch - processPackages [probeinterface]: Downloading https://files.pythonhosted.org/packages/e0/86/1971edcb46600d34d2b56e2e14a17f9c7a6918281d66e9164ac9de9e38cd/probeinterface-0.2.9.tar.gz
+[2023-06-27 12:27:19] INFO root fetch - processPackages [probeinterface]: executing diffoscope
+[2023-06-27 12:27:19] INFO root fetch - processPackages [probeinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probeinterface-0.2.8.tar.gz tmp/probeinterface-0.2.9.tar.gz --markdown 20230627/p/probeinterface/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 12:27:19] INFO root fetch - processPackages [gpm-api]: Remove: archive file [/home/abi/fetcher/tmp/gpm_api-0.2.2.tar.gz]
+[2023-06-27 12:27:19] INFO root fetch - processPackages [gpm-api]: Remove: archive file [/home/abi/fetcher/tmp/gpm_api-0.2.3.tar.gz]
+[2023-06-27 12:27:19] INFO root fetch - main [MainThread]: End processing [gpm-api]: success
+[2023-06-27 12:27:19] INFO root fetch - processPackages [batou]: Remove: archive file [/home/abi/fetcher/tmp/batou-2.3b6.tar.gz]
+[2023-06-27 12:27:19] INFO root fetch - processPackages [batou]: Remove: archive file [/home/abi/fetcher/tmp/batou-2.4a1.tar.gz]
+[2023-06-27 12:27:19] INFO root fetch - main [MainThread]: End processing [batou]: success
+[2023-06-27 12:27:19] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.1.2.tar.gz]
+[2023-06-27 12:27:19] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.1.3.tar.gz]
+[2023-06-27 12:27:19] INFO root fetch - main [MainThread]: End processing [Kanon4txt]: success
+[2023-06-27 12:27:19] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.2rc1-py3-none-any.whl.zip]
+[2023-06-27 12:27:19] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.3a1-py3-none-any.whl.zip]
+[2023-06-27 12:27:19] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-06-27 12:27:20] INFO root fetch - processPackages [probeinterface]: Remove: archive file [/home/abi/fetcher/tmp/probeinterface-0.2.8.tar.gz]
+[2023-06-27 12:27:20] INFO root fetch - processPackages [probeinterface]: Remove: archive file [/home/abi/fetcher/tmp/probeinterface-0.2.9.tar.gz]
+[2023-06-27 12:27:20] INFO root fetch - main [MainThread]: End processing [probeinterface]: success
+[2023-06-27 12:27:21] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc4.tar.gz]
+[2023-06-27 12:27:21] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc5.tar.gz]
+[2023-06-27 12:27:21] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-06-27 12:27:22] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.6.tar.gz]
+[2023-06-27 12:27:22] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.7.tar.gz]
+[2023-06-27 12:27:22] INFO root fetch - main [MainThread]: End processing [metaflow]: success
+[2023-06-27 12:27:22] INFO root fetch - main [MainThread]: Store serial: [18661313]
