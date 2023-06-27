@@ -22554,3 +22554,111 @@ AssertionError: tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz does not exist
 [2023-06-27 14:10:22] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-06-27 14:10:22] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-06-27 14:10:22] INFO root fetch - main [MainThread]: Store serial: [18662401]
+[2023-06-27 14:15:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18662401]
+[2023-06-27 14:15:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rer.immersivereader
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sl-creatio-connector
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cstore
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: views-runs
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ladok3
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oarepo-runtime
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sunpeek
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: textual-dev
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rosa-python-client
+[2023-06-27 14:15:32] INFO root fetch - processPackages [sl-creatio-connector]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-27 14:15:32] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-27 14:15:32] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-27 14:15:32] INFO root fetch - processPackages [views-runs]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-27 14:15:32] INFO root fetch - processPackages [rer.immersivereader]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-27 14:15:32] INFO root fetch - processPackages [textual-dev]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ladok3]: New version: [4.0] Old Version: [3.9]
+[2023-06-27 14:15:32] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 14:15:32] INFO root fetch - processPackages [cstore]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-27 14:15:32] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 14:15:32] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/17/18/dcc7b08301454d96434492978faaaf5d8f943c96d8560d5742eb6824dfcd/oarepo-runtime-1.3.8.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-06-27 14:15:32] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [sl-creatio-connector]: Downloading https://files.pythonhosted.org/packages/b8/96/1a45ef011f9e89e70c9abb12c645c7131c8e08f9bcd73d695038988a735e/sl_creatio_connector-0.1.4.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [views-runs]: Downloading https://files.pythonhosted.org/packages/16/e0/4c9fce6880a2785b9f44fb6b4ea2a80b9ebd02a01f92c7dd188ad5225e6b/views_runs-1.9.0.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [textual-dev]: Downloading https://files.pythonhosted.org/packages/f2/6e/00da62fb87a290c72cd66c64601a5a1708562edcc1091ae60c66c5a32b58/textual_dev-0.0.2.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ladok3]: Downloading https://files.pythonhosted.org/packages/6b/50/12f8d459f269dc6bf7464ce0dd3a6d0c4c442a98ca86d27f6724a59aad0c/ladok3-3.9.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [rer.immersivereader]: Downloading https://files.pythonhosted.org/packages/9c/19/c662dc9b3668c27cfefba8b6570124f845249261e46b5e991407bb67a14f/rer.immersivereader-0.1.3.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/f8/9c/a84fc41adce15a0544c7f2dc37fe19964b94a7105120d00085a80c74f123/cstore-0.6.1.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-06-27 14:15:32] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230627/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 14:15:32] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/d4/a6/bbef3bd266677026b7d501efe81bd8f82ca65597bab5e89f9a32ef64b034/oarepo-runtime-1.3.9.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ladok3]: Downloading https://files.pythonhosted.org/packages/7e/6d/7ed7f77554cb03c55456e48f4272104789228617245c85ba815ecdd20c4a/ladok3-4.0.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2023-06-27 14:15:32] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20230627/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-27 14:15:32] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/fe/6f/5cd47a3dc090bfdf39031b45bb45c158f8f5c4bb323108acdba1dd1a5271/cstore-0.6.2.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [sl-creatio-connector]: Downloading https://files.pythonhosted.org/packages/1b/c9/2872a3f374989c491785676a3c3598be4296bd646fe8c797495cb5248c8c/sl_creatio_connector-0.1.5.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [textual-dev]: Downloading https://files.pythonhosted.org/packages/49/fb/9d3d88294f7d529658bd5a7b736baedb016573370627902f3cc8d77e693a/textual_dev-0.1.0.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-06-27 14:15:32] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.3.8.tar.gz tmp/oarepo-runtime-1.3.9.tar.gz --markdown 20230627/o/oarepo-runtime/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-27 14:15:32] INFO root fetch - processPackages [views-runs]: Downloading https://files.pythonhosted.org/packages/7d/41/03a40fb4e96e2fe606e8510e8dd78b969846627f4d61f96c454d4886d317/views_runs-1.9.1.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ladok3]: executing diffoscope
+[2023-06-27 14:15:32] INFO root fetch - processPackages [ladok3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladok3-3.9.tar.gz tmp/ladok3-4.0.tar.gz --markdown 20230627/l/ladok3/3.9-4.0/diff.md --exclude *.pyd
+[2023-06-27 14:15:33] INFO root fetch - processPackages [cstore]: executing diffoscope
+[2023-06-27 14:15:33] INFO root fetch - processPackages [cstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cstore-0.6.1.tar.gz tmp/cstore-0.6.2.tar.gz --markdown 20230627/c/cstore/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-27 14:15:33] INFO root fetch - processPackages [sl-creatio-connector]: executing diffoscope
+[2023-06-27 14:15:33] INFO root fetch - processPackages [sl-creatio-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sl_creatio_connector-0.1.4.tar.gz tmp/sl_creatio_connector-0.1.5.tar.gz --markdown 20230627/s/sl-creatio-connector/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 14:15:33] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-06-27 14:15:33] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 14:15:33] INFO root fetch - processPackages [textual-dev]: executing diffoscope
+[2023-06-27 14:15:33] INFO root fetch - processPackages [textual-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual_dev-0.0.2.tar.gz tmp/textual_dev-0.1.0.tar.gz --markdown 20230627/t/textual-dev/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-27 14:15:33] INFO root fetch - processPackages [rer.immersivereader]: Downloading https://files.pythonhosted.org/packages/90/98/c8b50bbf5e871acdfa22568aa2184a58db6807a5216f2b25ff09a176ff85/rer.immersivereader-0.1.4.tar.gz
+[2023-06-27 14:15:33] INFO root fetch - processPackages [views-runs]: executing diffoscope
+[2023-06-27 14:15:33] INFO root fetch - processPackages [views-runs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/views_runs-1.9.0.tar.gz tmp/views_runs-1.9.1.tar.gz --markdown 20230627/v/views-runs/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-27 14:15:33] INFO root fetch - processPackages [rer.immersivereader]: executing diffoscope
+[2023-06-27 14:15:33] INFO root fetch - processPackages [rer.immersivereader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rer.immersivereader-0.1.3.tar.gz tmp/rer.immersivereader-0.1.4.tar.gz --markdown 20230627/r/rer.immersivereader/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-27 14:15:34] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - processPackages [rosa-python-client]: Start processing: scrapy-samwe
+[2023-06-27 14:15:34] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2023-06-27 14:15:34] WARNING root fetch - processPackages [scrapy-samwe]: Skipping, unable to determine old version
+[2023-06-27 14:15:34] INFO root fetch - processPackages [scrapy-samwe]: Start processing: shf
+[2023-06-27 14:15:34] INFO root fetch - main [MainThread]: End processing [scrapy-samwe] error
+[2023-06-27 14:15:34] WARNING root fetch - processPackages [shf]: Skipping, unable to determine old version
+[2023-06-27 14:15:34] INFO root fetch - processPackages [shf]: Start processing: decoratory
+[2023-06-27 14:15:34] INFO root fetch - main [MainThread]: End processing [shf] error
+[2023-06-27 14:15:34] INFO root fetch - processPackages [decoratory]: New version: [0.9.1.18] Old Version: [0.9.0.6]
+[2023-06-27 14:15:34] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-06-27 14:15:34] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-06-27 14:15:34] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-06-27 14:15:34] INFO root fetch - processPackages [views-runs]: Remove: archive file [/home/abi/fetcher/tmp/views_runs-1.9.0.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - processPackages [views-runs]: Remove: archive file [/home/abi/fetcher/tmp/views_runs-1.9.1.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - main [MainThread]: End processing [views-runs]: success
+[2023-06-27 14:15:34] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/03/1b/56a14fd2a326ebc43d4b366eec092f91a638c047d31694875782dcba497a/decoratory-0.9.0.6.tar.gz
+[2023-06-27 14:15:34] INFO root fetch - processPackages [sl-creatio-connector]: Remove: archive file [/home/abi/fetcher/tmp/sl_creatio_connector-0.1.4.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - processPackages [sl-creatio-connector]: Remove: archive file [/home/abi/fetcher/tmp/sl_creatio_connector-0.1.5.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - main [MainThread]: End processing [sl-creatio-connector]: success
+[2023-06-27 14:15:34] INFO root fetch - processPackages [ladok3]: Remove: archive file [/home/abi/fetcher/tmp/ladok3-3.9.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - processPackages [ladok3]: Remove: archive file [/home/abi/fetcher/tmp/ladok3-4.0.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - main [MainThread]: End processing [ladok3]: success
+[2023-06-27 14:15:34] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-06-27 14:15:34] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.6.1.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.6.2.tar.gz]
+[2023-06-27 14:15:34] INFO root fetch - main [MainThread]: End processing [cstore]: success
+[2023-06-27 14:15:34] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/70/1e/578899fc38ee1253d0da9d8a7ae88064bdc2c9118af5ca3fe6e281ce9627/decoratory-0.9.1.18.tar.gz
+[2023-06-27 14:15:35] INFO root fetch - processPackages [decoratory]: executing diffoscope
+[2023-06-27 14:15:35] INFO root fetch - processPackages [decoratory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoratory-0.9.0.6.tar.gz tmp/decoratory-0.9.1.18.tar.gz --markdown 20230627/d/decoratory/0.9.0.6-0.9.1.18/diff.md --exclude *.pyd
+[2023-06-27 14:15:35] INFO root fetch - processPackages [textual-dev]: Remove: archive file [/home/abi/fetcher/tmp/textual_dev-0.0.2.tar.gz]
+[2023-06-27 14:15:35] INFO root fetch - processPackages [textual-dev]: Remove: archive file [/home/abi/fetcher/tmp/textual_dev-0.1.0.tar.gz]
+[2023-06-27 14:15:35] INFO root fetch - main [MainThread]: End processing [textual-dev]: success
+[2023-06-27 14:15:35] INFO root fetch - processPackages [rer.immersivereader]: Remove: archive file [/home/abi/fetcher/tmp/rer.immersivereader-0.1.3.tar.gz]
+[2023-06-27 14:15:35] INFO root fetch - processPackages [rer.immersivereader]: Remove: archive file [/home/abi/fetcher/tmp/rer.immersivereader-0.1.4.tar.gz]
+[2023-06-27 14:15:35] INFO root fetch - main [MainThread]: End processing [rer.immersivereader]: success
+[2023-06-27 14:15:35] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.8.tar.gz]
+[2023-06-27 14:15:35] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.9.tar.gz]
+[2023-06-27 14:15:35] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-06-27 14:15:36] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.0.6.tar.gz]
+[2023-06-27 14:15:36] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.1.18.tar.gz]
+[2023-06-27 14:15:36] INFO root fetch - main [MainThread]: End processing [decoratory]: success
+[2023-06-27 14:15:36] INFO root fetch - main [MainThread]: Store serial: [18662444]

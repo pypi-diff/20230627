@@ -1,0 +1,396 @@
+# Comparing `tmp/sl_creatio_connector-0.1.4.tar.gz` & `tmp/sl_creatio_connector-0.1.5.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "sl_creatio_connector-0.1.4.tar", max compression
++gzip compressed data, was "sl_creatio_connector-0.1.5.tar", max compression
+```
+
+## Comparing `sl_creatio_connector-0.1.4.tar` & `sl_creatio_connector-0.1.5.tar`
+
+### file list
+
+```diff
+@@ -1,7 +1,5 @@
+--rw-r--r--   0        0        0     1808 2022-12-16 04:41:06.102894 sl_creatio_connector-0.1.4/README.md
+--rw-r--r--   0        0        0      542 2022-12-22 11:25:26.399116 sl_creatio_connector-0.1.4/pyproject.toml
+--rw-r--r--   0        0        0       42 2022-12-22 11:20:06.769448 sl_creatio_connector-0.1.4/sl_creatio_connector/__init__.py
+--rw-r--r--   0        0        0      942 2022-12-16 04:41:06.104245 sl_creatio_connector-0.1.4/sl_creatio_connector/constants.py
+--rw-r--r--   0        0        0     6557 2022-12-16 04:41:06.104892 sl_creatio_connector-0.1.4/sl_creatio_connector/creatio.py
+--rw-r--r--   0        0        0     2586 1970-01-01 00:00:00.000000 sl_creatio_connector-0.1.4/setup.py
+--rw-r--r--   0        0        0     2231 1970-01-01 00:00:00.000000 sl_creatio_connector-0.1.4/PKG-INFO
++-rw-r--r--   0        0        0     1808 2022-12-13 19:11:06.283178 sl_creatio_connector-0.1.5/README.md
++-rw-r--r--   0        0        0      543 2023-06-27 12:09:50.233732 sl_creatio_connector-0.1.5/pyproject.toml
++-rw-r--r--   0        0        0      942 2022-12-13 18:04:15.865672 sl_creatio_connector-0.1.5/sl_creatio_connector/constants.py
++-rw-r--r--   0        0        0     6558 2023-06-27 12:04:20.838890 sl_creatio_connector-0.1.5/sl_creatio_connector/creatio.py
++-rw-r--r--   0        0        0     2231 1970-01-01 00:00:00.000000 sl_creatio_connector-0.1.5/PKG-INFO
+```
+
+### Comparing `sl_creatio_connector-0.1.4/README.md` & `sl_creatio_connector-0.1.5/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `sl_creatio_connector-0.1.4/pyproject.toml` & `sl_creatio_connector-0.1.5/pyproject.toml`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "sl-creatio-connector"
+-version = "0.1.4"
++version = "0.1.5"
+ description = "Creatio (aka BPMonline) ODATA API helper"
+ authors = ["sumarokov-vp <sumarokov.vp@gmail.com>"]
+ readme = "README.md"
+ packages = [{include = "sl_creatio_connector"}]
+ 
+ [tool.poetry.dependencies]
+ python = "^3.11"
+@@ -18,8 +18,8 @@
+ [build-system]
+ requires = ["poetry-core"]
+ build-backend = "poetry.core.masonry.api"
+ 
+ [tool.pytest.ini_options]
+ pythonpath = [
+   ".", "sl_creatio_connector",
+-]
++]
+```
+
+### Comparing `sl_creatio_connector-0.1.4/sl_creatio_connector/constants.py` & `sl_creatio_connector-0.1.5/sl_creatio_connector/constants.py`
+
+ * *Files identical despite different names*
+
+### Comparing `sl_creatio_connector-0.1.4/sl_creatio_connector/creatio.py` & `sl_creatio_connector-0.1.5/sl_creatio_connector/creatio.py`
+
+ * *Ordering differences only*
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -172,8 +172,8 @@
+     
+     def post_phone_book(self, full_name, lead_id, phone_number):
+         dict_data = {
+             'UsrFullName': full_name,
+             'UsrLeadId': lead_id,
+             'UsrNumber': phone_number,
+         }     
+-        return self.create_object('SLPhoneBook', dict_data)
++        return self.create_object('SLPhoneBook', dict_data)
+```
+
+### Comparing `sl_creatio_connector-0.1.4/setup.py` & `sl_creatio_connector-0.1.5/PKG-INFO`
+
+ * *Files 20% similar despite different names*
+
+```diff
+@@ -1,162 +1,140 @@
+-00000000: 2320 2d2a 2d20 636f 6469 6e67 3a20 7574  # -*- coding: ut
+-00000010: 662d 3820 2d2a 2d0a 6672 6f6d 2073 6574  f-8 -*-.from set
+-00000020: 7570 746f 6f6c 7320 696d 706f 7274 2073  uptools import s
+-00000030: 6574 7570 0a0a 7061 636b 6167 6573 203d  etup..packages =
+-00000040: 205c 0a5b 2773 6c5f 6372 6561 7469 6f5f   \.['sl_creatio_
+-00000050: 636f 6e6e 6563 746f 7227 5d0a 0a70 6163  connector']..pac
+-00000060: 6b61 6765 5f64 6174 6120 3d20 5c0a 7b27  kage_data = \.{'
+-00000070: 273a 205b 272a 275d 7d0a 0a69 6e73 7461  ': ['*']}..insta
+-00000080: 6c6c 5f72 6571 7569 7265 7320 3d20 5c0a  ll_requires = \.
+-00000090: 5b27 7079 7465 7374 3e3d 372e 322e 302c  ['pytest>=7.2.0,
+-000000a0: 3c38 2e30 2e30 272c 2027 7265 7175 6573  <8.0.0', 'reques
+-000000b0: 7473 3e3d 322e 3238 2e31 2c3c 332e 302e  ts>=2.28.1,<3.0.
+-000000c0: 3027 5d0a 0a73 6574 7570 5f6b 7761 7267  0']..setup_kwarg
+-000000d0: 7320 3d20 7b0a 2020 2020 276e 616d 6527  s = {.    'name'
+-000000e0: 3a20 2773 6c2d 6372 6561 7469 6f2d 636f  : 'sl-creatio-co
+-000000f0: 6e6e 6563 746f 7227 2c0a 2020 2020 2776  nnector',.    'v
+-00000100: 6572 7369 6f6e 273a 2027 302e 312e 3427  ersion': '0.1.4'
+-00000110: 2c0a 2020 2020 2764 6573 6372 6970 7469  ,.    'descripti
+-00000120: 6f6e 273a 2027 4372 6561 7469 6f20 2861  on': 'Creatio (a
+-00000130: 6b61 2042 504d 6f6e 6c69 6e65 2920 4f44  ka BPMonline) OD
+-00000140: 4154 4120 4150 4920 6865 6c70 6572 272c  ATA API helper',
+-00000150: 0a20 2020 2027 6c6f 6e67 5f64 6573 6372  .    'long_descr
+-00000160: 6970 7469 6f6e 273a 2027 2320 3c70 2061  iption': '# <p a
+-00000170: 6c69 676e 3d22 6365 6e74 6572 223e 4372  lign="center">Cr
+-00000180: 6561 7469 6f20 4f44 4154 4120 636f 6e6e  eatio ODATA conn
+-00000190: 6563 746f 723c 2f70 3e5c 6e3c 7020 616c  ector</p>\n<p al
+-000001a0: 6967 6e3d 2263 656e 7465 7222 3e43 6f6e  ign="center">Con
+-000001b0: 6e65 6374 6f72 2074 6f20 696e 7465 6772  nector to integr
+-000001c0: 6174 6520 3c61 2068 7265 663d 2268 7474  ate <a href="htt
+-000001d0: 7073 3a2f 2f61 6361 6465 6d79 2e63 7265  ps://academy.cre
+-000001e0: 6174 696f 2e63 6f6d 2f64 6f63 732f 6465  atio.com/docs/de
+-000001f0: 7665 6c6f 7065 722f 696e 7465 6772 6174  veloper/integrat
+-00000200: 696f 6e73 5f61 6e64 5f61 7069 2f64 6174  ions_and_api/dat
+-00000210: 615f 7365 7276 6963 6573 2f6f 6461 7461  a_services/odata
+-00000220: 2f6f 7665 7276 6965 7722 3e43 7265 6174  /overview">Creat
+-00000230: 696f 204f 4441 5441 2041 5049 3c2f 613e  io ODATA API</a>
+-00000240: 2e3c 2f70 3e5c 6e3c 703e 3c61 2068 7265  .</p>\n<p><a hre
+-00000250: 663d 2268 7474 7073 3a2f 2f64 6f63 756d  f="https://docum
+-00000260: 656e 7465 722e 6765 7470 6f73 746d 616e  enter.getpostman
+-00000270: 2e63 6f6d 2f76 6965 772f 3130 3230 3435  .com/view/102045
+-00000280: 3030 2f53 7a74 4858 3551 6222 3e43 7265  00/SztHX5Qb">Cre
+-00000290: 6174 696f 204f 4441 5441 2041 5049 2070  atio ODATA API p
+-000002a0: 6f73 746d 616e 2064 6f63 756d 656e 7461  ostman documenta
+-000002b0: 7469 6f6e 3c2f 613e 3c2f 703e 5c6e 5c6e  tion</a></p>\n\n
+-000002c0: 2323 2047 6574 7469 6e67 2073 7461 7274  ## Getting start
+-000002d0: 6564 5c6e 5c6e 5468 6973 2063 6f6e 6e65  ed\n\nThis conne
+-000002e0: 6374 6f72 2074 6573 7465 6420 666f 7220  ctor tested for 
+-000002f0: 4f44 4154 4133 2061 6e64 204f 4441 5441  ODATA3 and ODATA
+-00000300: 3420 7072 6f74 6f63 6f6c 7320 2869 6e63  4 protocols (inc
+-00000310: 6c75 6469 6e67 202e 6e65 7420 636f 7265  luding .net core
+-00000320: 2076 6572 7369 6f6e 295c 6e5c 6e60 6060   version)\n\n```
+-00000330: 6261 7368 5c6e 2420 7069 7020 696e 7374  bash\n$ pip inst
+-00000340: 616c 6c20 736c 5f63 7265 6174 696f 5f63  all sl_creatio_c
+-00000350: 6f6e 6e65 6374 6f72 5c6e 6060 605c 6e5c  onnector\n```\n\
+-00000360: 6e60 6060 7079 7468 6f6e 5c6e 5c6e 6672  n```python\n\nfr
+-00000370: 6f6d 2073 6c5f 6372 6561 7469 6f5f 636f  om sl_creatio_co
+-00000380: 6e6e 6563 746f 722e 6372 6561 7469 6f20  nnector.creatio 
+-00000390: 696d 706f 7274 2043 7265 6174 696f 5c6e  import Creatio\n
+-000003a0: 6672 6f6d 2073 6c5f 6372 6561 7469 6f5f  from sl_creatio_
+-000003b0: 636f 6e6e 6563 746f 722e 636f 6e73 7461  connector.consta
+-000003c0: 6e74 7320 696d 706f 7274 204f 4441 5441  nts import ODATA
+-000003d0: 5f76 6572 7369 6f6e 5c6e 5c6e 2320 6765  _version\n\n# ge
+-000003e0: 7420 636f 6c6c 6563 7469 6f6e 5c6e 6465  t collection\nde
+-000003f0: 6620 6765 745f 636f 6e74 6163 745f 6c65  f get_contact_le
+-00000400: 6164 7328 293a 5c6e 2020 2020 6372 203d  ads():\n    cr =
+-00000410: 2043 7265 6174 696f 285c 6e20 2020 2020   Creatio(\n     
+-00000420: 2020 2063 7265 6174 696f 5f68 6f73 743d     creatio_host=
+-00000430: 5c27 6874 7470 3a2f 2f63 7265 6174 696f  \'http://creatio
+-00000440: 2e6d 7964 6f6d 656e 2e63 6f6d 3a35 3030  .mydomen.com:500
+-00000450: 305c 272c 5c6e 2020 2020 2020 2020 6c6f  0\',\n        lo
+-00000460: 6769 6e3d 5c27 5375 7065 7276 6973 6f72  gin=\'Supervisor
+-00000470: 5c27 2c5c 6e20 2020 2020 2020 2070 6173  \',\n        pas
+-00000480: 7377 6f72 643d 5c27 5375 7065 7276 6973  sword=\'Supervis
+-00000490: 6f72 5c27 2c5c 6e20 2020 2020 2020 206f  or\',\n        o
+-000004a0: 6461 7461 5f76 6572 7369 6f6e 3d4f 4441  data_version=ODA
+-000004b0: 5441 5f76 6572 7369 6f6e 2e76 3463 6f72  TA_version.v4cor
+-000004c0: 655c 6e20 2020 2029 5c6e 2020 2020 7061  e\n    )\n    pa
+-000004d0: 7261 6d65 7465 7273 203d 205b 5c6e 2020  rameters = [\n  
+-000004e0: 2020 2020 2020 2266 696c 7465 723d 436f        "filter=Co
+-000004f0: 6e74 6163 7420 6571 205c 274d 6172 6164  ntact eq \'Marad
+-00000500: 7920 4573 7468 6572 5c27 225c 6e20 2020  y Esther\'"\n   
+-00000510: 205d 5c6e 2020 2020 636f 6c6c 6563 7469   ]\n    collecti
+-00000520: 6f6e 203d 2063 722e 6765 745f 6f62 6a65  on = cr.get_obje
+-00000530: 6374 5f63 6f6c 6c65 6374 696f 6e28 5c6e  ct_collection(\n
+-00000540: 2020 2020 2020 2020 6f62 6a65 6374 5f6e          object_n
+-00000550: 616d 653d 205c 274c 6561 645c 272c 5c6e  ame= \'Lead\',\n
+-00000560: 2020 2020 2020 2020 7061 7261 6d65 7465          paramete
+-00000570: 7273 3d20 7061 7261 6d65 7465 7273 2c5c  rs= parameters,\
+-00000580: 6e20 2020 2029 5c6e 2020 2020 6173 7365  n    )\n    asse
+-00000590: 7274 206c 656e 2863 6f6c 6c65 6374 696f  rt len(collectio
+-000005a0: 6e29 203d 3d20 305c 6e5c 6e64 6566 2063  n) == 0\n\ndef c
+-000005b0: 7265 6174 655f 616e 645f 6465 6c65 7465  reate_and_delete
+-000005c0: 5f63 6f6e 7461 6374 2829 3a5c 6e20 2020  _contact():\n   
+-000005d0: 2063 7220 3d20 4372 6561 7469 6f28 5c6e   cr = Creatio(\n
+-000005e0: 2020 2020 2020 2020 6372 6561 7469 6f5f          creatio_
+-000005f0: 686f 7374 3d5c 2768 7474 703a 2f2f 6372  host=\'http://cr
+-00000600: 6561 7469 6f2e 6d79 646f 6d65 6e2e 636f  eatio.mydomen.co
+-00000610: 6d3a 3530 3030 5c27 2c5c 6e20 2020 2020  m:5000\',\n     
+-00000620: 2020 206c 6f67 696e 3d5c 2753 7570 6572     login=\'Super
+-00000630: 7669 736f 725c 272c 5c6e 2020 2020 2020  visor\',\n      
+-00000640: 2020 7061 7373 776f 7264 3d5c 2753 7570    password=\'Sup
+-00000650: 6572 7669 736f 725c 272c 5c6e 2020 2020  ervisor\',\n    
+-00000660: 2020 2020 6f64 6174 615f 7665 7273 696f      odata_versio
+-00000670: 6e3d 4f44 4154 415f 7665 7273 696f 6e2e  n=ODATA_version.
+-00000680: 7634 636f 7265 5c6e 2020 2020 295c 6e20  v4core\n    )\n 
+-00000690: 2020 2064 6174 6120 3d20 7b5c 6e20 2020     data = {\n   
+-000006a0: 2020 2020 205c 274e 616d 655c 273a 2022       \'Name\': "
+-000006b0: 5465 7374 206e 616d 6522 5c6e 2020 2020  Test name"\n    
+-000006c0: 7d5c 6e20 2020 2063 7265 6174 6564 5f63  }\n    created_c
+-000006d0: 6f6e 7461 6374 203d 2063 722e 6372 6561  ontact = cr.crea
+-000006e0: 7465 5f6f 626a 6563 7428 5c6e 2020 2020  te_object(\n    
+-000006f0: 2020 2020 6f62 6a65 6374 5f6e 616d 653d      object_name=
+-00000700: 205c 2743 6f6e 7461 6374 5c27 2c5c 6e20   \'Contact\',\n 
+-00000710: 2020 2020 2020 2064 6174 613d 2064 6174         data= dat
+-00000720: 612c 5c6e 2020 2020 295c 6e20 2020 2063  a,\n    )\n    c
+-00000730: 7265 6174 6564 5f69 6420 3d20 6372 6561  reated_id = crea
+-00000740: 7465 645f 636f 6e74 6163 745b 5c27 4964  ted_contact[\'Id
+-00000750: 5c27 5d5c 6e20 2020 2073 7461 7475 735f  \']\n    status_
+-00000760: 636f 6465 203d 2063 722e 6465 6c65 7465  code = cr.delete
+-00000770: 5f6f 626a 6563 7428 5c27 436f 6e74 6163  _object(\'Contac
+-00000780: 745c 272c 2063 7265 6174 6564 5f69 6429  t\', created_id)
+-00000790: 2e73 7461 7475 735f 636f 6465 5c6e 5c6e  .status_code\n\n
+-000007a0: 6465 6620 6765 745f 636f 6e74 6163 745f  def get_contact_
+-000007b0: 6279 5f69 6428 293a 5c6e 2020 2020 6372  by_id():\n    cr
+-000007c0: 203d 2043 7265 6174 696f 285c 6e20 2020   = Creatio(\n   
+-000007d0: 2020 2020 2063 7265 6174 696f 5f68 6f73       creatio_hos
+-000007e0: 743d 5c27 6874 7470 3a2f 2f63 7265 6174  t=\'http://creat
+-000007f0: 696f 2e6d 7964 6f6d 656e 2e63 6f6d 3a35  io.mydomen.com:5
+-00000800: 3030 305c 272c 5c6e 2020 2020 2020 2020  000\',\n        
+-00000810: 6c6f 6769 6e3d 5c27 5375 7065 7276 6973  login=\'Supervis
+-00000820: 6f72 5c27 2c5c 6e20 2020 2020 2020 2070  or\',\n        p
+-00000830: 6173 7377 6f72 643d 5c27 5375 7065 7276  assword=\'Superv
+-00000840: 6973 6f72 5c27 2c5c 6e20 2020 2020 2020  isor\',\n       
+-00000850: 206f 6461 7461 5f76 6572 7369 6f6e 3d4f   odata_version=O
+-00000860: 4441 5441 5f76 6572 7369 6f6e 2e76 3463  DATA_version.v4c
+-00000870: 6f72 655c 6e20 2020 2029 5c6e 2020 2020  ore\n    )\n    
+-00000880: 636f 6e74 6163 745f 6469 6374 203d 2063  contact_dict = c
+-00000890: 722e 6765 745f 636f 6e74 6163 745f 6279  r.get_contact_by
+-000008a0: 5f69 6428 5c27 6232 6138 6335 3638 2d30  _id(\'b2a8c568-0
+-000008b0: 3032 662d 3466 6431 2d61 3135 612d 6666  02f-4fd1-a15a-ff
+-000008c0: 6461 3938 6635 6636 3362 5c27 295c 6e60  da98f5f63b\')\n`
+-000008d0: 6060 5c6e 5c6e 5c6e 272c 0a20 2020 2027  ``\n\n\n',.    '
+-000008e0: 6175 7468 6f72 273a 2027 7375 6d61 726f  author': 'sumaro
+-000008f0: 6b6f 762d 7670 272c 0a20 2020 2027 6175  kov-vp',.    'au
+-00000900: 7468 6f72 5f65 6d61 696c 273a 2027 7375  thor_email': 'su
+-00000910: 6d61 726f 6b6f 762e 7670 4067 6d61 696c  marokov.vp@gmail
+-00000920: 2e63 6f6d 272c 0a20 2020 2027 6d61 696e  .com',.    'main
+-00000930: 7461 696e 6572 273a 2027 4e6f 6e65 272c  tainer': 'None',
+-00000940: 0a20 2020 2027 6d61 696e 7461 696e 6572  .    'maintainer
+-00000950: 5f65 6d61 696c 273a 2027 4e6f 6e65 272c  _email': 'None',
+-00000960: 0a20 2020 2027 7572 6c27 3a20 274e 6f6e  .    'url': 'Non
+-00000970: 6527 2c0a 2020 2020 2770 6163 6b61 6765  e',.    'package
+-00000980: 7327 3a20 7061 636b 6167 6573 2c0a 2020  s': packages,.  
+-00000990: 2020 2770 6163 6b61 6765 5f64 6174 6127    'package_data'
+-000009a0: 3a20 7061 636b 6167 655f 6461 7461 2c0a  : package_data,.
+-000009b0: 2020 2020 2769 6e73 7461 6c6c 5f72 6571      'install_req
+-000009c0: 7569 7265 7327 3a20 696e 7374 616c 6c5f  uires': install_
+-000009d0: 7265 7175 6972 6573 2c0a 2020 2020 2770  requires,.    'p
+-000009e0: 7974 686f 6e5f 7265 7175 6972 6573 273a  ython_requires':
+-000009f0: 2027 3e3d 332e 3131 2c3c 342e 3027 2c0a   '>=3.11,<4.0',.
+-00000a00: 7d0a 0a0a 7365 7475 7028 2a2a 7365 7475  }...setup(**setu
+-00000a10: 705f 6b77 6172 6773 290a                 p_kwargs).
++00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
++00000010: 3a20 322e 310a 4e61 6d65 3a20 736c 2d63  : 2.1.Name: sl-c
++00000020: 7265 6174 696f 2d63 6f6e 6e65 6374 6f72  reatio-connector
++00000030: 0a56 6572 7369 6f6e 3a20 302e 312e 350a  .Version: 0.1.5.
++00000040: 5375 6d6d 6172 793a 2043 7265 6174 696f  Summary: Creatio
++00000050: 2028 616b 6120 4250 4d6f 6e6c 696e 6529   (aka BPMonline)
++00000060: 204f 4441 5441 2041 5049 2068 656c 7065   ODATA API helpe
++00000070: 720a 4175 7468 6f72 3a20 7375 6d61 726f  r.Author: sumaro
++00000080: 6b6f 762d 7670 0a41 7574 686f 722d 656d  kov-vp.Author-em
++00000090: 6169 6c3a 2073 756d 6172 6f6b 6f76 2e76  ail: sumarokov.v
++000000a0: 7040 676d 6169 6c2e 636f 6d0a 5265 7175  p@gmail.com.Requ
++000000b0: 6972 6573 2d50 7974 686f 6e3a 203e 3d33  ires-Python: >=3
++000000c0: 2e31 312c 3c34 2e30 0a43 6c61 7373 6966  .11,<4.0.Classif
++000000d0: 6965 723a 2050 726f 6772 616d 6d69 6e67  ier: Programming
++000000e0: 204c 616e 6775 6167 6520 3a3a 2050 7974   Language :: Pyt
++000000f0: 686f 6e20 3a3a 2033 0a43 6c61 7373 6966  hon :: 3.Classif
++00000100: 6965 723a 2050 726f 6772 616d 6d69 6e67  ier: Programming
++00000110: 204c 616e 6775 6167 6520 3a3a 2050 7974   Language :: Pyt
++00000120: 686f 6e20 3a3a 2033 2e31 310a 5265 7175  hon :: 3.11.Requ
++00000130: 6972 6573 2d44 6973 743a 2070 7974 6573  ires-Dist: pytes
++00000140: 7420 283e 3d37 2e32 2e30 2c3c 382e 302e  t (>=7.2.0,<8.0.
++00000150: 3029 0a52 6571 7569 7265 732d 4469 7374  0).Requires-Dist
++00000160: 3a20 7265 7175 6573 7473 2028 3e3d 322e  : requests (>=2.
++00000170: 3238 2e31 2c3c 332e 302e 3029 0a44 6573  28.1,<3.0.0).Des
++00000180: 6372 6970 7469 6f6e 2d43 6f6e 7465 6e74  cription-Content
++00000190: 2d54 7970 653a 2074 6578 742f 6d61 726b  -Type: text/mark
++000001a0: 646f 776e 0a0a 2320 3c70 2061 6c69 676e  down..# <p align
++000001b0: 3d22 6365 6e74 6572 223e 4372 6561 7469  ="center">Creati
++000001c0: 6f20 4f44 4154 4120 636f 6e6e 6563 746f  o ODATA connecto
++000001d0: 723c 2f70 3e0a 3c70 2061 6c69 676e 3d22  r</p>.<p align="
++000001e0: 6365 6e74 6572 223e 436f 6e6e 6563 746f  center">Connecto
++000001f0: 7220 746f 2069 6e74 6567 7261 7465 203c  r to integrate <
++00000200: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++00000210: 6163 6164 656d 792e 6372 6561 7469 6f2e  academy.creatio.
++00000220: 636f 6d2f 646f 6373 2f64 6576 656c 6f70  com/docs/develop
++00000230: 6572 2f69 6e74 6567 7261 7469 6f6e 735f  er/integrations_
++00000240: 616e 645f 6170 692f 6461 7461 5f73 6572  and_api/data_ser
++00000250: 7669 6365 732f 6f64 6174 612f 6f76 6572  vices/odata/over
++00000260: 7669 6577 223e 4372 6561 7469 6f20 4f44  view">Creatio OD
++00000270: 4154 4120 4150 493c 2f61 3e2e 3c2f 703e  ATA API</a>.</p>
++00000280: 0a3c 703e 3c61 2068 7265 663d 2268 7474  .<p><a href="htt
++00000290: 7073 3a2f 2f64 6f63 756d 656e 7465 722e  ps://documenter.
++000002a0: 6765 7470 6f73 746d 616e 2e63 6f6d 2f76  getpostman.com/v
++000002b0: 6965 772f 3130 3230 3435 3030 2f53 7a74  iew/10204500/Szt
++000002c0: 4858 3551 6222 3e43 7265 6174 696f 204f  HX5Qb">Creatio O
++000002d0: 4441 5441 2041 5049 2070 6f73 746d 616e  DATA API postman
++000002e0: 2064 6f63 756d 656e 7461 7469 6f6e 3c2f   documentation</
++000002f0: 613e 3c2f 703e 0a0a 2323 2047 6574 7469  a></p>..## Getti
++00000300: 6e67 2073 7461 7274 6564 0a0a 5468 6973  ng started..This
++00000310: 2063 6f6e 6e65 6374 6f72 2074 6573 7465   connector teste
++00000320: 6420 666f 7220 4f44 4154 4133 2061 6e64  d for ODATA3 and
++00000330: 204f 4441 5441 3420 7072 6f74 6f63 6f6c   ODATA4 protocol
++00000340: 7320 2869 6e63 6c75 6469 6e67 202e 6e65  s (including .ne
++00000350: 7420 636f 7265 2076 6572 7369 6f6e 290a  t core version).
++00000360: 0a60 6060 6261 7368 0a24 2070 6970 2069  .```bash.$ pip i
++00000370: 6e73 7461 6c6c 2073 6c5f 6372 6561 7469  nstall sl_creati
++00000380: 6f5f 636f 6e6e 6563 746f 720a 6060 600a  o_connector.```.
++00000390: 0a60 6060 7079 7468 6f6e 0a0a 6672 6f6d  .```python..from
++000003a0: 2073 6c5f 6372 6561 7469 6f5f 636f 6e6e   sl_creatio_conn
++000003b0: 6563 746f 722e 6372 6561 7469 6f20 696d  ector.creatio im
++000003c0: 706f 7274 2043 7265 6174 696f 0a66 726f  port Creatio.fro
++000003d0: 6d20 736c 5f63 7265 6174 696f 5f63 6f6e  m sl_creatio_con
++000003e0: 6e65 6374 6f72 2e63 6f6e 7374 616e 7473  nector.constants
++000003f0: 2069 6d70 6f72 7420 4f44 4154 415f 7665   import ODATA_ve
++00000400: 7273 696f 6e0a 0a23 2067 6574 2063 6f6c  rsion..# get col
++00000410: 6c65 6374 696f 6e0a 6465 6620 6765 745f  lection.def get_
++00000420: 636f 6e74 6163 745f 6c65 6164 7328 293a  contact_leads():
++00000430: 0a20 2020 2063 7220 3d20 4372 6561 7469  .    cr = Creati
++00000440: 6f28 0a20 2020 2020 2020 2063 7265 6174  o(.        creat
++00000450: 696f 5f68 6f73 743d 2768 7474 703a 2f2f  io_host='http://
++00000460: 6372 6561 7469 6f2e 6d79 646f 6d65 6e2e  creatio.mydomen.
++00000470: 636f 6d3a 3530 3030 272c 0a20 2020 2020  com:5000',.     
++00000480: 2020 206c 6f67 696e 3d27 5375 7065 7276     login='Superv
++00000490: 6973 6f72 272c 0a20 2020 2020 2020 2070  isor',.        p
++000004a0: 6173 7377 6f72 643d 2753 7570 6572 7669  assword='Supervi
++000004b0: 736f 7227 2c0a 2020 2020 2020 2020 6f64  sor',.        od
++000004c0: 6174 615f 7665 7273 696f 6e3d 4f44 4154  ata_version=ODAT
++000004d0: 415f 7665 7273 696f 6e2e 7634 636f 7265  A_version.v4core
++000004e0: 0a20 2020 2029 0a20 2020 2070 6172 616d  .    ).    param
++000004f0: 6574 6572 7320 3d20 5b0a 2020 2020 2020  eters = [.      
++00000500: 2020 2266 696c 7465 723d 436f 6e74 6163    "filter=Contac
++00000510: 7420 6571 2027 4d61 7261 6479 2045 7374  t eq 'Marady Est
++00000520: 6865 7227 220a 2020 2020 5d0a 2020 2020  her'".    ].    
++00000530: 636f 6c6c 6563 7469 6f6e 203d 2063 722e  collection = cr.
++00000540: 6765 745f 6f62 6a65 6374 5f63 6f6c 6c65  get_object_colle
++00000550: 6374 696f 6e28 0a20 2020 2020 2020 206f  ction(.        o
++00000560: 626a 6563 745f 6e61 6d65 3d20 274c 6561  bject_name= 'Lea
++00000570: 6427 2c0a 2020 2020 2020 2020 7061 7261  d',.        para
++00000580: 6d65 7465 7273 3d20 7061 7261 6d65 7465  meters= paramete
++00000590: 7273 2c0a 2020 2020 290a 2020 2020 6173  rs,.    ).    as
++000005a0: 7365 7274 206c 656e 2863 6f6c 6c65 6374  sert len(collect
++000005b0: 696f 6e29 203d 3d20 300a 0a64 6566 2063  ion) == 0..def c
++000005c0: 7265 6174 655f 616e 645f 6465 6c65 7465  reate_and_delete
++000005d0: 5f63 6f6e 7461 6374 2829 3a0a 2020 2020  _contact():.    
++000005e0: 6372 203d 2043 7265 6174 696f 280a 2020  cr = Creatio(.  
++000005f0: 2020 2020 2020 6372 6561 7469 6f5f 686f        creatio_ho
++00000600: 7374 3d27 6874 7470 3a2f 2f63 7265 6174  st='http://creat
++00000610: 696f 2e6d 7964 6f6d 656e 2e63 6f6d 3a35  io.mydomen.com:5
++00000620: 3030 3027 2c0a 2020 2020 2020 2020 6c6f  000',.        lo
++00000630: 6769 6e3d 2753 7570 6572 7669 736f 7227  gin='Supervisor'
++00000640: 2c0a 2020 2020 2020 2020 7061 7373 776f  ,.        passwo
++00000650: 7264 3d27 5375 7065 7276 6973 6f72 272c  rd='Supervisor',
++00000660: 0a20 2020 2020 2020 206f 6461 7461 5f76  .        odata_v
++00000670: 6572 7369 6f6e 3d4f 4441 5441 5f76 6572  ersion=ODATA_ver
++00000680: 7369 6f6e 2e76 3463 6f72 650a 2020 2020  sion.v4core.    
++00000690: 290a 2020 2020 6461 7461 203d 207b 0a20  ).    data = {. 
++000006a0: 2020 2020 2020 2027 4e61 6d65 273a 2022         'Name': "
++000006b0: 5465 7374 206e 616d 6522 0a20 2020 207d  Test name".    }
++000006c0: 0a20 2020 2063 7265 6174 6564 5f63 6f6e  .    created_con
++000006d0: 7461 6374 203d 2063 722e 6372 6561 7465  tact = cr.create
++000006e0: 5f6f 626a 6563 7428 0a20 2020 2020 2020  _object(.       
++000006f0: 206f 626a 6563 745f 6e61 6d65 3d20 2743   object_name= 'C
++00000700: 6f6e 7461 6374 272c 0a20 2020 2020 2020  ontact',.       
++00000710: 2064 6174 613d 2064 6174 612c 0a20 2020   data= data,.   
++00000720: 2029 0a20 2020 2063 7265 6174 6564 5f69   ).    created_i
++00000730: 6420 3d20 6372 6561 7465 645f 636f 6e74  d = created_cont
++00000740: 6163 745b 2749 6427 5d0a 2020 2020 7374  act['Id'].    st
++00000750: 6174 7573 5f63 6f64 6520 3d20 6372 2e64  atus_code = cr.d
++00000760: 656c 6574 655f 6f62 6a65 6374 2827 436f  elete_object('Co
++00000770: 6e74 6163 7427 2c20 6372 6561 7465 645f  ntact', created_
++00000780: 6964 292e 7374 6174 7573 5f63 6f64 650a  id).status_code.
++00000790: 0a64 6566 2067 6574 5f63 6f6e 7461 6374  .def get_contact
++000007a0: 5f62 795f 6964 2829 3a0a 2020 2020 6372  _by_id():.    cr
++000007b0: 203d 2043 7265 6174 696f 280a 2020 2020   = Creatio(.    
++000007c0: 2020 2020 6372 6561 7469 6f5f 686f 7374      creatio_host
++000007d0: 3d27 6874 7470 3a2f 2f63 7265 6174 696f  ='http://creatio
++000007e0: 2e6d 7964 6f6d 656e 2e63 6f6d 3a35 3030  .mydomen.com:500
++000007f0: 3027 2c0a 2020 2020 2020 2020 6c6f 6769  0',.        logi
++00000800: 6e3d 2753 7570 6572 7669 736f 7227 2c0a  n='Supervisor',.
++00000810: 2020 2020 2020 2020 7061 7373 776f 7264          password
++00000820: 3d27 5375 7065 7276 6973 6f72 272c 0a20  ='Supervisor',. 
++00000830: 2020 2020 2020 206f 6461 7461 5f76 6572         odata_ver
++00000840: 7369 6f6e 3d4f 4441 5441 5f76 6572 7369  sion=ODATA_versi
++00000850: 6f6e 2e76 3463 6f72 650a 2020 2020 290a  on.v4core.    ).
++00000860: 2020 2020 636f 6e74 6163 745f 6469 6374      contact_dict
++00000870: 203d 2063 722e 6765 745f 636f 6e74 6163   = cr.get_contac
++00000880: 745f 6279 5f69 6428 2762 3261 3863 3536  t_by_id('b2a8c56
++00000890: 382d 3030 3266 2d34 6664 312d 6131 3561  8-002f-4fd1-a15a
++000008a0: 2d66 6664 6139 3866 3566 3633 6227 290a  -ffda98f5f63b').
++000008b0: 6060 600a 0a0a 0a                        ```....
+```
+
