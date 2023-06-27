@@ -19702,3 +19702,103 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 12:16:50] INFO root fetch - processPackages [XGEE]: Remove: archive file [/home/abi/fetcher/tmp/XGEE-0.3.0.tar.gz]
 [2023-06-27 12:16:50] INFO root fetch - main [MainThread]: End processing [XGEE]: success
 [2023-06-27 12:16:50] INFO root fetch - main [MainThread]: Store serial: [18661218]
+[2023-06-27 12:21:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661218]
+[2023-06-27 12:22:00] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-27 12:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transformers-supporter
+[2023-06-27 12:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Candataloader
+[2023-06-27 12:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: summa-embed
+[2023-06-27 12:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esentity
+[2023-06-27 12:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wikisource
+[2023-06-27 12:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wikisource
+[2023-06-27 12:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: http-content-parser
+[2023-06-27 12:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datareservoirio
+[2023-06-27 12:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crunchie
+[2023-06-27 12:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyDecLog
+[2023-06-27 12:22:00] INFO root fetch - processPackages [http-content-parser]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 12:22:00] WARNING root fetch - processPackages [crunchie]: Skipping, unable to determine old version
+[2023-06-27 12:22:00] INFO root fetch - processPackages [crunchie]: Start processing: mod-docx
+[2023-06-27 12:22:00] INFO root fetch - main [MainThread]: End processing [crunchie] error
+[2023-06-27 12:22:00] INFO root fetch - processPackages [pyDecLog]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-27 12:22:00] INFO root fetch - processPackages [wikisource]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-27 12:22:00] INFO root fetch - processPackages [wikisource]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-27 12:22:00] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 12:22:00] INFO root fetch - processPackages [Candataloader]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-27 12:22:00] INFO root fetch - processPackages [datareservoirio]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-27 12:22:00] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-27 12:22:00] INFO root fetch - processPackages [summa-embed]: New version: [0.17.5] Old Version: [0.17.4]
+[2023-06-27 12:22:00] WARNING root fetch - processPackages [mod-docx]: Skipping, unable to determine old version
+[2023-06-27 12:22:00] INFO root fetch - processPackages [mod-docx]: Start processing: crypto-screening
+[2023-06-27 12:22:00] INFO root fetch - main [MainThread]: End processing [mod-docx] error
+[2023-06-27 12:22:00] INFO root fetch - processPackages [crypto-screening]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-27 12:22:00] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/3d/22/3a4614b5d47fc1fc1c36e86c0455c85228a01920689dab12f9254198a36c/summa_embed-0.17.4.tar.gz
+[2023-06-27 12:22:00] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2023-06-27 12:22:00] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/74/c7/1b6f9405168e6452f679eba13aa83b76d58a4d04b3675749c0d1e62b3308/crypto-screening-1.2.0.tar.gz
+[2023-06-27 12:22:00] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/64/29/d59d285cf44d262f7d7abe10a7008835c66b8131a42e178b0e81fcded00a/http_content_parser-0.0.1.tar.gz
+[2023-06-27 12:22:00] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/b2/7a/aa472d1051b7e046c87b95bcfa06032b828bdf862d50b2f4e4b27e3c9872/wikisource-0.0.3.tar.gz
+[2023-06-27 12:22:00] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/b2/7a/aa472d1051b7e046c87b95bcfa06032b828bdf862d50b2f4e4b27e3c9872/wikisource-0.0.3.tar.gz
+[2023-06-27 12:22:00] INFO root fetch - processPackages [Candataloader]: Downloading https://files.pythonhosted.org/packages/4a/1a/142286fc7091dce78e10ff318370b3d015d2f6f26a1de8258009271e2fe7/Candataloader-1.1.6.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [datareservoirio]: Downloading https://files.pythonhosted.org/packages/c4/10/8819372e9d504951c92770ad52b3eb53b08ea312fa74a580420b90be65a0/datareservoirio-0.9.7-py3-none-any.whl
+[2023-06-27 12:22:01] INFO root fetch - processPackages [pyDecLog]: Downloading https://files.pythonhosted.org/packages/d7/28/6649b90b17e88d9bdf2403e8c81720ae83e54c1124d84d70b6c6a625ab65/pyDecLog-0.1.4.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/85/64/2f0ca8c9767329e1bf5bcd598363314741d892b48b75dd391da1b4753ccc/crypto-screening-1.2.1.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/b9/2e/49c9581d14a70d868d7b5fe984beb9a7081917918e6b0ad3ff1ff8bd491c/summa_embed-0.17.5.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/e5/f1/5576071d25642371ec267eefdb71b67052edcaa7348bb8c015cab0649b91/http_content_parser-0.0.2.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [Candataloader]: Downloading https://files.pythonhosted.org/packages/53/0a/583e9e154a3db86cab3a0cfacf9a48c9b9b31e00eb132d46c1e801d9ea99/Candataloader-1.1.7.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-06-27 12:22:01] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.2.0.tar.gz tmp/crypto-screening-1.2.1.tar.gz --markdown 20230627/c/crypto-screening/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-27 12:22:01] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/38/7c/716e6695f191befe76f3af34cdb80452e9c833cced54b098a5874704db82/wikisource-0.0.4.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/38/7c/716e6695f191befe76f3af34cdb80452e9c833cced54b098a5874704db82/wikisource-0.0.4.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2023-06-27 12:22:01] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20230627/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-27 12:22:01] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-06-27 12:22:01] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.17.4.tar.gz tmp/summa_embed-0.17.5.tar.gz --markdown 20230627/s/summa-embed/0.17.4-0.17.5/diff.md --exclude *.pyd
+[2023-06-27 12:22:01] INFO root fetch - processPackages [pyDecLog]: Downloading https://files.pythonhosted.org/packages/ab/66/52403670ccfb5db471d43260331c1f7f9815b24e361dac9370002f33eb52/pyDecLog-0.1.5.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [Candataloader]: executing diffoscope
+[2023-06-27 12:22:01] INFO root fetch - processPackages [Candataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Candataloader-1.1.6.tar.gz tmp/Candataloader-1.1.7.tar.gz --markdown 20230627/C/Candataloader/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-27 12:22:01] INFO root fetch - processPackages [wikisource]: executing diffoscope
+[2023-06-27 12:22:01] INFO root fetch - processPackages [wikisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikisource-0.0.3.tar.gz tmp/wikisource-0.0.4.tar.gz --markdown 20230627/w/wikisource/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-27 12:22:01] INFO root fetch - processPackages [wikisource]: executing diffoscope
+[2023-06-27 12:22:01] INFO root fetch - processPackages [wikisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikisource-0.0.3.tar.gz tmp/wikisource-0.0.4.tar.gz --markdown 20230627/w/wikisource/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-27 12:22:01] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-27 12:22:01] INFO root fetch - processPackages [http-content-parser]: executing diffoscope
+[2023-06-27 12:22:01] INFO root fetch - processPackages [http-content-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http_content_parser-0.0.1.tar.gz tmp/http_content_parser-0.0.2.tar.gz --markdown 20230627/h/http-content-parser/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 12:22:01] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-27 12:22:01] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230627/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 12:22:01] INFO root fetch - processPackages [pyDecLog]: executing diffoscope
+[2023-06-27 12:22:01] INFO root fetch - processPackages [pyDecLog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecLog-0.1.4.tar.gz tmp/pyDecLog-0.1.5.tar.gz --markdown 20230627/p/pyDecLog/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 12:22:01] INFO root fetch - processPackages [datareservoirio]: Downloading https://files.pythonhosted.org/packages/2e/42/24c3d90de624f9ac84d221f31604d69a317022b864738a238689db39ec8f/datareservoirio-0.9.8-py3-none-any.whl
+[2023-06-27 12:22:02] INFO root fetch - processPackages [datareservoirio]: executing diffoscope
+[2023-06-27 12:22:02] INFO root fetch - processPackages [datareservoirio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datareservoirio-0.9.7-py3-none-any.whl.zip tmp/datareservoirio-0.9.8-py3-none-any.whl.zip --markdown 20230627/d/datareservoirio/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-27 12:22:02] INFO root fetch - processPackages [Candataloader]: Remove: archive file [/home/abi/fetcher/tmp/Candataloader-1.1.6.tar.gz]
+[2023-06-27 12:22:02] INFO root fetch - processPackages [Candataloader]: Remove: archive file [/home/abi/fetcher/tmp/Candataloader-1.1.7.tar.gz]
+[2023-06-27 12:22:02] INFO root fetch - processPackages [Candataloader]: Start processing: pygame-menu-loading
+[2023-06-27 12:22:02] INFO root fetch - main [MainThread]: End processing [Candataloader]: success
+[2023-06-27 12:22:02] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2023-06-27 12:22:02] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2023-06-27 12:22:02] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2023-06-27 12:22:02] WARNING root fetch - processPackages [pygame-menu-loading]: Skipping, unable to determine old version
+[2023-06-27 12:22:02] INFO root fetch - main [MainThread]: End processing [pygame-menu-loading] error
+[2023-06-27 12:22:03] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.2.0.tar.gz]
+[2023-06-27 12:22:03] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.2.1.tar.gz]
+[2023-06-27 12:22:03] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-06-27 12:22:03] INFO root fetch - processPackages [wikisource]: Remove: archive file [/home/abi/fetcher/tmp/wikisource-0.0.3.tar.gz]
+[2023-06-27 12:22:03] INFO root fetch - processPackages [wikisource]: Remove: archive file [/home/abi/fetcher/tmp/wikisource-0.0.4.tar.gz]
+[2023-06-27 12:22:03] INFO root fetch - main [MainThread]: End processing [wikisource]: success
+[2023-06-27 12:22:03] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.1.tar.gz]
+[2023-06-27 12:22:03] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.2.tar.gz]
+[2023-06-27 12:22:03] INFO root fetch - main [MainThread]: End processing [http-content-parser]: success
+[2023-06-27 12:22:03] INFO root fetch - main [MainThread]: End processing [wikisource]: success
+[2023-06-27 12:22:03] INFO root fetch - processPackages [datareservoirio]: Remove: archive file [/home/abi/fetcher/tmp/datareservoirio-0.9.7-py3-none-any.whl.zip]
+[2023-06-27 12:22:03] INFO root fetch - processPackages [datareservoirio]: Remove: archive file [/home/abi/fetcher/tmp/datareservoirio-0.9.8-py3-none-any.whl.zip]
+[2023-06-27 12:22:03] INFO root fetch - main [MainThread]: End processing [datareservoirio]: success
+[2023-06-27 12:22:03] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-27 12:22:03] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-27 12:22:03] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-27 12:22:03] INFO root fetch - processPackages [pyDecLog]: Remove: archive file [/home/abi/fetcher/tmp/pyDecLog-0.1.4.tar.gz]
+[2023-06-27 12:22:03] INFO root fetch - processPackages [pyDecLog]: Remove: archive file [/home/abi/fetcher/tmp/pyDecLog-0.1.5.tar.gz]
+[2023-06-27 12:22:03] INFO root fetch - main [MainThread]: End processing [pyDecLog]: success
+[2023-06-27 12:22:06] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.4.tar.gz]
+[2023-06-27 12:22:06] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.5.tar.gz]
+[2023-06-27 12:22:06] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-06-27 12:22:06] INFO root fetch - main [MainThread]: Store serial: [18661268]
