@@ -13922,3 +13922,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 08:43:04] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230627063905.tar.gz]
 [2023-06-27 08:43:04] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-27 08:43:04] INFO root fetch - main [MainThread]: Store serial: [18658689]
+[2023-06-27 08:48:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658689]
+[2023-06-27 08:48:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-27 08:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p360-export
+[2023-06-27 08:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioumlsim
+[2023-06-27 08:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioarp
+[2023-06-27 08:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strace-process-tree
+[2023-06-27 08:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-starter
+[2023-06-27 08:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libTSCANAPI
+[2023-06-27 08:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dohq-artifactory
+[2023-06-27 08:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qqwry-linux-python3
+[2023-06-27 08:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rsome
+[2023-06-27 08:48:13] INFO root fetch - processPackages [p360-export]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-06-27 08:48:13] INFO root fetch - processPackages [bioumlsim]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-27 08:48:13] INFO root fetch - processPackages [dohq-artifactory]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-27 08:48:13] INFO root fetch - processPackages [aioarp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 08:48:13] INFO root fetch - processPackages [strace-process-tree]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-27 08:48:13] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 08:48:13] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-27 08:48:14] INFO root fetch - processPackages [dohq-artifactory]: Downloading https://files.pythonhosted.org/packages/69/5d/cb24a440d7a39aa9fa4e62df591d27fce17301adecf5b822e54b1a3fbeb9/dohq-artifactory-0.8.4.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [p360-export]: Downloading https://files.pythonhosted.org/packages/5c/e8/91d277627b0828c94996dfc88f2f52b980754ae7d043d5c0c7d0f41facb7/p360_export-1.5.7-py3-none-any.whl
+[2023-06-27 08:48:14] INFO root fetch - processPackages [bioumlsim]: Downloading https://files.pythonhosted.org/packages/e5/06/5d586e052cd9f430a72449cf801dd91a9f1306186014ed1c3f19aa0d7404/bioumlsim-0.5.1.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-06-27 08:48:14] WARNING root fetch - processPackages [qqwry-linux-python3]: Skipping, unable to determine old version
+[2023-06-27 08:48:14] INFO root fetch - main [MainThread]: End processing [qqwry-linux-python3] error
+[2023-06-27 08:48:14] INFO root fetch - processPackages [rsome]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-27 08:48:14] INFO root fetch - processPackages [strace-process-tree]: Downloading https://files.pythonhosted.org/packages/2f/8a/1640a331a31469c4f4fce8da53d48b96b1ffe541db8222ea77dbaf298c6f/strace-process-tree-1.3.0.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/78/b7/27240f1c0feec3b02b55a8e147332f82d2e8b1488f1b3c645af92baeb2b5/libTSCANAPI-1.1.1.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/34/27/9534d9ebcbe9e8e05c50858b881dff670d1f16ceab7289ef073d07d6525e/aioarp-0.0.8.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [dohq-artifactory]: Downloading https://files.pythonhosted.org/packages/10/dc/0a5d8afc370def5cf11fc20ff9099b5aef2814c0cfe2df94d88e6b2f38d6/dohq-artifactory-0.9.0.tar.gz
+[2023-06-27 08:48:14] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16346617>=10485760
+[2023-06-27 08:48:14] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-06-27 08:48:14] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [dohq-artifactory]: executing diffoscope
+[2023-06-27 08:48:14] INFO root fetch - processPackages [dohq-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dohq-artifactory-0.8.4.tar.gz tmp/dohq-artifactory-0.9.0.tar.gz --markdown 20230627/d/dohq-artifactory/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-27 08:48:14] INFO root fetch - processPackages [rsome]: Downloading https://files.pythonhosted.org/packages/f7/cc/24a36ff6ed507d28bb98fea323c1a3ea2641761c3bbd3aa2eaf61466d07e/rsome-1.2.0.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-27 08:48:14] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230627/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 08:48:14] INFO root fetch - processPackages [p360-export]: Downloading https://files.pythonhosted.org/packages/62/8e/d959e79ca28fe32cac89162513884755d975f0f34d6a4f1bf1311cb0e707/p360-export-1.5.8.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/e7/48/e8a5213f1116e61ac7ec7cce505f2852ff81279e01aa9e5ce20cdca42cc9/aioarp-0.0.9.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [p360-export]: executing diffoscope
+[2023-06-27 08:48:14] INFO root fetch - processPackages [p360-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p360_export-1.5.7-py3-none-any.whl.zip tmp/p360-export-1.5.8.tar.gz --markdown 20230627/p/p360-export/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-06-27 08:48:14] INFO root fetch - processPackages [bioumlsim]: Downloading https://files.pythonhosted.org/packages/98/9d/bdff9f30cac312ed18010fc13161ec8a9d4767dd266ba90918b23e996912/bioumlsim-0.5.2.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [aioarp]: executing diffoscope
+[2023-06-27 08:48:14] INFO root fetch - processPackages [aioarp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioarp-0.0.8.tar.gz tmp/aioarp-0.0.9.tar.gz --markdown 20230627/a/aioarp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 08:48:14] INFO root fetch - processPackages [strace-process-tree]: Downloading https://files.pythonhosted.org/packages/88/ff/84df2053fe7441ec7d14ef3ec7d38339b1a806360445f69699200fec852d/strace-process-tree-1.4.0.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [strace-process-tree]: executing diffoscope
+[2023-06-27 08:48:14] INFO root fetch - processPackages [strace-process-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strace-process-tree-1.3.0.tar.gz tmp/strace-process-tree-1.4.0.tar.gz --markdown 20230627/s/strace-process-tree/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-27 08:48:14] INFO root fetch - processPackages [rsome]: Downloading https://files.pythonhosted.org/packages/45/e2/46d18e3fea56c1ad42a09cbb1b9dc06f1872316e4fbcdfc8a19f5ecb425f/rsome-1.2.1.tar.gz
+[2023-06-27 08:48:14] INFO root fetch - processPackages [bioumlsim]: executing diffoscope
+[2023-06-27 08:48:14] INFO root fetch - processPackages [bioumlsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioumlsim-0.5.1.tar.gz tmp/bioumlsim-0.5.2.tar.gz --markdown 20230627/b/bioumlsim/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-27 08:48:14] INFO root fetch - processPackages [rsome]: executing diffoscope
+[2023-06-27 08:48:14] INFO root fetch - processPackages [rsome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsome-1.2.0.tar.gz tmp/rsome-1.2.1.tar.gz --markdown 20230627/r/rsome/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-27 08:48:15] INFO root fetch - processPackages [p360-export]: Remove: archive file [/home/abi/fetcher/tmp/p360_export-1.5.7-py3-none-any.whl.zip]
+[2023-06-27 08:48:15] INFO root fetch - processPackages [p360-export]: Remove: archive file [/home/abi/fetcher/tmp/p360-export-1.5.8.tar.gz]
+[2023-06-27 08:48:15] INFO root fetch - main [MainThread]: End processing [p360-export]: success
+[2023-06-27 08:48:16] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.8.tar.gz]
+[2023-06-27 08:48:16] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.9.tar.gz]
+[2023-06-27 08:48:16] INFO root fetch - main [MainThread]: End processing [aioarp]: success
+[2023-06-27 08:48:16] INFO root fetch - processPackages [dohq-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/dohq-artifactory-0.8.4.tar.gz]
+[2023-06-27 08:48:16] INFO root fetch - processPackages [dohq-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/dohq-artifactory-0.9.0.tar.gz]
+[2023-06-27 08:48:16] INFO root fetch - main [MainThread]: End processing [dohq-artifactory]: success
+[2023-06-27 08:48:16] INFO root fetch - processPackages [bioumlsim]: Remove: archive file [/home/abi/fetcher/tmp/bioumlsim-0.5.1.tar.gz]
+[2023-06-27 08:48:16] INFO root fetch - processPackages [bioumlsim]: Remove: archive file [/home/abi/fetcher/tmp/bioumlsim-0.5.2.tar.gz]
+[2023-06-27 08:48:16] INFO root fetch - main [MainThread]: End processing [bioumlsim]: success
+[2023-06-27 08:48:16] INFO root fetch - processPackages [strace-process-tree]: Remove: archive file [/home/abi/fetcher/tmp/strace-process-tree-1.3.0.tar.gz]
+[2023-06-27 08:48:16] INFO root fetch - processPackages [strace-process-tree]: Remove: archive file [/home/abi/fetcher/tmp/strace-process-tree-1.4.0.tar.gz]
+[2023-06-27 08:48:16] INFO root fetch - main [MainThread]: End processing [strace-process-tree]: success
+[2023-06-27 08:48:17] INFO root fetch - processPackages [rsome]: Remove: archive file [/home/abi/fetcher/tmp/rsome-1.2.0.tar.gz]
+[2023-06-27 08:48:17] INFO root fetch - processPackages [rsome]: Remove: archive file [/home/abi/fetcher/tmp/rsome-1.2.1.tar.gz]
+[2023-06-27 08:48:17] INFO root fetch - main [MainThread]: End processing [rsome]: success
+[2023-06-27 08:48:17] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-06-27 08:48:17] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-06-27 08:48:17] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-27 08:48:17] INFO root fetch - main [MainThread]: Store serial: [18658720]
