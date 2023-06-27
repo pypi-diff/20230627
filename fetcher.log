@@ -14431,3 +14431,164 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 09:11:32] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-27 09:11:32] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-27 09:11:32] INFO root fetch - main [MainThread]: Store serial: [18658891]
+[2023-06-27 09:16:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658891]
+[2023-06-27 09:16:41] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-27 09:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotnine-prism
+[2023-06-27 09:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apf-ci
+[2023-06-27 09:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydrusvideodeduplicator
+[2023-06-27 09:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sympde
+[2023-06-27 09:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tuxmake
+[2023-06-27 09:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jax-tools
+[2023-06-27 09:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nodify-plugin
+[2023-06-27 09:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-node-binding
+[2023-06-27 09:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-code-outline
+[2023-06-27 09:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: consolecmdtools
+[2023-06-27 09:16:42] INFO root fetch - processPackages [plotnine-prism]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-27 09:16:42] INFO root fetch - processPackages [apf-ci]: New version: [1.2.180.1] Old Version: [1.2.180]
+[2023-06-27 09:16:42] INFO root fetch - processPackages [jax-tools]: New version: [1.0.61] Old Version: [1.0.47]
+[2023-06-27 09:16:42] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 09:16:42] INFO root fetch - processPackages [consolecmdtools]: New version: [4.0.0] Old Version: [3.5.2]
+[2023-06-27 09:16:42] INFO root fetch - processPackages [sympde]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-27 09:16:42] INFO root fetch - processPackages [nodify-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-27 09:16:42] INFO root fetch - processPackages [python-code-outline]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-27 09:16:42] INFO root fetch - processPackages [tuxmake]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-27 09:16:42] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-27 09:16:42] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/9e/7f/1ca7710c3caf8882500c947a59c6bc3a5ff3e3fef62ac8eee55ede556403/hydrusvideodeduplicator-0.1.8.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [apf-ci]: Downloading https://files.pythonhosted.org/packages/23/6d/f49c4fefc7381b9d64fdf363c5c1012726cd0f618831a01e82bc35f4d90d/apf-ci-1.2.180.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [consolecmdtools]: Downloading https://files.pythonhosted.org/packages/9d/fd/010a67e110a0c9a0c1831fadabe5b908756e155951cb978883ad4f73424b/consolecmdtools-3.5.2.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [plotnine-prism]: Downloading https://files.pythonhosted.org/packages/80/9a/6d1ecf09a3d5687167a525822ca600d22dfb9c56c6192560103101b5fca8/plotnine_prism-0.2.0.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [sympde]: Downloading https://files.pythonhosted.org/packages/17/6a/8b9ea8960e8cb7f28e238fda3e1d918df0c67adf619516b0ad6a4725f9d0/sympde-0.9.8.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/26/b1/81e3c94beedc0ef950c2eaf14a3f18e55b160a9eb15647a97fbea97f60b7/hydrusvideodeduplicator-0.1.9.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [nodify-plugin]: Downloading https://files.pythonhosted.org/packages/4c/eb/19697ab1bc8b9aac3ad54f5477fd63f7eccf6bed16bbfed5e967e1f6f2af/nodify_plugin-0.1.1-py3-none-any.whl
+[2023-06-27 09:16:42] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/2c/d6/109234807aa61388ba7626ef4ab0a2aee94a3eefe4b45d10eeabbd3b5666/jax-tools-1.0.47.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [tuxmake]: Downloading https://files.pythonhosted.org/packages/46/c5/0aaceffcdd95bee2b75b09418edaa4a8ebfcb471f6add06545661a9a1085/tuxmake-1.8.0.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [python-code-outline]: Downloading https://files.pythonhosted.org/packages/ae/bd/5cceaf3129c15cdc9c7195d4baaffc44cc02eaa18b7debf72d35d28e9fba/python_code_outline-0.1.7.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/42/b9/74acb4ddf52cf2281c0e728ce66a9e3a0bc548282274b1717e4d4661fae5/nucliadb_node_binding-0.7.7.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-06-27 09:16:42] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.1.8.tar.gz tmp/hydrusvideodeduplicator-0.1.9.tar.gz --markdown 20230627/h/hydrusvideodeduplicator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 09:16:42] INFO root fetch - processPackages [apf-ci]: Downloading https://files.pythonhosted.org/packages/19/f6/13a43fb017b7e386a5696cb498a5090072328d37039957264265a54c51a0/apf-ci-1.2.180.1.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [consolecmdtools]: Downloading https://files.pythonhosted.org/packages/53/50/091bb9edea86930eb43a068159ad11ac0e1454e09f1110e0110d281c21c7/consolecmdtools-4.0.0.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [nodify-plugin]: Downloading https://files.pythonhosted.org/packages/97/9f/11af0332a826d587797df93a181824c285f6eb5f205059bed2d99328d993/nodify_plugin-0.1.2-py3-none-any.whl
+[2023-06-27 09:16:42] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/12/4e/db1fcb7804df50c8c38fe063ca3c7453a2edfafa414c13b91ed198ff9cfa/jax-tools-1.0.61.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [apf-ci]: executing diffoscope
+[2023-06-27 09:16:42] INFO root fetch - processPackages [apf-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apf-ci-1.2.180.tar.gz tmp/apf-ci-1.2.180.1.tar.gz --markdown 20230627/a/apf-ci/1.2.180-1.2.180.1/diff.md --exclude *.pyd
+[2023-06-27 09:16:42] INFO root fetch - processPackages [sympde]: Downloading https://files.pythonhosted.org/packages/6b/85/7efc998f991c8f943bb0402ec1184452e9be4dd2ba0a894bb0693d2597c7/sympde-0.9.9.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [python-code-outline]: Downloading https://files.pythonhosted.org/packages/eb/69/6e6c25a121c9e39efe3b4af40df1b5439632c3d66b2f89e68df4bd0e3bfb/python_code_outline-0.1.8.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [consolecmdtools]: executing diffoscope
+[2023-06-27 09:16:42] INFO root fetch - processPackages [consolecmdtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consolecmdtools-3.5.2.tar.gz tmp/consolecmdtools-4.0.0.tar.gz --markdown 20230627/c/consolecmdtools/3.5.2-4.0.0/diff.md --exclude *.pyd
+[2023-06-27 09:16:42] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-27 09:16:42] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.47.tar.gz tmp/jax-tools-1.0.61.tar.gz --markdown 20230627/j/jax-tools/1.0.47-1.0.61/diff.md --exclude *.pyd
+[2023-06-27 09:16:42] INFO root fetch - processPackages [nodify-plugin]: executing diffoscope
+[2023-06-27 09:16:42] INFO root fetch - processPackages [nodify-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodify_plugin-0.1.1-py3-none-any.whl.zip tmp/nodify_plugin-0.1.2-py3-none-any.whl.zip --markdown 20230627/n/nodify-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-27 09:16:42] INFO root fetch - processPackages [tuxmake]: Downloading https://files.pythonhosted.org/packages/63/d6/1a0d16774332729db06319fca66d2207f8696e0d3c2e8b3197b625cccb7b/tuxmake-1.9.0.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [plotnine-prism]: Downloading https://files.pythonhosted.org/packages/04/74/24aa483ea86581e9bb34e1a294f24a0e109839e22eac33f07ad361c9c260/plotnine_prism-0.3.0.tar.gz
+[2023-06-27 09:16:42] INFO root fetch - processPackages [python-code-outline]: executing diffoscope
+[2023-06-27 09:16:42] INFO root fetch - processPackages [python-code-outline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_code_outline-0.1.7.tar.gz tmp/python_code_outline-0.1.8.tar.gz --markdown 20230627/p/python-code-outline/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-27 09:16:42] INFO root fetch - processPackages [tuxmake]: executing diffoscope
+[2023-06-27 09:16:42] INFO root fetch - processPackages [tuxmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxmake-1.8.0.tar.gz tmp/tuxmake-1.9.0.tar.gz --markdown 20230627/t/tuxmake/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-27 09:16:42] INFO root fetch - processPackages [sympde]: executing diffoscope
+[2023-06-27 09:16:42] INFO root fetch - processPackages [sympde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sympde-0.9.8.tar.gz tmp/sympde-0.9.9.tar.gz --markdown 20230627/s/sympde/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-27 09:16:42] INFO root fetch - processPackages [plotnine-prism]: executing diffoscope
+[2023-06-27 09:16:42] INFO root fetch - processPackages [plotnine-prism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotnine_prism-0.2.0.tar.gz tmp/plotnine_prism-0.3.0.tar.gz --markdown 20230627/p/plotnine-prism/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-27 09:16:43] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/42/46/aefda19702109acb7d65da57a5965606fa793bd73a3da947ec44f552152b/nucliadb_node_binding-0.7.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-27 09:16:43] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.8.tar.gz]
+[2023-06-27 09:16:43] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.9.tar.gz]
+[2023-06-27 09:16:43] INFO root fetch - processPackages [hydrusvideodeduplicator]: Start processing: animage-data-sorter
+[2023-06-27 09:16:43] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-06-27 09:16:43] INFO root fetch - processPackages [animage-data-sorter]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [animage-data-sorter]: Downloading https://files.pythonhosted.org/packages/b7/28/ce16e079da8bb316a95b68ee463bc5be8088de3e9f743926d9b692be7528/animage-data_sorter-1.1.2.tar.gz
+[2023-06-27 09:16:44] INFO root fetch - processPackages [python-code-outline]: Remove: archive file [/home/abi/fetcher/tmp/python_code_outline-0.1.7.tar.gz]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [python-code-outline]: Remove: archive file [/home/abi/fetcher/tmp/python_code_outline-0.1.8.tar.gz]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [python-code-outline]: Start processing: cloudpy-org
+[2023-06-27 09:16:44] INFO root fetch - main [MainThread]: End processing [python-code-outline]: success
+[2023-06-27 09:16:44] INFO root fetch - processPackages [cloudpy-org]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [nodify-plugin]: Remove: archive file [/home/abi/fetcher/tmp/nodify_plugin-0.1.1-py3-none-any.whl.zip]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [nodify-plugin]: Remove: archive file [/home/abi/fetcher/tmp/nodify_plugin-0.1.2-py3-none-any.whl.zip]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [nodify-plugin]: Start processing: folder-tree-generator
+[2023-06-27 09:16:44] INFO root fetch - main [MainThread]: End processing [nodify-plugin]: success
+[2023-06-27 09:16:44] INFO root fetch - processPackages [folder-tree-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/28/76/ce698690e72262c39f284dcf23afbb409534210240c5ba4066c69f803594/cloudpy_org-1.3.5.tar.gz
+[2023-06-27 09:16:44] INFO root fetch - processPackages [consolecmdtools]: Remove: archive file [/home/abi/fetcher/tmp/consolecmdtools-3.5.2.tar.gz]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [consolecmdtools]: Remove: archive file [/home/abi/fetcher/tmp/consolecmdtools-4.0.0.tar.gz]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [consolecmdtools]: Start processing: sentry-relay
+[2023-06-27 09:16:44] INFO root fetch - main [MainThread]: End processing [consolecmdtools]: success
+[2023-06-27 09:16:44] INFO root fetch - processPackages [animage-data-sorter]: Downloading https://files.pythonhosted.org/packages/d1/78/07d125892def3e671caefc1e54c3a9320b0f1bc5e7ab883f7f87c5635896/animage-data_sorter-1.1.3.tar.gz
+[2023-06-27 09:16:44] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [folder-tree-generator]: Downloading https://files.pythonhosted.org/packages/6c/fe/bbc18edb4187500d38a41b5bbd275a36f684740caa02fa0947b731655f19/folder_tree_generator-0.1.8.tar.gz
+[2023-06-27 09:16:44] INFO root fetch - processPackages [animage-data-sorter]: executing diffoscope
+[2023-06-27 09:16:44] INFO root fetch - processPackages [animage-data-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animage-data_sorter-1.1.2.tar.gz tmp/animage-data_sorter-1.1.3.tar.gz --markdown 20230627/a/animage-data-sorter/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-27 09:16:44] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/10/5d/c6df5c23a0a94d6db8664982d7ea092cb08ecd943d4289fdadef44648abe/cloudpy_org-1.3.6.tar.gz
+[2023-06-27 09:16:44] INFO root fetch - processPackages [sympde]: Remove: archive file [/home/abi/fetcher/tmp/sympde-0.9.8.tar.gz]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [sympde]: Remove: archive file [/home/abi/fetcher/tmp/sympde-0.9.9.tar.gz]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [sympde]: Start processing: qtgql
+[2023-06-27 09:16:44] INFO root fetch - main [MainThread]: End processing [sympde]: success
+[2023-06-27 09:16:44] INFO root fetch - processPackages [qtgql]: New version: [0.121.1] Old Version: [0.121.0]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [folder-tree-generator]: Downloading https://files.pythonhosted.org/packages/af/8c/6fbaa1474b672735423e92f428a9a5f54acdd7e0a9603ee7ba1e08bb0d71/folder_tree_generator-0.1.9.tar.gz
+[2023-06-27 09:16:44] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.47.tar.gz]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.61.tar.gz]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [jax-tools]: Start processing: paradigm-flood
+[2023-06-27 09:16:44] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-27 09:16:44] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2023-06-27 09:16:44] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/f6/b4/1706efe940a68bc7a51326719579d654b561831722ab19454243ab14486c/qtgql-0.121.0.tar.gz
+[2023-06-27 09:16:44] INFO root fetch - processPackages [paradigm-flood]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [cloudpy-org]: executing diffoscope
+[2023-06-27 09:16:44] INFO root fetch - processPackages [cloudpy-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpy_org-1.3.5.tar.gz tmp/cloudpy_org-1.3.6.tar.gz --markdown 20230627/c/cloudpy-org/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-27 09:16:44] INFO root fetch - processPackages [folder-tree-generator]: executing diffoscope
+[2023-06-27 09:16:44] INFO root fetch - processPackages [folder-tree-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folder_tree_generator-0.1.8.tar.gz tmp/folder_tree_generator-0.1.9.tar.gz --markdown 20230627/f/folder-tree-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 09:16:44] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2023-06-27 09:16:44] INFO root fetch - processPackages [sentry-relay]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-27 09:16:44] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2023-06-27 09:16:44] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-27 09:16:44] INFO root fetch - processPackages [paradigm-flood]: Downloading https://files.pythonhosted.org/packages/2c/79/6f58163f37c525c5dd5346098f53e237cf2c9f9193fe0254b267e0336872/paradigm-flood-0.2.4.tar.gz
+[2023-06-27 09:16:44] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-27 09:16:45] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/c1/52/1fcec4457f61d5272f19345bb5ef1bb35e18407bb52c277635b4a62c227d/qtgql-0.121.1.tar.gz
+[2023-06-27 09:16:45] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-06-27 09:16:45] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.121.0.tar.gz tmp/qtgql-0.121.1.tar.gz --markdown 20230627/q/qtgql/0.121.0-0.121.1/diff.md --exclude *.pyd
+[2023-06-27 09:16:45] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-27 09:16:45] INFO root fetch - processPackages [plotnine-prism]: Remove: archive file [/home/abi/fetcher/tmp/plotnine_prism-0.2.0.tar.gz]
+[2023-06-27 09:16:45] INFO root fetch - processPackages [plotnine-prism]: Remove: archive file [/home/abi/fetcher/tmp/plotnine_prism-0.3.0.tar.gz]
+[2023-06-27 09:16:45] INFO root fetch - processPackages [plotnine-prism]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-27 09:16:45] INFO root fetch - main [MainThread]: End processing [plotnine-prism]: success
+[2023-06-27 09:16:45] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-27 09:16:45] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230627/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-27 09:16:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-27 09:16:45] INFO root fetch - processPackages [paradigm-flood]: Downloading https://files.pythonhosted.org/packages/6e/26/b44d3cbdc46cac6f35943397356f1086d543d4d05dab90b07383a5de7129/paradigm-flood-0.2.5.tar.gz
+[2023-06-27 09:16:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-27 09:16:45] INFO root fetch - processPackages [paradigm-flood]: executing diffoscope
+[2023-06-27 09:16:45] INFO root fetch - processPackages [paradigm-flood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradigm-flood-0.2.4.tar.gz tmp/paradigm-flood-0.2.5.tar.gz --markdown 20230627/p/paradigm-flood/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-27 09:16:45] INFO root fetch - processPackages [tuxmake]: Remove: archive file [/home/abi/fetcher/tmp/tuxmake-1.8.0.tar.gz]
+[2023-06-27 09:16:45] INFO root fetch - processPackages [tuxmake]: Remove: archive file [/home/abi/fetcher/tmp/tuxmake-1.9.0.tar.gz]
+[2023-06-27 09:16:45] INFO root fetch - main [MainThread]: End processing [tuxmake]: success
+[2023-06-27 09:16:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-27 09:16:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-27 09:16:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 09:16:45] INFO root fetch - processPackages [animage-data-sorter]: Remove: archive file [/home/abi/fetcher/tmp/animage-data_sorter-1.1.2.tar.gz]
+[2023-06-27 09:16:45] INFO root fetch - processPackages [animage-data-sorter]: Remove: archive file [/home/abi/fetcher/tmp/animage-data_sorter-1.1.3.tar.gz]
+[2023-06-27 09:16:45] INFO root fetch - main [MainThread]: End processing [animage-data-sorter]: success
+[2023-06-27 09:16:46] INFO root fetch - processPackages [folder-tree-generator]: Remove: archive file [/home/abi/fetcher/tmp/folder_tree_generator-0.1.8.tar.gz]
+[2023-06-27 09:16:46] INFO root fetch - processPackages [folder-tree-generator]: Remove: archive file [/home/abi/fetcher/tmp/folder_tree_generator-0.1.9.tar.gz]
+[2023-06-27 09:16:46] INFO root fetch - main [MainThread]: End processing [folder-tree-generator]: success
+[2023-06-27 09:16:46] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.5.tar.gz]
+[2023-06-27 09:16:46] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.6.tar.gz]
+[2023-06-27 09:16:46] INFO root fetch - main [MainThread]: End processing [cloudpy-org]: success
+[2023-06-27 09:16:46] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.121.0.tar.gz]
+[2023-06-27 09:16:46] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.121.1.tar.gz]
+[2023-06-27 09:16:46] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-06-27 09:16:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-27 09:16:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-27 09:16:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-27 09:16:47] INFO root fetch - processPackages [paradigm-flood]: Remove: archive file [/home/abi/fetcher/tmp/paradigm-flood-0.2.4.tar.gz]
+[2023-06-27 09:16:47] INFO root fetch - processPackages [paradigm-flood]: Remove: archive file [/home/abi/fetcher/tmp/paradigm-flood-0.2.5.tar.gz]
+[2023-06-27 09:16:47] INFO root fetch - main [MainThread]: End processing [paradigm-flood]: success
+[2023-06-27 09:16:47] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-27 09:16:47] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-27 09:16:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-27 09:16:47] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2023-06-27 09:16:47] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-0.7.7.tar.gz tmp/nucliadb_node_binding-0.7.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230627/n/nucliadb-node-binding/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-27 09:16:48] INFO root fetch - processPackages [apf-ci]: Remove: archive file [/home/abi/fetcher/tmp/apf-ci-1.2.180.tar.gz]
+[2023-06-27 09:16:48] INFO root fetch - processPackages [apf-ci]: Remove: archive file [/home/abi/fetcher/tmp/apf-ci-1.2.180.1.tar.gz]
+[2023-06-27 09:16:48] INFO root fetch - main [MainThread]: End processing [apf-ci]: success
+[2023-06-27 09:16:49] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-0.7.7.tar.gz]
+[2023-06-27 09:16:49] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-0.7.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-27 09:16:49] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2023-06-27 09:16:49] INFO root fetch - main [MainThread]: Store serial: [18658994]
