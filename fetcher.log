@@ -1997,3 +1997,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 02:00:08] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-27 02:00:08] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-27 02:00:08] INFO root fetch - main [MainThread]: Store serial: [18654255]
+[2023-06-27 02:05:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18654255]
+[2023-06-27 02:05:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-27 02:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eeglabio
+[2023-06-27 02:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datupapi
+[2023-06-27 02:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lnauth-django
+[2023-06-27 02:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parsita
+[2023-06-27 02:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blanc
+[2023-06-27 02:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bokeh-django
+[2023-06-27 02:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gefslim
+[2023-06-27 02:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchdatasets-nightly
+[2023-06-27 02:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: contextplot
+[2023-06-27 02:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vipes
+[2023-06-27 02:05:18] INFO root fetch - processPackages [parsita]: New version: [2.1.0] Old Version: [2.0.0b2]
+[2023-06-27 02:05:18] INFO root fetch - processPackages [contextplot]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-27 02:05:18] WARNING root fetch - processPackages [bokeh-django]: Skipping, unable to determine old version
+[2023-06-27 02:05:18] INFO root fetch - processPackages [bokeh-django]: Start processing: mct-nightly
+[2023-06-27 02:05:18] INFO root fetch - main [MainThread]: End processing [bokeh-django] error
+[2023-06-27 02:05:18] WARNING root fetch - processPackages [gefslim]: Skipping, unable to determine old version
+[2023-06-27 02:05:18] INFO root fetch - processPackages [gefslim]: Start processing: jaxkern-nightly
+[2023-06-27 02:05:18] INFO root fetch - main [MainThread]: End processing [gefslim] error
+[2023-06-27 02:05:18] INFO root fetch - processPackages [blanc]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-27 02:05:18] INFO root fetch - processPackages [vipes]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 02:05:18] INFO root fetch - processPackages [lnauth-django]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-27 02:05:18] INFO root fetch - processPackages [eeglabio]: New version: [0.0.2.post4] Old Version: [0.0.2.post3]
+[2023-06-27 02:05:18] INFO root fetch - processPackages [datupapi]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-27 02:05:18] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1687737846] Old Version: [1687651447]
+[2023-06-27 02:05:18] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230626.post508] Old Version: [1.9.0.20230625.post502]
+[2023-06-27 02:05:18] INFO root fetch - processPackages [vipes]: Downloading https://files.pythonhosted.org/packages/95/70/82166efb0bd3485064a3a26fa890f27eced474442c461dc53840333a275b/vipes-0.0.2.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [lnauth-django]: Downloading https://files.pythonhosted.org/packages/39/70/b9a95c9a0184ad61fa264b3f99b681b926304d4dd179ed81ebaad86a6fdd/lnauth_django-0.2.1.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [contextplot]: Downloading https://files.pythonhosted.org/packages/08/8e/65a459ddef0e66bb8cbc33b2bef2d0658df07bca0b9da167fd68863572db/contextplot-0.0.3.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/83/c0/adabda9b360670e38a4eed8b576e2424ffeb20e8e8c0e227bd7a9f265ca0/mct-nightly-1.9.0.20230625.post502.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/1d/9d/7e162e89f7580d694e55e2369649d814d4e37032d689b557bb588da452c5/torchdatasets-nightly-1687651447.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-27 02:05:18] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/da/ae/333200f57f0fa394ea6be80269ec9ebc42438aa38e245e9b4983c2c87cc6/parsita-2.0.0b2.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [datupapi]: Downloading https://files.pythonhosted.org/packages/1d/ac/5081ecaeb46eff6a3d8d6902c7c5cb49ce1eef0ad43338a8fed29140ce89/datupapi-1.9.0-py3-none-any.whl
+[2023-06-27 02:05:18] INFO root fetch - processPackages [blanc]: Downloading https://files.pythonhosted.org/packages/4c/c5/a7dce94acf3146a578678481edd96b0d5e0eb1cad2aca1df3980b568cb19/blanc-0.3.0.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/64/29/11eb21c253c8432e9e00b92d91d5cab61a9136627e893b1ac9f53ac010f8/torchdatasets-nightly-1687737846.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [eeglabio]: Downloading https://files.pythonhosted.org/packages/15/26/4ac88178f48e4263a7dd8c939eb5f8762f23708627ba10411bf5cfcfddb1/eeglabio-0.0.2.post3.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [lnauth-django]: Downloading https://files.pythonhosted.org/packages/6b/13/daf34a643729d59044cc47f530cf5e9a56ad7a05103cc4fb7633190965fc/lnauth_django-0.2.2.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-27 02:05:18] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1687651447.tar.gz tmp/torchdatasets-nightly-1687737846.tar.gz --markdown 20230627/t/torchdatasets-nightly/1687651447-1687737846/diff.md --exclude *.pyd
+[2023-06-27 02:05:18] INFO root fetch - processPackages [contextplot]: Downloading https://files.pythonhosted.org/packages/f5/1f/576c061ae5f842f031d35b5ffa438b9928365026f5cbe31bdc52665b489d/contextplot-0.0.4.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [vipes]: Downloading https://files.pythonhosted.org/packages/86/a8/b68f21d1d410f58d45b47f6b3a5fcde0415975e7a4526bfc9c5ba579bc9d/vipes-0.0.3.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/ec/ef/ad4c60b3e00483ee287c520d7112ac26287bf285332b4a27a44d0a853336/mct-nightly-1.9.0.20230626.post508.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-27 02:05:18] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230627/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-27 02:05:18] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/d8/4c/ecaeb765a23ec2850d0df083f75d17bff0c49ffb3d6f1cb34a4afaa74f28/parsita-2.1.0.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-27 02:05:18] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230625.post502.tar.gz tmp/mct-nightly-1.9.0.20230626.post508.tar.gz --markdown 20230627/m/mct-nightly/1.9.0.20230625.post502-1.9.0.20230626.post508/diff.md --exclude *.pyd
+[2023-06-27 02:05:18] INFO root fetch - processPackages [lnauth-django]: executing diffoscope
+[2023-06-27 02:05:18] INFO root fetch - processPackages [lnauth-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnauth_django-0.2.1.tar.gz tmp/lnauth_django-0.2.2.tar.gz --markdown 20230627/l/lnauth-django/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-27 02:05:18] INFO root fetch - processPackages [vipes]: executing diffoscope
+[2023-06-27 02:05:18] INFO root fetch - processPackages [vipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipes-0.0.2.tar.gz tmp/vipes-0.0.3.tar.gz --markdown 20230627/v/vipes/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 02:05:18] INFO root fetch - processPackages [contextplot]: executing diffoscope
+[2023-06-27 02:05:18] INFO root fetch - processPackages [datupapi]: Downloading https://files.pythonhosted.org/packages/d6/2c/228b04741162c0ccb1494c9c89d6c22551aeecd23eb2f8db49b9aa73cea5/datupapi-1.9.1-py3-none-any.whl
+[2023-06-27 02:05:18] INFO root fetch - processPackages [contextplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contextplot-0.0.3.tar.gz tmp/contextplot-0.0.4.tar.gz --markdown 20230627/c/contextplot/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-27 02:05:18] INFO root fetch - processPackages [parsita]: executing diffoscope
+[2023-06-27 02:05:18] INFO root fetch - processPackages [eeglabio]: Downloading https://files.pythonhosted.org/packages/23/16/590888a409c2361005ffb77eafc9e4428270f7250b5de2026f7bf4e8f81c/eeglabio-0.0.2.post4.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [parsita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsita-2.0.0b2.tar.gz tmp/parsita-2.1.0.tar.gz --markdown 20230627/p/parsita/2.0.0b2-2.1.0/diff.md --exclude *.pyd
+[2023-06-27 02:05:18] INFO root fetch - processPackages [blanc]: Downloading https://files.pythonhosted.org/packages/58/7f/ca1eef7d718e4dfecbe787d996ff1661e00e7c1405f1b411664ee1a782b8/blanc-0.3.1.tar.gz
+[2023-06-27 02:05:18] INFO root fetch - processPackages [eeglabio]: executing diffoscope
+[2023-06-27 02:05:18] INFO root fetch - processPackages [eeglabio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeglabio-0.0.2.post3.tar.gz tmp/eeglabio-0.0.2.post4.tar.gz --markdown 20230627/e/eeglabio/0.0.2.post3-0.0.2.post4/diff.md --exclude *.pyd
+[2023-06-27 02:05:18] INFO root fetch - processPackages [blanc]: executing diffoscope
+[2023-06-27 02:05:18] INFO root fetch - processPackages [blanc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blanc-0.3.0.tar.gz tmp/blanc-0.3.1.tar.gz --markdown 20230627/b/blanc/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-27 02:05:18] INFO root fetch - processPackages [datupapi]: executing diffoscope
+[2023-06-27 02:05:18] INFO root fetch - processPackages [datupapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datupapi-1.9.0-py3-none-any.whl.zip tmp/datupapi-1.9.1-py3-none-any.whl.zip --markdown 20230627/d/datupapi/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-27 02:05:20] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687651447.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687737846.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-27 02:05:20] INFO root fetch - processPackages [lnauth-django]: Remove: archive file [/home/abi/fetcher/tmp/lnauth_django-0.2.1.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - processPackages [lnauth-django]: Remove: archive file [/home/abi/fetcher/tmp/lnauth_django-0.2.2.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - main [MainThread]: End processing [lnauth-django]: success
+[2023-06-27 02:05:20] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-27 02:05:20] INFO root fetch - processPackages [contextplot]: Remove: archive file [/home/abi/fetcher/tmp/contextplot-0.0.3.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - processPackages [contextplot]: Remove: archive file [/home/abi/fetcher/tmp/contextplot-0.0.4.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - main [MainThread]: End processing [contextplot]: success
+[2023-06-27 02:05:20] INFO root fetch - processPackages [vipes]: Remove: archive file [/home/abi/fetcher/tmp/vipes-0.0.2.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - processPackages [vipes]: Remove: archive file [/home/abi/fetcher/tmp/vipes-0.0.3.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - main [MainThread]: End processing [vipes]: success
+[2023-06-27 02:05:20] INFO root fetch - processPackages [eeglabio]: Remove: archive file [/home/abi/fetcher/tmp/eeglabio-0.0.2.post3.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - processPackages [eeglabio]: Remove: archive file [/home/abi/fetcher/tmp/eeglabio-0.0.2.post4.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - main [MainThread]: End processing [eeglabio]: success
+[2023-06-27 02:05:20] INFO root fetch - processPackages [datupapi]: Remove: archive file [/home/abi/fetcher/tmp/datupapi-1.9.0-py3-none-any.whl.zip]
+[2023-06-27 02:05:20] INFO root fetch - processPackages [datupapi]: Remove: archive file [/home/abi/fetcher/tmp/datupapi-1.9.1-py3-none-any.whl.zip]
+[2023-06-27 02:05:20] INFO root fetch - main [MainThread]: End processing [datupapi]: success
+[2023-06-27 02:05:20] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-2.0.0b2.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-2.1.0.tar.gz]
+[2023-06-27 02:05:20] INFO root fetch - main [MainThread]: End processing [parsita]: success
+[2023-06-27 02:05:21] INFO root fetch - processPackages [blanc]: Remove: archive file [/home/abi/fetcher/tmp/blanc-0.3.0.tar.gz]
+[2023-06-27 02:05:21] INFO root fetch - processPackages [blanc]: Remove: archive file [/home/abi/fetcher/tmp/blanc-0.3.1.tar.gz]
+[2023-06-27 02:05:21] INFO root fetch - main [MainThread]: End processing [blanc]: success
+[2023-06-27 02:05:25] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230625.post502.tar.gz]
+[2023-06-27 02:05:25] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230626.post508.tar.gz]
+[2023-06-27 02:05:25] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-27 02:05:25] INFO root fetch - main [MainThread]: Store serial: [18654297]
