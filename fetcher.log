@@ -15071,3 +15071,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 09:44:02] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.1.4.tar.gz]
 [2023-06-27 09:44:02] INFO root fetch - main [MainThread]: End processing [sdevpy]: success
 [2023-06-27 09:44:02] INFO root fetch - main [MainThread]: Store serial: [18659203]
+[2023-06-27 09:49:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659203]
+[2023-06-27 09:49:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-27 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multipie
+[2023-06-27 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scinumtools
+[2023-06-27 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taipy-rest
+[2023-06-27 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reytool
+[2023-06-27 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-27 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nightly
+[2023-06-27 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: material-zui
+[2023-06-27 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jdcloud-sdk
+[2023-06-27 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bioumlsim
+[2023-06-27 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cvxpy-base
+[2023-06-27 09:49:11] INFO root fetch - processPackages [multipie]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-27 09:49:11] INFO root fetch - processPackages [scinumtools]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-27 09:49:11] INFO root fetch - processPackages [taipy-rest]: New version: [3.0.0.dev0] Old Version: [2.3.1]
+[2023-06-27 09:49:11] INFO root fetch - processPackages [bioumlsim]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-27 09:49:11] INFO root fetch - processPackages [cvxpy-base]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-27 09:49:11] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-27 09:49:11] INFO root fetch - processPackages [material-zui]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 09:49:11] INFO root fetch - processPackages [jdcloud-sdk]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-06-27 09:49:11] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-27 09:49:11] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-27 09:49:11] INFO root fetch - processPackages [bioumlsim]: Downloading https://files.pythonhosted.org/packages/98/9d/bdff9f30cac312ed18010fc13161ec8a9d4767dd266ba90918b23e996912/bioumlsim-0.5.2.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-27 09:49:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [taipy-rest]: Downloading https://files.pythonhosted.org/packages/49/cc/9c6a754726e54f810ff68f005a12e0ea6155a494fa7e000455d6131b0113/taipy-rest-2.3.1.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/9c/91/0ea93efdfbccd82b9e4deb152ad0facdf5aaa07fa50934148ab761f9f4cd/scinumtools-1.4.0.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [cvxpy-base]: Downloading https://files.pythonhosted.org/packages/db/c4/8ba47328d38cc2311923b2ba4f13c3c55354138938aee5f96222f6f3f09f/cvxpy-base-1.3.1.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-27 09:49:12] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/a4/40/11f64c3c0872da4cbfe86539860523256abc16e77b718f45262c638458af/material_zui-0.1.2.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/66/48/d4dbe2d819b2dccf94b61c10a9ebdc51b378417e49360c0f29edba80e323/multipie-1.1.8.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-27 09:49:12] INFO root fetch - processPackages [taipy-rest]: Downloading https://files.pythonhosted.org/packages/2c/e8/986f6becdb75b44220bf78d059add0aedd5c304968535a00690b2596351c/taipy-rest-3.0.0.dev0.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [bioumlsim]: Downloading https://files.pythonhosted.org/packages/f2/47/65341ad3b59705cff174e02353218e0cf5ca1a56bb0d8a8f7ed5d1a09ae8/bioumlsim-0.5.3.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [jdcloud-sdk]: executing diffoscope
+[2023-06-27 09:49:12] INFO root fetch - processPackages [jdcloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdcloud_sdk-1.6.98.tar.gz tmp/jdcloud_sdk-1.6.99.tar.gz --markdown 20230627/j/jdcloud-sdk/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-06-27 09:49:12] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/94/33/f11325e5ea88fe5f9210f9160d67105207d79204bb2d43861066e0c6661e/scinumtools-1.4.1.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [taipy-rest]: executing diffoscope
+[2023-06-27 09:49:12] INFO root fetch - processPackages [taipy-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-rest-2.3.1.tar.gz tmp/taipy-rest-3.0.0.dev0.tar.gz --markdown 20230627/t/taipy-rest/2.3.1-3.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-27 09:49:12] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-27 09:49:12] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230627/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-27 09:49:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-27 09:49:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 09:49:12] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/2f/36/932fe104298e70c1e32cc604fa889d283f91dcb7fc8fbf093fd23e3cb193/material_zui-0.1.3.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-06-27 09:49:12] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-27 09:49:12] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.4.0.tar.gz tmp/scinumtools-1.4.1.tar.gz --markdown 20230627/s/scinumtools/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-27 09:49:12] INFO root fetch - processPackages [cvxpy-base]: Downloading https://files.pythonhosted.org/packages/1c/5d/971b33673ddebaed78e662d5d2ad8978a1df7397ff4860dfc5fa45b4e2a5/cvxpy_base-1.3.2-cp39-cp39-win_amd64.whl
+[2023-06-27 09:49:12] INFO root fetch - processPackages [material-zui]: executing diffoscope
+[2023-06-27 09:49:12] INFO root fetch - processPackages [material-zui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/material_zui-0.1.2.tar.gz tmp/material_zui-0.1.3.tar.gz --markdown 20230627/m/material-zui/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 09:49:12] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/9f/65/2be884ae50f72ca2932440104132e038f350e9a5992a7ce26c1a2212406c/multipie-1.1.9.tar.gz
+[2023-06-27 09:49:12] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-27 09:49:12] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230627/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-27 09:49:12] INFO root fetch - processPackages [cvxpy-base]: executing diffoscope
+[2023-06-27 09:49:12] INFO root fetch - processPackages [cvxpy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxpy-base-1.3.1.tar.gz tmp/cvxpy_base-1.3.2-cp39-cp39-win_amd64.whl.zip --markdown 20230627/c/cvxpy-base/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-27 09:49:13] INFO root fetch - processPackages [multipie]: executing diffoscope
+[2023-06-27 09:49:13] INFO root fetch - processPackages [multipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipie-1.1.8.tar.gz tmp/multipie-1.1.9.tar.gz --markdown 20230627/m/multipie/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-27 09:49:13] INFO root fetch - processPackages [bioumlsim]: executing diffoscope
+[2023-06-27 09:49:13] INFO root fetch - processPackages [bioumlsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioumlsim-0.5.2.tar.gz tmp/bioumlsim-0.5.3.tar.gz --markdown 20230627/b/bioumlsim/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-27 09:49:14] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-27 09:49:14] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-27 09:49:14] INFO root fetch - processPackages [reytool]: Start processing: klarf-reader
+[2023-06-27 09:49:14] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-27 09:49:14] INFO root fetch - processPackages [klarf-reader]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-27 09:49:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-27 09:49:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-27 09:49:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: mjrl
+[2023-06-27 09:49:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-27 09:49:14] WARNING root fetch - processPackages [mjrl]: Skipping, unable to determine old version
+[2023-06-27 09:49:14] INFO root fetch - processPackages [mjrl]: Start processing: alibabacloud-dysmsapi20180501
+[2023-06-27 09:49:14] INFO root fetch - main [MainThread]: End processing [mjrl] error
+[2023-06-27 09:49:14] INFO root fetch - processPackages [alibabacloud-dysmsapi20180501]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-27 09:49:14] INFO root fetch - processPackages [klarf-reader]: Downloading https://files.pythonhosted.org/packages/53/af/557c54b4c39c56ad5d9692f9ebe07b7be3ed7c8a43ad620f9569f061e133/klarf-reader-0.3.0.tar.gz
+[2023-06-27 09:49:14] INFO root fetch - processPackages [material-zui]: Remove: archive file [/home/abi/fetcher/tmp/material_zui-0.1.2.tar.gz]
+[2023-06-27 09:49:14] INFO root fetch - processPackages [material-zui]: Remove: archive file [/home/abi/fetcher/tmp/material_zui-0.1.3.tar.gz]
+[2023-06-27 09:49:14] INFO root fetch - processPackages [material-zui]: Start processing: pywa
+[2023-06-27 09:49:14] INFO root fetch - main [MainThread]: End processing [material-zui]: success
+[2023-06-27 09:49:14] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-06-27 09:49:14] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/fe/18/05f47d05b412ceef8c09aee81b862950c5988ba33fb3408193db56f323fd/pywa-0.0.1rc8-py3-none-any.whl
+[2023-06-27 09:49:14] INFO root fetch - processPackages [alibabacloud-dysmsapi20180501]: Downloading https://files.pythonhosted.org/packages/fc/e6/9820560a3f0d82d2926c905324fd50874483f448818eb89cca9faa3619ca/alibabacloud_dysmsapi20180501-1.0.3.tar.gz
+[2023-06-27 09:49:14] INFO root fetch - processPackages [taipy-rest]: Remove: archive file [/home/abi/fetcher/tmp/taipy-rest-2.3.1.tar.gz]
+[2023-06-27 09:49:14] INFO root fetch - processPackages [taipy-rest]: Remove: archive file [/home/abi/fetcher/tmp/taipy-rest-3.0.0.dev0.tar.gz]
+[2023-06-27 09:49:14] INFO root fetch - main [MainThread]: End processing [taipy-rest]: success
+[2023-06-27 09:49:14] INFO root fetch - processPackages [klarf-reader]: Downloading https://files.pythonhosted.org/packages/2b/5d/24b2541dfd301c8105435fe03fe50e7a1626a5644ea5825f142e832d4898/klarf-reader-0.3.1.tar.gz
+[2023-06-27 09:49:14] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.4.0.tar.gz]
+[2023-06-27 09:49:14] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.4.1.tar.gz]
+[2023-06-27 09:49:14] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-06-27 09:49:14] INFO root fetch - processPackages [klarf-reader]: executing diffoscope
+[2023-06-27 09:49:14] INFO root fetch - processPackages [klarf-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klarf-reader-0.3.0.tar.gz tmp/klarf-reader-0.3.1.tar.gz --markdown 20230627/k/klarf-reader/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-27 09:49:14] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/c6/df/1f150bfe016b5e71d7222e4a91c185c455b40d8965e9ac10b73d5909e5f5/pywa-0.0.1rc9-py3-none-any.whl
+[2023-06-27 09:49:14] INFO root fetch - processPackages [alibabacloud-dysmsapi20180501]: Downloading https://files.pythonhosted.org/packages/af/1d/72f26c44d68606991cc8ab80be1e019c694130ec848da55d62b26e1757bd/alibabacloud_dysmsapi20180501-1.0.4.tar.gz
+[2023-06-27 09:49:15] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-06-27 09:49:15] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc8-py3-none-any.whl.zip tmp/pywa-0.0.1rc9-py3-none-any.whl.zip --markdown 20230627/p/pywa/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-06-27 09:49:15] INFO root fetch - processPackages [alibabacloud-dysmsapi20180501]: executing diffoscope
+[2023-06-27 09:49:15] INFO root fetch - processPackages [alibabacloud-dysmsapi20180501]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dysmsapi20180501-1.0.3.tar.gz tmp/alibabacloud_dysmsapi20180501-1.0.4.tar.gz --markdown 20230627/a/alibabacloud-dysmsapi20180501/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-27 09:49:15] INFO root fetch - processPackages [bioumlsim]: Remove: archive file [/home/abi/fetcher/tmp/bioumlsim-0.5.2.tar.gz]
+[2023-06-27 09:49:15] INFO root fetch - processPackages [bioumlsim]: Remove: archive file [/home/abi/fetcher/tmp/bioumlsim-0.5.3.tar.gz]
+[2023-06-27 09:49:15] INFO root fetch - main [MainThread]: End processing [bioumlsim]: success
+[2023-06-27 09:49:15] INFO root fetch - processPackages [klarf-reader]: Remove: archive file [/home/abi/fetcher/tmp/klarf-reader-0.3.0.tar.gz]
+[2023-06-27 09:49:15] INFO root fetch - processPackages [klarf-reader]: Remove: archive file [/home/abi/fetcher/tmp/klarf-reader-0.3.1.tar.gz]
+[2023-06-27 09:49:15] INFO root fetch - main [MainThread]: End processing [klarf-reader]: success
+[2023-06-27 09:49:16] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc8-py3-none-any.whl.zip]
+[2023-06-27 09:49:16] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc9-py3-none-any.whl.zip]
+[2023-06-27 09:49:16] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-06-27 09:49:16] INFO root fetch - processPackages [alibabacloud-dysmsapi20180501]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dysmsapi20180501-1.0.3.tar.gz]
+[2023-06-27 09:49:16] INFO root fetch - processPackages [alibabacloud-dysmsapi20180501]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dysmsapi20180501-1.0.4.tar.gz]
+[2023-06-27 09:49:16] INFO root fetch - main [MainThread]: End processing [alibabacloud-dysmsapi20180501]: success
+[2023-06-27 09:49:16] INFO root fetch - processPackages [cvxpy-base]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy-base-1.3.1.tar.gz]
+[2023-06-27 09:49:16] INFO root fetch - processPackages [cvxpy-base]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy_base-1.3.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 09:49:16] INFO root fetch - main [MainThread]: End processing [cvxpy-base]: success
+[2023-06-27 09:49:19] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.8.tar.gz]
+[2023-06-27 09:49:19] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.9.tar.gz]
+[2023-06-27 09:49:19] INFO root fetch - main [MainThread]: End processing [multipie]: success
+[2023-06-27 09:49:20] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-27 09:49:20] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-27 09:49:20] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-27 09:52:12] ERROR root fetch - processPackages [jdcloud-sdk]: Timeout during execution of pkgdiff
+[2023-06-27 09:52:12] INFO root fetch - main [MainThread]: End processing [jdcloud-sdk] error
+[2023-06-27 09:52:12] INFO root fetch - main [MainThread]: Store serial: [18659246]
