@@ -21573,3 +21573,178 @@ AssertionError: tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz does not exist
 [2023-06-27 13:43:00] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.1.1rc3.tar.gz]
 [2023-06-27 13:43:00] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
 [2023-06-27 13:43:00] INFO root fetch - main [MainThread]: Store serial: [18662041]
+[2023-06-27 13:48:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18662041]
+[2023-06-27 13:48:10] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-27 13:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webcam
+[2023-06-27 13:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangounittest
+[2023-06-27 13:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slib-sorter
+[2023-06-27 13:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: steampunk-spotter
+[2023-06-27 13:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: titan-iris
+[2023-06-27 13:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mara-cron
+[2023-06-27 13:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypsa
+[2023-06-27 13:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netlify-builds
+[2023-06-27 13:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-rtmidi
+[2023-06-27 13:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fractal-repositories
+[2023-06-27 13:48:10] INFO root fetch - processPackages [webcam]: New version: [1.5] Old Version: [1.4]
+[2023-06-27 13:48:10] WARNING root fetch - processPackages [slib-sorter]: Skipping, unable to determine old version
+[2023-06-27 13:48:10] INFO root fetch - processPackages [slib-sorter]: Start processing: sentry-auth-ldap
+[2023-06-27 13:48:10] INFO root fetch - main [MainThread]: End processing [slib-sorter] error
+[2023-06-27 13:48:10] INFO root fetch - processPackages [mara-cron]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-27 13:48:10] INFO root fetch - processPackages [netlify-builds]: New version: [1.0.0] Old Version: [0.3.3]
+[2023-06-27 13:48:10] INFO root fetch - processPackages [djangounittest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 13:48:10] INFO root fetch - processPackages [pypsa]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-27 13:48:10] INFO root fetch - processPackages [fractal-repositories]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-27 13:48:10] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.0.3rc1] Old Version: [2.0.3a1]
+[2023-06-27 13:48:10] INFO root fetch - processPackages [python-rtmidi]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-27 13:48:10] INFO root fetch - processPackages [sentry-auth-ldap]: New version: [23.6.0] Old Version: [21.9.9]
+[2023-06-27 13:48:10] INFO root fetch - processPackages [titan-iris]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-27 13:48:10] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d7/15/feb7c005964ea5d16b9435b52600870cbc403d0898d8d62b11352acddcef/titan-iris-0.8.8.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [mara-cron]: Downloading https://files.pythonhosted.org/packages/f2/7d/23757461173df795912d764b65ce517700be17bd081e1fc3d01fa1080dec/mara-cron-0.9.5.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/51/3c/944b2a01c1219f21f2e9cfd8fdb5dd0e30cbb7555d7cb6bfe2c66de3b1f4/steampunk_spotter-2.0.3a1-py3-none-any.whl
+[2023-06-27 13:48:10] INFO root fetch - processPackages [fractal-repositories]: Downloading https://files.pythonhosted.org/packages/e3/ed/9b8ae2d33c04be721ab224fe15f0933d6d44556c3991dd114cbda973fba2/fractal_repositories-0.0.3.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/16/26/84ccf3e09bf6528bc3195ba9d3fcb706dfa4cc3f539f2065bc453c693d0f/djangounittest-0.1.8.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [pypsa]: Downloading https://files.pythonhosted.org/packages/b1/df/284abdbbc60905c7a2f2286c5507b03658dd3fbf7b10cc05a81fff6902bd/pypsa-0.8.0.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [netlify-builds]: Downloading https://files.pythonhosted.org/packages/7f/13/a1042194967ff26ba84bf4db8fac9c9bc479d628c0887989b5fa6d941c1b/netlify_builds-0.3.3.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [sentry-auth-ldap]: Downloading https://files.pythonhosted.org/packages/81/1a/b5d0299b61087bbe7e05c9c04e9cd31426b56bfd5f98488eb38cf548d492/sentry-auth-ldap-21.9.9.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [python-rtmidi]: Downloading https://files.pythonhosted.org/packages/b3/43/581861dc8c46fd32c31e304370dcab52084ff5bc920845fba7485a54b611/python_rtmidi-1.5.3.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [mara-cron]: Downloading https://files.pythonhosted.org/packages/7e/07/1ec8206f5e281ff7929c9cd3b9a4cdb618841c6953112316c3c11c6459dc/mara-cron-0.9.6.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/0c/90/deb4c98c4e483b163e77765fe25e536dd7ee15dd4c3c2b21b5711c7a9428/webcam-1.4.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/04/25/22091a26775676cd76db565c11730d38d18cffe45cb89330ebf3fd074e77/titan-iris-0.8.9.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [mara-cron]: executing diffoscope
+[2023-06-27 13:48:10] INFO root fetch - processPackages [mara-cron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mara-cron-0.9.5.tar.gz tmp/mara-cron-0.9.6.tar.gz --markdown 20230627/m/mara-cron/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-27 13:48:10] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-27 13:48:10] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.8.tar.gz tmp/titan-iris-0.8.9.tar.gz --markdown 20230627/t/titan-iris/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-27 13:48:10] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/43/45/9148624303bfbcc4ec37149770a561a05c349123d704cf6e7dca5d15d312/steampunk_spotter-2.0.3rc1-py3-none-any.whl
+[2023-06-27 13:48:10] INFO root fetch - processPackages [fractal-repositories]: Downloading https://files.pythonhosted.org/packages/5b/d2/64cda6fb923ac5b13beb2208473f6809021d992e1e9cc3671890bc44a02e/fractal_repositories-0.0.4.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/45/bd/c6d402f50accaf39199955a83b29f0ba1d1c6b9d602a7867239ff868f291/djangounittest-0.1.9.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [fractal-repositories]: executing diffoscope
+[2023-06-27 13:48:10] INFO root fetch - processPackages [fractal-repositories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_repositories-0.0.3.tar.gz tmp/fractal_repositories-0.0.4.tar.gz --markdown 20230627/f/fractal-repositories/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-27 13:48:10] INFO root fetch - processPackages [python-rtmidi]: Downloading https://files.pythonhosted.org/packages/fc/fa/9c1dd76467da143a779cc78bac7af0b03447ce18c8918f5aee306a6b3b5c/python_rtmidi-1.5.4.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/d6/fd/13a617bcb647e469abcfd8b006adf60b40dbffcd121e7521614f6103692a/webcam-1.5.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [netlify-builds]: Downloading https://files.pythonhosted.org/packages/7f/47/205bc826e246625132eaf7d7b213a0af1c03d50c257c01d833b62fa0c9c8/netlify_builds-1.0.0.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [pypsa]: Downloading https://files.pythonhosted.org/packages/33/dd/0450c22b22814dfa635e3e221a61ec96d98208c05e6e7390d3f4c8ce0557/pypsa-0.9.0.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [sentry-auth-ldap]: Downloading https://files.pythonhosted.org/packages/9d/06/6398f79bf6600eca351d9dab5eff420e54b32346f57b28152097e7827c5d/sentry-auth-ldap-23.6.0.tar.gz
+[2023-06-27 13:48:10] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-06-27 13:48:10] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-2.0.3a1-py3-none-any.whl.zip tmp/steampunk_spotter-2.0.3rc1-py3-none-any.whl.zip --markdown 20230627/s/steampunk-spotter/2.0.3a1-2.0.3rc1/diff.md --exclude *.pyd
+[2023-06-27 13:48:10] INFO root fetch - processPackages [djangounittest]: executing diffoscope
+[2023-06-27 13:48:10] INFO root fetch - processPackages [djangounittest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangounittest-0.1.8.tar.gz tmp/djangounittest-0.1.9.tar.gz --markdown 20230627/d/djangounittest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 13:48:10] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-06-27 13:48:10] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-1.4.tar.gz tmp/webcam-1.5.tar.gz --markdown 20230627/w/webcam/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-27 13:48:10] INFO root fetch - processPackages [python-rtmidi]: executing diffoscope
+[2023-06-27 13:48:10] INFO root fetch - processPackages [python-rtmidi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_rtmidi-1.5.3.tar.gz tmp/python_rtmidi-1.5.4.tar.gz --markdown 20230627/p/python-rtmidi/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-27 13:48:10] INFO root fetch - processPackages [netlify-builds]: executing diffoscope
+[2023-06-27 13:48:10] INFO root fetch - processPackages [netlify-builds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netlify_builds-0.3.3.tar.gz tmp/netlify_builds-1.0.0.tar.gz --markdown 20230627/n/netlify-builds/0.3.3-1.0.0/diff.md --exclude *.pyd
+[2023-06-27 13:48:10] INFO root fetch - processPackages [pypsa]: executing diffoscope
+[2023-06-27 13:48:10] INFO root fetch - processPackages [pypsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypsa-0.8.0.tar.gz tmp/pypsa-0.9.0.tar.gz --markdown 20230627/p/pypsa/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-27 13:48:10] INFO root fetch - processPackages [sentry-auth-ldap]: executing diffoscope
+[2023-06-27 13:48:10] INFO root fetch - processPackages [sentry-auth-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-auth-ldap-21.9.9.tar.gz tmp/sentry-auth-ldap-23.6.0.tar.gz --markdown 20230627/s/sentry-auth-ldap/21.9.9-23.6.0/diff.md --exclude *.pyd
+[2023-06-27 13:48:13] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.1.8.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.1.9.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [djangounittest]: Start processing: certora-cli-alpha-oz-cli-by-os
+[2023-06-27 13:48:13] INFO root fetch - main [MainThread]: End processing [djangounittest]: success
+[2023-06-27 13:48:13] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: New version: [20230627.9.44.450815] Old Version: [20230627.11.44.759810]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [mara-cron]: Remove: archive file [/home/abi/fetcher/tmp/mara-cron-0.9.5.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [mara-cron]: Remove: archive file [/home/abi/fetcher/tmp/mara-cron-0.9.6.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [mara-cron]: Start processing: drf-misc
+[2023-06-27 13:48:13] INFO root fetch - main [MainThread]: End processing [mara-cron]: success
+[2023-06-27 13:48:13] INFO root fetch - processPackages [netlify-builds]: Remove: archive file [/home/abi/fetcher/tmp/netlify_builds-0.3.3.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [netlify-builds]: Remove: archive file [/home/abi/fetcher/tmp/netlify_builds-1.0.0.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [netlify-builds]: Start processing: pytorch-show
+[2023-06-27 13:48:13] INFO root fetch - main [MainThread]: End processing [netlify-builds]: success
+[2023-06-27 13:48:13] INFO root fetch - processPackages [drf-misc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [pytorch-show]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Downloading https://files.pythonhosted.org/packages/42/db/14e6572dc43870d09d3dc6e64655f465df28a84b4e6d8f8aaf70673b8d28/certora_cli_alpha_oz_cli_by_os-20230627.11.44.759810-py3-none-manylinux_2_28_x86_64.whl
+[2023-06-27 13:48:13] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/44/27/954f1e705e1c7e4aee86fc5bbb3acc82a09c736153a212f533b18b187d19/drf_misc-0.0.8.tar.gz
+[2023-06-27 13:48:13] WARNING root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Skipping package: exceeds size limit 38776230>=10485760
+[2023-06-27 13:48:13] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Start processing: selenium-profiles
+[2023-06-27 13:48:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-cli-by-os] error
+[2023-06-27 13:48:13] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.3a1-py3-none-any.whl.zip]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.3rc1-py3-none-any.whl.zip]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [steampunk-spotter]: Start processing: prince
+[2023-06-27 13:48:13] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-06-27 13:48:13] INFO root fetch - processPackages [selenium-profiles]: New version: [2.2.7.1] Old Version: [2.2.7]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [prince]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [pytorch-show]: Downloading https://files.pythonhosted.org/packages/06/f4/4b359650f3fd4405e8d195512033c210d75f5e5e5447c353de1e68b85072/pytorch_show-0.1.0.tar.gz
+[2023-06-27 13:48:13] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.4.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.5.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [webcam]: Start processing: browniebroke-utils
+[2023-06-27 13:48:13] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-06-27 13:48:13] INFO root fetch - processPackages [browniebroke-utils]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [sentry-auth-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-auth-ldap-21.9.9.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [sentry-auth-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-auth-ldap-23.6.0.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [sentry-auth-ldap]: Start processing: learn-python-check
+[2023-06-27 13:48:13] INFO root fetch - main [MainThread]: End processing [sentry-auth-ldap]: success
+[2023-06-27 13:48:13] INFO root fetch - processPackages [learn-python-check]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [prince]: Downloading https://files.pythonhosted.org/packages/20/7d/52da375fe09db5d8d44708f57d6f3e5c60f6aa30e952f7c6d83c85446460/prince-0.8.3.tar.gz
+[2023-06-27 13:48:13] INFO root fetch - processPackages [selenium-profiles]: Downloading https://files.pythonhosted.org/packages/52/9b/5b831120236400a6d9cf4e55bd25e64edc2933edf3ff14f4fcc16633d2fc/selenium_profiles-2.2.7.1.tar.gz
+[2023-06-27 13:48:13] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/10/1d/306b7bc3ca851c690d193c2e4326f06c06965292bd2fff93d2c41f06de6e/drf_misc-0.0.9.tar.gz
+[2023-06-27 13:48:13] INFO root fetch - processPackages [pytorch-show]: Downloading https://files.pythonhosted.org/packages/a3/fc/f10dee36fab05c4a41a6fa6a14824ed715b08d2325ebdfe9c0af2709b916/pytorch_show-0.1.1.tar.gz
+[2023-06-27 13:48:13] INFO root fetch - processPackages [browniebroke-utils]: Downloading https://files.pythonhosted.org/packages/52/35/44f9dc961fd5f6e6c3ce1c81d387bdfee532018550fb1448b5c9d3ac20ca/browniebroke_utils-0.1.0.tar.gz
+[2023-06-27 13:48:13] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-06-27 13:48:13] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.0.8.tar.gz tmp/drf_misc-0.0.9.tar.gz --markdown 20230627/d/drf-misc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 13:48:13] INFO root fetch - processPackages [pytorch-show]: executing diffoscope
+[2023-06-27 13:48:13] INFO root fetch - processPackages [pytorch-show]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_show-0.1.0.tar.gz tmp/pytorch_show-0.1.1.tar.gz --markdown 20230627/p/pytorch-show/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-27 13:48:13] INFO root fetch - processPackages [selenium-profiles]: executing diffoscope
+[2023-06-27 13:48:13] INFO root fetch - processPackages [selenium-profiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_profiles-2.2.7.tar.gz tmp/selenium_profiles-2.2.7.1.tar.gz --markdown 20230627/s/selenium-profiles/2.2.7-2.2.7.1/diff.md --exclude *.pyd
+[2023-06-27 13:48:13] INFO root fetch - processPackages [learn-python-check]: Downloading https://files.pythonhosted.org/packages/6d/40/d446b849a14d869c65927a00b15ee833d6d59192309671461b26dcaea35c/learn_python_check-1.0.0.tar.gz
+[2023-06-27 13:48:13] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.8.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.9.tar.gz]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [titan-iris]: Start processing: qontract-reconcile
+[2023-06-27 13:48:13] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-27 13:48:13] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-27 13:48:13] INFO root fetch - processPackages [prince]: Downloading https://files.pythonhosted.org/packages/6b/b3/f75ebfb9886bcbb05ca47cb403dd13dc064d168f15a6f3d7e0cd3b6861c4/prince-0.9.0.tar.gz
+[2023-06-27 13:48:13] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-27 13:48:13] INFO root fetch - processPackages [browniebroke-utils]: Downloading https://files.pythonhosted.org/packages/1e/7c/8023c7af0ff7efb01ae94f7bebb4bbd90301be40f124933ef9593495e5ff/browniebroke_utils-1.0.0.tar.gz
+[2023-06-27 13:48:14] INFO root fetch - processPackages [prince]: executing diffoscope
+[2023-06-27 13:48:14] INFO root fetch - processPackages [prince]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prince-0.8.3.tar.gz tmp/prince-0.9.0.tar.gz --markdown 20230627/p/prince/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-27 13:48:14] INFO root fetch - processPackages [browniebroke-utils]: executing diffoscope
+[2023-06-27 13:48:14] INFO root fetch - processPackages [browniebroke-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browniebroke_utils-0.1.0.tar.gz tmp/browniebroke_utils-1.0.0.tar.gz --markdown 20230627/b/browniebroke-utils/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-27 13:48:14] INFO root fetch - processPackages [learn-python-check]: Downloading https://files.pythonhosted.org/packages/03/9d/af1632d02808c6c07ceca9720f21fc1fc7edb9aff2552919858a67e51a75/learn_python_check-1.0.1.tar.gz
+[2023-06-27 13:48:14] INFO root fetch - processPackages [fractal-repositories]: Remove: archive file [/home/abi/fetcher/tmp/fractal_repositories-0.0.3.tar.gz]
+[2023-06-27 13:48:14] INFO root fetch - processPackages [fractal-repositories]: Remove: archive file [/home/abi/fetcher/tmp/fractal_repositories-0.0.4.tar.gz]
+[2023-06-27 13:48:14] INFO root fetch - processPackages [fractal-repositories]: Start processing: BlitzChain
+[2023-06-27 13:48:14] INFO root fetch - main [MainThread]: End processing [fractal-repositories]: success
+[2023-06-27 13:48:14] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-27 13:48:14] INFO root fetch - processPackages [BlitzChain]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-27 13:48:14] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/9d/8f/7d033c135a8a2bc6b824b39ad0afac9d8f5e417c189589312acea9689654/BlitzChain-0.1.3.tar.gz
+[2023-06-27 13:48:14] INFO root fetch - processPackages [learn-python-check]: executing diffoscope
+[2023-06-27 13:48:14] INFO root fetch - processPackages [learn-python-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learn_python_check-1.0.0.tar.gz tmp/learn_python_check-1.0.1.tar.gz --markdown 20230627/l/learn-python-check/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 13:48:14] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-27 13:48:14] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230627/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-27 13:48:14] INFO root fetch - processPackages [pypsa]: Remove: archive file [/home/abi/fetcher/tmp/pypsa-0.8.0.tar.gz]
+[2023-06-27 13:48:14] INFO root fetch - processPackages [pypsa]: Remove: archive file [/home/abi/fetcher/tmp/pypsa-0.9.0.tar.gz]
+[2023-06-27 13:48:14] INFO root fetch - processPackages [pypsa]: Start processing: typingdict
+[2023-06-27 13:48:14] INFO root fetch - main [MainThread]: End processing [pypsa]: success
+[2023-06-27 13:48:14] WARNING root fetch - processPackages [typingdict]: Skipping, unable to determine old version
+[2023-06-27 13:48:14] INFO root fetch - main [MainThread]: End processing [typingdict] error
+[2023-06-27 13:48:14] INFO root fetch - processPackages [python-rtmidi]: Remove: archive file [/home/abi/fetcher/tmp/python_rtmidi-1.5.3.tar.gz]
+[2023-06-27 13:48:14] INFO root fetch - processPackages [python-rtmidi]: Remove: archive file [/home/abi/fetcher/tmp/python_rtmidi-1.5.4.tar.gz]
+[2023-06-27 13:48:14] INFO root fetch - main [MainThread]: End processing [python-rtmidi]: success
+[2023-06-27 13:48:14] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/19/60/98d80495a07b8587526c515fc58f165a696440adcd8946f0bf3d81d13a56/BlitzChain-0.1.4.tar.gz
+[2023-06-27 13:48:14] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-06-27 13:48:14] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.1.3.tar.gz tmp/BlitzChain-0.1.4.tar.gz --markdown 20230627/B/BlitzChain/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-27 13:48:15] INFO root fetch - processPackages [pytorch-show]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_show-0.1.0.tar.gz]
+[2023-06-27 13:48:15] INFO root fetch - processPackages [pytorch-show]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_show-0.1.1.tar.gz]
+[2023-06-27 13:48:15] INFO root fetch - main [MainThread]: End processing [pytorch-show]: success
+[2023-06-27 13:48:15] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.8.tar.gz]
+[2023-06-27 13:48:15] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.9.tar.gz]
+[2023-06-27 13:48:15] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-06-27 13:48:15] INFO root fetch - processPackages [browniebroke-utils]: Remove: archive file [/home/abi/fetcher/tmp/browniebroke_utils-0.1.0.tar.gz]
+[2023-06-27 13:48:15] INFO root fetch - processPackages [browniebroke-utils]: Remove: archive file [/home/abi/fetcher/tmp/browniebroke_utils-1.0.0.tar.gz]
+[2023-06-27 13:48:15] INFO root fetch - main [MainThread]: End processing [browniebroke-utils]: success
+[2023-06-27 13:48:16] INFO root fetch - processPackages [selenium-profiles]: Remove: archive file [/home/abi/fetcher/tmp/selenium_profiles-2.2.7.tar.gz]
+[2023-06-27 13:48:16] INFO root fetch - processPackages [selenium-profiles]: Remove: archive file [/home/abi/fetcher/tmp/selenium_profiles-2.2.7.1.tar.gz]
+[2023-06-27 13:48:16] INFO root fetch - main [MainThread]: End processing [selenium-profiles]: success
+[2023-06-27 13:48:16] INFO root fetch - processPackages [prince]: Remove: archive file [/home/abi/fetcher/tmp/prince-0.8.3.tar.gz]
+[2023-06-27 13:48:16] INFO root fetch - processPackages [prince]: Remove: archive file [/home/abi/fetcher/tmp/prince-0.9.0.tar.gz]
+[2023-06-27 13:48:16] INFO root fetch - main [MainThread]: End processing [prince]: success
+[2023-06-27 13:48:16] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.1.3.tar.gz]
+[2023-06-27 13:48:16] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.1.4.tar.gz]
+[2023-06-27 13:48:16] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-06-27 13:48:16] INFO root fetch - processPackages [learn-python-check]: Remove: archive file [/home/abi/fetcher/tmp/learn_python_check-1.0.0.tar.gz]
+[2023-06-27 13:48:16] INFO root fetch - processPackages [learn-python-check]: Remove: archive file [/home/abi/fetcher/tmp/learn_python_check-1.0.1.tar.gz]
+[2023-06-27 13:48:16] INFO root fetch - main [MainThread]: End processing [learn-python-check]: success
+[2023-06-27 13:48:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-27 13:48:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-27 13:48:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-27 13:48:22] INFO root fetch - main [MainThread]: Store serial: [18662126]
