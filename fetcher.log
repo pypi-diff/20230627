@@ -21061,3 +21061,131 @@ AssertionError: tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz does not exist
 [2023-06-27 13:16:25] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
 [2023-06-27 13:16:25] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-27 13:16:25] INFO root fetch - main [MainThread]: Store serial: [18661806]
+[2023-06-27 13:21:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661806]
+[2023-06-27 13:21:36] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-27 13:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wafermap-clustering
+[2023-06-27 13:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: error-alerts
+[2023-06-27 13:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: how-fake-accounts
+[2023-06-27 13:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fyle-integrations-platform-connector
+[2023-06-27 13:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-cnandi-morpho-equiv
+[2023-06-27 13:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mara-cron
+[2023-06-27 13:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kraken-build
+[2023-06-27 13:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kraken-common
+[2023-06-27 13:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kraken-core
+[2023-06-27 13:21:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kraken-wrapper
+[2023-06-27 13:21:36] INFO root fetch - processPackages [fyle-integrations-platform-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-27 13:21:36] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-27 13:21:36] INFO root fetch - processPackages [error-alerts]: New version: [4.6] Old Version: [4.5]
+[2023-06-27 13:21:36] INFO root fetch - processPackages [mara-cron]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-27 13:21:36] INFO root fetch - processPackages [how-fake-accounts]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-27 13:21:36] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: New version: [20230627.9.10.115805] Old Version: [20230627.11.18.115527]
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-build]: New version: [0.27.1] Old Version: [0.27.0]
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.27.1] Old Version: [0.27.0]
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [how-fake-accounts]: Downloading https://files.pythonhosted.org/packages/d8/dd/1a2c2aee6fe9e3c37eef179adca7100b5a28282373414cfdf1d038a409e6/how_fake_accounts-0.3.0.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/1d/e0/3d501ac92309e629830c23ae00c8f83c8ea69dbc43fdf350e999d8591d82/kraken_build-0.27.0.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/b5/f5/19477ce39f0073d96ad3214822618b0ae7d3da748e6dc6a696fa91d118e2/kraken_wrapper-0.27.0.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Downloading https://files.pythonhosted.org/packages/60/99/aad24b0d75a0f330d4a53f70ca36a64d379f5ebdf23e9ac1d45137cf6021/certora-cli-alpha-cnandi-morpho-equiv-20230627.11.18.115527.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/c9/d6/a7e6a8fb1f2c0f4d0a2090ee7bcb50b9d7687934cacc36d4af3cc63f4057/error-alerts-4.5.tar.gz
+[2023-06-27 13:21:36] WARNING root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Skipping package: exceeds size limit 40305844>=10485760
+[2023-06-27 13:21:36] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Start processing: kraken-std
+[2023-06-27 13:21:36] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-cnandi-morpho-equiv] error
+[2023-06-27 13:21:36] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/52/45/e5e38ed24c1622734daa77b91cc350bf11c44695b7aaaf9671f084870c76/fyle-integrations-platform-connector-1.8.0.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/8c/df/498b7c153a2ef667d40536b99a156136d84f2026b1a93687d5b4cb44bf7a/wafermap-clustering-0.2.7.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [mara-cron]: Downloading https://files.pythonhosted.org/packages/f2/7d/23757461173df795912d764b65ce517700be17bd081e1fc3d01fa1080dec/mara-cron-0.9.5.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [how-fake-accounts]: Downloading https://files.pythonhosted.org/packages/b0/78/32524cd55f28562212edf6c368e16a5867a8d038331e9dae280b2129c83c/how_fake_accounts-0.3.1.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/da/30/38ae4fdb1a4b30b04338ffa3f8a59f949667ad1c47cae325a195a91ae887/kraken_wrapper-0.27.1.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/0d/ac/6d81fcca551cd4efabf23c7c014e732fb3729cb090dee065fa107e2639d3/kraken_build-0.27.1.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [how-fake-accounts]: executing diffoscope
+[2023-06-27 13:21:36] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/f8/ae/a656232a14392241be12c5ea4f02f420a1b9c86726cc9f7872ce7f8ddbe9/error-alerts-4.6.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [how-fake-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/how_fake_accounts-0.3.0.tar.gz tmp/how_fake_accounts-0.3.1.tar.gz --markdown 20230627/h/how-fake-accounts/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230627/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.27.0.tar.gz tmp/kraken_wrapper-0.27.1.tar.gz --markdown 20230627/k/kraken-wrapper/0.27.0-0.27.1/diff.md --exclude *.pyd
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230627/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.27.0.tar.gz tmp/kraken_build-0.27.1.tar.gz --markdown 20230627/k/kraken-build/0.27.0-0.27.1/diff.md --exclude *.pyd
+[2023-06-27 13:21:36] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/43/28/2b7793dfb703ef50510ee7c2e82b39201953d1222bc28465aec2fc6f12fc/wafermap-clustering-0.2.8.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [error-alerts]: executing diffoscope
+[2023-06-27 13:21:36] INFO root fetch - processPackages [error-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-alerts-4.5.tar.gz tmp/error-alerts-4.6.tar.gz --markdown 20230627/e/error-alerts/4.5-4.6/diff.md --exclude *.pyd
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-06-27 13:21:36] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.2.7.tar.gz tmp/wafermap-clustering-0.2.8.tar.gz --markdown 20230627/w/wafermap-clustering/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-06-27 13:21:36] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230627/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-27 13:21:36] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/f3/0e/46ba46fd9bd58f328ec9642711a0147d790cb1af6dc1c7e9f72f99a87249/fyle-integrations-platform-connector-1.9.0.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [mara-cron]: Downloading https://files.pythonhosted.org/packages/7e/07/1ec8206f5e281ff7929c9cd3b9a4cdb618841c6953112316c3c11c6459dc/mara-cron-0.9.6.tar.gz
+[2023-06-27 13:21:36] INFO root fetch - processPackages [fyle-integrations-platform-connector]: executing diffoscope
+[2023-06-27 13:21:36] INFO root fetch - processPackages [fyle-integrations-platform-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyle-integrations-platform-connector-1.8.0.tar.gz tmp/fyle-integrations-platform-connector-1.9.0.tar.gz --markdown 20230627/f/fyle-integrations-platform-connector/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-27 13:21:36] INFO root fetch - processPackages [mara-cron]: executing diffoscope
+[2023-06-27 13:21:36] INFO root fetch - processPackages [mara-cron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mara-cron-0.9.5.tar.gz tmp/mara-cron-0.9.6.tar.gz --markdown 20230627/m/mara-cron/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-27 13:21:38] INFO root fetch - processPackages [how-fake-accounts]: Remove: archive file [/home/abi/fetcher/tmp/how_fake_accounts-0.3.0.tar.gz]
+[2023-06-27 13:21:38] INFO root fetch - processPackages [how-fake-accounts]: Remove: archive file [/home/abi/fetcher/tmp/how_fake_accounts-0.3.1.tar.gz]
+[2023-06-27 13:21:38] INFO root fetch - processPackages [how-fake-accounts]: Start processing: capellambse
+[2023-06-27 13:21:38] INFO root fetch - main [MainThread]: End processing [how-fake-accounts]: success
+[2023-06-27 13:21:38] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.27.0.tar.gz]
+[2023-06-27 13:21:38] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.27.1.tar.gz]
+[2023-06-27 13:21:38] INFO root fetch - processPackages [kraken-build]: Start processing: parse-it
+[2023-06-27 13:21:38] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2023-06-27 13:21:38] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-06-27 13:21:38] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.7.tar.gz]
+[2023-06-27 13:21:38] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.8.tar.gz]
+[2023-06-27 13:21:38] INFO root fetch - processPackages [wafermap-clustering]: Start processing: pepperize.cdk-private-bucket
+[2023-06-27 13:21:38] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-06-27 13:21:38] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-06-27 13:21:38] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 13:21:38] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/cd/52/dbb13663fccbffb09d020cc56e8a7a1b551efa4c47759a518f758bba3f02/parse_it-3.7.0.tar.gz
+[2023-06-27 13:21:38] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-06-27 13:21:38] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-06-27 13:21:38] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-4.5.tar.gz]
+[2023-06-27 13:21:38] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-4.6.tar.gz]
+[2023-06-27 13:21:38] INFO root fetch - processPackages [error-alerts]: Start processing: ckanext-fdt-sqlalchemy
+[2023-06-27 13:21:38] INFO root fetch - main [MainThread]: End processing [error-alerts]: success
+[2023-06-27 13:21:39] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-06-27 13:21:39] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.27.0.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.27.1.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-06-27 13:21:39] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.5.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.8.0.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.6.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.9.0.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-06-27 13:21:39] INFO root fetch - main [MainThread]: End processing [fyle-integrations-platform-connector]: success
+[2023-06-27 13:21:39] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-06-27 13:21:39] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 13:21:39] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/3b/d8/0a3f4a732fa677a35dbea4e9c72741f55e44859dc1c79bf5edfce61d95f0/parse_it-3.8.0.tar.gz
+[2023-06-27 13:21:39] INFO root fetch - processPackages [mara-cron]: Remove: archive file [/home/abi/fetcher/tmp/mara-cron-0.9.5.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - processPackages [mara-cron]: Remove: archive file [/home/abi/fetcher/tmp/mara-cron-0.9.6.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - main [MainThread]: End processing [mara-cron]: success
+[2023-06-27 13:21:39] WARNING root fetch - processPackages [ckanext-fdt-sqlalchemy]: Skipping, unable to determine old version
+[2023-06-27 13:21:39] INFO root fetch - main [MainThread]: End processing [ckanext-fdt-sqlalchemy] error
+[2023-06-27 13:21:39] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.3.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.4.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-06-27 13:21:39] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2023-06-27 13:21:39] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20230627/p/parse-it/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-06-27 13:21:39] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.8.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.9.tar.gz]
+[2023-06-27 13:21:39] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-06-27 13:21:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-06-27 13:21:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-06-27 13:21:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-06-27 13:21:40] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.7.0.tar.gz]
+[2023-06-27 13:21:40] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.8.0.tar.gz]
+[2023-06-27 13:21:40] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2023-06-27 13:21:40] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-06-27 13:21:42] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-06-27 13:21:42] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230627/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-06-27 13:21:49] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-06-27 13:21:49] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-06-27 13:21:49] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-06-27 13:21:49] INFO root fetch - main [MainThread]: Store serial: [18661852]
