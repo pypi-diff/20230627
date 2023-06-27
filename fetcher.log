@@ -22662,3 +22662,234 @@ AssertionError: tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz does not exist
 [2023-06-27 14:15:36] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.1.18.tar.gz]
 [2023-06-27 14:15:36] INFO root fetch - main [MainThread]: End processing [decoratory]: success
 [2023-06-27 14:15:36] INFO root fetch - main [MainThread]: Store serial: [18662444]
+[2023-06-27 14:20:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18662444]
+[2023-06-27 14:20:45] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-27 14:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: returnn
+[2023-06-27 14:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ggvlib
+[2023-06-27 14:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangounittest
+[2023-06-27 14:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ieseg-credscore
+[2023-06-27 14:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentry-cli
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drfetools
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tuxbake
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Bigsansar
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adataset
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ieseg-credscore]: New version: [0.23.2] Old Version: [0.23.1]
+[2023-06-27 14:20:46] INFO root fetch - processPackages [sentry-cli]: New version: [2.19.3] Old Version: [2.19.2]
+[2023-06-27 14:20:46] INFO root fetch - processPackages [djangounittest]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 14:20:46] INFO root fetch - processPackages [adataset]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 14:20:46] INFO root fetch - processPackages [tuxbake]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-27 14:20:46] INFO root fetch - processPackages [drfetools]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-27 14:20:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 14:20:46] INFO root fetch - processPackages [Bigsansar]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-06-27 14:20:46] INFO root fetch - processPackages [returnn]: New version: [1.20230627.135908] Old Version: [1.20230626.75721]
+[2023-06-27 14:20:46] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/36/14/c22c9c2bede334c12a4cb01b8fa3e8d621e6bac652e9b795b3a829ebf4bf/djangounittest-0.2.2.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [drfetools]: Downloading https://files.pythonhosted.org/packages/4d/01/9f84a0870575a670ad1d7f4cc2e9db5a8c0f8d1a2cb0337962c70ac7a753/drfetools-0.3.1.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/e1/d5/b746d45df3efbfbbf2796d318deae3264b85984194d92f923aae2a03ef8c/sentry_cli-2.19.2.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/71/7a/b1f39c629d47104eb44d4107ff7ea057805c8f32c17cd08c444f039a8c21/Bigsansar-1.7.6.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [adataset]: Downloading https://files.pythonhosted.org/packages/cd/b2/6117d0c432c63a34888afc3e4c0502628f6ab87adf3a4d4f191e31c3de31/adataset-0.1.2.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ieseg-credscore]: Downloading https://files.pythonhosted.org/packages/60/52/411253173493bd27c22b4e377623ee12dd47f5611d7a179843cbe3ae4220/ieseg_credscore-0.23.1.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/c8/a4/76d1f8bec5b3584ef0e86ce8e53ab63916ffc36fcb0d2d8b4f0d337700c3/ggvlib-0.2.8.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/e1/08/b8c0dbcc693c2305787f256c1ed98180b16f27a1a9c0d7146ced66e4e515/returnn-1.20230626.75721.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [tuxbake]: Downloading https://files.pythonhosted.org/packages/bc/6d/6a94d5f1a5393ff07d90306c6d5ac48196c99cbd293c9530586360a33a56/tuxbake-0.4.1.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/a5/f0/9f13a30d8fd10d86508debd27cccb4bf12f47ca5e2cbff48f57b13acc64a/djangounittest-0.2.3.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/19/f7/47370389a95ec50893dcc0081320b7582c458084148386bcf8fc28ba56b8/sentry_cli-2.19.3.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [drfetools]: Downloading https://files.pythonhosted.org/packages/eb/3d/2e0aa9f61b1265e7c6c3b2aa7a5a3692277583257407cd6e68d16fab049d/drfetools-0.3.2.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [sentry-cli]: executing diffoscope
+[2023-06-27 14:20:46] INFO root fetch - processPackages [sentry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_cli-2.19.2.tar.gz tmp/sentry_cli-2.19.3.tar.gz --markdown 20230627/s/sentry-cli/2.19.2-2.19.3/diff.md --exclude *.pyd
+[2023-06-27 14:20:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-06-27 14:20:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 14:20:46] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/6f/ce/6d47333ed793ea55609e4d63a6ea14e614133cf5754e65df68eee0d7c46a/Bigsansar-1.7.7.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ieseg-credscore]: Downloading https://files.pythonhosted.org/packages/6b/06/841c52f39cb550d00828e108c9d89a23f2dc874ee40c56cf8afe57423dd2/ieseg_credscore-0.23.2.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [djangounittest]: executing diffoscope
+[2023-06-27 14:20:46] INFO root fetch - processPackages [djangounittest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangounittest-0.2.2.tar.gz tmp/djangounittest-0.2.3.tar.gz --markdown 20230627/d/djangounittest/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-27 14:20:46] INFO root fetch - processPackages [adataset]: Downloading https://files.pythonhosted.org/packages/2c/95/2398ccc6278ef1a054ae9107177178fbdbcef036c4874d4b41066152a484/adataset-0.1.3.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/34/94/a276f716d8fabdf90cef3cc2a1fccf75e3e71e43c098bb84478fc31b0ff6/ggvlib-0.2.9.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [tuxbake]: Downloading https://files.pythonhosted.org/packages/15/d6/9861d456f5e8ec62521b51988c2ca37675314d0eade637df06e2deda3c12/tuxbake-0.5.0.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/a5/75/0eb757fecd32a99dcea48cada734cd015b0299c9211b0408a491d6dd34e9/returnn-1.20230627.135908.tar.gz
+[2023-06-27 14:20:46] INFO root fetch - processPackages [adataset]: executing diffoscope
+[2023-06-27 14:20:46] INFO root fetch - processPackages [adataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adataset-0.1.2.tar.gz tmp/adataset-0.1.3.tar.gz --markdown 20230627/a/adataset/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 14:20:46] INFO root fetch - processPackages [drfetools]: executing diffoscope
+[2023-06-27 14:20:46] INFO root fetch - processPackages [drfetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drfetools-0.3.1.tar.gz tmp/drfetools-0.3.2.tar.gz --markdown 20230627/d/drfetools/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20230627/g/ggvlib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ieseg-credscore]: executing diffoscope
+[2023-06-27 14:20:46] INFO root fetch - processPackages [ieseg-credscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ieseg_credscore-0.23.1.tar.gz tmp/ieseg_credscore-0.23.2.tar.gz --markdown 20230627/i/ieseg-credscore/0.23.1-0.23.2/diff.md --exclude *.pyd
+[2023-06-27 14:20:46] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-27 14:20:46] INFO root fetch - processPackages [tuxbake]: executing diffoscope
+[2023-06-27 14:20:46] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.7.6.tar.gz tmp/Bigsansar-1.7.7.tar.gz --markdown 20230627/B/Bigsansar/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-06-27 14:20:46] INFO root fetch - processPackages [tuxbake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxbake-0.4.1.tar.gz tmp/tuxbake-0.5.0.tar.gz --markdown 20230627/t/tuxbake/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-27 14:20:47] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-06-27 14:20:47] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230626.75721.tar.gz tmp/returnn-1.20230627.135908.tar.gz --markdown 20230627/r/returnn/1.20230626.75721-1.20230627.135908/diff.md --exclude *.pyd
+[2023-06-27 14:20:48] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.2.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.3.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [djangounittest]: Start processing: zyme
+[2023-06-27 14:20:48] INFO root fetch - main [MainThread]: End processing [djangounittest]: success
+[2023-06-27 14:20:48] INFO root fetch - processPackages [zyme]: New version: [0.1.5] Old Version: [0.1.1]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [zyme]: Downloading https://files.pythonhosted.org/packages/c8/6a/770b3b5a52204fa70a3ceb98bd6d0475ce3a7e71e54883d320e8bc5bc072/zyme-0.1.1.tar.gz
+[2023-06-27 14:20:48] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: typingdict
+[2023-06-27 14:20:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-06-27 14:20:48] INFO root fetch - processPackages [typingdict]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [adataset]: Remove: archive file [/home/abi/fetcher/tmp/adataset-0.1.2.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [adataset]: Remove: archive file [/home/abi/fetcher/tmp/adataset-0.1.3.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [adataset]: Start processing: unified-planning
+[2023-06-27 14:20:48] INFO root fetch - main [MainThread]: End processing [adataset]: success
+[2023-06-27 14:20:48] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [typingdict]: Downloading https://files.pythonhosted.org/packages/7c/53/16b4915b9144a1af5f485b35899be71431437257e3b501fe66edfc4e2257/typingdict-0.0.2.tar.gz
+[2023-06-27 14:20:48] INFO root fetch - processPackages [zyme]: Downloading https://files.pythonhosted.org/packages/76/af/3a469496c985e2b1409c6b23a7c21c813ca1783d4d871147fff5e848630f/zyme-0.1.5.tar.gz
+[2023-06-27 14:20:48] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-27 14:20:48] INFO root fetch - processPackages [ieseg-credscore]: Remove: archive file [/home/abi/fetcher/tmp/ieseg_credscore-0.23.1.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [ieseg-credscore]: Remove: archive file [/home/abi/fetcher/tmp/ieseg_credscore-0.23.2.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [ieseg-credscore]: Start processing: QuNet
+[2023-06-27 14:20:48] INFO root fetch - main [MainThread]: End processing [ieseg-credscore]: success
+[2023-06-27 14:20:48] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [zyme]: executing diffoscope
+[2023-06-27 14:20:48] INFO root fetch - processPackages [zyme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyme-0.1.1.tar.gz tmp/zyme-0.1.5.tar.gz --markdown 20230627/z/zyme/0.1.1-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 14:20:48] INFO root fetch - processPackages [drfetools]: Remove: archive file [/home/abi/fetcher/tmp/drfetools-0.3.1.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [drfetools]: Remove: archive file [/home/abi/fetcher/tmp/drfetools-0.3.2.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [drfetools]: Start processing: automation-utilities
+[2023-06-27 14:20:48] INFO root fetch - main [MainThread]: End processing [drfetools]: success
+[2023-06-27 14:20:48] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-06-27 14:20:48] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.8.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.9.tar.gz]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [ggvlib]: Start processing: django-codemod
+[2023-06-27 14:20:48] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2023-06-27 14:20:48] INFO root fetch - processPackages [automation-utilities]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [typingdict]: Downloading https://files.pythonhosted.org/packages/4e/dd/2b6ebf387f9ad40c5e21e608473d7960a5a47839be6f8725e1912fd2ce6c/typingdict-0.0.3.tar.gz
+[2023-06-27 14:20:48] INFO root fetch - processPackages [django-codemod]: New version: [2.0.0] Old Version: [1.9.1]
+[2023-06-27 14:20:48] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-27 14:20:49] INFO root fetch - processPackages [typingdict]: executing diffoscope
+[2023-06-27 14:20:49] INFO root fetch - processPackages [typingdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typingdict-0.0.2.tar.gz tmp/typingdict-0.0.3.tar.gz --markdown 20230627/t/typingdict/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 14:20:49] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/be/20/20dd0af75db75ffa63d73fdfd58855c5eb840e4180fe8528bf415a81c9a9/automation-utilities-1.3.1.tar.gz
+[2023-06-27 14:20:49] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-27 14:20:49] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230627/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-27 14:20:49] INFO root fetch - processPackages [django-codemod]: Downloading https://files.pythonhosted.org/packages/f1/7b/adeb211f126a3af1c16e92dc862919545798df7e7ea1677d846d66d5cbb2/django-codemod-1.9.1.tar.gz
+[2023-06-27 14:20:49] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-06-27 14:20:49] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-27 14:20:49] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230627/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 14:20:49] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/99/53/407dbde3ffb3e422e7693a01542f114156429d6817c3612ad4fa702b4f64/automation-utilities-1.3.2.tar.gz
+[2023-06-27 14:20:49] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-06-27 14:20:49] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.3.1.tar.gz tmp/automation-utilities-1.3.2.tar.gz --markdown 20230627/a/automation-utilities/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-27 14:20:49] INFO root fetch - processPackages [django-codemod]: Downloading https://files.pythonhosted.org/packages/73/99/8bb4723d52d0d5e7d0b8adc135c5b2785db531fb8604e3114a43562db355/django_codemod-2.0.0.tar.gz
+[2023-06-27 14:20:49] INFO root fetch - processPackages [django-codemod]: executing diffoscope
+[2023-06-27 14:20:49] INFO root fetch - processPackages [django-codemod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codemod-1.9.1.tar.gz tmp/django_codemod-2.0.0.tar.gz --markdown 20230627/d/django-codemod/1.9.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-27 14:20:50] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.6.tar.gz]
+[2023-06-27 14:20:50] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.7.tar.gz]
+[2023-06-27 14:20:50] INFO root fetch - processPackages [Bigsansar]: Start processing: msmanager
+[2023-06-27 14:20:50] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-27 14:20:50] INFO root fetch - processPackages [msmanager]: New version: [0.2.2.dev3] Old Version: [0.2.2.dev2]
+[2023-06-27 14:20:50] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/2d/78/5d6eea8e7d8b22dfacedd6d58de68dc465a379b3fa5f7c9733e1bb9fd2db/msmanager-0.2.2.dev2.tar.gz
+[2023-06-27 14:20:50] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/6f/0d/d4608c9d3c7fae954765bea9d07ae95c4f52730b4343281f20832cdcf967/msmanager-0.2.2.dev3.tar.gz
+[2023-06-27 14:20:50] INFO root fetch - processPackages [typingdict]: Remove: archive file [/home/abi/fetcher/tmp/typingdict-0.0.2.tar.gz]
+[2023-06-27 14:20:50] INFO root fetch - processPackages [typingdict]: Remove: archive file [/home/abi/fetcher/tmp/typingdict-0.0.3.tar.gz]
+[2023-06-27 14:20:50] INFO root fetch - processPackages [typingdict]: Start processing: archive-pdf-tools
+[2023-06-27 14:20:50] INFO root fetch - main [MainThread]: End processing [typingdict]: success
+[2023-06-27 14:20:50] INFO root fetch - processPackages [archive-pdf-tools]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-27 14:20:50] INFO root fetch - processPackages [msmanager]: executing diffoscope
+[2023-06-27 14:20:50] INFO root fetch - processPackages [msmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msmanager-0.2.2.dev2.tar.gz tmp/msmanager-0.2.2.dev3.tar.gz --markdown 20230627/m/msmanager/0.2.2.dev2-0.2.2.dev3/diff.md --exclude *.pyd
+[2023-06-27 14:20:50] INFO root fetch - processPackages [zyme]: Remove: archive file [/home/abi/fetcher/tmp/zyme-0.1.1.tar.gz]
+[2023-06-27 14:20:50] INFO root fetch - processPackages [zyme]: Remove: archive file [/home/abi/fetcher/tmp/zyme-0.1.5.tar.gz]
+[2023-06-27 14:20:50] INFO root fetch - processPackages [zyme]: Start processing: sdc11073
+[2023-06-27 14:20:50] INFO root fetch - main [MainThread]: End processing [zyme]: success
+[2023-06-27 14:20:50] INFO root fetch - processPackages [sdc11073]: New version: [2.0.0a5] Old Version: [2.0.0a4]
+[2023-06-27 14:20:50] INFO root fetch - processPackages [archive-pdf-tools]: Downloading https://files.pythonhosted.org/packages/08/67/44847a69fa17f1050302e26dc5853b9cba5af21e0f0339c54b82d2a007b6/archive-pdf-tools-1.5.2.tar.gz
+[2023-06-27 14:20:50] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.3.1.tar.gz]
+[2023-06-27 14:20:50] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.3.2.tar.gz]
+[2023-06-27 14:20:50] INFO root fetch - processPackages [automation-utilities]: Start processing: fraggler
+[2023-06-27 14:20:50] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-06-27 14:20:51] WARNING root fetch - processPackages [fraggler]: Skipping, unable to determine old version
+[2023-06-27 14:20:51] INFO root fetch - processPackages [fraggler]: Start processing: tessa
+[2023-06-27 14:20:51] INFO root fetch - main [MainThread]: End processing [fraggler] error
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tessa]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tuxbake]: Remove: archive file [/home/abi/fetcher/tmp/tuxbake-0.4.1.tar.gz]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [sdc11073]: Downloading https://files.pythonhosted.org/packages/59/5f/8ce07f7cba2b508fe21be08e96eb4f39511400b30e57169bf4211a8ba2f8/sdc11073-2.0.0a4.tar.gz
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tuxbake]: Remove: archive file [/home/abi/fetcher/tmp/tuxbake-0.5.0.tar.gz]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tuxbake]: Start processing: tdwnsv3
+[2023-06-27 14:20:51] INFO root fetch - main [MainThread]: End processing [tuxbake]: success
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tdwnsv3]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tessa]: Downloading https://files.pythonhosted.org/packages/52/4d/958c6a1813ad95256d4ac41a577c09d0a1f41db07b0bb3c0eae90c98a63f/tessa-0.7.1.tar.gz
+[2023-06-27 14:20:51] INFO root fetch - processPackages [archive-pdf-tools]: Downloading https://files.pythonhosted.org/packages/e3/29/d5f2acaa4a06c02daa801dae28668b94703ae84f013fe5f800ab23e9d330/archive-pdf-tools-1.5.3.tar.gz
+[2023-06-27 14:20:51] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [QuNet]: Start processing: gull-api
+[2023-06-27 14:20:51] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-27 14:20:51] INFO root fetch - processPackages [gull-api]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [archive-pdf-tools]: executing diffoscope
+[2023-06-27 14:20:51] INFO root fetch - processPackages [archive-pdf-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archive-pdf-tools-1.5.2.tar.gz tmp/archive-pdf-tools-1.5.3.tar.gz --markdown 20230627/a/archive-pdf-tools/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tdwnsv3]: Downloading https://files.pythonhosted.org/packages/f2/6b/09c3b041ce96ea9010d3a1a60a4bfc47cb4ee1b3852b61fb24c24e4ac4ff/tdwnsv3-1.9.1.tar.gz
+[2023-06-27 14:20:51] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/bb/c0/6d6c3280629a05aa952bd7e279ce6f6754fbe660b85962be84ca09171e64/gull_api-0.0.14.tar.gz
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tessa]: Downloading https://files.pythonhosted.org/packages/75/d0/197b2697e1c6294d36d7660bb6046915af5a4db96a98d2cb151a2ec694f5/tessa-0.8.0.tar.gz
+[2023-06-27 14:20:51] INFO root fetch - processPackages [sdc11073]: Downloading https://files.pythonhosted.org/packages/b9/08/3ed2268cc888c308a73a4111ee0a725bbab25b0e130326098f0b3a06f08c/sdc11073-2.0.0a5.tar.gz
+[2023-06-27 14:20:51] INFO root fetch - processPackages [django-codemod]: Remove: archive file [/home/abi/fetcher/tmp/django-codemod-1.9.1.tar.gz]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [django-codemod]: Remove: archive file [/home/abi/fetcher/tmp/django_codemod-2.0.0.tar.gz]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [django-codemod]: Start processing: monstermash
+[2023-06-27 14:20:51] INFO root fetch - main [MainThread]: End processing [django-codemod]: success
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tessa]: executing diffoscope
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tessa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tessa-0.7.1.tar.gz tmp/tessa-0.8.0.tar.gz --markdown 20230627/t/tessa/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-27 14:20:51] INFO root fetch - processPackages [monstermash]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [sdc11073]: executing diffoscope
+[2023-06-27 14:20:51] INFO root fetch - processPackages [sdc11073]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc11073-2.0.0a4.tar.gz tmp/sdc11073-2.0.0a5.tar.gz --markdown 20230627/s/sdc11073/2.0.0a4-2.0.0a5/diff.md --exclude *.pyd
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tdwnsv3]: Downloading https://files.pythonhosted.org/packages/89/72/6cc5ce7774a8031fe1495c296fe187d72fcd25e4f52418b1b59196236ac5/tdwnsv3-1.9.2.tar.gz
+[2023-06-27 14:20:51] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/ce/80/2460f474eb0f1573a592ad3bb2e74db592dad97c0b0ecd16710084301b5c/gull_api-0.0.15.tar.gz
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tdwnsv3]: executing diffoscope
+[2023-06-27 14:20:51] INFO root fetch - processPackages [tdwnsv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdwnsv3-1.9.1.tar.gz tmp/tdwnsv3-1.9.2.tar.gz --markdown 20230627/t/tdwnsv3/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-27 14:20:51] INFO root fetch - processPackages [gull-api]: executing diffoscope
+[2023-06-27 14:20:51] INFO root fetch - processPackages [gull-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gull_api-0.0.14.tar.gz tmp/gull_api-0.0.15.tar.gz --markdown 20230627/g/gull-api/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-06-27 14:20:51] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.19.2.tar.gz]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.19.3.tar.gz]
+[2023-06-27 14:20:51] INFO root fetch - processPackages [sentry-cli]: Start processing: pyfsig
+[2023-06-27 14:20:51] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
+[2023-06-27 14:20:51] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/fc/fc/0f82b213a8b04bcc8b2ce2ad7092aa5e378767e6d7de2e9950a62df0d5c2/monstermash-1.1.0.tar.gz
+[2023-06-27 14:20:51] INFO root fetch - processPackages [pyfsig]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-27 14:20:52] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/65/7b/5aaef0f461d99210c38a1e4d0a43648ea4a13e531255e75ac10a0d976b08/monstermash-1.2.0.tar.gz
+[2023-06-27 14:20:52] INFO root fetch - processPackages [pyfsig]: Downloading https://files.pythonhosted.org/packages/55/d6/820092d99e39d1620ff60a794187c9573920bee48843da753e4a1bca1943/pyfsig-0.7.0.tar.gz
+[2023-06-27 14:20:52] INFO root fetch - processPackages [monstermash]: executing diffoscope
+[2023-06-27 14:20:52] INFO root fetch - processPackages [monstermash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monstermash-1.1.0.tar.gz tmp/monstermash-1.2.0.tar.gz --markdown 20230627/m/monstermash/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-27 14:20:52] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.2.2.dev2.tar.gz]
+[2023-06-27 14:20:52] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.2.2.dev3.tar.gz]
+[2023-06-27 14:20:52] INFO root fetch - processPackages [msmanager]: Start processing: gpt-code-search
+[2023-06-27 14:20:52] INFO root fetch - main [MainThread]: End processing [msmanager]: success
+[2023-06-27 14:20:52] INFO root fetch - processPackages [gpt-code-search]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-27 14:20:52] INFO root fetch - processPackages [pyfsig]: Downloading https://files.pythonhosted.org/packages/2f/44/e2a407b94b9d0eacd4660baff650af9ae5f038e14411efd05555b4bce255/pyfsig-0.7.1.tar.gz
+[2023-06-27 14:20:52] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/6d/da/cb9997c595b1501eb99b806687240209d86980bbc240ec6a8b5282ab04dc/gpt_code_search-0.0.6.tar.gz
+[2023-06-27 14:20:52] INFO root fetch - processPackages [pyfsig]: executing diffoscope
+[2023-06-27 14:20:52] INFO root fetch - processPackages [pyfsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfsig-0.7.0.tar.gz tmp/pyfsig-0.7.1.tar.gz --markdown 20230627/p/pyfsig/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-27 14:20:52] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/dc/14/16cd4f1163848dc361de6b320a3ecacd9601982a687d63a7874080fa9d89/gpt_code_search-0.0.7.tar.gz
+[2023-06-27 14:20:52] INFO root fetch - processPackages [gpt-code-search]: executing diffoscope
+[2023-06-27 14:20:52] INFO root fetch - processPackages [gpt-code-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_search-0.0.6.tar.gz tmp/gpt_code_search-0.0.7.tar.gz --markdown 20230627/g/gpt-code-search/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-27 14:20:53] INFO root fetch - processPackages [tdwnsv3]: Remove: archive file [/home/abi/fetcher/tmp/tdwnsv3-1.9.1.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - processPackages [tdwnsv3]: Remove: archive file [/home/abi/fetcher/tmp/tdwnsv3-1.9.2.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - main [MainThread]: End processing [tdwnsv3]: success
+[2023-06-27 14:20:53] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.14.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.15.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - main [MainThread]: End processing [gull-api]: success
+[2023-06-27 14:20:53] INFO root fetch - processPackages [tessa]: Remove: archive file [/home/abi/fetcher/tmp/tessa-0.7.1.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - processPackages [tessa]: Remove: archive file [/home/abi/fetcher/tmp/tessa-0.8.0.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - main [MainThread]: End processing [tessa]: success
+[2023-06-27 14:20:53] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.1.0.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.2.0.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - main [MainThread]: End processing [monstermash]: success
+[2023-06-27 14:20:53] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230626.75721.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230627.135908.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-06-27 14:20:53] INFO root fetch - processPackages [pyfsig]: Remove: archive file [/home/abi/fetcher/tmp/pyfsig-0.7.0.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - processPackages [pyfsig]: Remove: archive file [/home/abi/fetcher/tmp/pyfsig-0.7.1.tar.gz]
+[2023-06-27 14:20:53] INFO root fetch - main [MainThread]: End processing [pyfsig]: success
+[2023-06-27 14:20:54] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.6.tar.gz]
+[2023-06-27 14:20:54] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.7.tar.gz]
+[2023-06-27 14:20:54] INFO root fetch - main [MainThread]: End processing [gpt-code-search]: success
+[2023-06-27 14:20:54] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-27 14:20:54] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-27 14:20:54] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-27 14:20:56] INFO root fetch - processPackages [archive-pdf-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-pdf-tools-1.5.2.tar.gz]
+[2023-06-27 14:20:56] INFO root fetch - processPackages [archive-pdf-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-pdf-tools-1.5.3.tar.gz]
+[2023-06-27 14:20:56] INFO root fetch - main [MainThread]: End processing [archive-pdf-tools]: success
+[2023-06-27 14:20:57] INFO root fetch - processPackages [sdc11073]: Remove: archive file [/home/abi/fetcher/tmp/sdc11073-2.0.0a4.tar.gz]
+[2023-06-27 14:20:57] INFO root fetch - processPackages [sdc11073]: Remove: archive file [/home/abi/fetcher/tmp/sdc11073-2.0.0a5.tar.gz]
+[2023-06-27 14:20:57] INFO root fetch - main [MainThread]: End processing [sdc11073]: success
+[2023-06-27 14:20:57] INFO root fetch - main [MainThread]: Store serial: [18662545]
