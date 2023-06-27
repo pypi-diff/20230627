@@ -18949,3 +18949,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 11:48:55] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202306270944.tar.gz]
 [2023-06-27 11:48:55] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-06-27 11:48:55] INFO root fetch - main [MainThread]: Store serial: [18660918]
+[2023-06-27 11:54:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18660918]
+[2023-06-27 11:54:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-27 11:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paradigm-client
+[2023-06-27 11:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gspot-fastapi-auth
+[2023-06-27 11:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gnu6
+[2023-06-27 11:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: power-grid-model
+[2023-06-27 11:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ocamlec-plt
+[2023-06-27 11:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastnode2vec
+[2023-06-27 11:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jina
+[2023-06-27 11:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mentord
+[2023-06-27 11:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-pagination
+[2023-06-27 11:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: causica
+[2023-06-27 11:54:08] INFO root fetch - processPackages [gspot-fastapi-auth]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 11:54:08] INFO root fetch - processPackages [fastnode2vec]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-27 11:54:08] WARNING root fetch - processPackages [ocamlec-plt]: Skipping, unable to determine old version
+[2023-06-27 11:54:08] INFO root fetch - processPackages [ocamlec-plt]: Start processing: mkdocs-run-shell-cmd-plugin
+[2023-06-27 11:54:08] INFO root fetch - main [MainThread]: End processing [ocamlec-plt] error
+[2023-06-27 11:54:08] INFO root fetch - processPackages [paradigm-client]: New version: [0.3] Old Version: [0.2.1]
+[2023-06-27 11:54:08] WARNING root fetch - processPackages [gnu6]: Skipping, unable to determine old version
+[2023-06-27 11:54:08] INFO root fetch - main [MainThread]: End processing [gnu6] error
+[2023-06-27 11:54:08] WARNING root fetch - processPackages [mentord]: Skipping, unable to determine old version
+[2023-06-27 11:54:08] INFO root fetch - main [MainThread]: End processing [mentord] error
+[2023-06-27 11:54:08] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9192016554667] Old Version: [1.5.0rc9190704883749]
+[2023-06-27 11:54:08] WARNING root fetch - processPackages [mkdocs-run-shell-cmd-plugin]: Skipping, unable to determine old version
+[2023-06-27 11:54:08] INFO root fetch - main [MainThread]: End processing [mkdocs-run-shell-cmd-plugin] error
+[2023-06-27 11:54:08] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-06-27 11:54:08] INFO root fetch - processPackages [fastapi-pagination]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-27 11:54:08] INFO root fetch - processPackages [causica]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-27 11:54:08] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/14/4e/f4918d499a2ca8b88ecc3a4980caa4546bb4d89b3db8f84790349f349223/power-grid-model-1.5.0rc9190704883749.tar.gz
+[2023-06-27 11:54:08] INFO root fetch - processPackages [gspot-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/f6/81/c9bd4b08f0f7ce0a06d840e762a3abb6ceeab536063a7a3a3dff3fd26247/gspot_fastapi_auth-0.0.1.tar.gz
+[2023-06-27 11:54:08] INFO root fetch - processPackages [paradigm-client]: Downloading https://files.pythonhosted.org/packages/18/bb/645f00001ba773fd1ba7bc9394e6924c74c7e6a5233a4220510984b89de7/paradigm_client-0.2.1.tar.gz
+[2023-06-27 11:54:08] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-06-27 11:54:08] INFO root fetch - processPackages [fastapi-pagination]: Downloading https://files.pythonhosted.org/packages/54/38/52db6bdf19417602084dfda74d5caf2af9752242fa29fcc26a8c8d55668c/fastapi-pagination-0.9.2.tar.gz
+[2023-06-27 11:54:08] INFO root fetch - processPackages [causica]: Downloading https://files.pythonhosted.org/packages/6e/cd/1022687b2f2ba9f579eff84b4a026b4d21c214fb5987824093899fd8bf78/causica-0.3.2.tar.gz
+[2023-06-27 11:54:08] INFO root fetch - processPackages [fastnode2vec]: Downloading https://files.pythonhosted.org/packages/c6/3d/c91f2c53418dc20320d057f0d9f278703e4861e0a53b518015e001a9e0b8/fastnode2vec-0.0.6.tar.gz
+[2023-06-27 11:54:09] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f3/60/769780b5c35407af6da5f897367ec2e3469b7822869631a028251eb59568/power-grid-model-1.5.0rc9192016554667.tar.gz
+[2023-06-27 11:54:09] INFO root fetch - processPackages [gspot-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/68/f8/41e5172ba59afd77c1bfd8bd22629cee801022bf64d11eb4e45ea59e58b7/gspot_fastapi_auth-0.0.2.tar.gz
+[2023-06-27 11:54:09] INFO root fetch - processPackages [paradigm-client]: Downloading https://files.pythonhosted.org/packages/36/3b/eae63447cce3c71ce8b08f2d98f9a1bf2154e21b6eaa3722dffe3d1af5a9/paradigm_client-0.3.tar.gz
+[2023-06-27 11:54:09] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-06-27 11:54:09] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-27 11:54:09] INFO root fetch - processPackages [gspot-fastapi-auth]: executing diffoscope
+[2023-06-27 11:54:09] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9190704883749.tar.gz tmp/power-grid-model-1.5.0rc9192016554667.tar.gz --markdown 20230627/p/power-grid-model/1.5.0rc9190704883749-1.5.0rc9192016554667/diff.md --exclude *.pyd
+[2023-06-27 11:54:09] INFO root fetch - processPackages [gspot-fastapi-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspot_fastapi_auth-0.0.1.tar.gz tmp/gspot_fastapi_auth-0.0.2.tar.gz --markdown 20230627/g/gspot-fastapi-auth/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 11:54:09] INFO root fetch - processPackages [fastnode2vec]: Downloading https://files.pythonhosted.org/packages/f4/e8/c508246e1982355366d2d321627ad3b4b8861cb249c99fd1b4b4f48f9d2b/fastnode2vec-0.0.7.tar.gz
+[2023-06-27 11:54:09] INFO root fetch - processPackages [paradigm-client]: executing diffoscope
+[2023-06-27 11:54:09] INFO root fetch - processPackages [paradigm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradigm_client-0.2.1.tar.gz tmp/paradigm_client-0.3.tar.gz --markdown 20230627/p/paradigm-client/0.2.1-0.3/diff.md --exclude *.pyd
+[2023-06-27 11:54:09] INFO root fetch - processPackages [causica]: Downloading https://files.pythonhosted.org/packages/d7/41/b220230e801241f4fc898195f2d00e21f96cbad6fa7fc977b797054cb775/causica-0.3.3.tar.gz
+[2023-06-27 11:54:09] INFO root fetch - processPackages [fastapi-pagination]: Downloading https://files.pythonhosted.org/packages/ae/72/c53269908968568bb661a08b6faf00ce7b8219af0f9541920ed5bcd83724/fastapi-pagination-0.9.3.tar.gz
+[2023-06-27 11:54:09] INFO root fetch - processPackages [fastnode2vec]: executing diffoscope
+[2023-06-27 11:54:09] INFO root fetch - processPackages [fastnode2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastnode2vec-0.0.6.tar.gz tmp/fastnode2vec-0.0.7.tar.gz --markdown 20230627/f/fastnode2vec/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-27 11:54:09] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-06-27 11:54:09] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230627/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-06-27 11:54:09] INFO root fetch - processPackages [causica]: executing diffoscope
+[2023-06-27 11:54:09] INFO root fetch - processPackages [causica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causica-0.3.2.tar.gz tmp/causica-0.3.3.tar.gz --markdown 20230627/c/causica/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-27 11:54:09] INFO root fetch - processPackages [fastapi-pagination]: executing diffoscope
+[2023-06-27 11:54:09] INFO root fetch - processPackages [fastapi-pagination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-pagination-0.9.2.tar.gz tmp/fastapi-pagination-0.9.3.tar.gz --markdown 20230627/f/fastapi-pagination/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-27 11:54:10] INFO root fetch - processPackages [paradigm-client]: Remove: archive file [/home/abi/fetcher/tmp/paradigm_client-0.2.1.tar.gz]
+[2023-06-27 11:54:10] INFO root fetch - processPackages [paradigm-client]: Remove: archive file [/home/abi/fetcher/tmp/paradigm_client-0.3.tar.gz]
+[2023-06-27 11:54:10] INFO root fetch - main [MainThread]: End processing [paradigm-client]: success
+[2023-06-27 11:54:10] INFO root fetch - processPackages [fastnode2vec]: Remove: archive file [/home/abi/fetcher/tmp/fastnode2vec-0.0.6.tar.gz]
+[2023-06-27 11:54:10] INFO root fetch - processPackages [fastnode2vec]: Remove: archive file [/home/abi/fetcher/tmp/fastnode2vec-0.0.7.tar.gz]
+[2023-06-27 11:54:10] INFO root fetch - main [MainThread]: End processing [fastnode2vec]: success
+[2023-06-27 11:54:10] INFO root fetch - processPackages [gspot-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/gspot_fastapi_auth-0.0.1.tar.gz]
+[2023-06-27 11:54:10] INFO root fetch - processPackages [gspot-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/gspot_fastapi_auth-0.0.2.tar.gz]
+[2023-06-27 11:54:10] INFO root fetch - main [MainThread]: End processing [gspot-fastapi-auth]: success
+[2023-06-27 11:54:11] INFO root fetch - processPackages [fastapi-pagination]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-pagination-0.9.2.tar.gz]
+[2023-06-27 11:54:11] INFO root fetch - processPackages [fastapi-pagination]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-pagination-0.9.3.tar.gz]
+[2023-06-27 11:54:11] INFO root fetch - main [MainThread]: End processing [fastapi-pagination]: success
+[2023-06-27 11:54:11] INFO root fetch - processPackages [causica]: Remove: archive file [/home/abi/fetcher/tmp/causica-0.3.2.tar.gz]
+[2023-06-27 11:54:11] INFO root fetch - processPackages [causica]: Remove: archive file [/home/abi/fetcher/tmp/causica-0.3.3.tar.gz]
+[2023-06-27 11:54:11] INFO root fetch - main [MainThread]: End processing [causica]: success
+[2023-06-27 11:54:11] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2023-06-27 11:54:11] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2023-06-27 11:54:11] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-06-27 11:54:24] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9190704883749.tar.gz]
+[2023-06-27 11:54:24] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9192016554667.tar.gz]
+[2023-06-27 11:54:24] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-27 11:54:24] INFO root fetch - main [MainThread]: Store serial: [18660977]
