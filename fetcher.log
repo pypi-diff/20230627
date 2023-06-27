@@ -12893,3 +12893,105 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 07:18:11] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230626-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-27 07:18:11] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-06-27 07:18:11] INFO root fetch - main [MainThread]: Store serial: [18658308]
+[2023-06-27 07:23:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658308]
+[2023-06-27 07:23:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-27 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-server-environment
+[2023-06-27 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb
+[2023-06-27 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-client
+[2023-06-27 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-dataset
+[2023-06-27 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-models
+[2023-06-27 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-protos
+[2023-06-27 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-sdk
+[2023-06-27 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-utils
+[2023-06-27 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: circlecigen
+[2023-06-27 07:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-sapcommissions
+[2023-06-27 07:23:20] INFO root fetch - processPackages [odoo-addon-server-environment]: New version: [16.0.1.0.2.2] Old Version: [16.0.1.0.2.1]
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 07:23:20] INFO root fetch - processPackages [python-sapcommissions]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 07:23:20] INFO root fetch - processPackages [circlecigen]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-06-27 07:23:20] INFO root fetch - processPackages [python-sapcommissions]: Downloading https://files.pythonhosted.org/packages/ca/66/390311cd57a5ba45ad98697c212545f17561260270636ca7fdcd4f101562/python-sapcommissions-1.0.0.tar.gz
+[2023-06-27 07:23:20] INFO root fetch - processPackages [odoo-addon-server-environment]: Downloading https://files.pythonhosted.org/packages/d7/31/6de4d9c74e71cb811f23b5bc7085bee4e19aae96a3d8974f63ea079ebabd/odoo_addon_server_environment-16.0.1.0.2.1-py3-none-any.whl
+[2023-06-27 07:23:20] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/d7/d0/cc1dc10ef15a1059182ac3356eaef8765f990749615f4148d372e4770ee8/circlecigen-0.0.7.tar.gz
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-27 07:23:20] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-06-27 07:23:21] INFO root fetch - processPackages [python-sapcommissions]: Downloading https://files.pythonhosted.org/packages/aa/3a/bf2b9402b8fb083d23e06ab93f6c056f9867ccaa306fea4e32c4fd024c56/python-sapcommissions-1.0.1.tar.gz
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 07:23:21] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/03/5e/3e772ae9bb46a3355f9563c71f7091b9d7c7e42738ee09cea03d420a5cf3/circlecigen-0.0.8.tar.gz
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-27 07:23:21] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 07:23:21] INFO root fetch - processPackages [python-sapcommissions]: executing diffoscope
+[2023-06-27 07:23:21] INFO root fetch - processPackages [python-sapcommissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sapcommissions-1.0.0.tar.gz tmp/python-sapcommissions-1.0.1.tar.gz --markdown 20230627/p/python-sapcommissions/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 07:23:21] INFO root fetch - processPackages [odoo-addon-server-environment]: Downloading https://files.pythonhosted.org/packages/6e/47/2bfbe896e340455ea1a99fb5335ff242efd94cf6bc532ab3522014a1b41e/odoo_addon_server_environment-16.0.1.0.2.2-py3-none-any.whl
+[2023-06-27 07:23:21] INFO root fetch - processPackages [circlecigen]: executing diffoscope
+[2023-06-27 07:23:21] INFO root fetch - processPackages [circlecigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circlecigen-0.0.7.tar.gz tmp/circlecigen-0.0.8.tar.gz --markdown 20230627/c/circlecigen/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-27 07:23:21] INFO root fetch - processPackages [odoo-addon-server-environment]: executing diffoscope
+[2023-06-27 07:23:21] INFO root fetch - processPackages [odoo-addon-server-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_server_environment-16.0.1.0.2.1-py3-none-any.whl.zip tmp/odoo_addon_server_environment-16.0.1.0.2.2-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-server-environment/16.0.1.0.2.1-16.0.1.0.2.2/diff.md --exclude *.pyd
+[2023-06-27 07:23:22] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 07:23:22] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 07:23:22] INFO root fetch - processPackages [nucliadb-models]: Start processing: ml-starter
+[2023-06-27 07:23:22] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-06-27 07:23:22] INFO root fetch - processPackages [ml-starter]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-27 07:23:22] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/36/97/7e86934f9759a1b9b39090aae8ed3b490bca7a781fb47e5750b5cd66c411/ml-starter-0.1.7.tar.gz
+[2023-06-27 07:23:22] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-06-27 07:23:22] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 07:23:22] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 07:23:22] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-27 07:23:22] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-27 07:23:22] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.7.tar.gz tmp/ml-starter-0.1.8.tar.gz --markdown 20230627/m/ml-starter/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-27 07:23:22] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 07:23:22] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 07:23:22] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-27 07:23:22] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 07:23:22] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 07:23:22] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-27 07:23:23] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 07:23:23] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 07:23:23] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-06-27 07:23:23] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 07:23:23] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 07:23:23] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-27 07:23:23] INFO root fetch - processPackages [odoo-addon-server-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_server_environment-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2023-06-27 07:23:23] INFO root fetch - processPackages [odoo-addon-server-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_server_environment-16.0.1.0.2.2-py3-none-any.whl.zip]
+[2023-06-27 07:23:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-server-environment]: success
+[2023-06-27 07:23:23] INFO root fetch - processPackages [python-sapcommissions]: Remove: archive file [/home/abi/fetcher/tmp/python-sapcommissions-1.0.0.tar.gz]
+[2023-06-27 07:23:23] INFO root fetch - processPackages [python-sapcommissions]: Remove: archive file [/home/abi/fetcher/tmp/python-sapcommissions-1.0.1.tar.gz]
+[2023-06-27 07:23:23] INFO root fetch - main [MainThread]: End processing [python-sapcommissions]: success
+[2023-06-27 07:23:23] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.7.tar.gz]
+[2023-06-27 07:23:23] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.8.tar.gz]
+[2023-06-27 07:23:23] INFO root fetch - main [MainThread]: End processing [circlecigen]: success
+[2023-06-27 07:23:24] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 07:23:24] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 07:23:24] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-27 07:23:24] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.7.tar.gz]
+[2023-06-27 07:23:24] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-06-27 07:23:24] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-27 07:23:24] INFO root fetch - main [MainThread]: Store serial: [18658335]
