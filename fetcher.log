@@ -13475,3 +13475,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 08:00:46] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.9.tar.gz]
 [2023-06-27 08:00:46] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
 [2023-06-27 08:00:46] INFO root fetch - main [MainThread]: Store serial: [18658493]
+[2023-06-27 08:05:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658493]
+[2023-06-27 08:05:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-27 08:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: horizonai
+[2023-06-27 08:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlpkg
+[2023-06-27 08:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplegeomap
+[2023-06-27 08:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cullinan
+[2023-06-27 08:05:55] INFO root fetch - processPackages [horizonai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 08:05:55] WARNING root fetch - processPackages [sqlpkg]: Skipping, unable to determine old version
+[2023-06-27 08:05:55] INFO root fetch - main [MainThread]: End processing [sqlpkg] error
+[2023-06-27 08:05:55] INFO root fetch - processPackages [cullinan]: New version: [0.52a3] Old Version: [0.52]
+[2023-06-27 08:05:55] INFO root fetch - processPackages [simplegeomap]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-06-27 08:05:55] INFO root fetch - processPackages [cullinan]: Downloading https://files.pythonhosted.org/packages/a4/7c/e1f4b69bd9a8e679ec9c13b9330504175b3b9ef3494c92179b2256139035/cullinan-0.52.tar.gz
+[2023-06-27 08:05:55] INFO root fetch - processPackages [horizonai]: Downloading https://files.pythonhosted.org/packages/47/e9/7eece4f8d133f72dae2424a981cc659f68cba711b3e5b5edf68edc11a3ec/horizonai-0.1.8.tar.gz
+[2023-06-27 08:05:55] INFO root fetch - processPackages [cullinan]: Downloading https://files.pythonhosted.org/packages/cd/42/656ebc0d99cce65fbb173bab52dab8f8ebae4a8e669c0f8a3853c3903718/cullinan-0.52a3.tar.gz
+[2023-06-27 08:05:55] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/10/47/7350399d854c8b1f404e788641f32d2f609fd21cda61c8fa0603c6b837ae/simplegeomap-0.0.34.tar.gz
+[2023-06-27 08:05:55] INFO root fetch - processPackages [cullinan]: executing diffoscope
+[2023-06-27 08:05:55] INFO root fetch - processPackages [cullinan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cullinan-0.52.tar.gz tmp/cullinan-0.52a3.tar.gz --markdown 20230627/c/cullinan/0.52-0.52a3/diff.md --exclude *.pyd
+[2023-06-27 08:05:55] INFO root fetch - processPackages [horizonai]: Downloading https://files.pythonhosted.org/packages/5a/34/7cfa8814c5ed9110dbe1bd4525f3e4d0fdc755ddc43f5acf4c8096b2d6cc/horizonai-0.1.9.tar.gz
+[2023-06-27 08:05:55] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/f8/55/9445f76f849b29cf4f69570768e1c769fde9e145013447ed08119e91a408/simplegeomap-0.0.35.tar.gz
+[2023-06-27 08:05:56] INFO root fetch - processPackages [horizonai]: executing diffoscope
+[2023-06-27 08:05:56] INFO root fetch - processPackages [horizonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horizonai-0.1.8.tar.gz tmp/horizonai-0.1.9.tar.gz --markdown 20230627/h/horizonai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 08:05:56] INFO root fetch - processPackages [simplegeomap]: executing diffoscope
+[2023-06-27 08:05:56] INFO root fetch - processPackages [simplegeomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplegeomap-0.0.34.tar.gz tmp/simplegeomap-0.0.35.tar.gz --markdown 20230627/s/simplegeomap/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-06-27 08:05:56] INFO root fetch - processPackages [cullinan]: Remove: archive file [/home/abi/fetcher/tmp/cullinan-0.52.tar.gz]
+[2023-06-27 08:05:56] INFO root fetch - processPackages [cullinan]: Remove: archive file [/home/abi/fetcher/tmp/cullinan-0.52a3.tar.gz]
+[2023-06-27 08:05:56] INFO root fetch - main [MainThread]: End processing [cullinan]: success
+[2023-06-27 08:05:57] INFO root fetch - processPackages [simplegeomap]: Remove: archive file [/home/abi/fetcher/tmp/simplegeomap-0.0.34.tar.gz]
+[2023-06-27 08:05:57] INFO root fetch - processPackages [simplegeomap]: Remove: archive file [/home/abi/fetcher/tmp/simplegeomap-0.0.35.tar.gz]
+[2023-06-27 08:05:57] INFO root fetch - main [MainThread]: End processing [simplegeomap]: success
+[2023-06-27 08:05:57] INFO root fetch - processPackages [horizonai]: Remove: archive file [/home/abi/fetcher/tmp/horizonai-0.1.8.tar.gz]
+[2023-06-27 08:05:57] INFO root fetch - processPackages [horizonai]: Remove: archive file [/home/abi/fetcher/tmp/horizonai-0.1.9.tar.gz]
+[2023-06-27 08:05:57] INFO root fetch - main [MainThread]: End processing [horizonai]: success
+[2023-06-27 08:05:57] INFO root fetch - main [MainThread]: Store serial: [18658516]
