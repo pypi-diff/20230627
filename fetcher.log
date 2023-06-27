@@ -13106,3 +13106,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 07:33:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
 [2023-06-27 07:33:47] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
 [2023-06-27 07:33:47] INFO root fetch - main [MainThread]: Store serial: [18658376]
+[2023-06-27 07:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658376]
+[2023-06-27 07:38:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-27 07:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysiml
+[2023-06-27 07:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aicodebot
+[2023-06-27 07:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exodusutils
+[2023-06-27 07:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythium
+[2023-06-27 07:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphinxcontrib-matlabdomain
+[2023-06-27 07:38:56] INFO root fetch - processPackages [pysiml]: New version: [0.2.9.dev202306270535] Old Version: [0.2.9.dev202306240932]
+[2023-06-27 07:38:56] INFO root fetch - processPackages [aicodebot]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-27 07:38:56] INFO root fetch - processPackages [pythium]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-27 07:38:56] INFO root fetch - processPackages [exodusutils]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-06-27 07:38:56] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-27 07:38:56] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/3f/91/78d75ca50f4ead4f3bddb096920414a3fded72a2091db2c4d363466b236e/aicodebot-0.5.2.tar.gz
+[2023-06-27 07:38:56] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/19/dc/e945f32d5b83861b1a1e53bd2a4c232c3b3ef44700e99baeb73bb5a4d873/pysiml-0.2.9.dev202306240932-py3-none-any.whl
+[2023-06-27 07:38:56] INFO root fetch - processPackages [pythium]: Downloading https://files.pythonhosted.org/packages/5e/a1/d02d976b765f4599c4b026e1cde980731e47e0e08d0c6aa021b9ae8b3a90/pythium-1.0.1.tar.gz
+[2023-06-27 07:38:56] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/27/9f/400da890f1d17b5a3eadcb477d83d44b79ab59e95ac28b04e1f8019c30f2/sphinxcontrib-matlabdomain-0.7.1.tar.gz
+[2023-06-27 07:38:56] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/43/52/0d2930e50549f863a8f80c8d4bd35ddffd4db0cfcf22e674c27f82e60e7d/aicodebot-0.5.3.tar.gz
+[2023-06-27 07:38:57] INFO root fetch - processPackages [exodusutils]: Downloading https://files.pythonhosted.org/packages/6a/73/8528d31e8b44e95e1d1b25f2812403d52815e8a3f8519129fe20f8996f9d/exodusutils-0.3.7.tar.gz
+[2023-06-27 07:38:57] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/b7/df/0f56be0cbb10a7aa96cb0b8edb9a405e01a02428746185753bfc57988327/pysiml-0.2.9.dev202306270535-py3-none-any.whl
+[2023-06-27 07:38:57] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-06-27 07:38:57] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.5.2.tar.gz tmp/aicodebot-0.5.3.tar.gz --markdown 20230627/a/aicodebot/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-27 07:38:57] INFO root fetch - processPackages [pythium]: Downloading https://files.pythonhosted.org/packages/4b/48/2d6823297f2e0337b388b03ffcf2172e1a5338d8f736e211e31a1efb149c/pythium-1.1.0.tar.gz
+[2023-06-27 07:38:57] INFO root fetch - processPackages [pysiml]: executing diffoscope
+[2023-06-27 07:38:57] INFO root fetch - processPackages [pysiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysiml-0.2.9.dev202306240932-py3-none-any.whl.zip tmp/pysiml-0.2.9.dev202306270535-py3-none-any.whl.zip --markdown 20230627/p/pysiml/0.2.9.dev202306240932-0.2.9.dev202306270535/diff.md --exclude *.pyd
+[2023-06-27 07:38:57] INFO root fetch - processPackages [pythium]: executing diffoscope
+[2023-06-27 07:38:57] INFO root fetch - processPackages [pythium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythium-1.0.1.tar.gz tmp/pythium-1.1.0.tar.gz --markdown 20230627/p/pythium/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-27 07:38:57] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/02/17/576fe56ac8622a964e69f7f314c46c1235b2a8447151a3df20102e5b45bc/sphinxcontrib-matlabdomain-0.8.0.tar.gz
+[2023-06-27 07:38:57] INFO root fetch - processPackages [exodusutils]: Downloading https://files.pythonhosted.org/packages/e2/83/372173aabc6d446059c022a2637a661536088a9b6ea7ea3507ce56b46795/exodusutils-0.3.9.tar.gz
+[2023-06-27 07:38:57] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: executing diffoscope
+[2023-06-27 07:38:57] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz --markdown 20230627/s/sphinxcontrib-matlabdomain/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-27 07:38:57] INFO root fetch - processPackages [exodusutils]: executing diffoscope
+[2023-06-27 07:38:57] INFO root fetch - processPackages [exodusutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exodusutils-0.3.7.tar.gz tmp/exodusutils-0.3.9.tar.gz --markdown 20230627/e/exodusutils/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-06-27 07:38:58] INFO root fetch - processPackages [pythium]: Remove: archive file [/home/abi/fetcher/tmp/pythium-1.0.1.tar.gz]
+[2023-06-27 07:38:58] INFO root fetch - processPackages [pythium]: Remove: archive file [/home/abi/fetcher/tmp/pythium-1.1.0.tar.gz]
+[2023-06-27 07:38:58] INFO root fetch - main [MainThread]: End processing [pythium]: success
+[2023-06-27 07:38:58] INFO root fetch - processPackages [exodusutils]: Remove: archive file [/home/abi/fetcher/tmp/exodusutils-0.3.7.tar.gz]
+[2023-06-27 07:38:58] INFO root fetch - processPackages [exodusutils]: Remove: archive file [/home/abi/fetcher/tmp/exodusutils-0.3.9.tar.gz]
+[2023-06-27 07:38:58] INFO root fetch - main [MainThread]: End processing [exodusutils]: success
+[2023-06-27 07:38:58] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.5.2.tar.gz]
+[2023-06-27 07:38:58] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.5.3.tar.gz]
+[2023-06-27 07:38:58] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-06-27 07:38:58] INFO root fetch - processPackages [pysiml]: Remove: archive file [/home/abi/fetcher/tmp/pysiml-0.2.9.dev202306240932-py3-none-any.whl.zip]
+[2023-06-27 07:38:58] INFO root fetch - processPackages [pysiml]: Remove: archive file [/home/abi/fetcher/tmp/pysiml-0.2.9.dev202306270535-py3-none-any.whl.zip]
+[2023-06-27 07:38:58] INFO root fetch - main [MainThread]: End processing [pysiml]: success
+[2023-06-27 07:38:59] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz]
+[2023-06-27 07:38:59] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz]
+[2023-06-27 07:38:59] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-matlabdomain]: success
+[2023-06-27 07:38:59] INFO root fetch - main [MainThread]: Store serial: [18658390]
