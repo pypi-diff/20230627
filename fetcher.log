@@ -16389,3 +16389,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-27 10:25:23] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-06-27 10:25:23] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-06-27 10:25:23] INFO root fetch - main [MainThread]: Store serial: [18659747]
+[2023-06-27 10:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659747]
+[2023-06-27 10:30:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-27 10:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wlkatapython
+[2023-06-27 10:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-06-27 10:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kodexa
+[2023-06-27 10:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazynovel
+[2023-06-27 10:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lesscode-py
+[2023-06-27 10:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clickzetta-connector
+[2023-06-27 10:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clickzetta-sqlalchemy
+[2023-06-27 10:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FAIRSave
+[2023-06-27 10:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: frogmouth
+[2023-06-27 10:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NEMO-mlz-requests
+[2023-06-27 10:30:33] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-27 10:30:33] INFO root fetch - processPackages [lazynovel]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-27 10:30:33] INFO root fetch - processPackages [wlkatapython]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-27 10:30:33] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-27 10:30:33] WARNING root fetch - processPackages [NEMO-mlz-requests]: Skipping, unable to determine old version
+[2023-06-27 10:30:33] INFO root fetch - processPackages [NEMO-mlz-requests]: Start processing: klarf-reader
+[2023-06-27 10:30:33] INFO root fetch - main [MainThread]: End processing [NEMO-mlz-requests] error
+[2023-06-27 10:30:33] INFO root fetch - processPackages [frogmouth]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-27 10:30:33] INFO root fetch - processPackages [kodexa]: New version: [6.2.3a5260876523] Old Version: [6.2.3a5260620995]
+[2023-06-27 10:30:33] INFO root fetch - processPackages [FAIRSave]: New version: [0.0.6.4] Old Version: [0.0.6.3]
+[2023-06-27 10:30:33] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230627082541] Old Version: [2.1.1.dev20230627063905]
+[2023-06-27 10:30:33] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-27 10:30:33] INFO root fetch - processPackages [klarf-reader]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-27 10:30:33] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/09/df/6d69b8030969704edf6eb6aaea9bb08be7b87525009b14ef98bb77473dbe/localstack-core-2.1.1.dev20230627063905.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/28/77/6840aa7602040fc1c9dcfb029e4bc3e22fde0945aa3415694a23f389a111/FAIRSave-0.0.6.3.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [klarf-reader]: Downloading https://files.pythonhosted.org/packages/53/af/557c54b4c39c56ad5d9692f9ebe07b7be3ed7c8a43ad620f9569f061e133/klarf-reader-0.3.0.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/ac/65/46bca8ba2e2cd3886207ee0d7c8915c58c9f24e8826590e6d8add07857e5/lazynovel-0.1.3.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [wlkatapython]: Downloading https://files.pythonhosted.org/packages/5c/d2/b7caf985c686f31a4ec5d0876a376a2cbd70806e970cafcb7ed07fcc3734/wlkatapython-0.0.5.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/31/08/d863af16d33adac02d8cf3bac76ab0d9548b7d9cb31595bf4691d53eb13f/frogmouth-0.6.0.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/5d/4b/e7ced7ca14408b830a8328f39e2d8f45aaf6d9ecbf973158d33f0eb56629/kodexa-6.2.3a5260620995.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/65/aa/60ae1cf6ee12d27ed3d80f93eac6fb98a3a69c23c3836b9b2ac69904b0e4/FAIRSave-0.0.6.4.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [klarf-reader]: Downloading https://files.pythonhosted.org/packages/2b/5d/24b2541dfd301c8105435fe03fe50e7a1626a5644ea5825f142e832d4898/klarf-reader-0.3.1.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [FAIRSave]: executing diffoscope
+[2023-06-27 10:30:33] INFO root fetch - processPackages [FAIRSave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FAIRSave-0.0.6.3.tar.gz tmp/FAIRSave-0.0.6.4.tar.gz --markdown 20230627/F/FAIRSave/0.0.6.3-0.0.6.4/diff.md --exclude *.pyd
+[2023-06-27 10:30:33] INFO root fetch - processPackages [wlkatapython]: Downloading https://files.pythonhosted.org/packages/95/d6/77857c409e7505a34bd3332c0a0046f8d4764dddc0df05a873a830a31617/wlkatapython-0.0.6.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [klarf-reader]: executing diffoscope
+[2023-06-27 10:30:33] INFO root fetch - processPackages [klarf-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klarf-reader-0.3.0.tar.gz tmp/klarf-reader-0.3.1.tar.gz --markdown 20230627/k/klarf-reader/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-27 10:30:33] INFO root fetch - processPackages [wlkatapython]: executing diffoscope
+[2023-06-27 10:30:33] INFO root fetch - processPackages [wlkatapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkatapython-0.0.5.tar.gz tmp/wlkatapython-0.0.6.tar.gz --markdown 20230627/w/wlkatapython/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-27 10:30:33] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/43/6d/3a93efcd5d3a015524ef874e9ca7ace1bfaf6226ff44c399f39bcc309f15/lazynovel-0.1.4.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/5f/10/317435b0286fbd65c71f076bffd0e3cdc16c1ce45e9454e1c8620e5a3154/frogmouth-0.7.0.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7c/4d/0c5191d25067c7220926089045c04e68a9b5b0eb9702b97036cefa11db1f/localstack-core-2.1.1.dev20230627082541.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-27 10:30:33] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230627/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-27 10:30:33] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/4a/66/617dd208a245435e376984f62632bbda4041e15ec88b301ccf1e07f3d6fd/kodexa-6.2.3a5260876523.tar.gz
+[2023-06-27 10:30:33] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-27 10:30:33] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230627/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-27 10:30:33] INFO root fetch - processPackages [lazynovel]: executing diffoscope
+[2023-06-27 10:30:33] INFO root fetch - processPackages [lazynovel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazynovel-0.1.3.tar.gz tmp/lazynovel-0.1.4.tar.gz --markdown 20230627/l/lazynovel/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-27 10:30:33] INFO root fetch - processPackages [frogmouth]: executing diffoscope
+[2023-06-27 10:30:33] INFO root fetch - processPackages [frogmouth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frogmouth-0.6.0.tar.gz tmp/frogmouth-0.7.0.tar.gz --markdown 20230627/f/frogmouth/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-27 10:30:33] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-06-27 10:30:33] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.3a5260620995.tar.gz tmp/kodexa-6.2.3a5260876523.tar.gz --markdown 20230627/k/kodexa/6.2.3a5260620995-6.2.3a5260876523/diff.md --exclude *.pyd
+[2023-06-27 10:30:33] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-06-27 10:30:34] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-27 10:30:34] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230627063905.tar.gz tmp/localstack-core-2.1.1.dev20230627082541.tar.gz --markdown 20230627/l/localstack-core/2.1.1.dev20230627063905-2.1.1.dev20230627082541/diff.md --exclude *.pyd
+[2023-06-27 10:30:34] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-06-27 10:30:34] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230627/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-27 10:30:35] INFO root fetch - processPackages [wlkatapython]: Remove: archive file [/home/abi/fetcher/tmp/wlkatapython-0.0.5.tar.gz]
+[2023-06-27 10:30:35] INFO root fetch - processPackages [wlkatapython]: Remove: archive file [/home/abi/fetcher/tmp/wlkatapython-0.0.6.tar.gz]
+[2023-06-27 10:30:35] INFO root fetch - processPackages [wlkatapython]: Start processing: tengu-py
+[2023-06-27 10:30:35] INFO root fetch - main [MainThread]: End processing [wlkatapython]: success
+[2023-06-27 10:30:35] INFO root fetch - processPackages [tengu-py]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-27 10:30:35] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-27 10:30:35] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-06-27 10:30:35] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-27 10:30:35] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/cf/c6/53d25e34ef44d6f94789becd0094f159f65e270cb410dea242f908782450/tengu_py-0.6.1.tar.gz
+[2023-06-27 10:30:35] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/18/21/a8b93511ff691f868510cbcbe6e422263e546375f4aa7d1ade796a8b3d03/tengu_py-0.6.2.tar.gz
+[2023-06-27 10:30:35] INFO root fetch - processPackages [klarf-reader]: Remove: archive file [/home/abi/fetcher/tmp/klarf-reader-0.3.0.tar.gz]
+[2023-06-27 10:30:35] INFO root fetch - processPackages [klarf-reader]: Remove: archive file [/home/abi/fetcher/tmp/klarf-reader-0.3.1.tar.gz]
+[2023-06-27 10:30:35] INFO root fetch - main [MainThread]: End processing [klarf-reader]: success
+[2023-06-27 10:30:35] INFO root fetch - processPackages [tengu-py]: executing diffoscope
+[2023-06-27 10:30:35] INFO root fetch - processPackages [tengu-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tengu_py-0.6.1.tar.gz tmp/tengu_py-0.6.2.tar.gz --markdown 20230627/t/tengu-py/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-27 10:30:35] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.3.tar.gz]
+[2023-06-27 10:30:35] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.4.tar.gz]
+[2023-06-27 10:30:35] INFO root fetch - main [MainThread]: End processing [FAIRSave]: success
+[2023-06-27 10:30:36] INFO root fetch - processPackages [frogmouth]: Remove: archive file [/home/abi/fetcher/tmp/frogmouth-0.6.0.tar.gz]
+[2023-06-27 10:30:36] INFO root fetch - processPackages [frogmouth]: Remove: archive file [/home/abi/fetcher/tmp/frogmouth-0.7.0.tar.gz]
+[2023-06-27 10:30:36] INFO root fetch - main [MainThread]: End processing [frogmouth]: success
+[2023-06-27 10:30:36] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.3.tar.gz]
+[2023-06-27 10:30:36] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.4.tar.gz]
+[2023-06-27 10:30:36] INFO root fetch - main [MainThread]: End processing [lazynovel]: success
+[2023-06-27 10:30:36] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.6.1.tar.gz]
+[2023-06-27 10:30:36] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.6.2.tar.gz]
+[2023-06-27 10:30:36] INFO root fetch - main [MainThread]: End processing [tengu-py]: success
+[2023-06-27 10:30:37] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-06-27 10:30:37] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-06-27 10:30:37] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-06-27 10:30:37] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260620995.tar.gz]
+[2023-06-27 10:30:37] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260876523.tar.gz]
+[2023-06-27 10:30:37] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-06-27 10:30:37] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-27 10:30:37] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-27 10:30:37] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-27 10:30:41] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230627063905.tar.gz]
+[2023-06-27 10:30:41] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230627082541.tar.gz]
+[2023-06-27 10:30:41] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-27 10:30:41] INFO root fetch - main [MainThread]: Store serial: [18659779]
