@@ -16494,3 +16494,185 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-27 10:30:41] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230627082541.tar.gz]
 [2023-06-27 10:30:41] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-27 10:30:41] INFO root fetch - main [MainThread]: Store serial: [18659779]
+[2023-06-27 10:35:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659779]
+[2023-06-27 10:35:51] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-27 10:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tengu-py
+[2023-06-27 10:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-requests-api
+[2023-06-27 10:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arcane-pinterest
+[2023-06-27 10:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinecone-datasets
+[2023-06-27 10:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clickzetta-connector
+[2023-06-27 10:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clickzetta-sqlalchemy
+[2023-06-27 10:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyhelayers
+[2023-06-27 10:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pkr
+[2023-06-27 10:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vgis-utils
+[2023-06-27 10:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bitbucket-pipes-toolkit
+[2023-06-27 10:35:51] INFO root fetch - processPackages [tengu-py]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-27 10:35:51] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-27 10:35:51] INFO root fetch - processPackages [arcane-pinterest]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pinecone-datasets]: New version: [0.5.0rc9] Old Version: [0.5.0rc8]
+[2023-06-27 10:35:51] INFO root fetch - processPackages [django-requests-api]: New version: [0.3.2] Old Version: [0.2.0]
+[2023-06-27 10:35:51] WARNING root fetch - processPackages [vgis-utils]: Skipping, unable to determine old version
+[2023-06-27 10:35:51] INFO root fetch - processPackages [vgis-utils]: Start processing: dcnum
+[2023-06-27 10:35:51] INFO root fetch - main [MainThread]: End processing [vgis-utils] error
+[2023-06-27 10:35:51] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pkr]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-27 10:35:51] INFO root fetch - processPackages [bitbucket-pipes-toolkit]: New version: [3.3.0] Old Version: [3.2.1]
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pyhelayers]: New version: [1.5.3.0] Old Version: [1.5.2.0]
+[2023-06-27 10:35:51] INFO root fetch - processPackages [dcnum]: New version: [0.11.1] Old Version: [0.11.0]
+[2023-06-27 10:35:51] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/18/21/a8b93511ff691f868510cbcbe6e422263e546375f4aa7d1ade796a8b3d03/tengu_py-0.6.2.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/b2/17/ceb06e426399a637499fd958d39e18872d9ae6e8eab2c3c761e28d51217c/pinecone_datasets-0.5.0rc8.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pkr]: Downloading https://files.pythonhosted.org/packages/8b/25/e70052a22cea8a6accece949560b0e7079a2646858a296304630d25a0179/pkr-1.4.8-py3-none-any.whl
+[2023-06-27 10:35:51] INFO root fetch - processPackages [arcane-pinterest]: Downloading https://files.pythonhosted.org/packages/e7/6a/55a877cb9108257bcd7e785a1d9ee91335106436dba0ee34a98955496d74/arcane-pinterest-1.1.0.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [bitbucket-pipes-toolkit]: Downloading https://files.pythonhosted.org/packages/53/2d/d00e6392219b735c17dda64611a9f8fc4c21be91d887ea9a927a808ed572/bitbucket-pipes-toolkit-3.2.1.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/25/72/90e997b6508df0f27f4def7c6803aad302135596a06faf79cbd880ebe906/dcnum-0.11.0.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [django-requests-api]: Downloading https://files.pythonhosted.org/packages/4c/15/0cce5f669f655dbd3ba556191661258bdb51e22ec0acb590fed9e66cb639/django-requests-api-0.2.0.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pyhelayers]: Downloading https://files.pythonhosted.org/packages/26/15/d2f8f5d18d47b43a6c9abe85f5ff47b53c9514c8c812ca73f7dfdc78630a/pyhelayers-1.5.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/ec/e5/a7558f5cd2c45b8df8f52b72cebf75f74a2881bdb51a09e98fdcae70123c/pinecone_datasets-0.5.0rc9.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-27 10:35:51] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230627/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pkr]: Downloading https://files.pythonhosted.org/packages/49/ba/33acec6b2bbea1ee44ef1640cd8de83dbf2dcbc94ad160a7d9d41ae113c1/pkr-1.4.9-py3-none-any.whl
+[2023-06-27 10:35:51] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/78/a5/4743b1fdc059c6c70bdd1545fdf8dc971101d5a6a452e0490bc08fd9198f/tengu_py-0.6.3.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-27 10:35:51] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230627/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pinecone-datasets]: executing diffoscope
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pinecone-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_datasets-0.5.0rc8.tar.gz tmp/pinecone_datasets-0.5.0rc9.tar.gz --markdown 20230627/p/pinecone-datasets/0.5.0rc8-0.5.0rc9/diff.md --exclude *.pyd
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pkr]: executing diffoscope
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pkr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkr-1.4.8-py3-none-any.whl.zip tmp/pkr-1.4.9-py3-none-any.whl.zip --markdown 20230627/p/pkr/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-27 10:35:51] WARNING root fetch - processPackages [pyhelayers]: Skipping package: exceeds size limit 39362323>=10485760
+[2023-06-27 10:35:51] INFO root fetch - processPackages [pyhelayers]: Start processing: rustlite
+[2023-06-27 10:35:51] INFO root fetch - main [MainThread]: End processing [pyhelayers] error
+[2023-06-27 10:35:51] INFO root fetch - processPackages [django-requests-api]: Downloading https://files.pythonhosted.org/packages/90/5b/7bf50c713b0b8c9ba06d9cc3cb235185009ea24d1010c701f393ea8ba6c5/django-requests-api-0.3.2.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [rustlite]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-27 10:35:51] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/10/fb/5308ec5947fb66e4988dfcc692181f2cbe1e09ffde0e3e406e18886508c0/dcnum-0.11.1.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [arcane-pinterest]: Downloading https://files.pythonhosted.org/packages/bd/04/47632f37b6df160dffae9275279268ca9a8ca9c5308b94e35202c0b5b0e0/arcane_pinterest-2.0.0.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [tengu-py]: executing diffoscope
+[2023-06-27 10:35:51] INFO root fetch - processPackages [tengu-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tengu_py-0.6.2.tar.gz tmp/tengu_py-0.6.3.tar.gz --markdown 20230627/t/tengu-py/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-27 10:35:51] INFO root fetch - processPackages [bitbucket-pipes-toolkit]: Downloading https://files.pythonhosted.org/packages/75/98/fcf155491e5b5a00be627abbdc729bb6d820845f32998812fe6600ae2223/bitbucket-pipes-toolkit-3.3.0.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [rustlite]: Downloading https://files.pythonhosted.org/packages/40/d1/a82457e48766f2f5f780cd36d397253217e212d908d3a0aafd4924e3fc57/rustlite-0.1.4.tar.gz
+[2023-06-27 10:35:51] INFO root fetch - processPackages [arcane-pinterest]: executing diffoscope
+[2023-06-27 10:35:51] INFO root fetch - processPackages [arcane-pinterest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcane-pinterest-1.1.0.tar.gz tmp/arcane_pinterest-2.0.0.tar.gz --markdown 20230627/a/arcane-pinterest/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-27 10:35:51] INFO root fetch - processPackages [django-requests-api]: executing diffoscope
+[2023-06-27 10:35:51] INFO root fetch - processPackages [django-requests-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-requests-api-0.2.0.tar.gz tmp/django-requests-api-0.3.2.tar.gz --markdown 20230627/d/django-requests-api/0.2.0-0.3.2/diff.md --exclude *.pyd
+[2023-06-27 10:35:51] INFO root fetch - processPackages [bitbucket-pipes-toolkit]: executing diffoscope
+[2023-06-27 10:35:51] INFO root fetch - processPackages [bitbucket-pipes-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitbucket-pipes-toolkit-3.2.1.tar.gz tmp/bitbucket-pipes-toolkit-3.3.0.tar.gz --markdown 20230627/b/bitbucket-pipes-toolkit/3.2.1-3.3.0/diff.md --exclude *.pyd
+[2023-06-27 10:35:51] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2023-06-27 10:35:51] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.11.0.tar.gz tmp/dcnum-0.11.1.tar.gz --markdown 20230627/d/dcnum/0.11.0-0.11.1/diff.md --exclude *.pyd
+[2023-06-27 10:35:51] INFO root fetch - processPackages [rustlite]: Downloading https://files.pythonhosted.org/packages/fd/e8/909a1a9f39f0945bb044a16b9bba8fbfa7984881c344be522d2a26ba3bfd/rustlite-0.1.5.tar.gz
+[2023-06-27 10:35:52] INFO root fetch - processPackages [rustlite]: executing diffoscope
+[2023-06-27 10:35:52] INFO root fetch - processPackages [rustlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustlite-0.1.4.tar.gz tmp/rustlite-0.1.5.tar.gz --markdown 20230627/r/rustlite/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 10:35:53] INFO root fetch - processPackages [arcane-pinterest]: Remove: archive file [/home/abi/fetcher/tmp/arcane-pinterest-1.1.0.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [arcane-pinterest]: Remove: archive file [/home/abi/fetcher/tmp/arcane_pinterest-2.0.0.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [arcane-pinterest]: Start processing: bobbles
+[2023-06-27 10:35:53] INFO root fetch - main [MainThread]: End processing [arcane-pinterest]: success
+[2023-06-27 10:35:53] INFO root fetch - processPackages [bobbles]: New version: [190.0.2] Old Version: [190.0.1]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [bobbles]: Downloading https://files.pythonhosted.org/packages/73/15/67d7b1e77c615ec8b54cc413a4357bba305118b323f6d81719d895845c2c/bobbles-190.0.1.tar.gz
+[2023-06-27 10:35:53] INFO root fetch - processPackages [bitbucket-pipes-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/bitbucket-pipes-toolkit-3.2.1.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [bitbucket-pipes-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/bitbucket-pipes-toolkit-3.3.0.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [bitbucket-pipes-toolkit]: Start processing: scoamp
+[2023-06-27 10:35:53] INFO root fetch - main [MainThread]: End processing [bitbucket-pipes-toolkit]: success
+[2023-06-27 10:35:53] INFO root fetch - processPackages [scoamp]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.6.2.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.6.3.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [tengu-py]: Start processing: scoamppro
+[2023-06-27 10:35:53] INFO root fetch - main [MainThread]: End processing [tengu-py]: success
+[2023-06-27 10:35:53] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc8.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc9.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [pinecone-datasets]: Start processing: cx-Freeze
+[2023-06-27 10:35:53] INFO root fetch - main [MainThread]: End processing [pinecone-datasets]: success
+[2023-06-27 10:35:53] INFO root fetch - processPackages [pkr]: Remove: archive file [/home/abi/fetcher/tmp/pkr-1.4.8-py3-none-any.whl.zip]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [pkr]: Remove: archive file [/home/abi/fetcher/tmp/pkr-1.4.9-py3-none-any.whl.zip]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [pkr]: Start processing: glue-helper-lib
+[2023-06-27 10:35:53] INFO root fetch - main [MainThread]: End processing [pkr]: success
+[2023-06-27 10:35:53] INFO root fetch - processPackages [scoamppro]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Start processing: nonebot-plugin-songpicker2
+[2023-06-27 10:35:53] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-27 10:35:53] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/e9/85/97b8d0060926349bfacf0e35a22836f8f49b2b8bbcfffc5881b5270dd180/scoamp-0.3.1-py3-none-any.whl
+[2023-06-27 10:35:53] INFO root fetch - processPackages [glue-helper-lib]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [cx-Freeze]: New version: [6.9] Old Version: [6.8b5]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [django-requests-api]: Remove: archive file [/home/abi/fetcher/tmp/django-requests-api-0.2.0.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [django-requests-api]: Remove: archive file [/home/abi/fetcher/tmp/django-requests-api-0.3.2.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [django-requests-api]: Start processing: nowcasting-dataset
+[2023-06-27 10:35:53] INFO root fetch - main [MainThread]: End processing [django-requests-api]: success
+[2023-06-27 10:35:53] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/e1/51/874503c0aacd4627f4b2fc05bfe7f66500930b9ca631043894997f7e1f59/scoamppro-0.3.1-py3-none-any.whl
+[2023-06-27 10:35:53] INFO root fetch - processPackages [rustlite]: Remove: archive file [/home/abi/fetcher/tmp/rustlite-0.1.4.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [rustlite]: Remove: archive file [/home/abi/fetcher/tmp/rustlite-0.1.5.tar.gz]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [rustlite]: Start processing: FAIRSave
+[2023-06-27 10:35:53] INFO root fetch - main [MainThread]: End processing [rustlite]: success
+[2023-06-27 10:35:53] INFO root fetch - processPackages [bobbles]: Downloading https://files.pythonhosted.org/packages/14/3b/a5f76a4160b9dcf4d62bc6606ca152db5c369134115e91e34436e172c954/bobbles-190.0.2.tar.gz
+[2023-06-27 10:35:53] INFO root fetch - processPackages [FAIRSave]: New version: [0.0.6.4] Old Version: [0.0.6.3]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Downloading https://files.pythonhosted.org/packages/2d/9d/3afc03f6bd48f0f7550b6dbfc77bde818f8a0452387b8f3463b55829c643/nonebot_plugin_songpicker2-0.2.3.tar.gz
+[2023-06-27 10:35:53] INFO root fetch - processPackages [nowcasting-dataset]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-06-27 10:35:53] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/28/77/6840aa7602040fc1c9dcfb029e4bc3e22fde0945aa3415694a23f389a111/FAIRSave-0.0.6.3.tar.gz
+[2023-06-27 10:35:53] INFO root fetch - processPackages [nowcasting-dataset]: Downloading https://files.pythonhosted.org/packages/0e/d7/d7bcf4685f8e9a44460a4d8874647ec9be0e409b7464edafb7d9e8c7f958/nowcasting_dataset-3.7.8.tar.gz
+[2023-06-27 10:35:53] INFO root fetch - processPackages [bobbles]: executing diffoscope
+[2023-06-27 10:35:53] INFO root fetch - processPackages [bobbles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bobbles-190.0.1.tar.gz tmp/bobbles-190.0.2.tar.gz --markdown 20230627/b/bobbles/190.0.1-190.0.2/diff.md --exclude *.pyd
+[2023-06-27 10:35:53] INFO root fetch - processPackages [glue-helper-lib]: Downloading https://files.pythonhosted.org/packages/c1/20/75238b2e08500983b3dccca5c233271e063022d82cd610f110a174ec2130/glue_helper_lib-0.4.0.tar.gz
+[2023-06-27 10:35:53] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/91/9a/1a09bcf451079e4f6a66331ebe7c5bf0e3f714601dfd7659e12c4bdf3a0d/scoamp-0.3.2-py3-none-any.whl
+[2023-06-27 10:35:53] INFO root fetch - processPackages [cx-Freeze]: Downloading https://files.pythonhosted.org/packages/db/dc/dcdaf38277ee027bbcb2d60d32357415409ac7e3778d26731b189e919c3c/cx_Freeze-6.8b5.tar.gz
+[2023-06-27 10:35:53] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/dc/c0/541b1cc3b71f5816453aacae518446d2dab64d5034cc2ec7e2baa9d91c19/scoamppro-0.3.2-py3-none-any.whl
+[2023-06-27 10:35:53] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Downloading https://files.pythonhosted.org/packages/27/59/f8b7296442ba1595b94e99521024803a7c927e214ceb0cff695bd604a50b/nonebot_plugin_songpicker2-0.2.4.tar.gz
+[2023-06-27 10:35:53] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/65/aa/60ae1cf6ee12d27ed3d80f93eac6fb98a3a69c23c3836b9b2ac69904b0e4/FAIRSave-0.0.6.4.tar.gz
+[2023-06-27 10:35:53] INFO root fetch - processPackages [nowcasting-dataset]: Downloading https://files.pythonhosted.org/packages/f5/8e/c07f6df2b41691ed6950606c7266158f629ce87845bd62b0003cc8262ecd/nowcasting_dataset-3.7.9.tar.gz
+[2023-06-27 10:35:53] INFO root fetch - processPackages [FAIRSave]: executing diffoscope
+[2023-06-27 10:35:53] INFO root fetch - processPackages [FAIRSave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FAIRSave-0.0.6.3.tar.gz tmp/FAIRSave-0.0.6.4.tar.gz --markdown 20230627/F/FAIRSave/0.0.6.3-0.0.6.4/diff.md --exclude *.pyd
+[2023-06-27 10:35:53] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: executing diffoscope
+[2023-06-27 10:35:53] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_songpicker2-0.2.3.tar.gz tmp/nonebot_plugin_songpicker2-0.2.4.tar.gz --markdown 20230627/n/nonebot-plugin-songpicker2/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-27 10:35:53] INFO root fetch - processPackages [scoamp]: executing diffoscope
+[2023-06-27 10:35:53] INFO root fetch - processPackages [scoamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamp-0.3.1-py3-none-any.whl.zip tmp/scoamp-0.3.2-py3-none-any.whl.zip --markdown 20230627/s/scoamp/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-27 10:35:54] INFO root fetch - processPackages [nowcasting-dataset]: executing diffoscope
+[2023-06-27 10:35:54] INFO root fetch - processPackages [nowcasting-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_dataset-3.7.8.tar.gz tmp/nowcasting_dataset-3.7.9.tar.gz --markdown 20230627/n/nowcasting-dataset/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-06-27 10:35:54] INFO root fetch - processPackages [scoamppro]: executing diffoscope
+[2023-06-27 10:35:54] INFO root fetch - processPackages [scoamppro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamppro-0.3.1-py3-none-any.whl.zip tmp/scoamppro-0.3.2-py3-none-any.whl.zip --markdown 20230627/s/scoamppro/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-27 10:35:54] INFO root fetch - processPackages [glue-helper-lib]: Downloading https://files.pythonhosted.org/packages/44/dd/f10ee85a9d40370548ec3b60b13389f636aa998860750687d3558a47b54a/glue_helper_lib-0.5.0.tar.gz
+[2023-06-27 10:35:54] INFO root fetch - processPackages [cx-Freeze]: Downloading https://files.pythonhosted.org/packages/6d/18/697934627f9980f2ef688ea574841968e455349a808663e2cc67bbf56d71/cx_Freeze-6.9.tar.gz
+[2023-06-27 10:35:54] INFO root fetch - processPackages [glue-helper-lib]: executing diffoscope
+[2023-06-27 10:35:54] INFO root fetch - processPackages [glue-helper-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_helper_lib-0.4.0.tar.gz tmp/glue_helper_lib-0.5.0.tar.gz --markdown 20230627/g/glue-helper-lib/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-27 10:35:54] INFO root fetch - processPackages [cx-Freeze]: executing diffoscope
+[2023-06-27 10:35:54] INFO root fetch - processPackages [cx-Freeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cx_Freeze-6.8b5.tar.gz tmp/cx_Freeze-6.9.tar.gz --markdown 20230627/c/cx-Freeze/6.8b5-6.9/diff.md --exclude *.pyd
+[2023-06-27 10:35:55] INFO root fetch - processPackages [bobbles]: Remove: archive file [/home/abi/fetcher/tmp/bobbles-190.0.1.tar.gz]
+[2023-06-27 10:35:55] INFO root fetch - processPackages [bobbles]: Remove: archive file [/home/abi/fetcher/tmp/bobbles-190.0.2.tar.gz]
+[2023-06-27 10:35:55] INFO root fetch - processPackages [bobbles]: Start processing: quickstart-vdk
+[2023-06-27 10:35:55] INFO root fetch - main [MainThread]: End processing [bobbles]: success
+[2023-06-27 10:35:55] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.911852332.dev11862] Old Version: [0.2.911694257.dev11838]
+[2023-06-27 10:35:55] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/6a/14/6b079da3ceb501e152f7beec18929276f8b15805875f4d6024f9dc7eb754/quickstart-vdk-0.2.911694257.dev11838.tar.gz
+[2023-06-27 10:35:55] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/3d/a8/0d2202a8a4a0dfd2f477938cf30f732623a44d9cd90604e24781998b359e/quickstart-vdk-0.2.911852332.dev11862.tar.gz
+[2023-06-27 10:35:55] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-27 10:35:55] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.911694257.dev11838.tar.gz tmp/quickstart-vdk-0.2.911852332.dev11862.tar.gz --markdown 20230627/q/quickstart-vdk/0.2.911694257.dev11838-0.2.911852332.dev11862/diff.md --exclude *.pyd
+[2023-06-27 10:35:55] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-27 10:35:55] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-27 10:35:55] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-27 10:35:55] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.1-py3-none-any.whl.zip]
+[2023-06-27 10:35:55] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.2-py3-none-any.whl.zip]
+[2023-06-27 10:35:55] INFO root fetch - main [MainThread]: End processing [scoamp]: success
+[2023-06-27 10:35:55] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.3.1-py3-none-any.whl.zip]
+[2023-06-27 10:35:55] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.3.2-py3-none-any.whl.zip]
+[2023-06-27 10:35:55] INFO root fetch - main [MainThread]: End processing [scoamppro]: success
+[2023-06-27 10:35:55] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_songpicker2-0.2.3.tar.gz]
+[2023-06-27 10:35:55] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_songpicker2-0.2.4.tar.gz]
+[2023-06-27 10:35:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-songpicker2]: success
+[2023-06-27 10:35:56] INFO root fetch - processPackages [glue-helper-lib]: Remove: archive file [/home/abi/fetcher/tmp/glue_helper_lib-0.4.0.tar.gz]
+[2023-06-27 10:35:56] INFO root fetch - processPackages [glue-helper-lib]: Remove: archive file [/home/abi/fetcher/tmp/glue_helper_lib-0.5.0.tar.gz]
+[2023-06-27 10:35:56] INFO root fetch - main [MainThread]: End processing [glue-helper-lib]: success
+[2023-06-27 10:35:56] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.3.tar.gz]
+[2023-06-27 10:35:56] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.4.tar.gz]
+[2023-06-27 10:35:56] INFO root fetch - main [MainThread]: End processing [FAIRSave]: success
+[2023-06-27 10:35:56] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.0.tar.gz]
+[2023-06-27 10:35:56] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.1.tar.gz]
+[2023-06-27 10:35:56] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2023-06-27 10:35:56] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.911694257.dev11838.tar.gz]
+[2023-06-27 10:35:56] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.911852332.dev11862.tar.gz]
+[2023-06-27 10:35:56] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-27 10:35:56] INFO root fetch - processPackages [cx-Freeze]: Remove: archive file [/home/abi/fetcher/tmp/cx_Freeze-6.8b5.tar.gz]
+[2023-06-27 10:35:56] INFO root fetch - processPackages [cx-Freeze]: Remove: archive file [/home/abi/fetcher/tmp/cx_Freeze-6.9.tar.gz]
+[2023-06-27 10:35:56] INFO root fetch - main [MainThread]: End processing [cx-Freeze]: success
+[2023-06-27 10:35:58] INFO root fetch - processPackages [nowcasting-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_dataset-3.7.8.tar.gz]
+[2023-06-27 10:35:58] INFO root fetch - processPackages [nowcasting-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_dataset-3.7.9.tar.gz]
+[2023-06-27 10:35:58] INFO root fetch - main [MainThread]: End processing [nowcasting-dataset]: success
+[2023-06-27 10:35:58] INFO root fetch - main [MainThread]: Store serial: [18659859]
