@@ -18644,3 +18644,197 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 11:38:03] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-27 11:38:03] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-27 11:38:03] INFO root fetch - main [MainThread]: Store serial: [18660779]
+[2023-06-27 11:43:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18660779]
+[2023-06-27 11:43:24] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-27 11:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: summa-embed
+[2023-06-27 11:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: expert-intelligence-toolbox
+[2023-06-27 11:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyidi
+[2023-06-27 11:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gripa
+[2023-06-27 11:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crypto-screening
+[2023-06-27 11:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fitk
+[2023-06-27 11:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unified-planning
+[2023-06-27 11:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitlab-arc-fs
+[2023-06-27 11:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kiara
+[2023-06-27 11:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robocorp
+[2023-06-27 11:43:24] INFO root fetch - processPackages [crypto-screening]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-27 11:43:24] INFO root fetch - processPackages [gitlab-arc-fs]: New version: [0.0.9.dev1] Old Version: [0.0.8.dev1]
+[2023-06-27 11:43:24] INFO root fetch - processPackages [kiara]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-27 11:43:24] INFO root fetch - processPackages [gripa]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-27 11:43:24] INFO root fetch - processPackages [fitk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-27 11:43:24] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-27 11:43:24] INFO root fetch - processPackages [pyidi]: New version: [0.27] Old Version: [0.26]
+[2023-06-27 11:43:24] INFO root fetch - processPackages [robocorp]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-27 11:43:24] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 11:43:24] INFO root fetch - processPackages [summa-embed]: New version: [0.17.4] Old Version: [0.17.3]
+[2023-06-27 11:43:24] INFO root fetch - processPackages [fitk]: Downloading https://files.pythonhosted.org/packages/d1/21/920cf50045637f5cd374af90765e3eafef5a2b99b7a3c8b28dc14d42de6f/fitk-0.9.2.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0e/13/96cc6617347f539f4105aa2d8c22e0f59367d4839663ee5456fdf3fa2047/gitlab_arc_fs-0.0.8.dev1.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/74/c7/1b6f9405168e6452f679eba13aa83b76d58a4d04b3675749c0d1e62b3308/crypto-screening-1.2.0.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [gripa]: Downloading https://files.pythonhosted.org/packages/e8/a1/0c36b4b1858fc845b7b0843f0b6f09c06ddd023b7aea5425ab17642187d0/gripa-0.1.0.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [pyidi]: Downloading https://files.pythonhosted.org/packages/9f/9d/197d55c7c6931b6aa763cc91e2cf6c7be6324e6481cf3b109ee4242a68d1/pyidi-0.26.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/3f/79/fa4e8a6826f113046ada93d9b667f72636d2aff88f86e3f02e892002926a/kiara-0.4.8.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/b9/ae/56084e37c4e004d94309b96161fd574a640d55f681643f1b48e6d8cc0f58/summa_embed-0.17.3.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [robocorp]: Downloading https://files.pythonhosted.org/packages/72/03/1019ac73dab99a25afcdcbf52fce58cdc567977c03e3ddba9430b6dad86e/robocorp-0.0.1.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0f/cd/99d970c989763e4c968b7bc029225b30885ba89e68822868e6b6f5cf5be8/gitlab_arc_fs-0.0.9.dev1.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [fitk]: Downloading https://files.pythonhosted.org/packages/53/89/85405d78d877556a60cb675b9eba15ffcf76005575d019e82a73266602af/fitk-0.9.3.tar.gz
+[2023-06-27 11:43:24] INFO root fetch - processPackages [gitlab-arc-fs]: executing diffoscope
+[2023-06-27 11:43:24] INFO root fetch - processPackages [gitlab-arc-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz --markdown 20230627/g/gitlab-arc-fs/0.0.8.dev1-0.0.9.dev1/diff.md --exclude *.pyd
+[2023-06-27 11:43:25] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/85/64/2f0ca8c9767329e1bf5bcd598363314741d892b48b75dd391da1b4753ccc/crypto-screening-1.2.1.tar.gz
+[2023-06-27 11:43:25] INFO root fetch - processPackages [gripa]: Downloading https://files.pythonhosted.org/packages/71/51/ab2534cace42516fcb975a463394059776908dde642c7b9bf3e1da48eccb/gripa-0.1.1.tar.gz
+[2023-06-27 11:43:25] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-06-27 11:43:25] INFO root fetch - processPackages [fitk]: executing diffoscope
+[2023-06-27 11:43:25] INFO root fetch - processPackages [fitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitk-0.9.2.tar.gz tmp/fitk-0.9.3.tar.gz --markdown 20230627/f/fitk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-27 11:43:25] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/3d/22/3a4614b5d47fc1fc1c36e86c0455c85228a01920689dab12f9254198a36c/summa_embed-0.17.4.tar.gz
+[2023-06-27 11:43:25] INFO root fetch - processPackages [gripa]: executing diffoscope
+[2023-06-27 11:43:25] INFO root fetch - processPackages [gripa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gripa-0.1.0.tar.gz tmp/gripa-0.1.1.tar.gz --markdown 20230627/g/gripa/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-27 11:43:25] INFO root fetch - processPackages [robocorp]: Downloading https://files.pythonhosted.org/packages/64/21/5b70f07285a4e5a2aeab62c1eae87b3977e9ed362e0375f12fa50dbf3753/robocorp-0.1.0.tar.gz
+[2023-06-27 11:43:25] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-06-27 11:43:25] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.2.0.tar.gz tmp/crypto-screening-1.2.1.tar.gz --markdown 20230627/c/crypto-screening/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-27 11:43:25] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-27 11:43:25] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230627/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 11:43:25] INFO root fetch - processPackages [pyidi]: Downloading https://files.pythonhosted.org/packages/68/b5/6f8c6a96e247a88be5448f29d5679c8d97468c0a86c57b83c887f0462051/pyidi-0.27.tar.gz
+[2023-06-27 11:43:25] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/05/0e/69cf34a19959bde095398297ff33bcf2421ec3ddc0ae7bafe46183d25333/kiara-0.4.9.tar.gz
+[2023-06-27 11:43:25] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-27 11:43:25] INFO root fetch - processPackages [robocorp]: executing diffoscope
+[2023-06-27 11:43:25] INFO root fetch - processPackages [robocorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp-0.0.1.tar.gz tmp/robocorp-0.1.0.tar.gz --markdown 20230627/r/robocorp/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-27 11:43:25] INFO root fetch - processPackages [pyidi]: executing diffoscope
+[2023-06-27 11:43:25] INFO root fetch - processPackages [pyidi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyidi-0.26.tar.gz tmp/pyidi-0.27.tar.gz --markdown 20230627/p/pyidi/0.26-0.27/diff.md --exclude *.pyd
+[2023-06-27 11:43:25] INFO root fetch - processPackages [kiara]: executing diffoscope
+[2023-06-27 11:43:25] INFO root fetch - processPackages [kiara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara-0.4.8.tar.gz tmp/kiara-0.4.9.tar.gz --markdown 20230627/k/kiara/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-27 11:43:25] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-06-27 11:43:25] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.17.3.tar.gz tmp/summa_embed-0.17.4.tar.gz --markdown 20230627/s/summa-embed/0.17.3-0.17.4/diff.md --exclude *.pyd
+[2023-06-27 11:43:25] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-27 11:43:25] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230627/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-27 11:43:26] INFO root fetch - processPackages [robocorp]: Remove: archive file [/home/abi/fetcher/tmp/robocorp-0.0.1.tar.gz]
+[2023-06-27 11:43:26] INFO root fetch - processPackages [robocorp]: Remove: archive file [/home/abi/fetcher/tmp/robocorp-0.1.0.tar.gz]
+[2023-06-27 11:43:26] INFO root fetch - processPackages [robocorp]: Start processing: bertagent
+[2023-06-27 11:43:26] INFO root fetch - main [MainThread]: End processing [robocorp]: success
+[2023-06-27 11:43:26] INFO root fetch - processPackages [bertagent]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-27 11:43:26] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-06-27 11:43:26] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-06-27 11:43:26] INFO root fetch - processPackages [expert-intelligence-toolbox]: Start processing: pinard
+[2023-06-27 11:43:26] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-27 11:43:26] INFO root fetch - processPackages [pinard]: New version: [1.0.0] Old Version: [0.9.7]
+[2023-06-27 11:43:26] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/7e/ad/6e109d32765a0034305d4637e5f66f780dda4b30f9e6e8d728af14545049/bertagent-1.0.5.tar.gz
+[2023-06-27 11:43:26] INFO root fetch - processPackages [gripa]: Remove: archive file [/home/abi/fetcher/tmp/gripa-0.1.0.tar.gz]
+[2023-06-27 11:43:26] INFO root fetch - processPackages [gripa]: Remove: archive file [/home/abi/fetcher/tmp/gripa-0.1.1.tar.gz]
+[2023-06-27 11:43:26] INFO root fetch - processPackages [gripa]: Start processing: JustScan
+[2023-06-27 11:43:26] INFO root fetch - main [MainThread]: End processing [gripa]: success
+[2023-06-27 11:43:26] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-27 11:43:27] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-27 11:43:27] INFO root fetch - processPackages [pinard]: Downloading https://files.pythonhosted.org/packages/bc/2c/e7d454c916f2d72e98462e94a2f85effd3b523ca5c28ad5c88722cc9b3bc/pinard-0.9.7.tar.gz
+[2023-06-27 11:43:27] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz]
+[2023-06-27 11:43:27] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz]
+[2023-06-27 11:43:27] INFO root fetch - processPackages [gitlab-arc-fs]: Start processing: django-tables2
+[2023-06-27 11:43:27] INFO root fetch - main [MainThread]: End processing [gitlab-arc-fs]: success
+[2023-06-27 11:43:27] INFO root fetch - processPackages [pyidi]: Remove: archive file [/home/abi/fetcher/tmp/pyidi-0.26.tar.gz]
+[2023-06-27 11:43:27] INFO root fetch - processPackages [pyidi]: Remove: archive file [/home/abi/fetcher/tmp/pyidi-0.27.tar.gz]
+[2023-06-27 11:43:27] INFO root fetch - processPackages [pyidi]: Start processing: eiffel-framework
+[2023-06-27 11:43:27] INFO root fetch - main [MainThread]: End processing [pyidi]: success
+[2023-06-27 11:43:27] INFO root fetch - processPackages [django-tables2]: New version: [2.6.0] Old Version: [2.5.3]
+[2023-06-27 11:43:27] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/a2/97/a8298f459b91c30352283a6abf4a88e5d8b5a6de56ae40c41431454f36c2/bertagent-1.0.7.tar.gz
+[2023-06-27 11:43:27] INFO root fetch - processPackages [eiffel-framework]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-27 11:43:27] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-27 11:43:27] INFO root fetch - processPackages [bertagent]: executing diffoscope
+[2023-06-27 11:43:27] INFO root fetch - processPackages [bertagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bertagent-1.0.5.tar.gz tmp/bertagent-1.0.7.tar.gz --markdown 20230627/b/bertagent/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-27 11:43:27] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-27 11:43:27] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230627/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-27 11:43:27] INFO root fetch - processPackages [django-tables2]: Downloading https://files.pythonhosted.org/packages/b5/db/0ab9a7f18a573111efdfc047081a0879c422b1c7f102c51051fe40d4b3b5/django-tables2-2.5.3.tar.gz
+[2023-06-27 11:43:27] INFO root fetch - processPackages [eiffel-framework]: Downloading https://files.pythonhosted.org/packages/63/fa/ec1696cb1aee5952d0aed1b0679eff0b89df34522cd167567c4d399eef20/eiffel_framework-0.1.1.tar.gz
+[2023-06-27 11:43:27] INFO root fetch - processPackages [pinard]: Downloading https://files.pythonhosted.org/packages/ce/99/315a67e217085b59b292fdcf01f9edc807f7cf161fb1973565a441a0db57/pinard-1.0.0.tar.gz
+[2023-06-27 11:43:27] INFO root fetch - processPackages [pinard]: executing diffoscope
+[2023-06-27 11:43:27] INFO root fetch - processPackages [pinard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinard-0.9.7.tar.gz tmp/pinard-1.0.0.tar.gz --markdown 20230627/p/pinard/0.9.7-1.0.0/diff.md --exclude *.pyd
+[2023-06-27 11:43:27] INFO root fetch - processPackages [django-tables2]: Downloading https://files.pythonhosted.org/packages/0f/5e/bcdfa9642a36b0ee7d643e415158ec806f22e55d0538f948cdcea0288c4d/django-tables2-2.6.0.tar.gz
+[2023-06-27 11:43:27] INFO root fetch - processPackages [django-tables2]: executing diffoscope
+[2023-06-27 11:43:27] INFO root fetch - processPackages [django-tables2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tables2-2.5.3.tar.gz tmp/django-tables2-2.6.0.tar.gz --markdown 20230627/d/django-tables2/2.5.3-2.6.0/diff.md --exclude *.pyd
+[2023-06-27 11:43:27] INFO root fetch - processPackages [eiffel-framework]: Downloading https://files.pythonhosted.org/packages/e0/f1/ff135ee6c01884d6c84c4f5c711957965c5c16f7fb3e475b1fa9f86352b2/eiffel_framework-0.1.2.tar.gz
+[2023-06-27 11:43:28] INFO root fetch - processPackages [eiffel-framework]: executing diffoscope
+[2023-06-27 11:43:28] INFO root fetch - processPackages [eiffel-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eiffel_framework-0.1.1.tar.gz tmp/eiffel_framework-0.1.2.tar.gz --markdown 20230627/e/eiffel-framework/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-27 11:43:28] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.2.0.tar.gz]
+[2023-06-27 11:43:28] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.2.1.tar.gz]
+[2023-06-27 11:43:28] INFO root fetch - processPackages [crypto-screening]: Start processing: pybw-comic
+[2023-06-27 11:43:28] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-06-27 11:43:28] WARNING root fetch - processPackages [pybw-comic]: Skipping, unable to determine old version
+[2023-06-27 11:43:28] INFO root fetch - processPackages [pybw-comic]: Start processing: remla12-lib-release
+[2023-06-27 11:43:28] INFO root fetch - main [MainThread]: End processing [pybw-comic] error
+[2023-06-27 11:43:28] INFO root fetch - processPackages [remla12-lib-release]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-27 11:43:28] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.3.tar.gz]
+[2023-06-27 11:43:28] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.4.tar.gz]
+[2023-06-27 11:43:28] INFO root fetch - processPackages [summa-embed]: Start processing: zeroc-ice
+[2023-06-27 11:43:28] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-06-27 11:43:28] INFO root fetch - processPackages [remla12-lib-release]: Downloading https://files.pythonhosted.org/packages/26/2b/06950e9dbbe7061eca1c186f45b0bc331a0d6c5a0e800e4501848e80055c/remla12_lib_release-0.1.7.tar.gz
+[2023-06-27 11:43:28] INFO root fetch - processPackages [zeroc-ice]: New version: [3.7.9.1] Old Version: [3.7.9]
+[2023-06-27 11:43:28] INFO root fetch - processPackages [fitk]: Remove: archive file [/home/abi/fetcher/tmp/fitk-0.9.2.tar.gz]
+[2023-06-27 11:43:28] INFO root fetch - processPackages [fitk]: Remove: archive file [/home/abi/fetcher/tmp/fitk-0.9.3.tar.gz]
+[2023-06-27 11:43:28] INFO root fetch - processPackages [fitk]: Start processing: nlpcloud
+[2023-06-27 11:43:28] INFO root fetch - main [MainThread]: End processing [fitk]: success
+[2023-06-27 11:43:28] INFO root fetch - processPackages [nlpcloud]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-27 11:43:28] INFO root fetch - processPackages [zeroc-ice]: Downloading https://files.pythonhosted.org/packages/f5/51/31f62f096a4292e4857013cf1c6c94277412683a4c6465ec5b204dda5019/zeroc-ice-3.7.9.tar.gz
+[2023-06-27 11:43:28] INFO root fetch - processPackages [remla12-lib-release]: Downloading https://files.pythonhosted.org/packages/15/19/253c54d06f9e60242cd7bd3e02091874717058184fff617231f55ed53fe8/remla12_lib_release-0.1.8.tar.gz
+[2023-06-27 11:43:28] INFO root fetch - processPackages [nlpcloud]: Downloading https://files.pythonhosted.org/packages/12/38/9809a35eba0806fd5d8d19f6ddc00c694ddd5fb91f053875bd17d97b90f8/nlpcloud-1.0.8.tar.gz
+[2023-06-27 11:43:28] INFO root fetch - processPackages [remla12-lib-release]: executing diffoscope
+[2023-06-27 11:43:28] INFO root fetch - processPackages [remla12-lib-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remla12_lib_release-0.1.7.tar.gz tmp/remla12_lib_release-0.1.8.tar.gz --markdown 20230627/r/remla12-lib-release/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-27 11:43:28] INFO root fetch - processPackages [zeroc-ice]: Downloading https://files.pythonhosted.org/packages/d6/b0/f81d32a52442dce627587b6484ff9af423bc0761c150b77422cfe5d63102/zeroc-ice-3.7.9.1.tar.gz
+[2023-06-27 11:43:28] INFO root fetch - processPackages [zeroc-ice]: executing diffoscope
+[2023-06-27 11:43:28] INFO root fetch - processPackages [zeroc-ice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroc-ice-3.7.9.tar.gz tmp/zeroc-ice-3.7.9.1.tar.gz --markdown 20230627/z/zeroc-ice/3.7.9-3.7.9.1/diff.md --exclude *.pyd
+[2023-06-27 11:43:29] INFO root fetch - processPackages [pinard]: Remove: archive file [/home/abi/fetcher/tmp/pinard-0.9.7.tar.gz]
+[2023-06-27 11:43:29] INFO root fetch - processPackages [pinard]: Remove: archive file [/home/abi/fetcher/tmp/pinard-1.0.0.tar.gz]
+[2023-06-27 11:43:29] INFO root fetch - processPackages [pinard]: Start processing: esentity
+[2023-06-27 11:43:29] INFO root fetch - main [MainThread]: End processing [pinard]: success
+[2023-06-27 11:43:29] INFO root fetch - processPackages [eiffel-framework]: Remove: archive file [/home/abi/fetcher/tmp/eiffel_framework-0.1.1.tar.gz]
+[2023-06-27 11:43:29] INFO root fetch - processPackages [eiffel-framework]: Remove: archive file [/home/abi/fetcher/tmp/eiffel_framework-0.1.2.tar.gz]
+[2023-06-27 11:43:29] INFO root fetch - processPackages [eiffel-framework]: Start processing: OpenGeode-core
+[2023-06-27 11:43:29] INFO root fetch - main [MainThread]: End processing [eiffel-framework]: success
+[2023-06-27 11:43:29] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-27 11:43:29] INFO root fetch - processPackages [nlpcloud]: Downloading https://files.pythonhosted.org/packages/3c/4d/85333181aba726d8c28ead2b2ca0c86fe3116d72b153045137ecd971e6d3/nlpcloud-1.0.9.tar.gz
+[2023-06-27 11:43:29] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.4.8.tar.gz]
+[2023-06-27 11:43:29] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.4.9.tar.gz]
+[2023-06-27 11:43:29] INFO root fetch - processPackages [kiara]: Start processing: bridgecrew
+[2023-06-27 11:43:29] INFO root fetch - main [MainThread]: End processing [kiara]: success
+[2023-06-27 11:43:29] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.3.4rc1]
+[2023-06-27 11:43:29] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2023-06-27 11:43:29] INFO root fetch - processPackages [nlpcloud]: executing diffoscope
+[2023-06-27 11:43:29] INFO root fetch - processPackages [nlpcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpcloud-1.0.8.tar.gz tmp/nlpcloud-1.0.9.tar.gz --markdown 20230627/n/nlpcloud/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-27 11:43:29] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-27 11:43:29] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/78/36/7db135b003e7e7a9d09e12083e86d73ab203f827d9b611bfde9344827cd0/OpenGeode_core-14.3.4rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-27 11:43:29] INFO root fetch - processPackages [remla12-lib-release]: Remove: archive file [/home/abi/fetcher/tmp/remla12_lib_release-0.1.7.tar.gz]
+[2023-06-27 11:43:29] INFO root fetch - processPackages [remla12-lib-release]: Remove: archive file [/home/abi/fetcher/tmp/remla12_lib_release-0.1.8.tar.gz]
+[2023-06-27 11:43:29] INFO root fetch - processPackages [remla12-lib-release]: Start processing: litmus-rs
+[2023-06-27 11:43:29] INFO root fetch - main [MainThread]: End processing [remla12-lib-release]: success
+[2023-06-27 11:43:29] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 14097708>=10485760
+[2023-06-27 11:43:29] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-06-27 11:43:29] WARNING root fetch - processPackages [litmus-rs]: Skipping, unable to determine old version
+[2023-06-27 11:43:29] INFO root fetch - main [MainThread]: End processing [litmus-rs] error
+[2023-06-27 11:43:29] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-27 11:43:29] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2023-06-27 11:43:29] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2023-06-27 11:43:29] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20230627/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-27 11:43:29] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-27 11:43:30] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-27 11:43:30] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230627/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-27 11:43:30] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-27 11:43:30] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-27 11:43:30] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-27 11:43:30] INFO root fetch - processPackages [bertagent]: Remove: archive file [/home/abi/fetcher/tmp/bertagent-1.0.5.tar.gz]
+[2023-06-27 11:43:30] INFO root fetch - processPackages [bertagent]: Remove: archive file [/home/abi/fetcher/tmp/bertagent-1.0.7.tar.gz]
+[2023-06-27 11:43:30] INFO root fetch - main [MainThread]: End processing [bertagent]: success
+[2023-06-27 11:43:30] INFO root fetch - processPackages [nlpcloud]: Remove: archive file [/home/abi/fetcher/tmp/nlpcloud-1.0.8.tar.gz]
+[2023-06-27 11:43:30] INFO root fetch - processPackages [nlpcloud]: Remove: archive file [/home/abi/fetcher/tmp/nlpcloud-1.0.9.tar.gz]
+[2023-06-27 11:43:30] INFO root fetch - main [MainThread]: End processing [nlpcloud]: success
+[2023-06-27 11:43:30] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-27 11:43:30] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-27 11:43:30] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-27 11:43:30] INFO root fetch - processPackages [django-tables2]: Remove: archive file [/home/abi/fetcher/tmp/django-tables2-2.5.3.tar.gz]
+[2023-06-27 11:43:30] INFO root fetch - processPackages [django-tables2]: Remove: archive file [/home/abi/fetcher/tmp/django-tables2-2.6.0.tar.gz]
+[2023-06-27 11:43:30] INFO root fetch - main [MainThread]: End processing [django-tables2]: success
+[2023-06-27 11:43:31] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-27 11:43:31] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-27 11:43:31] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-27 11:43:31] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2023-06-27 11:43:31] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2023-06-27 11:43:31] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2023-06-27 11:43:36] INFO root fetch - processPackages [zeroc-ice]: Remove: archive file [/home/abi/fetcher/tmp/zeroc-ice-3.7.9.tar.gz]
+[2023-06-27 11:43:36] INFO root fetch - processPackages [zeroc-ice]: Remove: archive file [/home/abi/fetcher/tmp/zeroc-ice-3.7.9.1.tar.gz]
+[2023-06-27 11:43:36] INFO root fetch - main [MainThread]: End processing [zeroc-ice]: success
+[2023-06-27 11:43:36] INFO root fetch - main [MainThread]: Store serial: [18660867]
