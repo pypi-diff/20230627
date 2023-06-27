@@ -14960,3 +14960,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 09:37:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
 [2023-06-27 09:37:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-06-27 09:37:56] INFO root fetch - main [MainThread]: Store serial: [18659147]
+[2023-06-27 09:43:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659147]
+[2023-06-27 09:43:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfy-mlflow-client
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: login-gmail-selenium
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ramodels
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notion-pinecone
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-activation
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-cchess
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aniya
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sdevpy
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: notion-pinecone
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onnxruntime-openvino
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-27 09:43:06] INFO root fetch - processPackages [sdevpy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-27 09:43:06] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 09:43:06] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 09:43:06] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-27 09:43:06] WARNING root fetch - processPackages [torch-activation]: Skipping, unable to determine old version
+[2023-06-27 09:43:06] INFO root fetch - processPackages [torch-activation]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-27 09:43:06] INFO root fetch - main [MainThread]: End processing [torch-activation] error
+[2023-06-27 09:43:06] WARNING root fetch - processPackages [aniya]: Skipping, unable to determine old version
+[2023-06-27 09:43:06] INFO root fetch - processPackages [aniya]: Start processing: mdacli
+[2023-06-27 09:43:06] INFO root fetch - main [MainThread]: End processing [aniya] error
+[2023-06-27 09:43:06] INFO root fetch - processPackages [onnxruntime-openvino]: New version: [1.15.0] Old Version: [1.14.0]
+[2023-06-27 09:43:06] INFO root fetch - processPackages [tfy-mlflow-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 09:43:06] INFO root fetch - processPackages [nonebot-plugin-cchess]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-27 09:43:06] INFO root fetch - processPackages [login-gmail-selenium]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-27 09:43:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-27 09:43:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [mdacli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 09:43:06] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/5e/1b/786f3a69b088867a26b91d3eee2366f90fbdd3af7f7f19d7238caba33c31/sdevpy-0.1.3.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [onnxruntime-openvino]: Downloading https://files.pythonhosted.org/packages/8d/0e/7c6185f61b40ec225c9c5afddacac21b311cf586767d4b8b9b0215fe0881/onnxruntime_openvino-1.14.0-cp39-cp39-win_amd64.whl
+[2023-06-27 09:43:06] INFO root fetch - processPackages [nonebot-plugin-cchess]: Downloading https://files.pythonhosted.org/packages/4d/63/cbfb7779f29961b1ec437e87541a4ebe120cc328a934fdbf78d8ec8d02b5/nonebot_plugin_cchess-0.2.2.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [login-gmail-selenium]: Downloading https://files.pythonhosted.org/packages/ab/48/ba244569a608833e0672d30af655f0ad014623287da8eefa486c7bc2736a/login_gmail_selenium-1.1.8.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-27 09:43:06] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230627/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 09:43:06] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-27 09:43:06] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230627/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-27 09:43:06] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230627/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-27 09:43:06] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/43/f0/45be21abdff732bb8de13f178413b52bd098bb8395e239c8721423f39e0e/tfy-mlflow-client-0.0.8.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [mdacli]: Downloading https://files.pythonhosted.org/packages/41/92/316f19f0953e576be8d4864045a24b27e9b899f2dc351ab491b7b80f8f6f/mdacli-0.1.8.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/b0/e4/d8b167e26ba852fb8c64a8cb2a08bd1ce4a2c43e818ea8b1430b35b1d9e2/sdevpy-0.1.4.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-27 09:43:06] INFO root fetch - processPackages [sdevpy]: executing diffoscope
+[2023-06-27 09:43:06] INFO root fetch - processPackages [sdevpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdevpy-0.1.3.tar.gz tmp/sdevpy-0.1.4.tar.gz --markdown 20230627/s/sdevpy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-27 09:43:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-27 09:43:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 09:43:06] INFO root fetch - processPackages [nonebot-plugin-cchess]: Downloading https://files.pythonhosted.org/packages/40/a8/df65d9c8e0cbd98be9c57f0802a288238d22d2644f62ac03361ebcc015e5/nonebot_plugin_cchess-0.3.0.tar.gz
+[2023-06-27 09:43:07] INFO root fetch - processPackages [mdacli]: Downloading https://files.pythonhosted.org/packages/53/37/051ef318cf54824275ebd65addf5095626b5681cd352fb418d60e1ba831a/mdacli-0.1.9.tar.gz
+[2023-06-27 09:43:07] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/99/46/ec87ff507a911f7eb4550bd758513440cf543ba1d9701b042b5caf64682a/tfy-mlflow-client-0.0.9.tar.gz
+[2023-06-27 09:43:07] INFO root fetch - processPackages [nonebot-plugin-cchess]: executing diffoscope
+[2023-06-27 09:43:07] INFO root fetch - processPackages [nonebot-plugin-cchess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cchess-0.2.2.tar.gz tmp/nonebot_plugin_cchess-0.3.0.tar.gz --markdown 20230627/n/nonebot-plugin-cchess/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-27 09:43:07] INFO root fetch - processPackages [login-gmail-selenium]: Downloading https://files.pythonhosted.org/packages/39/83/e8121e3a3877269ba6f93b9b0ff4fb253cd85716c457d678af64e50a91d1/login_gmail_selenium-1.1.9.tar.gz
+[2023-06-27 09:43:07] INFO root fetch - processPackages [mdacli]: executing diffoscope
+[2023-06-27 09:43:07] INFO root fetch - processPackages [mdacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdacli-0.1.8.tar.gz tmp/mdacli-0.1.9.tar.gz --markdown 20230627/m/mdacli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 09:43:07] INFO root fetch - processPackages [tfy-mlflow-client]: executing diffoscope
+[2023-06-27 09:43:07] INFO root fetch - processPackages [tfy-mlflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfy-mlflow-client-0.0.8.tar.gz tmp/tfy-mlflow-client-0.0.9.tar.gz --markdown 20230627/t/tfy-mlflow-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 09:43:07] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.8.tar.gz]
+[2023-06-27 09:43:07] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.9.tar.gz]
+[2023-06-27 09:43:07] INFO root fetch - processPackages [notion-pinecone]: Start processing: py4ami
+[2023-06-27 09:43:07] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-27 09:43:07] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-27 09:43:07] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-27 09:43:07] INFO root fetch - processPackages [ramodels]: Start processing: rosa-python-client
+[2023-06-27 09:43:07] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-27 09:43:08] INFO root fetch - processPackages [notion-pinecone]: Start processing: IgusD1
+[2023-06-27 09:43:08] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-27 09:43:08] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-27 09:43:08] INFO root fetch - processPackages [py4ami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 09:43:08] WARNING root fetch - processPackages [IgusD1]: Skipping, unable to determine old version
+[2023-06-27 09:43:08] INFO root fetch - main [MainThread]: End processing [IgusD1] error
+[2023-06-27 09:43:08] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2023-06-27 09:43:08] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2023-06-27 09:43:08] INFO root fetch - processPackages [py4ami]: Downloading https://files.pythonhosted.org/packages/c5/19/fd72b8e353daaae6dce12807e4727231323c1eb920f6f081e58828435702/py4ami-0.0.8.tar.gz
+[2023-06-27 09:43:08] INFO root fetch - processPackages [onnxruntime-openvino]: Downloading https://files.pythonhosted.org/packages/a8/f6/b5cca63618d8ef96e04e57d73ee192b9872f8d4d1c678e1110d2568517f6/onnxruntime_openvino-1.15.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-27 09:43:08] WARNING root fetch - processPackages [py4ami]: Skipping package: exceeds size limit 16331081>=10485760
+[2023-06-27 09:43:08] INFO root fetch - main [MainThread]: End processing [py4ami] error
+[2023-06-27 09:43:08] INFO root fetch - processPackages [login-gmail-selenium]: executing diffoscope
+[2023-06-27 09:43:08] INFO root fetch - processPackages [login-gmail-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/login_gmail_selenium-1.1.8.tar.gz tmp/login_gmail_selenium-1.1.9.tar.gz --markdown 20230627/l/login-gmail-selenium/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-27 09:43:08] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2023-06-27 09:43:08] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20230627/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-27 09:43:08] WARNING root fetch - processPackages [onnxruntime-openvino]: Skipping package: exceeds size limit 48653982>=10485760
+[2023-06-27 09:43:08] INFO root fetch - main [MainThread]: End processing [onnxruntime-openvino] error
+[2023-06-27 09:43:08] INFO root fetch - processPackages [nonebot-plugin-cchess]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cchess-0.2.2.tar.gz]
+[2023-06-27 09:43:08] INFO root fetch - processPackages [nonebot-plugin-cchess]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cchess-0.3.0.tar.gz]
+[2023-06-27 09:43:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cchess]: success
+[2023-06-27 09:43:09] INFO root fetch - processPackages [mdacli]: Remove: archive file [/home/abi/fetcher/tmp/mdacli-0.1.8.tar.gz]
+[2023-06-27 09:43:09] INFO root fetch - processPackages [mdacli]: Remove: archive file [/home/abi/fetcher/tmp/mdacli-0.1.9.tar.gz]
+[2023-06-27 09:43:09] INFO root fetch - main [MainThread]: End processing [mdacli]: success
+[2023-06-27 09:43:09] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2023-06-27 09:43:09] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2023-06-27 09:43:09] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2023-06-27 09:43:10] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-27 09:43:10] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-27 09:43:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-27 09:43:11] INFO root fetch - processPackages [login-gmail-selenium]: Remove: archive file [/home/abi/fetcher/tmp/login_gmail_selenium-1.1.8.tar.gz]
+[2023-06-27 09:43:11] INFO root fetch - processPackages [login-gmail-selenium]: Remove: archive file [/home/abi/fetcher/tmp/login_gmail_selenium-1.1.9.tar.gz]
+[2023-06-27 09:43:11] INFO root fetch - main [MainThread]: End processing [login-gmail-selenium]: success
+[2023-06-27 09:43:13] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.8.tar.gz]
+[2023-06-27 09:43:13] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.9.tar.gz]
+[2023-06-27 09:43:13] INFO root fetch - main [MainThread]: End processing [tfy-mlflow-client]: success
+[2023-06-27 09:44:02] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.1.3.tar.gz]
+[2023-06-27 09:44:02] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.1.4.tar.gz]
+[2023-06-27 09:44:02] INFO root fetch - main [MainThread]: End processing [sdevpy]: success
+[2023-06-27 09:44:02] INFO root fetch - main [MainThread]: Store serial: [18659203]
