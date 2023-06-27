@@ -17950,3 +17950,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 11:15:32] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.9.tar.gz]
 [2023-06-27 11:15:32] INFO root fetch - main [MainThread]: End processing [akeyless]: success
 [2023-06-27 11:15:32] INFO root fetch - main [MainThread]: Store serial: [18660476]
+[2023-06-27 11:20:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18660476]
+[2023-06-27 11:20:42] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JustScan
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bobbles
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: norton-beer
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zein
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: klarf-reader
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metricq
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tbp-nightly
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai2-kit
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-setu-now
+[2023-06-27 11:20:42] INFO root fetch - processPackages [bobbles]: New version: [190.0.4] Old Version: [190.0.3]
+[2023-06-27 11:20:42] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-27 11:20:42] INFO root fetch - processPackages [zein]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-27 11:20:42] INFO root fetch - processPackages [norton-beer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 11:20:42] INFO root fetch - processPackages [klarf-reader]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-27 11:20:42] INFO root fetch - processPackages [metricq]: New version: [5.3.0] Old Version: [5.2.0]
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-27 11:20:42] INFO root fetch - processPackages [nonebot-plugin-setu-now]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-27 11:20:42] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/34/29/4f387d6b5f3849cb8936093506c7e1f319ad82d4cd872693bef2d6f15ce5/zein-0.0.3.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [bobbles]: Downloading https://files.pythonhosted.org/packages/8a/28/cc8cc33bed3481584441c3cc68b1fa10c97f4a924359a79d0ad3361b37b0/bobbles-190.0.3.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/6a/0c/963b214051b21688cbfaea31cc9775942d45694a70adfe1143a29d92441d/ai2_kit-0.3.5.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-27 11:20:42] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230627] Old Version: [2.14.0.dev20230626]
+[2023-06-27 11:20:42] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [klarf-reader]: Downloading https://files.pythonhosted.org/packages/ff/48/e7b93239f0a505d8898016af9eb867408091acf6d8147b8544f69cb763d0/klarf-reader-0.3.2.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Downloading https://files.pythonhosted.org/packages/ca/db/f1aa8524647ac76800d5ad44cede4d088887afdc419ea06cdfc1e8dd1992/nonebot_plugin_setu_now-0.6.1.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [metricq]: Downloading https://files.pythonhosted.org/packages/5a/c9/54d169a36424a9454927e8d85a5351ac10f7ac9b0d30a2becd09aa78357f/metricq-5.2.0-py3-none-any.whl
+[2023-06-27 11:20:42] ERROR root fetch - processPackages [bobbles]: Unable to fetch info: No such project/version 'bobbles' 190.0.4
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/fb/0a/a61d83a217a3078897ee212e3e910d2b06a3310f6dec199906a2893b6861/ai2_kit-0.3.6.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [bobbles]: Start processing: cg
+[2023-06-27 11:20:42] INFO root fetch - main [MainThread]: End processing [bobbles] error
+[2023-06-27 11:20:42] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [norton-beer]: Downloading https://files.pythonhosted.org/packages/c8/76/8ce103d5fddfe0c1fb66e538a48af1bacf5a3d6f71968c97da6c2c761211/norton_beer-1.0.0.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/60/93/af7d6fd43b29a418043cf6e55885866fe26ecf450728eaf36830f2a28af7/tf_nightly-2.14.0.dev20230626-cp39-cp39-win_amd64.whl
+[2023-06-27 11:20:42] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/72/06/75e3a3760cda5a16cb8a168a2856c84739dbf1b6c11b2506715275df0e39/zein-0.0.4.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [cg]: New version: [37.0.8] Old Version: [37.0.7]
+[2023-06-27 11:20:42] INFO root fetch - processPackages [klarf-reader]: Downloading https://files.pythonhosted.org/packages/15/4a/2e1ad37a35ee9efda859e97c14f93e02a3b905ad2a350b98a23381f71875/klarf-reader-0.3.3.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-06-27 11:20:42] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.5.tar.gz tmp/ai2_kit-0.3.6.tar.gz --markdown 20230627/a/ai2-kit/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-27 11:20:42] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Downloading https://files.pythonhosted.org/packages/a3/82/2965892c5c30b62926ef31bb3e1ad426ef53c5d2cf5c8e37d8379593aa76/nonebot_plugin_setu_now-0.6.2.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/54/2d/d93b062bcd756fd4329f676eda75f0332c78adb4d1030ecb7cb993aa2310/cg-37.0.7.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [metricq]: Downloading https://files.pythonhosted.org/packages/e2/00/9537da3d6e2cd7d5a49f65b39a003be4a390d3e792edc026e7e6e1c51da5/metricq-5.3.0-py3-none-any.whl
+[2023-06-27 11:20:42] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-27 11:20:42] INFO root fetch - processPackages [klarf-reader]: executing diffoscope
+[2023-06-27 11:20:42] INFO root fetch - processPackages [klarf-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klarf-reader-0.3.2.tar.gz tmp/klarf-reader-0.3.3.tar.gz --markdown 20230627/k/klarf-reader/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-27 11:20:42] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-06-27 11:20:42] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.3.tar.gz tmp/zein-0.0.4.tar.gz --markdown 20230627/z/zein/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-27 11:20:42] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/94/ef/92c8fc33ad8cce6bb01a4e37dc6d5e0b3f857e2564ee8e169a03e872879a/tf_nightly-2.14.0.dev20230627-cp39-cp39-win_amd64.whl
+[2023-06-27 11:20:42] INFO root fetch - processPackages [nonebot-plugin-setu-now]: executing diffoscope
+[2023-06-27 11:20:42] INFO root fetch - processPackages [nonebot-plugin-setu-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_setu_now-0.6.1.tar.gz tmp/nonebot_plugin_setu_now-0.6.2.tar.gz --markdown 20230627/n/nonebot-plugin-setu-now/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-27 11:20:42] INFO root fetch - processPackages [norton-beer]: Downloading https://files.pythonhosted.org/packages/3d/79/6c08d62b9cef5a63d6e5b28d13a2e81f267427f7ce370d972b7719429faf/norton_beer-1.0.1.tar.gz
+[2023-06-27 11:20:43] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-27 11:20:43] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230627/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-27 11:20:43] INFO root fetch - processPackages [metricq]: executing diffoscope
+[2023-06-27 11:20:43] INFO root fetch - processPackages [metricq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricq-5.2.0-py3-none-any.whl.zip tmp/metricq-5.3.0-py3-none-any.whl.zip --markdown 20230627/m/metricq/5.2.0-5.3.0/diff.md --exclude *.pyd
+[2023-06-27 11:20:43] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-27 11:20:43] INFO root fetch - processPackages [norton-beer]: executing diffoscope
+[2023-06-27 11:20:43] INFO root fetch - processPackages [norton-beer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/norton_beer-1.0.0.tar.gz tmp/norton_beer-1.0.1.tar.gz --markdown 20230627/n/norton-beer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 11:20:43] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-06-27 11:20:43] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230626-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230627-cp39-cp39-win_amd64.whl.zip --markdown 20230627/t/tf-nightly/2.14.0.dev20230626-2.14.0.dev20230627/diff.md --exclude *.pyd
+[2023-06-27 11:20:43] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-27 11:20:43] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230627/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-27 11:20:43] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-27 11:20:43] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-27 11:20:43] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.7.tar.gz tmp/cg-37.0.8.tar.gz --markdown 20230627/c/cg/37.0.7-37.0.8/diff.md --exclude *.pyd
+[2023-06-27 11:20:44] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230626-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 11:20:44] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230627-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 11:20:44] INFO root fetch - processPackages [tf-nightly]: Start processing: hestia-earth-utils
+[2023-06-27 11:20:44] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-06-27 11:20:44] INFO root fetch - processPackages [hestia-earth-utils]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-27 11:20:45] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.3.tar.gz]
+[2023-06-27 11:20:45] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.4.tar.gz]
+[2023-06-27 11:20:45] INFO root fetch - processPackages [zein]: Start processing: odoo13-addon-gestion-editorial
+[2023-06-27 11:20:45] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-06-27 11:20:45] INFO root fetch - processPackages [odoo13-addon-gestion-editorial]: New version: [13.0.0.3.1.dev3] Old Version: [13.0.0.3.0]
+[2023-06-27 11:20:45] INFO root fetch - processPackages [hestia-earth-utils]: Downloading https://files.pythonhosted.org/packages/b5/09/58e937acf02fcf8e045b3e338ba1ec75699010c812f282f8fcc7a7760dd3/hestia-earth-utils-0.9.1.tar.gz
+[2023-06-27 11:20:45] INFO root fetch - processPackages [odoo13-addon-gestion-editorial]: Downloading https://files.pythonhosted.org/packages/ea/c6/4b5390ad95e4dd6832794e9508ee86a8b319bf1dd4ff408390b5b8cad817/odoo13_addon_gestion_editorial-13.0.0.3.0-py3-none-any.whl
+[2023-06-27 11:20:45] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_setu_now-0.6.1.tar.gz]
+[2023-06-27 11:20:45] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_setu_now-0.6.2.tar.gz]
+[2023-06-27 11:20:45] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Start processing: vgis-office
+[2023-06-27 11:20:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-setu-now]: success
+[2023-06-27 11:20:45] INFO root fetch - processPackages [metricq]: Remove: archive file [/home/abi/fetcher/tmp/metricq-5.2.0-py3-none-any.whl.zip]
+[2023-06-27 11:20:45] INFO root fetch - processPackages [metricq]: Remove: archive file [/home/abi/fetcher/tmp/metricq-5.3.0-py3-none-any.whl.zip]
+[2023-06-27 11:20:45] INFO root fetch - main [MainThread]: End processing [metricq]: success
+[2023-06-27 11:20:45] INFO root fetch - processPackages [odoo13-addon-gestion-editorial]: Downloading https://files.pythonhosted.org/packages/fc/f3/20de5a3dcaef1ba0b5af489598ba556022fb54c69d722a6ec48eafea6932/odoo13_addon_gestion_editorial-13.0.0.3.1.dev3-py3-none-any.whl
+[2023-06-27 11:20:45] WARNING root fetch - processPackages [vgis-office]: Skipping, unable to determine old version
+[2023-06-27 11:20:45] INFO root fetch - main [MainThread]: End processing [vgis-office] error
+[2023-06-27 11:20:45] INFO root fetch - processPackages [klarf-reader]: Remove: archive file [/home/abi/fetcher/tmp/klarf-reader-0.3.2.tar.gz]
+[2023-06-27 11:20:45] INFO root fetch - processPackages [klarf-reader]: Remove: archive file [/home/abi/fetcher/tmp/klarf-reader-0.3.3.tar.gz]
+[2023-06-27 11:20:45] INFO root fetch - main [MainThread]: End processing [klarf-reader]: success
+[2023-06-27 11:20:45] INFO root fetch - processPackages [hestia-earth-utils]: Downloading https://files.pythonhosted.org/packages/22/b2/a49f1b9e1609b9de13fc28566ea47b84bf6f6c3bfcb24ccb29a574534d07/hestia-earth-utils-0.9.2.tar.gz
+[2023-06-27 11:20:45] INFO root fetch - processPackages [odoo13-addon-gestion-editorial]: executing diffoscope
+[2023-06-27 11:20:45] INFO root fetch - processPackages [odoo13-addon-gestion-editorial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_gestion_editorial-13.0.0.3.0-py3-none-any.whl.zip tmp/odoo13_addon_gestion_editorial-13.0.0.3.1.dev3-py3-none-any.whl.zip --markdown 20230627/o/odoo13-addon-gestion-editorial/13.0.0.3.0-13.0.0.3.1.dev3/diff.md --exclude *.pyd
+[2023-06-27 11:20:45] INFO root fetch - processPackages [norton-beer]: Remove: archive file [/home/abi/fetcher/tmp/norton_beer-1.0.0.tar.gz]
+[2023-06-27 11:20:45] INFO root fetch - processPackages [norton-beer]: Remove: archive file [/home/abi/fetcher/tmp/norton_beer-1.0.1.tar.gz]
+[2023-06-27 11:20:45] INFO root fetch - main [MainThread]: End processing [norton-beer]: success
+[2023-06-27 11:20:45] INFO root fetch - processPackages [hestia-earth-utils]: executing diffoscope
+[2023-06-27 11:20:45] INFO root fetch - processPackages [hestia-earth-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-utils-0.9.1.tar.gz tmp/hestia-earth-utils-0.9.2.tar.gz --markdown 20230627/h/hestia-earth-utils/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-27 11:20:45] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.5.tar.gz]
+[2023-06-27 11:20:45] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.6.tar.gz]
+[2023-06-27 11:20:45] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-06-27 11:20:46] INFO root fetch - processPackages [odoo13-addon-gestion-editorial]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_gestion_editorial-13.0.0.3.0-py3-none-any.whl.zip]
+[2023-06-27 11:20:46] INFO root fetch - processPackages [odoo13-addon-gestion-editorial]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_gestion_editorial-13.0.0.3.1.dev3-py3-none-any.whl.zip]
+[2023-06-27 11:20:46] INFO root fetch - main [MainThread]: End processing [odoo13-addon-gestion-editorial]: success
+[2023-06-27 11:20:46] INFO root fetch - processPackages [hestia-earth-utils]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-utils-0.9.1.tar.gz]
+[2023-06-27 11:20:46] INFO root fetch - processPackages [hestia-earth-utils]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-utils-0.9.2.tar.gz]
+[2023-06-27 11:20:46] INFO root fetch - main [MainThread]: End processing [hestia-earth-utils]: success
+[2023-06-27 11:20:46] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-27 11:20:46] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-27 11:20:46] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-27 11:20:47] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-27 11:20:47] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-27 11:20:47] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-27 11:20:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.7.tar.gz]
+[2023-06-27 11:20:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-27 11:20:57] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-27 11:20:57] INFO root fetch - main [MainThread]: Store serial: [18660530]
