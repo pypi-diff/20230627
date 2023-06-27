@@ -6028,3 +6028,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 03:27:38] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-06-27 03:27:38] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-06-27 03:27:38] INFO root fetch - main [MainThread]: Store serial: [18655734]
+[2023-06-27 03:32:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18655734]
+[2023-06-27 03:32:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-27 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyagrum-nightly
+[2023-06-27 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reliableGPT
+[2023-06-27 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-messagebus
+[2023-06-27 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LLM-Toolbox
+[2023-06-27 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paper-qa
+[2023-06-27 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omekac-iiif-tools
+[2023-06-27 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pp-project-pkg
+[2023-06-27 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-organizations
+[2023-06-27 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gigagan-pytorch
+[2023-06-27 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-heweather
+[2023-06-27 03:32:47] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.920] Old Version: [0.2.919]
+[2023-06-27 03:32:47] INFO root fetch - processPackages [LLM-Toolbox]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-27 03:32:47] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306270130] Old Version: [1.0.202306270044]
+[2023-06-27 03:32:47] WARNING root fetch - processPackages [omekac-iiif-tools]: Skipping, unable to determine old version
+[2023-06-27 03:32:47] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 03:32:47] INFO root fetch - main [MainThread]: End processing [omekac-iiif-tools] error
+[2023-06-27 03:32:47] INFO root fetch - processPackages [neon-messagebus]: New version: [1.0.2a1] Old Version: [1.0.1a2]
+[2023-06-27 03:32:47] INFO root fetch - processPackages [paper-qa]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-27 03:32:47] INFO root fetch - processPackages [nonebot-plugin-heweather]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-27 03:32:47] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-27 03:32:47] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-27 03:32:47] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/c0/aa/26bf6b7a863fb9525dd2ca84ff5122173d9bcd4d108b07c4aa8bb92431c7/gigagan-pytorch-0.0.8.tar.gz
+[2023-06-27 03:32:47] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/b6/6a/4d65986d39384d43b1c9634492d80b774b488c41fff24920697524ba3917/reliableGPT-0.2.919.tar.gz
+[2023-06-27 03:32:48] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/c9/28/2c40bb57d543b82ee73aff9f54884b1c2111b449bbfb43c729b830e9a33d/pp_project_pkg-1.0.202306270044-py3-none-any.whl
+[2023-06-27 03:32:48] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/a4/d7/10b5d4fd6a2d8749cabeddc144b272adf0be6a34cde6835ecf815a96544e/LLM-Toolbox-0.1.0.tar.gz
+[2023-06-27 03:32:48] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/e0/50/beb020d06a2832ee109f7e7941ac9c235caeaf8c7551d4416a3bc337e305/paper-qa-3.1.0.tar.gz
+[2023-06-27 03:32:48] INFO root fetch - processPackages [neon-messagebus]: Downloading https://files.pythonhosted.org/packages/ef/1d/a796358acce42072cc6cf80ddfc9d44840fbfc6475a456358e2ca83c155a/neon_messagebus-1.0.1a2-py3-none-any.whl
+[2023-06-27 03:32:48] INFO root fetch - processPackages [nonebot-plugin-heweather]: Downloading https://files.pythonhosted.org/packages/35/e3/552887f385bce0be7161acfeea7b4a2623d8a50587db36328d90ee01f293/nonebot_plugin_heweather-0.6.8.tar.gz
+[2023-06-27 03:32:48] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-06-27 03:32:48] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/88/15/d88c491945eed450311a7b87b5c2fc81ce2bdeb29f0c7c042a11e387769b/gigagan-pytorch-0.0.9.tar.gz
+[2023-06-27 03:32:48] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-27 03:32:48] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-06-27 03:32:48] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-06-27 03:32:48] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.0.8.tar.gz tmp/gigagan-pytorch-0.0.9.tar.gz --markdown 20230627/g/gigagan-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 03:32:48] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-27 03:32:48] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230627/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-27 03:32:48] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/00/c5/53c033c4784a3511604f478404afff38ee72be6b548da2730ba9576f1665/reliableGPT-0.2.920.tar.gz
+[2023-06-27 03:32:48] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/d0/70/1d39c2c1d5f76c367ecfbfdb5e7f4a7e95fcf418ff5d8743c1b29eb718fd/pp_project_pkg-1.0.202306270130-py3-none-any.whl
+[2023-06-27 03:32:48] INFO root fetch - processPackages [nonebot-plugin-heweather]: Downloading https://files.pythonhosted.org/packages/0d/d7/d4f9aa2b1e6642cb18bc9366d93b4922b894bd71ac751e416ea548ad1853/nonebot_plugin_heweather-0.6.9.tar.gz
+[2023-06-27 03:32:48] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/a2/a7/946a0b88efaaad3d3afbf5e35d6a380c47f7b1895ab6cda88ec0eee63741/LLM-Toolbox-0.1.1.tar.gz
+[2023-06-27 03:32:48] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/ae/ed/e73c871c4168a712bc08368b207dc9007546c9571e8c073693820fce5750/paper-qa-3.1.1.tar.gz
+[2023-06-27 03:32:48] INFO root fetch - processPackages [neon-messagebus]: Downloading https://files.pythonhosted.org/packages/5e/b6/32980df0fee63963008d8b2e87c923526b5355f103e3c257ed53b573b0e6/neon_messagebus-1.0.2a1.tar.gz
+[2023-06-27 03:32:48] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-27 03:32:48] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306270044-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306270130-py3-none-any.whl.zip --markdown 20230627/p/pp-project-pkg/1.0.202306270044-1.0.202306270130/diff.md --exclude *.pyd
+[2023-06-27 03:32:48] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-27 03:32:48] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.919.tar.gz tmp/reliableGPT-0.2.920.tar.gz --markdown 20230627/r/reliableGPT/0.2.919-0.2.920/diff.md --exclude *.pyd
+[2023-06-27 03:32:48] INFO root fetch - processPackages [nonebot-plugin-heweather]: executing diffoscope
+[2023-06-27 03:32:48] INFO root fetch - processPackages [nonebot-plugin-heweather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_heweather-0.6.8.tar.gz tmp/nonebot_plugin_heweather-0.6.9.tar.gz --markdown 20230627/n/nonebot-plugin-heweather/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-27 03:32:48] INFO root fetch - processPackages [LLM-Toolbox]: executing diffoscope
+[2023-06-27 03:32:48] INFO root fetch - processPackages [LLM-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLM-Toolbox-0.1.0.tar.gz tmp/LLM-Toolbox-0.1.1.tar.gz --markdown 20230627/L/LLM-Toolbox/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-27 03:32:48] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-06-27 03:32:48] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-3.1.0.tar.gz tmp/paper-qa-3.1.1.tar.gz --markdown 20230627/p/paper-qa/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-27 03:32:48] INFO root fetch - processPackages [neon-messagebus]: executing diffoscope
+[2023-06-27 03:32:48] INFO root fetch - processPackages [neon-messagebus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_messagebus-1.0.1a2-py3-none-any.whl.zip tmp/neon_messagebus-1.0.2a1.tar.gz --markdown 20230627/n/neon-messagebus/1.0.1a2-1.0.2a1/diff.md --exclude *.pyd
+[2023-06-27 03:32:48] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-06-27 03:32:49] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-27 03:32:49] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230627/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-06-27 03:32:49] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.8.tar.gz]
+[2023-06-27 03:32:49] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.9.tar.gz]
+[2023-06-27 03:32:49] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-06-27 03:32:49] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306270044-py3-none-any.whl.zip]
+[2023-06-27 03:32:49] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306270130-py3-none-any.whl.zip]
+[2023-06-27 03:32:49] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-27 03:32:49] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-27 03:32:49] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-27 03:32:50] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-27 03:32:50] INFO root fetch - processPackages [nonebot-plugin-heweather]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_heweather-0.6.8.tar.gz]
+[2023-06-27 03:32:50] INFO root fetch - processPackages [nonebot-plugin-heweather]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_heweather-0.6.9.tar.gz]
+[2023-06-27 03:32:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-heweather]: success
+[2023-06-27 03:32:50] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.919.tar.gz]
+[2023-06-27 03:32:50] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.920.tar.gz]
+[2023-06-27 03:32:50] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-27 03:32:50] INFO root fetch - processPackages [neon-messagebus]: Remove: archive file [/home/abi/fetcher/tmp/neon_messagebus-1.0.1a2-py3-none-any.whl.zip]
+[2023-06-27 03:32:50] INFO root fetch - processPackages [neon-messagebus]: Remove: archive file [/home/abi/fetcher/tmp/neon_messagebus-1.0.2a1.tar.gz]
+[2023-06-27 03:32:50] INFO root fetch - main [MainThread]: End processing [neon-messagebus]: success
+[2023-06-27 03:32:50] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.0.tar.gz]
+[2023-06-27 03:32:50] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.1.tar.gz]
+[2023-06-27 03:32:50] INFO root fetch - main [MainThread]: End processing [LLM-Toolbox]: success
+[2023-06-27 03:32:50] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.1.0.tar.gz]
+[2023-06-27 03:32:50] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.1.1.tar.gz]
+[2023-06-27 03:32:50] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-06-27 03:32:50] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 03:32:50] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 03:32:50] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-27 03:32:50] INFO root fetch - main [MainThread]: Store serial: [18655783]
