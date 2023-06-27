@@ -12114,3 +12114,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 06:11:18] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.2.tar.gz]
 [2023-06-27 06:11:18] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-06-27 06:11:18] INFO root fetch - main [MainThread]: Store serial: [18657974]
+[2023-06-27 06:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657974]
+[2023-06-27 06:16:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-27 06:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-game-collection
+[2023-06-27 06:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arkdriver
+[2023-06-27 06:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtgql
+[2023-06-27 06:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: analysis-runner
+[2023-06-27 06:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LLM-Toolbox
+[2023-06-27 06:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: systemPY
+[2023-06-27 06:16:28] INFO root fetch - processPackages [LLM-Toolbox]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-27 06:16:28] INFO root fetch - processPackages [arkdriver]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-27 06:16:28] INFO root fetch - processPackages [analysis-runner]: New version: [2.41.2] Old Version: [2.41.1]
+[2023-06-27 06:16:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-27 06:16:28] INFO root fetch - processPackages [systemPY]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 06:16:28] INFO root fetch - processPackages [qtgql]: New version: [0.121.0] Old Version: [0.120.3]
+[2023-06-27 06:16:28] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/08/8d/768a91eb77896a5b64f017cf74cef67b755dd402cdc222f46ffdb68b2418/LLM-Toolbox-0.1.3.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [analysis-runner]: Downloading https://files.pythonhosted.org/packages/91/3b/112104d0a8be5fd7fd44363422bdb88e743ad7a240b75cf124e27a273829/analysis-runner-2.41.1.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [arkdriver]: Downloading https://files.pythonhosted.org/packages/25/d1/2cd56af9a00e4baa5a1fca6994e965da6fa1c24fb8e33d15b35905d20a7c/arkdriver-1.0.8.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/36/30/3eb6d148e8f19c95c43ca2e4991e827a7639532bbac530cc1d762b3103ad/qtgql-0.120.3.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [systemPY]: Downloading https://files.pythonhosted.org/packages/2d/c2/60a7d10bdeed633728a502ad66807fd8e6d1d4bd48a15579e112df933ae8/systemPY-0.0.8.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-27 06:16:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230627/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-27 06:16:28] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/83/55/17070c5bd098ac01458f6ce1cdafb8c53dc9b64c95c885fe8902432d9c23/LLM-Toolbox-0.1.4.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [analysis-runner]: Downloading https://files.pythonhosted.org/packages/04/26/106c86bf29c75c4a32b21b819d7cc488293146c187f8e6c61a66691d626b/analysis-runner-2.41.2.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [arkdriver]: Downloading https://files.pythonhosted.org/packages/15/6e/3e574dee52ba1b5442b8257a8437806ce83ab5dbee089f49e26ada0a247d/arkdriver-1.0.9.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [LLM-Toolbox]: executing diffoscope
+[2023-06-27 06:16:28] INFO root fetch - processPackages [LLM-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLM-Toolbox-0.1.3.tar.gz tmp/LLM-Toolbox-0.1.4.tar.gz --markdown 20230627/L/LLM-Toolbox/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-27 06:16:28] INFO root fetch - processPackages [analysis-runner]: executing diffoscope
+[2023-06-27 06:16:28] INFO root fetch - processPackages [analysis-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysis-runner-2.41.1.tar.gz tmp/analysis-runner-2.41.2.tar.gz --markdown 20230627/a/analysis-runner/2.41.1-2.41.2/diff.md --exclude *.pyd
+[2023-06-27 06:16:28] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/f6/b4/1706efe940a68bc7a51326719579d654b561831722ab19454243ab14486c/qtgql-0.121.0.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [systemPY]: Downloading https://files.pythonhosted.org/packages/a1/ae/1cfac4789fe027997aa44a289046cadb9bd537019e0fae6abec9c4593ae5/systemPY-0.0.9.tar.gz
+[2023-06-27 06:16:28] INFO root fetch - processPackages [arkdriver]: executing diffoscope
+[2023-06-27 06:16:28] INFO root fetch - processPackages [arkdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdriver-1.0.8.tar.gz tmp/arkdriver-1.0.9.tar.gz --markdown 20230627/a/arkdriver/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-27 06:16:29] INFO root fetch - processPackages [systemPY]: executing diffoscope
+[2023-06-27 06:16:29] INFO root fetch - processPackages [systemPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemPY-0.0.8.tar.gz tmp/systemPY-0.0.9.tar.gz --markdown 20230627/s/systemPY/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 06:16:29] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-06-27 06:16:29] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.120.3.tar.gz tmp/qtgql-0.121.0.tar.gz --markdown 20230627/q/qtgql/0.120.3-0.121.0/diff.md --exclude *.pyd
+[2023-06-27 06:16:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-27 06:16:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-27 06:16:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-27 06:16:30] INFO root fetch - processPackages [analysis-runner]: Remove: archive file [/home/abi/fetcher/tmp/analysis-runner-2.41.1.tar.gz]
+[2023-06-27 06:16:30] INFO root fetch - processPackages [analysis-runner]: Remove: archive file [/home/abi/fetcher/tmp/analysis-runner-2.41.2.tar.gz]
+[2023-06-27 06:16:30] INFO root fetch - main [MainThread]: End processing [analysis-runner]: success
+[2023-06-27 06:16:30] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.3.tar.gz]
+[2023-06-27 06:16:30] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.4.tar.gz]
+[2023-06-27 06:16:30] INFO root fetch - main [MainThread]: End processing [LLM-Toolbox]: success
+[2023-06-27 06:16:30] INFO root fetch - processPackages [arkdriver]: Remove: archive file [/home/abi/fetcher/tmp/arkdriver-1.0.8.tar.gz]
+[2023-06-27 06:16:30] INFO root fetch - processPackages [arkdriver]: Remove: archive file [/home/abi/fetcher/tmp/arkdriver-1.0.9.tar.gz]
+[2023-06-27 06:16:30] INFO root fetch - main [MainThread]: End processing [arkdriver]: success
+[2023-06-27 06:16:30] INFO root fetch - processPackages [systemPY]: Remove: archive file [/home/abi/fetcher/tmp/systemPY-0.0.8.tar.gz]
+[2023-06-27 06:16:30] INFO root fetch - processPackages [systemPY]: Remove: archive file [/home/abi/fetcher/tmp/systemPY-0.0.9.tar.gz]
+[2023-06-27 06:16:30] INFO root fetch - main [MainThread]: End processing [systemPY]: success
+[2023-06-27 06:16:30] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.120.3.tar.gz]
+[2023-06-27 06:16:30] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.121.0.tar.gz]
+[2023-06-27 06:16:30] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-06-27 06:16:30] INFO root fetch - main [MainThread]: Store serial: [18657991]
