@@ -11059,3 +11059,190 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 05:22:33] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
 [2023-06-27 05:22:33] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
 [2023-06-27 05:22:33] INFO root fetch - main [MainThread]: Store serial: [18657586]
+[2023-06-27 05:27:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657586]
+[2023-06-27 05:27:42] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-27 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-core
+[2023-06-27 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet-runtime
+[2023-06-27 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-embed
+[2023-06-27 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet
+[2023-06-27 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phyle-phynder
+[2023-06-27 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dartpy
+[2023-06-27 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-pyodide
+[2023-06-27 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-website-event-snippet-calendar
+[2023-06-27 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: control-lab-ly
+[2023-06-27 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-website-event-require-login
+[2023-06-27 05:27:42] INFO root fetch - processPackages [flet-runtime]: New version: [0.8.0.dev1590] Old Version: [0.8.0.dev1576]
+[2023-06-27 05:27:42] INFO root fetch - processPackages [flet-core]: New version: [0.8.0.dev1590] Old Version: [0.8.0.dev1576]
+[2023-06-27 05:27:42] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1590] Old Version: [0.8.0.dev1576]
+[2023-06-27 05:27:42] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-27 05:27:42] INFO root fetch - processPackages [phyle-phynder]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-27 05:27:42] INFO root fetch - processPackages [flet-embed]: New version: [0.8.0.dev1590] Old Version: [0.8.0.dev1576]
+[2023-06-27 05:27:42] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post99] Old Version: [0.1.0.post98]
+[2023-06-27 05:27:42] INFO root fetch - processPackages [odoo-addon-website-event-snippet-calendar]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-06-27 05:27:42] INFO root fetch - processPackages [flet]: New version: [0.8.0.dev1590] Old Version: [0.8.0.dev1576]
+[2023-06-27 05:27:42] INFO root fetch - processPackages [control-lab-ly]: New version: [1.1.1a1] Old Version: [1.1.0b1]
+[2023-06-27 05:27:42] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Downloading https://files.pythonhosted.org/packages/86/07/bed1d1d5d49620687351559c11f042fc29ade0a8156d886402c484120f35/odoo_addon_website_event_require_login-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-27 05:27:42] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/6e/48/5cd9c08b701a02e0cd5c679bf6c6ce5b58a479c64c679e24139686598d3e/flet_runtime-0.8.0.dev1576.tar.gz
+[2023-06-27 05:27:42] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/b5/25/9bb0138cb514de357db9d5a775e3c7e04d8cbb2f8eb480e32657bc637ade/flet_embed-0.8.0.dev1576.tar.gz
+[2023-06-27 05:27:42] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/d0/79/f5f87b70d8f4f6450cb1629a0e224f22bcaadf6185288ffeffa8404b706a/flet_core-0.8.0.dev1576.tar.gz
+[2023-06-27 05:27:42] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/8c/36/f080c4be0ea06a6cf4280036687e04e151f0468d7001ecca327d9c18aaa1/flet_pyodide-0.8.0.dev1576.tar.gz
+[2023-06-27 05:27:42] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/89/2a/c2d757247d7f86217dc7c29cb10498d6faf1e3bcaf7d00317a6ea723a0f5/flet-0.8.0.dev1576.tar.gz
+[2023-06-27 05:27:43] INFO root fetch - processPackages [phyle-phynder]: Downloading https://files.pythonhosted.org/packages/3e/0d/dd6ed7c4274f08874ad92b9763673ce0da34152b6d7eed16ed0746f50201/phyle_phynder-0.1.0.tar.gz
+[2023-06-27 05:27:43] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/c4/e2/e012a94f3e718a1fdf451f95db91ede9137f23c98201defefbeb39d4bd80/dartpy-0.1.0.post98-cp39-cp39-win_amd64.whl
+[2023-06-27 05:27:43] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/22/2c/771f7291cdfefe9a76f732c703921df87c16522891e498f10cd6c6afdae8/control-lab-ly-1.1.0b1.tar.gz
+[2023-06-27 05:27:43] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20036126>=10485760
+[2023-06-27 05:27:43] INFO root fetch - processPackages [dartpy]: Start processing: odoo-addons-oca-event
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addon-website-event-snippet-calendar]: Downloading https://files.pythonhosted.org/packages/39/bb/24c2423777553083abced3614c63543620243183b577f88972d3153b123f/odoo_addon_website_event_snippet_calendar-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-27 05:27:43] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addons-oca-event]: New version: [16.0.20230626.0] Old Version: [15.0.20230626.0]
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Downloading https://files.pythonhosted.org/packages/d8/bd/1a4252b37e4a432518084d98ed947d92ebc908dd955985939131452862a2/odoo_addon_website_event_require_login-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/66/ac/ce03b3b1fbe0c7eb9d0a0c2cbafd398b5222ef130d815bebd5add184c1ef/flet_pyodide-0.8.0.dev1590.tar.gz
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: executing diffoscope
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_event_require_login-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_website_event_require_login-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-website-event-require-login/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/bb/06/6a6464027f4fb91b63ac7c946db2236b4ab62bd10ca364f1e3672d66e035/odoo_addons_oca_event-15.0.20230626.0-py3-none-any.whl
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/36/d3/accc5a99238e0f264160b1225fd24313f7b57828990dab8dbe55e3603a75/flet_embed-0.8.0.dev1590.tar.gz
+[2023-06-27 05:27:43] INFO root fetch - processPackages [phyle-phynder]: Downloading https://files.pythonhosted.org/packages/95/1a/a66a2fa6cdb208e0c351dcd69a94e9af5bd6ee38e1da9b1989c9f4243dc6/phyle_phynder-0.1.1.tar.gz
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/89/ec/eb226b2ec5259ba60602d1ab07131de87fc030c541e7863730ed7714a581/flet_core-0.8.0.dev1590.tar.gz
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/63/6d/2816cd55a680a1626f9c3df59fc6ae63498486b71ebdf8338778f6f89de2/flet_runtime-0.8.0.dev1590.tar.gz
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.0.dev1576.tar.gz tmp/flet_pyodide-0.8.0.dev1590.tar.gz --markdown 20230627/f/flet-pyodide/0.8.0.dev1576-0.8.0.dev1590/diff.md --exclude *.pyd
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addon-website-event-snippet-calendar]: Downloading https://files.pythonhosted.org/packages/41/8f/707f4dd0dc8601791a05e7bc20b446b4b6697aed2b6239693d2d6aecfab4/odoo_addon_website_event_snippet_calendar-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/65/e9/fcf76e29bea157fdcedecf1ae1d2214dd8eca4cc17ff8bfa2610fbcb160b/flet-0.8.0.dev1590.tar.gz
+[2023-06-27 05:27:43] INFO root fetch - processPackages [phyle-phynder]: executing diffoscope
+[2023-06-27 05:27:43] INFO root fetch - processPackages [phyle-phynder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phyle_phynder-0.1.0.tar.gz tmp/phyle_phynder-0.1.1.tar.gz --markdown 20230627/p/phyle-phynder/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.8.0.dev1576.tar.gz tmp/flet_core-0.8.0.dev1590.tar.gz --markdown 20230627/f/flet-core/0.8.0.dev1576-0.8.0.dev1590/diff.md --exclude *.pyd
+[2023-06-27 05:27:43] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/50/82/57476a97fd7370f4b41a1c01f16ea47ba157686d0b6cb4c22b981fd48756/control-lab-ly-1.1.1a1.tar.gz
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addon-website-event-snippet-calendar]: executing diffoscope
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addon-website-event-snippet-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_event_snippet_calendar-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_website_event_snippet_calendar-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-website-event-snippet-calendar/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.8.0.dev1576.tar.gz tmp/flet_embed-0.8.0.dev1590.tar.gz --markdown 20230627/f/flet-embed/0.8.0.dev1576-0.8.0.dev1590/diff.md --exclude *.pyd
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.0.dev1576.tar.gz tmp/flet-0.8.0.dev1590.tar.gz --markdown 20230627/f/flet/0.8.0.dev1576-0.8.0.dev1590/diff.md --exclude *.pyd
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-06-27 05:27:43] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.8.0.dev1576.tar.gz tmp/flet_runtime-0.8.0.dev1590.tar.gz --markdown 20230627/f/flet-runtime/0.8.0.dev1576-0.8.0.dev1590/diff.md --exclude *.pyd
+[2023-06-27 05:27:43] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-06-27 05:27:43] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.1.0b1.tar.gz tmp/control-lab-ly-1.1.1a1.tar.gz --markdown 20230627/c/control-lab-ly/1.1.0b1-1.1.1a1/diff.md --exclude *.pyd
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/07/7d/00137cb72e5019d2fb60bb203d5b3b66784c669f3646fbcd3603fefb913a/odoo_addons_oca_event-16.0.20230626.0-py3-none-any.whl
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addons-oca-event]: executing diffoscope
+[2023-06-27 05:27:43] INFO root fetch - processPackages [odoo-addons-oca-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_event-15.0.20230626.0-py3-none-any.whl.zip tmp/odoo_addons_oca_event-16.0.20230626.0-py3-none-any.whl.zip --markdown 20230627/o/odoo-addons-oca-event/15.0.20230626.0-16.0.20230626.0/diff.md --exclude *.pyd
+[2023-06-27 05:27:44] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_require_login-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-27 05:27:44] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_require_login-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-27 05:27:44] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Start processing: tengu-py
+[2023-06-27 05:27:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-event-require-login]: success
+[2023-06-27 05:27:45] INFO root fetch - processPackages [tengu-py]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1576.tar.gz]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1590.tar.gz]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [flet-pyodide]: Start processing: odoo-addons-oca-event
+[2023-06-27 05:27:45] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-06-27 05:27:45] INFO root fetch - processPackages [odoo-addons-oca-event]: New version: [16.0.20230626.0] Old Version: [15.0.20230626.0]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/2e/b2/474334f65efde41ca98e9efaddd41646cca31740e150b7453ad6d9e0017d/tengu_py-0.6.0.tar.gz
+[2023-06-27 05:27:45] INFO root fetch - processPackages [odoo-addons-oca-event]: executing diffoscope
+[2023-06-27 05:27:45] INFO root fetch - processPackages [odoo-addons-oca-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_event-15.0.20230626.0-py3-none-any.whl.zip tmp/odoo_addons_oca_event-16.0.20230626.0-py3-none-any.whl.zip --markdown 20230627/o/odoo-addons-oca-event/15.0.20230626.0-16.0.20230626.0/diff.md --exclude *.pyd
+[2023-06-27 05:27:45] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.0.dev1576.tar.gz]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [phyle-phynder]: Remove: archive file [/home/abi/fetcher/tmp/phyle_phynder-0.1.0.tar.gz]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.0.dev1590.tar.gz]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [phyle-phynder]: Remove: archive file [/home/abi/fetcher/tmp/phyle_phynder-0.1.1.tar.gz]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [flet-runtime]: Start processing: pymycobot
+[2023-06-27 05:27:45] INFO root fetch - processPackages [phyle-phynder]: Start processing: pipen
+[2023-06-27 05:27:45] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-06-27 05:27:45] INFO root fetch - main [MainThread]: End processing [phyle-phynder]: success
+[2023-06-27 05:27:45] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.0.dev1576.tar.gz]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.0.dev1590.tar.gz]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [flet-embed]: Start processing: aicodebot
+[2023-06-27 05:27:45] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-06-27 05:27:45] INFO root fetch - processPackages [odoo-addons-oca-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_event-15.0.20230626.0-py3-none-any.whl.zip]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [odoo-addons-oca-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_event-16.0.20230626.0-py3-none-any.whl.zip]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [odoo-addons-oca-event]: Start processing: lfinancial
+[2023-06-27 05:27:45] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-event]: success
+[2023-06-27 05:27:45] INFO root fetch - processPackages [odoo-addon-website-event-snippet-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_snippet_calendar-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [odoo-addon-website-event-snippet-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_snippet_calendar-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [odoo-addon-website-event-snippet-calendar]: Start processing: cdktf-cdktf-provider-vsphere
+[2023-06-27 05:27:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-event-snippet-calendar]: success
+[2023-06-27 05:27:45] INFO root fetch - processPackages [aicodebot]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [lfinancial]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/cf/c6/53d25e34ef44d6f94789becd0094f159f65e270cb410dea242f908782450/tengu_py-0.6.1.tar.gz
+[2023-06-27 05:27:45] INFO root fetch - processPackages [pipen]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [pymycobot]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/02/4e/afc5d634b695026e57c0b2face49244a2d05d928889a4d063dba210c39a8/aicodebot-0.4.1.tar.gz
+[2023-06-27 05:27:45] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/ee/e7/01406f79d8012a22459c0947467a35fa21a05ff9c559c2787ade7a7a95b8/lfinancial-0.0.9.tar.gz
+[2023-06-27 05:27:45] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-06-27 05:27:45] INFO root fetch - processPackages [tengu-py]: executing diffoscope
+[2023-06-27 05:27:45] INFO root fetch - processPackages [tengu-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tengu_py-0.6.0.tar.gz tmp/tengu_py-0.6.1.tar.gz --markdown 20230627/t/tengu-py/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-27 05:27:45] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/f9/ce/50c491dce7d9841c5d5b1cf71e16d50ad5e1b9e115dfe9279225b927c0da/lfinancial-0.1.0.tar.gz
+[2023-06-27 05:27:45] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/89/8d/9c6dc54d1785255af9c0f2b040483e2d6d4b2c0f75ac4eef36237b5ba735/pipen-0.9.8.tar.gz
+[2023-06-27 05:27:45] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/0d/3b/4b9aecc22dcad85b121e7cea8e69abd8dd4c787a399b7eb5a5e87a22b0ed/pymycobot-3.1.2.tar.gz
+[2023-06-27 05:27:45] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-06-27 05:27:45] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.0.9.tar.gz tmp/lfinancial-0.1.0.tar.gz --markdown 20230627/l/lfinancial/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-27 05:27:45] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f5/fc/3b9cc88426ce6783e2bd6d5e6a23d5b5617b7b002166e9a8bf24666ae843/aicodebot-0.5.0.tar.gz
+[2023-06-27 05:27:45] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Downloading https://files.pythonhosted.org/packages/2e/bb/418d94b3353ce2e2a34fc298eac53e48f19f186f6d4f2d05dd98222ccf82/cdktf-cdktf-provider-vsphere-5.0.0.tar.gz
+[2023-06-27 05:27:45] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-06-27 05:27:45] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.4.1.tar.gz tmp/aicodebot-0.5.0.tar.gz --markdown 20230627/a/aicodebot/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-27 05:27:45] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/d0/7d/92ccc656287b8ff061dca4a002a4278869a787a82202331efb7f0111ea0f/pymycobot-3.1.3.tar.gz
+[2023-06-27 05:27:45] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/45/94/66725f0ebe253ae8e488f0eba36085ecc25349bc326bfe14d38c76bb9482/pipen-0.9.9.tar.gz
+[2023-06-27 05:27:45] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2023-06-27 05:27:45] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.1.2.tar.gz tmp/pymycobot-3.1.3.tar.gz --markdown 20230627/p/pymycobot/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-06-27 05:27:45] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Downloading https://files.pythonhosted.org/packages/4c/a8/309e05f5c46de4580ea2321b5beeae3a8c9a4233d48a920964c8f96e38fd/cdktf-cdktf-provider-vsphere-6.0.0.tar.gz
+[2023-06-27 05:27:46] INFO root fetch - processPackages [pipen]: executing diffoscope
+[2023-06-27 05:27:46] INFO root fetch - processPackages [pipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen-0.9.8.tar.gz tmp/pipen-0.9.9.tar.gz --markdown 20230627/p/pipen/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-27 05:27:46] ERROR root fetch - processPackages [odoo-addons-oca-event]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/odoo_addons_oca_event-15.0.20230626.0-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addons_oca_event-16.0.20230626.0-py3-none-any.whl.zip: No such file or directory
+
+[2023-06-27 05:27:46] INFO root fetch - processPackages [odoo-addons-oca-event]: Start processing: pdm-autoexport
+[2023-06-27 05:27:46] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-event] error
+[2023-06-27 05:27:46] INFO root fetch - processPackages [pdm-autoexport]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-27 05:27:46] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: executing diffoscope
+[2023-06-27 05:27:46] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vsphere-5.0.0.tar.gz tmp/cdktf-cdktf-provider-vsphere-6.0.0.tar.gz --markdown 20230627/c/cdktf-cdktf-provider-vsphere/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-06-27 05:27:46] INFO root fetch - processPackages [pdm-autoexport]: Downloading https://files.pythonhosted.org/packages/b6/67/e4c644011df948d93ab8518849ccea5d9f18411216bdb8347d5291703773/pdm-autoexport-0.1.1.tar.gz
+[2023-06-27 05:27:46] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.0.9.tar.gz]
+[2023-06-27 05:27:46] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.1.0.tar.gz]
+[2023-06-27 05:27:46] INFO root fetch - processPackages [lfinancial]: Start processing: odoo-addon-fieldservice-activity
+[2023-06-27 05:27:46] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-06-27 05:27:46] INFO root fetch - processPackages [pdm-autoexport]: Downloading https://files.pythonhosted.org/packages/ba/09/bca46c627fca49ade329c043e9944a5e6e338e9928b6269cc92b0d15dcae/pdm_autoexport-0.2.0.tar.gz
+[2023-06-27 05:27:46] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.6.0.tar.gz]
+[2023-06-27 05:27:46] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.6.1.tar.gz]
+[2023-06-27 05:27:46] INFO root fetch - processPackages [tengu-py]: Start processing: dev-assistant-client
+[2023-06-27 05:27:46] INFO root fetch - main [MainThread]: End processing [tengu-py]: success
+[2023-06-27 05:27:46] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-06-27 05:27:46] INFO root fetch - processPackages [pdm-autoexport]: executing diffoscope
+[2023-06-27 05:27:46] INFO root fetch - processPackages [pdm-autoexport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-autoexport-0.1.1.tar.gz tmp/pdm_autoexport-0.2.0.tar.gz --markdown 20230627/p/pdm-autoexport/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-27 05:27:46] INFO root fetch - processPackages [dev-assistant-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-27 05:27:47] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Downloading https://files.pythonhosted.org/packages/09/84/004d57802b226bee50824cbe481ec91a9904b10921cc512d7d528d32d224/odoo_addon_fieldservice_activity-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-27 05:27:47] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/3d/6c/7be1af4c0b73b77971b169f712357cb9e5b03db4b454c38d9e315df9c038/dev-assistant-client-0.1.0.tar.gz
+[2023-06-27 05:27:47] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Downloading https://files.pythonhosted.org/packages/77/35/01da4e294bd1e93ad4c61e7f75262cbe7260721b7565d8b1d2ec40255cf4/odoo_addon_fieldservice_activity-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-27 05:27:47] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/81/fb/0a9edc69c006631d869d2616423d503cf1581ebad82874a8585335717cdc/dev-assistant-client-0.1.1.tar.gz
+[2023-06-27 05:27:47] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: executing diffoscope
+[2023-06-27 05:27:47] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-fieldservice-activity/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-27 05:27:47] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.2.tar.gz]
+[2023-06-27 05:27:47] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.3.tar.gz]
+[2023-06-27 05:27:47] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2023-06-27 05:27:47] INFO root fetch - processPackages [dev-assistant-client]: executing diffoscope
+[2023-06-27 05:27:47] INFO root fetch - processPackages [dev-assistant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-assistant-client-0.1.0.tar.gz tmp/dev-assistant-client-0.1.1.tar.gz --markdown 20230627/d/dev-assistant-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-27 05:27:47] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.4.1.tar.gz]
+[2023-06-27 05:27:47] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.5.0.tar.gz]
+[2023-06-27 05:27:47] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-06-27 05:27:47] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.8.tar.gz]
+[2023-06-27 05:27:47] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.9.tar.gz]
+[2023-06-27 05:27:47] INFO root fetch - main [MainThread]: End processing [pipen]: success
+[2023-06-27 05:27:48] INFO root fetch - processPackages [pdm-autoexport]: Remove: archive file [/home/abi/fetcher/tmp/pdm-autoexport-0.1.1.tar.gz]
+[2023-06-27 05:27:48] INFO root fetch - processPackages [pdm-autoexport]: Remove: archive file [/home/abi/fetcher/tmp/pdm_autoexport-0.2.0.tar.gz]
+[2023-06-27 05:27:48] INFO root fetch - main [MainThread]: End processing [pdm-autoexport]: success
+[2023-06-27 05:27:48] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.8.0.dev1576.tar.gz]
+[2023-06-27 05:27:48] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.8.0.dev1590.tar.gz]
+[2023-06-27 05:27:48] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-06-27 05:27:48] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.0.tar.gz]
+[2023-06-27 05:27:48] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.1.tar.gz]
+[2023-06-27 05:27:48] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
+[2023-06-27 05:27:48] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.0b1.tar.gz]
+[2023-06-27 05:27:48] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.1a1.tar.gz]
+[2023-06-27 05:27:48] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-06-27 05:27:48] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-27 05:27:48] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-27 05:27:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-activity]: success
+[2023-06-27 05:27:49] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vsphere-5.0.0.tar.gz]
+[2023-06-27 05:27:49] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vsphere-6.0.0.tar.gz]
+[2023-06-27 05:27:49] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vsphere]: success
+[2023-06-27 05:28:33] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.0.dev1576.tar.gz]
+[2023-06-27 05:28:33] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.0.dev1590.tar.gz]
+[2023-06-27 05:28:33] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-06-27 05:28:33] INFO root fetch - main [MainThread]: Store serial: [18657664]
