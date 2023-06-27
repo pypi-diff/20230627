@@ -10939,3 +10939,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 05:17:19] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.3-py3-none-any.whl.zip]
 [2023-06-27 05:17:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update]: success
 [2023-06-27 05:17:19] INFO root fetch - main [MainThread]: Store serial: [18657553]
+[2023-06-27 05:22:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657553]
+[2023-06-27 05:22:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-27 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emsarray
+[2023-06-27 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyogmios
+[2023-06-27 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-27 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmdy
+[2023-06-27 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GANDLF
+[2023-06-27 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-service-client
+[2023-06-27 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-service-server
+[2023-06-27 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-ui
+[2023-06-27 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-v4-service
+[2023-06-27 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline
+[2023-06-27 05:22:27] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 05:22:27] INFO root fetch - processPackages [emsarray]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-27 05:22:27] INFO root fetch - processPackages [pyogmios]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-27 05:22:27] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 05:22:27] INFO root fetch - processPackages [cmdy]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-27 05:22:27] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-27 05:22:27] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230627] Old Version: [0.0.17.dev20230626]
+[2023-06-27 05:22:27] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 05:22:27] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-06-27 05:22:27] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 05:22:27] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 05:22:27] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-06-27 05:22:27] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-06-27 05:22:27] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-06-27 05:22:27] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/75/fc/976f6877332f6d938ea1e019c44b67b1bc699a3e6641f63d52548129fd1f/GANDLF-0.0.17.dev20230626.tar.gz
+[2023-06-27 05:22:27] INFO root fetch - processPackages [pyogmios]: Downloading https://files.pythonhosted.org/packages/9e/01/3ffa2d6dcdaa2508f55ec8bfb5f8724af04b4992ce2fbe4c4b671db48376/pyogmios-0.7.1.tar.gz
+[2023-06-27 05:22:27] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-06-27 05:22:27] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-06-27 05:22:27] INFO root fetch - processPackages [cmdy]: Downloading https://files.pythonhosted.org/packages/15/70/341751b1203976f1c8f4bb0c819a85918c70c1849e41f9956ba18f84d83b/cmdy-0.5.4.tar.gz
+[2023-06-27 05:22:27] INFO root fetch - processPackages [emsarray]: Downloading https://files.pythonhosted.org/packages/9a/1d/db4962f2bd360c0e945727837170553e714096c96f9490fc7e6f36042a66/emsarray-0.4.2.tar.gz
+[2023-06-27 05:22:27] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-06-27 05:22:28] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-06-27 05:22:28] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/24/5f/7ab388e2ca0c424bcc5bc0abf6b9bedadd069f978c3a22508508bce710c9/GANDLF-0.0.17.dev20230627.tar.gz
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230627/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230627/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230627/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 05:22:28] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-27 05:22:28] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230627/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230627/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 05:22:28] INFO root fetch - processPackages [cmdy]: Downloading https://files.pythonhosted.org/packages/05/a4/aa0e179f6842ad1778d83db4d5e0f9fc2ca6654135e916163cae04bf1992/cmdy-0.5.5.tar.gz
+[2023-06-27 05:22:28] INFO root fetch - processPackages [pyogmios]: Downloading https://files.pythonhosted.org/packages/5e/d3/63589829182b0388bde3a06ae0b18cd21a743c8c6de33751d6264ec67d95/pyogmios-0.7.2.tar.gz
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-06-27 05:22:28] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230627/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 05:22:28] INFO root fetch - processPackages [emsarray]: Downloading https://files.pythonhosted.org/packages/52/79/7962e892d7abc671a3fb94c237a283088b4b50c4b3af091e83301fa359a5/emsarray-0.4.3.tar.gz
+[2023-06-27 05:22:28] INFO root fetch - processPackages [cmdy]: executing diffoscope
+[2023-06-27 05:22:28] INFO root fetch - processPackages [cmdy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdy-0.5.4.tar.gz tmp/cmdy-0.5.5.tar.gz --markdown 20230627/c/cmdy/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-27 05:22:28] INFO root fetch - processPackages [pyogmios]: executing diffoscope
+[2023-06-27 05:22:28] INFO root fetch - processPackages [pyogmios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyogmios-0.7.1.tar.gz tmp/pyogmios-0.7.2.tar.gz --markdown 20230627/p/pyogmios/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-27 05:22:28] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-27 05:22:28] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230626.tar.gz tmp/GANDLF-0.0.17.dev20230627.tar.gz --markdown 20230627/G/GANDLF/0.0.17.dev20230626-0.0.17.dev20230627/diff.md --exclude *.pyd
+[2023-06-27 05:22:28] INFO root fetch - processPackages [emsarray]: executing diffoscope
+[2023-06-27 05:22:28] INFO root fetch - processPackages [emsarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emsarray-0.4.2.tar.gz tmp/emsarray-0.4.3.tar.gz --markdown 20230627/e/emsarray/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-27 05:22:29] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-06-27 05:22:29] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-06-27 05:22:29] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Start processing: assemblyline-core
+[2023-06-27 05:22:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-27 05:22:29] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-27 05:22:29] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-27 05:22:29] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: odc-geo
+[2023-06-27 05:22:29] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-06-27 05:22:29] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 05:22:29] INFO root fetch - processPackages [odc-geo]: New version: [0.4.1] Old Version: [0.4.0rc1]
+[2023-06-27 05:22:30] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-27 05:22:30] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-27 05:22:30] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: pydflow
+[2023-06-27 05:22:30] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-06-27 05:22:30] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-06-27 05:22:30] INFO root fetch - processPackages [pydflow]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-06-27 05:22:30] INFO root fetch - processPackages [cmdy]: Remove: archive file [/home/abi/fetcher/tmp/cmdy-0.5.4.tar.gz]
+[2023-06-27 05:22:30] INFO root fetch - processPackages [cmdy]: Remove: archive file [/home/abi/fetcher/tmp/cmdy-0.5.5.tar.gz]
+[2023-06-27 05:22:30] INFO root fetch - main [MainThread]: End processing [cmdy]: success
+[2023-06-27 05:22:30] INFO root fetch - processPackages [odc-geo]: Downloading https://files.pythonhosted.org/packages/35/34/ac720601c582270bd5404be0b212b7e53c96d15dc21f9e557f3ba7cd6078/odc-geo-0.4.0rc1.tar.gz
+[2023-06-27 05:22:30] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-06-27 05:22:30] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-06-27 05:22:30] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230627/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 05:22:30] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-27 05:22:30] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-27 05:22:30] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-06-27 05:22:30] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/99/69/65607e4d6aab5f5b83c1d6c416339a34aed6dbf7daa13432e9cb7373cd09/pydflow-1.7.5.tar.gz
+[2023-06-27 05:22:30] INFO root fetch - processPackages [odc-geo]: Downloading https://files.pythonhosted.org/packages/86/43/2dc64711457defc8e5acfeb5c34ace45c84fdcec6ebc619b3a5240b7211f/odc-geo-0.4.1.tar.gz
+[2023-06-27 05:22:30] INFO root fetch - processPackages [odc-geo]: executing diffoscope
+[2023-06-27 05:22:30] INFO root fetch - processPackages [odc-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odc-geo-0.4.0rc1.tar.gz tmp/odc-geo-0.4.1.tar.gz --markdown 20230627/o/odc-geo/0.4.0rc1-0.4.1/diff.md --exclude *.pyd
+[2023-06-27 05:22:30] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/5b/0e/d56f4358135b1e1b8d1cdfe1a1b6cb82a3017da27455a82a819a05c7cf66/pydflow-1.7.6.tar.gz
+[2023-06-27 05:22:30] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-06-27 05:22:30] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-06-27 05:22:30] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-06-27 05:22:30] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-06-27 05:22:30] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.5.tar.gz tmp/pydflow-1.7.6.tar.gz --markdown 20230627/p/pydflow/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-06-27 05:22:30] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230626.tar.gz]
+[2023-06-27 05:22:30] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230627.tar.gz]
+[2023-06-27 05:22:30] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-27 05:22:31] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-27 05:22:31] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-27 05:22:31] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-06-27 05:22:31] INFO root fetch - processPackages [pyogmios]: Remove: archive file [/home/abi/fetcher/tmp/pyogmios-0.7.1.tar.gz]
+[2023-06-27 05:22:31] INFO root fetch - processPackages [pyogmios]: Remove: archive file [/home/abi/fetcher/tmp/pyogmios-0.7.2.tar.gz]
+[2023-06-27 05:22:31] INFO root fetch - main [MainThread]: End processing [pyogmios]: success
+[2023-06-27 05:22:32] INFO root fetch - processPackages [odc-geo]: Remove: archive file [/home/abi/fetcher/tmp/odc-geo-0.4.0rc1.tar.gz]
+[2023-06-27 05:22:32] INFO root fetch - processPackages [odc-geo]: Remove: archive file [/home/abi/fetcher/tmp/odc-geo-0.4.1.tar.gz]
+[2023-06-27 05:22:32] INFO root fetch - main [MainThread]: End processing [odc-geo]: success
+[2023-06-27 05:22:32] INFO root fetch - processPackages [emsarray]: Remove: archive file [/home/abi/fetcher/tmp/emsarray-0.4.2.tar.gz]
+[2023-06-27 05:22:32] INFO root fetch - processPackages [emsarray]: Remove: archive file [/home/abi/fetcher/tmp/emsarray-0.4.3.tar.gz]
+[2023-06-27 05:22:32] INFO root fetch - main [MainThread]: End processing [emsarray]: success
+[2023-06-27 05:22:32] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.5.tar.gz]
+[2023-06-27 05:22:32] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.6.tar.gz]
+[2023-06-27 05:22:32] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-06-27 05:22:33] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-06-27 05:22:33] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-06-27 05:22:33] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-06-27 05:22:33] INFO root fetch - main [MainThread]: Store serial: [18657586]
