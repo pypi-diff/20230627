@@ -16235,3 +16235,157 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 10:20:06] INFO root fetch - processPackages [gtracks]: Remove: archive file [/home/abi/fetcher/tmp/gtracks-1.9.2.tar.gz]
 [2023-06-27 10:20:06] INFO root fetch - main [MainThread]: End processing [gtracks]: success
 [2023-06-27 10:20:06] INFO root fetch - main [MainThread]: Store serial: [18659704]
+[2023-06-27 10:25:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659704]
+[2023-06-27 10:25:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-27 10:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-misc
+[2023-06-27 10:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-model-builder-tests
+[2023-06-27 10:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythclient
+[2023-06-27 10:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: misura
+[2023-06-27 10:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selenium-profiles
+[2023-06-27 10:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gripa
+[2023-06-27 10:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sitk-cli
+[2023-06-27 10:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-06-27 10:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raymics
+[2023-06-27 10:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyBIS
+[2023-06-27 10:25:16] INFO root fetch - processPackages [drf-misc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-27 10:25:16] INFO root fetch - processPackages [misura]: New version: [1.6.0] Old Version: [1.5.6]
+[2023-06-27 10:25:16] INFO root fetch - processPackages [oarepo-model-builder-tests]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-06-27 10:25:16] INFO root fetch - processPackages [selenium-profiles]: New version: [2.2.7] Old Version: [2.2.6]
+[2023-06-27 10:25:16] INFO root fetch - processPackages [pythclient]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-27 10:25:16] INFO root fetch - processPackages [yplib]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-06-27 10:25:16] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/22/42/eb50084d54345d2ec3ab03d2042c9620892de2ffeb11751abf5b4d9e2c6c/drf_misc-0.0.6.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f4/34/3add9f974964d846fe36c80aafb9913556cd03f80b6e67189659e36eba84/yplib-1.8.3.tar.gz
+[2023-06-27 10:25:16] WARNING root fetch - processPackages [gripa]: Skipping, unable to determine old version
+[2023-06-27 10:25:16] INFO root fetch - processPackages [gripa]: Start processing: akshare
+[2023-06-27 10:25:16] INFO root fetch - processPackages [sitk-cli]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-27 10:25:16] INFO root fetch - main [MainThread]: End processing [gripa] error
+[2023-06-27 10:25:16] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-06-27 10:25:16] INFO root fetch - processPackages [raymics]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-27 10:25:16] INFO root fetch - processPackages [pythclient]: Downloading https://files.pythonhosted.org/packages/bf/95/9494b581cd2c6cba315eca8c83764d75ab3f2876009e18bc12eb50d06723/pythclient-0.1.7.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [selenium-profiles]: Downloading https://files.pythonhosted.org/packages/05/fc/6b5d3eccc2558978bbf7b4a56e1603abc9613d4384cbf95d867b965dca8a/selenium_profiles-2.2.6.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [misura]: Downloading https://files.pythonhosted.org/packages/21/d2/a8a65c0d1955933f276c978538c3d443498f60eddf524e2e00aea90c043a/misura-1.5.6.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [oarepo-model-builder-tests]: Downloading https://files.pythonhosted.org/packages/aa/12/273ad6518ff22775ecb66bb0955c5491bd45c82e88b47287deedcf7e174b/oarepo-model-builder-tests-4.0.1.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/99/31/8f47716f948b9656384f251da59a2383933acace9fd143f041a1f6947122/yplib-1.8.4.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [sitk-cli]: Downloading https://files.pythonhosted.org/packages/58/53/3ab7ec7fc7eb9a4397f8d6b9e38e54431513b2b53098bdddf46212a9d498/sitk-cli-0.4.0.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-27 10:25:16] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [raymics]: Downloading https://files.pythonhosted.org/packages/6a/ec/649c219f6e1782d754583f25cfbae430716fb66e52a6824d4e249491b7f9/raymics-0.7.2.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-27 10:25:16] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.8.3.tar.gz tmp/yplib-1.8.4.tar.gz --markdown 20230627/y/yplib/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-06-27 10:25:16] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/7f/7f/dc573ed8ea41ad07c3673569a099cbb7e258d46f03062ccea54380ae160e/drf_misc-0.0.7.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-06-27 10:25:16] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.0.6.tar.gz tmp/drf_misc-0.0.7.tar.gz --markdown 20230627/d/drf-misc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-27 10:25:16] INFO root fetch - processPackages [pythclient]: Downloading https://files.pythonhosted.org/packages/f7/4a/b6a89d47c4cc8291a50df06eaf4d1400650db1f8a5223fa43b4005da89ef/pythclient-0.1.8.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [oarepo-model-builder-tests]: Downloading https://files.pythonhosted.org/packages/d7/a1/61e95f226defdf0f79c2e0a418c17292f961b927fdf511a52e7a424a6bd6/oarepo-model-builder-tests-4.0.2.tar.gz
+[2023-06-27 10:25:16] INFO root fetch - processPackages [misura]: Downloading https://files.pythonhosted.org/packages/66/d9/a86b5c5a01c74f5f2b39c41a869f52884ca12a3d8dea38f26e21c01b8872/misura-1.6.0.tar.gz
+[2023-06-27 10:25:17] INFO root fetch - processPackages [selenium-profiles]: Downloading https://files.pythonhosted.org/packages/25/24/b4305e71a5046c57ddde93d423874358a0a97f5a6a2332c6ccc1016064bb/selenium_profiles-2.2.7.tar.gz
+[2023-06-27 10:25:17] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-27 10:25:17] INFO root fetch - processPackages [pythclient]: executing diffoscope
+[2023-06-27 10:25:17] INFO root fetch - processPackages [pythclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythclient-0.1.7.tar.gz tmp/pythclient-0.1.8.tar.gz --markdown 20230627/p/pythclient/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-27 10:25:17] INFO root fetch - processPackages [raymics]: Downloading https://files.pythonhosted.org/packages/74/1f/49b255f00a81a84d2c9f91bc6dfc4b9b8aea427f1a8d8d3feb97e03b66dc/raymics-0.7.3.tar.gz
+[2023-06-27 10:25:17] INFO root fetch - processPackages [oarepo-model-builder-tests]: executing diffoscope
+[2023-06-27 10:25:17] INFO root fetch - processPackages [oarepo-model-builder-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-tests-4.0.1.tar.gz tmp/oarepo-model-builder-tests-4.0.2.tar.gz --markdown 20230627/o/oarepo-model-builder-tests/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-06-27 10:25:17] INFO root fetch - processPackages [sitk-cli]: Downloading https://files.pythonhosted.org/packages/6f/79/80bc0895b2e5475da9bc6b698a45189eed98f63ce008854782296f61f66b/sitk-cli-0.5.0.tar.gz
+[2023-06-27 10:25:17] INFO root fetch - processPackages [misura]: executing diffoscope
+[2023-06-27 10:25:17] INFO root fetch - processPackages [misura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misura-1.5.6.tar.gz tmp/misura-1.6.0.tar.gz --markdown 20230627/m/misura/1.5.6-1.6.0/diff.md --exclude *.pyd
+[2023-06-27 10:25:17] INFO root fetch - processPackages [selenium-profiles]: executing diffoscope
+[2023-06-27 10:25:17] INFO root fetch - processPackages [selenium-profiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_profiles-2.2.6.tar.gz tmp/selenium_profiles-2.2.7.tar.gz --markdown 20230627/s/selenium-profiles/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2023-06-27 10:25:17] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-06-27 10:25:17] INFO root fetch - processPackages [sitk-cli]: executing diffoscope
+[2023-06-27 10:25:17] INFO root fetch - processPackages [sitk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitk-cli-0.4.0.tar.gz tmp/sitk-cli-0.5.0.tar.gz --markdown 20230627/s/sitk-cli/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-27 10:25:17] INFO root fetch - processPackages [raymics]: executing diffoscope
+[2023-06-27 10:25:17] INFO root fetch - processPackages [raymics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raymics-0.7.2.tar.gz tmp/raymics-0.7.3.tar.gz --markdown 20230627/r/raymics/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-27 10:25:17] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-06-27 10:25:17] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230627/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-06-27 10:25:17] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-27 10:25:17] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-27 10:25:17] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230627/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-27 10:25:18] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.8.3.tar.gz]
+[2023-06-27 10:25:18] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.8.4.tar.gz]
+[2023-06-27 10:25:18] INFO root fetch - processPackages [yplib]: Start processing: raymics
+[2023-06-27 10:25:18] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-27 10:25:18] INFO root fetch - processPackages [raymics]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-27 10:25:18] INFO root fetch - processPackages [raymics]: executing diffoscope
+[2023-06-27 10:25:18] INFO root fetch - processPackages [raymics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raymics-0.7.2.tar.gz tmp/raymics-0.7.3.tar.gz --markdown 20230627/r/raymics/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-27 10:25:18] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.6.tar.gz]
+[2023-06-27 10:25:18] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.7.tar.gz]
+[2023-06-27 10:25:18] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-06-27 10:25:18] INFO root fetch - processPackages [sitk-cli]: Remove: archive file [/home/abi/fetcher/tmp/sitk-cli-0.4.0.tar.gz]
+[2023-06-27 10:25:18] INFO root fetch - processPackages [sitk-cli]: Remove: archive file [/home/abi/fetcher/tmp/sitk-cli-0.5.0.tar.gz]
+[2023-06-27 10:25:18] INFO root fetch - main [MainThread]: End processing [sitk-cli]: success
+[2023-06-27 10:25:18] INFO root fetch - processPackages [oarepo-model-builder-tests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-tests-4.0.1.tar.gz]
+[2023-06-27 10:25:18] INFO root fetch - processPackages [oarepo-model-builder-tests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-tests-4.0.2.tar.gz]
+[2023-06-27 10:25:18] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-tests]: success
+[2023-06-27 10:25:18] INFO root fetch - processPackages [raymics]: Remove: archive file [/home/abi/fetcher/tmp/raymics-0.7.2.tar.gz]
+[2023-06-27 10:25:18] INFO root fetch - processPackages [raymics]: Remove: archive file [/home/abi/fetcher/tmp/raymics-0.7.3.tar.gz]
+[2023-06-27 10:25:18] INFO root fetch - main [MainThread]: End processing [raymics]: success
+[2023-06-27 10:25:18] ERROR root fetch - processPackages [selenium-profiles]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-06-27 10:25:18] INFO root fetch - main [MainThread]: End processing [selenium-profiles] error
+[2023-06-27 10:25:19] INFO root fetch - processPackages [misura]: Remove: archive file [/home/abi/fetcher/tmp/misura-1.5.6.tar.gz]
+[2023-06-27 10:25:19] INFO root fetch - processPackages [misura]: Remove: archive file [/home/abi/fetcher/tmp/misura-1.6.0.tar.gz]
+[2023-06-27 10:25:19] INFO root fetch - main [MainThread]: End processing [misura]: success
+[2023-06-27 10:25:19] INFO root fetch - processPackages [pythclient]: Remove: archive file [/home/abi/fetcher/tmp/pythclient-0.1.7.tar.gz]
+[2023-06-27 10:25:19] INFO root fetch - processPackages [pythclient]: Remove: archive file [/home/abi/fetcher/tmp/pythclient-0.1.8.tar.gz]
+[2023-06-27 10:25:19] INFO root fetch - main [MainThread]: End processing [pythclient]: success
+[2023-06-27 10:25:19] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.7.tar.gz]
+[2023-06-27 10:25:19] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.8.tar.gz]
+[2023-06-27 10:25:19] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-06-27 10:25:19] ERROR root fetch - processPackages [raymics]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/raymics-0.7.2.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/raymics-0.7.3.tar.gz: No such file or directory
+
+[2023-06-27 10:25:19] INFO root fetch - main [MainThread]: End processing [raymics] error
+[2023-06-27 10:25:23] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-27 10:25:23] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-27 10:25:23] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-27 10:25:23] INFO root fetch - main [MainThread]: Store serial: [18659747]
