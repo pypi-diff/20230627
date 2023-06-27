@@ -1858,3 +1858,142 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 01:54:43] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a2.tar.gz]
 [2023-06-27 01:54:43] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-06-27 01:54:43] INFO root fetch - main [MainThread]: Store serial: [18654206]
+[2023-06-27 01:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18654206]
+[2023-06-27 01:59:53] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-27 01:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diself
+[2023-06-27 01:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-veldus-ext
+[2023-06-27 01:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-index
+[2023-06-27 01:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index
+[2023-06-27 01:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-06-27 01:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: levanter
+[2023-06-27 01:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymacnet
+[2023-06-27 01:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autopack-tools
+[2023-06-27 01:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vipes
+[2023-06-27 01:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: contextplot
+[2023-06-27 01:59:53] INFO root fetch - processPackages [vipes]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 01:59:53] INFO root fetch - processPackages [sphinx-veldus-ext]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 01:59:53] WARNING root fetch - processPackages [levanter]: Skipping, unable to determine old version
+[2023-06-27 01:59:53] INFO root fetch - processPackages [levanter]: Start processing: sphinx-veldus-ext
+[2023-06-27 01:59:53] INFO root fetch - main [MainThread]: End processing [levanter] error
+[2023-06-27 01:59:53] INFO root fetch - processPackages [pymacnet]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-06-27 01:59:53] INFO root fetch - processPackages [contextplot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 01:59:53] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-27 01:59:53] INFO root fetch - processPackages [autopack-tools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-27 01:59:53] INFO root fetch - processPackages [kcli]: New version: [99.0.202306262354] Old Version: [99.0.202306261403]
+[2023-06-27 01:59:53] INFO root fetch - processPackages [diself]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-27 01:59:53] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-27 01:59:53] INFO root fetch - processPackages [sphinx-veldus-ext]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 01:59:53] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/01/0c/8195cdec471e8f78f16d56007e6716ac9cfd8e1f68ffb69916e25efc2aad/autopack_tools-0.1.4.tar.gz
+[2023-06-27 01:59:53] INFO root fetch - processPackages [contextplot]: Downloading https://files.pythonhosted.org/packages/d4/77/35a313ab8246220320bbb1410cf0c0e45d69049c6ef115fc76e090b0a9c6/contextplot-0.0.2.tar.gz
+[2023-06-27 01:59:53] INFO root fetch - processPackages [sphinx-veldus-ext]: Downloading https://files.pythonhosted.org/packages/4f/7c/03b10d8417eebc055f1a34c30605cdb0ca46b631ef57eb0470002e72bc60/sphinx_veldus_ext-0.2.8.tar.gz
+[2023-06-27 01:59:53] INFO root fetch - processPackages [diself]: Downloading https://files.pythonhosted.org/packages/8e/c0/b820f294a38d51ab1c7e39b223e55701b81035ce44bd8515376a1d373e1d/diself-1.0.tar.gz
+[2023-06-27 01:59:53] INFO root fetch - processPackages [sphinx-veldus-ext]: Downloading https://files.pythonhosted.org/packages/4f/7c/03b10d8417eebc055f1a34c30605cdb0ca46b631ef57eb0470002e72bc60/sphinx_veldus_ext-0.2.8.tar.gz
+[2023-06-27 01:59:53] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-27 01:59:53] INFO root fetch - processPackages [pymacnet]: Downloading https://files.pythonhosted.org/packages/10/f5/86e9afeb6a4125b19ed7ca6cff3a7f5c92c4f5ff6b0b4d290c716120093c/pymacnet-0.0.2.tar.gz
+[2023-06-27 01:59:53] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f4/c4/3eda6edcc6c26a6ab20c77f20224b655d869c129dc3618f0bbdcfe8880f1/kcli-99.0.202306261403-py3-none-any.whl
+[2023-06-27 01:59:54] INFO root fetch - processPackages [vipes]: Downloading https://files.pythonhosted.org/packages/be/cd/784b05f3fb373f2fbe7ee7bc7eb6e3dec5108acc72a273d98a0afd43898a/vipes-0.0.1.tar.gz
+[2023-06-27 01:59:54] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-27 01:59:54] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/66/b3/36caf6d8fcf1df4742c54a47a79fe7c23e65300d99bc52ffb4f3e812f1d2/autopack_tools-0.1.5.tar.gz
+[2023-06-27 01:59:54] INFO root fetch - processPackages [contextplot]: Downloading https://files.pythonhosted.org/packages/08/8e/65a459ddef0e66bb8cbc33b2bef2d0658df07bca0b9da167fd68863572db/contextplot-0.0.3.tar.gz
+[2023-06-27 01:59:54] INFO root fetch - processPackages [diself]: Downloading https://files.pythonhosted.org/packages/4c/b4/c741c3f0459c25bbf396ee4a2ff938dd21e7c497ccdea1302ceda9ba8b08/diself-1.0.1.tar.gz
+[2023-06-27 01:59:54] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-06-27 01:59:54] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.1.4.tar.gz tmp/autopack_tools-0.1.5.tar.gz --markdown 20230627/a/autopack-tools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 01:59:54] INFO root fetch - processPackages [sphinx-veldus-ext]: Downloading https://files.pythonhosted.org/packages/c7/be/dd270603a3e87b765256fae3fc12d60d2cb371cd06b7275361729ea9ca60/sphinx_veldus_ext-0.2.9.tar.gz
+[2023-06-27 01:59:54] INFO root fetch - processPackages [sphinx-veldus-ext]: Downloading https://files.pythonhosted.org/packages/c7/be/dd270603a3e87b765256fae3fc12d60d2cb371cd06b7275361729ea9ca60/sphinx_veldus_ext-0.2.9.tar.gz
+[2023-06-27 01:59:54] INFO root fetch - processPackages [pymacnet]: Downloading https://files.pythonhosted.org/packages/30/52/853ff1b9ac698b3d444021145e0a2213c4c7be6b79cdef703f17b3800c93/pymacnet-1.0.0.tar.gz
+[2023-06-27 01:59:54] INFO root fetch - processPackages [vipes]: Downloading https://files.pythonhosted.org/packages/95/70/82166efb0bd3485064a3a26fa890f27eced474442c461dc53840333a275b/vipes-0.0.2.tar.gz
+[2023-06-27 01:59:54] INFO root fetch - processPackages [contextplot]: executing diffoscope
+[2023-06-27 01:59:54] INFO root fetch - processPackages [contextplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contextplot-0.0.2.tar.gz tmp/contextplot-0.0.3.tar.gz --markdown 20230627/c/contextplot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 01:59:54] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-27 01:59:54] INFO root fetch - processPackages [diself]: executing diffoscope
+[2023-06-27 01:59:54] INFO root fetch - processPackages [diself]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diself-1.0.tar.gz tmp/diself-1.0.1.tar.gz --markdown 20230627/d/diself/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 01:59:54] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/94/8a/f028fcd0ab8a978525e277cd10b79222ac1955a20a09354d6a69fc468a95/kcli-99.0.202306262354-py3-none-any.whl
+[2023-06-27 01:59:54] INFO root fetch - processPackages [sphinx-veldus-ext]: executing diffoscope
+[2023-06-27 01:59:54] INFO root fetch - processPackages [sphinx-veldus-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_veldus_ext-0.2.8.tar.gz tmp/sphinx_veldus_ext-0.2.9.tar.gz --markdown 20230627/s/sphinx-veldus-ext/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 01:59:54] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-27 01:59:54] INFO root fetch - processPackages [sphinx-veldus-ext]: executing diffoscope
+[2023-06-27 01:59:54] INFO root fetch - processPackages [sphinx-veldus-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_veldus_ext-0.2.8.tar.gz tmp/sphinx_veldus_ext-0.2.9.tar.gz --markdown 20230627/s/sphinx-veldus-ext/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 01:59:54] INFO root fetch - processPackages [pymacnet]: executing diffoscope
+[2023-06-27 01:59:54] INFO root fetch - processPackages [pymacnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymacnet-0.0.2.tar.gz tmp/pymacnet-1.0.0.tar.gz --markdown 20230627/p/pymacnet/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-27 01:59:54] INFO root fetch - processPackages [vipes]: executing diffoscope
+[2023-06-27 01:59:54] INFO root fetch - processPackages [vipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipes-0.0.1.tar.gz tmp/vipes-0.0.2.tar.gz --markdown 20230627/v/vipes/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 01:59:54] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-27 01:59:54] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230627/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-27 01:59:54] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-27 01:59:54] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230627/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-27 01:59:54] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-27 01:59:54] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306261403-py3-none-any.whl.zip tmp/kcli-99.0.202306262354-py3-none-any.whl.zip --markdown 20230627/k/kcli/99.0.202306261403-99.0.202306262354/diff.md --exclude *.pyd
+[2023-06-27 01:59:55] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.4.tar.gz]
+[2023-06-27 01:59:55] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.5.tar.gz]
+[2023-06-27 01:59:55] INFO root fetch - processPackages [autopack-tools]: Start processing: d20-orm
+[2023-06-27 01:59:55] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-06-27 01:59:55] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-27 01:59:55] INFO root fetch - processPackages [contextplot]: Remove: archive file [/home/abi/fetcher/tmp/contextplot-0.0.2.tar.gz]
+[2023-06-27 01:59:55] INFO root fetch - processPackages [contextplot]: Remove: archive file [/home/abi/fetcher/tmp/contextplot-0.0.3.tar.gz]
+[2023-06-27 01:59:55] INFO root fetch - processPackages [contextplot]: Start processing: kfish
+[2023-06-27 01:59:55] INFO root fetch - main [MainThread]: End processing [contextplot]: success
+[2023-06-27 01:59:55] INFO root fetch - processPackages [kfish]: New version: [99.0.202306262356] Old Version: [99.0.202306261405]
+[2023-06-27 01:59:55] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/9d/5b/ce3747dbc739373150985cf238aa2b855ffab83b4c167e0dabfb34dc3dc6/kfish-99.0.202306261405-py3-none-any.whl
+[2023-06-27 01:59:55] INFO root fetch - processPackages [diself]: Remove: archive file [/home/abi/fetcher/tmp/diself-1.0.tar.gz]
+[2023-06-27 01:59:55] INFO root fetch - processPackages [diself]: Remove: archive file [/home/abi/fetcher/tmp/diself-1.0.1.tar.gz]
+[2023-06-27 01:59:55] INFO root fetch - processPackages [diself]: Start processing: balcony
+[2023-06-27 01:59:55] INFO root fetch - main [MainThread]: End processing [diself]: success
+[2023-06-27 01:59:55] INFO root fetch - processPackages [balcony]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-27 01:59:55] INFO root fetch - processPackages [vipes]: Remove: archive file [/home/abi/fetcher/tmp/vipes-0.0.1.tar.gz]
+[2023-06-27 01:59:55] INFO root fetch - processPackages [vipes]: Remove: archive file [/home/abi/fetcher/tmp/vipes-0.0.2.tar.gz]
+[2023-06-27 01:59:55] INFO root fetch - processPackages [vipes]: Start processing: spotPython
+[2023-06-27 01:59:55] INFO root fetch - main [MainThread]: End processing [vipes]: success
+[2023-06-27 01:59:55] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-27 01:59:56] INFO root fetch - processPackages [sphinx-veldus-ext]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_veldus_ext-0.2.8.tar.gz]
+[2023-06-27 01:59:56] INFO root fetch - processPackages [sphinx-veldus-ext]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_veldus_ext-0.2.9.tar.gz]
+[2023-06-27 01:59:56] INFO root fetch - processPackages [sphinx-veldus-ext]: Start processing: sphinx-veldus-ext
+[2023-06-27 01:59:56] INFO root fetch - main [MainThread]: End processing [sphinx-veldus-ext]: success
+[2023-06-27 01:59:56] INFO root fetch - main [MainThread]: End processing [sphinx-veldus-ext]: success
+[2023-06-27 01:59:56] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-27 01:59:56] INFO root fetch - processPackages [sphinx-veldus-ext]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 01:59:56] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/a7/b1/6f0263fd6b46056d99530129372b8a86fcb9994ee6e9a659b0c6c566e713/balcony-0.1.1.tar.gz
+[2023-06-27 01:59:56] INFO root fetch - processPackages [sphinx-veldus-ext]: Downloading https://files.pythonhosted.org/packages/4f/7c/03b10d8417eebc055f1a34c30605cdb0ca46b631ef57eb0470002e72bc60/sphinx_veldus_ext-0.2.8.tar.gz
+[2023-06-27 01:59:56] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/de/67/f2e3dc29de33415a2becd1ab4d974f298651175d31bfb418c4466dcb9b5e/kfish-99.0.202306262356-py3-none-any.whl
+[2023-06-27 01:59:56] INFO root fetch - processPackages [pymacnet]: Remove: archive file [/home/abi/fetcher/tmp/pymacnet-0.0.2.tar.gz]
+[2023-06-27 01:59:56] INFO root fetch - processPackages [pymacnet]: Remove: archive file [/home/abi/fetcher/tmp/pymacnet-1.0.0.tar.gz]
+[2023-06-27 01:59:56] INFO root fetch - main [MainThread]: End processing [pymacnet]: success
+[2023-06-27 01:59:56] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-27 01:59:56] INFO root fetch - processPackages [sphinx-veldus-ext]: Downloading https://files.pythonhosted.org/packages/c7/be/dd270603a3e87b765256fae3fc12d60d2cb371cd06b7275361729ea9ca60/sphinx_veldus_ext-0.2.9.tar.gz
+[2023-06-27 01:59:56] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-27 01:59:56] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306261405-py3-none-any.whl.zip tmp/kfish-99.0.202306262356-py3-none-any.whl.zip --markdown 20230627/k/kfish/99.0.202306261405-99.0.202306262356/diff.md --exclude *.pyd
+[2023-06-27 01:59:56] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/ac/7e/9d20b2455349395ee27dfa3a3047a32f28c91c893e45e052b52a5ccc427f/balcony-0.1.2.tar.gz
+[2023-06-27 01:59:56] INFO root fetch - processPackages [sphinx-veldus-ext]: executing diffoscope
+[2023-06-27 01:59:56] INFO root fetch - processPackages [sphinx-veldus-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_veldus_ext-0.2.8.tar.gz tmp/sphinx_veldus_ext-0.2.9.tar.gz --markdown 20230627/s/sphinx-veldus-ext/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 01:59:56] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-27 01:59:56] INFO root fetch - processPackages [balcony]: executing diffoscope
+[2023-06-27 01:59:56] INFO root fetch - processPackages [balcony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balcony-0.1.1.tar.gz tmp/balcony-0.1.2.tar.gz --markdown 20230627/b/balcony/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-27 01:59:56] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-27 01:59:56] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-27 01:59:56] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230627/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-27 01:59:56] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-27 01:59:56] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230627/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 01:59:57] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306261405-py3-none-any.whl.zip]
+[2023-06-27 01:59:57] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306262356-py3-none-any.whl.zip]
+[2023-06-27 01:59:57] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-27 01:59:57] INFO root fetch - processPackages [sphinx-veldus-ext]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_veldus_ext-0.2.8.tar.gz]
+[2023-06-27 01:59:57] INFO root fetch - processPackages [sphinx-veldus-ext]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_veldus_ext-0.2.9.tar.gz]
+[2023-06-27 01:59:57] INFO root fetch - main [MainThread]: End processing [sphinx-veldus-ext]: success
+[2023-06-27 01:59:57] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-27 01:59:57] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-27 01:59:57] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-27 01:59:58] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.1.tar.gz]
+[2023-06-27 01:59:58] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.2.tar.gz]
+[2023-06-27 01:59:58] INFO root fetch - main [MainThread]: End processing [balcony]: success
+[2023-06-27 02:00:00] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-27 02:00:00] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-27 02:00:00] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-27 02:00:01] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-27 02:00:01] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-27 02:00:01] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-27 02:00:02] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306261403-py3-none-any.whl.zip]
+[2023-06-27 02:00:02] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306262354-py3-none-any.whl.zip]
+[2023-06-27 02:00:02] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-27 02:00:08] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-27 02:00:08] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-27 02:00:08] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-27 02:00:08] INFO root fetch - main [MainThread]: Store serial: [18654255]
