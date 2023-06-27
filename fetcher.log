@@ -16676,3 +16676,149 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-27 10:35:58] INFO root fetch - processPackages [nowcasting-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_dataset-3.7.9.tar.gz]
 [2023-06-27 10:35:58] INFO root fetch - main [MainThread]: End processing [nowcasting-dataset]: success
 [2023-06-27 10:35:58] INFO root fetch - main [MainThread]: Store serial: [18659859]
+[2023-06-27 10:41:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659859]
+[2023-06-27 10:41:08] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-27 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3status
+[2023-06-27 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qurix-package-template
+[2023-06-27 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-runtime
+[2023-06-27 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fideslang
+[2023-06-27 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libecalc
+[2023-06-27 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlalchemy-fields
+[2023-06-27 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qufit
+[2023-06-27 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-estimator-nightly
+[2023-06-27 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkbox-api
+[2023-06-27 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyIndego
+[2023-06-27 10:41:08] INFO root fetch - processPackages [py3status]: New version: [3.9] Old Version: [3.8]
+[2023-06-27 10:41:08] INFO root fetch - processPackages [libecalc]: New version: [8.2.8] Old Version: [8.2.7]
+[2023-06-27 10:41:08] INFO root fetch - processPackages [sqlalchemy-fields]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-27 10:41:08] WARNING root fetch - processPackages [qurix-package-template]: Skipping, unable to determine old version
+[2023-06-27 10:41:08] INFO root fetch - processPackages [qurix-package-template]: Start processing: pyhelayerslite
+[2023-06-27 10:41:08] INFO root fetch - main [MainThread]: End processing [qurix-package-template] error
+[2023-06-27 10:41:08] INFO root fetch - processPackages [fideslang]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-27 10:41:08] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-06-27 10:41:08] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-27 10:41:08] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-27 10:41:08] INFO root fetch - processPackages [pyhelayerslite]: New version: [1.5.2.0] Old Version: [1.5.1.0]
+[2023-06-27 10:41:08] INFO root fetch - processPackages [pyIndego]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-06-27 10:41:08] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-06-27 10:41:08] INFO root fetch - processPackages [checkbox-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 10:41:08] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-27 10:41:08] INFO root fetch - processPackages [pyIndego]: Downloading https://files.pythonhosted.org/packages/11/2c/17aa6d7d0cf2bef93803a4e6b45b169a2af76c3b174e62e96fd6f52d7180/pyIndego-3.0.1.tar.gz
+[2023-06-27 10:41:08] INFO root fetch - processPackages [libecalc]: Downloading https://files.pythonhosted.org/packages/d0/c6/31f342c66c9e9a60d14d2148f382a58d449263daa013895ae2e182fecfd9/libecalc-8.2.7.tar.gz
+[2023-06-27 10:41:08] WARNING root fetch - processPackages [libecalc]: Skipping package: exceeds size limit 31024510>=10485760
+[2023-06-27 10:41:08] INFO root fetch - processPackages [libecalc]: Start processing: ptal-api
+[2023-06-27 10:41:08] INFO root fetch - main [MainThread]: End processing [libecalc] error
+[2023-06-27 10:41:08] INFO root fetch - processPackages [py3status]: Downloading https://files.pythonhosted.org/packages/19/1b/52fc1b6956db0638a56292ce00537545d19b9a1d30a156a2b416675e4ac3/py3status-3.8.tar.gz
+[2023-06-27 10:41:08] INFO root fetch - processPackages [fideslang]: Downloading https://files.pythonhosted.org/packages/1b/e2/591c3c73305429b70cec2dabf305b125befc3754f5e320ca591dcfffa769/fideslang-1.4.2.tar.gz
+[2023-06-27 10:41:08] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/44/7b/c21ae316c8cd2774b74bc94370efe0c250cab8d67864965626d930d028e3/oarepo-runtime-1.3.7.tar.gz
+[2023-06-27 10:41:08] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-06-27 10:41:08] INFO root fetch - processPackages [sqlalchemy-fields]: Downloading https://files.pythonhosted.org/packages/9a/76/3274ee0042e990d7492f4b6919830ef1af942ecd7bd324128f64f40da433/sqlalchemy_fields-0.4.0.tar.gz
+[2023-06-27 10:41:08] INFO root fetch - processPackages [pyhelayerslite]: Downloading https://files.pythonhosted.org/packages/5f/c2/a594712a74095470454e76593332ca92b4ebecb9fc7243915b3a94abc2f2/pyhelayerslite-1.5.1.0-cp39-cp39-win_amd64.whl
+[2023-06-27 10:41:08] INFO root fetch - processPackages [pyIndego]: Downloading https://files.pythonhosted.org/packages/19/3e/d7e50d2d5a22b3f12d9de95236951b456c615d642af0ac4e57ff08d2dddc/pyIndego-3.1.0.tar.gz
+[2023-06-27 10:41:08] INFO root fetch - processPackages [checkbox-api]: Downloading https://files.pythonhosted.org/packages/fa/a4/921d3a2548bdfda56584e84c06dde9c91bfa2975d4ccba4f39e70727d871/checkbox-api-0.1.8.tar.gz
+[2023-06-27 10:41:09] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-27 10:41:09] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-06-27 10:41:09] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230627/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-27 10:41:09] INFO root fetch - processPackages [ptal-api]: New version: [0.12.2] Old Version: [0.12.0.1]
+[2023-06-27 10:41:09] INFO root fetch - processPackages [pyIndego]: executing diffoscope
+[2023-06-27 10:41:09] INFO root fetch - processPackages [pyIndego]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyIndego-3.0.1.tar.gz tmp/pyIndego-3.1.0.tar.gz --markdown 20230627/p/pyIndego/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-06-27 10:41:09] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-27 10:41:09] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230627/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-27 10:41:09] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/17/18/dcc7b08301454d96434492978faaaf5d8f943c96d8560d5742eb6824dfcd/oarepo-runtime-1.3.8.tar.gz
+[2023-06-27 10:41:09] INFO root fetch - processPackages [py3status]: Downloading https://files.pythonhosted.org/packages/44/e5/b7a7716840f5b564694737b3d09ed01ccbff46f37c60a2ab6f286709463b/py3status-3.9-py3-none-any.whl
+[2023-06-27 10:41:09] INFO root fetch - processPackages [sqlalchemy-fields]: Downloading https://files.pythonhosted.org/packages/eb/e5/3235a01aef002472a741c43ecbc9337c192d66f7aa64d78ceaf3f9908ed6/sqlalchemy_fields-0.5.0.tar.gz
+[2023-06-27 10:41:09] INFO root fetch - processPackages [fideslang]: Downloading https://files.pythonhosted.org/packages/a2/19/fb81168037181ac6dbaaa73bd35ccd2272581dd436ca41163024ed9e9815/fideslang-1.4.3.tar.gz
+[2023-06-27 10:41:09] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/b7/ec/10fb34ba7a6a7ed68bef3cd4155d5c83e7e1bcb0597f54d9e843f0dad9d3/ptal_api-0.12.0.1.tar.gz
+[2023-06-27 10:41:09] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-06-27 10:41:09] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.3.7.tar.gz tmp/oarepo-runtime-1.3.8.tar.gz --markdown 20230627/o/oarepo-runtime/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-06-27 10:41:09] INFO root fetch - processPackages [sqlalchemy-fields]: executing diffoscope
+[2023-06-27 10:41:09] INFO root fetch - processPackages [sqlalchemy-fields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_fields-0.4.0.tar.gz tmp/sqlalchemy_fields-0.5.0.tar.gz --markdown 20230627/s/sqlalchemy-fields/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-27 10:41:09] INFO root fetch - processPackages [checkbox-api]: Downloading https://files.pythonhosted.org/packages/82/96/934852a545753a06db2ca1d938b3f6397c35c18ef658c5f4780ce5eb2836/checkbox-api-0.1.9.tar.gz
+[2023-06-27 10:41:09] INFO root fetch - processPackages [py3status]: executing diffoscope
+[2023-06-27 10:41:09] INFO root fetch - processPackages [py3status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3status-3.8.tar.gz tmp/py3status-3.9-py3-none-any.whl.zip --markdown 20230627/p/py3status/3.8-3.9/diff.md --exclude *.pyd
+[2023-06-27 10:41:09] INFO root fetch - processPackages [pyhelayerslite]: Downloading https://files.pythonhosted.org/packages/48/41/f29c7f6b1908e7ec94aa37981152c4ceed88854babdbc95193779c1e31aa/pyhelayerslite-1.5.2.0-cp39-cp39-win_amd64.whl
+[2023-06-27 10:41:09] INFO root fetch - processPackages [checkbox-api]: executing diffoscope
+[2023-06-27 10:41:09] INFO root fetch - processPackages [checkbox-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkbox-api-0.1.8.tar.gz tmp/checkbox-api-0.1.9.tar.gz --markdown 20230627/c/checkbox-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 10:41:09] INFO root fetch - processPackages [fideslang]: executing diffoscope
+[2023-06-27 10:41:09] INFO root fetch - processPackages [fideslang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fideslang-1.4.2.tar.gz tmp/fideslang-1.4.3.tar.gz --markdown 20230627/f/fideslang/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-27 10:41:09] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/24/e3/c37239a926d454e9053a9f1677cdf7920f97b33b082035dbc7ec204ec34f/ptal_api-0.12.2.tar.gz
+[2023-06-27 10:41:09] INFO root fetch - processPackages [pyhelayerslite]: executing diffoscope
+[2023-06-27 10:41:09] INFO root fetch - processPackages [pyhelayerslite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhelayerslite-1.5.1.0-cp39-cp39-win_amd64.whl.zip tmp/pyhelayerslite-1.5.2.0-cp39-cp39-win_amd64.whl.zip --markdown 20230627/p/pyhelayerslite/1.5.1.0-1.5.2.0/diff.md --exclude *.pyd
+[2023-06-27 10:41:09] INFO root fetch - processPackages [ptal-api]: executing diffoscope
+[2023-06-27 10:41:09] INFO root fetch - processPackages [ptal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptal_api-0.12.0.1.tar.gz tmp/ptal_api-0.12.2.tar.gz --markdown 20230627/p/ptal-api/0.12.0.1-0.12.2/diff.md --exclude *.pyd
+[2023-06-27 10:41:11] INFO root fetch - processPackages [sqlalchemy-fields]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_fields-0.4.0.tar.gz]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [sqlalchemy-fields]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_fields-0.5.0.tar.gz]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [sqlalchemy-fields]: Start processing: PyCompGeomAlgorithms
+[2023-06-27 10:41:11] INFO root fetch - main [MainThread]: End processing [sqlalchemy-fields]: success
+[2023-06-27 10:41:11] INFO root fetch - processPackages [pyhelayerslite]: Remove: archive file [/home/abi/fetcher/tmp/pyhelayerslite-1.5.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [pyhelayerslite]: Remove: archive file [/home/abi/fetcher/tmp/pyhelayerslite-1.5.2.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [pyhelayerslite]: Start processing: urmine
+[2023-06-27 10:41:11] INFO root fetch - main [MainThread]: End processing [pyhelayerslite]: success
+[2023-06-27 10:41:11] INFO root fetch - processPackages [PyCompGeomAlgorithms]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [py3status]: Remove: archive file [/home/abi/fetcher/tmp/py3status-3.8.tar.gz]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [py3status]: Remove: archive file [/home/abi/fetcher/tmp/py3status-3.9-py3-none-any.whl.zip]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [py3status]: Start processing: simple-flask-google-login
+[2023-06-27 10:41:11] INFO root fetch - main [MainThread]: End processing [py3status]: success
+[2023-06-27 10:41:11] WARNING root fetch - processPackages [urmine]: Skipping, unable to determine old version
+[2023-06-27 10:41:11] INFO root fetch - processPackages [urmine]: Start processing: cardiac-geometries
+[2023-06-27 10:41:11] INFO root fetch - main [MainThread]: End processing [urmine] error
+[2023-06-27 10:41:11] INFO root fetch - processPackages [checkbox-api]: Remove: archive file [/home/abi/fetcher/tmp/checkbox-api-0.1.8.tar.gz]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [checkbox-api]: Remove: archive file [/home/abi/fetcher/tmp/checkbox-api-0.1.9.tar.gz]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [checkbox-api]: Start processing: odoo13-addon-sale-payment-sheet
+[2023-06-27 10:41:11] INFO root fetch - main [MainThread]: End processing [checkbox-api]: success
+[2023-06-27 10:41:11] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/2d/36/43e6aab04066c86ab1e9e192796f1c53399d42f57e05a4b8b12c786cb58d/PyCompGeomAlgorithms-1.0.3.tar.gz
+[2023-06-27 10:41:11] WARNING root fetch - processPackages [simple-flask-google-login]: Skipping, unable to determine old version
+[2023-06-27 10:41:11] INFO root fetch - processPackages [simple-flask-google-login]: Start processing: cell_key_perturbation
+[2023-06-27 10:41:11] INFO root fetch - main [MainThread]: End processing [simple-flask-google-login] error
+[2023-06-27 10:41:11] INFO root fetch - processPackages [cardiac-geometries]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: New version: [13.0.1.4.0] Old Version: [13.0.1.3.1.dev1]
+[2023-06-27 10:41:11] WARNING root fetch - processPackages [cell_key_perturbation]: Skipping, unable to determine old version
+[2023-06-27 10:41:11] INFO root fetch - processPackages [cell_key_perturbation]: Start processing: tff-nightly
+[2023-06-27 10:41:11] INFO root fetch - main [MainThread]: End processing [cell_key_perturbation] error
+[2023-06-27 10:41:11] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230626] Old Version: [0.0.1.dev20230625]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [ptal-api]: Remove: archive file [/home/abi/fetcher/tmp/ptal_api-0.12.0.1.tar.gz]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [ptal-api]: Remove: archive file [/home/abi/fetcher/tmp/ptal_api-0.12.2.tar.gz]
+[2023-06-27 10:41:11] INFO root fetch - main [MainThread]: End processing [ptal-api]: success
+[2023-06-27 10:41:11] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/0a/75/728169cb133ea44639b9021333bd107c19b0c340c957de48776828d8cd41/tff_nightly-0.0.1.dev20230625-py2.py3-none-any.whl
+[2023-06-27 10:41:11] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/d3/2d/209602335f6970a74ee91a85ffa966a1ebd63ba3ceca5db4b885eaeb4674/PyCompGeomAlgorithms-1.0.4.tar.gz
+[2023-06-27 10:41:11] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-06-27 10:41:11] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-06-27 10:41:11] INFO root fetch - processPackages [cardiac-geometries]: Downloading https://files.pythonhosted.org/packages/b4/aa/90012cdb753578ea6870abe6625787253e1e16e56f336bf9653a6de327e4/cardiac_geometries-0.6.0.tar.gz
+[2023-06-27 10:41:11] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: Downloading https://files.pythonhosted.org/packages/f2/6b/6ddb4d1bc28b1bfd20a2bd13f6f09d05834a6e58df8a1410f6502c030fe5/odoo13_addon_sale_payment_sheet-13.0.1.3.1.dev1-py3-none-any.whl
+[2023-06-27 10:41:11] INFO root fetch - processPackages [PyCompGeomAlgorithms]: executing diffoscope
+[2023-06-27 10:41:11] INFO root fetch - processPackages [PyCompGeomAlgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCompGeomAlgorithms-1.0.3.tar.gz tmp/PyCompGeomAlgorithms-1.0.4.tar.gz --markdown 20230627/P/PyCompGeomAlgorithms/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-27 10:41:11] INFO root fetch - processPackages [pyIndego]: Remove: archive file [/home/abi/fetcher/tmp/pyIndego-3.0.1.tar.gz]
+[2023-06-27 10:41:11] INFO root fetch - processPackages [pyIndego]: Remove: archive file [/home/abi/fetcher/tmp/pyIndego-3.1.0.tar.gz]
+[2023-06-27 10:41:11] INFO root fetch - main [MainThread]: End processing [pyIndego]: success
+[2023-06-27 10:41:11] INFO root fetch - processPackages [cardiac-geometries]: Downloading https://files.pythonhosted.org/packages/e5/03/aa687640f3fd8009cd7d4695732e948fb20af9a084dbc121e2dcc5e12f9f/cardiac_geometries-0.6.1.tar.gz
+[2023-06-27 10:41:11] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: Downloading https://files.pythonhosted.org/packages/bb/70/1ac502194f0a345f6b55c328c226ecff32d47d7690652d01497244195792/odoo13_addon_sale_payment_sheet-13.0.1.4.0-py3-none-any.whl
+[2023-06-27 10:41:11] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/9f/9a/a56812d26bf90cfd2fdc048f2b56cac9e02825c5a862e8791c61aeb9ce44/tff_nightly-0.0.1.dev20230626-py2.py3-none-any.whl
+[2023-06-27 10:41:11] INFO root fetch - processPackages [cardiac-geometries]: executing diffoscope
+[2023-06-27 10:41:11] INFO root fetch - processPackages [cardiac-geometries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardiac_geometries-0.6.0.tar.gz tmp/cardiac_geometries-0.6.1.tar.gz --markdown 20230627/c/cardiac-geometries/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-27 10:41:12] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-27 10:41:12] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230625-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230626-py2.py3-none-any.whl.zip --markdown 20230627/t/tff-nightly/0.0.1.dev20230625-0.0.1.dev20230626/diff.md --exclude *.pyd
+[2023-06-27 10:41:12] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: executing diffoscope
+[2023-06-27 10:41:12] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_payment_sheet-13.0.1.3.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_sale_payment_sheet-13.0.1.4.0-py3-none-any.whl.zip --markdown 20230627/o/odoo13-addon-sale-payment-sheet/13.0.1.3.1.dev1-13.0.1.4.0/diff.md --exclude *.pyd
+[2023-06-27 10:41:12] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-27 10:41:12] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-27 10:41:12] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-27 10:41:12] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.7.tar.gz]
+[2023-06-27 10:41:12] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.8.tar.gz]
+[2023-06-27 10:41:12] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-06-27 10:41:12] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.3.tar.gz]
+[2023-06-27 10:41:12] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.4.tar.gz]
+[2023-06-27 10:41:12] INFO root fetch - main [MainThread]: End processing [PyCompGeomAlgorithms]: success
+[2023-06-27 10:41:13] INFO root fetch - processPackages [fideslang]: Remove: archive file [/home/abi/fetcher/tmp/fideslang-1.4.2.tar.gz]
+[2023-06-27 10:41:13] INFO root fetch - processPackages [fideslang]: Remove: archive file [/home/abi/fetcher/tmp/fideslang-1.4.3.tar.gz]
+[2023-06-27 10:41:13] INFO root fetch - main [MainThread]: End processing [fideslang]: success
+[2023-06-27 10:41:13] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_payment_sheet-13.0.1.3.1.dev1-py3-none-any.whl.zip]
+[2023-06-27 10:41:13] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_payment_sheet-13.0.1.4.0-py3-none-any.whl.zip]
+[2023-06-27 10:41:13] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-payment-sheet]: success
+[2023-06-27 10:41:15] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230625-py2.py3-none-any.whl.zip]
+[2023-06-27 10:41:15] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230626-py2.py3-none-any.whl.zip]
+[2023-06-27 10:41:15] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-27 10:41:59] INFO root fetch - processPackages [cardiac-geometries]: Remove: archive file [/home/abi/fetcher/tmp/cardiac_geometries-0.6.0.tar.gz]
+[2023-06-27 10:41:59] INFO root fetch - processPackages [cardiac-geometries]: Remove: archive file [/home/abi/fetcher/tmp/cardiac_geometries-0.6.1.tar.gz]
+[2023-06-27 10:41:59] INFO root fetch - main [MainThread]: End processing [cardiac-geometries]: success
+[2023-06-27 10:41:59] INFO root fetch - main [MainThread]: Store serial: [18659968]
