@@ -13765,3 +13765,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 08:27:12] INFO root fetch - processPackages [meta-edc-demo]: Remove: archive file [/home/abi/fetcher/tmp/meta-edc-demo-0.0.2.tar.gz]
 [2023-06-27 08:27:12] INFO root fetch - main [MainThread]: End processing [meta-edc-demo]: success
 [2023-06-27 08:27:12] INFO root fetch - main [MainThread]: Store serial: [18658607]
+[2023-06-27 08:32:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658607]
+[2023-06-27 08:32:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-27 08:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azdev
+[2023-06-27 08:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bloggerer
+[2023-06-27 08:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastgenerateapi
+[2023-06-27 08:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: n64img
+[2023-06-27 08:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module-latest
+[2023-06-27 08:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudpy-org
+[2023-06-27 08:32:22] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 08:32:22] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-27 08:32:22] INFO root fetch - processPackages [n64img]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-27 08:32:22] WARNING root fetch - processPackages [bloggerer]: Skipping, unable to determine old version
+[2023-06-27 08:32:22] INFO root fetch - main [MainThread]: End processing [bloggerer] error
+[2023-06-27 08:32:22] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230627] Old Version: [20230623]
+[2023-06-27 08:32:22] INFO root fetch - processPackages [n64img]: Downloading https://files.pythonhosted.org/packages/3d/c1/0f259ad11e9ee8a6ff6cbf94a25afc4a27189173447a2f8b7073c116fe6b/n64img-0.3.2.tar.gz
+[2023-06-27 08:32:22] INFO root fetch - processPackages [cloudpy-org]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-06-27 08:32:22] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/7f/91/a405456acd3b77c270c049a322420d06af1f82de5a3e7eef455613f9c791/fastgenerateapi-0.0.6.tar.gz
+[2023-06-27 08:32:22] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2023-06-27 08:32:22] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ca/8e/1e2d30962431cbae1afea61a8bd6ec7541cbefb6091420f6269b79f61c69/fake-bpy-module-latest-20230623.tar.gz
+[2023-06-27 08:32:22] INFO root fetch - processPackages [n64img]: Downloading https://files.pythonhosted.org/packages/da/48/c733985b64b9c4512b3fb35679eceae662461596c3cd1576851eb8bc6223/n64img-0.3.3.tar.gz
+[2023-06-27 08:32:22] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/a1/3e/e18b5143301ce1b74d48eaef7548d73c1cb714b48f80fbb7f99312b761cd/cloudpy_org-1.3.4.tar.gz
+[2023-06-27 08:32:22] INFO root fetch - processPackages [n64img]: executing diffoscope
+[2023-06-27 08:32:22] INFO root fetch - processPackages [n64img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n64img-0.3.2.tar.gz tmp/n64img-0.3.3.tar.gz --markdown 20230627/n/n64img/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-27 08:32:22] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/8d/24/3453bcb85cab706ab8d5c5bab3949d7eafe19e159a1701e7081589ab7549/fake-bpy-module-latest-20230627.tar.gz
+[2023-06-27 08:32:22] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/83/6d/2cc828965a510fdfcf565bbee0529b755e68f8a9e0de2e06584bd1f6b9fb/fastgenerateapi-0.0.7.tar.gz
+[2023-06-27 08:32:22] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2023-06-27 08:32:22] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-27 08:32:22] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230623.tar.gz tmp/fake-bpy-module-latest-20230627.tar.gz --markdown 20230627/f/fake-bpy-module-latest/20230623-20230627/diff.md --exclude *.pyd
+[2023-06-27 08:32:22] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/28/76/ce698690e72262c39f284dcf23afbb409534210240c5ba4066c69f803594/cloudpy_org-1.3.5.tar.gz
+[2023-06-27 08:32:22] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-27 08:32:22] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.6.tar.gz tmp/fastgenerateapi-0.0.7.tar.gz --markdown 20230627/f/fastgenerateapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-27 08:32:22] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-06-27 08:32:22] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230627/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 08:32:22] INFO root fetch - processPackages [cloudpy-org]: executing diffoscope
+[2023-06-27 08:32:22] INFO root fetch - processPackages [cloudpy-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpy_org-1.3.4.tar.gz tmp/cloudpy_org-1.3.5.tar.gz --markdown 20230627/c/cloudpy-org/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-06-27 08:32:23] INFO root fetch - processPackages [n64img]: Remove: archive file [/home/abi/fetcher/tmp/n64img-0.3.2.tar.gz]
+[2023-06-27 08:32:23] INFO root fetch - processPackages [n64img]: Remove: archive file [/home/abi/fetcher/tmp/n64img-0.3.3.tar.gz]
+[2023-06-27 08:32:23] INFO root fetch - main [MainThread]: End processing [n64img]: success
+[2023-06-27 08:32:23] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.4.tar.gz]
+[2023-06-27 08:32:23] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.5.tar.gz]
+[2023-06-27 08:32:23] INFO root fetch - main [MainThread]: End processing [cloudpy-org]: success
+[2023-06-27 08:32:24] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.6.tar.gz]
+[2023-06-27 08:32:24] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.7.tar.gz]
+[2023-06-27 08:32:24] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-27 08:32:24] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.8.tar.gz]
+[2023-06-27 08:32:24] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
+[2023-06-27 08:32:24] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-06-27 08:32:29] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230623.tar.gz]
+[2023-06-27 08:32:29] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230627.tar.gz]
+[2023-06-27 08:32:29] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-27 08:32:29] INFO root fetch - main [MainThread]: Store serial: [18658629]
