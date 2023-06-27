@@ -13996,3 +13996,121 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 08:48:17] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
 [2023-06-27 08:48:17] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-06-27 08:48:17] INFO root fetch - main [MainThread]: Store serial: [18658720]
+[2023-06-27 08:53:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658720]
+[2023-06-27 08:53:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-reconciliation-widget
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peutils
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ReadLammpsTraj
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qqwry-linux-python3
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: write-githubstat
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libcnmc
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: otel-tracer
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydoclint
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codebleu
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qqwry-linux-python3
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ReadLammpsTraj]: New version: [1.1.6] Old Version: [1.1.4]
+[2023-06-27 08:53:27] INFO root fetch - processPackages [write-githubstat]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-27 08:53:27] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-27 08:53:27] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: New version: [15.0.1.2.9] Old Version: [15.0.1.2.8]
+[2023-06-27 08:53:27] INFO root fetch - processPackages [qqwry-linux-python3]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-27 08:53:27] INFO root fetch - processPackages [pydoclint]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 08:53:27] INFO root fetch - processPackages [qqwry-linux-python3]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-27 08:53:27] INFO root fetch - processPackages [otel-tracer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-27 08:53:27] INFO root fetch - processPackages [peutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 08:53:27] INFO root fetch - processPackages [codebleu]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-27 08:53:27] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/88/64/f0f85cdb501e1d74fe72d7b3b306ad13f100598b427f8ff0e8568dc3a68f/pydoclint-0.0.8.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/2d/01/9389d6f7f4ee342a458f2bf9876b9a8f87af91a614658d8a1848266ee52c/otel_tracer-0.0.7-py3-none-any.whl
+[2023-06-27 08:53:27] INFO root fetch - processPackages [write-githubstat]: Downloading https://files.pythonhosted.org/packages/f3/3e/2794ac4709f7a2e6f04cb413438eba6772f7a0519d783ee2de066cedc401/write_githubstat-0.1.1.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/bb/5d/21d2df5e3a0d9b29902f447acf3278cf57d7a490851fa585d9f3e0d696a2/odoo_addon_account_reconciliation_widget-15.0.1.2.8-py3-none-any.whl
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ReadLammpsTraj]: Downloading https://files.pythonhosted.org/packages/ab/9b/fe83026dfd028817755fb6f2358826f4bbe09f0dc524a320fd0631e11075/ReadLammpsTraj-1.1.4.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/59/06/1c8f2582ca1e885ab47b437ffaffe1263ae3120893aa3e2cee27fb2bc894/peutils-0.0.8.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [qqwry-linux-python3]: Downloading https://files.pythonhosted.org/packages/c1/00/8817d6260c92ce978c13b2d7839db181293f77dda873a5d83fda0c285667/qqwry-linux-python3-0.0.0.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [qqwry-linux-python3]: Downloading https://files.pythonhosted.org/packages/c1/00/8817d6260c92ce978c13b2d7839db181293f77dda873a5d83fda0c285667/qqwry-linux-python3-0.0.0.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [codebleu]: Downloading https://files.pythonhosted.org/packages/df/4d/f6a8703bd1497839b5e1eae64a5abee3d3e06ccba63ab785c120b7f9ad21/codebleu-0.1.2.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/08/fc/a46479a39d8bd265031e3186beb56d28f720613929d6a32ec23a11b6798b/pydoclint-0.0.9.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/ca/e7/6f7e2f1717a744e0fec9fffd407f0ba302ddd2d62bf35c05380e8c0d95e6/otel_tracer-0.0.8-py3-none-any.whl
+[2023-06-27 08:53:27] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-06-27 08:53:27] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/d1/10/5000ee994660ead684a1b13370133c948f68a3513f1dd137e115094045d4/odoo_addon_account_reconciliation_widget-15.0.1.2.9-py3-none-any.whl
+[2023-06-27 08:53:27] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.8.tar.gz tmp/pydoclint-0.0.9.tar.gz --markdown 20230627/p/pydoclint/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 08:53:27] INFO root fetch - processPackages [write-githubstat]: Downloading https://files.pythonhosted.org/packages/82/1e/f7904a4e264462e1956a34d9cd64e3f483ec760a580770c432926a585a89/write_githubstat-0.1.2.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [qqwry-linux-python3]: Downloading https://files.pythonhosted.org/packages/1f/98/ff322d16ac5010e67d95b8ee37845bc821549d9e208ca85fa79651fbc28a/qqwry-linux-python3-0.0.1.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ReadLammpsTraj]: Downloading https://files.pythonhosted.org/packages/9d/6d/e3b1b10845edd4267d1080c1da46204a51e0819416bc3453c15ad4820eba/ReadLammpsTraj-1.1.6.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [qqwry-linux-python3]: Downloading https://files.pythonhosted.org/packages/1f/98/ff322d16ac5010e67d95b8ee37845bc821549d9e208ca85fa79651fbc28a/qqwry-linux-python3-0.0.1.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/7e/4c/b04cc08226f309f929014d3fa07e929ce9344068762872a701c5c2fa2555/peutils-0.0.9.tar.gz
+[2023-06-27 08:53:27] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-27 08:53:27] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230627/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-27 08:53:27] INFO root fetch - processPackages [qqwry-linux-python3]: executing diffoscope
+[2023-06-27 08:53:27] INFO root fetch - processPackages [qqwry-linux-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qqwry-linux-python3-0.0.0.tar.gz tmp/qqwry-linux-python3-0.0.1.tar.gz --markdown 20230627/q/qqwry-linux-python3/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-27 08:53:27] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: executing diffoscope
+[2023-06-27 08:53:27] INFO root fetch - processPackages [write-githubstat]: executing diffoscope
+[2023-06-27 08:53:27] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.8-py3-none-any.whl.zip tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.9-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-account-reconciliation-widget/15.0.1.2.8-15.0.1.2.9/diff.md --exclude *.pyd
+[2023-06-27 08:53:27] INFO root fetch - processPackages [qqwry-linux-python3]: executing diffoscope
+[2023-06-27 08:53:27] INFO root fetch - processPackages [write-githubstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_githubstat-0.1.1.tar.gz tmp/write_githubstat-0.1.2.tar.gz --markdown 20230627/w/write-githubstat/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-27 08:53:27] INFO root fetch - processPackages [qqwry-linux-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qqwry-linux-python3-0.0.0.tar.gz tmp/qqwry-linux-python3-0.0.1.tar.gz --markdown 20230627/q/qqwry-linux-python3/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ReadLammpsTraj]: executing diffoscope
+[2023-06-27 08:53:27] INFO root fetch - processPackages [ReadLammpsTraj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReadLammpsTraj-1.1.4.tar.gz tmp/ReadLammpsTraj-1.1.6.tar.gz --markdown 20230627/R/ReadLammpsTraj/1.1.4-1.1.6/diff.md --exclude *.pyd
+[2023-06-27 08:53:27] INFO root fetch - processPackages [otel-tracer]: executing diffoscope
+[2023-06-27 08:53:27] INFO root fetch - processPackages [otel-tracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otel_tracer-0.0.7-py3-none-any.whl.zip tmp/otel_tracer-0.0.8-py3-none-any.whl.zip --markdown 20230627/o/otel-tracer/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-27 08:53:27] INFO root fetch - processPackages [codebleu]: Downloading https://files.pythonhosted.org/packages/94/30/d853fca37674242fdfeb86e5fcf5c4e460a97171253592b1df75ac0d6258/codebleu-0.1.4.tar.gz
+[2023-06-27 08:53:28] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2023-06-27 08:53:28] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.8.tar.gz tmp/peutils-0.0.9.tar.gz --markdown 20230627/p/peutils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 08:53:28] INFO root fetch - processPackages [codebleu]: executing diffoscope
+[2023-06-27 08:53:28] INFO root fetch - processPackages [codebleu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebleu-0.1.2.tar.gz tmp/codebleu-0.1.4.tar.gz --markdown 20230627/c/codebleu/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-27 08:53:29] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.0.7-py3-none-any.whl.zip]
+[2023-06-27 08:53:29] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.0.8-py3-none-any.whl.zip]
+[2023-06-27 08:53:29] INFO root fetch - processPackages [otel-tracer]: Start processing: sj-tool
+[2023-06-27 08:53:29] INFO root fetch - main [MainThread]: End processing [otel-tracer]: success
+[2023-06-27 08:53:29] INFO root fetch - processPackages [write-githubstat]: Remove: archive file [/home/abi/fetcher/tmp/write_githubstat-0.1.1.tar.gz]
+[2023-06-27 08:53:29] INFO root fetch - processPackages [write-githubstat]: Remove: archive file [/home/abi/fetcher/tmp/write_githubstat-0.1.2.tar.gz]
+[2023-06-27 08:53:29] INFO root fetch - processPackages [write-githubstat]: Start processing: sdc-scissor
+[2023-06-27 08:53:29] INFO root fetch - main [MainThread]: End processing [write-githubstat]: success
+[2023-06-27 08:53:29] INFO root fetch - processPackages [sdc-scissor]: New version: [2.2.0rc3] Old Version: [2.2.0rc1]
+[2023-06-27 08:53:29] INFO root fetch - processPackages [qqwry-linux-python3]: Remove: archive file [/home/abi/fetcher/tmp/qqwry-linux-python3-0.0.0.tar.gz]
+[2023-06-27 08:53:29] INFO root fetch - processPackages [qqwry-linux-python3]: Remove: archive file [/home/abi/fetcher/tmp/qqwry-linux-python3-0.0.1.tar.gz]
+[2023-06-27 08:53:29] INFO root fetch - processPackages [qqwry-linux-python3]: Start processing: pysquril
+[2023-06-27 08:53:29] INFO root fetch - main [MainThread]: End processing [qqwry-linux-python3]: success
+[2023-06-27 08:53:29] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-27 08:53:29] INFO root fetch - main [MainThread]: End processing [qqwry-linux-python3]: success
+[2023-06-27 08:53:29] INFO root fetch - processPackages [pysquril]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-27 08:53:29] INFO root fetch - processPackages [sdc-scissor]: Downloading https://files.pythonhosted.org/packages/ec/ef/dd8a95378b7e19ee48eb2c3a31ff2dae6b7dd8393a2fdd2aba04dff65806/sdc_scissor-2.2.0rc1.tar.gz
+[2023-06-27 08:53:29] INFO root fetch - processPackages [ReadLammpsTraj]: Remove: archive file [/home/abi/fetcher/tmp/ReadLammpsTraj-1.1.4.tar.gz]
+[2023-06-27 08:53:29] INFO root fetch - processPackages [ReadLammpsTraj]: Remove: archive file [/home/abi/fetcher/tmp/ReadLammpsTraj-1.1.6.tar.gz]
+[2023-06-27 08:53:29] INFO root fetch - main [MainThread]: End processing [ReadLammpsTraj]: success
+[2023-06-27 08:53:29] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.8-py3-none-any.whl.zip]
+[2023-06-27 08:53:29] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.9-py3-none-any.whl.zip]
+[2023-06-27 08:53:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconciliation-widget]: success
+[2023-06-27 08:53:29] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-27 08:53:29] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.8.tar.gz]
+[2023-06-27 08:53:29] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.9.tar.gz]
+[2023-06-27 08:53:29] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2023-06-27 08:53:29] INFO root fetch - processPackages [sdc-scissor]: Downloading https://files.pythonhosted.org/packages/75/66/364b7c9f07c7a48da34984451c15234c7a037137428a3d494bb5461bb994/sdc_scissor-2.2.0rc3.tar.gz
+[2023-06-27 08:53:30] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/a4/f5/1cb645b12276c09f60f74cef5e4e92746bee8dac1a6de52ab3e25ba568f3/pysquril-0.3.0.tar.gz
+[2023-06-27 08:53:30] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/da/24/19408ee40e44b35ce9bb32816d7f07a7087388f065728e8dcd5732d5dad8/pysquril-0.3.1.tar.gz
+[2023-06-27 08:53:30] INFO root fetch - processPackages [sdc-scissor]: executing diffoscope
+[2023-06-27 08:53:30] INFO root fetch - processPackages [sdc-scissor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc_scissor-2.2.0rc1.tar.gz tmp/sdc_scissor-2.2.0rc3.tar.gz --markdown 20230627/s/sdc-scissor/2.2.0rc1-2.2.0rc3/diff.md --exclude *.pyd
+[2023-06-27 08:53:30] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.8.tar.gz]
+[2023-06-27 08:53:30] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.9.tar.gz]
+[2023-06-27 08:53:30] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-06-27 08:53:30] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-27 08:53:30] INFO root fetch - processPackages [pysquril]: executing diffoscope
+[2023-06-27 08:53:30] INFO root fetch - processPackages [pysquril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysquril-0.3.0.tar.gz tmp/pysquril-0.3.1.tar.gz --markdown 20230627/p/pysquril/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-27 08:53:30] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-27 08:53:30] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230627/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-27 08:53:31] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.3.0.tar.gz]
+[2023-06-27 08:53:31] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.3.1.tar.gz]
+[2023-06-27 08:53:31] INFO root fetch - main [MainThread]: End processing [pysquril]: success
+[2023-06-27 08:53:31] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-27 08:53:31] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-27 08:53:31] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-27 08:53:32] INFO root fetch - processPackages [sdc-scissor]: Remove: archive file [/home/abi/fetcher/tmp/sdc_scissor-2.2.0rc1.tar.gz]
+[2023-06-27 08:53:32] INFO root fetch - processPackages [sdc-scissor]: Remove: archive file [/home/abi/fetcher/tmp/sdc_scissor-2.2.0rc3.tar.gz]
+[2023-06-27 08:53:32] INFO root fetch - main [MainThread]: End processing [sdc-scissor]: success
+[2023-06-27 08:53:32] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-06-27 08:53:32] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-06-27 08:53:32] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-27 08:53:38] INFO root fetch - processPackages [codebleu]: Remove: archive file [/home/abi/fetcher/tmp/codebleu-0.1.2.tar.gz]
+[2023-06-27 08:53:38] INFO root fetch - processPackages [codebleu]: Remove: archive file [/home/abi/fetcher/tmp/codebleu-0.1.4.tar.gz]
+[2023-06-27 08:53:38] INFO root fetch - main [MainThread]: End processing [codebleu]: success
+[2023-06-27 08:53:38] INFO root fetch - main [MainThread]: Store serial: [18658769]
