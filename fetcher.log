@@ -10897,3 +10897,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 05:12:07] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nagabus-0.2.4.tar.gz]
 [2023-06-27 05:12:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nagabus]: success
 [2023-06-27 05:12:07] INFO root fetch - main [MainThread]: Store serial: [18657539]
+[2023-06-27 05:17:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657539]
+[2023-06-27 05:17:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-27 05:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-currency-rate-update
+[2023-06-27 05:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ddmrp-warning
+[2023-06-27 05:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-ddmrp-warning
+[2023-06-27 05:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-27 05:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gaussian-bin-dist
+[2023-06-27 05:17:16] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: New version: [16.0.1.1.1.3] Old Version: [16.0.1.1.1.2]
+[2023-06-27 05:17:16] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: New version: [14.0.1.2.1.dev1] Old Version: [14.0.1.2.0]
+[2023-06-27 05:17:16] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: New version: [15.0.1.2.0] Old Version: [15.0.1.1.0.1]
+[2023-06-27 05:17:16] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-27 05:17:16] WARNING root fetch - processPackages [gaussian-bin-dist]: Skipping, unable to determine old version
+[2023-06-27 05:17:16] INFO root fetch - main [MainThread]: End processing [gaussian-bin-dist] error
+[2023-06-27 05:17:16] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/64/83/1769bd32e43f0bfe7dc03eac724f2ee3a6bdd81495e5ad08105863b57798/odoo14_addon_ddmrp_warning-14.0.1.2.0-py3-none-any.whl
+[2023-06-27 05:17:16] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/51/c2/db44fad08fefbb7bcd3eba6df5b44b474d8aa970353125112cd2f1d3106f/odoo_addon_ddmrp_warning-15.0.1.1.0.1-py3-none-any.whl
+[2023-06-27 05:17:17] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-06-27 05:17:17] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/ad/b8/23890133a19303a839baf066399e9a061e70f509d57629cd4bde5568913e/odoo_addon_currency_rate_update-16.0.1.1.1.2-py3-none-any.whl
+[2023-06-27 05:17:17] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/b2/a9/89d3438db6a0763f25991194fbc54382bd318ad1eb731bf62dc54fd4a10b/odoo14_addon_ddmrp_warning-14.0.1.2.1.dev1-py3-none-any.whl
+[2023-06-27 05:17:17] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/92/d8/6a756efab49841e018756a3f63661dc540ca134a36a8728e15e7082cf438/odoo_addon_ddmrp_warning-15.0.1.2.0-py3-none-any.whl
+[2023-06-27 05:17:17] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-06-27 05:17:17] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: executing diffoscope
+[2023-06-27 05:17:17] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_warning-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_warning-15.0.1.2.0-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-ddmrp-warning/15.0.1.1.0.1-15.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-27 05:17:17] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: executing diffoscope
+[2023-06-27 05:17:17] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp_warning-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp_warning-14.0.1.2.1.dev1-py3-none-any.whl.zip --markdown 20230627/o/odoo14-addon-ddmrp-warning/14.0.1.2.0-14.0.1.2.1.dev1/diff.md --exclude *.pyd
+[2023-06-27 05:17:17] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-27 05:17:17] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230627/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-27 05:17:17] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/b4/d7/7dcaa505f7fff528cdb521de02112889d60479670aded56b702a54a4dfa1/odoo_addon_currency_rate_update-16.0.1.1.1.3-py3-none-any.whl
+[2023-06-27 05:17:17] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: executing diffoscope
+[2023-06-27 05:17:17] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update-16.0.1.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update-16.0.1.1.1.3-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-currency-rate-update/16.0.1.1.1.2-16.0.1.1.1.3/diff.md --exclude *.pyd
+[2023-06-27 05:17:18] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-06-27 05:17:18] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-06-27 05:17:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-27 05:17:18] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_warning-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-27 05:17:18] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_warning-14.0.1.2.1.dev1-py3-none-any.whl.zip]
+[2023-06-27 05:17:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp-warning]: success
+[2023-06-27 05:17:18] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_warning-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-27 05:17:18] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_warning-15.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-27 05:17:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-warning]: success
+[2023-06-27 05:17:19] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2023-06-27 05:17:19] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.3-py3-none-any.whl.zip]
+[2023-06-27 05:17:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update]: success
+[2023-06-27 05:17:19] INFO root fetch - main [MainThread]: Store serial: [18657553]
