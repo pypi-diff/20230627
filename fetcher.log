@@ -22094,3 +22094,257 @@ AssertionError: tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz does not exist
 [2023-06-27 13:59:04] INFO root fetch - processPackages [PyroFork]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-2.2.4.tar.gz]
 [2023-06-27 13:59:04] INFO root fetch - main [MainThread]: End processing [PyroFork]: success
 [2023-06-27 13:59:04] INFO root fetch - main [MainThread]: Store serial: [18662245]
+[2023-06-27 14:04:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18662245]
+[2023-06-27 14:04:13] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-27 14:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb
+[2023-06-27 14:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-client
+[2023-06-27 14:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-dataset
+[2023-06-27 14:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-models
+[2023-06-27 14:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-protos
+[2023-06-27 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-sdk
+[2023-06-27 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-utils
+[2023-06-27 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: polywrap-msgpack
+[2023-06-27 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: error-alerts
+[2023-06-27 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openai-dbd
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 14:04:14] INFO root fetch - processPackages [polywrap-msgpack]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 14:04:14] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 14:04:14] INFO root fetch - processPackages [error-alerts]: New version: [4.9] Old Version: [4.8]
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-27 14:04:14] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/5c/13/fbcde3ddae159339916e35d2073d301aaa7edefd4fc6b2b1ce4f188ff369/error-alerts-4.8.tar.gz
+[2023-06-27 14:04:14] INFO root fetch - processPackages [polywrap-msgpack]: Downloading https://files.pythonhosted.org/packages/64/aa/a4ed22f4b6f335769968ea42458aaccd7b2e9197af3aea3e0b41b959e52b/polywrap_msgpack-0.1.0a8.tar.gz
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 14:04:14] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-27 14:04:14] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230627/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-27 14:04:14] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230627/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-27 14:04:14] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/68/b1/bec94ee15fc8d93ce019d7db19d3fa2acfc2a7cbc239c5cbc817584cf2b8/error-alerts-4.9.tar.gz
+[2023-06-27 14:04:14] INFO root fetch - processPackages [polywrap-msgpack]: Downloading https://files.pythonhosted.org/packages/f5/e7/9acac563c1933244fee01221e1a4a327fcdf3dc200dbb47bafd8df87b4c6/polywrap_msgpack-0.1.0a9.tar.gz
+[2023-06-27 14:04:14] INFO root fetch - processPackages [polywrap-msgpack]: executing diffoscope
+[2023-06-27 14:04:14] INFO root fetch - processPackages [polywrap-msgpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_msgpack-0.1.0a8.tar.gz tmp/polywrap_msgpack-0.1.0a9.tar.gz --markdown 20230627/p/polywrap-msgpack/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-06-27 14:04:14] INFO root fetch - processPackages [error-alerts]: executing diffoscope
+[2023-06-27 14:04:14] INFO root fetch - processPackages [error-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-alerts-4.8.tar.gz tmp/error-alerts-4.9.tar.gz --markdown 20230627/e/error-alerts/4.8-4.9/diff.md --exclude *.pyd
+[2023-06-27 14:04:15] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 14:04:15] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 14:04:15] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: advertools
+[2023-06-27 14:04:15] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-27 14:04:16] INFO root fetch - processPackages [advertools]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [openai-dbd]: Start processing: polywrap-test-cases
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-client]: Start processing: wikisource
+[2023-06-27 14:04:16] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-27 14:04:16] INFO root fetch - processPackages [polywrap-test-cases]: New version: [0.1.0a34] Old Version: [0.1.0a33]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [wikisource]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [polywrap-test-cases]: Downloading https://files.pythonhosted.org/packages/1a/65/eb38f6c091d980e18e35be37fff75b1d2e140adecef8ba9ba34867db3dd8/polywrap_test_cases-0.1.0a33.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-models]: Start processing: ul-api-utils
+[2023-06-27 14:04:16] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-06-27 14:04:16] INFO root fetch - processPackages [advertools]: Downloading https://files.pythonhosted.org/packages/ca/4b/757d84fabaf7fccfb0ded983de95cd0d5114eefb90c29809b72314c6dd5b/advertools-0.9.0.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/7f/fe/2986ca1b25f4d54ef74efdd5b209d247e8edbc53f98fb591143ec78d8a3c/wikisource-0.0.7.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [ul-api-utils]: New version: [7.2.9] Old Version: [7.2.8]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: ofcli
+[2023-06-27 14:04:16] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-27 14:04:16] WARNING root fetch - processPackages [ofcli]: Skipping, unable to determine old version
+[2023-06-27 14:04:16] INFO root fetch - processPackages [ofcli]: Start processing: esp-idf-sbom
+[2023-06-27 14:04:16] INFO root fetch - main [MainThread]: End processing [ofcli] error
+[2023-06-27 14:04:16] INFO root fetch - processPackages [polywrap-msgpack]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_msgpack-0.1.0a8.tar.gz]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [polywrap-msgpack]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_msgpack-0.1.0a9.tar.gz]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [polywrap-msgpack]: Start processing: armonik
+[2023-06-27 14:04:16] INFO root fetch - main [MainThread]: End processing [polywrap-msgpack]: success
+[2023-06-27 14:04:16] INFO root fetch - processPackages [esp-idf-sbom]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [armonik]: New version: [3.8.3.dev542] Old Version: [3.8.3.dev533]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [polywrap-test-cases]: Downloading https://files.pythonhosted.org/packages/ae/eb/5b9108d0198f03b9b893eaaf19e011dd8a9b452d55187d782ae3cef4bf32/polywrap_test_cases-0.1.0a34.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-4.8.tar.gz]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-4.9.tar.gz]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [error-alerts]: Start processing: label-sleuth
+[2023-06-27 14:04:16] INFO root fetch - main [MainThread]: End processing [error-alerts]: success
+[2023-06-27 14:04:16] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/b7/80/5cf459ec1a6fd30e694b3bffa2d95b82b44d451c1f25902c7f291f7eb8d3/armonik-3.8.3.dev533.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/11/09/8f2b8a4de2778e7cf72c350ac60927246649b5c0d3694bdeaf6ef42ea5b1/ul-api-utils-7.2.8.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-protos]: Start processing: scikit-rt
+[2023-06-27 14:04:16] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-06-27 14:04:16] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/99/f9/c1936a72c1b1ec2648f5aff84eaf09a34b017426a079544a1b1d9ff15b69/wikisource-0.0.8.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [label-sleuth]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [scikit-rt]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [esp-idf-sbom]: Downloading https://files.pythonhosted.org/packages/e6/87/9cc621f1361b035f0230f5fe472e7456daf2e17116d27307b2ba81552bcf/esp-idf-sbom-0.1.0.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [nucliadb-utils]: Start processing: edx-search
+[2023-06-27 14:04:16] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-27 14:04:16] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/3b/a8/a24ebf528127377d5037bc2795b164fde80c7e9a21b0020ddfe01d925650/scikit-rt-0.5.2.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [polywrap-test-cases]: executing diffoscope
+[2023-06-27 14:04:16] INFO root fetch - processPackages [polywrap-test-cases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_test_cases-0.1.0a33.tar.gz tmp/polywrap_test_cases-0.1.0a34.tar.gz --markdown 20230627/p/polywrap-test-cases/0.1.0a33-0.1.0a34/diff.md --exclude *.pyd
+[2023-06-27 14:04:16] INFO root fetch - processPackages [edx-search]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-06-27 14:04:16] INFO root fetch - processPackages [advertools]: Downloading https://files.pythonhosted.org/packages/b1/d6/a1ef9c1b6230958d61dad591f4bed41988651435e422a4bec8a8d7ceba44/advertools-0.9.1.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [wikisource]: executing diffoscope
+[2023-06-27 14:04:16] INFO root fetch - processPackages [wikisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikisource-0.0.7.tar.gz tmp/wikisource-0.0.8.tar.gz --markdown 20230627/w/wikisource/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-27 14:04:16] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/0f/b6/9b34e306dcd7f31c49abb9c115bd3b8da2ae0a452021aa981ca8d1ac1399/armonik-3.8.3.dev542.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/62/21/bde6bc790c59815bf64b1f42d92ad64524a794fad6c8f9733c3e0733b6f5/ul-api-utils-7.2.9.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [advertools]: executing diffoscope
+[2023-06-27 14:04:16] INFO root fetch - processPackages [advertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advertools-0.9.0.tar.gz tmp/advertools-0.9.1.tar.gz --markdown 20230627/a/advertools/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-27 14:04:16] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/77/e0/ee99d0650b8f1910bc9bb3c144dd4782f08b149f5a3bd4099f346117368b/label-sleuth-0.9.3.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [esp-idf-sbom]: Downloading https://files.pythonhosted.org/packages/80/2a/e16a3ccdb09d9ec5f3c3619d4d1320a611f505c14a320fa1f33d09700143/esp-idf-sbom-0.2.0.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [edx-search]: Downloading https://files.pythonhosted.org/packages/c7/45/95ebfb2c7f83b0a5e63257c1e0fae94f4cb9bcbfe789b04d334a47971b63/edx-search-3.5.0.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/00/70/00baacb39bdf277c1c663ee3a06ba035b200716a77ff287ac37b6f2ace52/scikit-rt-0.5.3.tar.gz
+[2023-06-27 14:04:16] INFO root fetch - processPackages [ul-api-utils]: executing diffoscope
+[2023-06-27 14:04:16] INFO root fetch - processPackages [ul-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-api-utils-7.2.8.tar.gz tmp/ul-api-utils-7.2.9.tar.gz --markdown 20230627/u/ul-api-utils/7.2.8-7.2.9/diff.md --exclude *.pyd
+[2023-06-27 14:04:16] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-06-27 14:04:16] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.3.dev533.tar.gz tmp/armonik-3.8.3.dev542.tar.gz --markdown 20230627/a/armonik/3.8.3.dev533-3.8.3.dev542/diff.md --exclude *.pyd
+[2023-06-27 14:04:16] INFO root fetch - processPackages [esp-idf-sbom]: executing diffoscope
+[2023-06-27 14:04:16] INFO root fetch - processPackages [esp-idf-sbom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-idf-sbom-0.1.0.tar.gz tmp/esp-idf-sbom-0.2.0.tar.gz --markdown 20230627/e/esp-idf-sbom/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-27 14:04:17] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-06-27 14:04:17] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.5.2.tar.gz tmp/scikit-rt-0.5.3.tar.gz --markdown 20230627/s/scikit-rt/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-27 14:04:17] INFO root fetch - processPackages [edx-search]: Downloading https://files.pythonhosted.org/packages/7e/0d/2dc3cdc89db6bb5c86f19c3ae5d396b5a0c26b1d8b63b5bee200be63e4cb/edx-search-3.6.0.tar.gz
+[2023-06-27 14:04:17] INFO root fetch - processPackages [edx-search]: executing diffoscope
+[2023-06-27 14:04:17] INFO root fetch - processPackages [edx-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-search-3.5.0.tar.gz tmp/edx-search-3.6.0.tar.gz --markdown 20230627/e/edx-search/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-06-27 14:04:17] INFO root fetch - processPackages [polywrap-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_test_cases-0.1.0a33.tar.gz]
+[2023-06-27 14:04:17] INFO root fetch - processPackages [polywrap-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_test_cases-0.1.0a34.tar.gz]
+[2023-06-27 14:04:17] INFO root fetch - processPackages [polywrap-test-cases]: Start processing: pyPLNmodels
+[2023-06-27 14:04:17] INFO root fetch - main [MainThread]: End processing [polywrap-test-cases]: success
+[2023-06-27 14:04:17] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/51/b0/7d9557b8945170adab935eafed81fb717ab0a6849909f142dfcf9ab78264/pyPLNmodels-0.0.8.tar.gz
+[2023-06-27 14:04:18] INFO root fetch - processPackages [wikisource]: Remove: archive file [/home/abi/fetcher/tmp/wikisource-0.0.7.tar.gz]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [wikisource]: Remove: archive file [/home/abi/fetcher/tmp/wikisource-0.0.8.tar.gz]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [wikisource]: Start processing: gremlin-python-tutorial
+[2023-06-27 14:04:18] INFO root fetch - main [MainThread]: End processing [wikisource]: success
+[2023-06-27 14:04:18] INFO root fetch - processPackages [gremlin-python-tutorial]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/dd/ee/ffc7b366823c259f75094f7898e27c3f4ae71d66cd5fa3f5da579f3afbbd/label-sleuth-0.9.4.tar.gz
+[2023-06-27 14:04:18] INFO root fetch - processPackages [esp-idf-sbom]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-sbom-0.1.0.tar.gz]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [esp-idf-sbom]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-sbom-0.2.0.tar.gz]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [esp-idf-sbom]: Start processing: polywrap-manifest
+[2023-06-27 14:04:18] INFO root fetch - main [MainThread]: End processing [esp-idf-sbom]: success
+[2023-06-27 14:04:18] INFO root fetch - processPackages [polywrap-manifest]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/d9/ee/b1ce119365c9ee2f1e8f012450c38c4ebaa0ba7795d2a008d8fcde4dfd07/pyPLNmodels-0.0.9.tar.gz
+[2023-06-27 14:04:18] INFO root fetch - processPackages [gremlin-python-tutorial]: Downloading https://files.pythonhosted.org/packages/66/d1/35156577ed84b9b958a578d111ee0843e7110fd6abbe9c1daa321d968841/gremlin_python_tutorial-0.0.4.tar.gz
+[2023-06-27 14:04:18] INFO root fetch - processPackages [label-sleuth]: executing diffoscope
+[2023-06-27 14:04:18] INFO root fetch - processPackages [label-sleuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-sleuth-0.9.3.tar.gz tmp/label-sleuth-0.9.4.tar.gz --markdown 20230627/l/label-sleuth/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-27 14:04:18] INFO root fetch - processPackages [polywrap-manifest]: Downloading https://files.pythonhosted.org/packages/62/60/94225b3b5d1c6cc0aea345f15d37850dc2d1224a963ca29d228fde172f13/polywrap_manifest-0.1.0a7.tar.gz
+[2023-06-27 14:04:18] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2023-06-27 14:04:18] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20230627/p/pyPLNmodels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 14:04:18] INFO root fetch - processPackages [gremlin-python-tutorial]: Downloading https://files.pythonhosted.org/packages/ff/91/5a6e9d9409f7e1fc001d4c914492c80987cfe7a53f489816380bcbc9b8a8/gremlin_python_tutorial-0.0.5.tar.gz
+[2023-06-27 14:04:18] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.3.dev533.tar.gz]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.3.dev542.tar.gz]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [armonik]: Start processing: rpaframework
+[2023-06-27 14:04:18] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-06-27 14:04:18] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [nucliadb]: Start processing: error-alerts
+[2023-06-27 14:04:18] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-27 14:04:18] INFO root fetch - processPackages [gremlin-python-tutorial]: executing diffoscope
+[2023-06-27 14:04:18] INFO root fetch - processPackages [gremlin-python-tutorial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gremlin_python_tutorial-0.0.4.tar.gz tmp/gremlin_python_tutorial-0.0.5.tar.gz --markdown 20230627/g/gremlin-python-tutorial/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-27 14:04:18] INFO root fetch - processPackages [rpaframework]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [error-alerts]: New version: [4.9] Old Version: [4.8]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.2.tar.gz]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.3.tar.gz]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [scikit-rt]: Start processing: polywrap-core
+[2023-06-27 14:04:18] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-06-27 14:04:18] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/5c/13/fbcde3ddae159339916e35d2073d301aaa7edefd4fc6b2b1ce4f188ff369/error-alerts-4.8.tar.gz
+[2023-06-27 14:04:18] INFO root fetch - processPackages [polywrap-manifest]: Downloading https://files.pythonhosted.org/packages/7c/77/cedbff14721aa458a69c7a30b856445730a28b02b55fd934aa0743eb874b/polywrap_manifest-0.1.0a8.tar.gz
+[2023-06-27 14:04:18] INFO root fetch - processPackages [polywrap-core]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-06-27 14:04:18] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/68/b1/bec94ee15fc8d93ce019d7db19d3fa2acfc2a7cbc239c5cbc817584cf2b8/error-alerts-4.9.tar.gz
+[2023-06-27 14:04:19] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/08/36/2753b6863128fce0fd17301c85f3767b92c880658c31f1a1f8773dd22d10/rpaframework-9.5.0.tar.gz
+[2023-06-27 14:04:19] INFO root fetch - processPackages [polywrap-manifest]: executing diffoscope
+[2023-06-27 14:04:19] INFO root fetch - processPackages [polywrap-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_manifest-0.1.0a7.tar.gz tmp/polywrap_manifest-0.1.0a8.tar.gz --markdown 20230627/p/polywrap-manifest/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-06-27 14:04:19] INFO root fetch - processPackages [polywrap-core]: Downloading https://files.pythonhosted.org/packages/7b/b1/1484222b63b3e1b70d597e65561606bde5651d540e5c9df28e9ab3dda02b/polywrap_core-0.1.0a7.tar.gz
+[2023-06-27 14:04:19] INFO root fetch - processPackages [error-alerts]: executing diffoscope
+[2023-06-27 14:04:19] INFO root fetch - processPackages [error-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-alerts-4.8.tar.gz tmp/error-alerts-4.9.tar.gz --markdown 20230627/e/error-alerts/4.8-4.9/diff.md --exclude *.pyd
+[2023-06-27 14:04:19] INFO root fetch - processPackages [edx-search]: Remove: archive file [/home/abi/fetcher/tmp/edx-search-3.5.0.tar.gz]
+[2023-06-27 14:04:19] INFO root fetch - processPackages [edx-search]: Remove: archive file [/home/abi/fetcher/tmp/edx-search-3.6.0.tar.gz]
+[2023-06-27 14:04:19] INFO root fetch - processPackages [edx-search]: Start processing: bioumlsim
+[2023-06-27 14:04:19] INFO root fetch - main [MainThread]: End processing [edx-search]: success
+[2023-06-27 14:04:19] INFO root fetch - processPackages [bioumlsim]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-27 14:04:19] INFO root fetch - processPackages [polywrap-core]: Downloading https://files.pythonhosted.org/packages/90/d2/7bf0a80d0c2cc70ceefe989729f194f3d0c8d6dfc9282c14919ee73276e0/polywrap_core-0.1.0a8.tar.gz
+[2023-06-27 14:04:19] INFO root fetch - processPackages [bioumlsim]: Downloading https://files.pythonhosted.org/packages/f2/47/65341ad3b59705cff174e02353218e0cf5ca1a56bb0d8a8f7ed5d1a09ae8/bioumlsim-0.5.3.tar.gz
+[2023-06-27 14:04:19] INFO root fetch - processPackages [polywrap-core]: executing diffoscope
+[2023-06-27 14:04:19] INFO root fetch - processPackages [polywrap-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_core-0.1.0a7.tar.gz tmp/polywrap_core-0.1.0a8.tar.gz --markdown 20230627/p/polywrap-core/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-06-27 14:04:19] INFO root fetch - processPackages [bioumlsim]: Downloading https://files.pythonhosted.org/packages/3e/d1/5e3f88955d4d21adeaac760e707110219b968034c5ee23f46835b4d69eb5/bioumlsim-0.5.4.tar.gz
+[2023-06-27 14:04:20] INFO root fetch - processPackages [polywrap-manifest]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_manifest-0.1.0a7.tar.gz]
+[2023-06-27 14:04:20] INFO root fetch - processPackages [polywrap-manifest]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_manifest-0.1.0a8.tar.gz]
+[2023-06-27 14:04:20] INFO root fetch - processPackages [polywrap-manifest]: Start processing: certora-cli-alpha-oz-cli-by-os
+[2023-06-27 14:04:20] INFO root fetch - main [MainThread]: End processing [polywrap-manifest]: success
+[2023-06-27 14:04:20] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: New version: [20230627.9.44.450815] Old Version: [20230627.11.44.759810]
+[2023-06-27 14:04:20] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-4.8.tar.gz]
+[2023-06-27 14:04:20] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-4.9.tar.gz]
+[2023-06-27 14:04:20] INFO root fetch - processPackages [error-alerts]: Start processing: polywrap-plugin
+[2023-06-27 14:04:20] INFO root fetch - main [MainThread]: End processing [error-alerts]: success
+[2023-06-27 14:04:20] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Downloading https://files.pythonhosted.org/packages/42/db/14e6572dc43870d09d3dc6e64655f465df28a84b4e6d8f8aaf70673b8d28/certora_cli_alpha_oz_cli_by_os-20230627.11.44.759810-py3-none-manylinux_2_28_x86_64.whl
+[2023-06-27 14:04:20] WARNING root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Skipping package: exceeds size limit 38776230>=10485760
+[2023-06-27 14:04:20] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-cli-by-os] error
+[2023-06-27 14:04:20] INFO root fetch - processPackages [polywrap-plugin]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-27 14:04:20] INFO root fetch - processPackages [polywrap-core]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_core-0.1.0a7.tar.gz]
+[2023-06-27 14:04:20] INFO root fetch - processPackages [polywrap-core]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_core-0.1.0a8.tar.gz]
+[2023-06-27 14:04:20] INFO root fetch - main [MainThread]: End processing [polywrap-core]: success
+[2023-06-27 14:04:20] INFO root fetch - processPackages [polywrap-plugin]: Downloading https://files.pythonhosted.org/packages/f4/97/c10b8b5ec154f879d052ed84f0e13843a1e4cb1b409a21920a29cc9d2d41/polywrap_plugin-0.1.0a6.tar.gz
+[2023-06-27 14:04:20] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/ec/52/e237349f170c7f11301bcd83a500356a47b1480cdeee67c6971b224571b0/rpaframework-9.6.0.tar.gz
+[2023-06-27 14:04:20] INFO root fetch - processPackages [bioumlsim]: executing diffoscope
+[2023-06-27 14:04:20] INFO root fetch - processPackages [bioumlsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioumlsim-0.5.3.tar.gz tmp/bioumlsim-0.5.4.tar.gz --markdown 20230627/b/bioumlsim/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-27 14:04:20] INFO root fetch - processPackages [polywrap-plugin]: Downloading https://files.pythonhosted.org/packages/b3/3c/5ba12e1bf0c9e5d66c6dab019c7fa21a48eb6897cc7e2a7f9138b9f02112/polywrap_plugin-0.1.0a7.tar.gz
+[2023-06-27 14:04:21] INFO root fetch - processPackages [polywrap-plugin]: executing diffoscope
+[2023-06-27 14:04:21] INFO root fetch - processPackages [polywrap-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_plugin-0.1.0a6.tar.gz tmp/polywrap_plugin-0.1.0a7.tar.gz --markdown 20230627/p/polywrap-plugin/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-27 14:04:21] INFO root fetch - processPackages [advertools]: Remove: archive file [/home/abi/fetcher/tmp/advertools-0.9.0.tar.gz]
+[2023-06-27 14:04:21] INFO root fetch - processPackages [advertools]: Remove: archive file [/home/abi/fetcher/tmp/advertools-0.9.1.tar.gz]
+[2023-06-27 14:04:21] INFO root fetch - main [MainThread]: End processing [advertools]: success
+[2023-06-27 14:04:21] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.2.8.tar.gz]
+[2023-06-27 14:04:21] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.2.9.tar.gz]
+[2023-06-27 14:04:21] INFO root fetch - main [MainThread]: End processing [ul-api-utils]: success
+[2023-06-27 14:04:21] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.8.tar.gz]
+[2023-06-27 14:04:21] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.9.tar.gz]
+[2023-06-27 14:04:21] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2023-06-27 14:04:21] INFO root fetch - processPackages [rpaframework]: executing diffoscope
+[2023-06-27 14:04:21] INFO root fetch - processPackages [rpaframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework-9.5.0.tar.gz tmp/rpaframework-9.6.0.tar.gz --markdown 20230627/r/rpaframework/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-06-27 14:04:21] INFO root fetch - processPackages [gremlin-python-tutorial]: Remove: archive file [/home/abi/fetcher/tmp/gremlin_python_tutorial-0.0.4.tar.gz]
+[2023-06-27 14:04:21] INFO root fetch - processPackages [gremlin-python-tutorial]: Remove: archive file [/home/abi/fetcher/tmp/gremlin_python_tutorial-0.0.5.tar.gz]
+[2023-06-27 14:04:21] INFO root fetch - main [MainThread]: End processing [gremlin-python-tutorial]: success
+[2023-06-27 14:04:22] INFO root fetch - processPackages [polywrap-plugin]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_plugin-0.1.0a6.tar.gz]
+[2023-06-27 14:04:22] INFO root fetch - processPackages [polywrap-plugin]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_plugin-0.1.0a7.tar.gz]
+[2023-06-27 14:04:22] INFO root fetch - main [MainThread]: End processing [polywrap-plugin]: success
+[2023-06-27 14:04:22] INFO root fetch - processPackages [bioumlsim]: Remove: archive file [/home/abi/fetcher/tmp/bioumlsim-0.5.3.tar.gz]
+[2023-06-27 14:04:22] INFO root fetch - processPackages [bioumlsim]: Remove: archive file [/home/abi/fetcher/tmp/bioumlsim-0.5.4.tar.gz]
+[2023-06-27 14:04:22] INFO root fetch - main [MainThread]: End processing [bioumlsim]: success
+[2023-06-27 14:04:24] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.5.0.tar.gz]
+[2023-06-27 14:04:24] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.6.0.tar.gz]
+[2023-06-27 14:04:24] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
+[2023-06-27 14:05:03] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.3.tar.gz]
+[2023-06-27 14:05:03] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
+[2023-06-27 14:05:03] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
+[2023-06-27 14:05:03] INFO root fetch - main [MainThread]: Store serial: [18662324]
