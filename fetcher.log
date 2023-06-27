@@ -20425,3 +20425,168 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 12:54:59] INFO root fetch - processPackages [plone.app.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.mosaic-3.1.3.tar.gz]
 [2023-06-27 12:54:59] INFO root fetch - main [MainThread]: End processing [plone.app.mosaic]: success
 [2023-06-27 12:54:59] INFO root fetch - main [MainThread]: Store serial: [18661531]
+[2023-06-27 13:00:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661531]
+[2023-06-27 13:00:11] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-27 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: how-fake-accounts
+[2023-06-27 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mentord
+[2023-06-27 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: titan-iris
+[2023-06-27 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tessa
+[2023-06-27 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spectralnet
+[2023-06-27 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Kanon4txt
+[2023-06-27 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cbra
+[2023-06-27 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abejacli
+[2023-06-27 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pelican-captions
+[2023-06-27 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: learn-python-check
+[2023-06-27 13:00:11] INFO root fetch - processPackages [Kanon4txt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-27 13:00:11] INFO root fetch - processPackages [titan-iris]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-27 13:00:11] INFO root fetch - processPackages [pelican-captions]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-27 13:00:11] INFO root fetch - processPackages [mentord]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-27 13:00:11] INFO root fetch - processPackages [abejacli]: New version: [2.2.0rc2] Old Version: [2.2.0rc1]
+[2023-06-27 13:00:11] WARNING root fetch - processPackages [learn-python-check]: Skipping, unable to determine old version
+[2023-06-27 13:00:11] WARNING root fetch - processPackages [spectralnet]: Skipping, unable to determine old version
+[2023-06-27 13:00:11] INFO root fetch - processPackages [learn-python-check]: Start processing: pelican-math-svg
+[2023-06-27 13:00:11] INFO root fetch - processPackages [how-fake-accounts]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-27 13:00:11] INFO root fetch - main [MainThread]: End processing [learn-python-check] error
+[2023-06-27 13:00:11] INFO root fetch - processPackages [spectralnet]: Start processing: pelican-references
+[2023-06-27 13:00:11] INFO root fetch - main [MainThread]: End processing [spectralnet] error
+[2023-06-27 13:00:11] INFO root fetch - processPackages [tessa]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-27 13:00:11] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-06-27 13:00:11] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/de/2a/304b241476800c74640a2625ac0b3b1e343b984f983561b41d6e6b13234d/Kanon4txt-0.1.4.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-references]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-math-svg]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-27 13:00:12] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/af/88/3a153e5aa2b82ead874b96b5f03840a68acf0a2fd0a8e77b0e770c40e5a0/cbra-2.0.0a99.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [how-fake-accounts]: Downloading https://files.pythonhosted.org/packages/5e/94/e11f18a12d1a72aa95983155d26e37720134f4e08e954010a72403950e5b/how_fake_accounts-0.1.0.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/c8/2b/955a607798f9d46c491e8ad9538f491d41a7b2033e309abd2da1dfe2e97f/mentord-1.0.4.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [abejacli]: Downloading https://files.pythonhosted.org/packages/b7/1b/e2915ee75813912510d84699f133367f2ca9dde89d578f4f618ea0d48eab/abejacli-2.2.0rc1-py3-none-any.whl
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-captions]: Downloading https://files.pythonhosted.org/packages/46/cb/49b92b34e164c9ac4a494b8d711f2e55f09cb345443ac855a39ee90b9cb7/pelican-captions-0.4.0.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d7/15/feb7c005964ea5d16b9435b52600870cbc403d0898d8d62b11352acddcef/titan-iris-0.8.8.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-references]: Downloading https://files.pythonhosted.org/packages/80/47/8b4637da8acef353a95c1217d39cfd4cfde43e0d86f79f494292c006a795/pelican-references-0.3.0.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [tessa]: Downloading https://files.pythonhosted.org/packages/aa/5f/49cc79da464dc0ca42852484fb8137bd45a057100e694bb70e9b28e7fe3a/tessa-0.7.0.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-math-svg]: Downloading https://files.pythonhosted.org/packages/18/ce/980a808b615d6b42b21019b5d0bd5bb9cb48ce6d1922c768aa37795a67fa/pelican-math-svg-0.8.2.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/6a/8b/bf94904be011f50d98897ad79fdb506110a5444aab60fdd52670b1615522/Kanon4txt-0.1.5.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/e3/30/881c6ff6126ad5e84aee92c87271280498b0d03f3c7ad7ca93e0e0fd381b/cbra-3.0.0a7.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [how-fake-accounts]: Downloading https://files.pythonhosted.org/packages/c0/0d/f2f8c8607d21f6c13e2ae1356c0e7ae7e89b8525fae23d05c8a69fe812c1/how_fake_accounts-0.2.0.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-06-27 13:00:12] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230627/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-06-27 13:00:12] INFO root fetch - processPackages [abejacli]: Downloading https://files.pythonhosted.org/packages/73/10/5bee678a97cfdb5703cc46fe229094abfcb860d504fd1ace0627e597fdf4/abejacli-2.2.0rc2-py3-none-any.whl
+[2023-06-27 13:00:12] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/a1/85/e48a11b28ac6ee53c674fb5b3683a1a03c06439cb18f33a0013530dc6db1/mentord-1.0.5.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [Kanon4txt]: executing diffoscope
+[2023-06-27 13:00:12] INFO root fetch - processPackages [Kanon4txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kanon4txt-0.1.4.tar.gz tmp/Kanon4txt-0.1.5.tar.gz --markdown 20230627/K/Kanon4txt/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 13:00:12] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/04/25/22091a26775676cd76db565c11730d38d18cffe45cb89330ebf3fd074e77/titan-iris-0.8.9.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [abejacli]: executing diffoscope
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-captions]: Downloading https://files.pythonhosted.org/packages/3b/eb/237dd6b4ad7c80213f157b3d95717c32fad49122759b4dd25cc749599adf/pelican_captions-0.4.1.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [abejacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abejacli-2.2.0rc1-py3-none-any.whl.zip tmp/abejacli-2.2.0rc2-py3-none-any.whl.zip --markdown 20230627/a/abejacli/2.2.0rc1-2.2.0rc2/diff.md --exclude *.pyd
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-references]: Downloading https://files.pythonhosted.org/packages/75/04/b149897ab66619314e7d934c6a0b3156533fe861f3c885e8ef176c9ea048/pelican_references-0.3.1.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [how-fake-accounts]: executing diffoscope
+[2023-06-27 13:00:12] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-27 13:00:12] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.0.4.tar.gz tmp/mentord-1.0.5.tar.gz --markdown 20230627/m/mentord/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-27 13:00:12] INFO root fetch - processPackages [how-fake-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/how_fake_accounts-0.1.0.tar.gz tmp/how_fake_accounts-0.2.0.tar.gz --markdown 20230627/h/how-fake-accounts/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-captions]: executing diffoscope
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-captions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican-captions-0.4.0.tar.gz tmp/pelican_captions-0.4.1.tar.gz --markdown 20230627/p/pelican-captions/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-27 13:00:12] INFO root fetch - processPackages [tessa]: Downloading https://files.pythonhosted.org/packages/52/4d/958c6a1813ad95256d4ac41a577c09d0a1f41db07b0bb3c0eae90c98a63f/tessa-0.7.1.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-27 13:00:12] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.8.tar.gz tmp/titan-iris-0.8.9.tar.gz --markdown 20230627/t/titan-iris/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-math-svg]: Downloading https://files.pythonhosted.org/packages/4b/ea/d99627814d850543931be605001922a07de56d000342c80e6fd5c6d67a9d/pelican-math-svg-0.9.0.tar.gz
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-references]: executing diffoscope
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-references]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican-references-0.3.0.tar.gz tmp/pelican_references-0.3.1.tar.gz --markdown 20230627/p/pelican-references/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-27 13:00:12] INFO root fetch - processPackages [tessa]: executing diffoscope
+[2023-06-27 13:00:12] INFO root fetch - processPackages [tessa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tessa-0.7.0.tar.gz tmp/tessa-0.7.1.tar.gz --markdown 20230627/t/tessa/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-math-svg]: executing diffoscope
+[2023-06-27 13:00:12] INFO root fetch - processPackages [pelican-math-svg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican-math-svg-0.8.2.tar.gz tmp/pelican-math-svg-0.9.0.tar.gz --markdown 20230627/p/pelican-math-svg/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-27 13:00:14] INFO root fetch - processPackages [how-fake-accounts]: Remove: archive file [/home/abi/fetcher/tmp/how_fake_accounts-0.1.0.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [how-fake-accounts]: Remove: archive file [/home/abi/fetcher/tmp/how_fake_accounts-0.2.0.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [how-fake-accounts]: Start processing: pelican-syntax-highlighting
+[2023-06-27 13:00:14] INFO root fetch - main [MainThread]: End processing [how-fake-accounts]: success
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-syntax-highlighting]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.4.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.5.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [mentord]: Start processing: json-schema-enforcer
+[2023-06-27 13:00:14] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-27 13:00:14] WARNING root fetch - processPackages [json-schema-enforcer]: Skipping, unable to determine old version
+[2023-06-27 13:00:14] INFO root fetch - processPackages [json-schema-enforcer]: Start processing: scikit-rt
+[2023-06-27 13:00:14] INFO root fetch - main [MainThread]: End processing [json-schema-enforcer] error
+[2023-06-27 13:00:14] INFO root fetch - processPackages [scikit-rt]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [tessa]: Remove: archive file [/home/abi/fetcher/tmp/tessa-0.7.0.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [tessa]: Remove: archive file [/home/abi/fetcher/tmp/tessa-0.7.1.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [tessa]: Start processing: ltp-extension
+[2023-06-27 13:00:14] INFO root fetch - main [MainThread]: End processing [tessa]: success
+[2023-06-27 13:00:14] INFO root fetch - processPackages [ltp-extension]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-syntax-highlighting]: Downloading https://files.pythonhosted.org/packages/81/78/af5689c858eac4307b752b48b1deb58d82b63acf10ac0705f2862791e9e9/pelican-syntax-highlighting-0.4.1.tar.gz
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-references]: Remove: archive file [/home/abi/fetcher/tmp/pelican-references-0.3.0.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-references]: Remove: archive file [/home/abi/fetcher/tmp/pelican_references-0.3.1.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-references]: Start processing: how-fake-accounts
+[2023-06-27 13:00:14] INFO root fetch - main [MainThread]: End processing [pelican-references]: success
+[2023-06-27 13:00:14] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.1.4.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.1.5.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [Kanon4txt]: Start processing: sinli
+[2023-06-27 13:00:14] INFO root fetch - main [MainThread]: End processing [Kanon4txt]: success
+[2023-06-27 13:00:14] INFO root fetch - processPackages [how-fake-accounts]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [sinli]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-captions]: Remove: archive file [/home/abi/fetcher/tmp/pelican-captions-0.4.0.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-captions]: Remove: archive file [/home/abi/fetcher/tmp/pelican_captions-0.4.1.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-captions]: Start processing: affinda
+[2023-06-27 13:00:14] INFO root fetch - main [MainThread]: End processing [pelican-captions]: success
+[2023-06-27 13:00:14] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/98/70/b95685824e21468babd257236e7a2f9f027c0813b3281bedb3551cbb6ced/scikit-rt-0.5.1.tar.gz
+[2023-06-27 13:00:14] INFO root fetch - processPackages [affinda]: New version: [4.6.0] Old Version: [4.5.1]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [how-fake-accounts]: Downloading https://files.pythonhosted.org/packages/5e/94/e11f18a12d1a72aa95983155d26e37720134f4e08e954010a72403950e5b/how_fake_accounts-0.1.0.tar.gz
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-math-svg]: Remove: archive file [/home/abi/fetcher/tmp/pelican-math-svg-0.8.2.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-math-svg]: Remove: archive file [/home/abi/fetcher/tmp/pelican-math-svg-0.9.0.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-math-svg]: Start processing: wemp
+[2023-06-27 13:00:14] INFO root fetch - main [MainThread]: End processing [pelican-math-svg]: success
+[2023-06-27 13:00:14] INFO root fetch - processPackages [wemp]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [ltp-extension]: Downloading https://files.pythonhosted.org/packages/1d/1a/17a693f6c1c38c3b251133ee1f9a114e2e62d37d3a4ec767c6313b859612/ltp_extension-0.1.8.tar.gz
+[2023-06-27 13:00:14] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/0a/47/8ef0668c46fb5afd11fb86a34de9ec969fc0aef747e4a8793ebc8fd80a56/wemp-1.0.2-py3-none-any.whl
+[2023-06-27 13:00:14] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.8.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.9.tar.gz]
+[2023-06-27 13:00:14] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-27 13:00:14] INFO root fetch - processPackages [how-fake-accounts]: Downloading https://files.pythonhosted.org/packages/c0/0d/f2f8c8607d21f6c13e2ae1356c0e7ae7e89b8525fae23d05c8a69fe812c1/how_fake_accounts-0.2.0.tar.gz
+[2023-06-27 13:00:14] INFO root fetch - processPackages [sinli]: Downloading https://files.pythonhosted.org/packages/d5/99/09886fb34a07255da8da9fe09e5b153626eb905e56a7cb687783977c95c6/sinli-1.1.2.tar.gz
+[2023-06-27 13:00:14] INFO root fetch - processPackages [abejacli]: Remove: archive file [/home/abi/fetcher/tmp/abejacli-2.2.0rc1-py3-none-any.whl.zip]
+[2023-06-27 13:00:14] INFO root fetch - processPackages [abejacli]: Remove: archive file [/home/abi/fetcher/tmp/abejacli-2.2.0rc2-py3-none-any.whl.zip]
+[2023-06-27 13:00:14] INFO root fetch - main [MainThread]: End processing [abejacli]: success
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-syntax-highlighting]: Downloading https://files.pythonhosted.org/packages/a1/ce/88b485e9e9956f9c041c071d7ccca2e79c8e24b808fa12f4667d6356c11e/pelican_syntax_highlighting-0.4.2.tar.gz
+[2023-06-27 13:00:14] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/cc/c6/4761d23460fe8249bc757915dabbed43f8d08c6c04e3c5d11d08ba4eca6e/affinda-4.5.1.tar.gz
+[2023-06-27 13:00:14] INFO root fetch - processPackages [how-fake-accounts]: executing diffoscope
+[2023-06-27 13:00:14] INFO root fetch - processPackages [how-fake-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/how_fake_accounts-0.1.0.tar.gz tmp/how_fake_accounts-0.2.0.tar.gz --markdown 20230627/h/how-fake-accounts/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-27 13:00:14] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/3b/a8/a24ebf528127377d5037bc2795b164fde80c7e9a21b0020ddfe01d925650/scikit-rt-0.5.2.tar.gz
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-syntax-highlighting]: executing diffoscope
+[2023-06-27 13:00:14] INFO root fetch - processPackages [pelican-syntax-highlighting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican-syntax-highlighting-0.4.1.tar.gz tmp/pelican_syntax_highlighting-0.4.2.tar.gz --markdown 20230627/p/pelican-syntax-highlighting/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-27 13:00:15] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/0a/0b/e9abda85dcf615902605043e92f626aecdd5894da9350f49720d9ec95a59/wemp-1.0.3-py3-none-any.whl
+[2023-06-27 13:00:15] INFO root fetch - processPackages [sinli]: Downloading https://files.pythonhosted.org/packages/55/6f/2e4f875bbca6d32f9ab728ce4d3c1ff36d7491b2db00ccf8e5c776402147/sinli-1.1.3.tar.gz
+[2023-06-27 13:00:15] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-06-27 13:00:15] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.5.1.tar.gz tmp/scikit-rt-0.5.2.tar.gz --markdown 20230627/s/scikit-rt/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-27 13:00:15] INFO root fetch - processPackages [sinli]: executing diffoscope
+[2023-06-27 13:00:15] INFO root fetch - processPackages [sinli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinli-1.1.2.tar.gz tmp/sinli-1.1.3.tar.gz --markdown 20230627/s/sinli/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-27 13:00:15] INFO root fetch - processPackages [ltp-extension]: Downloading https://files.pythonhosted.org/packages/3c/07/fd1f382d9179ae0166320a04bbe677171d75e3da6fe4f4439eb47f107eb5/ltp_extension-0.1.9.tar.gz
+[2023-06-27 13:00:15] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/85/8b/24fe05022bc06fc6f4a5502ba0851926d92f3d7d0e4ae69b62dd347e7955/affinda-4.6.0.tar.gz
+[2023-06-27 13:00:15] INFO root fetch - processPackages [wemp]: executing diffoscope
+[2023-06-27 13:00:15] INFO root fetch - processPackages [wemp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wemp-1.0.2-py3-none-any.whl.zip tmp/wemp-1.0.3-py3-none-any.whl.zip --markdown 20230627/w/wemp/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 13:00:15] INFO root fetch - processPackages [ltp-extension]: executing diffoscope
+[2023-06-27 13:00:15] INFO root fetch - processPackages [ltp-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltp_extension-0.1.8.tar.gz tmp/ltp_extension-0.1.9.tar.gz --markdown 20230627/l/ltp-extension/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 13:00:15] INFO root fetch - processPackages [affinda]: executing diffoscope
+[2023-06-27 13:00:15] INFO root fetch - processPackages [affinda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinda-4.5.1.tar.gz tmp/affinda-4.6.0.tar.gz --markdown 20230627/a/affinda/4.5.1-4.6.0/diff.md --exclude *.pyd
+[2023-06-27 13:00:15] INFO root fetch - processPackages [how-fake-accounts]: Remove: archive file [/home/abi/fetcher/tmp/how_fake_accounts-0.1.0.tar.gz]
+[2023-06-27 13:00:15] INFO root fetch - processPackages [how-fake-accounts]: Remove: archive file [/home/abi/fetcher/tmp/how_fake_accounts-0.2.0.tar.gz]
+[2023-06-27 13:00:15] INFO root fetch - main [MainThread]: End processing [how-fake-accounts]: success
+[2023-06-27 13:00:16] INFO root fetch - processPackages [pelican-syntax-highlighting]: Remove: archive file [/home/abi/fetcher/tmp/pelican-syntax-highlighting-0.4.1.tar.gz]
+[2023-06-27 13:00:16] INFO root fetch - processPackages [pelican-syntax-highlighting]: Remove: archive file [/home/abi/fetcher/tmp/pelican_syntax_highlighting-0.4.2.tar.gz]
+[2023-06-27 13:00:16] INFO root fetch - main [MainThread]: End processing [pelican-syntax-highlighting]: success
+[2023-06-27 13:00:16] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.2-py3-none-any.whl.zip]
+[2023-06-27 13:00:16] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.3-py3-none-any.whl.zip]
+[2023-06-27 13:00:16] INFO root fetch - main [MainThread]: End processing [wemp]: success
+[2023-06-27 13:00:16] INFO root fetch - processPackages [sinli]: Remove: archive file [/home/abi/fetcher/tmp/sinli-1.1.2.tar.gz]
+[2023-06-27 13:00:16] INFO root fetch - processPackages [sinli]: Remove: archive file [/home/abi/fetcher/tmp/sinli-1.1.3.tar.gz]
+[2023-06-27 13:00:16] INFO root fetch - main [MainThread]: End processing [sinli]: success
+[2023-06-27 13:00:16] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.1.tar.gz]
+[2023-06-27 13:00:16] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.2.tar.gz]
+[2023-06-27 13:00:16] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-06-27 13:00:17] INFO root fetch - processPackages [ltp-extension]: Remove: archive file [/home/abi/fetcher/tmp/ltp_extension-0.1.8.tar.gz]
+[2023-06-27 13:00:17] INFO root fetch - processPackages [ltp-extension]: Remove: archive file [/home/abi/fetcher/tmp/ltp_extension-0.1.9.tar.gz]
+[2023-06-27 13:00:17] INFO root fetch - main [MainThread]: End processing [ltp-extension]: success
+[2023-06-27 13:00:19] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.5.1.tar.gz]
+[2023-06-27 13:00:19] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.6.0.tar.gz]
+[2023-06-27 13:00:19] INFO root fetch - main [MainThread]: End processing [affinda]: success
+[2023-06-27 13:00:21] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-2.0.0a99.tar.gz]
+[2023-06-27 13:00:21] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
+[2023-06-27 13:00:21] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-06-27 13:00:21] INFO root fetch - main [MainThread]: Store serial: [18661609]
