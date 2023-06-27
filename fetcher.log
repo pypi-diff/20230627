@@ -14793,3 +14793,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 09:27:28] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-27 09:27:28] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-27 09:27:28] INFO root fetch - main [MainThread]: Store serial: [18659077]
+[2023-06-27 09:32:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659077]
+[2023-06-27 09:32:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-27 09:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notion-pinecone
+[2023-06-27 09:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: current-events-magnifier
+[2023-06-27 09:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-model-builder
+[2023-06-27 09:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notion-pinecone
+[2023-06-27 09:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: revproxy-auth
+[2023-06-27 09:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bambooai
+[2023-06-27 09:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-27 09:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: orchestrator-core
+[2023-06-27 09:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: taipy-config
+[2023-06-27 09:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyAMOSA
+[2023-06-27 09:32:37] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 09:32:37] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 09:32:37] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.0.4.2] Old Version: [0.0.4.0]
+[2023-06-27 09:32:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-27 09:32:37] INFO root fetch - processPackages [orchestrator-core]: New version: [1.1.1rc3] Old Version: [1.1.1rc2]
+[2023-06-27 09:32:37] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-06-27 09:32:37] INFO root fetch - processPackages [pyAMOSA]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-06-27 09:32:37] INFO root fetch - processPackages [revproxy-auth]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-27 09:32:37] INFO root fetch - processPackages [taipy-config]: New version: [3.0.0.dev0] Old Version: [2.3.1]
+[2023-06-27 09:32:37] INFO root fetch - processPackages [bambooai]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-27 09:32:37] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/13/85/c193bc1ad5326d81e6631390250c7108fc2f304e9e38d235c800fe80e845/current_events_magnifier-0.0.4.0.tar.gz
+[2023-06-27 09:32:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-27 09:32:37] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-27 09:32:37] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-27 09:32:37] INFO root fetch - processPackages [pyAMOSA]: Downloading https://files.pythonhosted.org/packages/97/e0/d9984615ead7d767ea558daf4df609e4ae93abb59c16c24fc580c9646489/pyAMOSA-1.3.6.tar.gz
+[2023-06-27 09:32:37] INFO root fetch - processPackages [taipy-config]: Downloading https://files.pythonhosted.org/packages/49/67/03855dcb97647ec73af7e4fa4a9c78579a658cc942ae9c7933d553daa5ae/taipy-config-2.3.1.tar.gz
+[2023-06-27 09:32:37] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-06-27 09:32:37] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/41/91/fa77919396135790508672004aed506a3b8a591abd29a725ac6689eb2ddd/revproxy_auth-0.1.7.tar.gz
+[2023-06-27 09:32:37] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/f9/93/65f2dbbad64ea75fbe156dee298f98f8076a0310a8ac2fb228b557a41e84/bambooai-0.3.6.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/a0/f1/26db8b4e3881132f5058440102a976a0fba50a28ecf7155939ae6ee5f281/orchestrator_core-1.1.1rc2.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/b6/c8/8554e64ea2a611a96f818fd39ba62e54d39ab0140de3051419f75e808452/current_events_magnifier-0.0.4.2.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-27 09:32:38] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.0.4.0.tar.gz tmp/current_events_magnifier-0.0.4.2.tar.gz --markdown 20230627/c/current-events-magnifier/0.0.4.0-0.0.4.2/diff.md --exclude *.pyd
+[2023-06-27 09:32:38] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-27 09:32:38] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230627/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 09:32:38] INFO root fetch - processPackages [pyAMOSA]: Downloading https://files.pythonhosted.org/packages/da/2e/7185a66d00449c24208bee55f651e2fe2dfbf2e3b1d50df0c8efa26d3d1f/pyAMOSA-1.3.7.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-27 09:32:38] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230627/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 09:32:38] INFO root fetch - processPackages [taipy-config]: Downloading https://files.pythonhosted.org/packages/e4/00/59e6cd9b5798d6aafcc7392a096f633fb41fa5a137ad31e98c37dc5cf954/taipy-config-3.0.0.dev0.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/73/d9/d94b8f6796952207404ae0d0121cf78f317953a96c5c2da97633dc158e64/bambooai-0.3.7.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/77/fd/eaa77c6583582581791be68ac357eb81916f75286a9afdb6f4a8182ca907/revproxy_auth-0.1.8.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/e0/52/ea3d303df46919caab478f9162dcc12b26f43aec2880bcfb259970c124f3/orchestrator_core-1.1.1rc3.tar.gz
+[2023-06-27 09:32:38] INFO root fetch - processPackages [taipy-config]: executing diffoscope
+[2023-06-27 09:32:38] INFO root fetch - processPackages [taipy-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-config-2.3.1.tar.gz tmp/taipy-config-3.0.0.dev0.tar.gz --markdown 20230627/t/taipy-config/2.3.1-3.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-27 09:32:38] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-06-27 09:32:38] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.6.tar.gz tmp/bambooai-0.3.7.tar.gz --markdown 20230627/b/bambooai/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-27 09:32:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-27 09:32:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 09:32:38] INFO root fetch - processPackages [pyAMOSA]: executing diffoscope
+[2023-06-27 09:32:38] INFO root fetch - processPackages [pyAMOSA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAMOSA-1.3.6.tar.gz tmp/pyAMOSA-1.3.7.tar.gz --markdown 20230627/p/pyAMOSA/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-06-27 09:32:38] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-06-27 09:32:38] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230627/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-06-27 09:32:38] INFO root fetch - processPackages [revproxy-auth]: executing diffoscope
+[2023-06-27 09:32:38] INFO root fetch - processPackages [revproxy-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revproxy_auth-0.1.7.tar.gz tmp/revproxy_auth-0.1.8.tar.gz --markdown 20230627/r/revproxy-auth/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-27 09:32:38] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2023-06-27 09:32:38] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-1.1.1rc2.tar.gz tmp/orchestrator_core-1.1.1rc3.tar.gz --markdown 20230627/o/orchestrator-core/1.1.1rc2-1.1.1rc3/diff.md --exclude *.pyd
+[2023-06-27 09:32:39] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.8.tar.gz]
+[2023-06-27 09:32:39] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.9.tar.gz]
+[2023-06-27 09:32:39] INFO root fetch - processPackages [notion-pinecone]: Start processing: jiminy-py
+[2023-06-27 09:32:39] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-27 09:32:39] INFO root fetch - processPackages [jiminy-py]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-27 09:32:39] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-27 09:32:39] INFO root fetch - processPackages [jiminy-py]: Downloading https://files.pythonhosted.org/packages/de/50/392021230099a7c9ff0f834bf0ef7870e22dd5d6cab201dea59c543cd148/jiminy_py-1.7.8-cp39-cp39-win_amd64.whl
+[2023-06-27 09:32:39] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.6.tar.gz]
+[2023-06-27 09:32:39] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.7.tar.gz]
+[2023-06-27 09:32:39] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-06-27 09:32:40] INFO root fetch - processPackages [taipy-config]: Remove: archive file [/home/abi/fetcher/tmp/taipy-config-2.3.1.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - processPackages [taipy-config]: Remove: archive file [/home/abi/fetcher/tmp/taipy-config-3.0.0.dev0.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - main [MainThread]: End processing [taipy-config]: success
+[2023-06-27 09:32:40] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-27 09:32:40] INFO root fetch - processPackages [revproxy-auth]: Remove: archive file [/home/abi/fetcher/tmp/revproxy_auth-0.1.7.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - processPackages [revproxy-auth]: Remove: archive file [/home/abi/fetcher/tmp/revproxy_auth-0.1.8.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - main [MainThread]: End processing [revproxy-auth]: success
+[2023-06-27 09:32:40] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.4.0.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.4.2.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-27 09:32:40] INFO root fetch - processPackages [pyAMOSA]: Remove: archive file [/home/abi/fetcher/tmp/pyAMOSA-1.3.6.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - processPackages [pyAMOSA]: Remove: archive file [/home/abi/fetcher/tmp/pyAMOSA-1.3.7.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - main [MainThread]: End processing [pyAMOSA]: success
+[2023-06-27 09:32:40] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-06-27 09:32:40] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-06-27 09:32:41] WARNING root fetch - processPackages [jiminy-py]: Skipping package: exceeds size limit 20244100>=10485760
+[2023-06-27 09:32:41] INFO root fetch - main [MainThread]: End processing [jiminy-py] error
+[2023-06-27 09:32:44] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.1.1rc2.tar.gz]
+[2023-06-27 09:32:44] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.1.1rc3.tar.gz]
+[2023-06-27 09:32:44] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2023-06-27 09:32:44] INFO root fetch - main [MainThread]: Store serial: [18659109]
