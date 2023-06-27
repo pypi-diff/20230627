@@ -6115,3 +6115,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 03:32:50] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
 [2023-06-27 03:32:50] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-06-27 03:32:50] INFO root fetch - main [MainThread]: Store serial: [18655783]
+[2023-06-27 03:37:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18655783]
+[2023-06-27 03:37:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-27 03:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-subminute
+[2023-06-27 03:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byquant
+[2023-06-27 03:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bq-validator
+[2023-06-27 03:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-06-27 03:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redbuild
+[2023-06-27 03:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-numpy
+[2023-06-27 03:37:59] INFO root fetch - processPackages [byquant]: New version: [1.6.27] Old Version: [1.6.15]
+[2023-06-27 03:37:59] INFO root fetch - processPackages [redbuild]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-27 03:37:59] INFO root fetch - processPackages [bq-validator]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-06-27 03:37:59] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-27 03:37:59] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 03:37:59] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 03:37:59] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-27 03:37:59] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-27 03:37:59] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-27 03:37:59] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/8f/d1/d1f4a1ac04ae77948958d44909a4023456710ddba221a2c9535a9554bfa1/byquant-1.6.15.tar.gz
+[2023-06-27 03:38:00] INFO root fetch - processPackages [bq-validator]: Downloading https://files.pythonhosted.org/packages/36/bd/e1a7bcf8aa15916f78434af0a5d9253e65bce79d04a2878d853ce2e94134/bq-validator-0.5.4.tar.gz
+[2023-06-27 03:38:00] INFO root fetch - processPackages [redbuild]: Downloading https://files.pythonhosted.org/packages/e2/4d/a660b27341466d8eb93d8e3afcfa0dbb7cd16083d8756d2ecc7f43f22a06/redbuild-2.1.1.tar.gz
+[2023-06-27 03:38:00] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-27 03:38:00] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-27 03:38:00] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-27 03:38:00] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-27 03:38:00] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230627/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 03:38:00] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-27 03:38:00] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230627/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 03:38:00] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-27 03:38:00] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230627/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-27 03:38:00] INFO root fetch - processPackages [bq-validator]: Downloading https://files.pythonhosted.org/packages/38/a2/91ad5df40e94ac66d06f479f5a717127997b0d1591ea9c51ca1a00837eab/bq_validator-0.6.0.tar.gz
+[2023-06-27 03:38:00] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/75/78/0463ef3bd63d1f09ecd7ed7380e00088f8c8ff2e69f9665809178936aea0/byquant-1.6.27.tar.gz
+[2023-06-27 03:38:00] INFO root fetch - processPackages [bq-validator]: executing diffoscope
+[2023-06-27 03:38:00] INFO root fetch - processPackages [bq-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bq-validator-0.5.4.tar.gz tmp/bq_validator-0.6.0.tar.gz --markdown 20230627/b/bq-validator/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-06-27 03:38:00] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-06-27 03:38:00] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.6.15.tar.gz tmp/byquant-1.6.27.tar.gz --markdown 20230627/b/byquant/1.6.15-1.6.27/diff.md --exclude *.pyd
+[2023-06-27 03:38:00] INFO root fetch - processPackages [redbuild]: Downloading https://files.pythonhosted.org/packages/4e/9d/e2aa2528affa6f0c131a49dbf5788e83e0dd19bbb38d204c61bac76abdaf/redbuild-2.2.0.tar.gz
+[2023-06-27 03:38:00] INFO root fetch - processPackages [redbuild]: executing diffoscope
+[2023-06-27 03:38:00] INFO root fetch - processPackages [redbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbuild-2.1.1.tar.gz tmp/redbuild-2.2.0.tar.gz --markdown 20230627/r/redbuild/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-27 03:38:01] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-27 03:38:01] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-27 03:38:01] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-27 03:38:01] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-27 03:38:01] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-27 03:38:01] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-27 03:38:01] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-27 03:38:01] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-27 03:38:01] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-27 03:38:01] INFO root fetch - processPackages [redbuild]: Remove: archive file [/home/abi/fetcher/tmp/redbuild-2.1.1.tar.gz]
+[2023-06-27 03:38:01] INFO root fetch - processPackages [redbuild]: Remove: archive file [/home/abi/fetcher/tmp/redbuild-2.2.0.tar.gz]
+[2023-06-27 03:38:01] INFO root fetch - main [MainThread]: End processing [redbuild]: success
+[2023-06-27 03:38:02] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.6.15.tar.gz]
+[2023-06-27 03:38:02] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.6.27.tar.gz]
+[2023-06-27 03:38:02] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-06-27 03:38:55] INFO root fetch - processPackages [bq-validator]: Remove: archive file [/home/abi/fetcher/tmp/bq-validator-0.5.4.tar.gz]
+[2023-06-27 03:38:55] INFO root fetch - processPackages [bq-validator]: Remove: archive file [/home/abi/fetcher/tmp/bq_validator-0.6.0.tar.gz]
+[2023-06-27 03:38:55] INFO root fetch - main [MainThread]: End processing [bq-validator]: success
+[2023-06-27 03:38:55] INFO root fetch - main [MainThread]: Store serial: [18655811]
