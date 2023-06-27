@@ -18838,3 +18838,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 11:43:36] INFO root fetch - processPackages [zeroc-ice]: Remove: archive file [/home/abi/fetcher/tmp/zeroc-ice-3.7.9.1.tar.gz]
 [2023-06-27 11:43:36] INFO root fetch - main [MainThread]: End processing [zeroc-ice]: success
 [2023-06-27 11:43:36] INFO root fetch - main [MainThread]: Store serial: [18660867]
+[2023-06-27 11:48:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18660867]
+[2023-06-27 11:48:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-27 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-misc
+[2023-06-27 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-oz-cli-by-os
+[2023-06-27 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotools
+[2023-06-27 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: timescoring
+[2023-06-27 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arlas-tagger-api
+[2023-06-27 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: substrafl
+[2023-06-27 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyroFork-dev
+[2023-06-27 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cmcrameri
+[2023-06-27 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: http-content-parser
+[2023-06-27 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyQt6-Fluent-Widgets
+[2023-06-27 11:48:47] INFO root fetch - processPackages [robotools]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-27 11:48:47] WARNING root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Skipping, unable to determine old version
+[2023-06-27 11:48:47] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Start processing: std-daq-service
+[2023-06-27 11:48:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-cli-by-os] error
+[2023-06-27 11:48:47] INFO root fetch - processPackages [timescoring]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-27 11:48:47] INFO root fetch - processPackages [arlas-tagger-api]: New version: [24.0.2] Old Version: [24.0.1]
+[2023-06-27 11:48:47] WARNING root fetch - processPackages [http-content-parser]: Skipping, unable to determine old version
+[2023-06-27 11:48:47] INFO root fetch - processPackages [http-content-parser]: Start processing: pybw-comic
+[2023-06-27 11:48:47] INFO root fetch - main [MainThread]: End processing [http-content-parser] error
+[2023-06-27 11:48:47] INFO root fetch - processPackages [substrafl]: New version: [0.38.0rc1] Old Version: [0.37.0rc2]
+[2023-06-27 11:48:47] INFO root fetch - processPackages [drf-misc]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-27 11:48:47] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-27 11:48:47] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.3.dev202306270944] Old Version: [2.2.3.dev202306251641]
+[2023-06-27 11:48:47] WARNING root fetch - processPackages [std-daq-service]: Skipping, unable to determine old version
+[2023-06-27 11:48:47] INFO root fetch - processPackages [std-daq-service]: Start processing: petisco
+[2023-06-27 11:48:47] INFO root fetch - main [MainThread]: End processing [std-daq-service] error
+[2023-06-27 11:48:47] INFO root fetch - processPackages [cmcrameri]: New version: [1.6] Old Version: [1.5]
+[2023-06-27 11:48:47] INFO root fetch - processPackages [pybw-comic]: New version: [23.6.27.2] Old Version: [23.6.27.1]
+[2023-06-27 11:48:47] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc5] Old Version: [2.0.0rc4]
+[2023-06-27 11:48:47] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/80/99/0d1461fc1bd65f162d6ccf2a8f372d743136031ce66bd304c17171d7d71d/PyQt6-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-27 11:48:47] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/7f/7f/dc573ed8ea41ad07c3673569a099cbb7e258d46f03062ccea54380ae160e/drf_misc-0.0.7.tar.gz
+[2023-06-27 11:48:47] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/e6/d2/83f85846b318af04c1d3395154f4b94ef20c5b97ed37bc221d8877ee3c5a/petisco-2.0.0rc4.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [arlas-tagger-api]: Downloading https://files.pythonhosted.org/packages/59/10/9a8526bd5ac91eab1a68d1f99e89b5e685648d87bd163a59757deb57a437/arlas-tagger_api-24.0.1.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/7a/7c/6978d0cc452034e01aab8c3aeff9f2a02f07afe9e39176c575548119cac3/PyroFork-dev-2.2.3.dev202306251641.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [timescoring]: Downloading https://files.pythonhosted.org/packages/88/79/f2cd20feda1318347c115eee756b8f839411249e53f21dc3d9ee9d39d015/timescoring-0.0.4.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/1f/8a/3c16f8b5ab79e32f398ee03d2d7d40b672190fe4c9b52ab523dbbf4441ec/pybw_comic-23.6.27.1.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [substrafl]: Downloading https://files.pythonhosted.org/packages/a3/c1/28e339906890939927f18999821e760f50a9e0e8d6dbe3b0bc7fae832b06/substrafl-0.37.0rc2.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [cmcrameri]: Downloading https://files.pythonhosted.org/packages/12/ec/de245dfecc864e342dcf411e83d61c25e5f50102c4918d5ddf9f92778a2b/cmcrameri-1.5-py3-none-any.whl
+[2023-06-27 11:48:48] INFO root fetch - processPackages [robotools]: Downloading https://files.pythonhosted.org/packages/0b/c0/069f17ec4e44ee5a4d459c7fe514519826f0803e4a3468bdb5532183c399/robotools-1.7.0.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/44/27/954f1e705e1c7e4aee86fc5bbb3acc82a09c736153a212f533b18b187d19/drf_misc-0.0.8.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/c5/a2/5d4f3ecb64b992911d44cbc9a665c5a07c1e1132293b104115fc7bfce74a/PyQt6-Fluent-Widgets-0.9.9.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-06-27 11:48:48] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.0.7.tar.gz tmp/drf_misc-0.0.8.tar.gz --markdown 20230627/d/drf-misc/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-27 11:48:48] INFO root fetch - processPackages [pybw-comic]: Downloading https://files.pythonhosted.org/packages/6e/85/f14eb343a865905446defff28bf38dfcecf97853c3cbe596e70dbe6dd42c/pybw_comic-23.6.27.2.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [arlas-tagger-api]: Downloading https://files.pythonhosted.org/packages/c5/d8/80f948775c207be0f5aabf772af770fbe1e05a0fbcfce0437b5f9070eea2/arlas-tagger_api-24.0.2.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-06-27 11:48:48] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.9.8.tar.gz tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz --markdown 20230627/P/PyQt6-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-27 11:48:48] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/e6/31/dfc16402ed161c375434ebf1c5902144f067ce968efef668ffc11051016e/petisco-2.0.0rc5.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [timescoring]: Downloading https://files.pythonhosted.org/packages/af/a8/b3e1c61b23e0203fe68aafc82343e30e188956854080c8924dc0f4e341d5/timescoring-0.0.5.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [pybw-comic]: executing diffoscope
+[2023-06-27 11:48:48] INFO root fetch - processPackages [pybw-comic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybw_comic-23.6.27.1.tar.gz tmp/pybw_comic-23.6.27.2.tar.gz --markdown 20230627/p/pybw-comic/23.6.27.1-23.6.27.2/diff.md --exclude *.pyd
+[2023-06-27 11:48:48] INFO root fetch - processPackages [robotools]: Downloading https://files.pythonhosted.org/packages/1c/49/4a2ca2ed6d713044627ba2f1b647df6f8401021c845d0cc1afe09665bdc8/robotools-1.7.1.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/67/f7/11c7f94e1fa3eb9b10b7deda5d74c3b0ff06a9587defb98e4b2e7da85f06/PyroFork-dev-2.2.3.dev202306270944.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [arlas-tagger-api]: executing diffoscope
+[2023-06-27 11:48:48] INFO root fetch - processPackages [arlas-tagger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arlas-tagger_api-24.0.1.tar.gz tmp/arlas-tagger_api-24.0.2.tar.gz --markdown 20230627/a/arlas-tagger-api/24.0.1-24.0.2/diff.md --exclude *.pyd
+[2023-06-27 11:48:48] INFO root fetch - processPackages [substrafl]: Downloading https://files.pythonhosted.org/packages/f9/ad/bcaef5abe01bdb0208fbde39fb098450eff5e2766804f1dd76e3705e7413/substrafl-0.38.0rc1.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [robotools]: executing diffoscope
+[2023-06-27 11:48:48] INFO root fetch - processPackages [robotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotools-1.7.0.tar.gz tmp/robotools-1.7.1.tar.gz --markdown 20230627/r/robotools/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-27 11:48:48] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-06-27 11:48:48] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc4.tar.gz tmp/petisco-2.0.0rc5.tar.gz --markdown 20230627/p/petisco/2.0.0rc4-2.0.0rc5/diff.md --exclude *.pyd
+[2023-06-27 11:48:48] INFO root fetch - processPackages [timescoring]: executing diffoscope
+[2023-06-27 11:48:48] INFO root fetch - processPackages [timescoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timescoring-0.0.4.tar.gz tmp/timescoring-0.0.5.tar.gz --markdown 20230627/t/timescoring/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-27 11:48:48] INFO root fetch - processPackages [cmcrameri]: Downloading https://files.pythonhosted.org/packages/26/61/92bbfc51245922cdb443f1c830c2b0b03d777626921fc33d2faadc42a62c/cmcrameri-1.6.tar.gz
+[2023-06-27 11:48:48] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-06-27 11:48:48] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.3.dev202306251641.tar.gz tmp/PyroFork-dev-2.2.3.dev202306270944.tar.gz --markdown 20230627/P/PyroFork-dev/2.2.3.dev202306251641-2.2.3.dev202306270944/diff.md --exclude *.pyd
+[2023-06-27 11:48:48] INFO root fetch - processPackages [substrafl]: executing diffoscope
+[2023-06-27 11:48:48] INFO root fetch - processPackages [substrafl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrafl-0.37.0rc2.tar.gz tmp/substrafl-0.38.0rc1.tar.gz --markdown 20230627/s/substrafl/0.37.0rc2-0.38.0rc1/diff.md --exclude *.pyd
+[2023-06-27 11:48:48] INFO root fetch - processPackages [cmcrameri]: executing diffoscope
+[2023-06-27 11:48:48] INFO root fetch - processPackages [cmcrameri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmcrameri-1.5-py3-none-any.whl.zip tmp/cmcrameri-1.6.tar.gz --markdown 20230627/c/cmcrameri/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-27 11:48:49] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.7.tar.gz]
+[2023-06-27 11:48:49] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.8.tar.gz]
+[2023-06-27 11:48:49] INFO root fetch - processPackages [drf-misc]: Start processing: peaqevcore
+[2023-06-27 11:48:49] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-06-27 11:48:49] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-27 11:48:50] INFO root fetch - processPackages [timescoring]: Remove: archive file [/home/abi/fetcher/tmp/timescoring-0.0.4.tar.gz]
+[2023-06-27 11:48:50] INFO root fetch - processPackages [timescoring]: Remove: archive file [/home/abi/fetcher/tmp/timescoring-0.0.5.tar.gz]
+[2023-06-27 11:48:50] INFO root fetch - main [MainThread]: End processing [timescoring]: success
+[2023-06-27 11:48:50] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-27 11:48:50] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-27 11:48:50] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-27 11:48:50] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230627/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-27 11:48:50] INFO root fetch - processPackages [cmcrameri]: Remove: archive file [/home/abi/fetcher/tmp/cmcrameri-1.5-py3-none-any.whl.zip]
+[2023-06-27 11:48:50] INFO root fetch - processPackages [cmcrameri]: Remove: archive file [/home/abi/fetcher/tmp/cmcrameri-1.6.tar.gz]
+[2023-06-27 11:48:50] INFO root fetch - main [MainThread]: End processing [cmcrameri]: success
+[2023-06-27 11:48:50] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-27 11:48:50] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz]
+[2023-06-27 11:48:50] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-06-27 11:48:50] INFO root fetch - processPackages [robotools]: Remove: archive file [/home/abi/fetcher/tmp/robotools-1.7.0.tar.gz]
+[2023-06-27 11:48:50] INFO root fetch - processPackages [robotools]: Remove: archive file [/home/abi/fetcher/tmp/robotools-1.7.1.tar.gz]
+[2023-06-27 11:48:50] INFO root fetch - main [MainThread]: End processing [robotools]: success
+[2023-06-27 11:48:50] INFO root fetch - processPackages [arlas-tagger-api]: Remove: archive file [/home/abi/fetcher/tmp/arlas-tagger_api-24.0.1.tar.gz]
+[2023-06-27 11:48:50] INFO root fetch - processPackages [arlas-tagger-api]: Remove: archive file [/home/abi/fetcher/tmp/arlas-tagger_api-24.0.2.tar.gz]
+[2023-06-27 11:48:50] INFO root fetch - main [MainThread]: End processing [arlas-tagger-api]: success
+[2023-06-27 11:48:51] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.27.1.tar.gz]
+[2023-06-27 11:48:51] INFO root fetch - processPackages [pybw-comic]: Remove: archive file [/home/abi/fetcher/tmp/pybw_comic-23.6.27.2.tar.gz]
+[2023-06-27 11:48:51] INFO root fetch - main [MainThread]: End processing [pybw-comic]: success
+[2023-06-27 11:48:51] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-27 11:48:51] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-27 11:48:51] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-27 11:48:52] INFO root fetch - processPackages [substrafl]: Remove: archive file [/home/abi/fetcher/tmp/substrafl-0.37.0rc2.tar.gz]
+[2023-06-27 11:48:52] INFO root fetch - processPackages [substrafl]: Remove: archive file [/home/abi/fetcher/tmp/substrafl-0.38.0rc1.tar.gz]
+[2023-06-27 11:48:52] INFO root fetch - main [MainThread]: End processing [substrafl]: success
+[2023-06-27 11:48:52] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc4.tar.gz]
+[2023-06-27 11:48:52] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc5.tar.gz]
+[2023-06-27 11:48:52] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-06-27 11:48:55] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202306251641.tar.gz]
+[2023-06-27 11:48:55] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202306270944.tar.gz]
+[2023-06-27 11:48:55] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-06-27 11:48:55] INFO root fetch - main [MainThread]: Store serial: [18660918]
