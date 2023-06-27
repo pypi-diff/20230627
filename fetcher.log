@@ -20590,3 +20590,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 13:00:21] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
 [2023-06-27 13:00:21] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-06-27 13:00:21] INFO root fetch - main [MainThread]: Store serial: [18661609]
+[2023-06-27 13:05:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661609]
+[2023-06-27 13:05:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-27 13:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dxsp
+[2023-06-27 13:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: govuk-frontend-django
+[2023-06-27 13:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastcs
+[2023-06-27 13:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omsdk
+[2023-06-27 13:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-das
+[2023-06-27 13:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: log21
+[2023-06-27 13:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: http-content-parser
+[2023-06-27 13:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qps-limit
+[2023-06-27 13:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: strinpy
+[2023-06-27 13:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: affinda
+[2023-06-27 13:05:34] INFO root fetch - processPackages [govuk-frontend-django]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-27 13:05:34] WARNING root fetch - processPackages [fastcs]: Skipping, unable to determine old version
+[2023-06-27 13:05:34] INFO root fetch - processPackages [fastcs]: Start processing: pyDecLog
+[2023-06-27 13:05:34] INFO root fetch - main [MainThread]: End processing [fastcs] error
+[2023-06-27 13:05:34] INFO root fetch - processPackages [omsdk]: New version: [1.2.509] Old Version: [1.2.503]
+[2023-06-27 13:05:34] INFO root fetch - processPackages [antchain-das]: New version: [1.1.6] Old Version: [1.1.54]
+[2023-06-27 13:05:34] WARNING root fetch - processPackages [pyDecLog]: Skipping, unable to determine old version
+[2023-06-27 13:05:34] INFO root fetch - processPackages [pyDecLog]: Start processing: waveformtools
+[2023-06-27 13:05:34] INFO root fetch - main [MainThread]: End processing [pyDecLog] error
+[2023-06-27 13:05:34] WARNING root fetch - processPackages [strinpy]: Skipping, unable to determine old version
+[2023-06-27 13:05:34] INFO root fetch - processPackages [http-content-parser]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 13:05:34] INFO root fetch - processPackages [strinpy]: Start processing: django-descope
+[2023-06-27 13:05:34] INFO root fetch - main [MainThread]: End processing [strinpy] error
+[2023-06-27 13:05:34] INFO root fetch - processPackages [qps-limit]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 13:05:34] INFO root fetch - processPackages [log21]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-06-27 13:05:34] INFO root fetch - processPackages [affinda]: New version: [4.7.0] Old Version: [4.6.0]
+[2023-06-27 13:05:34] INFO root fetch - processPackages [dxsp]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-06-27 13:05:34] INFO root fetch - processPackages [waveformtools]: New version: [2023.6.5] Old Version: [2023.6.3]
+[2023-06-27 13:05:34] INFO root fetch - processPackages [django-descope]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-27 13:05:35] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/e5/f1/5576071d25642371ec267eefdb71b67052edcaa7348bb8c015cab0649b91/http_content_parser-0.0.2.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/85/8b/24fe05022bc06fc6f4a5502ba0851926d92f3d7d0e4ae69b62dd347e7955/affinda-4.6.0.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/85/15/939b8adca236245b856b62c9fb6cb22db97512865205831605cf0cc01edb/log21-2.5.2.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/3a/03/27111330b209147eb48321e6142da648e7a562c21880b49469a453e6dd42/antchain_das-1.1.54.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/97/7a/60c20eec44f3d719433ee13e49f53eba2ad972c4e090f9fa004a995d7713/govuk_frontend_django-0.3.7.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/b0/d5/715a79aab5bc95cd5dcec1b1f99ff7531f1ad87b39f966b367df5472fbed/dxsp-2.6.8.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/fe/52/cf8092447f8ddbd44210521ed51e91f326bfbdf381687ad92d4e0ba6c959/qps_limit-1.0.2-py3-none-any.whl
+[2023-06-27 13:05:35] INFO root fetch - processPackages [omsdk]: Downloading https://files.pythonhosted.org/packages/d5/e7/917f3b6493673922ddfb55545a87f4f8bd993c7d7e3dc01c8cdb159fd6b4/omsdk-1.2.503-py2.py3-none-any.whl
+[2023-06-27 13:05:35] INFO root fetch - processPackages [waveformtools]: Downloading https://files.pythonhosted.org/packages/6b/f3/f86d0114db3cf528c69412b9777a843a3f80190dab30ab2be16f344b7470/waveformtools-2023.6.3.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [django-descope]: Downloading https://files.pythonhosted.org/packages/f3/c0/23d13834531a7b47fc0ee8040e462fa80765accda4875ffe657f8497bb6a/django_descope-1.1.0.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/41/cb/c8952a1df259e5a2eab8ad8fb8f221d55ae38dea7c5f7a37f5fea029f5a0/http_content_parser-0.0.3.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/72/89/52cef56a631b50a4fe84456686b1fd4b5749e708ea37819a2883784db209/log21-2.5.3.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/d1/b6/15895d75f8e87c594074dda413baf3c20a3aa68686af76a00aa057ece86e/affinda-4.7.0.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/fe/e0/f1074311da6e7c320b45647d9529b8efc93c549bd6f4729006115d219a0f/govuk_frontend_django-0.3.8.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/8e/36/ebff45e8fcfc7c802f316046901c42642ea5b4cf5a7cca835e9dba832590/dxsp-2.6.9.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/03/f4/1f952e12e964abe29313d9437d8acfe7610a263b57f372ae21b8ce63fe08/antchain_das-1.1.6.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [log21]: executing diffoscope
+[2023-06-27 13:05:35] INFO root fetch - processPackages [log21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log21-2.5.2.tar.gz tmp/log21-2.5.3.tar.gz --markdown 20230627/l/log21/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-06-27 13:05:35] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/6e/7f/172399875d12b0f3b1d87dcb1369fbf7902d17c421ff213d9d956922c933/qps_limit-1.0.3-py3-none-any.whl
+[2023-06-27 13:05:35] INFO root fetch - processPackages [http-content-parser]: executing diffoscope
+[2023-06-27 13:05:35] INFO root fetch - processPackages [http-content-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http_content_parser-0.0.2.tar.gz tmp/http_content_parser-0.0.3.tar.gz --markdown 20230627/h/http-content-parser/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 13:05:35] INFO root fetch - processPackages [govuk-frontend-django]: executing diffoscope
+[2023-06-27 13:05:35] INFO root fetch - processPackages [django-descope]: Downloading https://files.pythonhosted.org/packages/23/b3/47cef94a1c9e2b854f3e8615b8968be44e3c8732ef7e4eb1c5f5eef84db1/django_descope-1.2.0.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [govuk-frontend-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govuk_frontend_django-0.3.7.tar.gz tmp/govuk_frontend_django-0.3.8.tar.gz --markdown 20230627/g/govuk-frontend-django/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-27 13:05:35] INFO root fetch - processPackages [omsdk]: Downloading https://files.pythonhosted.org/packages/2a/25/006434c604b92b8a2c82bd1486592e553e7cc6908baa058b82ece49ddca9/omsdk-1.2.509-py2.py3-none-any.whl
+[2023-06-27 13:05:35] INFO root fetch - processPackages [antchain-das]: executing diffoscope
+[2023-06-27 13:05:35] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-06-27 13:05:35] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.6.8.tar.gz tmp/dxsp-2.6.9.tar.gz --markdown 20230627/d/dxsp/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-06-27 13:05:35] INFO root fetch - processPackages [antchain-das]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_das-1.1.54.tar.gz tmp/antchain_das-1.1.6.tar.gz --markdown 20230627/a/antchain-das/1.1.54-1.1.6/diff.md --exclude *.pyd
+[2023-06-27 13:05:35] INFO root fetch - processPackages [waveformtools]: Downloading https://files.pythonhosted.org/packages/04/b7/1a4c8d38eea177ac41ed91bff53712c106b96bf3af516517bc52e4b48111/waveformtools-2023.6.5.tar.gz
+[2023-06-27 13:05:35] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-06-27 13:05:35] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-1.0.2-py3-none-any.whl.zip tmp/qps_limit-1.0.3-py3-none-any.whl.zip --markdown 20230627/q/qps-limit/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 13:05:35] INFO root fetch - processPackages [affinda]: executing diffoscope
+[2023-06-27 13:05:35] INFO root fetch - processPackages [affinda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinda-4.6.0.tar.gz tmp/affinda-4.7.0.tar.gz --markdown 20230627/a/affinda/4.6.0-4.7.0/diff.md --exclude *.pyd
+[2023-06-27 13:05:35] INFO root fetch - processPackages [django-descope]: executing diffoscope
+[2023-06-27 13:05:35] INFO root fetch - processPackages [django-descope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_descope-1.1.0.tar.gz tmp/django_descope-1.2.0.tar.gz --markdown 20230627/d/django-descope/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-27 13:05:35] INFO root fetch - processPackages [waveformtools]: executing diffoscope
+[2023-06-27 13:05:35] INFO root fetch - processPackages [waveformtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveformtools-2023.6.3.tar.gz tmp/waveformtools-2023.6.5.tar.gz --markdown 20230627/w/waveformtools/2023.6.3-2023.6.5/diff.md --exclude *.pyd
+[2023-06-27 13:05:35] INFO root fetch - processPackages [omsdk]: executing diffoscope
+[2023-06-27 13:05:35] INFO root fetch - processPackages [omsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omsdk-1.2.503-py2.py3-none-any.whl.zip tmp/omsdk-1.2.509-py2.py3-none-any.whl.zip --markdown 20230627/o/omsdk/1.2.503-1.2.509/diff.md --exclude *.pyd
+[2023-06-27 13:05:37] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.2-py3-none-any.whl.zip]
+[2023-06-27 13:05:37] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.3-py3-none-any.whl.zip]
+[2023-06-27 13:05:37] INFO root fetch - processPackages [qps-limit]: Start processing: local-llm-function-calling
+[2023-06-27 13:05:37] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-06-27 13:05:37] WARNING root fetch - processPackages [local-llm-function-calling]: Skipping, unable to determine old version
+[2023-06-27 13:05:37] INFO root fetch - processPackages [local-llm-function-calling]: Start processing: kevin-toolbox
+[2023-06-27 13:05:37] INFO root fetch - main [MainThread]: End processing [local-llm-function-calling] error
+[2023-06-27 13:05:37] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.2.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.3.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - processPackages [http-content-parser]: Start processing: kevin-toolbox-dev
+[2023-06-27 13:05:37] INFO root fetch - main [MainThread]: End processing [http-content-parser]: success
+[2023-06-27 13:05:37] INFO root fetch - processPackages [antchain-das]: Remove: archive file [/home/abi/fetcher/tmp/antchain_das-1.1.54.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - processPackages [antchain-das]: Remove: archive file [/home/abi/fetcher/tmp/antchain_das-1.1.6.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - main [MainThread]: End processing [antchain-das]: success
+[2023-06-27 13:05:37] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-27 13:05:37] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-27 13:05:37] INFO root fetch - processPackages [govuk-frontend-django]: Remove: archive file [/home/abi/fetcher/tmp/govuk_frontend_django-0.3.7.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - processPackages [govuk-frontend-django]: Remove: archive file [/home/abi/fetcher/tmp/govuk_frontend_django-0.3.8.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - main [MainThread]: End processing [govuk-frontend-django]: success
+[2023-06-27 13:05:37] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/9c/47/ae1ff96cb49dd4ae35a3b000fd06da1da879e62aa58c050acb007dc25ad6/kevin-toolbox-1.1.1.tar.gz
+[2023-06-27 13:05:37] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.5.2.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.5.3.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - main [MainThread]: End processing [log21]: success
+[2023-06-27 13:05:37] INFO root fetch - processPackages [django-descope]: Remove: archive file [/home/abi/fetcher/tmp/django_descope-1.1.0.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - processPackages [django-descope]: Remove: archive file [/home/abi/fetcher/tmp/django_descope-1.2.0.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - main [MainThread]: End processing [django-descope]: success
+[2023-06-27 13:05:37] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-2.6.8.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-2.6.9.tar.gz]
+[2023-06-27 13:05:37] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-06-27 13:05:37] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/16/1d/63fa6b864ef67f0b2387bb59b4201d56243fe4c9060d1e25a92aeb1fbb43/kevin-toolbox-dev-1.1.1.tar.gz
+[2023-06-27 13:05:38] INFO root fetch - processPackages [waveformtools]: Remove: archive file [/home/abi/fetcher/tmp/waveformtools-2023.6.3.tar.gz]
+[2023-06-27 13:05:38] INFO root fetch - processPackages [waveformtools]: Remove: archive file [/home/abi/fetcher/tmp/waveformtools-2023.6.5.tar.gz]
+[2023-06-27 13:05:38] INFO root fetch - main [MainThread]: End processing [waveformtools]: success
+[2023-06-27 13:05:38] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/23/e4/5549c474dbe56b0a4d0de44ef6ab9d24706111c72d5a5c4e9ee8aaecff2e/kevin-toolbox-1.1.2.tar.gz
+[2023-06-27 13:05:38] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/9c/90/7aed1e64156c38c0510fddbb6213fbf134e3efe70324c64761692e1a280e/kevin-toolbox-dev-1.1.2.tar.gz
+[2023-06-27 13:05:38] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-06-27 13:05:38] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.1.1.tar.gz tmp/kevin-toolbox-1.1.2.tar.gz --markdown 20230627/k/kevin-toolbox/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-27 13:05:38] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-06-27 13:05:38] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.1.1.tar.gz tmp/kevin-toolbox-dev-1.1.2.tar.gz --markdown 20230627/k/kevin-toolbox-dev/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-27 13:05:38] INFO root fetch - processPackages [omsdk]: Remove: archive file [/home/abi/fetcher/tmp/omsdk-1.2.503-py2.py3-none-any.whl.zip]
+[2023-06-27 13:05:38] INFO root fetch - processPackages [omsdk]: Remove: archive file [/home/abi/fetcher/tmp/omsdk-1.2.509-py2.py3-none-any.whl.zip]
+[2023-06-27 13:05:38] INFO root fetch - main [MainThread]: End processing [omsdk]: success
+[2023-06-27 13:05:40] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.1.tar.gz]
+[2023-06-27 13:05:40] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.2.tar.gz]
+[2023-06-27 13:05:40] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-06-27 13:05:40] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.6.0.tar.gz]
+[2023-06-27 13:05:40] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.7.0.tar.gz]
+[2023-06-27 13:05:40] INFO root fetch - main [MainThread]: End processing [affinda]: success
+[2023-06-27 13:05:40] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.1.tar.gz]
+[2023-06-27 13:05:40] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.2.tar.gz]
+[2023-06-27 13:05:40] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-06-27 13:05:40] INFO root fetch - main [MainThread]: Store serial: [18661667]
