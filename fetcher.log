@@ -12249,3 +12249,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 06:26:59] INFO root fetch - processPackages [hdx-python-scraper]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_scraper-2.1.7.tar.gz]
 [2023-06-27 06:26:59] INFO root fetch - main [MainThread]: End processing [hdx-python-scraper]: success
 [2023-06-27 06:26:59] INFO root fetch - main [MainThread]: Store serial: [18658015]
+[2023-06-27 06:32:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658015]
+[2023-06-27 06:32:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-27 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: empyric
+[2023-06-27 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pic2square2icon
+[2023-06-27 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmdsky-debug-py
+[2023-06-27 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: n64img
+[2023-06-27 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-operating-unit
+[2023-06-27 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psd-tools
+[2023-06-27 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hdx-scraper-geonode
+[2023-06-27 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: p-ttauto-crawler
+[2023-06-27 06:32:08] INFO root fetch - processPackages [hdx-scraper-geonode]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-06-27 06:32:08] INFO root fetch - processPackages [odoo14-addon-account-operating-unit]: New version: [14.0.1.0.4.dev2] Old Version: [14.0.1.0.4.dev1]
+[2023-06-27 06:32:08] INFO root fetch - processPackages [empyric]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-27 06:32:08] INFO root fetch - processPackages [pic2square2icon]: New version: [0.11] Old Version: [0.10]
+[2023-06-27 06:32:08] INFO root fetch - processPackages [n64img]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-27 06:32:08] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [6.0.0] Old Version: [5.1.9]
+[2023-06-27 06:32:08] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 06:32:08] INFO root fetch - processPackages [psd-tools]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-27 06:32:08] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-27 06:32:09] INFO root fetch - processPackages [n64img]: Downloading https://files.pythonhosted.org/packages/d0/c8/8e88eaef68ac781098c43583621970700a23988a1c2f9a329eff0a5bfdbc/n64img-0.3.1.tar.gz
+[2023-06-27 06:32:09] INFO root fetch - processPackages [pic2square2icon]: Downloading https://files.pythonhosted.org/packages/ec/fe/c99777568942a66887adda4a1957b2c46d8fd73b58eecd1e6e32822bdb23/pic2square2icon-0.10.tar.gz
+[2023-06-27 06:32:09] INFO root fetch - processPackages [hdx-scraper-geonode]: Downloading https://files.pythonhosted.org/packages/5e/1c/011c992346f94ed6a20d46881807abda29f2bd7aeec9fbbd7e574ed81644/hdx_scraper_geonode-1.4.9-py2.py3-none-any.whl
+[2023-06-27 06:32:09] INFO root fetch - processPackages [odoo14-addon-account-operating-unit]: Downloading https://files.pythonhosted.org/packages/8d/1c/fba6fec2cee7cf6f32c0e2fe158ab4f99c49c821aa75dc7c1f1dd5b2cb12/odoo14_addon_account_operating_unit-14.0.1.0.4.dev1-py3-none-any.whl
+[2023-06-27 06:32:09] INFO root fetch - processPackages [empyric]: Downloading https://files.pythonhosted.org/packages/88/a7/c04e5fc95edefdb52b7134a0f9c3f31e4db6e92560926fed79f9a3a97a85/empyric-0.2.5.tar.gz
+[2023-06-27 06:32:09] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/cd/d0/996c9b5291bf25dba8c6f2d7fc1fa4fdc00a7a4cd70b642aeed357578680/pmdsky_debug_py-5.1.9-py3-none-any.whl
+[2023-06-27 06:32:09] INFO root fetch - processPackages [psd-tools]: Downloading https://files.pythonhosted.org/packages/e9/3a/e078a7ff4d24c2314e08f2bd92d1d476335be3212031d2041e1a8433469e/psd-tools-1.9.8.tar.gz
+[2023-06-27 06:32:09] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-27 06:32:09] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-27 06:32:09] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230627/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 06:32:09] INFO root fetch - processPackages [pic2square2icon]: Downloading https://files.pythonhosted.org/packages/17/e0/0415f89970c1e12ea96cd3cc6be73cb6b6d8eb78ec1b199cf2369766cbfd/pic2square2icon-0.11.tar.gz
+[2023-06-27 06:32:09] INFO root fetch - processPackages [n64img]: Downloading https://files.pythonhosted.org/packages/3d/c1/0f259ad11e9ee8a6ff6cbf94a25afc4a27189173447a2f8b7073c116fe6b/n64img-0.3.2.tar.gz
+[2023-06-27 06:32:09] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/bf/40/242a55c3b5a8acf4918eaa544a7864081fcfc9d8eca3e00d84205130f554/pmdsky_debug_py-6.0.0-py3-none-any.whl
+[2023-06-27 06:32:09] INFO root fetch - processPackages [hdx-scraper-geonode]: Downloading https://files.pythonhosted.org/packages/28/3f/9eb0380f900bad9bc42b4f78707bf50cc1557a8edcb2b557391fcc80d6e2/hdx_scraper_geonode-1.5.0.tar.gz
+[2023-06-27 06:32:09] INFO root fetch - processPackages [empyric]: Downloading https://files.pythonhosted.org/packages/a2/e3/3f2d6fbca76181b773f722cd6e0bc5f3d8378318a29412fca055679efc85/empyric-0.2.6.tar.gz
+[2023-06-27 06:32:09] INFO root fetch - processPackages [pic2square2icon]: executing diffoscope
+[2023-06-27 06:32:09] INFO root fetch - processPackages [pic2square2icon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pic2square2icon-0.10.tar.gz tmp/pic2square2icon-0.11.tar.gz --markdown 20230627/p/pic2square2icon/0.10-0.11/diff.md --exclude *.pyd
+[2023-06-27 06:32:09] INFO root fetch - processPackages [odoo14-addon-account-operating-unit]: Downloading https://files.pythonhosted.org/packages/ea/d1/895583bafb76f75b6a3daff873ec64c17c0de5aea5fb5db68841aca7200d/odoo14_addon_account_operating_unit-14.0.1.0.4.dev2-py3-none-any.whl
+[2023-06-27 06:32:09] INFO root fetch - processPackages [psd-tools]: Downloading https://files.pythonhosted.org/packages/21/07/dae03fbeb01d7aa1ebf9ff3f12cc45b6cfb59c534e7b62c65f95b3339ac6/psd-tools-1.9.9.tar.gz
+[2023-06-27 06:32:09] INFO root fetch - processPackages [empyric]: executing diffoscope
+[2023-06-27 06:32:09] INFO root fetch - processPackages [empyric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empyric-0.2.5.tar.gz tmp/empyric-0.2.6.tar.gz --markdown 20230627/e/empyric/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-27 06:32:09] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-06-27 06:32:09] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-5.1.9-py3-none-any.whl.zip tmp/pmdsky_debug_py-6.0.0-py3-none-any.whl.zip --markdown 20230627/p/pmdsky-debug-py/5.1.9-6.0.0/diff.md --exclude *.pyd
+[2023-06-27 06:32:09] INFO root fetch - processPackages [psd-tools]: executing diffoscope
+[2023-06-27 06:32:09] INFO root fetch - processPackages [psd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd-tools-1.9.8.tar.gz tmp/psd-tools-1.9.9.tar.gz --markdown 20230627/p/psd-tools/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-27 06:32:09] INFO root fetch - processPackages [n64img]: executing diffoscope
+[2023-06-27 06:32:09] INFO root fetch - processPackages [n64img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n64img-0.3.1.tar.gz tmp/n64img-0.3.2.tar.gz --markdown 20230627/n/n64img/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-27 06:32:09] INFO root fetch - processPackages [hdx-scraper-geonode]: executing diffoscope
+[2023-06-27 06:32:09] INFO root fetch - processPackages [hdx-scraper-geonode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_scraper_geonode-1.4.9-py2.py3-none-any.whl.zip tmp/hdx_scraper_geonode-1.5.0.tar.gz --markdown 20230627/h/hdx-scraper-geonode/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-06-27 06:32:09] INFO root fetch - processPackages [odoo14-addon-account-operating-unit]: executing diffoscope
+[2023-06-27 06:32:09] INFO root fetch - processPackages [odoo14-addon-account-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_operating_unit-14.0.1.0.4.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_operating_unit-14.0.1.0.4.dev2-py3-none-any.whl.zip --markdown 20230627/o/odoo14-addon-account-operating-unit/14.0.1.0.4.dev1-14.0.1.0.4.dev2/diff.md --exclude *.pyd
+[2023-06-27 06:32:10] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-27 06:32:10] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-27 06:32:10] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-27 06:32:10] INFO root fetch - processPackages [pic2square2icon]: Remove: archive file [/home/abi/fetcher/tmp/pic2square2icon-0.10.tar.gz]
+[2023-06-27 06:32:10] INFO root fetch - processPackages [pic2square2icon]: Remove: archive file [/home/abi/fetcher/tmp/pic2square2icon-0.11.tar.gz]
+[2023-06-27 06:32:10] INFO root fetch - main [MainThread]: End processing [pic2square2icon]: success
+[2023-06-27 06:32:10] INFO root fetch - processPackages [n64img]: Remove: archive file [/home/abi/fetcher/tmp/n64img-0.3.1.tar.gz]
+[2023-06-27 06:32:10] INFO root fetch - processPackages [n64img]: Remove: archive file [/home/abi/fetcher/tmp/n64img-0.3.2.tar.gz]
+[2023-06-27 06:32:10] INFO root fetch - main [MainThread]: End processing [n64img]: success
+[2023-06-27 06:32:11] INFO root fetch - processPackages [hdx-scraper-geonode]: Remove: archive file [/home/abi/fetcher/tmp/hdx_scraper_geonode-1.4.9-py2.py3-none-any.whl.zip]
+[2023-06-27 06:32:11] INFO root fetch - processPackages [hdx-scraper-geonode]: Remove: archive file [/home/abi/fetcher/tmp/hdx_scraper_geonode-1.5.0.tar.gz]
+[2023-06-27 06:32:11] INFO root fetch - main [MainThread]: End processing [hdx-scraper-geonode]: success
+[2023-06-27 06:32:11] INFO root fetch - processPackages [odoo14-addon-account-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_operating_unit-14.0.1.0.4.dev1-py3-none-any.whl.zip]
+[2023-06-27 06:32:11] INFO root fetch - processPackages [odoo14-addon-account-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_operating_unit-14.0.1.0.4.dev2-py3-none-any.whl.zip]
+[2023-06-27 06:32:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-operating-unit]: success
+[2023-06-27 06:32:11] INFO root fetch - processPackages [psd-tools]: Remove: archive file [/home/abi/fetcher/tmp/psd-tools-1.9.8.tar.gz]
+[2023-06-27 06:32:11] INFO root fetch - processPackages [psd-tools]: Remove: archive file [/home/abi/fetcher/tmp/psd-tools-1.9.9.tar.gz]
+[2023-06-27 06:32:11] INFO root fetch - main [MainThread]: End processing [psd-tools]: success
+[2023-06-27 06:32:12] INFO root fetch - processPackages [empyric]: Remove: archive file [/home/abi/fetcher/tmp/empyric-0.2.5.tar.gz]
+[2023-06-27 06:32:12] INFO root fetch - processPackages [empyric]: Remove: archive file [/home/abi/fetcher/tmp/empyric-0.2.6.tar.gz]
+[2023-06-27 06:32:12] INFO root fetch - main [MainThread]: End processing [empyric]: success
+[2023-06-27 06:32:13] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-5.1.9-py3-none-any.whl.zip]
+[2023-06-27 06:32:13] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-6.0.0-py3-none-any.whl.zip]
+[2023-06-27 06:32:13] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-06-27 06:32:13] INFO root fetch - main [MainThread]: Store serial: [18658051]
