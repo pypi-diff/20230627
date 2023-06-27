@@ -13202,3 +13202,135 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 07:44:13] INFO root fetch - processPackages [techiaith-tts]: Remove: archive file [/home/abi/fetcher/tmp/techiaith-tts-0.1.6.tar.gz]
 [2023-06-27 07:44:13] INFO root fetch - main [MainThread]: End processing [techiaith-tts]: success
 [2023-06-27 07:44:13] INFO root fetch - main [MainThread]: Store serial: [18658406]
+[2023-06-27 07:49:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658406]
+[2023-06-27 07:49:22] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-27 07:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-mcqq-server
+[2023-06-27 07:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deathdaily
+[2023-06-27 07:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vivintpy
+[2023-06-27 07:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-hr-timesheet-task-stage
+[2023-06-27 07:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-timesheet
+[2023-06-27 07:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wandc
+[2023-06-27 07:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nuvolos
+[2023-06-27 07:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mynacode
+[2023-06-27 07:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rid-kit
+[2023-06-27 07:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hpeOneView
+[2023-06-27 07:49:22] INFO root fetch - processPackages [nonebot-plugin-mcqq-server]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-27 07:49:22] INFO root fetch - processPackages [deathdaily]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 07:49:22] INFO root fetch - processPackages [nuvolos]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-27 07:49:22] INFO root fetch - processPackages [vivintpy]: New version: [2023.3.5] Old Version: [2023.3.4]
+[2023-06-27 07:49:22] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-27 07:49:22] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: New version: [16.0.1.0.1.3] Old Version: [16.0.1.0.1.2]
+[2023-06-27 07:49:22] INFO root fetch - processPackages [rid-kit]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-06-27 07:49:22] WARNING root fetch - processPackages [wandc]: Skipping, unable to determine old version
+[2023-06-27 07:49:22] INFO root fetch - processPackages [wandc]: Start processing: torchhandy
+[2023-06-27 07:49:22] INFO root fetch - processPackages [hpeOneView]: New version: [8.4.0] Old Version: [8.3.0]
+[2023-06-27 07:49:22] INFO root fetch - main [MainThread]: End processing [wandc] error
+[2023-06-27 07:49:22] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: New version: [16.0.20230626.0] Old Version: [16.0.20230524.0]
+[2023-06-27 07:49:22] INFO root fetch - processPackages [torchhandy]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-27 07:49:22] INFO root fetch - processPackages [vivintpy]: Downloading https://files.pythonhosted.org/packages/a3/98/e1e6c57048222aaad5c022fbd252f2cb964a7038e67248f4eb5c70aef9af/vivintpy-2023.3.4.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/81/4d/ab787b19e8206f0130edc5a381501d8b118e268ef5bec6a158c023c1573c/rid-kit-0.5.2.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-27 07:49:22] INFO root fetch - processPackages [deathdaily]: Downloading https://files.pythonhosted.org/packages/86/f9/c62383db9af1ac6ce6becf1781a0d137890c0827abca599b6ffb3361cc42/deathdaily-0.1.2.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: Downloading https://files.pythonhosted.org/packages/ad/1d/e863ef070bb044c854a523d995b2dbff9fd88f9649d279816da5b4c510ff/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.2-py3-none-any.whl
+[2023-06-27 07:49:22] INFO root fetch - processPackages [hpeOneView]: Downloading https://files.pythonhosted.org/packages/ed/f6/9202ebd4ea990f1d8e7fb3a02ee5c2cb6aa9b35cfc34883ec3dd3b3fa833/hpeOneView-8.3.0.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [nuvolos]: Downloading https://files.pythonhosted.org/packages/fd/0c/a81025a6aa07892a35b8ded7379546b5ceb1ca78b04af1fd1b31c45332de/nuvolos-0.5.0.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [torchhandy]: Downloading https://files.pythonhosted.org/packages/46/d9/cd03e6cd0fa7b3a21b118f46dcfa7b7f37900dbec8cefe8eb9800aa53923/torchhandy-0.0.0.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/ab/37/6ffc574f7e0ee25f8d2622936b649ffd80e8c6cda3c2de1320d75d075cd8/odoo_addons_oca_timesheet-16.0.20230524.0-py3-none-any.whl
+[2023-06-27 07:49:22] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-27 07:49:22] INFO root fetch - processPackages [nonebot-plugin-mcqq-server]: Downloading https://files.pythonhosted.org/packages/f7/0c/9187d1fd30d96301c5e991e7953d87c9e12946587ea7c9fe94804a97ba8b/nonebot_plugin_mcqq_server-1.0.4.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [vivintpy]: Downloading https://files.pythonhosted.org/packages/ae/d7/bb8922e2c146c65638f78d2eb0c19996fb1ee308669544e21a8912f9958d/vivintpy-2023.3.5.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-27 07:49:22] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230627/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-27 07:49:22] INFO root fetch - processPackages [deathdaily]: Downloading https://files.pythonhosted.org/packages/3b/b4/af804b90430c54219bcba6c211b0916395fd2ace0ce41cb45a48a98c1f4b/deathdaily-0.1.3-py3-none-any.whl
+[2023-06-27 07:49:22] INFO root fetch - processPackages [vivintpy]: executing diffoscope
+[2023-06-27 07:49:22] INFO root fetch - processPackages [vivintpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vivintpy-2023.3.4.tar.gz tmp/vivintpy-2023.3.5.tar.gz --markdown 20230627/v/vivintpy/2023.3.4-2023.3.5/diff.md --exclude *.pyd
+[2023-06-27 07:49:22] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/fa/13/f776c02b3596e512bb973e5fc3ddb6dcc730b3a331c4ec9e11c36af13f6a/rid-kit-0.6.0.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: Downloading https://files.pythonhosted.org/packages/58/7a/5a1404a68614c63703b54d818a26df85af05a45833e902f92fa240d5b208/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.3-py3-none-any.whl
+[2023-06-27 07:49:22] INFO root fetch - processPackages [hpeOneView]: Downloading https://files.pythonhosted.org/packages/23/f0/49f21edcef92a367fddc68b49ade895fb11b9a022669d3c26c8838e29bbf/hpeOneView-8.4.0.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [nuvolos]: Downloading https://files.pythonhosted.org/packages/ea/e4/a10b0307c9814f55f471d72313f19e5b0abbd673feedc94d5db16a174f3d/nuvolos-0.5.1.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [torchhandy]: Downloading https://files.pythonhosted.org/packages/90/7a/b8e88babd8afa5c3c629aad0c7eed2695ea2db836cffbf4fdd87da9655fa/torchhandy-0.0.1.tar.gz
+[2023-06-27 07:49:22] INFO root fetch - processPackages [nonebot-plugin-mcqq-server]: Downloading https://files.pythonhosted.org/packages/79/f3/5df9d263bc3f0ef955834b7e0906164bbe9def424602ada4e77089f7bd1a/nonebot_plugin_mcqq_server-1.0.5.tar.gz
+[2023-06-27 07:49:23] INFO root fetch - processPackages [torchhandy]: executing diffoscope
+[2023-06-27 07:49:23] INFO root fetch - processPackages [torchhandy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchhandy-0.0.0.tar.gz tmp/torchhandy-0.0.1.tar.gz --markdown 20230627/t/torchhandy/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-27 07:49:23] INFO root fetch - processPackages [hpeOneView]: executing diffoscope
+[2023-06-27 07:49:23] INFO root fetch - processPackages [hpeOneView]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpeOneView-8.3.0.tar.gz tmp/hpeOneView-8.4.0.tar.gz --markdown 20230627/h/hpeOneView/8.3.0-8.4.0/diff.md --exclude *.pyd
+[2023-06-27 07:49:23] INFO root fetch - processPackages [nuvolos]: executing diffoscope
+[2023-06-27 07:49:23] INFO root fetch - processPackages [nuvolos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuvolos-0.5.0.tar.gz tmp/nuvolos-0.5.1.tar.gz --markdown 20230627/n/nuvolos/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-27 07:49:23] INFO root fetch - processPackages [deathdaily]: executing diffoscope
+[2023-06-27 07:49:23] INFO root fetch - processPackages [deathdaily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deathdaily-0.1.2.tar.gz tmp/deathdaily-0.1.3-py3-none-any.whl.zip --markdown 20230627/d/deathdaily/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 07:49:23] INFO root fetch - processPackages [rid-kit]: executing diffoscope
+[2023-06-27 07:49:23] INFO root fetch - processPackages [rid-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rid-kit-0.5.2.tar.gz tmp/rid-kit-0.6.0.tar.gz --markdown 20230627/r/rid-kit/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-06-27 07:49:23] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/09/81/4e8e4681f780991bad9d9321084ca16819e864fce2c9e6712b2856ca4a66/odoo_addons_oca_timesheet-16.0.20230626.0-py3-none-any.whl
+[2023-06-27 07:49:23] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: executing diffoscope
+[2023-06-27 07:49:23] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.3-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-hr-timesheet-task-stage/16.0.1.0.1.2-16.0.1.0.1.3/diff.md --exclude *.pyd
+[2023-06-27 07:49:23] INFO root fetch - processPackages [nonebot-plugin-mcqq-server]: executing diffoscope
+[2023-06-27 07:49:23] INFO root fetch - processPackages [nonebot-plugin-mcqq-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_mcqq_server-1.0.4.tar.gz tmp/nonebot_plugin_mcqq_server-1.0.5.tar.gz --markdown 20230627/n/nonebot-plugin-mcqq-server/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-27 07:49:23] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: executing diffoscope
+[2023-06-27 07:49:23] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_timesheet-16.0.20230524.0-py3-none-any.whl.zip tmp/odoo_addons_oca_timesheet-16.0.20230626.0-py3-none-any.whl.zip --markdown 20230627/o/odoo-addons-oca-timesheet/16.0.20230524.0-16.0.20230626.0/diff.md --exclude *.pyd
+[2023-06-27 07:49:24] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [mynacode]: Start processing: gs-netsuite-api
+[2023-06-27 07:49:24] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-27 07:49:24] INFO root fetch - processPackages [gs-netsuite-api]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/85/cf/12d758029be669df8830673e3d029bbd4db9f0df7efce87801f091a547a5/gs-netsuite-api-1.1.1.tar.gz
+[2023-06-27 07:49:24] INFO root fetch - processPackages [torchhandy]: Remove: archive file [/home/abi/fetcher/tmp/torchhandy-0.0.0.tar.gz]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [torchhandy]: Remove: archive file [/home/abi/fetcher/tmp/torchhandy-0.0.1.tar.gz]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [torchhandy]: Start processing: Vulncapture
+[2023-06-27 07:49:24] INFO root fetch - main [MainThread]: End processing [torchhandy]: success
+[2023-06-27 07:49:24] INFO root fetch - processPackages [Vulncapture]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/5b/74/99159e637d3a3f85c69002c27c1e339c8c9b1e264085cf047de66e788ce3/gs-netsuite-api-1.1.2.tar.gz
+[2023-06-27 07:49:24] INFO root fetch - processPackages [deathdaily]: Remove: archive file [/home/abi/fetcher/tmp/deathdaily-0.1.2.tar.gz]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [deathdaily]: Remove: archive file [/home/abi/fetcher/tmp/deathdaily-0.1.3-py3-none-any.whl.zip]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [deathdaily]: Start processing: esg-coverage
+[2023-06-27 07:49:24] INFO root fetch - main [MainThread]: End processing [deathdaily]: success
+[2023-06-27 07:49:24] INFO root fetch - processPackages [esg-coverage]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [Vulncapture]: Downloading https://files.pythonhosted.org/packages/26/09/b79bedcddae06c27a7d26a547eb64e1ecaf8f2ccc0da9504380559eb17cf/Vulncapture-1.0.2.tar.gz
+[2023-06-27 07:49:24] INFO root fetch - processPackages [gs-netsuite-api]: executing diffoscope
+[2023-06-27 07:49:24] INFO root fetch - processPackages [gs-netsuite-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-netsuite-api-1.1.1.tar.gz tmp/gs-netsuite-api-1.1.2.tar.gz --markdown 20230627/g/gs-netsuite-api/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-27 07:49:24] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20230524.0-py3-none-any.whl.zip]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20230626.0-py3-none-any.whl.zip]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Start processing: showroom-recorder
+[2023-06-27 07:49:24] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-timesheet]: success
+[2023-06-27 07:49:24] INFO root fetch - processPackages [esg-coverage]: Downloading https://files.pythonhosted.org/packages/3a/b5/4211848793dc06bcb50e374ec8f9c9579a27d768431ed15cbac092666e42/esg_coverage-0.2.0.tar.gz
+[2023-06-27 07:49:24] INFO root fetch - processPackages [showroom-recorder]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [showroom-recorder]: Downloading https://files.pythonhosted.org/packages/3a/e7/acaadfad30ec2124643342f39fd163bf3c9680419516f24337f4d1762825/showroom-recorder-0.6.0.tar.gz
+[2023-06-27 07:49:24] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-06-27 07:49:24] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2023-06-27 07:49:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-task-stage]: success
+[2023-06-27 07:49:25] INFO root fetch - processPackages [nuvolos]: Remove: archive file [/home/abi/fetcher/tmp/nuvolos-0.5.0.tar.gz]
+[2023-06-27 07:49:25] INFO root fetch - processPackages [nuvolos]: Remove: archive file [/home/abi/fetcher/tmp/nuvolos-0.5.1.tar.gz]
+[2023-06-27 07:49:25] INFO root fetch - main [MainThread]: End processing [nuvolos]: success
+[2023-06-27 07:49:25] INFO root fetch - processPackages [nonebot-plugin-mcqq-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mcqq_server-1.0.4.tar.gz]
+[2023-06-27 07:49:25] INFO root fetch - processPackages [nonebot-plugin-mcqq-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mcqq_server-1.0.5.tar.gz]
+[2023-06-27 07:49:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcqq-server]: success
+[2023-06-27 07:49:25] INFO root fetch - processPackages [esg-coverage]: Downloading https://files.pythonhosted.org/packages/b3/aa/7bd2dabc34baa6a923ed9600df49cd407af9218cf20ba776ab4d60a75e1b/esg_coverage-0.2.1.tar.gz
+[2023-06-27 07:49:25] INFO root fetch - processPackages [showroom-recorder]: Downloading https://files.pythonhosted.org/packages/e2/a3/0349644fd3fd89353591aed29e63d5149fd4f5d3397823db1c1a4f9c51a2/showroom-recorder-0.6.1.tar.gz
+[2023-06-27 07:49:25] INFO root fetch - processPackages [Vulncapture]: Downloading https://files.pythonhosted.org/packages/b9/8c/8fc119c85a37eecb33ab62dc120135135e111f4aec474b323de9e8a9becb/Vulncapture-1.0.3.tar.gz
+[2023-06-27 07:49:25] INFO root fetch - processPackages [esg-coverage]: executing diffoscope
+[2023-06-27 07:49:25] INFO root fetch - processPackages [esg-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esg_coverage-0.2.0.tar.gz tmp/esg_coverage-0.2.1.tar.gz --markdown 20230627/e/esg-coverage/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-27 07:49:25] INFO root fetch - processPackages [showroom-recorder]: executing diffoscope
+[2023-06-27 07:49:25] INFO root fetch - processPackages [showroom-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/showroom-recorder-0.6.0.tar.gz tmp/showroom-recorder-0.6.1.tar.gz --markdown 20230627/s/showroom-recorder/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-27 07:49:26] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.5.2.tar.gz]
+[2023-06-27 07:49:26] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.6.0.tar.gz]
+[2023-06-27 07:49:26] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
+[2023-06-27 07:49:26] INFO root fetch - processPackages [Vulncapture]: executing diffoscope
+[2023-06-27 07:49:26] INFO root fetch - processPackages [Vulncapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Vulncapture-1.0.2.tar.gz tmp/Vulncapture-1.0.3.tar.gz --markdown 20230627/V/Vulncapture/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 07:49:26] INFO root fetch - processPackages [showroom-recorder]: Remove: archive file [/home/abi/fetcher/tmp/showroom-recorder-0.6.0.tar.gz]
+[2023-06-27 07:49:26] INFO root fetch - processPackages [showroom-recorder]: Remove: archive file [/home/abi/fetcher/tmp/showroom-recorder-0.6.1.tar.gz]
+[2023-06-27 07:49:26] INFO root fetch - main [MainThread]: End processing [showroom-recorder]: success
+[2023-06-27 07:49:26] INFO root fetch - processPackages [vivintpy]: Remove: archive file [/home/abi/fetcher/tmp/vivintpy-2023.3.4.tar.gz]
+[2023-06-27 07:49:26] INFO root fetch - processPackages [vivintpy]: Remove: archive file [/home/abi/fetcher/tmp/vivintpy-2023.3.5.tar.gz]
+[2023-06-27 07:49:26] INFO root fetch - main [MainThread]: End processing [vivintpy]: success
+[2023-06-27 07:49:27] INFO root fetch - processPackages [hpeOneView]: Remove: archive file [/home/abi/fetcher/tmp/hpeOneView-8.3.0.tar.gz]
+[2023-06-27 07:49:27] INFO root fetch - processPackages [hpeOneView]: Remove: archive file [/home/abi/fetcher/tmp/hpeOneView-8.4.0.tar.gz]
+[2023-06-27 07:49:27] INFO root fetch - main [MainThread]: End processing [hpeOneView]: success
+[2023-06-27 07:49:28] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.1.1.tar.gz]
+[2023-06-27 07:49:28] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.1.2.tar.gz]
+[2023-06-27 07:49:28] INFO root fetch - main [MainThread]: End processing [gs-netsuite-api]: success
+[2023-06-27 07:49:28] INFO root fetch - processPackages [Vulncapture]: Remove: archive file [/home/abi/fetcher/tmp/Vulncapture-1.0.2.tar.gz]
+[2023-06-27 07:49:28] INFO root fetch - processPackages [Vulncapture]: Remove: archive file [/home/abi/fetcher/tmp/Vulncapture-1.0.3.tar.gz]
+[2023-06-27 07:49:28] INFO root fetch - main [MainThread]: End processing [Vulncapture]: success
+[2023-06-27 07:50:18] INFO root fetch - processPackages [esg-coverage]: Remove: archive file [/home/abi/fetcher/tmp/esg_coverage-0.2.0.tar.gz]
+[2023-06-27 07:50:18] INFO root fetch - processPackages [esg-coverage]: Remove: archive file [/home/abi/fetcher/tmp/esg_coverage-0.2.1.tar.gz]
+[2023-06-27 07:50:18] INFO root fetch - main [MainThread]: End processing [esg-coverage]: success
+[2023-06-27 07:50:18] INFO root fetch - main [MainThread]: Store serial: [18658447]
