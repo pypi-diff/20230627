@@ -10022,3 +10022,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 04:05:46] INFO root fetch - processPackages [peek-plugin-diagram]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-diagram-3.4.4.tar.gz]
 [2023-06-27 04:05:46] INFO root fetch - main [MainThread]: End processing [peek-plugin-diagram]: success
 [2023-06-27 04:05:46] INFO root fetch - main [MainThread]: Store serial: [18657197]
+[2023-06-27 04:10:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657197]
+[2023-06-27 04:10:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-27 04:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trazhash
+[2023-06-27 04:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-chinese-holidays
+[2023-06-27 04:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drupaljsonapiclient
+[2023-06-27 04:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metrics-layer
+[2023-06-27 04:10:55] WARNING root fetch - processPackages [py-chinese-holidays]: Skipping, unable to determine old version
+[2023-06-27 04:10:55] INFO root fetch - main [MainThread]: End processing [py-chinese-holidays] error
+[2023-06-27 04:10:55] INFO root fetch - processPackages [trazhash]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-27 04:10:55] INFO root fetch - processPackages [metrics-layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-27 04:10:55] INFO root fetch - processPackages [drupaljsonapiclient]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-27 04:10:55] INFO root fetch - processPackages [trazhash]: Downloading https://files.pythonhosted.org/packages/3e/56/12c4a151e44408b1c07ec135dd26388004e9e0d4747cbcd65d6a761f9e6f/trazhash-0.1.0.tar.gz
+[2023-06-27 04:10:55] INFO root fetch - processPackages [drupaljsonapiclient]: Downloading https://files.pythonhosted.org/packages/d8/64/276b795131ce64db46a402caf8bae84c45c597153a3f4d195c043e1f6585/drupaljsonapiclient-1.0.7.tar.gz
+[2023-06-27 04:10:56] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2023-06-27 04:10:56] INFO root fetch - processPackages [trazhash]: Downloading https://files.pythonhosted.org/packages/f6/5e/95a5413312b45e82a01b33309672489062f57b0fb214d91572cc5abdd9a6/trazhash-0.2.0.tar.gz
+[2023-06-27 04:10:56] INFO root fetch - processPackages [drupaljsonapiclient]: Downloading https://files.pythonhosted.org/packages/04/5c/0baf4d9b61f61a2221136bf5b2fd1e7c8d35cc67d1096ca856943f7c46cd/drupaljsonapiclient-1.0.8.tar.gz
+[2023-06-27 04:10:56] INFO root fetch - processPackages [trazhash]: executing diffoscope
+[2023-06-27 04:10:56] INFO root fetch - processPackages [trazhash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trazhash-0.1.0.tar.gz tmp/trazhash-0.2.0.tar.gz --markdown 20230627/t/trazhash/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-27 04:10:56] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2023-06-27 04:10:56] INFO root fetch - processPackages [drupaljsonapiclient]: executing diffoscope
+[2023-06-27 04:10:56] INFO root fetch - processPackages [drupaljsonapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drupaljsonapiclient-1.0.7.tar.gz tmp/drupaljsonapiclient-1.0.8.tar.gz --markdown 20230627/d/drupaljsonapiclient/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-27 04:10:56] INFO root fetch - processPackages [metrics-layer]: executing diffoscope
+[2023-06-27 04:10:56] INFO root fetch - processPackages [metrics-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20230627/m/metrics-layer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-27 04:10:57] INFO root fetch - processPackages [trazhash]: Remove: archive file [/home/abi/fetcher/tmp/trazhash-0.1.0.tar.gz]
+[2023-06-27 04:10:57] INFO root fetch - processPackages [trazhash]: Remove: archive file [/home/abi/fetcher/tmp/trazhash-0.2.0.tar.gz]
+[2023-06-27 04:10:57] INFO root fetch - main [MainThread]: End processing [trazhash]: success
+[2023-06-27 04:10:57] INFO root fetch - processPackages [drupaljsonapiclient]: Remove: archive file [/home/abi/fetcher/tmp/drupaljsonapiclient-1.0.7.tar.gz]
+[2023-06-27 04:10:57] INFO root fetch - processPackages [drupaljsonapiclient]: Remove: archive file [/home/abi/fetcher/tmp/drupaljsonapiclient-1.0.8.tar.gz]
+[2023-06-27 04:10:57] INFO root fetch - main [MainThread]: End processing [drupaljsonapiclient]: success
+[2023-06-27 04:10:57] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2023-06-27 04:10:57] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2023-06-27 04:10:57] INFO root fetch - main [MainThread]: End processing [metrics-layer]: success
+[2023-06-27 04:10:57] INFO root fetch - main [MainThread]: Store serial: [18657221]
