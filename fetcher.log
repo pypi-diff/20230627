@@ -12075,3 +12075,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 06:06:07] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
 [2023-06-27 06:06:07] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2023-06-27 06:06:07] INFO root fetch - main [MainThread]: Store serial: [18657952]
+[2023-06-27 06:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657952]
+[2023-06-27 06:11:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-27 06:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p-ttauto-crawler
+[2023-06-27 06:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypdfium2
+[2023-06-27 06:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xklb
+[2023-06-27 06:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: centralcli
+[2023-06-27 06:11:16] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 06:11:16] INFO root fetch - processPackages [xklb]: New version: [2.2.2] Old Version: [2.1.9]
+[2023-06-27 06:11:16] INFO root fetch - processPackages [centralcli]: New version: [1.9] Old Version: [1.8]
+[2023-06-27 06:11:16] INFO root fetch - processPackages [pypdfium2]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-06-27 06:11:16] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/2e/31/1637bef7e4aaf8529af80e5d5d27b2eca11c30c3a63fd32033fb97549c52/xklb-2.1.9.tar.gz
+[2023-06-27 06:11:16] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/ac/2c/8971ad083c228473dee1b89729468b3aec1908d2a673f6a1c7ae247bc697/centralcli-1.8.tar.gz
+[2023-06-27 06:11:16] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-27 06:11:16] INFO root fetch - processPackages [pypdfium2]: Downloading https://files.pythonhosted.org/packages/1e/63/de38940b0c9273462d70d7cfa4c0b80878b1b8b1b29d317209e9014f8d2d/pypdfium2-4.8.0.tar.gz
+[2023-06-27 06:11:16] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/29/85/4f56fa22e52a81961e8cbf713a999cd1f3999ee22333802ab54edd76ef47/xklb-2.2.2.tar.gz
+[2023-06-27 06:11:16] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/44/28/a40ea20815bee95db9b68238b92b40a3eaa4da3bb83bca0cfba0869c3406/centralcli-1.9.tar.gz
+[2023-06-27 06:11:16] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-27 06:11:16] INFO root fetch - processPackages [pypdfium2]: Downloading https://files.pythonhosted.org/packages/4a/d0/bca4a5d0b0d7cc464934bc5eaf83745d8cd5801cebbff4195e3149cb9a2b/pypdfium2-4.9.0.tar.gz
+[2023-06-27 06:11:16] INFO root fetch - processPackages [pypdfium2]: executing diffoscope
+[2023-06-27 06:11:16] INFO root fetch - processPackages [pypdfium2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfium2-4.8.0.tar.gz tmp/pypdfium2-4.9.0.tar.gz --markdown 20230627/p/pypdfium2/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-06-27 06:11:16] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2023-06-27 06:11:16] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-1.8.tar.gz tmp/centralcli-1.9.tar.gz --markdown 20230627/c/centralcli/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-27 06:11:16] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-27 06:11:16] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.1.9.tar.gz tmp/xklb-2.2.2.tar.gz --markdown 20230627/x/xklb/2.1.9-2.2.2/diff.md --exclude *.pyd
+[2023-06-27 06:11:16] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-27 06:11:16] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230627/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 06:11:18] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-27 06:11:18] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-27 06:11:18] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-27 06:11:18] INFO root fetch - processPackages [pypdfium2]: Remove: archive file [/home/abi/fetcher/tmp/pypdfium2-4.8.0.tar.gz]
+[2023-06-27 06:11:18] INFO root fetch - processPackages [pypdfium2]: Remove: archive file [/home/abi/fetcher/tmp/pypdfium2-4.9.0.tar.gz]
+[2023-06-27 06:11:18] INFO root fetch - main [MainThread]: End processing [pypdfium2]: success
+[2023-06-27 06:11:18] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.8.tar.gz]
+[2023-06-27 06:11:18] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-1.9.tar.gz]
+[2023-06-27 06:11:18] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2023-06-27 06:11:18] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.9.tar.gz]
+[2023-06-27 06:11:18] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.2.tar.gz]
+[2023-06-27 06:11:18] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-27 06:11:18] INFO root fetch - main [MainThread]: Store serial: [18657974]
