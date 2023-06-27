@@ -10702,3 +10702,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 04:51:07] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
 [2023-06-27 04:51:07] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-27 04:51:07] INFO root fetch - main [MainThread]: Store serial: [18657475]
+[2023-06-27 04:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657475]
+[2023-06-27 04:56:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-27 04:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-agreement-legal
+[2023-06-27 04:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-nodeeditor
+[2023-06-27 04:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: countess
+[2023-06-27 04:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ablean
+[2023-06-27 04:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acore-server-config
+[2023-06-27 04:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iam-actions
+[2023-06-27 04:56:27] INFO root fetch - processPackages [odoo-addon-agreement-legal]: New version: [16.0.2.0.0.1] Old Version: [16.0.2.0.0]
+[2023-06-27 04:56:27] INFO root fetch - processPackages [jupyterlab-nodeeditor]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 04:56:27] INFO root fetch - processPackages [ablean]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-27 04:56:27] INFO root fetch - processPackages [acore-server-config]: New version: [0.4.1] Old Version: [0.3.4]
+[2023-06-27 04:56:27] INFO root fetch - processPackages [countess]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-06-27 04:56:27] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230626] Old Version: [1.2.20230625]
+[2023-06-27 04:56:27] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/76/25/04ff3502aec4ef804deb22c9b4c2123e31dc561ce944598fa4aa190f1a14/iam_actions-1.2.20230625.tar.gz
+[2023-06-27 04:56:27] INFO root fetch - processPackages [ablean]: Downloading https://files.pythonhosted.org/packages/24/4e/da38681c97ee04c8d08ca3a0c3c45c0acc9b6b01dbb52cae17d340727bec/ablean-1.3.8.tar.gz
+[2023-06-27 04:56:27] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/e5/fe/ae5f0316b03270f370719b09de0587efebe779236e2b02d714b58f9651f3/acore_server_config-0.3.4.tar.gz
+[2023-06-27 04:56:27] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/22/64/654513b4c0bd85bac83b2b3fd7545436d8963da3292ae916fad6b05a9158/jupyterlab_nodeeditor-1.0.0.tar.gz
+[2023-06-27 04:56:27] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Downloading https://files.pythonhosted.org/packages/75/6a/5996c99e7684ef07b03b815189737f7cb770ad481fb05d8b40510d15d434/odoo_addon_agreement_legal-16.0.2.0.0-py3-none-any.whl
+[2023-06-27 04:56:27] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/ae/b6/29185fbae98e4a70294f71ac07ecf868a1d263ee7bd7cd682492de6d18c5/countess-0.0.31.tar.gz
+[2023-06-27 04:56:27] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/27/55/4ec243255b17668ed5c4fe3d084c3d33c1c2bed41a534037aded0f9f94c2/iam_actions-1.2.20230626.tar.gz
+[2023-06-27 04:56:27] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/c8/e4/abb139e62f97ed7faac3e7aeaa2363f8db1f85bc77eb221626d1e98c9193/acore_server_config-0.4.1.tar.gz
+[2023-06-27 04:56:27] INFO root fetch - processPackages [ablean]: Downloading https://files.pythonhosted.org/packages/db/6d/75b1de91adaa7dceb6078262cb433def7463d9fc74b3bec8c5c30776f23f/ablean-1.3.9.tar.gz
+[2023-06-27 04:56:27] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-27 04:56:27] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230625.tar.gz tmp/iam_actions-1.2.20230626.tar.gz --markdown 20230627/i/iam-actions/1.2.20230625-1.2.20230626/diff.md --exclude *.pyd
+[2023-06-27 04:56:27] INFO root fetch - processPackages [acore-server-config]: executing diffoscope
+[2023-06-27 04:56:27] INFO root fetch - processPackages [acore-server-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_server_config-0.3.4.tar.gz tmp/acore_server_config-0.4.1.tar.gz --markdown 20230627/a/acore-server-config/0.3.4-0.4.1/diff.md --exclude *.pyd
+[2023-06-27 04:56:27] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/d5/c4/15f49e82071f7ed0b60da6f98ab356dc0860cd662bc6970213cf9e146989/countess-0.0.32.tar.gz
+[2023-06-27 04:56:27] INFO root fetch - processPackages [ablean]: executing diffoscope
+[2023-06-27 04:56:27] INFO root fetch - processPackages [ablean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablean-1.3.8.tar.gz tmp/ablean-1.3.9.tar.gz --markdown 20230627/a/ablean/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-27 04:56:28] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Downloading https://files.pythonhosted.org/packages/b2/ce/e948677f3cc60f7090d3ab7a6c19335a678562d3f24138476908d94f00f7/odoo_addon_agreement_legal-16.0.2.0.0.1-py3-none-any.whl
+[2023-06-27 04:56:28] INFO root fetch - processPackages [countess]: executing diffoscope
+[2023-06-27 04:56:28] INFO root fetch - processPackages [countess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-0.0.31.tar.gz tmp/countess-0.0.32.tar.gz --markdown 20230627/c/countess/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-06-27 04:56:28] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/d8/f0/55d467ed6ca1960cde628785001dd6a7566e96d9d8c16a61bdb881bfa82b/jupyterlab_nodeeditor-1.0.1.tar.gz
+[2023-06-27 04:56:28] INFO root fetch - processPackages [odoo-addon-agreement-legal]: executing diffoscope
+[2023-06-27 04:56:28] INFO root fetch - processPackages [odoo-addon-agreement-legal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement_legal-16.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_agreement_legal-16.0.2.0.0.1-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-agreement-legal/16.0.2.0.0-16.0.2.0.0.1/diff.md --exclude *.pyd
+[2023-06-27 04:56:28] INFO root fetch - processPackages [jupyterlab-nodeeditor]: executing diffoscope
+[2023-06-27 04:56:28] INFO root fetch - processPackages [jupyterlab-nodeeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nodeeditor-1.0.0.tar.gz tmp/jupyterlab_nodeeditor-1.0.1.tar.gz --markdown 20230627/j/jupyterlab-nodeeditor/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 04:56:29] INFO root fetch - processPackages [acore-server-config]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_config-0.3.4.tar.gz]
+[2023-06-27 04:56:29] INFO root fetch - processPackages [acore-server-config]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_config-0.4.1.tar.gz]
+[2023-06-27 04:56:29] INFO root fetch - main [MainThread]: End processing [acore-server-config]: success
+[2023-06-27 04:56:29] INFO root fetch - processPackages [ablean]: Remove: archive file [/home/abi/fetcher/tmp/ablean-1.3.8.tar.gz]
+[2023-06-27 04:56:29] INFO root fetch - processPackages [ablean]: Remove: archive file [/home/abi/fetcher/tmp/ablean-1.3.9.tar.gz]
+[2023-06-27 04:56:29] INFO root fetch - main [MainThread]: End processing [ablean]: success
+[2023-06-27 04:56:29] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement_legal-16.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-27 04:56:29] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement_legal-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2023-06-27 04:56:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement-legal]: success
+[2023-06-27 04:56:30] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.31.tar.gz]
+[2023-06-27 04:56:30] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.32.tar.gz]
+[2023-06-27 04:56:30] INFO root fetch - main [MainThread]: End processing [countess]: success
+[2023-06-27 04:56:30] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230625.tar.gz]
+[2023-06-27 04:56:30] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230626.tar.gz]
+[2023-06-27 04:56:30] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-27 04:56:34] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.0.tar.gz]
+[2023-06-27 04:56:34] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.1.tar.gz]
+[2023-06-27 04:56:34] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
+[2023-06-27 04:56:34] INFO root fetch - main [MainThread]: Store serial: [18657492]
