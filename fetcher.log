@@ -10759,3 +10759,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 04:56:34] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.1.tar.gz]
 [2023-06-27 04:56:34] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
 [2023-06-27 04:56:34] INFO root fetch - main [MainThread]: Store serial: [18657492]
+[2023-06-27 05:01:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657492]
+[2023-06-27 05:01:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-27 05:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plutous-trade-crypto
+[2023-06-27 05:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ob-metaflow-extensions
+[2023-06-27 05:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: log21
+[2023-06-27 05:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xsskiller
+[2023-06-27 05:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-connector-ecommerce
+[2023-06-27 05:01:43] INFO root fetch - processPackages [log21]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-06-27 05:01:43] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 05:01:43] INFO root fetch - processPackages [xsskiller]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 05:01:43] INFO root fetch - processPackages [ob-metaflow-extensions]: New version: [1.1.9rc1] Old Version: [1.1.9rc0]
+[2023-06-27 05:01:43] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-27 05:01:43] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-27 05:01:43] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/f6/24/4fdd704647ebdded38ac1efc2b8dba106c9ab672518ddbb9b1dd783862e9/ob-metaflow-extensions-1.1.9rc0.tar.gz
+[2023-06-27 05:01:43] INFO root fetch - processPackages [xsskiller]: Downloading https://files.pythonhosted.org/packages/02/e8/80d0b8b69e8119dc9129abe36c08ff873f50ebd91adbb446066cd36c56a2/xsskiller-1.0.0.tar.gz
+[2023-06-27 05:01:43] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/13/fa/f6774ac8df2d55f441049045a0ed08e5ff1eef840d3cc15235e8a9411f42/ob-metaflow-extensions-1.1.9rc1.tar.gz
+[2023-06-27 05:01:43] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-27 05:01:43] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/03/af/ca6d0a910ac488718c925b20f97d165e0f53514d215674515732658047cf/log21-2.5.1.tar.gz
+[2023-06-27 05:01:43] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: Downloading https://files.pythonhosted.org/packages/4b/e2/2db8a8c0f01d47d0c9d4fc992266d2ee2aab9d7fc572c4110d2d6b8c7fdf/odoo_addon_connector_ecommerce-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-27 05:01:43] INFO root fetch - processPackages [ob-metaflow-extensions]: executing diffoscope
+[2023-06-27 05:01:43] INFO root fetch - processPackages [ob-metaflow-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz --markdown 20230627/o/ob-metaflow-extensions/1.1.9rc0-1.1.9rc1/diff.md --exclude *.pyd
+[2023-06-27 05:01:43] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-27 05:01:43] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230627/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 05:01:43] INFO root fetch - processPackages [xsskiller]: Downloading https://files.pythonhosted.org/packages/9f/58/fa2195d5bd1ae7eb0901fcc3e622131e42323c3c4bfa07f14ab4a645d2ca/xsskiller-1.0.1.tar.gz
+[2023-06-27 05:01:44] INFO root fetch - processPackages [xsskiller]: executing diffoscope
+[2023-06-27 05:01:44] INFO root fetch - processPackages [xsskiller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsskiller-1.0.0.tar.gz tmp/xsskiller-1.0.1.tar.gz --markdown 20230627/x/xsskiller/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 05:01:44] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/85/15/939b8adca236245b856b62c9fb6cb22db97512865205831605cf0cc01edb/log21-2.5.2.tar.gz
+[2023-06-27 05:01:44] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: Downloading https://files.pythonhosted.org/packages/75/6f/85258edb7ad79440e8feffc1880e17c9d647194e0fac8f85541b94150e39/odoo_addon_connector_ecommerce-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-27 05:01:44] INFO root fetch - processPackages [log21]: executing diffoscope
+[2023-06-27 05:01:44] INFO root fetch - processPackages [log21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log21-2.5.1.tar.gz tmp/log21-2.5.2.tar.gz --markdown 20230627/l/log21/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-06-27 05:01:44] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: executing diffoscope
+[2023-06-27 05:01:44] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_connector_ecommerce-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_connector_ecommerce-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-connector-ecommerce/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-27 05:01:44] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz]
+[2023-06-27 05:01:44] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz]
+[2023-06-27 05:01:44] INFO root fetch - main [MainThread]: End processing [ob-metaflow-extensions]: success
+[2023-06-27 05:01:45] INFO root fetch - processPackages [xsskiller]: Remove: archive file [/home/abi/fetcher/tmp/xsskiller-1.0.0.tar.gz]
+[2023-06-27 05:01:45] INFO root fetch - processPackages [xsskiller]: Remove: archive file [/home/abi/fetcher/tmp/xsskiller-1.0.1.tar.gz]
+[2023-06-27 05:01:45] INFO root fetch - main [MainThread]: End processing [xsskiller]: success
+[2023-06-27 05:01:45] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-27 05:01:45] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-27 05:01:45] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-27 05:01:45] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.5.1.tar.gz]
+[2023-06-27 05:01:45] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.5.2.tar.gz]
+[2023-06-27 05:01:45] INFO root fetch - main [MainThread]: End processing [log21]: success
+[2023-06-27 05:01:45] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_ecommerce-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-27 05:01:45] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_ecommerce-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-27 05:01:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector-ecommerce]: success
+[2023-06-27 05:01:45] INFO root fetch - main [MainThread]: Store serial: [18657508]
