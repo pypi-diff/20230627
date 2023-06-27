@@ -19368,3 +19368,137 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 12:05:10] INFO root fetch - processPackages [csoundengine]: Remove: archive file [/home/abi/fetcher/tmp/csoundengine-1.9.1.tar.gz]
 [2023-06-27 12:05:10] INFO root fetch - main [MainThread]: End processing [csoundengine]: success
 [2023-06-27 12:05:10] INFO root fetch - main [MainThread]: Store serial: [18661096]
+[2023-06-27 12:10:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661096]
+[2023-06-27 12:10:21] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-27 12:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: econpizza
+[2023-06-27 12:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adam-sim
+[2023-06-27 12:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molgenis-emx2-pyclient
+[2023-06-27 12:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JustScan
+[2023-06-27 12:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serialzy
+[2023-06-27 12:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-payment-term-restriction
+[2023-06-27 12:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mentord
+[2023-06-27 12:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TEST-TC
+[2023-06-27 12:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edwh-restic-plugin
+[2023-06-27 12:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: micado-client
+[2023-06-27 12:10:21] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-27 12:10:21] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.198.3] Old Version: [8.198.2]
+[2023-06-27 12:10:21] WARNING root fetch - processPackages [odoo-addon-account-payment-term-restriction]: Skipping, unable to determine old version
+[2023-06-27 12:10:21] INFO root fetch - processPackages [odoo-addon-account-payment-term-restriction]: Start processing: playwrightcapture
+[2023-06-27 12:10:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-term-restriction] error
+[2023-06-27 12:10:21] INFO root fetch - processPackages [micado-client]: New version: [0.12.2] Old Version: [0.12.1]
+[2023-06-27 12:10:21] INFO root fetch - processPackages [econpizza]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-27 12:10:21] INFO root fetch - processPackages [edwh-restic-plugin]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-27 12:10:21] INFO root fetch - processPackages [mentord]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-27 12:10:21] INFO root fetch - processPackages [serialzy]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-27 12:10:21] INFO root fetch - processPackages [TEST-TC]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 12:10:21] INFO root fetch - processPackages [adam-sim]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-27 12:10:21] INFO root fetch - processPackages [playwrightcapture]: New version: [1.20.9] Old Version: [1.20.8]
+[2023-06-27 12:10:21] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/39/b4/7c6b0d22f57ccfaf39f830772bcb2a3839d847012067647ed37af2e53261/mentord-1.0.1.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [playwrightcapture]: Downloading https://files.pythonhosted.org/packages/4f/13/3edbc5beffd068bb6b8f1fea444e328003d4bde1332cfdfa05fef286b028/playwrightcapture-1.20.8.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/b7/0e/6b2235bfd904c2c89b6ae486108c08671e08b20ee4a3fd33ba6d37867da4/TEST_TC-0.1.2.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [econpizza]: Downloading https://files.pythonhosted.org/packages/5a/fa/3732daf23bad8b22094d3626fa5bbf0786546010cf1376b99709778719a6/econpizza-0.6.0.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/53/3d/f757686f2b839269c094972a4d8f939ea984e0c9bbe846c08b63fa47f01e/molgenis_emx2_pyclient-8.198.2.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [edwh-restic-plugin]: Downloading https://files.pythonhosted.org/packages/74/3e/b71c6b508757a1257e9599d257dafac9add6f7613ba0e5c67937e2879eb4/edwh_restic_plugin-0.3.1.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [adam-sim]: Downloading https://files.pythonhosted.org/packages/4a/c3/a979ce87567dad5fc505e853d460a122ded4288bf11b591e5b667523ffe7/adam_sim-1.0.1.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [playwrightcapture]: Downloading https://files.pythonhosted.org/packages/8f/ef/333c8acb2ed1a288276a41776d694077e6763eb94ece00fe195986501be0/playwrightcapture-1.20.9.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [serialzy]: Downloading https://files.pythonhosted.org/packages/09/33/051d6c0733c556393c23a8a691de93475daf9e8060606bf83967989b08d2/serialzy-1.1.1.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [micado-client]: Downloading https://files.pythonhosted.org/packages/8b/2a/835bc296a961bfa699b2eab6a88e503ffc58f46f2f03cf2c89341743157f/micado-client-0.12.1.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [playwrightcapture]: executing diffoscope
+[2023-06-27 12:10:21] INFO root fetch - processPackages [playwrightcapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwrightcapture-1.20.8.tar.gz tmp/playwrightcapture-1.20.9.tar.gz --markdown 20230627/p/playwrightcapture/1.20.8-1.20.9/diff.md --exclude *.pyd
+[2023-06-27 12:10:21] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-27 12:10:21] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230627/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-27 12:10:21] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/0b/2e/0e7907568399f6d00fbcbcce7a7ffd283180761bdce6551c7a7ca276cfed/TEST_TC-0.1.3.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/20/40/20d3612ee4a4869bebe0d1523c4c96ce3e36e1a1f3980ebfe818ce2ff6b6/mentord-1.0.2.tar.gz
+[2023-06-27 12:10:21] INFO root fetch - processPackages [edwh-restic-plugin]: Downloading https://files.pythonhosted.org/packages/2f/1c/57328bcf96518ae397aaf373c704082cd949aa7ee8b7e6bcb44cf94498c5/edwh_restic_plugin-0.3.2.tar.gz
+[2023-06-27 12:10:22] INFO root fetch - processPackages [econpizza]: Downloading https://files.pythonhosted.org/packages/76/3c/a0b4d9d45dc1fdac063f4bf60ad8836960cc2fad25d03427edf5fb5b85f5/econpizza-0.6.1.tar.gz
+[2023-06-27 12:10:22] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/34/eb/20a98aefb0d98a6744e9bb8886facaca8dab5f0d8b1f9773fcc4fc6ba6cb/molgenis_emx2_pyclient-8.198.3.tar.gz
+[2023-06-27 12:10:22] INFO root fetch - processPackages [econpizza]: executing diffoscope
+[2023-06-27 12:10:22] INFO root fetch - processPackages [econpizza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econpizza-0.6.0.tar.gz tmp/econpizza-0.6.1.tar.gz --markdown 20230627/e/econpizza/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-27 12:10:22] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-06-27 12:10:22] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.198.2.tar.gz tmp/molgenis_emx2_pyclient-8.198.3.tar.gz --markdown 20230627/m/molgenis-emx2-pyclient/8.198.2-8.198.3/diff.md --exclude *.pyd
+[2023-06-27 12:10:22] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-06-27 12:10:22] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-27 12:10:22] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-0.1.2.tar.gz tmp/TEST_TC-0.1.3.tar.gz --markdown 20230627/T/TEST-TC/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 12:10:22] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.0.1.tar.gz tmp/mentord-1.0.2.tar.gz --markdown 20230627/m/mentord/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-27 12:10:22] INFO root fetch - processPackages [serialzy]: Downloading https://files.pythonhosted.org/packages/76/aa/c0dc91e0284014eb0410dd98f1c30aa8c66caab517efe7cd44367927bd79/serialzy-1.1.2.tar.gz
+[2023-06-27 12:10:22] INFO root fetch - processPackages [edwh-restic-plugin]: executing diffoscope
+[2023-06-27 12:10:22] INFO root fetch - processPackages [edwh-restic-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_restic_plugin-0.3.1.tar.gz tmp/edwh_restic_plugin-0.3.2.tar.gz --markdown 20230627/e/edwh-restic-plugin/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-27 12:10:22] INFO root fetch - processPackages [micado-client]: Downloading https://files.pythonhosted.org/packages/0c/74/92503d15270779c718e7bc5a952454598756876fc8ca993c4ace3e8b3f61/micado-client-0.12.2.tar.gz
+[2023-06-27 12:10:22] INFO root fetch - processPackages [serialzy]: executing diffoscope
+[2023-06-27 12:10:22] INFO root fetch - processPackages [serialzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialzy-1.1.1.tar.gz tmp/serialzy-1.1.2.tar.gz --markdown 20230627/s/serialzy/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-27 12:10:22] INFO root fetch - processPackages [micado-client]: executing diffoscope
+[2023-06-27 12:10:22] INFO root fetch - processPackages [micado-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micado-client-0.12.1.tar.gz tmp/micado-client-0.12.2.tar.gz --markdown 20230627/m/micado-client/0.12.1-0.12.2/diff.md --exclude *.pyd
+[2023-06-27 12:10:23] INFO root fetch - processPackages [playwrightcapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.20.8.tar.gz]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [playwrightcapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.20.9.tar.gz]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [playwrightcapture]: Start processing: JustScan
+[2023-06-27 12:10:23] INFO root fetch - main [MainThread]: End processing [playwrightcapture]: success
+[2023-06-27 12:10:23] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.198.2.tar.gz]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.198.3.tar.gz]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: dm-reverb-nightly
+[2023-06-27 12:10:23] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-06-27 12:10:23] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.1.tar.gz]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.2.tar.gz]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [mentord]: Start processing: kiara-plugin.onboarding
+[2023-06-27 12:10:23] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-27 12:10:23] INFO root fetch - processPackages [adam-sim]: Downloading https://files.pythonhosted.org/packages/c7/c0/9c7d4a4908af0401f7fd9df3d24652266f5b4f09cd21549ea0d54b2ba842/adam_sim-1.0.2.tar.gz
+[2023-06-27 12:10:23] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-27 12:10:23] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230627/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-27 12:10:23] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [edwh-restic-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_restic_plugin-0.3.1.tar.gz]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [edwh-restic-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_restic_plugin-0.3.2.tar.gz]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [edwh-restic-plugin]: Start processing: kiara-plugin.html
+[2023-06-27 12:10:23] INFO root fetch - main [MainThread]: End processing [edwh-restic-plugin]: success
+[2023-06-27 12:10:23] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-27 12:10:23] INFO root fetch - processPackages [kiara-plugin.onboarding]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [adam-sim]: executing diffoscope
+[2023-06-27 12:10:23] INFO root fetch - processPackages [adam-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adam_sim-1.0.1.tar.gz tmp/adam_sim-1.0.2.tar.gz --markdown 20230627/a/adam-sim/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-27 12:10:23] INFO root fetch - processPackages [kiara-plugin.html]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-27 12:10:23] INFO root fetch - processPackages [JustScan]: Start processing: kepalipe
+[2023-06-27 12:10:23] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-27 12:10:23] WARNING root fetch - processPackages [kepalipe]: Skipping, unable to determine old version
+[2023-06-27 12:10:23] INFO root fetch - main [MainThread]: End processing [kepalipe] error
+[2023-06-27 12:10:23] INFO root fetch - processPackages [kiara-plugin.onboarding]: Downloading https://files.pythonhosted.org/packages/39/ce/cbef0beb6b9358b16278ec9609eee289aa8b10129e0fb18f96aee6f296c8/kiara_plugin.onboarding-0.4.4.tar.gz
+[2023-06-27 12:10:24] INFO root fetch - processPackages [kiara-plugin.html]: Downloading https://files.pythonhosted.org/packages/b4/b3/b3db6dc41364e78fa6835fc923f00ab077db3c733bbd429a3e2d8595aaf7/kiara_plugin.html-0.4.2.tar.gz
+[2023-06-27 12:10:24] INFO root fetch - processPackages [serialzy]: Remove: archive file [/home/abi/fetcher/tmp/serialzy-1.1.1.tar.gz]
+[2023-06-27 12:10:24] INFO root fetch - processPackages [serialzy]: Remove: archive file [/home/abi/fetcher/tmp/serialzy-1.1.2.tar.gz]
+[2023-06-27 12:10:24] INFO root fetch - main [MainThread]: End processing [serialzy]: success
+[2023-06-27 12:10:24] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.2.tar.gz]
+[2023-06-27 12:10:24] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.3.tar.gz]
+[2023-06-27 12:10:24] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-06-27 12:10:24] INFO root fetch - processPackages [micado-client]: Remove: archive file [/home/abi/fetcher/tmp/micado-client-0.12.1.tar.gz]
+[2023-06-27 12:10:24] INFO root fetch - processPackages [micado-client]: Remove: archive file [/home/abi/fetcher/tmp/micado-client-0.12.2.tar.gz]
+[2023-06-27 12:10:24] INFO root fetch - main [MainThread]: End processing [micado-client]: success
+[2023-06-27 12:10:24] INFO root fetch - processPackages [kiara-plugin.html]: Downloading https://files.pythonhosted.org/packages/90/20/784d6d71294049b2c9ef9a3de99de6a9e215d57388726ca13486974c929f/kiara_plugin.html-0.4.3.tar.gz
+[2023-06-27 12:10:24] INFO root fetch - processPackages [kiara-plugin.onboarding]: Downloading https://files.pythonhosted.org/packages/cb/7a/1cd45b7bf9d6e8aa9751799d15ccb54d5243b7ae0e3e757b909bc07f3d97/kiara_plugin.onboarding-0.4.5.tar.gz
+[2023-06-27 12:10:24] ERROR root fetch - processPackages [JustScan]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/JustScan-1.1.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/JustScan-1.1.9.tar.gz: No such file or directory
+
+[2023-06-27 12:10:24] INFO root fetch - main [MainThread]: End processing [JustScan] error
+[2023-06-27 12:10:24] INFO root fetch - processPackages [kiara-plugin.html]: executing diffoscope
+[2023-06-27 12:10:24] INFO root fetch - processPackages [kiara-plugin.html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.html-0.4.2.tar.gz tmp/kiara_plugin.html-0.4.3.tar.gz --markdown 20230627/k/kiara-plugin.html/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-27 12:10:24] INFO root fetch - processPackages [kiara-plugin.onboarding]: executing diffoscope
+[2023-06-27 12:10:24] INFO root fetch - processPackages [kiara-plugin.onboarding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.onboarding-0.4.4.tar.gz tmp/kiara_plugin.onboarding-0.4.5.tar.gz --markdown 20230627/k/kiara-plugin.onboarding/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-27 12:10:25] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-27 12:10:25] INFO root fetch - processPackages [kiara-plugin.html]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.html-0.4.2.tar.gz]
+[2023-06-27 12:10:25] INFO root fetch - processPackages [kiara-plugin.html]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.html-0.4.3.tar.gz]
+[2023-06-27 12:10:25] INFO root fetch - main [MainThread]: End processing [kiara-plugin.html]: success
+[2023-06-27 12:10:25] INFO root fetch - processPackages [kiara-plugin.onboarding]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.onboarding-0.4.4.tar.gz]
+[2023-06-27 12:10:25] INFO root fetch - processPackages [kiara-plugin.onboarding]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.onboarding-0.4.5.tar.gz]
+[2023-06-27 12:10:25] INFO root fetch - main [MainThread]: End processing [kiara-plugin.onboarding]: success
+[2023-06-27 12:10:26] INFO root fetch - processPackages [econpizza]: Remove: archive file [/home/abi/fetcher/tmp/econpizza-0.6.0.tar.gz]
+[2023-06-27 12:10:26] INFO root fetch - processPackages [econpizza]: Remove: archive file [/home/abi/fetcher/tmp/econpizza-0.6.1.tar.gz]
+[2023-06-27 12:10:26] INFO root fetch - main [MainThread]: End processing [econpizza]: success
+[2023-06-27 12:10:26] INFO root fetch - processPackages [adam-sim]: Remove: archive file [/home/abi/fetcher/tmp/adam_sim-1.0.1.tar.gz]
+[2023-06-27 12:10:26] INFO root fetch - processPackages [adam-sim]: Remove: archive file [/home/abi/fetcher/tmp/adam_sim-1.0.2.tar.gz]
+[2023-06-27 12:10:26] INFO root fetch - main [MainThread]: End processing [adam-sim]: success
+[2023-06-27 12:10:27] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-27 12:10:27] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230627/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-27 12:11:20] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-27 12:11:20] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-27 12:11:20] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-27 12:11:20] INFO root fetch - main [MainThread]: Store serial: [18661146]
