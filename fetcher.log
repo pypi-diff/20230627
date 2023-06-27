@@ -5705,3 +5705,173 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 03:09:15] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.5.tar.gz]
 [2023-06-27 03:09:15] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
 [2023-06-27 03:09:15] INFO root fetch - main [MainThread]: Store serial: [18655614]
+[2023-06-27 03:14:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18655614]
+[2023-06-27 03:14:24] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-27 03:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tccli-intl-en
+[2023-06-27 03:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-27 03:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raydp-nightly
+[2023-06-27 03:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2023-06-27 03:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandasai
+[2023-06-27 03:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-pos-cfe
+[2023-06-27 03:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-br-pos
+[2023-06-27 03:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-kubernetes
+[2023-06-27 03:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vizmath
+[2023-06-27 03:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-service-client
+[2023-06-27 03:14:24] INFO root fetch - processPackages [vizmath]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 03:14:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos-cfe]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.0]
+[2023-06-27 03:14:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1]
+[2023-06-27 03:14:24] INFO root fetch - processPackages [pandasai]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-27 03:14:24] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-27 03:14:24] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.0.0rc1] Old Version: [3.9.0]
+[2023-06-27 03:14:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-27 03:14:24] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-06-27 03:14:24] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 03:14:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-27 03:14:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Downloading https://files.pythonhosted.org/packages/7b/c1/4e42254bd27e494cafd6d18f2c1fb37eb3b8722d6d7910564be8eea39159/odoo14_addon_l10n_br_pos-14.0.1.1.1-py3-none-any.whl
+[2023-06-27 03:14:24] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-27 03:14:24] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-06-27 03:14:24] INFO root fetch - processPackages [raydp-nightly]: New version: [2023.6.8.dev0] Old Version: [2023.6.27.dev0]
+[2023-06-27 03:14:24] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-06-27 03:14:24] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/84/e8/a832d49c079b51e0b0bc794bade95218829d63122aad089c7c12e70ba4d5/pandasai-0.6.4.tar.gz
+[2023-06-27 03:14:24] INFO root fetch - processPackages [vizmath]: Downloading https://files.pythonhosted.org/packages/82/90/dda4b10cbcd23db764efaca59fab148c8645752ed32161ba8adef9c90c32/vizmath-0.0.2.tar.gz
+[2023-06-27 03:14:24] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-27 03:14:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos-cfe]: Downloading https://files.pythonhosted.org/packages/cb/dd/e3c61ee8b77b66d19123dec428f8022cddb39ab59809e37b404dc43d914b/odoo14_addon_l10n_br_pos_cfe-14.0.1.1.0-py3-none-any.whl
+[2023-06-27 03:14:24] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/c4/fb/fbb52c832cb0391647896763fdf6ee654c010a392af037593e5349436f8c/raydp_nightly-2023.6.27.dev0-py3-none-any.whl
+[2023-06-27 03:14:24] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-06-27 03:14:24] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/0f/a9/6759fd282fa569f4592dc30878e4ced26d260895c12602ac69c7737fe07f/pulumi_kubernetes-3.9.0.tar.gz
+[2023-06-27 03:14:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Downloading https://files.pythonhosted.org/packages/af/2f/06eb3816d2db96dc29c75e863d8e841d2d082f2b20cbf810158f16eb7fc7/odoo14_addon_l10n_br_pos-14.0.1.2.0-py3-none-any.whl
+[2023-06-27 03:14:24] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-06-27 03:14:24] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-27 03:14:24] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230627/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 03:14:24] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230627/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-27 03:14:24] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/c0/94/f0173266b157bf52424397ed377ec85ac4c7243358ad3645591f91a5e854/pandasai-0.6.5.tar.gz
+[2023-06-27 03:14:24] INFO root fetch - processPackages [vizmath]: Downloading https://files.pythonhosted.org/packages/45/2e/49b4877a2434846ed465e42c826b6be57c2392cedb2cbfa04ea175f863e8/vizmath-0.0.3.tar.gz
+[2023-06-27 03:14:24] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-27 03:14:24] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.6.4.tar.gz tmp/pandasai-0.6.5.tar.gz --markdown 20230627/p/pandasai/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-27 03:14:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: executing diffoscope
+[2023-06-27 03:14:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_pos-14.0.1.1.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_pos-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230627/o/odoo14-addon-l10n-br-pos/14.0.1.1.1-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-27 03:14:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos-cfe]: Downloading https://files.pythonhosted.org/packages/8e/27/283405952eff99350ce0e8f921e8385533fbbc6cafec89427321bd797c2a/odoo14_addon_l10n_br_pos_cfe-14.0.1.2.0-py3-none-any.whl
+[2023-06-27 03:14:24] INFO root fetch - processPackages [vizmath]: executing diffoscope
+[2023-06-27 03:14:24] INFO root fetch - processPackages [vizmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizmath-0.0.2.tar.gz tmp/vizmath-0.0.3.tar.gz --markdown 20230627/v/vizmath/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 03:14:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos-cfe]: executing diffoscope
+[2023-06-27 03:14:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos-cfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_pos_cfe-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_pos_cfe-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230627/o/odoo14-addon-l10n-br-pos-cfe/14.0.1.1.0-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-27 03:14:24] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/ec/f8/04753a6a7c3224c83d610b130fe15ddf35b1c481c55564992b81086e83f0/raydp_nightly-2023.6.8.dev0-py3-none-any.whl
+[2023-06-27 03:14:24] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/53/7f/ee88b969dd6c46cb09ea7f0abd1c0511f0ed676e7ac3779e4c4b626730a9/pulumi_kubernetes-4.0.0rc1.tar.gz
+[2023-06-27 03:14:24] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-06-27 03:14:25] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-06-27 03:14:25] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.9.0.tar.gz tmp/pulumi_kubernetes-4.0.0rc1.tar.gz --markdown 20230627/p/pulumi-kubernetes/3.9.0-4.0.0rc1/diff.md --exclude *.pyd
+[2023-06-27 03:14:25] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-06-27 03:14:25] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-27 03:14:25] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230627/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-06-27 03:14:25] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-27 03:14:25] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-27 03:14:25] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: duckdb
+[2023-06-27 03:14:25] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-06-27 03:14:26] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev87] Old Version: [0.8.2.dev157]
+[2023-06-27 03:14:26] INFO root fetch - processPackages [vizmath]: Remove: archive file [/home/abi/fetcher/tmp/vizmath-0.0.2.tar.gz]
+[2023-06-27 03:14:26] INFO root fetch - processPackages [vizmath]: Remove: archive file [/home/abi/fetcher/tmp/vizmath-0.0.3.tar.gz]
+[2023-06-27 03:14:26] INFO root fetch - processPackages [vizmath]: Start processing: assemblyline-service-server
+[2023-06-27 03:14:26] INFO root fetch - main [MainThread]: End processing [vizmath]: success
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 03:14:26] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.4.tar.gz]
+[2023-06-27 03:14:26] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.5.tar.gz]
+[2023-06-27 03:14:26] INFO root fetch - processPackages [pandasai]: Start processing: assemblyline-ui
+[2023-06-27 03:14:26] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-27 03:14:26] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/db/33/0eecf47133defc6c9d133db8252f557f35b982fb9c5d1e1ff07bc0997198/duckdb-0.8.2.dev157-cp36-cp36m-macosx_10_9_x86_64.whl
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-06-27 03:14:26] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14647734>=10485760
+[2023-06-27 03:14:26] INFO root fetch - processPackages [duckdb]: Start processing: assemblyline-v4-service
+[2023-06-27 03:14:26] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-06-27 03:14:26] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-27 03:14:26] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230627/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230627/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230627/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-06-27 03:14:26] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230627/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 03:14:27] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-27 03:14:27] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-27 03:14:27] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Start processing: assemblyline
+[2023-06-27 03:14:27] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: pepperize.cdk-organizations
+[2023-06-27 03:14:28] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-06-27 03:14:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-27 03:14:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline-ui]: Start processing: assemblyline-core
+[2023-06-27 03:14:28] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230627/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 03:14:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-06-27 03:14:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-27 03:14:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230627/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-06-27 03:14:28] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230627/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-27 03:14:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_pos-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-27 03:14:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_pos-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-27 03:14:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Start processing: cdk-lambda-layer-curl
+[2023-06-27 03:14:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-pos]: success
+[2023-06-27 03:14:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-27 03:14:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-27 03:14:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-27 03:14:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-27 03:14:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230627/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-27 03:14:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos-cfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_pos_cfe-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-27 03:14:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos-cfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_pos_cfe-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-27 03:14:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos-cfe]: Start processing: pip-run
+[2023-06-27 03:14:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-pos-cfe]: success
+[2023-06-27 03:14:29] INFO root fetch - processPackages [pip-run]: New version: [9.5.0] Old Version: [9.4.0]
+[2023-06-27 03:14:29] INFO root fetch - processPackages [pip-run]: Downloading https://files.pythonhosted.org/packages/91/09/3593816578d9ffb26adebb74031ff189fdc859c56086d9aaf84e7fe70f6d/pip-run-9.4.0.tar.gz
+[2023-06-27 03:14:30] INFO root fetch - processPackages [pip-run]: Downloading https://files.pythonhosted.org/packages/09/62/9208b4eecab793f5e59c44e9b071dcb257622e79f053e17f888fe7b787ef/pip-run-9.5.0.tar.gz
+[2023-06-27 03:14:30] INFO root fetch - processPackages [pip-run]: executing diffoscope
+[2023-06-27 03:14:30] INFO root fetch - processPackages [pip-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-run-9.4.0.tar.gz tmp/pip-run-9.5.0.tar.gz --markdown 20230627/p/pip-run/9.4.0-9.5.0/diff.md --exclude *.pyd
+[2023-06-27 03:14:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-27 03:14:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-27 03:14:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-27 03:14:30] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-27 03:14:30] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-27 03:14:30] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-06-27 03:14:30] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-06-27 03:14:30] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-06-27 03:14:30] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-06-27 03:14:30] INFO root fetch - processPackages [raydp-nightly]: executing diffoscope
+[2023-06-27 03:14:30] INFO root fetch - processPackages [raydp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp_nightly-2023.6.27.dev0-py3-none-any.whl.zip tmp/raydp_nightly-2023.6.8.dev0-py3-none-any.whl.zip --markdown 20230627/r/raydp-nightly/2023.6.27.dev0-2023.6.8.dev0/diff.md --exclude *.pyd
+[2023-06-27 03:14:30] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-06-27 03:14:30] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-06-27 03:14:30] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-06-27 03:14:30] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-06-27 03:14:30] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-06-27 03:14:30] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-06-27 03:14:31] INFO root fetch - processPackages [pip-run]: Remove: archive file [/home/abi/fetcher/tmp/pip-run-9.4.0.tar.gz]
+[2023-06-27 03:14:31] INFO root fetch - processPackages [pip-run]: Remove: archive file [/home/abi/fetcher/tmp/pip-run-9.5.0.tar.gz]
+[2023-06-27 03:14:31] INFO root fetch - main [MainThread]: End processing [pip-run]: success
+[2023-06-27 03:14:32] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-27 03:14:32] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-27 03:14:32] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-27 03:14:37] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-3.9.0.tar.gz]
+[2023-06-27 03:14:37] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.0.0rc1.tar.gz]
+[2023-06-27 03:14:37] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-06-27 03:14:46] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-27 03:14:46] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-27 03:14:46] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-27 03:17:11] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.6.27.dev0-py3-none-any.whl.zip]
+[2023-06-27 03:17:11] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.6.8.dev0-py3-none-any.whl.zip]
+[2023-06-27 03:17:11] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
+[2023-06-27 03:17:11] INFO root fetch - main [MainThread]: Store serial: [18655661]
