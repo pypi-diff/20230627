@@ -13623,3 +13623,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 08:16:35] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-27 08:16:35] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-27 08:16:35] INFO root fetch - main [MainThread]: Store serial: [18658561]
+[2023-06-27 08:21:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658561]
+[2023-06-27 08:21:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-27 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretext
+[2023-06-27 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wandc
+[2023-06-27 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudmesh-common
+[2023-06-27 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-06-27 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: current-events-magnifier
+[2023-06-27 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ffmpegcv
+[2023-06-27 08:21:44] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230627] Old Version: [1.6.1.dev20230626]
+[2023-06-27 08:21:44] INFO root fetch - processPackages [cloudmesh-common]: New version: [4.3.99] Old Version: [4.3.98]
+[2023-06-27 08:21:44] WARNING root fetch - processPackages [wandc]: Skipping, unable to determine old version
+[2023-06-27 08:21:44] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.0.4.2] Old Version: [0.0.4.0]
+[2023-06-27 08:21:44] INFO root fetch - main [MainThread]: End processing [wandc] error
+[2023-06-27 08:21:44] INFO root fetch - processPackages [ffmpegcv]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-27 08:21:44] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-27 08:21:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-27 08:21:44] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/13/85/c193bc1ad5326d81e6631390250c7108fc2f304e9e38d235c800fe80e845/current_events_magnifier-0.0.4.0.tar.gz
+[2023-06-27 08:21:44] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/04/e5/7a9f12529aa1e0ec32dbadee8628ea9479f1736778f89b568106ee07a4a5/pretext-1.6.1.dev20230626.tar.gz
+[2023-06-27 08:21:44] INFO root fetch - processPackages [cloudmesh-common]: Downloading https://files.pythonhosted.org/packages/68/c3/2fff9f3ea01944b9d6b899705c9bed1ef01383b84542bbfe95d76134debc/cloudmesh-common-4.3.98.tar.gz
+[2023-06-27 08:21:44] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/ad/28/092b78cfdae8abb59967bceb24419a21b3b305b23f69f691662ca4d8ad98/ffmpegcv-0.3.3.tar.gz
+[2023-06-27 08:21:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-27 08:21:44] INFO root fetch - processPackages [cloudmesh-common]: Downloading https://files.pythonhosted.org/packages/e0/06/2a9df727a32d9c3a2e1bc9afb544e91ea00289cb5cc2e474e902e06b74d7/cloudmesh-common-4.3.99.tar.gz
+[2023-06-27 08:21:44] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/b6/c8/8554e64ea2a611a96f818fd39ba62e54d39ab0140de3051419f75e808452/current_events_magnifier-0.0.4.2.tar.gz
+[2023-06-27 08:21:44] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/85/a2/f0b34a5af2681177df586811ffb6223c68afc56cb3a9bf881ca4ace6c5be/pretext-1.6.1.dev20230627.tar.gz
+[2023-06-27 08:21:44] INFO root fetch - processPackages [cloudmesh-common]: executing diffoscope
+[2023-06-27 08:21:44] INFO root fetch - processPackages [cloudmesh-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-common-4.3.98.tar.gz tmp/cloudmesh-common-4.3.99.tar.gz --markdown 20230627/c/cloudmesh-common/4.3.98-4.3.99/diff.md --exclude *.pyd
+[2023-06-27 08:21:44] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-27 08:21:44] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230627/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-27 08:21:44] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/a9/d0/96e00f09600eab2493dda63715aa490c6e7873282fc170a9cc857d92618f/ffmpegcv-0.3.4.tar.gz
+[2023-06-27 08:21:44] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-27 08:21:44] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.0.4.0.tar.gz tmp/current_events_magnifier-0.0.4.2.tar.gz --markdown 20230627/c/current-events-magnifier/0.0.4.0-0.0.4.2/diff.md --exclude *.pyd
+[2023-06-27 08:21:44] INFO root fetch - processPackages [ffmpegcv]: executing diffoscope
+[2023-06-27 08:21:44] INFO root fetch - processPackages [ffmpegcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpegcv-0.3.3.tar.gz tmp/ffmpegcv-0.3.4.tar.gz --markdown 20230627/f/ffmpegcv/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-27 08:21:45] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-27 08:21:45] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230626.tar.gz tmp/pretext-1.6.1.dev20230627.tar.gz --markdown 20230627/p/pretext/1.6.1.dev20230626-1.6.1.dev20230627/diff.md --exclude *.pyd
+[2023-06-27 08:21:46] INFO root fetch - processPackages [ffmpegcv]: Remove: archive file [/home/abi/fetcher/tmp/ffmpegcv-0.3.3.tar.gz]
+[2023-06-27 08:21:46] INFO root fetch - processPackages [ffmpegcv]: Remove: archive file [/home/abi/fetcher/tmp/ffmpegcv-0.3.4.tar.gz]
+[2023-06-27 08:21:46] INFO root fetch - main [MainThread]: End processing [ffmpegcv]: success
+[2023-06-27 08:21:46] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.4.0.tar.gz]
+[2023-06-27 08:21:46] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.4.2.tar.gz]
+[2023-06-27 08:21:46] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-27 08:21:46] INFO root fetch - processPackages [cloudmesh-common]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-common-4.3.98.tar.gz]
+[2023-06-27 08:21:46] INFO root fetch - processPackages [cloudmesh-common]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-common-4.3.99.tar.gz]
+[2023-06-27 08:21:46] INFO root fetch - main [MainThread]: End processing [cloudmesh-common]: success
+[2023-06-27 08:21:49] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230626.tar.gz]
+[2023-06-27 08:21:49] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230627.tar.gz]
+[2023-06-27 08:21:49] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-27 08:21:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-27 08:21:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-27 08:21:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-27 08:21:51] INFO root fetch - main [MainThread]: Store serial: [18658578]
