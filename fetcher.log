@@ -15882,3 +15882,139 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 10:03:21] INFO root fetch - processPackages [codebleu]: Remove: archive file [/home/abi/fetcher/tmp/codebleu-0.1.5.tar.gz]
 [2023-06-27 10:03:21] INFO root fetch - main [MainThread]: End processing [codebleu]: success
 [2023-06-27 10:03:21] INFO root fetch - main [MainThread]: Store serial: [18659562]
+[2023-06-27 10:08:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659562]
+[2023-06-27 10:08:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-27 10:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2023-06-27 10:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IMDBTraktSyncer
+[2023-06-27 10:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RepRepBuild
+[2023-06-27 10:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qqwry-linux-python3
+[2023-06-27 10:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2023-06-27 10:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IMDBTraktSyncer
+[2023-06-27 10:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qufit
+[2023-06-27 10:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: miao-make
+[2023-06-27 10:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: write-githubstat
+[2023-06-27 10:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drf-misc
+[2023-06-27 10:08:30] INFO root fetch - processPackages [qqwry-linux-python3]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-27 10:08:30] INFO root fetch - processPackages [RepRepBuild]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-27 10:08:30] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.5.4] Old Version: [1.5.2]
+[2023-06-27 10:08:30] INFO root fetch - processPackages [miao-make]: New version: [20230627] Old Version: [20230626]
+[2023-06-27 10:08:30] INFO root fetch - processPackages [write-githubstat]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 10:08:30] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.5.4] Old Version: [1.5.2]
+[2023-06-27 10:08:30] INFO root fetch - processPackages [drf-misc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-27 10:08:30] INFO root fetch - processPackages [yplib]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-06-27 10:08:30] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-27 10:08:30] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-27 10:08:30] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-06-27 10:08:30] INFO root fetch - processPackages [qqwry-linux-python3]: Downloading https://files.pythonhosted.org/packages/1f/8a/b4947635a20d022c41c8069d87c8017a93bd3b03414b51671805aef0dc6c/qqwry-linux-python3-0.0.5.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [write-githubstat]: Downloading https://files.pythonhosted.org/packages/82/1e/f7904a4e264462e1956a34d9cd64e3f483ec760a580770c432926a585a89/write_githubstat-0.1.2.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [miao-make]: Downloading https://files.pythonhosted.org/packages/eb/6d/524b71319ec29d2b0916590e3250465c4a278a55694a2cc95e5f9be3a407/miao-make-20230626.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f4/34/3add9f974964d846fe36c80aafb9913556cd03f80b6e67189659e36eba84/yplib-1.8.3.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/93/be/093b3c30a5b9f9a0d6587b41f2025b50a17316474bbba0f300d36435080e/IMDBTraktSyncer-1.5.2.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/93/be/093b3c30a5b9f9a0d6587b41f2025b50a17316474bbba0f300d36435080e/IMDBTraktSyncer-1.5.2.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/0e/81/183fa2673ed8f4d3c885d0958bd140616694b516dd59d7e8cab1fa824ff3/RepRepBuild-0.9.0.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/3e/e7/5f26b9bc7d137565fc447624e510b1b7882edba1b5341872a16e9bd6c292/drf_misc-0.0.4.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-27 10:08:31] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230627/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-27 10:08:31] INFO root fetch - processPackages [qqwry-linux-python3]: Downloading https://files.pythonhosted.org/packages/b7/4a/19fb2f413466271975c268fdeb6933fc85e0dc7e07401e5060a3381ae7d9/qqwry-linux-python3-0.0.6.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [write-githubstat]: Downloading https://files.pythonhosted.org/packages/61/c2/c5b76dff5d956793912e2abd56f75472170cbaea96a8678adba0eeacb5fb/write_githubstat-0.1.3.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-06-27 10:08:31] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230627/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-27 10:08:31] INFO root fetch - processPackages [qqwry-linux-python3]: executing diffoscope
+[2023-06-27 10:08:31] INFO root fetch - processPackages [qqwry-linux-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qqwry-linux-python3-0.0.5.tar.gz tmp/qqwry-linux-python3-0.0.6.tar.gz --markdown 20230627/q/qqwry-linux-python3/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-27 10:08:31] INFO root fetch - processPackages [miao-make]: Downloading https://files.pythonhosted.org/packages/7a/4e/eda03c46b7b246cddf25f57562cb3a2f5d13bbfe3fc329782d32637af41c/miao-make-20230627.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/78/42/25019410a919ae5e101b1019fae1b120131fa644871972439078d6eb6c69/IMDBTraktSyncer-1.5.4.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/78/42/25019410a919ae5e101b1019fae1b120131fa644871972439078d6eb6c69/IMDBTraktSyncer-1.5.4.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/99/31/8f47716f948b9656384f251da59a2383933acace9fd143f041a1f6947122/yplib-1.8.4.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [write-githubstat]: executing diffoscope
+[2023-06-27 10:08:31] INFO root fetch - processPackages [write-githubstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_githubstat-0.1.2.tar.gz tmp/write_githubstat-0.1.3.tar.gz --markdown 20230627/w/write-githubstat/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 10:08:31] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/ba/dc/2dcb6bf113540fd454794640eb01c2729c8daa4bf190aadc6f5321616317/drf_misc-0.0.5.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [miao-make]: executing diffoscope
+[2023-06-27 10:08:31] INFO root fetch - processPackages [miao-make]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miao-make-20230626.tar.gz tmp/miao-make-20230627.tar.gz --markdown 20230627/m/miao-make/20230626-20230627/diff.md --exclude *.pyd
+[2023-06-27 10:08:31] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/50/c1/f5a59c51cae6a695fbe01266bb7f75ded67d632b67bcbbee079deaecbc69/RepRepBuild-0.9.1.tar.gz
+[2023-06-27 10:08:31] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-27 10:08:31] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.8.3.tar.gz tmp/yplib-1.8.4.tar.gz --markdown 20230627/y/yplib/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-06-27 10:08:31] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-06-27 10:08:31] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.0.4.tar.gz tmp/drf_misc-0.0.5.tar.gz --markdown 20230627/d/drf-misc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-27 10:08:31] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2023-06-27 10:08:31] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.5.2.tar.gz tmp/IMDBTraktSyncer-1.5.4.tar.gz --markdown 20230627/I/IMDBTraktSyncer/1.5.2-1.5.4/diff.md --exclude *.pyd
+[2023-06-27 10:08:31] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2023-06-27 10:08:31] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.5.2.tar.gz tmp/IMDBTraktSyncer-1.5.4.tar.gz --markdown 20230627/I/IMDBTraktSyncer/1.5.2-1.5.4/diff.md --exclude *.pyd
+[2023-06-27 10:08:31] INFO root fetch - processPackages [RepRepBuild]: executing diffoscope
+[2023-06-27 10:08:31] INFO root fetch - processPackages [RepRepBuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepRepBuild-0.9.0.tar.gz tmp/RepRepBuild-0.9.1.tar.gz --markdown 20230627/R/RepRepBuild/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-27 10:08:32] INFO root fetch - processPackages [qqwry-linux-python3]: Remove: archive file [/home/abi/fetcher/tmp/qqwry-linux-python3-0.0.5.tar.gz]
+[2023-06-27 10:08:32] INFO root fetch - processPackages [qqwry-linux-python3]: Remove: archive file [/home/abi/fetcher/tmp/qqwry-linux-python3-0.0.6.tar.gz]
+[2023-06-27 10:08:32] INFO root fetch - processPackages [qqwry-linux-python3]: Start processing: selenium-injector
+[2023-06-27 10:08:32] INFO root fetch - main [MainThread]: End processing [qqwry-linux-python3]: success
+[2023-06-27 10:08:32] INFO root fetch - processPackages [selenium-injector]: New version: [2.1] Old Version: [2.0]
+[2023-06-27 10:08:32] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-27 10:08:32] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-27 10:08:32] INFO root fetch - processPackages [ramodels]: Start processing: databutton
+[2023-06-27 10:08:32] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-27 10:08:32] INFO root fetch - processPackages [databutton]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [selenium-injector]: Downloading https://files.pythonhosted.org/packages/2e/a0/f97b363488f264f1086dda1528d9906c86b9cf813893e1dd343c1810b39c/selenium_injector-2.0.tar.gz
+[2023-06-27 10:08:33] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/97/e4/e81aa45e6614cc27e77afdc05bda0df053f47af67b7f10dd3fa7e90977bf/databutton-0.9.1.tar.gz
+[2023-06-27 10:08:33] INFO root fetch - processPackages [write-githubstat]: Remove: archive file [/home/abi/fetcher/tmp/write_githubstat-0.1.2.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [write-githubstat]: Remove: archive file [/home/abi/fetcher/tmp/write_githubstat-0.1.3.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [write-githubstat]: Start processing: odoo14-addon-stock-exception
+[2023-06-27 10:08:33] INFO root fetch - main [MainThread]: End processing [write-githubstat]: success
+[2023-06-27 10:08:33] INFO root fetch - processPackages [odoo14-addon-stock-exception]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [miao-make]: Remove: archive file [/home/abi/fetcher/tmp/miao-make-20230626.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [miao-make]: Remove: archive file [/home/abi/fetcher/tmp/miao-make-20230627.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [miao-make]: Start processing: pyglove
+[2023-06-27 10:08:33] INFO root fetch - main [MainThread]: End processing [miao-make]: success
+[2023-06-27 10:08:33] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230627] Old Version: [0.3.1.dev20230626]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/36/16/cf98a58228030a919fa77472be546dacb41c061e65bb7761da01f2db18de/pyglove-0.3.1.dev20230626.tar.gz
+[2023-06-27 10:08:33] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [qufit]: Start processing: ExpoSeq
+[2023-06-27 10:08:33] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-06-27 10:08:33] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [selenium-injector]: Downloading https://files.pythonhosted.org/packages/7f/dd/8f3b84fd057c2b4650bd2ff5a58fcec09fdd57a50d611237b50dd18b082a/selenium_injector-2.1.tar.gz
+[2023-06-27 10:08:33] INFO root fetch - processPackages [odoo14-addon-stock-exception]: Downloading https://files.pythonhosted.org/packages/f0/12/5e4f30562ee872b29fef684f8e5a8c5c829f43656f1e81d7ab9dbe9dea47/odoo14_addon_stock_exception-14.0.1.0.1-py3-none-any.whl
+[2023-06-27 10:08:33] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.5.2.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.5.4.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2023-06-27 10:08:33] INFO root fetch - processPackages [selenium-injector]: executing diffoscope
+[2023-06-27 10:08:33] INFO root fetch - processPackages [selenium-injector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_injector-2.0.tar.gz tmp/selenium_injector-2.1.tar.gz --markdown 20230627/s/selenium-injector/2.0-2.1/diff.md --exclude *.pyd
+[2023-06-27 10:08:33] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.4.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.5.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-06-27 10:08:33] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.8.3.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.8.4.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-27 10:08:33] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2023-06-27 10:08:33] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/5c/59/3ecc3881c8c0088b35a444d0208f992442d429068966d08be417ede43a72/databutton-0.9.2.tar.gz
+[2023-06-27 10:08:33] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/cd/27/7482b3c38ef3b8cdfccbdc78ad33f6fcf779505cde9667bf058a6033235e/pyglove-0.3.1.dev20230627.tar.gz
+[2023-06-27 10:08:33] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/74/ee/e1f35c829978bcfae272b5a83bb6fc3a18c24edeca10a7f27d3701a2ee4f/ExpoSeq-1.1.5.tar.gz
+[2023-06-27 10:08:33] INFO root fetch - processPackages [databutton]: executing diffoscope
+[2023-06-27 10:08:33] INFO root fetch - processPackages [databutton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databutton-0.9.1.tar.gz tmp/databutton-0.9.2.tar.gz --markdown 20230627/d/databutton/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-27 10:08:33] INFO root fetch - processPackages [odoo14-addon-stock-exception]: Downloading https://files.pythonhosted.org/packages/27/25/4186868504498ed0cbab423e622b7b83db3acb5b0c2e0b81d3d6f3df5e8e/odoo14_addon_stock_exception-14.0.1.0.2-py3-none-any.whl
+[2023-06-27 10:08:33] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-27 10:08:33] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230626.tar.gz tmp/pyglove-0.3.1.dev20230627.tar.gz --markdown 20230627/p/pyglove/0.3.1.dev20230626-0.3.1.dev20230627/diff.md --exclude *.pyd
+[2023-06-27 10:08:33] INFO root fetch - processPackages [odoo14-addon-stock-exception]: executing diffoscope
+[2023-06-27 10:08:33] INFO root fetch - processPackages [odoo14-addon-stock-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_exception-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_stock_exception-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230627/o/odoo14-addon-stock-exception/14.0.1.0.1-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-27 10:08:33] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/28/c8/242933fadc87f753b965610b461104ff27972da04a1db6b4f23b5ff43709/ExpoSeq-1.1.7.tar.gz
+[2023-06-27 10:08:33] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.9.0.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.9.1.tar.gz]
+[2023-06-27 10:08:33] INFO root fetch - main [MainThread]: End processing [RepRepBuild]: success
+[2023-06-27 10:08:34] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-06-27 10:08:34] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.5.tar.gz tmp/ExpoSeq-1.1.7.tar.gz --markdown 20230627/E/ExpoSeq/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-06-27 10:08:34] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.1.tar.gz]
+[2023-06-27 10:08:34] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.2.tar.gz]
+[2023-06-27 10:08:34] INFO root fetch - main [MainThread]: End processing [databutton]: success
+[2023-06-27 10:08:34] INFO root fetch - processPackages [odoo14-addon-stock-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_exception-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-27 10:08:34] INFO root fetch - processPackages [odoo14-addon-stock-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_exception-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-27 10:08:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-exception]: success
+[2023-06-27 10:08:35] INFO root fetch - processPackages [selenium-injector]: Remove: archive file [/home/abi/fetcher/tmp/selenium_injector-2.0.tar.gz]
+[2023-06-27 10:08:35] INFO root fetch - processPackages [selenium-injector]: Remove: archive file [/home/abi/fetcher/tmp/selenium_injector-2.1.tar.gz]
+[2023-06-27 10:08:35] INFO root fetch - main [MainThread]: End processing [selenium-injector]: success
+[2023-06-27 10:08:35] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230626.tar.gz]
+[2023-06-27 10:08:35] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230627.tar.gz]
+[2023-06-27 10:08:35] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-27 10:08:39] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.5.tar.gz]
+[2023-06-27 10:08:39] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.7.tar.gz]
+[2023-06-27 10:08:39] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-06-27 10:08:39] INFO root fetch - main [MainThread]: Store serial: [18659610]
