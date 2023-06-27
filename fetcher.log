@@ -10055,3 +10055,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 04:10:57] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
 [2023-06-27 04:10:57] INFO root fetch - main [MainThread]: End processing [metrics-layer]: success
 [2023-06-27 04:10:57] INFO root fetch - main [MainThread]: Store serial: [18657221]
+[2023-06-27 04:16:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657221]
+[2023-06-27 04:16:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-27 04:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastlabel
+[2023-06-27 04:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acore-constants
+[2023-06-27 04:16:06] INFO root fetch - processPackages [acore-constants]: New version: [0.2.1] Old Version: [0.1.2]
+[2023-06-27 04:16:06] INFO root fetch - processPackages [fastlabel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-27 04:16:06] INFO root fetch - processPackages [acore-constants]: Downloading https://files.pythonhosted.org/packages/49/2d/22e396edec91042e29f87598eb0c3a70277cf63c3237259a8807fcccda3d/acore_constants-0.1.2.tar.gz
+[2023-06-27 04:16:06] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/57/be/7f95f0710f3736b944abf8635802ed7c4fa9ed908af29b88814533d5d1aa/fastlabel-0.9.8.tar.gz
+[2023-06-27 04:16:06] INFO root fetch - processPackages [acore-constants]: Downloading https://files.pythonhosted.org/packages/a3/8e/ec4f33f6fcdf51eef5d50097c243fcec250f07f733137e9ded3a1a02dd36/acore_constants-0.2.1.tar.gz
+[2023-06-27 04:16:07] INFO root fetch - processPackages [acore-constants]: executing diffoscope
+[2023-06-27 04:16:07] INFO root fetch - processPackages [acore-constants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_constants-0.1.2.tar.gz tmp/acore_constants-0.2.1.tar.gz --markdown 20230627/a/acore-constants/0.1.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-27 04:16:07] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/d0/e5/f18c001dc7450d962af6e6925a6600fb1877e202166062e99e6d1fadf36b/fastlabel-0.9.9.tar.gz
+[2023-06-27 04:16:07] INFO root fetch - processPackages [fastlabel]: executing diffoscope
+[2023-06-27 04:16:07] INFO root fetch - processPackages [fastlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlabel-0.9.8.tar.gz tmp/fastlabel-0.9.9.tar.gz --markdown 20230627/f/fastlabel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-27 04:16:08] INFO root fetch - processPackages [acore-constants]: Remove: archive file [/home/abi/fetcher/tmp/acore_constants-0.1.2.tar.gz]
+[2023-06-27 04:16:08] INFO root fetch - processPackages [acore-constants]: Remove: archive file [/home/abi/fetcher/tmp/acore_constants-0.2.1.tar.gz]
+[2023-06-27 04:16:08] INFO root fetch - main [MainThread]: End processing [acore-constants]: success
+[2023-06-27 04:16:08] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.8.tar.gz]
+[2023-06-27 04:16:08] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.9.tar.gz]
+[2023-06-27 04:16:08] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
+[2023-06-27 04:16:08] INFO root fetch - main [MainThread]: Store serial: [18657227]
