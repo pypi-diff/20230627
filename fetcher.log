@@ -13557,3 +13557,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 08:11:12] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.1.tar.gz]
 [2023-06-27 08:11:12] INFO root fetch - main [MainThread]: End processing [lyrebird-bugit]: success
 [2023-06-27 08:11:12] INFO root fetch - main [MainThread]: Store serial: [18658533]
+[2023-06-27 08:16:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658533]
+[2023-06-27 08:16:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-27 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p-ttauto-crawler
+[2023-06-27 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CTkTable
+[2023-06-27 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: entelecheia
+[2023-06-27 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotPython
+[2023-06-27 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit
+[2023-06-27 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qulacsvis
+[2023-06-27 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zcbot-celery-sdk
+[2023-06-27 08:16:21] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 08:16:21] INFO root fetch - processPackages [CTkTable]: New version: [0.6] Old Version: [0.5]
+[2023-06-27 08:16:21] INFO root fetch - processPackages [qulacsvis]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-27 08:16:21] INFO root fetch - processPackages [entelecheia]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-27 08:16:21] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-27 08:16:21] INFO root fetch - processPackages [streamlit]: New version: [1.9.2rc1] Old Version: [1.9.2]
+[2023-06-27 08:16:21] INFO root fetch - processPackages [zcbot-celery-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 08:16:21] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [CTkTable]: Downloading https://files.pythonhosted.org/packages/97/49/3281b870b00ed7cf0e83f4c89f210a45ba60a51e77174c0671ec0c532615/CTkTable-0.5.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/54/3e/5ee6d22044b2f24285e2ac9912970ec2e4affd3dd1b8978e34aaa3d3c595/entelecheia-0.2.3.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [qulacsvis]: Downloading https://files.pythonhosted.org/packages/63/39/d003e52729089d5e668e27f258458ef55b796701aca9e5139e6356b52afd/qulacsvis-0.7.2.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [streamlit]: Downloading https://files.pythonhosted.org/packages/0b/bb/1626aee82f9d586f084e252cf9388e7d1fe60b0523dfe39436a64185b55a/streamlit-1.9.2.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [zcbot-celery-sdk]: Downloading https://files.pythonhosted.org/packages/4c/b5/afb2bfe70b2370676ef969e320b714a06c96a1bba3cad13f5f5040450b48/zcbot-celery-sdk-0.0.8.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [CTkTable]: Downloading https://files.pythonhosted.org/packages/59/95/13b6045b52dba3286fb7c4af70e97a2f42f0be087f6f446d89ff35ecf99d/CTkTable-0.6.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [qulacsvis]: Downloading https://files.pythonhosted.org/packages/b0/80/72195ef3838f82b1d280d0dacab63909918d957e586fbb096a92d35b1336/qulacsvis-0.7.3.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/e1/40/2d6d5621f76abf72abe5f06c1955f880a3dae9d042775545dca7a647f47b/entelecheia-0.2.4.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [qulacsvis]: executing diffoscope
+[2023-06-27 08:16:22] INFO root fetch - processPackages [qulacsvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulacsvis-0.7.2.tar.gz tmp/qulacsvis-0.7.3.tar.gz --markdown 20230627/q/qulacsvis/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-27 08:16:22] INFO root fetch - processPackages [CTkTable]: executing diffoscope
+[2023-06-27 08:16:22] INFO root fetch - processPackages [CTkTable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTkTable-0.5.tar.gz tmp/CTkTable-0.6.tar.gz --markdown 20230627/C/CTkTable/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-27 08:16:22] INFO root fetch - processPackages [zcbot-celery-sdk]: Downloading https://files.pythonhosted.org/packages/9a/d8/42b0d82e5095896d6ec2775f0d727ce292ea46e9948fb4aebbbd7ff44280/zcbot-celery-sdk-0.0.9.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [entelecheia]: executing diffoscope
+[2023-06-27 08:16:22] INFO root fetch - processPackages [entelecheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entelecheia-0.2.3.tar.gz tmp/entelecheia-0.2.4.tar.gz --markdown 20230627/e/entelecheia/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-27 08:16:22] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-27 08:16:22] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230627/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 08:16:22] INFO root fetch - processPackages [zcbot-celery-sdk]: executing diffoscope
+[2023-06-27 08:16:22] INFO root fetch - processPackages [zcbot-celery-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-celery-sdk-0.0.8.tar.gz tmp/zcbot-celery-sdk-0.0.9.tar.gz --markdown 20230627/z/zcbot-celery-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 08:16:22] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-27 08:16:22] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-27 08:16:22] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230627/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 08:16:23] INFO root fetch - processPackages [CTkTable]: Remove: archive file [/home/abi/fetcher/tmp/CTkTable-0.5.tar.gz]
+[2023-06-27 08:16:23] INFO root fetch - processPackages [CTkTable]: Remove: archive file [/home/abi/fetcher/tmp/CTkTable-0.6.tar.gz]
+[2023-06-27 08:16:23] INFO root fetch - main [MainThread]: End processing [CTkTable]: success
+[2023-06-27 08:16:23] INFO root fetch - processPackages [streamlit]: Downloading https://files.pythonhosted.org/packages/4a/3d/ce73b44c79b555c97dc07e64d990118e5e4121d5489a8151da741e8d72a0/streamlit-1.9.2rc1.tar.gz
+[2023-06-27 08:16:23] INFO root fetch - processPackages [qulacsvis]: Remove: archive file [/home/abi/fetcher/tmp/qulacsvis-0.7.2.tar.gz]
+[2023-06-27 08:16:23] INFO root fetch - processPackages [qulacsvis]: Remove: archive file [/home/abi/fetcher/tmp/qulacsvis-0.7.3.tar.gz]
+[2023-06-27 08:16:23] INFO root fetch - main [MainThread]: End processing [qulacsvis]: success
+[2023-06-27 08:16:24] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.3.tar.gz]
+[2023-06-27 08:16:24] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.4.tar.gz]
+[2023-06-27 08:16:24] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
+[2023-06-27 08:16:24] INFO root fetch - processPackages [zcbot-celery-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-celery-sdk-0.0.8.tar.gz]
+[2023-06-27 08:16:24] INFO root fetch - processPackages [zcbot-celery-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-celery-sdk-0.0.9.tar.gz]
+[2023-06-27 08:16:24] INFO root fetch - main [MainThread]: End processing [zcbot-celery-sdk]: success
+[2023-06-27 08:16:24] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-27 08:16:24] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-27 08:16:24] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-27 08:16:26] INFO root fetch - processPackages [streamlit]: executing diffoscope
+[2023-06-27 08:16:26] INFO root fetch - processPackages [streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-1.9.2.tar.gz tmp/streamlit-1.9.2rc1.tar.gz --markdown 20230627/s/streamlit/1.9.2-1.9.2rc1/diff.md --exclude *.pyd
+[2023-06-27 08:16:32] INFO root fetch - processPackages [streamlit]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-1.9.2.tar.gz]
+[2023-06-27 08:16:32] INFO root fetch - processPackages [streamlit]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-1.9.2rc1.tar.gz]
+[2023-06-27 08:16:32] INFO root fetch - main [MainThread]: End processing [streamlit]: success
+[2023-06-27 08:16:35] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-27 08:16:35] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-27 08:16:35] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-27 08:16:35] INFO root fetch - main [MainThread]: Store serial: [18658561]
