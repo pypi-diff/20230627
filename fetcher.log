@@ -10849,3 +10849,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 05:06:56] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.2.1-py3-none-any.whl.zip]
 [2023-06-27 05:06:56] INFO root fetch - main [MainThread]: End processing [siat]: success
 [2023-06-27 05:06:56] INFO root fetch - main [MainThread]: Store serial: [18657524]
+[2023-06-27 05:12:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657524]
+[2023-06-27 05:12:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-27 05:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-session
+[2023-06-27 05:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aitomatic
+[2023-06-27 05:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-nagabus
+[2023-06-27 05:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-27 05:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-allowedhosts
+[2023-06-27 05:12:05] INFO root fetch - processPackages [flask-allowedhosts]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-27 05:12:05] INFO root fetch - processPackages [aitomatic]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-27 05:12:05] INFO root fetch - processPackages [nonebot-plugin-nagabus]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-27 05:12:05] INFO root fetch - processPackages [databricks-session]: New version: [0.1.8] Old Version: [0.0.2]
+[2023-06-27 05:12:05] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-27 05:12:06] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/ec/64/f4424502055787f1b5dae7e6352845ba64641bf184b5a26b2b5812308462/nonebot_plugin_nagabus-0.2.3.tar.gz
+[2023-06-27 05:12:06] INFO root fetch - processPackages [aitomatic]: Downloading https://files.pythonhosted.org/packages/50/64/07f490b899ae72ddb2eedf9af8d742eb8b336fe56d1dfa9b45355acb6da7/aitomatic-1.2.8.tar.gz
+[2023-06-27 05:12:06] INFO root fetch - processPackages [flask-allowedhosts]: Downloading https://files.pythonhosted.org/packages/ca/d6/7e3396692b5503edb1e4ecb5b00a659c577b34c324e6518d442e5022f905/flask-allowedhosts-1.0.1.tar.gz
+[2023-06-27 05:12:06] INFO root fetch - processPackages [databricks-session]: Downloading https://files.pythonhosted.org/packages/c0/66/08600d9fcc4f8e31e942a94037c8b7d0cf89e7abbb91d41c887205280f1f/databricks_session-0.0.2.tar.gz
+[2023-06-27 05:12:06] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-06-27 05:12:06] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/bf/c2/f3149dcf81486e15856717342eb2ded9249b77930e66e325f81057ed30c0/nonebot_plugin_nagabus-0.2.4.tar.gz
+[2023-06-27 05:12:06] INFO root fetch - processPackages [aitomatic]: Downloading https://files.pythonhosted.org/packages/8a/cc/390008ced44be18f3de07fcfcb2e70f9e8c1458042419c843d7ce09a4040/aitomatic-1.2.9.tar.gz
+[2023-06-27 05:12:06] INFO root fetch - processPackages [flask-allowedhosts]: Downloading https://files.pythonhosted.org/packages/f4/d9/a9970ffe9be623240d73ac0b61eaad3a258a872fba1a0c6fd5227658d25d/flask-allowedhosts-1.1.0.tar.gz
+[2023-06-27 05:12:06] INFO root fetch - processPackages [databricks-session]: Downloading https://files.pythonhosted.org/packages/ec/a5/5ebc4085e3f99b13a4091619c29d6d4aa071f07f92719c3b1b6511826c38/databricks_session-0.1.8.tar.gz
+[2023-06-27 05:12:06] INFO root fetch - processPackages [nonebot-plugin-nagabus]: executing diffoscope
+[2023-06-27 05:12:06] INFO root fetch - processPackages [nonebot-plugin-nagabus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nagabus-0.2.3.tar.gz tmp/nonebot_plugin_nagabus-0.2.4.tar.gz --markdown 20230627/n/nonebot-plugin-nagabus/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-27 05:12:06] INFO root fetch - processPackages [aitomatic]: executing diffoscope
+[2023-06-27 05:12:06] INFO root fetch - processPackages [aitomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitomatic-1.2.8.tar.gz tmp/aitomatic-1.2.9.tar.gz --markdown 20230627/a/aitomatic/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-27 05:12:06] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-06-27 05:12:06] INFO root fetch - processPackages [flask-allowedhosts]: executing diffoscope
+[2023-06-27 05:12:06] INFO root fetch - processPackages [flask-allowedhosts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-allowedhosts-1.0.1.tar.gz tmp/flask-allowedhosts-1.1.0.tar.gz --markdown 20230627/f/flask-allowedhosts/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-27 05:12:06] INFO root fetch - processPackages [databricks-session]: executing diffoscope
+[2023-06-27 05:12:06] INFO root fetch - processPackages [databricks-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_session-0.0.2.tar.gz tmp/databricks_session-0.1.8.tar.gz --markdown 20230627/d/databricks-session/0.0.2-0.1.8/diff.md --exclude *.pyd
+[2023-06-27 05:12:06] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-27 05:12:06] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230627/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-27 05:12:07] INFO root fetch - processPackages [flask-allowedhosts]: Remove: archive file [/home/abi/fetcher/tmp/flask-allowedhosts-1.0.1.tar.gz]
+[2023-06-27 05:12:07] INFO root fetch - processPackages [flask-allowedhosts]: Remove: archive file [/home/abi/fetcher/tmp/flask-allowedhosts-1.1.0.tar.gz]
+[2023-06-27 05:12:07] INFO root fetch - main [MainThread]: End processing [flask-allowedhosts]: success
+[2023-06-27 05:12:07] INFO root fetch - processPackages [databricks-session]: Remove: archive file [/home/abi/fetcher/tmp/databricks_session-0.0.2.tar.gz]
+[2023-06-27 05:12:07] INFO root fetch - processPackages [databricks-session]: Remove: archive file [/home/abi/fetcher/tmp/databricks_session-0.1.8.tar.gz]
+[2023-06-27 05:12:07] INFO root fetch - main [MainThread]: End processing [databricks-session]: success
+[2023-06-27 05:12:07] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-06-27 05:12:07] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-06-27 05:12:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-27 05:12:07] INFO root fetch - processPackages [aitomatic]: Remove: archive file [/home/abi/fetcher/tmp/aitomatic-1.2.8.tar.gz]
+[2023-06-27 05:12:07] INFO root fetch - processPackages [aitomatic]: Remove: archive file [/home/abi/fetcher/tmp/aitomatic-1.2.9.tar.gz]
+[2023-06-27 05:12:07] INFO root fetch - main [MainThread]: End processing [aitomatic]: success
+[2023-06-27 05:12:07] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nagabus-0.2.3.tar.gz]
+[2023-06-27 05:12:07] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nagabus-0.2.4.tar.gz]
+[2023-06-27 05:12:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nagabus]: success
+[2023-06-27 05:12:07] INFO root fetch - main [MainThread]: Store serial: [18657539]
