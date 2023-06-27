@@ -18069,3 +18069,177 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 11:20:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
 [2023-06-27 11:20:57] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-27 11:20:57] INFO root fetch - main [MainThread]: Store serial: [18660530]
+[2023-06-27 11:26:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18660530]
+[2023-06-27 11:26:06] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-27 11:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finter
+[2023-06-27 11:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vgis-log
+[2023-06-27 11:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boinc-client
+[2023-06-27 11:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: titan-iris
+[2023-06-27 11:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vgis-database
+[2023-06-27 11:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gspot-fastapi-auth
+[2023-06-27 11:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: haruka-bot
+[2023-06-27 11:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: notalib
+[2023-06-27 11:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QuantumPathQSOAPySDK
+[2023-06-27 11:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MindsDB
+[2023-06-27 11:26:06] WARNING root fetch - processPackages [vgis-database]: Skipping, unable to determine old version
+[2023-06-27 11:26:06] INFO root fetch - processPackages [vgis-database]: Start processing: spanishconjugator
+[2023-06-27 11:26:06] INFO root fetch - main [MainThread]: End processing [vgis-database] error
+[2023-06-27 11:26:06] WARNING root fetch - processPackages [gspot-fastapi-auth]: Skipping, unable to determine old version
+[2023-06-27 11:26:06] INFO root fetch - processPackages [gspot-fastapi-auth]: Start processing: wikisource
+[2023-06-27 11:26:06] INFO root fetch - main [MainThread]: End processing [gspot-fastapi-auth] error
+[2023-06-27 11:26:06] INFO root fetch - processPackages [finter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 11:26:06] WARNING root fetch - processPackages [vgis-log]: Skipping, unable to determine old version
+[2023-06-27 11:26:06] INFO root fetch - processPackages [vgis-log]: Start processing: Titan-Client
+[2023-06-27 11:26:06] INFO root fetch - main [MainThread]: End processing [vgis-log] error
+[2023-06-27 11:26:06] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-27 11:26:06] INFO root fetch - processPackages [boinc-client]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-27 11:26:06] INFO root fetch - processPackages [notalib]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-27 11:26:06] INFO root fetch - processPackages [haruka-bot]: New version: [1.6.0.post1] Old Version: [1.6.0]
+[2023-06-27 11:26:06] INFO root fetch - processPackages [titan-iris]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-27 11:26:06] INFO root fetch - processPackages [MindsDB]: New version: [23.6.5.0] Old Version: [23.6.4.0]
+[2023-06-27 11:26:06] INFO root fetch - processPackages [wikisource]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 11:26:06] INFO root fetch - processPackages [Titan-Client]: New version: [1.19.7.1] Old Version: [1.19.7]
+[2023-06-27 11:26:06] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-27 11:26:06] INFO root fetch - processPackages [haruka-bot]: Downloading https://files.pythonhosted.org/packages/45/a4/921f0c7fe0282652706a664819f2377a95ce728d6089ee1920ee74aab598/haruka-bot-1.6.0.tar.gz
+[2023-06-27 11:26:06] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d7/15/feb7c005964ea5d16b9435b52600870cbc403d0898d8d62b11352acddcef/titan-iris-0.8.8.tar.gz
+[2023-06-27 11:26:06] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/30/f2/8bed19e112f8d111b20cbdc03749899b99ab21ac5fd155893366135507c5/QuantumPathQSOAPySDK-1.5.3.tar.gz
+[2023-06-27 11:26:06] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-27 11:26:06] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/3f/67/a34c11ccfbaf6906bef8a6f98dc9c0635e28381e93a61a2f77a494e47eaf/finter-0.0.8-py3-none-any.whl
+[2023-06-27 11:26:06] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/6d/d2/73b201ef4dfdb66650f893ffd86889a2726b13ea5a9bb3bfa4397d21ae54/wikisource-0.0.1.tar.gz
+[2023-06-27 11:26:06] INFO root fetch - processPackages [notalib]: Downloading https://files.pythonhosted.org/packages/9a/73/449e38db30cdd3af6cdc307f84e138642ae171a03c5651d950997a3075bd/notalib-2.0.0.tar.gz
+[2023-06-27 11:26:06] INFO root fetch - processPackages [Titan-Client]: Downloading https://files.pythonhosted.org/packages/b5/75/403f0d724cd1b7a46872dfa517e8cc31154d27b240c4f1f3637b240c00ce/Titan_Client-1.19.7.tar.gz
+[2023-06-27 11:26:06] INFO root fetch - processPackages [boinc-client]: Downloading https://files.pythonhosted.org/packages/db/7a/f3d46d9fd0099a81ec7863b6c80bf0912b00692bf48b73ab18a586f2c832/boinc_client-1.4.1.tar.gz
+[2023-06-27 11:26:06] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/ac/fe/5dad7075bb4ee7120ae2e36e2d9902c81952c97cc56e5076a5cb4a4d45f7/MindsDB-23.6.4.0.tar.gz
+[2023-06-27 11:26:06] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/04/25/22091a26775676cd76db565c11730d38d18cffe45cb89330ebf3fd074e77/titan-iris-0.8.9.tar.gz
+[2023-06-27 11:26:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-27 11:26:07] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/34/ef/fcada18596702c19ace1062bee0512b85d9737e42b347b057ae0c1d5a50c/wikisource-0.0.2.tar.gz
+[2023-06-27 11:26:07] INFO root fetch - processPackages [boinc-client]: Downloading https://files.pythonhosted.org/packages/b9/67/fcc6cfcfd4cd03a36b4b1bc2f5bb18e1620c700bfb250e8a63f0355cf07e/boinc_client-1.4.2.tar.gz
+[2023-06-27 11:26:07] INFO root fetch - processPackages [haruka-bot]: Downloading https://files.pythonhosted.org/packages/0e/9e/54a7a42f8d9e3434d2a63e7789b9341531ada1c13bfcbe00db6781c39ad6/haruka-bot-1.6.0.post1.tar.gz
+[2023-06-27 11:26:07] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/11/43/7d754752f50176b5ee5c9490b2f437304f5b483dc6d63a0384eee5143bdf/QuantumPathQSOAPySDK-1.5.4.tar.gz
+[2023-06-27 11:26:07] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-27 11:26:07] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.8.tar.gz tmp/titan-iris-0.8.9.tar.gz --markdown 20230627/t/titan-iris/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-27 11:26:07] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-27 11:26:07] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230627/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-27 11:26:07] INFO root fetch - processPackages [notalib]: Downloading https://files.pythonhosted.org/packages/dc/49/e4c941af1a9ba1421bf5aafaa4706cb5b27381daa5b4702fcd08c4115f04/notalib-2.1.0.tar.gz
+[2023-06-27 11:26:07] INFO root fetch - processPackages [Titan-Client]: Downloading https://files.pythonhosted.org/packages/d6/ba/f55609f749ee346ed8e10f051768dbfd242bccb1dcde65eb570f8d1d79fe/Titan_Client-1.19.7.1.tar.gz
+[2023-06-27 11:26:07] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/7c/74/1948e4ff1b4aec9933e42ce1ab3d3495b1535bf1d203da0e462ed238eeed/finter-0.0.9-py3-none-any.whl
+[2023-06-27 11:26:07] INFO root fetch - processPackages [wikisource]: executing diffoscope
+[2023-06-27 11:26:07] INFO root fetch - processPackages [wikisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikisource-0.0.1.tar.gz tmp/wikisource-0.0.2.tar.gz --markdown 20230627/w/wikisource/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 11:26:07] INFO root fetch - processPackages [haruka-bot]: executing diffoscope
+[2023-06-27 11:26:07] INFO root fetch - processPackages [haruka-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haruka-bot-1.6.0.tar.gz tmp/haruka-bot-1.6.0.post1.tar.gz --markdown 20230627/h/haruka-bot/1.6.0-1.6.0.post1/diff.md --exclude *.pyd
+[2023-06-27 11:26:07] INFO root fetch - processPackages [boinc-client]: executing diffoscope
+[2023-06-27 11:26:07] INFO root fetch - processPackages [boinc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boinc_client-1.4.1.tar.gz tmp/boinc_client-1.4.2.tar.gz --markdown 20230627/b/boinc-client/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-27 11:26:07] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: executing diffoscope
+[2023-06-27 11:26:07] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumPathQSOAPySDK-1.5.3.tar.gz tmp/QuantumPathQSOAPySDK-1.5.4.tar.gz --markdown 20230627/Q/QuantumPathQSOAPySDK/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-27 11:26:07] INFO root fetch - processPackages [notalib]: executing diffoscope
+[2023-06-27 11:26:07] INFO root fetch - processPackages [notalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notalib-2.0.0.tar.gz tmp/notalib-2.1.0.tar.gz --markdown 20230627/n/notalib/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-27 11:26:07] INFO root fetch - processPackages [Titan-Client]: executing diffoscope
+[2023-06-27 11:26:07] INFO root fetch - processPackages [Titan-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Titan_Client-1.19.7.tar.gz tmp/Titan_Client-1.19.7.1.tar.gz --markdown 20230627/T/Titan-Client/1.19.7-1.19.7.1/diff.md --exclude *.pyd
+[2023-06-27 11:26:07] INFO root fetch - processPackages [finter]: executing diffoscope
+[2023-06-27 11:26:07] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.0.8-py3-none-any.whl.zip tmp/finter-0.0.9-py3-none-any.whl.zip --markdown 20230627/f/finter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 11:26:07] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/ec/5d/52563bd3ffb00175c0d0b25e9f7c41b24da973e37412b170818eca0ba597/MindsDB-23.6.5.0.tar.gz
+[2023-06-27 11:26:07] INFO root fetch - processPackages [MindsDB]: executing diffoscope
+[2023-06-27 11:26:07] INFO root fetch - processPackages [MindsDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MindsDB-23.6.4.0.tar.gz tmp/MindsDB-23.6.5.0.tar.gz --markdown 20230627/M/MindsDB/23.6.4.0-23.6.5.0/diff.md --exclude *.pyd
+[2023-06-27 11:26:08] INFO root fetch - processPackages [wikisource]: Remove: archive file [/home/abi/fetcher/tmp/wikisource-0.0.1.tar.gz]
+[2023-06-27 11:26:08] INFO root fetch - processPackages [wikisource]: Remove: archive file [/home/abi/fetcher/tmp/wikisource-0.0.2.tar.gz]
+[2023-06-27 11:26:08] INFO root fetch - processPackages [wikisource]: Start processing: wikisource
+[2023-06-27 11:26:08] INFO root fetch - main [MainThread]: End processing [wikisource]: success
+[2023-06-27 11:26:08] INFO root fetch - processPackages [wikisource]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/6d/d2/73b201ef4dfdb66650f893ffd86889a2726b13ea5a9bb3bfa4397d21ae54/wikisource-0.0.1.tar.gz
+[2023-06-27 11:26:09] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/34/ef/fcada18596702c19ace1062bee0512b85d9737e42b347b057ae0c1d5a50c/wikisource-0.0.2.tar.gz
+[2023-06-27 11:26:09] INFO root fetch - processPackages [wikisource]: executing diffoscope
+[2023-06-27 11:26:09] INFO root fetch - processPackages [wikisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikisource-0.0.1.tar.gz tmp/wikisource-0.0.2.tar.gz --markdown 20230627/w/wikisource/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 11:26:09] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.0.8-py3-none-any.whl.zip]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.0.9-py3-none-any.whl.zip]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [finter]: Start processing: zhconv-rs
+[2023-06-27 11:26:09] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2023-06-27 11:26:09] INFO root fetch - processPackages [zhconv-rs]: New version: [0.3.0b0] Old Version: [0.2.0b0]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [spanishconjugator]: Start processing: alignments
+[2023-06-27 11:26:09] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-27 11:26:09] INFO root fetch - processPackages [alignments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [alignments]: Downloading https://files.pythonhosted.org/packages/bd/77/f73fc2fe020cb61f746c1e33c2ac60b27a02a153786f370430cf0ce590cf/alignments-0.0.8.tar.gz
+[2023-06-27 11:26:09] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.8.tar.gz]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.9.tar.gz]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [titan-iris]: Start processing: spanishconjugator
+[2023-06-27 11:26:09] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-27 11:26:09] INFO root fetch - processPackages [haruka-bot]: Remove: archive file [/home/abi/fetcher/tmp/haruka-bot-1.6.0.tar.gz]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [haruka-bot]: Remove: archive file [/home/abi/fetcher/tmp/haruka-bot-1.6.0.post1.tar.gz]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [haruka-bot]: Start processing: nonebot-plugin-songpicker2
+[2023-06-27 11:26:09] INFO root fetch - main [MainThread]: End processing [haruka-bot]: success
+[2023-06-27 11:26:09] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [notalib]: Remove: archive file [/home/abi/fetcher/tmp/notalib-2.0.0.tar.gz]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [boinc-client]: Remove: archive file [/home/abi/fetcher/tmp/boinc_client-1.4.1.tar.gz]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [notalib]: Remove: archive file [/home/abi/fetcher/tmp/notalib-2.1.0.tar.gz]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [boinc-client]: Remove: archive file [/home/abi/fetcher/tmp/boinc_client-1.4.2.tar.gz]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [notalib]: Start processing: finbourne-access-sdk
+[2023-06-27 11:26:09] INFO root fetch - processPackages [boinc-client]: Start processing: yeref
+[2023-06-27 11:26:09] INFO root fetch - main [MainThread]: End processing [notalib]: success
+[2023-06-27 11:26:09] INFO root fetch - main [MainThread]: End processing [boinc-client]: success
+[2023-06-27 11:26:09] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [zhconv-rs]: Downloading https://files.pythonhosted.org/packages/f0/ad/b148782875f987cf4813dab7219393865e0e317216e422426c7d41211ba5/zhconv_rs-0.2.0b0.tar.gz
+[2023-06-27 11:26:09] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-27 11:26:09] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 11:26:09] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Downloading https://files.pythonhosted.org/packages/27/59/f8b7296442ba1595b94e99521024803a7c927e214ceb0cff695bd604a50b/nonebot_plugin_songpicker2-0.2.4.tar.gz
+[2023-06-27 11:26:09] INFO root fetch - processPackages [alignments]: Downloading https://files.pythonhosted.org/packages/82/b0/c273f8bb366f5d8a55d155f343ac66f0f720ee6b2fcd2d93c0f17e083478/alignments-0.0.9.tar.gz
+[2023-06-27 11:26:09] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-27 11:26:09] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-06-27 11:26:09] INFO root fetch - processPackages [alignments]: executing diffoscope
+[2023-06-27 11:26:09] INFO root fetch - processPackages [alignments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alignments-0.0.8.tar.gz tmp/alignments-0.0.9.tar.gz --markdown 20230627/a/alignments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 11:26:09] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-27 11:26:10] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-27 11:26:10] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-06-27 11:26:10] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-27 11:26:10] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230627/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-27 11:26:10] INFO root fetch - processPackages [zhconv-rs]: Downloading https://files.pythonhosted.org/packages/32/6d/ee005ed651e28a27b24cc04e16d351ce871fcdc58adb3670b532cccd86c0/zhconv_rs-0.3.0b0.tar.gz
+[2023-06-27 11:26:10] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Downloading https://files.pythonhosted.org/packages/b9/5b/52ae215d2586bbb39c31f37054251f6b7aad794768bf2ec19fd659f4625d/nonebot_plugin_songpicker2-0.2.5.tar.gz
+[2023-06-27 11:26:10] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-27 11:26:10] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230627/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-27 11:26:10] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-27 11:26:10] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230627/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 11:26:10] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: executing diffoscope
+[2023-06-27 11:26:10] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_songpicker2-0.2.4.tar.gz tmp/nonebot_plugin_songpicker2-0.2.5.tar.gz --markdown 20230627/n/nonebot-plugin-songpicker2/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-27 11:26:10] INFO root fetch - processPackages [wikisource]: Remove: archive file [/home/abi/fetcher/tmp/wikisource-0.0.1.tar.gz]
+[2023-06-27 11:26:10] INFO root fetch - processPackages [wikisource]: Remove: archive file [/home/abi/fetcher/tmp/wikisource-0.0.2.tar.gz]
+[2023-06-27 11:26:10] INFO root fetch - processPackages [wikisource]: Start processing: PySide6-Fluent-Widgets
+[2023-06-27 11:26:10] INFO root fetch - main [MainThread]: End processing [wikisource]: success
+[2023-06-27 11:26:10] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-27 11:26:10] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/7f/10/c963e0f91f6d8a83f5035491106245cee8a7eec51fbba33a22c47e371ec2/PySide6-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-27 11:26:10] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/6b/bd/54ca10274cbee556aa6a79d64197c4e765cba4d3dfd14dcc758b91e4b422/PySide6-Fluent-Widgets-0.9.9.tar.gz
+[2023-06-27 11:26:10] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-06-27 11:26:10] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.9.8.tar.gz tmp/PySide6-Fluent-Widgets-0.9.9.tar.gz --markdown 20230627/P/PySide6-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-27 11:26:11] INFO root fetch - processPackages [zhconv-rs]: executing diffoscope
+[2023-06-27 11:26:11] INFO root fetch - processPackages [zhconv-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhconv_rs-0.2.0b0.tar.gz tmp/zhconv_rs-0.3.0b0.tar.gz --markdown 20230627/z/zhconv-rs/0.2.0b0-0.3.0b0/diff.md --exclude *.pyd
+[2023-06-27 11:26:11] INFO root fetch - processPackages [alignments]: Remove: archive file [/home/abi/fetcher/tmp/alignments-0.0.8.tar.gz]
+[2023-06-27 11:26:11] INFO root fetch - processPackages [alignments]: Remove: archive file [/home/abi/fetcher/tmp/alignments-0.0.9.tar.gz]
+[2023-06-27 11:26:11] INFO root fetch - main [MainThread]: End processing [alignments]: success
+[2023-06-27 11:26:11] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.3.tar.gz]
+[2023-06-27 11:26:11] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.4.tar.gz]
+[2023-06-27 11:26:11] INFO root fetch - main [MainThread]: End processing [QuantumPathQSOAPySDK]: success
+[2023-06-27 11:26:11] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-27 11:26:11] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-27 11:26:11] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-27 11:26:11] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_songpicker2-0.2.4.tar.gz]
+[2023-06-27 11:26:11] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_songpicker2-0.2.5.tar.gz]
+[2023-06-27 11:26:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-songpicker2]: success
+[2023-06-27 11:26:13] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-06-27 11:26:13] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-06-27 11:26:13] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-27 11:26:14] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-27 11:26:14] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-27 11:26:14] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-27 11:26:14] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-27 11:26:14] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.9.tar.gz]
+[2023-06-27 11:26:14] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-06-27 11:26:17] INFO root fetch - processPackages [zhconv-rs]: Remove: archive file [/home/abi/fetcher/tmp/zhconv_rs-0.2.0b0.tar.gz]
+[2023-06-27 11:26:17] INFO root fetch - processPackages [zhconv-rs]: Remove: archive file [/home/abi/fetcher/tmp/zhconv_rs-0.3.0b0.tar.gz]
+[2023-06-27 11:26:17] INFO root fetch - main [MainThread]: End processing [zhconv-rs]: success
+[2023-06-27 11:26:17] INFO root fetch - processPackages [Titan-Client]: Remove: archive file [/home/abi/fetcher/tmp/Titan_Client-1.19.7.tar.gz]
+[2023-06-27 11:26:17] INFO root fetch - processPackages [Titan-Client]: Remove: archive file [/home/abi/fetcher/tmp/Titan_Client-1.19.7.1.tar.gz]
+[2023-06-27 11:26:17] INFO root fetch - main [MainThread]: End processing [Titan-Client]: success
+[2023-06-27 11:26:26] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-23.6.4.0.tar.gz]
+[2023-06-27 11:26:26] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-23.6.5.0.tar.gz]
+[2023-06-27 11:26:26] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
+[2023-06-27 11:26:26] INFO root fetch - main [MainThread]: Store serial: [18660622]
