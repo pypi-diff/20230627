@@ -13154,3 +13154,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 07:38:59] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz]
 [2023-06-27 07:38:59] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-matlabdomain]: success
 [2023-06-27 07:38:59] INFO root fetch - main [MainThread]: Store serial: [18658390]
+[2023-06-27 07:44:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658390]
+[2023-06-27 07:44:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-27 07:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PointBlaster
+[2023-06-27 07:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arthub-api
+[2023-06-27 07:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iqrfpy
+[2023-06-27 07:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amocrm-api
+[2023-06-27 07:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: techiaith-tts
+[2023-06-27 07:44:08] INFO root fetch - processPackages [PointBlaster]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 07:44:08] INFO root fetch - processPackages [techiaith-tts]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-27 07:44:08] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 07:44:08] INFO root fetch - processPackages [amocrm-api]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-06-27 07:44:08] INFO root fetch - processPackages [arthub-api]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-27 07:44:08] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/fb/07/e2e3b3e4b751b7698b98ba65696c236dfd745874033a3347f2bc7aa90a9d/PointBlaster-0.1.8.tar.gz
+[2023-06-27 07:44:08] INFO root fetch - processPackages [techiaith-tts]: Downloading https://files.pythonhosted.org/packages/0d/22/69b003392876f9a155040d617d52d4a11641925410f58f9dff4f3f4f6df5/techiaith-tts-0.1.5.tar.gz
+[2023-06-27 07:44:08] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/6f/d1/bad043ec458848c14d8cc035694a8ac37b04516903e512d6c57439a05282/arthub_api-1.7.0.tar.gz
+[2023-06-27 07:44:08] INFO root fetch - processPackages [amocrm-api]: Downloading https://files.pythonhosted.org/packages/2f/9a/1ac8549057c1a978f9b663c77a215607e2585df9bb4a6abb7d3a6fb3be54/amocrm_api-2.6.0.tar.gz
+[2023-06-27 07:44:08] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-06-27 07:44:08] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/89/e6/f201708923ce68a9e58bdc7f556d4fbb24817ecd3a70e75a403add1c41bc/PointBlaster-0.1.9.tar.gz
+[2023-06-27 07:44:08] INFO root fetch - processPackages [techiaith-tts]: Downloading https://files.pythonhosted.org/packages/52/bb/5402d05520fc165cb9c92fa18795a1208bd25d1c6be933bed9efd6c682cf/techiaith-tts-0.1.6.tar.gz
+[2023-06-27 07:44:08] INFO root fetch - processPackages [PointBlaster]: executing diffoscope
+[2023-06-27 07:44:08] INFO root fetch - processPackages [PointBlaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PointBlaster-0.1.8.tar.gz tmp/PointBlaster-0.1.9.tar.gz --markdown 20230627/P/PointBlaster/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 07:44:08] INFO root fetch - processPackages [amocrm-api]: Downloading https://files.pythonhosted.org/packages/8d/f0/e90b3828628ee47399b41bb967850f372c6f1071ccfb22cc551c9224b6dc/amocrm_api-2.6.1.tar.gz
+[2023-06-27 07:44:08] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/f4/24/0845bc4c88e49cde9477a83ab373593a3f0c22eca3e316f1d8d077aae25f/arthub_api-1.7.1.tar.gz
+[2023-06-27 07:44:08] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-06-27 07:44:08] INFO root fetch - processPackages [amocrm-api]: executing diffoscope
+[2023-06-27 07:44:08] INFO root fetch - processPackages [amocrm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amocrm_api-2.6.0.tar.gz tmp/amocrm_api-2.6.1.tar.gz --markdown 20230627/a/amocrm-api/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-06-27 07:44:08] INFO root fetch - processPackages [techiaith-tts]: executing diffoscope
+[2023-06-27 07:44:08] INFO root fetch - processPackages [techiaith-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techiaith-tts-0.1.5.tar.gz tmp/techiaith-tts-0.1.6.tar.gz --markdown 20230627/t/techiaith-tts/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-27 07:44:09] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-06-27 07:44:09] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.7.0.tar.gz tmp/arthub_api-1.7.1.tar.gz --markdown 20230627/a/arthub-api/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-27 07:44:09] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-06-27 07:44:09] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230627/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 07:44:10] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.7.0.tar.gz]
+[2023-06-27 07:44:10] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.7.1.tar.gz]
+[2023-06-27 07:44:10] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-06-27 07:44:10] INFO root fetch - processPackages [amocrm-api]: Remove: archive file [/home/abi/fetcher/tmp/amocrm_api-2.6.0.tar.gz]
+[2023-06-27 07:44:10] INFO root fetch - processPackages [amocrm-api]: Remove: archive file [/home/abi/fetcher/tmp/amocrm_api-2.6.1.tar.gz]
+[2023-06-27 07:44:10] INFO root fetch - main [MainThread]: End processing [amocrm-api]: success
+[2023-06-27 07:44:10] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.8.tar.gz]
+[2023-06-27 07:44:10] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.9.tar.gz]
+[2023-06-27 07:44:10] INFO root fetch - main [MainThread]: End processing [PointBlaster]: success
+[2023-06-27 07:44:10] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-06-27 07:44:10] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-06-27 07:44:10] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-06-27 07:44:13] INFO root fetch - processPackages [techiaith-tts]: Remove: archive file [/home/abi/fetcher/tmp/techiaith-tts-0.1.5.tar.gz]
+[2023-06-27 07:44:13] INFO root fetch - processPackages [techiaith-tts]: Remove: archive file [/home/abi/fetcher/tmp/techiaith-tts-0.1.6.tar.gz]
+[2023-06-27 07:44:13] INFO root fetch - main [MainThread]: End processing [techiaith-tts]: success
+[2023-06-27 07:44:13] INFO root fetch - main [MainThread]: Store serial: [18658406]
