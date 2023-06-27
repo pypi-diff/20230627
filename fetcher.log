@@ -16117,3 +16117,121 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 10:14:52] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.9.tar.gz]
 [2023-06-27 10:14:52] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
 [2023-06-27 10:14:52] INFO root fetch - main [MainThread]: Store serial: [18659653]
+[2023-06-27 10:19:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659653]
+[2023-06-27 10:20:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-27 10:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dccs-logo
+[2023-06-27 10:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remla12-lib-release
+[2023-06-27 10:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DeepStorm
+[2023-06-27 10:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gtracks
+[2023-06-27 10:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yellowdog-python-examples
+[2023-06-27 10:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rowSumExplorer
+[2023-06-27 10:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-stream-kit
+[2023-06-27 10:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DeepStorm
+[2023-06-27 10:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywa
+[2023-06-27 10:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wlkatapython
+[2023-06-27 10:20:01] INFO root fetch - processPackages [dccs-logo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 10:20:01] INFO root fetch - processPackages [remla12-lib-release]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-27 10:20:01] INFO root fetch - processPackages [gtracks]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-27 10:20:01] INFO root fetch - processPackages [DeepStorm]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-27 10:20:01] WARNING root fetch - processPackages [rowSumExplorer]: Skipping, unable to determine old version
+[2023-06-27 10:20:01] INFO root fetch - processPackages [rowSumExplorer]: Start processing: FAIRSave
+[2023-06-27 10:20:01] INFO root fetch - processPackages [DeepStorm]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-27 10:20:01] INFO root fetch - main [MainThread]: End processing [rowSumExplorer] error
+[2023-06-27 10:20:02] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-06-27 10:20:02] WARNING root fetch - processPackages [data-stream-kit]: Skipping, unable to determine old version
+[2023-06-27 10:20:02] INFO root fetch - processPackages [data-stream-kit]: Start processing: detect-gene-feature
+[2023-06-27 10:20:02] INFO root fetch - main [MainThread]: End processing [data-stream-kit] error
+[2023-06-27 10:20:02] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc11] Old Version: [0.0.1rc10]
+[2023-06-27 10:20:02] INFO root fetch - processPackages [wlkatapython]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-27 10:20:02] INFO root fetch - processPackages [FAIRSave]: New version: [0.0.6.3] Old Version: [0.0.6.2]
+[2023-06-27 10:20:02] WARNING root fetch - processPackages [detect-gene-feature]: Skipping, unable to determine old version
+[2023-06-27 10:20:02] INFO root fetch - processPackages [detect-gene-feature]: Start processing: pybarb
+[2023-06-27 10:20:02] INFO root fetch - main [MainThread]: End processing [detect-gene-feature] error
+[2023-06-27 10:20:02] INFO root fetch - processPackages [pybarb]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-27 10:20:02] INFO root fetch - processPackages [dccs-logo]: Downloading https://files.pythonhosted.org/packages/e9/f5/cd8c9e42ae36e90c8555284fd58dd9c52ba35fac56ffeb69ad0c60cb3e8a/dccs_logo-1.0.0.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [remla12-lib-release]: Downloading https://files.pythonhosted.org/packages/1b/83/2beabe73cdabcbc1ad0f3ea5989e0994e5631307f747bec6eb521d724a50/remla12_lib_release-0.1.6.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [DeepStorm]: Downloading https://files.pythonhosted.org/packages/eb/9a/6ae5ce2070dde05b881563273fce9dfdf8dacaf53c200246844e0f0bc33f/DeepStorm-1.0.4.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [DeepStorm]: Downloading https://files.pythonhosted.org/packages/eb/9a/6ae5ce2070dde05b881563273fce9dfdf8dacaf53c200246844e0f0bc33f/DeepStorm-1.0.4.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/72/d0/ab14050c142e12f67eb9877373ab0d64d5cf8170a6d29946a18bf74d4c16/pywa-0.0.1rc10-py3-none-any.whl
+[2023-06-27 10:20:02] INFO root fetch - processPackages [gtracks]: Downloading https://files.pythonhosted.org/packages/5a/4a/a6497d19725693383059c19b571c3809b1f1583cf9cd5168ad019304b03b/gtracks-1.9.1.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [wlkatapython]: Downloading https://files.pythonhosted.org/packages/e5/d0/ba89154753a2257177bb654f967ee1d62c742227a2ced1dff0ea7d9c37ca/wlkatapython-0.0.4.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/11/1d/9676a12d02f330e91364324ae65f13c72241b1e61ed47588d9a1a8d225a8/yellowdog-python-examples-6.0.3.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [pybarb]: Downloading https://files.pythonhosted.org/packages/b6/b8/6b69ba12e33053d5e1c9eb62a3fab3a140416bba6aa367cacedb872f0ac1/pybarb-0.3.6.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/a3/be/1463254a4e1900f5433d2fea2a7f8bf742c2cc37ec80c35a6476ffdfefe4/FAIRSave-0.0.6.2-py3-none-any.whl
+[2023-06-27 10:20:02] INFO root fetch - processPackages [DeepStorm]: Downloading https://files.pythonhosted.org/packages/df/64/08ba6e6f06dee59955946785bc7f42958b539c61e72244d25e4c946ed18c/DeepStorm-1.0.5.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [remla12-lib-release]: Downloading https://files.pythonhosted.org/packages/26/2b/06950e9dbbe7061eca1c186f45b0bc331a0d6c5a0e800e4501848e80055c/remla12_lib_release-0.1.7.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/57/6e/a6173ad90673e97d49c5ea1599202e6e2950117536e377160dfe99961345/pywa-0.0.1rc11-py3-none-any.whl
+[2023-06-27 10:20:02] INFO root fetch - processPackages [DeepStorm]: Downloading https://files.pythonhosted.org/packages/df/64/08ba6e6f06dee59955946785bc7f42958b539c61e72244d25e4c946ed18c/DeepStorm-1.0.5.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [wlkatapython]: Downloading https://files.pythonhosted.org/packages/5c/d2/b7caf985c686f31a4ec5d0876a376a2cbd70806e970cafcb7ed07fcc3734/wlkatapython-0.0.5.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [dccs-logo]: Downloading https://files.pythonhosted.org/packages/d0/49/065c3278ded20511c0b9e760319fef037f3c020e5bda449f0980e36fba03/dccs_logo-1.0.1.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/3e/4a/912c57d16dc6ff56ed601e5cba799bc5c2bbf1455bfae4cc2aaaaa180b55/yellowdog-python-examples-6.0.4.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [pybarb]: Downloading https://files.pythonhosted.org/packages/a6/b4/681d032476de99524e6e44a4dcc0e36275caec2c76f62512ee1dab39404d/pybarb-0.3.7.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-06-27 10:20:02] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc10-py3-none-any.whl.zip tmp/pywa-0.0.1rc11-py3-none-any.whl.zip --markdown 20230627/p/pywa/0.0.1rc10-0.0.1rc11/diff.md --exclude *.pyd
+[2023-06-27 10:20:02] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/28/77/6840aa7602040fc1c9dcfb029e4bc3e22fde0945aa3415694a23f389a111/FAIRSave-0.0.6.3.tar.gz
+[2023-06-27 10:20:02] INFO root fetch - processPackages [remla12-lib-release]: executing diffoscope
+[2023-06-27 10:20:02] INFO root fetch - processPackages [remla12-lib-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remla12_lib_release-0.1.6.tar.gz tmp/remla12_lib_release-0.1.7.tar.gz --markdown 20230627/r/remla12-lib-release/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-27 10:20:02] INFO root fetch - processPackages [wlkatapython]: executing diffoscope
+[2023-06-27 10:20:02] INFO root fetch - processPackages [wlkatapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkatapython-0.0.4.tar.gz tmp/wlkatapython-0.0.5.tar.gz --markdown 20230627/w/wlkatapython/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-27 10:20:02] INFO root fetch - processPackages [DeepStorm]: executing diffoscope
+[2023-06-27 10:20:02] INFO root fetch - processPackages [DeepStorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepStorm-1.0.4.tar.gz tmp/DeepStorm-1.0.5.tar.gz --markdown 20230627/D/DeepStorm/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-27 10:20:02] INFO root fetch - processPackages [pybarb]: executing diffoscope
+[2023-06-27 10:20:02] INFO root fetch - processPackages [pybarb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybarb-0.3.6.tar.gz tmp/pybarb-0.3.7.tar.gz --markdown 20230627/p/pybarb/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-27 10:20:02] INFO root fetch - processPackages [DeepStorm]: executing diffoscope
+[2023-06-27 10:20:02] INFO root fetch - processPackages [DeepStorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepStorm-1.0.4.tar.gz tmp/DeepStorm-1.0.5.tar.gz --markdown 20230627/D/DeepStorm/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-27 10:20:02] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-06-27 10:20:02] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-6.0.3.tar.gz tmp/yellowdog-python-examples-6.0.4.tar.gz --markdown 20230627/y/yellowdog-python-examples/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-06-27 10:20:02] INFO root fetch - processPackages [dccs-logo]: executing diffoscope
+[2023-06-27 10:20:02] INFO root fetch - processPackages [dccs-logo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dccs_logo-1.0.0.tar.gz tmp/dccs_logo-1.0.1.tar.gz --markdown 20230627/d/dccs-logo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 10:20:02] INFO root fetch - processPackages [FAIRSave]: executing diffoscope
+[2023-06-27 10:20:02] INFO root fetch - processPackages [FAIRSave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FAIRSave-0.0.6.2-py3-none-any.whl.zip tmp/FAIRSave-0.0.6.3.tar.gz --markdown 20230627/F/FAIRSave/0.0.6.2-0.0.6.3/diff.md --exclude *.pyd
+[2023-06-27 10:20:03] INFO root fetch - processPackages [gtracks]: Downloading https://files.pythonhosted.org/packages/51/4c/36e81394bd9c6f486c490b7be8be6b600d5c599b7f290d3dfd3949ede8cd/gtracks-1.9.2.tar.gz
+[2023-06-27 10:20:04] INFO root fetch - processPackages [remla12-lib-release]: Remove: archive file [/home/abi/fetcher/tmp/remla12_lib_release-0.1.6.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [remla12-lib-release]: Remove: archive file [/home/abi/fetcher/tmp/remla12_lib_release-0.1.7.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [remla12-lib-release]: Start processing: rustlite
+[2023-06-27 10:20:04] INFO root fetch - main [MainThread]: End processing [remla12-lib-release]: success
+[2023-06-27 10:20:04] INFO root fetch - processPackages [rustlite]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [wlkatapython]: Remove: archive file [/home/abi/fetcher/tmp/wlkatapython-0.0.4.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [wlkatapython]: Remove: archive file [/home/abi/fetcher/tmp/wlkatapython-0.0.5.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [wlkatapython]: Start processing: PythonHuff
+[2023-06-27 10:20:04] INFO root fetch - main [MainThread]: End processing [wlkatapython]: success
+[2023-06-27 10:20:04] INFO root fetch - processPackages [rustlite]: Downloading https://files.pythonhosted.org/packages/a5/23/434e943848f8fa26f93bc9425baef68e8382398212c9dc5b49f38574aa95/rustlite-0.1.3.tar.gz
+[2023-06-27 10:20:04] INFO root fetch - processPackages [PythonHuff]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [pybarb]: Remove: archive file [/home/abi/fetcher/tmp/pybarb-0.3.6.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [pybarb]: Remove: archive file [/home/abi/fetcher/tmp/pybarb-0.3.7.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - main [MainThread]: End processing [pybarb]: success
+[2023-06-27 10:20:04] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc10-py3-none-any.whl.zip]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc11-py3-none-any.whl.zip]
+[2023-06-27 10:20:04] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-06-27 10:20:04] INFO root fetch - processPackages [dccs-logo]: Remove: archive file [/home/abi/fetcher/tmp/dccs_logo-1.0.0.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [dccs-logo]: Remove: archive file [/home/abi/fetcher/tmp/dccs_logo-1.0.1.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - main [MainThread]: End processing [dccs-logo]: success
+[2023-06-27 10:20:04] INFO root fetch - processPackages [PythonHuff]: Downloading https://files.pythonhosted.org/packages/59/0c/939a6ac934e67bcb030afcf50dd1bbdf6d737ab70079400a769a6d09ac15/PythonHuff-1.0.3.tar.gz
+[2023-06-27 10:20:04] INFO root fetch - processPackages [rustlite]: Downloading https://files.pythonhosted.org/packages/40/d1/a82457e48766f2f5f780cd36d397253217e212d908d3a0aafd4924e3fc57/rustlite-0.1.4.tar.gz
+[2023-06-27 10:20:04] INFO root fetch - processPackages [DeepStorm]: Remove: archive file [/home/abi/fetcher/tmp/DeepStorm-1.0.4.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [DeepStorm]: Remove: archive file [/home/abi/fetcher/tmp/DeepStorm-1.0.5.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - main [MainThread]: End processing [DeepStorm]: success
+[2023-06-27 10:20:04] INFO root fetch - processPackages [rustlite]: executing diffoscope
+[2023-06-27 10:20:04] INFO root fetch - processPackages [rustlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustlite-0.1.3.tar.gz tmp/rustlite-0.1.4.tar.gz --markdown 20230627/r/rustlite/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-27 10:20:04] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.2-py3-none-any.whl.zip]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.3.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - main [MainThread]: End processing [FAIRSave]: success
+[2023-06-27 10:20:04] INFO root fetch - main [MainThread]: End processing [DeepStorm]: success
+[2023-06-27 10:20:04] INFO root fetch - processPackages [PythonHuff]: Downloading https://files.pythonhosted.org/packages/20/fb/028dfd7074b0118edcb6fcc40b44b44c67bb0da4d5f0ba1b5efb8ac4df48/PythonHuff-1.0.4.tar.gz
+[2023-06-27 10:20:04] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.3.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.4.tar.gz]
+[2023-06-27 10:20:04] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-06-27 10:20:04] INFO root fetch - processPackages [PythonHuff]: executing diffoscope
+[2023-06-27 10:20:04] INFO root fetch - processPackages [PythonHuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonHuff-1.0.3.tar.gz tmp/PythonHuff-1.0.4.tar.gz --markdown 20230627/P/PythonHuff/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-27 10:20:05] INFO root fetch - processPackages [gtracks]: executing diffoscope
+[2023-06-27 10:20:05] INFO root fetch - processPackages [gtracks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtracks-1.9.1.tar.gz tmp/gtracks-1.9.2.tar.gz --markdown 20230627/g/gtracks/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-27 10:20:05] INFO root fetch - processPackages [rustlite]: Remove: archive file [/home/abi/fetcher/tmp/rustlite-0.1.3.tar.gz]
+[2023-06-27 10:20:05] INFO root fetch - processPackages [rustlite]: Remove: archive file [/home/abi/fetcher/tmp/rustlite-0.1.4.tar.gz]
+[2023-06-27 10:20:05] INFO root fetch - main [MainThread]: End processing [rustlite]: success
+[2023-06-27 10:20:06] INFO root fetch - processPackages [PythonHuff]: Remove: archive file [/home/abi/fetcher/tmp/PythonHuff-1.0.3.tar.gz]
+[2023-06-27 10:20:06] INFO root fetch - processPackages [PythonHuff]: Remove: archive file [/home/abi/fetcher/tmp/PythonHuff-1.0.4.tar.gz]
+[2023-06-27 10:20:06] INFO root fetch - main [MainThread]: End processing [PythonHuff]: success
+[2023-06-27 10:20:06] INFO root fetch - processPackages [gtracks]: Remove: archive file [/home/abi/fetcher/tmp/gtracks-1.9.1.tar.gz]
+[2023-06-27 10:20:06] INFO root fetch - processPackages [gtracks]: Remove: archive file [/home/abi/fetcher/tmp/gtracks-1.9.2.tar.gz]
+[2023-06-27 10:20:06] INFO root fetch - main [MainThread]: End processing [gtracks]: success
+[2023-06-27 10:20:06] INFO root fetch - main [MainThread]: Store serial: [18659704]
