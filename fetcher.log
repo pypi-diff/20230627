@@ -21748,3 +21748,156 @@ AssertionError: tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz does not exist
 [2023-06-27 13:48:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-27 13:48:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-27 13:48:22] INFO root fetch - main [MainThread]: Store serial: [18662126]
+[2023-06-27 13:53:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18662126]
+[2023-06-27 13:53:31] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-27 13:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: todo-by
+[2023-06-27 13:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: femwell
+[2023-06-27 13:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gull-api
+[2023-06-27 13:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytorch-show
+[2023-06-27 13:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jam-ai
+[2023-06-27 13:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icoc
+[2023-06-27 13:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensora
+[2023-06-27 13:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-pfx
+[2023-06-27 13:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drf-misc
+[2023-06-27 13:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dl-utils385
+[2023-06-27 13:53:31] INFO root fetch - processPackages [pytorch-show]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-27 13:53:31] INFO root fetch - processPackages [icoc]: New version: [1.7.0a1] Old Version: [1.7.0]
+[2023-06-27 13:53:31] INFO root fetch - processPackages [jam-ai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 13:53:31] INFO root fetch - processPackages [gull-api]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-06-27 13:53:31] INFO root fetch - processPackages [tensora]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-27 13:53:31] INFO root fetch - processPackages [drf-misc]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-27 13:53:31] INFO root fetch - processPackages [todo-by]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-27 13:53:31] INFO root fetch - processPackages [femwell]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 13:53:31] INFO root fetch - processPackages [dl-utils385]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-27 13:53:31] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev64]
+[2023-06-27 13:53:31] INFO root fetch - processPackages [pytorch-show]: Downloading https://files.pythonhosted.org/packages/a3/fc/f10dee36fab05c4a41a6fa6a14824ed715b08d2325ebdfe9c0af2709b916/pytorch_show-0.1.1.tar.gz
+[2023-06-27 13:53:31] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/10/1d/306b7bc3ca851c690d193c2e4326f06c06965292bd2fff93d2c41f06de6e/drf_misc-0.0.9.tar.gz
+[2023-06-27 13:53:31] INFO root fetch - processPackages [icoc]: Downloading https://files.pythonhosted.org/packages/11/b6/15d4e6e28a9043e541ff97b8bde2eef15a7442f1f9c6f58ab190c7a88360/icoc-1.7.0.tar.gz
+[2023-06-27 13:53:31] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/66/14/b0f8eab531a8b4d5d224aa2a6875874d16527bcd7c6b72d637b084bca21f/femwell-0.1.2.tar.gz
+[2023-06-27 13:53:31] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/d9/3f/4d544023e78db4af89786a5d6b84b7d83d4bf02ce88ef1162acdb23cd28c/jam_ai-0.1.8.tar.gz
+[2023-06-27 13:53:31] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/41/08/6c33cdb987efb96236f8b9b2da9f04ce44aa611e797a764bcbe58c141e57/django-pfx-1.2.dev64.tar.gz
+[2023-06-27 13:53:31] INFO root fetch - processPackages [todo-by]: Downloading https://files.pythonhosted.org/packages/f6/83/af01c9fd0e0640c9a5db1397a4b3d2f0e8cb2fb04fc10e9ded8713586f33/todo_by-1.1.0.tar.gz
+[2023-06-27 13:53:31] INFO root fetch - processPackages [tensora]: Downloading https://files.pythonhosted.org/packages/ef/25/43c8882806d46d489f167921c8e81195b77a12353c83976ea48058a228ba/tensora-0.0.7.tar.gz
+[2023-06-27 13:53:31] INFO root fetch - processPackages [dl-utils385]: Downloading https://files.pythonhosted.org/packages/21/ba/aeaa6249bb476c72c9e7a7f4d83b8115261c2140f1cb2c81aad5d9edc49e/dl_utils385-0.9.3.tar.gz
+[2023-06-27 13:53:31] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/5e/fb/a3a7e9cec061f09fa32a68f380ee4f91bf66ceb98ee85c60069fc99ab5ac/gull_api-0.0.13.tar.gz
+[2023-06-27 13:53:32] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/30/a4/35cbfc4ab15c1d3a4a0139736a74574e536a33c043f89a319d32bbf53bc7/drf_misc-0.1.0.tar.gz
+[2023-06-27 13:53:32] INFO root fetch - processPackages [pytorch-show]: Downloading https://files.pythonhosted.org/packages/e9/f0/c5733c004efb16fa07e4d35ff98092d85d10ea0a0c6221054c66a75da86c/pytorch_show-0.1.2.tar.gz
+[2023-06-27 13:53:32] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/d7/2b/2813590508034d44c9278769f738a70354b9a3a59747d8a5f2f4f4741a2a/femwell-0.1.3.tar.gz
+[2023-06-27 13:53:32] INFO root fetch - processPackages [icoc]: Downloading https://files.pythonhosted.org/packages/fc/5e/b01e92d9dce1db89033db9dc401e067b0977c3830320d647a9fb24119e5b/icoc-1.7.0a1.tar.gz
+[2023-06-27 13:53:32] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/33/a5/cead084bc1c30270a3968e9457d598f83dda13dc6b23d4ded3bc3227822a/jam_ai-0.1.9.tar.gz
+[2023-06-27 13:53:32] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-06-27 13:53:32] INFO root fetch - processPackages [dl-utils385]: Downloading https://files.pythonhosted.org/packages/31/77/db3a7493d93c8a055b7f6daa89ee0b041b70752b3121751739e96aa7a6be/dl_utils385-0.9.4.tar.gz
+[2023-06-27 13:53:32] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-06-27 13:53:32] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.0.9.tar.gz tmp/drf_misc-0.1.0.tar.gz --markdown 20230627/d/drf-misc/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-27 13:53:32] INFO root fetch - processPackages [femwell]: executing diffoscope
+[2023-06-27 13:53:32] INFO root fetch - processPackages [femwell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femwell-0.1.2.tar.gz tmp/femwell-0.1.3.tar.gz --markdown 20230627/f/femwell/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 13:53:32] INFO root fetch - processPackages [pytorch-show]: executing diffoscope
+[2023-06-27 13:53:32] INFO root fetch - processPackages [pytorch-show]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_show-0.1.1.tar.gz tmp/pytorch_show-0.1.2.tar.gz --markdown 20230627/p/pytorch-show/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-27 13:53:32] INFO root fetch - processPackages [icoc]: executing diffoscope
+[2023-06-27 13:53:32] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/bb/c0/6d6c3280629a05aa952bd7e279ce6f6754fbe660b85962be84ca09171e64/gull_api-0.0.14.tar.gz
+[2023-06-27 13:53:32] INFO root fetch - processPackages [icoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icoc-1.7.0.tar.gz tmp/icoc-1.7.0a1.tar.gz --markdown 20230627/i/icoc/1.7.0-1.7.0a1/diff.md --exclude *.pyd
+[2023-06-27 13:53:32] INFO root fetch - processPackages [todo-by]: Downloading https://files.pythonhosted.org/packages/a6/9e/7645de7198e15d859cfb5e7909193eab562ea899fb554a0575aa98dcf846/todo_by-1.2.0.tar.gz
+[2023-06-27 13:53:32] INFO root fetch - processPackages [jam-ai]: executing diffoscope
+[2023-06-27 13:53:32] INFO root fetch - processPackages [jam-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jam_ai-0.1.8.tar.gz tmp/jam_ai-0.1.9.tar.gz --markdown 20230627/j/jam-ai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 13:53:32] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-27 13:53:32] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev64.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230627/d/django-pfx/1.2.dev64-1.2.dev8/diff.md --exclude *.pyd
+[2023-06-27 13:53:32] INFO root fetch - processPackages [gull-api]: executing diffoscope
+[2023-06-27 13:53:32] INFO root fetch - processPackages [gull-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gull_api-0.0.13.tar.gz tmp/gull_api-0.0.14.tar.gz --markdown 20230627/g/gull-api/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-06-27 13:53:32] INFO root fetch - processPackages [todo-by]: executing diffoscope
+[2023-06-27 13:53:32] INFO root fetch - processPackages [todo-by]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todo_by-1.1.0.tar.gz tmp/todo_by-1.2.0.tar.gz --markdown 20230627/t/todo-by/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-27 13:53:32] INFO root fetch - processPackages [dl-utils385]: executing diffoscope
+[2023-06-27 13:53:32] INFO root fetch - processPackages [dl-utils385]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl_utils385-0.9.3.tar.gz tmp/dl_utils385-0.9.4.tar.gz --markdown 20230627/d/dl-utils385/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-27 13:53:32] INFO root fetch - processPackages [tensora]: Downloading https://files.pythonhosted.org/packages/28/99/91e5ea45c76c1fa4927e6c6e053ec6f9da569ea7744c14106baee0933472/tensora-0.0.8.tar.gz
+[2023-06-27 13:53:32] INFO root fetch - processPackages [tensora]: executing diffoscope
+[2023-06-27 13:53:32] INFO root fetch - processPackages [tensora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensora-0.0.7.tar.gz tmp/tensora-0.0.8.tar.gz --markdown 20230627/t/tensora/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-27 13:53:34] INFO root fetch - processPackages [pytorch-show]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_show-0.1.1.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [pytorch-show]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_show-0.1.2.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [pytorch-show]: Start processing: bkapi-plugins-py
+[2023-06-27 13:53:34] INFO root fetch - main [MainThread]: End processing [pytorch-show]: success
+[2023-06-27 13:53:34] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.627] Old Version: [0.625]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/82/6f/711de4027f79fd2979465074cae4c7f1d241ac0e4b786c7d17423f2d6028/bkapi-plugins-py-0.625.tar.gz
+[2023-06-27 13:53:34] INFO root fetch - processPackages [todo-by]: Remove: archive file [/home/abi/fetcher/tmp/todo_by-1.1.0.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [todo-by]: Remove: archive file [/home/abi/fetcher/tmp/todo_by-1.2.0.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [todo-by]: Start processing: filesharee
+[2023-06-27 13:53:34] INFO root fetch - main [MainThread]: End processing [todo-by]: success
+[2023-06-27 13:53:34] WARNING root fetch - processPackages [filesharee]: Skipping, unable to determine old version
+[2023-06-27 13:53:34] INFO root fetch - processPackages [filesharee]: Start processing: wikisource
+[2023-06-27 13:53:34] INFO root fetch - main [MainThread]: End processing [filesharee] error
+[2023-06-27 13:53:34] INFO root fetch - processPackages [wikisource]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [femwell]: Remove: archive file [/home/abi/fetcher/tmp/femwell-0.1.2.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [femwell]: Remove: archive file [/home/abi/fetcher/tmp/femwell-0.1.3.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [femwell]: Start processing: wwpdb.utils.nmr
+[2023-06-27 13:53:34] INFO root fetch - main [MainThread]: End processing [femwell]: success
+[2023-06-27 13:53:34] INFO root fetch - processPackages [wwpdb.utils.nmr]: New version: [0.27] Old Version: [0.26.2]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/38/66/608455b22d5e6e77b795daae4140ab5ba63d8cd9dc1beae66e8d901279a3/wikisource-0.0.5.tar.gz
+[2023-06-27 13:53:34] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.13.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.14.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [gull-api]: Start processing: zadarapyV2
+[2023-06-27 13:53:34] INFO root fetch - main [MainThread]: End processing [gull-api]: success
+[2023-06-27 13:53:34] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.9.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.0.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [drf-misc]: Start processing: modal-client
+[2023-06-27 13:53:34] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-06-27 13:53:34] INFO root fetch - processPackages [dl-utils385]: Remove: archive file [/home/abi/fetcher/tmp/dl_utils385-0.9.3.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [dl-utils385]: Remove: archive file [/home/abi/fetcher/tmp/dl_utils385-0.9.4.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [dl-utils385]: Start processing: modal
+[2023-06-27 13:53:34] INFO root fetch - main [MainThread]: End processing [dl-utils385]: success
+[2023-06-27 13:53:34] INFO root fetch - processPackages [wwpdb.utils.nmr]: Downloading https://files.pythonhosted.org/packages/37/21/31783cc4bd2daa18063a0a91b566903deb2cd446a40ec268794ccd97a44a/wwpdb.utils.nmr-0.26.2.tar.gz
+[2023-06-27 13:53:34] INFO root fetch - processPackages [modal-client]: New version: [0.49.2475] Old Version: [0.49.2471]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [modal]: New version: [0.49.2475] Old Version: [0.49.2471]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/c4/24/745a7fba435b1ae0276bcaa3bffb5d24f19cbd84e5e66897d6ca0c3767f5/bkapi-plugins-py-0.627.tar.gz
+[2023-06-27 13:53:34] WARNING root fetch - processPackages [zadarapyV2]: Skipping, unable to determine old version
+[2023-06-27 13:53:34] INFO root fetch - processPackages [zadarapyV2]: Start processing: grav-toolbox
+[2023-06-27 13:53:34] INFO root fetch - main [MainThread]: End processing [zadarapyV2] error
+[2023-06-27 13:53:34] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.8.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - processPackages [wikisource]: Downloading https://files.pythonhosted.org/packages/a2/69/3773c3c879c59d66c323adea954503ab28941b452e95301b465a883e9fe3/wikisource-0.0.6.tar.gz
+[2023-06-27 13:53:34] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.9.tar.gz]
+[2023-06-27 13:53:34] INFO root fetch - main [MainThread]: End processing [jam-ai]: success
+[2023-06-27 13:53:34] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/82/52/5a6445b7bb30899d2c2e9d8810c27ceccba92368d99b1e1f3d4e39a3a34c/modal_client-0.49.2471-py3-none-any.whl
+[2023-06-27 13:53:34] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/f9/86/bb7c1790450f4f22a96cee6647948e6669758fc108abd2f2181713ce1008/modal-0.49.2471-py3-none-any.whl
+[2023-06-27 13:53:35] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-06-27 13:53:35] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.625.tar.gz tmp/bkapi-plugins-py-0.627.tar.gz --markdown 20230627/b/bkapi-plugins-py/0.625-0.627/diff.md --exclude *.pyd
+[2023-06-27 13:53:35] INFO root fetch - processPackages [grav-toolbox]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-27 13:53:35] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev64.tar.gz]
+[2023-06-27 13:53:35] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev8.tar.gz]
+[2023-06-27 13:53:35] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-27 13:53:35] INFO root fetch - processPackages [wikisource]: executing diffoscope
+[2023-06-27 13:53:35] INFO root fetch - processPackages [wikisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikisource-0.0.5.tar.gz tmp/wikisource-0.0.6.tar.gz --markdown 20230627/w/wikisource/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-27 13:53:35] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/40/ec/54c66255f6a415dbad7187482f18cb883a99e1b30e67293e94aec06a46b8/modal-0.49.2475-py3-none-any.whl
+[2023-06-27 13:53:35] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/4a/74/dc673fb0e406f798d6482e986fa6cf471b8ef4bd8a411a926ad4859c0be5/modal_client-0.49.2475-py3-none-any.whl
+[2023-06-27 13:53:35] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-06-27 13:53:35] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.49.2471-py3-none-any.whl.zip tmp/modal-0.49.2475-py3-none-any.whl.zip --markdown 20230627/m/modal/0.49.2471-0.49.2475/diff.md --exclude *.pyd
+[2023-06-27 13:53:35] INFO root fetch - processPackages [grav-toolbox]: Downloading https://files.pythonhosted.org/packages/bc/88/ccabe813b1142f161e7cc0424b2e74981f438ecf50a5d52e09cea3e7c95b/grav-toolbox-0.2.0.tar.gz
+[2023-06-27 13:53:35] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-06-27 13:53:35] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2471-py3-none-any.whl.zip tmp/modal_client-0.49.2475-py3-none-any.whl.zip --markdown 20230627/m/modal-client/0.49.2471-0.49.2475/diff.md --exclude *.pyd
+[2023-06-27 13:53:35] INFO root fetch - processPackages [wwpdb.utils.nmr]: Downloading https://files.pythonhosted.org/packages/85/d8/5ce4c2c84a29ba2347d24dcbc7e28c4264081657436bbbfa86863adda44e/wwpdb.utils.nmr-0.27.tar.gz
+[2023-06-27 13:53:35] INFO root fetch - processPackages [wwpdb.utils.nmr]: executing diffoscope
+[2023-06-27 13:53:35] INFO root fetch - processPackages [wwpdb.utils.nmr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.nmr-0.26.2.tar.gz tmp/wwpdb.utils.nmr-0.27.tar.gz --markdown 20230627/w/wwpdb.utils.nmr/0.26.2-0.27/diff.md --exclude *.pyd
+[2023-06-27 13:53:35] INFO root fetch - processPackages [grav-toolbox]: Downloading https://files.pythonhosted.org/packages/b8/e8/7ec1140b19bb9ad09677aef387f137aa80711d6c0d26b4189c7c6d90d3e6/grav-toolbox-0.2.1.tar.gz
+[2023-06-27 13:53:35] INFO root fetch - processPackages [grav-toolbox]: executing diffoscope
+[2023-06-27 13:53:35] INFO root fetch - processPackages [grav-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grav-toolbox-0.2.0.tar.gz tmp/grav-toolbox-0.2.1.tar.gz --markdown 20230627/g/grav-toolbox/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-27 13:53:36] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2471-py3-none-any.whl.zip]
+[2023-06-27 13:53:36] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2475-py3-none-any.whl.zip]
+[2023-06-27 13:53:36] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-06-27 13:53:36] INFO root fetch - processPackages [wikisource]: Remove: archive file [/home/abi/fetcher/tmp/wikisource-0.0.5.tar.gz]
+[2023-06-27 13:53:36] INFO root fetch - processPackages [wikisource]: Remove: archive file [/home/abi/fetcher/tmp/wikisource-0.0.6.tar.gz]
+[2023-06-27 13:53:36] INFO root fetch - main [MainThread]: End processing [wikisource]: success
+[2023-06-27 13:53:37] INFO root fetch - processPackages [grav-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/grav-toolbox-0.2.0.tar.gz]
+[2023-06-27 13:53:37] INFO root fetch - processPackages [grav-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/grav-toolbox-0.2.1.tar.gz]
+[2023-06-27 13:53:37] INFO root fetch - main [MainThread]: End processing [grav-toolbox]: success
+[2023-06-27 13:53:37] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2471-py3-none-any.whl.zip]
+[2023-06-27 13:53:37] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2475-py3-none-any.whl.zip]
+[2023-06-27 13:53:37] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-06-27 13:53:38] INFO root fetch - processPackages [icoc]: Remove: archive file [/home/abi/fetcher/tmp/icoc-1.7.0.tar.gz]
+[2023-06-27 13:53:38] INFO root fetch - processPackages [icoc]: Remove: archive file [/home/abi/fetcher/tmp/icoc-1.7.0a1.tar.gz]
+[2023-06-27 13:53:38] INFO root fetch - main [MainThread]: End processing [icoc]: success
+[2023-06-27 13:53:38] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.625.tar.gz]
+[2023-06-27 13:53:38] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.627.tar.gz]
+[2023-06-27 13:53:38] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-06-27 13:53:43] INFO root fetch - processPackages [tensora]: Remove: archive file [/home/abi/fetcher/tmp/tensora-0.0.7.tar.gz]
+[2023-06-27 13:53:43] INFO root fetch - processPackages [tensora]: Remove: archive file [/home/abi/fetcher/tmp/tensora-0.0.8.tar.gz]
+[2023-06-27 13:53:43] INFO root fetch - main [MainThread]: End processing [tensora]: success
+[2023-06-27 13:53:44] INFO root fetch - processPackages [wwpdb.utils.nmr]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.nmr-0.26.2.tar.gz]
+[2023-06-27 13:53:44] INFO root fetch - processPackages [wwpdb.utils.nmr]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.nmr-0.27.tar.gz]
+[2023-06-27 13:53:44] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.nmr]: success
+[2023-06-27 13:53:44] INFO root fetch - main [MainThread]: Store serial: [18662179]
