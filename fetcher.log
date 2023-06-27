@@ -12597,3 +12597,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 06:59:06] INFO root fetch - processPackages [irisml-tasks]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-0.0.9.tar.gz]
 [2023-06-27 06:59:06] INFO root fetch - main [MainThread]: End processing [irisml-tasks]: success
 [2023-06-27 06:59:06] INFO root fetch - main [MainThread]: Store serial: [18658197]
+[2023-06-27 07:04:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658197]
+[2023-06-27 07:04:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-27 07:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-06-27 07:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BLACKFORGE2
+[2023-06-27 07:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckdbt
+[2023-06-27 07:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-rest-framework
+[2023-06-27 07:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remindmail
+[2023-06-27 07:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addons-oca-sale-promotion
+[2023-06-27 07:04:15] INFO root fetch - processPackages [duckdbt]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-27 07:04:15] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: New version: [16.0.20230626.0] Old Version: [16.0.20230607.0]
+[2023-06-27 07:04:15] INFO root fetch - processPackages [BLACKFORGE2]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-27 07:04:15] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-27 07:04:15] INFO root fetch - processPackages [remindmail]: New version: [2023.6.8.1] Old Version: [2023.6.4.2]
+[2023-06-27 07:04:15] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-27 07:04:15] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/67/0b/033521a406e62da074c1f6d6ff2e7dc75cbd62d284bd1a2c0043b67e34a5/BLACKFORGE2-0.2.4.tar.gz
+[2023-06-27 07:04:15] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: New version: [13.0.20230626.0] Old Version: [13.0.20230625.0]
+[2023-06-27 07:04:15] INFO root fetch - processPackages [duckdbt]: Downloading https://files.pythonhosted.org/packages/ed/16/e2d71b51e0c8ef3e52d8e268512811054bedbdb5bd840f6a640dfc2f1051/duckdbt-0.3.2.tar.gz
+[2023-06-27 07:04:15] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Downloading https://files.pythonhosted.org/packages/05/3f/15310497c79acb2c1374fbdf4d86f2edac1a0de8d1cd7a77294dd033d880/odoo_addons_oca_rest_framework-16.0.20230607.0-py3-none-any.whl
+[2023-06-27 07:04:15] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/01/b5/b9b34f96fd2c17579a5214a4545c77066f02f7d535159646d53cc9daecbd/odoo13_addons_oca_sale_promotion-13.0.20230625.0-py3-none-any.whl
+[2023-06-27 07:04:15] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-27 07:04:15] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/b3/73/d06ede570a844307c75d91e105fc9f7a789f8d264b78962a5e8cec1ea933/remindmail-2023.6.4.2.tar.gz
+[2023-06-27 07:04:15] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/ae/4d/057ab168d86d114251c29e56e74850590cf6b5509162abc455fa5023cafb/BLACKFORGE2-0.2.5.tar.gz
+[2023-06-27 07:04:15] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-27 07:04:15] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230627/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-27 07:04:15] INFO root fetch - processPackages [BLACKFORGE2]: executing diffoscope
+[2023-06-27 07:04:15] INFO root fetch - processPackages [BLACKFORGE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BLACKFORGE2-0.2.4.tar.gz tmp/BLACKFORGE2-0.2.5.tar.gz --markdown 20230627/B/BLACKFORGE2/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-27 07:04:15] INFO root fetch - processPackages [duckdbt]: Downloading https://files.pythonhosted.org/packages/2a/f9/2c50413b253cc9c2e1288067f231391b1f938c7dee2477845666f4bdfd2d/duckdbt-0.4.0.tar.gz
+[2023-06-27 07:04:15] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/57/f4/27b007bb1348d6f0b913c46781c7c5a0a4bd8e30cb21648e9d9b8a134f17/remindmail-2023.6.8.1.tar.gz
+[2023-06-27 07:04:16] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Downloading https://files.pythonhosted.org/packages/d9/0f/54388b23534abc4203f1bcd28d0ed0f0734ec2fed82baf9a7ae828b15229/odoo_addons_oca_rest_framework-16.0.20230626.0-py3-none-any.whl
+[2023-06-27 07:04:16] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/71/dc/78c71b7e2a12a6d8e4844c3b996d925ddc62580d411969034af01815ab75/odoo13_addons_oca_sale_promotion-13.0.20230626.0-py3-none-any.whl
+[2023-06-27 07:04:16] INFO root fetch - processPackages [duckdbt]: executing diffoscope
+[2023-06-27 07:04:16] INFO root fetch - processPackages [duckdbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdbt-0.3.2.tar.gz tmp/duckdbt-0.4.0.tar.gz --markdown 20230627/d/duckdbt/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-27 07:04:16] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-06-27 07:04:16] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.6.4.2.tar.gz tmp/remindmail-2023.6.8.1.tar.gz --markdown 20230627/r/remindmail/2023.6.4.2-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-27 07:04:16] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: executing diffoscope
+[2023-06-27 07:04:16] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_rest_framework-16.0.20230607.0-py3-none-any.whl.zip tmp/odoo_addons_oca_rest_framework-16.0.20230626.0-py3-none-any.whl.zip --markdown 20230627/o/odoo-addons-oca-rest-framework/16.0.20230607.0-16.0.20230626.0/diff.md --exclude *.pyd
+[2023-06-27 07:04:16] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: executing diffoscope
+[2023-06-27 07:04:16] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_sale_promotion-13.0.20230625.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_sale_promotion-13.0.20230626.0-py3-none-any.whl.zip --markdown 20230627/o/odoo13-addons-oca-sale-promotion/13.0.20230625.0-13.0.20230626.0/diff.md --exclude *.pyd
+[2023-06-27 07:04:17] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.2.4.tar.gz]
+[2023-06-27 07:04:17] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.2.5.tar.gz]
+[2023-06-27 07:04:17] INFO root fetch - main [MainThread]: End processing [BLACKFORGE2]: success
+[2023-06-27 07:04:17] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_rest_framework-16.0.20230607.0-py3-none-any.whl.zip]
+[2023-06-27 07:04:17] INFO root fetch - processPackages [odoo-addons-oca-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_rest_framework-16.0.20230626.0-py3-none-any.whl.zip]
+[2023-06-27 07:04:17] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-rest-framework]: success
+[2023-06-27 07:04:17] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_sale_promotion-13.0.20230625.0-py3-none-any.whl.zip]
+[2023-06-27 07:04:17] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_sale_promotion-13.0.20230626.0-py3-none-any.whl.zip]
+[2023-06-27 07:04:17] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-sale-promotion]: success
+[2023-06-27 07:04:17] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.6.4.2.tar.gz]
+[2023-06-27 07:04:17] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.6.8.1.tar.gz]
+[2023-06-27 07:04:17] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-06-27 07:04:17] INFO root fetch - processPackages [duckdbt]: Remove: archive file [/home/abi/fetcher/tmp/duckdbt-0.3.2.tar.gz]
+[2023-06-27 07:04:17] INFO root fetch - processPackages [duckdbt]: Remove: archive file [/home/abi/fetcher/tmp/duckdbt-0.4.0.tar.gz]
+[2023-06-27 07:04:17] INFO root fetch - main [MainThread]: End processing [duckdbt]: success
+[2023-06-27 07:04:17] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-27 07:04:17] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-27 07:04:17] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-27 07:04:17] INFO root fetch - main [MainThread]: Store serial: [18658215]
