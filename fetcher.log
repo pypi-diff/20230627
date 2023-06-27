@@ -13674,3 +13674,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 08:21:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-27 08:21:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-27 08:21:51] INFO root fetch - main [MainThread]: Store serial: [18658578]
+[2023-06-27 08:26:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658578]
+[2023-06-27 08:26:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-27 08:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deathdaily
+[2023-06-27 08:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: range-compression
+[2023-06-27 08:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meta-edc-demo
+[2023-06-27 08:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alhazen-py
+[2023-06-27 08:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aranet4
+[2023-06-27 08:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitelabs-connector-framework
+[2023-06-27 08:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: range-compression
+[2023-06-27 08:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tktermwidget
+[2023-06-27 08:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openapi-pydantic-models
+[2023-06-27 08:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pictl
+[2023-06-27 08:27:00] INFO root fetch - processPackages [alhazen-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 08:27:00] INFO root fetch - processPackages [range-compression]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-27 08:27:00] INFO root fetch - processPackages [meta-edc-demo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 08:27:00] INFO root fetch - processPackages [aranet4]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-06-27 08:27:00] INFO root fetch - processPackages [deathdaily]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-06-27 08:27:00] INFO root fetch - processPackages [range-compression]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-27 08:27:00] INFO root fetch - processPackages [tktermwidget]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-27 08:27:00] INFO root fetch - processPackages [unitelabs-connector-framework]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-27 08:27:00] INFO root fetch - processPackages [openapi-pydantic-models]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-27 08:27:00] INFO root fetch - processPackages [aranet4]: Downloading https://files.pythonhosted.org/packages/8c/57/c5b1a55155cf30853cc552332940d48a5770faa785c608afa776420e8557/aranet4-2.2.1.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [pictl]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-27 08:27:00] INFO root fetch - processPackages [range-compression]: Downloading https://files.pythonhosted.org/packages/7c/df/f9cb0d24b202593a0c12f23fa382b1093578b3d4ba6dc99b3adc19057c7f/range_compression-0.2.5.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [range-compression]: Downloading https://files.pythonhosted.org/packages/7c/df/f9cb0d24b202593a0c12f23fa382b1093578b3d4ba6dc99b3adc19057c7f/range_compression-0.2.5.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [meta-edc-demo]: Downloading https://files.pythonhosted.org/packages/1f/d3/8271f6ca197892c3e8359bc309dfb4b2c0271636c5b636537e0b1b3bb200/meta-edc-demo-0.0.1.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [alhazen-py]: Downloading https://files.pythonhosted.org/packages/d7/5a/3925dec903beba4711f2fec40561f8b1ba43504e9614ef7e7228036e4af4/alhazen-py-0.0.2.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [deathdaily]: Downloading https://files.pythonhosted.org/packages/86/f9/c62383db9af1ac6ce6becf1781a0d137890c0827abca599b6ffb3361cc42/deathdaily-0.1.2.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [unitelabs-connector-framework]: Downloading https://files.pythonhosted.org/packages/fc/0e/018b48f4abf88744b7664c60e8789d63835bc4aa05d3185c2b1e7e33ea03/unitelabs_connector_framework-0.1.1.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [tktermwidget]: Downloading https://files.pythonhosted.org/packages/01/69/50aba37a07b1edecfe460d5e1035d8784571adf4b019a5bce7564c271e77/tktermwidget-0.0.3.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [openapi-pydantic-models]: Downloading https://files.pythonhosted.org/packages/f0/7e/93aef79a9328cd9da9b3964f015f1effe3a2d7c5838e571dc2b8b169eb81/openapi-pydantic-models-0.1.1.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [aranet4]: Downloading https://files.pythonhosted.org/packages/8f/15/d770f16136ecc933651f2f9587dbd899ed7b6223bb3f8b25f1fdae583713/aranet4-2.2.2.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [pictl]: Downloading https://files.pythonhosted.org/packages/6a/e8/be81ccbb8b7a8f2ad7e56c30d2368ae36e1d8c9bc9aa66943b19f467396a/pictl-0.1.0.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [range-compression]: Downloading https://files.pythonhosted.org/packages/60/64/07c3dbcef117f2c3cd084c7276dbf22b1a8728c27587ceae0fb7194b115c/range_compression-0.2.6.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [range-compression]: Downloading https://files.pythonhosted.org/packages/60/64/07c3dbcef117f2c3cd084c7276dbf22b1a8728c27587ceae0fb7194b115c/range_compression-0.2.6.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [alhazen-py]: Downloading https://files.pythonhosted.org/packages/9e/cd/df6075379c2e6e21b9007f325e094b1e8cbbe471e251693791c4db672968/alhazen-py-0.0.3.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [aranet4]: executing diffoscope
+[2023-06-27 08:27:00] INFO root fetch - processPackages [aranet4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aranet4-2.2.1.tar.gz tmp/aranet4-2.2.2.tar.gz --markdown 20230627/a/aranet4/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-06-27 08:27:00] INFO root fetch - processPackages [deathdaily]: Downloading https://files.pythonhosted.org/packages/90/df/6f8d2e37da82f70a0e162b7a05e7685546a2691418f4d43f3d6441b4dd7d/deathdaily-0.1.5-py3-none-any.whl
+[2023-06-27 08:27:00] INFO root fetch - processPackages [meta-edc-demo]: Downloading https://files.pythonhosted.org/packages/9f/24/9b77ed742ba3d10c807c1b9288163a6205a14aa64e7f9dd7956ead711109/meta-edc-demo-0.0.2.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [tktermwidget]: Downloading https://files.pythonhosted.org/packages/30/65/80931d638e4b9d571d614f6a8a67e6975a094a64658c05d64a1f78ce5944/tktermwidget-0.0.4.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [openapi-pydantic-models]: Downloading https://files.pythonhosted.org/packages/88/f8/d676311f9a6c9a8f3e9ffd78d2522dcdba3491ca2e30e00de49ee6ac4ee9/openapi-pydantic-models-0.2.0.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [unitelabs-connector-framework]: Downloading https://files.pythonhosted.org/packages/5e/9e/7730470abb64850557a2a16d6f8704ac5480f168bea7b28a31b1f50483e7/unitelabs_connector_framework-0.1.2.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [range-compression]: executing diffoscope
+[2023-06-27 08:27:00] INFO root fetch - processPackages [range-compression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/range_compression-0.2.5.tar.gz tmp/range_compression-0.2.6.tar.gz --markdown 20230627/r/range-compression/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-27 08:27:00] INFO root fetch - processPackages [range-compression]: executing diffoscope
+[2023-06-27 08:27:00] INFO root fetch - processPackages [range-compression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/range_compression-0.2.5.tar.gz tmp/range_compression-0.2.6.tar.gz --markdown 20230627/r/range-compression/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-27 08:27:00] INFO root fetch - processPackages [alhazen-py]: executing diffoscope
+[2023-06-27 08:27:00] INFO root fetch - processPackages [alhazen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alhazen-py-0.0.2.tar.gz tmp/alhazen-py-0.0.3.tar.gz --markdown 20230627/a/alhazen-py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 08:27:00] INFO root fetch - processPackages [tktermwidget]: executing diffoscope
+[2023-06-27 08:27:00] INFO root fetch - processPackages [pictl]: Downloading https://files.pythonhosted.org/packages/13/bc/8f60cdafb47957424a77b37c2e5d8e972f418fcac80517e254047fc74d1b/pictl-0.2.0.tar.gz
+[2023-06-27 08:27:00] INFO root fetch - processPackages [tktermwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tktermwidget-0.0.3.tar.gz tmp/tktermwidget-0.0.4.tar.gz --markdown 20230627/t/tktermwidget/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-27 08:27:00] INFO root fetch - processPackages [unitelabs-connector-framework]: executing diffoscope
+[2023-06-27 08:27:00] INFO root fetch - processPackages [unitelabs-connector-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitelabs_connector_framework-0.1.1.tar.gz tmp/unitelabs_connector_framework-0.1.2.tar.gz --markdown 20230627/u/unitelabs-connector-framework/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-27 08:27:00] INFO root fetch - processPackages [openapi-pydantic-models]: executing diffoscope
+[2023-06-27 08:27:00] INFO root fetch - processPackages [openapi-pydantic-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi-pydantic-models-0.1.1.tar.gz tmp/openapi-pydantic-models-0.2.0.tar.gz --markdown 20230627/o/openapi-pydantic-models/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-27 08:27:00] INFO root fetch - processPackages [deathdaily]: executing diffoscope
+[2023-06-27 08:27:00] INFO root fetch - processPackages [deathdaily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deathdaily-0.1.2.tar.gz tmp/deathdaily-0.1.5-py3-none-any.whl.zip --markdown 20230627/d/deathdaily/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 08:27:00] INFO root fetch - processPackages [meta-edc-demo]: executing diffoscope
+[2023-06-27 08:27:00] INFO root fetch - processPackages [meta-edc-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-edc-demo-0.0.1.tar.gz tmp/meta-edc-demo-0.0.2.tar.gz --markdown 20230627/m/meta-edc-demo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 08:27:00] INFO root fetch - processPackages [pictl]: executing diffoscope
+[2023-06-27 08:27:00] INFO root fetch - processPackages [pictl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pictl-0.1.0.tar.gz tmp/pictl-0.2.0.tar.gz --markdown 20230627/p/pictl/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-27 08:27:02] INFO root fetch - processPackages [range-compression]: Remove: archive file [/home/abi/fetcher/tmp/range_compression-0.2.5.tar.gz]
+[2023-06-27 08:27:02] INFO root fetch - processPackages [range-compression]: Remove: archive file [/home/abi/fetcher/tmp/range_compression-0.2.6.tar.gz]
+[2023-06-27 08:27:02] INFO root fetch - main [MainThread]: End processing [range-compression]: success
+[2023-06-27 08:27:02] INFO root fetch - main [MainThread]: End processing [range-compression]: success
+[2023-06-27 08:27:02] INFO root fetch - processPackages [tktermwidget]: Remove: archive file [/home/abi/fetcher/tmp/tktermwidget-0.0.3.tar.gz]
+[2023-06-27 08:27:02] INFO root fetch - processPackages [tktermwidget]: Remove: archive file [/home/abi/fetcher/tmp/tktermwidget-0.0.4.tar.gz]
+[2023-06-27 08:27:02] INFO root fetch - main [MainThread]: End processing [tktermwidget]: success
+[2023-06-27 08:27:02] INFO root fetch - processPackages [deathdaily]: Remove: archive file [/home/abi/fetcher/tmp/deathdaily-0.1.2.tar.gz]
+[2023-06-27 08:27:02] INFO root fetch - processPackages [deathdaily]: Remove: archive file [/home/abi/fetcher/tmp/deathdaily-0.1.5-py3-none-any.whl.zip]
+[2023-06-27 08:27:02] INFO root fetch - main [MainThread]: End processing [deathdaily]: success
+[2023-06-27 08:27:02] INFO root fetch - processPackages [aranet4]: Remove: archive file [/home/abi/fetcher/tmp/aranet4-2.2.1.tar.gz]
+[2023-06-27 08:27:02] INFO root fetch - processPackages [aranet4]: Remove: archive file [/home/abi/fetcher/tmp/aranet4-2.2.2.tar.gz]
+[2023-06-27 08:27:02] INFO root fetch - main [MainThread]: End processing [aranet4]: success
+[2023-06-27 08:27:02] INFO root fetch - processPackages [pictl]: Remove: archive file [/home/abi/fetcher/tmp/pictl-0.1.0.tar.gz]
+[2023-06-27 08:27:02] INFO root fetch - processPackages [pictl]: Remove: archive file [/home/abi/fetcher/tmp/pictl-0.2.0.tar.gz]
+[2023-06-27 08:27:02] INFO root fetch - main [MainThread]: End processing [pictl]: success
+[2023-06-27 08:27:03] INFO root fetch - processPackages [alhazen-py]: Remove: archive file [/home/abi/fetcher/tmp/alhazen-py-0.0.2.tar.gz]
+[2023-06-27 08:27:03] INFO root fetch - processPackages [alhazen-py]: Remove: archive file [/home/abi/fetcher/tmp/alhazen-py-0.0.3.tar.gz]
+[2023-06-27 08:27:03] INFO root fetch - main [MainThread]: End processing [alhazen-py]: success
+[2023-06-27 08:27:03] INFO root fetch - processPackages [openapi-pydantic-models]: Remove: archive file [/home/abi/fetcher/tmp/openapi-pydantic-models-0.1.1.tar.gz]
+[2023-06-27 08:27:03] INFO root fetch - processPackages [openapi-pydantic-models]: Remove: archive file [/home/abi/fetcher/tmp/openapi-pydantic-models-0.2.0.tar.gz]
+[2023-06-27 08:27:03] INFO root fetch - main [MainThread]: End processing [openapi-pydantic-models]: success
+[2023-06-27 08:27:03] INFO root fetch - processPackages [unitelabs-connector-framework]: Remove: archive file [/home/abi/fetcher/tmp/unitelabs_connector_framework-0.1.1.tar.gz]
+[2023-06-27 08:27:03] INFO root fetch - processPackages [unitelabs-connector-framework]: Remove: archive file [/home/abi/fetcher/tmp/unitelabs_connector_framework-0.1.2.tar.gz]
+[2023-06-27 08:27:03] INFO root fetch - main [MainThread]: End processing [unitelabs-connector-framework]: success
+[2023-06-27 08:27:12] INFO root fetch - processPackages [meta-edc-demo]: Remove: archive file [/home/abi/fetcher/tmp/meta-edc-demo-0.0.1.tar.gz]
+[2023-06-27 08:27:12] INFO root fetch - processPackages [meta-edc-demo]: Remove: archive file [/home/abi/fetcher/tmp/meta-edc-demo-0.0.2.tar.gz]
+[2023-06-27 08:27:12] INFO root fetch - main [MainThread]: End processing [meta-edc-demo]: success
+[2023-06-27 08:27:12] INFO root fetch - main [MainThread]: Store serial: [18658607]
