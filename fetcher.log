@@ -12654,3 +12654,112 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 07:04:17] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
 [2023-06-27 07:04:17] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-06-27 07:04:17] INFO root fetch - main [MainThread]: Store serial: [18658215]
+[2023-06-27 07:09:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658215]
+[2023-06-27 07:09:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-27 07:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ahoy-dtu-webthing
+[2023-06-27 07:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyuff
+[2023-06-27 07:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ahoy-dtu-webthing
+[2023-06-27 07:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-userinfo
+[2023-06-27 07:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-pe
+[2023-06-27 07:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymino
+[2023-06-27 07:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo8-addon-sale-quick-payment
+[2023-06-27 07:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coiled
+[2023-06-27 07:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multi-model-server
+[2023-06-27 07:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: patchworklib
+[2023-06-27 07:09:26] WARNING root fetch - processPackages [nonebot-plugin-userinfo]: Skipping, unable to determine old version
+[2023-06-27 07:09:26] INFO root fetch - processPackages [nonebot-plugin-userinfo]: Start processing: dask-cuda
+[2023-06-27 07:09:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-userinfo] error
+[2023-06-27 07:09:26] INFO root fetch - processPackages [pyuff]: New version: [2.2] Old Version: [2.1]
+[2023-06-27 07:09:26] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230627] Old Version: [0.1.1.dev20230626]
+[2023-06-27 07:09:26] INFO root fetch - processPackages [ahoy-dtu-webthing]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 07:09:26] INFO root fetch - processPackages [odoo8-addon-sale-quick-payment]: New version: [8.0.3.0.0.99.dev9] Old Version: [8.0.3.0.0.99.dev8]
+[2023-06-27 07:09:26] INFO root fetch - processPackages [patchworklib]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-27 07:09:26] INFO root fetch - processPackages [ahoy-dtu-webthing]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 07:09:26] INFO root fetch - processPackages [pymino]: New version: [1.2.2.1] Old Version: [1.2.1.9]
+[2023-06-27 07:09:26] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-27 07:09:26] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-27 07:09:26] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/31/43/47b265090ffd071245e409811b66bad7919d24833f175ff36247c2ef5c75/rapid_pe-0.1.1.dev20230626.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230627] Old Version: [23.8.0a230626]
+[2023-06-27 07:09:26] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/2b/e2/91f8ce298431bde6d62aa34dcd901c46676cca1ccc82782a2bebccbf34cc/ahoy_dtu_webthing-0.1.2.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/33/7a/361173fe891e347629fa9ade50e6567af664474c4d6e1f22e21ff3daff96/dask-cuda-23.8.0a230626.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [pyuff]: Downloading https://files.pythonhosted.org/packages/a7/79/9bb878f81c1303be938d9df77ad1e47595f1d0370cb08a2c6159c186c3e9/pyuff-2.1.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/2b/e2/91f8ce298431bde6d62aa34dcd901c46676cca1ccc82782a2bebccbf34cc/ahoy_dtu_webthing-0.1.2.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [odoo8-addon-sale-quick-payment]: Downloading https://files.pythonhosted.org/packages/87/16/8b3078e3d08e9c56c1ebf59dca4248c2215430ef087d6ac4a78a9908cf50/odoo8_addon_sale_quick_payment-8.0.3.0.0.99.dev8-py2-none-any.whl
+[2023-06-27 07:09:26] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-27 07:09:26] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230627/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-27 07:09:26] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/69/3f/5f9411b686cdcb5e9f58be653a1c2e059396b751ab586d61e06da4323de7/pymino-1.2.1.9.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [patchworklib]: Downloading https://files.pythonhosted.org/packages/75/52/675a71238075cc2b60cc36b12a3915ce5e8ece01d84465a02330fb6ae01e/patchworklib-0.6.1.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-27 07:09:26] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230627/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-27 07:09:26] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/06/5a/3c50f83ab110e48ed9bc7ba81233e80d8342c97071ef5841ddcea8199df0/dask-cuda-23.8.0a230627.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [pyuff]: Downloading https://files.pythonhosted.org/packages/4d/79/86df54a0fdcae9532d3e7f0cd9e51c75ad31cbbaf5fe6f75da189aaec3e6/pyuff-2.2.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/fb/a3/927e949722b4abd0819fd0e553139a94a6c713904fe69549bef2213ee711/ahoy_dtu_webthing-0.1.3.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/17/f0/3c2066b9ff7ad254ad9a1be98729e316320657991cb1e90b8d3cbd4f35ca/rapid_pe-0.1.1.dev20230627.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/fb/a3/927e949722b4abd0819fd0e553139a94a6c713904fe69549bef2213ee711/ahoy_dtu_webthing-0.1.3.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/86/73/d3097dad89e2693ded5053ed8bccf98a74e39421664d6206d11963710cec/pymino-1.2.2.1.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [odoo8-addon-sale-quick-payment]: Downloading https://files.pythonhosted.org/packages/54/b0/308b106a454ddf001c867b327ba4201df833237fd1994241f7f358263b06/odoo8_addon_sale_quick_payment-8.0.3.0.0.99.dev9-py2-none-any.whl
+[2023-06-27 07:09:26] INFO root fetch - processPackages [patchworklib]: Downloading https://files.pythonhosted.org/packages/63/0b/67f5196fec66957b446dbb412d90911de54047d332ed866410c6df2c1e93/patchworklib-0.6.2.tar.gz
+[2023-06-27 07:09:26] INFO root fetch - processPackages [pyuff]: executing diffoscope
+[2023-06-27 07:09:26] INFO root fetch - processPackages [pyuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuff-2.1.tar.gz tmp/pyuff-2.2.tar.gz --markdown 20230627/p/pyuff/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-27 07:09:26] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-27 07:09:26] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.1.9.tar.gz tmp/pymino-1.2.2.1.tar.gz --markdown 20230627/p/pymino/1.2.1.9-1.2.2.1/diff.md --exclude *.pyd
+[2023-06-27 07:09:26] INFO root fetch - processPackages [patchworklib]: executing diffoscope
+[2023-06-27 07:09:26] INFO root fetch - processPackages [patchworklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchworklib-0.6.1.tar.gz tmp/patchworklib-0.6.2.tar.gz --markdown 20230627/p/patchworklib/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-27 07:09:26] INFO root fetch - processPackages [ahoy-dtu-webthing]: executing diffoscope
+[2023-06-27 07:09:26] INFO root fetch - processPackages [ahoy-dtu-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahoy_dtu_webthing-0.1.2.tar.gz tmp/ahoy_dtu_webthing-0.1.3.tar.gz --markdown 20230627/a/ahoy-dtu-webthing/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 07:09:26] INFO root fetch - processPackages [ahoy-dtu-webthing]: executing diffoscope
+[2023-06-27 07:09:26] INFO root fetch - processPackages [ahoy-dtu-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahoy_dtu_webthing-0.1.2.tar.gz tmp/ahoy_dtu_webthing-0.1.3.tar.gz --markdown 20230627/a/ahoy-dtu-webthing/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 07:09:26] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-27 07:09:26] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230626.tar.gz tmp/dask-cuda-23.8.0a230627.tar.gz --markdown 20230627/d/dask-cuda/23.8.0a230626-23.8.0a230627/diff.md --exclude *.pyd
+[2023-06-27 07:09:26] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-27 07:09:26] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230626.tar.gz tmp/rapid_pe-0.1.1.dev20230627.tar.gz --markdown 20230627/r/rapid-pe/0.1.1.dev20230626-0.1.1.dev20230627/diff.md --exclude *.pyd
+[2023-06-27 07:09:26] INFO root fetch - processPackages [odoo8-addon-sale-quick-payment]: executing diffoscope
+[2023-06-27 07:09:26] INFO root fetch - processPackages [odoo8-addon-sale-quick-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_quick_payment-8.0.3.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_quick_payment-8.0.3.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230627/o/odoo8-addon-sale-quick-payment/8.0.3.0.0.99.dev8-8.0.3.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-27 07:09:28] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.1.2.tar.gz]
+[2023-06-27 07:09:28] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.1.3.tar.gz]
+[2023-06-27 07:09:28] INFO root fetch - processPackages [ahoy-dtu-webthing]: Start processing: DLMS-SPODES
+[2023-06-27 07:09:28] INFO root fetch - main [MainThread]: End processing [ahoy-dtu-webthing]: success
+[2023-06-27 07:09:28] INFO root fetch - processPackages [patchworklib]: Remove: archive file [/home/abi/fetcher/tmp/patchworklib-0.6.1.tar.gz]
+[2023-06-27 07:09:28] INFO root fetch - processPackages [patchworklib]: Remove: archive file [/home/abi/fetcher/tmp/patchworklib-0.6.2.tar.gz]
+[2023-06-27 07:09:28] INFO root fetch - processPackages [patchworklib]: Start processing: tflite-model-maker-nightly
+[2023-06-27 07:09:28] INFO root fetch - main [MainThread]: End processing [patchworklib]: success
+[2023-06-27 07:09:28] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-27 07:09:28] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306260507] Old Version: [0.4.3.dev202306240507]
+[2023-06-27 07:09:28] INFO root fetch - main [MainThread]: End processing [ahoy-dtu-webthing]: success
+[2023-06-27 07:09:28] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-06-27 07:09:28] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230626.tar.gz]
+[2023-06-27 07:09:28] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230627.tar.gz]
+[2023-06-27 07:09:28] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-27 07:09:28] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/07/57/d9f2629f4e7f31aa84562b97396f2b8ef1b0615c8023b280cc2d8db79d58/tflite-model-maker-nightly-0.4.3.dev202306240507.tar.gz
+[2023-06-27 07:09:28] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-06-27 07:09:28] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.9.tar.gz]
+[2023-06-27 07:09:28] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.2.1.tar.gz]
+[2023-06-27 07:09:28] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-27 07:09:28] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/ea/05/f7659f55b9c009246e8c2f57e88043e6d887c9be5096268216b88a920a1a/tflite-model-maker-nightly-0.4.3.dev202306260507.tar.gz
+[2023-06-27 07:09:28] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-27 07:09:28] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230627/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-27 07:09:28] INFO root fetch - processPackages [pyuff]: Remove: archive file [/home/abi/fetcher/tmp/pyuff-2.1.tar.gz]
+[2023-06-27 07:09:28] INFO root fetch - processPackages [pyuff]: Remove: archive file [/home/abi/fetcher/tmp/pyuff-2.2.tar.gz]
+[2023-06-27 07:09:28] INFO root fetch - main [MainThread]: End processing [pyuff]: success
+[2023-06-27 07:09:28] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-27 07:09:28] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306240507.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306260507.tar.gz --markdown 20230627/t/tflite-model-maker-nightly/0.4.3.dev202306240507-0.4.3.dev202306260507/diff.md --exclude *.pyd
+[2023-06-27 07:09:29] INFO root fetch - processPackages [odoo8-addon-sale-quick-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_quick_payment-8.0.3.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-27 07:09:29] INFO root fetch - processPackages [odoo8-addon-sale-quick-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_quick_payment-8.0.3.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-27 07:09:29] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-quick-payment]: success
+[2023-06-27 07:09:29] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-27 07:09:29] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-27 07:09:29] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-27 07:09:30] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230626.tar.gz]
+[2023-06-27 07:09:30] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230627.tar.gz]
+[2023-06-27 07:09:30] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-27 07:09:30] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-06-27 07:09:30] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-06-27 07:09:30] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-27 07:09:31] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306240507.tar.gz]
+[2023-06-27 07:09:31] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306260507.tar.gz]
+[2023-06-27 07:09:31] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-27 07:12:26] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-27 07:12:26] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-27 07:12:26] INFO root fetch - main [MainThread]: Store serial: [18658253]
