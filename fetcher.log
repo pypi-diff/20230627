@@ -2096,3 +2096,164 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 02:05:25] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230626.post508.tar.gz]
 [2023-06-27 02:05:25] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-06-27 02:05:25] INFO root fetch - main [MainThread]: Store serial: [18654297]
+[2023-06-27 02:10:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18654297]
+[2023-06-27 02:10:34] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdx-python-database
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composition_based_feature_vector
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pp-project-pkg
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxutils-nightly
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygensvd
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: my-ip-calulator
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphing
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinecone-client-nightly
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grn-dazzle
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml-compiler-opt
+[2023-06-27 02:10:34] INFO root fetch - processPackages [hdx-python-database]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-27 02:10:34] INFO root fetch - processPackages [graphing]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-06-27 02:10:34] WARNING root fetch - processPackages [pygensvd]: Skipping, unable to determine old version
+[2023-06-27 02:10:34] INFO root fetch - processPackages [composition_based_feature_vector]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-27 02:10:34] INFO root fetch - processPackages [pygensvd]: Start processing: torchlayers-nightly
+[2023-06-27 02:10:34] INFO root fetch - main [MainThread]: End processing [pygensvd] error
+[2023-06-27 02:10:34] INFO root fetch - processPackages [my-ip-calulator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 02:10:34] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306270006] Old Version: [1.0.202306262308]
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202306260008] Old Version: [0.0.1.dev202306252306]
+[2023-06-27 02:10:34] WARNING root fetch - processPackages [grn-dazzle]: Skipping, unable to determine old version
+[2023-06-27 02:10:34] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230626] Old Version: [0.0.8.dev20230625]
+[2023-06-27 02:10:34] INFO root fetch - processPackages [grn-dazzle]: Start processing: MGSurvE
+[2023-06-27 02:10:34] INFO root fetch - main [MainThread]: End processing [grn-dazzle] error
+[2023-06-27 02:10:34] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1687738104] Old Version: [1687651739]
+[2023-06-27 02:10:34] INFO root fetch - processPackages [MGSurvE]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 02:10:34] INFO root fetch - processPackages [pinecone-client-nightly]: New version: [2.2.2.dev20230627000653] Old Version: [2.2.2.dev20230626160014]
+[2023-06-27 02:10:34] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/8d/f7/f364e8817e6bcf98bc5f944a2ea1970b3d9f1e30b3c46e7f4017a5d3442f/pp_project_pkg-1.0.202306262308-py3-none-any.whl
+[2023-06-27 02:10:34] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/9b/fb/869a0445f712bd9b17d6036e9d6f78200b96d978b95ff7d4b78349e64391/jaxutils-nightly-0.0.8.dev20230625.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/f1/98/8699d853dce182c94a3dec1890b4135aa20d0593b5a671d4a0f3514a4ee7/ml-compiler-opt-0.0.1.dev202306252306.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/24/92/f3ec8980e5bb49f64d816ee3c52ecb7691033481cb77903f448d5d6403a4/torchlayers-nightly-1687651739.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [MGSurvE]: Downloading https://files.pythonhosted.org/packages/3d/17/a07496419a6bc660d511967bd97e9400d11fcd4e2b6b681b1119774e2b78/MGSurvE-1.0.2.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [hdx-python-database]: Downloading https://files.pythonhosted.org/packages/24/2e/2742bde025f1ad4594e581ccb83bf6fa90c0c258c437d16078fa69f9d479/hdx-python-database-1.2.3.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [pinecone-client-nightly]: Downloading https://files.pythonhosted.org/packages/03/52/6557c96d52c4ee93186197e52cb1079afb36815440c4d07c6a58834125bb/pinecone-client-nightly-2.2.2.dev20230626160014.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [graphing]: Downloading https://files.pythonhosted.org/packages/03/42/b57a54e4f8c7afdbdfdf8899e3d12e22e2b3f2cd8fb916ffe07e570e7f94/graphing-0.0.6-py3-none-any.whl
+[2023-06-27 02:10:34] INFO root fetch - processPackages [composition_based_feature_vector]: Downloading https://files.pythonhosted.org/packages/f4/e1/23f7b77d743be2df04f49b99f2102f2bfadd6475ae3055e1f5673b2bf1ed/composition_based_feature_vector-1.0.5.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [my-ip-calulator]: Downloading https://files.pythonhosted.org/packages/7d/7a/2935f858ddc2be0f2c6f3c8783979dda16543b46ded318a77b536f02d75f/my_ip_calulator-1.0.0.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c3/55/44e7d896846f88904eaeae384638f4e11e4d44c4f88b6a4b8aae0ff3ab26/jaxutils-nightly-0.0.8.dev20230626.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [MGSurvE]: Downloading https://files.pythonhosted.org/packages/4e/6d/07e72778fb28b129536c68ed2f04124226ed60037ed8db4bd3fc80ff39fc/MGSurvE-1.0.3.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/4f/27/91f384d50c430f6383c616206d03d16c1e05f5a4430698469ba79d4f1251/pp_project_pkg-1.0.202306270006-py3-none-any.whl
+[2023-06-27 02:10:34] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-27 02:10:34] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230625.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230626.tar.gz --markdown 20230627/j/jaxutils-nightly/0.0.8.dev20230625-0.0.8.dev20230626/diff.md --exclude *.pyd
+[2023-06-27 02:10:34] INFO root fetch - processPackages [hdx-python-database]: Downloading https://files.pythonhosted.org/packages/44/43/3b22f96a915a0ac0bb8b5239af8dca00419fbe859d3eb138d126ff96cd57/hdx_python_database-1.2.4.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/3d/fb/3ff8af5d44b2660eb09e3f63e7022d90bfb581ebc962c625991d5b27855d/torchlayers-nightly-1687738104.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [MGSurvE]: executing diffoscope
+[2023-06-27 02:10:34] INFO root fetch - processPackages [MGSurvE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MGSurvE-1.0.2.tar.gz tmp/MGSurvE-1.0.3.tar.gz --markdown 20230627/M/MGSurvE/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/23/4c/8eb28ba8891391871a639333b4b34584d195ef77765e641e1c0973143e0a/ml-compiler-opt-0.0.1.dev202306260008.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [pinecone-client-nightly]: Downloading https://files.pythonhosted.org/packages/5b/f4/b3914af8cd91156e98dd7e5b4dc4a2b38990cacf8346ca2c279c93e88bd3/pinecone-client-nightly-2.2.2.dev20230627000653.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-27 02:10:34] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306262308-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306270006-py3-none-any.whl.zip --markdown 20230627/p/pp-project-pkg/1.0.202306262308-1.0.202306270006/diff.md --exclude *.pyd
+[2023-06-27 02:10:34] INFO root fetch - processPackages [my-ip-calulator]: Downloading https://files.pythonhosted.org/packages/b6/5a/47751e11bfc9ad60ce7293d774d0430e745b5723b1819b3da7968102fca7/my_ip_calulator-1.0.1.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [hdx-python-database]: executing diffoscope
+[2023-06-27 02:10:34] INFO root fetch - processPackages [hdx-python-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx-python-database-1.2.3.tar.gz tmp/hdx_python_database-1.2.4.tar.gz --markdown 20230627/h/hdx-python-database/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-27 02:10:34] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-27 02:10:34] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1687651739.tar.gz tmp/torchlayers-nightly-1687738104.tar.gz --markdown 20230627/t/torchlayers-nightly/1687651739-1687738104/diff.md --exclude *.pyd
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-06-27 02:10:34] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202306252306.tar.gz tmp/ml-compiler-opt-0.0.1.dev202306260008.tar.gz --markdown 20230627/m/ml-compiler-opt/0.0.1.dev202306252306-0.0.1.dev202306260008/diff.md --exclude *.pyd
+[2023-06-27 02:10:34] INFO root fetch - processPackages [my-ip-calulator]: executing diffoscope
+[2023-06-27 02:10:34] INFO root fetch - processPackages [my-ip-calulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_ip_calulator-1.0.0.tar.gz tmp/my_ip_calulator-1.0.1.tar.gz --markdown 20230627/m/my-ip-calulator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 02:10:34] INFO root fetch - processPackages [graphing]: Downloading https://files.pythonhosted.org/packages/63/61/c6c746867ea849db8c847c4b027c760b0906487a780929a418761d789ec1/graphing-0.0.8.tar.gz
+[2023-06-27 02:10:34] INFO root fetch - processPackages [pinecone-client-nightly]: executing diffoscope
+[2023-06-27 02:10:34] INFO root fetch - processPackages [pinecone-client-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone-client-nightly-2.2.2.dev20230626160014.tar.gz tmp/pinecone-client-nightly-2.2.2.dev20230627000653.tar.gz --markdown 20230627/p/pinecone-client-nightly/2.2.2.dev20230626160014-2.2.2.dev20230627000653/diff.md --exclude *.pyd
+[2023-06-27 02:10:34] INFO root fetch - processPackages [graphing]: executing diffoscope
+[2023-06-27 02:10:34] INFO root fetch - processPackages [graphing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphing-0.0.6-py3-none-any.whl.zip tmp/graphing-0.0.8.tar.gz --markdown 20230627/g/graphing/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-06-27 02:10:35] INFO root fetch - processPackages [composition_based_feature_vector]: Downloading https://files.pythonhosted.org/packages/84/1f/f83fbf0c6435f3507bd3919f7cdb336282ed50cc3136ce1e7919a6ad40eb/composition_based_feature_vector-1.0.6.tar.gz
+[2023-06-27 02:10:35] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230625.tar.gz]
+[2023-06-27 02:10:35] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230626.tar.gz]
+[2023-06-27 02:10:35] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: cdk-aws-discord-notifiers
+[2023-06-27 02:10:35] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [MGSurvE]: Remove: archive file [/home/abi/fetcher/tmp/MGSurvE-1.0.2.tar.gz]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [MGSurvE]: Remove: archive file [/home/abi/fetcher/tmp/MGSurvE-1.0.3.tar.gz]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [MGSurvE]: Start processing: cdk8s
+[2023-06-27 02:10:36] INFO root fetch - main [MainThread]: End processing [MGSurvE]: success
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.85]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306262308-py3-none-any.whl.zip]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306270006-py3-none-any.whl.zip]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [pp-project-pkg]: Start processing: tccli
+[2023-06-27 02:10:36] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-27 02:10:36] INFO root fetch - processPackages [composition_based_feature_vector]: executing diffoscope
+[2023-06-27 02:10:36] INFO root fetch - processPackages [composition_based_feature_vector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composition_based_feature_vector-1.0.5.tar.gz tmp/composition_based_feature_vector-1.0.6.tar.gz --markdown 20230627/c/composition_based_feature_vector/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-27 02:10:36] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [hdx-python-database]: Remove: archive file [/home/abi/fetcher/tmp/hdx-python-database-1.2.3.tar.gz]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [hdx-python-database]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_database-1.2.4.tar.gz]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [hdx-python-database]: Start processing: graphing
+[2023-06-27 02:10:36] INFO root fetch - main [MainThread]: End processing [hdx-python-database]: success
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/73/e1/4981246428bafb220da502973cb4df0d453dab63d9001f4f1b0278982ac7/cdk8s-2.7.85.tar.gz
+[2023-06-27 02:10:36] INFO root fetch - processPackages [graphing]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-06-27 02:10:36] INFO root fetch - processPackages [graphing]: Remove: archive file [/home/abi/fetcher/tmp/graphing-0.0.6-py3-none-any.whl.zip]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [graphing]: Remove: archive file [/home/abi/fetcher/tmp/graphing-0.0.8.tar.gz]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [graphing]: Start processing: heaserver-activity
+[2023-06-27 02:10:36] INFO root fetch - main [MainThread]: End processing [graphing]: success
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-06-27 02:10:36] INFO root fetch - processPackages [my-ip-calulator]: Remove: archive file [/home/abi/fetcher/tmp/my_ip_calulator-1.0.0.tar.gz]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [my-ip-calulator]: Remove: archive file [/home/abi/fetcher/tmp/my_ip_calulator-1.0.1.tar.gz]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [my-ip-calulator]: Start processing: cdk-common
+[2023-06-27 02:10:36] INFO root fetch - main [MainThread]: End processing [my-ip-calulator]: success
+[2023-06-27 02:10:36] INFO root fetch - processPackages [graphing]: Downloading https://files.pythonhosted.org/packages/63/61/c6c746867ea849db8c847c4b027c760b0906487a780929a418761d789ec1/graphing-0.0.8.tar.gz
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/71/30/02a1bcc270c53f6b55cd50dc45c426ecdc5d520a1a3f21057474d46e3de9/cdk8s-2.7.9.tar.gz
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [heaserver-activity]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [graphing]: executing diffoscope
+[2023-06-27 02:10:36] INFO root fetch - processPackages [graphing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphing-0.0.6-py3-none-any.whl.zip tmp/graphing-0.0.8.tar.gz --markdown 20230627/g/graphing/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-27 02:10:36] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.85.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230627/c/cdk8s/2.7.85-2.7.9/diff.md --exclude *.pyd
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230627/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 02:10:36] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-06-27 02:10:36] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230627/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-06-27 02:10:36] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/0d/e5/8db5ca2b11516b893253ec972df4119a1429a6b86f473f732a1eaf31b7f1/heaserver-activity-1.0.0a8.tar.gz
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-27 02:10:36] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306252306.tar.gz]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306260008.tar.gz]
+[2023-06-27 02:10:36] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: vesselapi
+[2023-06-27 02:10:36] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-27 02:10:36] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230627/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-27 02:10:36] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/4c/3a/67c0a4c8f841993e61fe8e3a7a178d26fdf6092e5996647479b2a8459ae0/heaserver-activity-1.0.0a9.tar.gz
+[2023-06-27 02:10:37] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687651739.tar.gz]
+[2023-06-27 02:10:37] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687738104.tar.gz]
+[2023-06-27 02:10:37] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-27 02:10:37] INFO root fetch - processPackages [heaserver-activity]: executing diffoscope
+[2023-06-27 02:10:37] INFO root fetch - processPackages [heaserver-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-activity-1.0.0a8.tar.gz tmp/heaserver-activity-1.0.0a9.tar.gz --markdown 20230627/h/heaserver-activity/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-27 02:10:37] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.31.0]
+[2023-06-27 02:10:37] ERROR root fetch - processPackages [graphing]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/graphing-0.0.6-py3-none-any.whl.zip: No such file or directory
+
+[2023-06-27 02:10:37] INFO root fetch - main [MainThread]: End processing [graphing] error
+[2023-06-27 02:10:37] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/28/2f/eb33d1a22f0f6f41c70cc8cac38b981ffb710e32e2840d8eefa694a9e22a/vesselapi-3.31.0.tar.gz
+[2023-06-27 02:10:37] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.85.tar.gz]
+[2023-06-27 02:10:37] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.9.tar.gz]
+[2023-06-27 02:10:37] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-06-27 02:10:37] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-06-27 02:10:37] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-06-27 02:10:37] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.31.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230627/v/vesselapi/3.31.0-3.5.2/diff.md --exclude *.pyd
+[2023-06-27 02:10:38] INFO root fetch - processPackages [composition_based_feature_vector]: Remove: archive file [/home/abi/fetcher/tmp/composition_based_feature_vector-1.0.5.tar.gz]
+[2023-06-27 02:10:38] INFO root fetch - processPackages [composition_based_feature_vector]: Remove: archive file [/home/abi/fetcher/tmp/composition_based_feature_vector-1.0.6.tar.gz]
+[2023-06-27 02:10:38] INFO root fetch - main [MainThread]: End processing [composition_based_feature_vector]: success
+[2023-06-27 02:10:38] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-27 02:10:38] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-27 02:10:38] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-27 02:10:38] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a8.tar.gz]
+[2023-06-27 02:10:38] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a9.tar.gz]
+[2023-06-27 02:10:38] INFO root fetch - main [MainThread]: End processing [heaserver-activity]: success
+[2023-06-27 02:10:38] INFO root fetch - processPackages [pinecone-client-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pinecone-client-nightly-2.2.2.dev20230626160014.tar.gz]
+[2023-06-27 02:10:38] INFO root fetch - processPackages [pinecone-client-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pinecone-client-nightly-2.2.2.dev20230627000653.tar.gz]
+[2023-06-27 02:10:38] INFO root fetch - main [MainThread]: End processing [pinecone-client-nightly]: success
+[2023-06-27 02:10:40] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.31.0.tar.gz]
+[2023-06-27 02:10:40] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-06-27 02:10:40] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-06-27 02:10:41] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-06-27 02:10:41] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-06-27 02:10:41] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-27 02:10:44] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-06-27 02:10:44] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-06-27 02:10:44] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-06-27 02:10:44] INFO root fetch - main [MainThread]: Store serial: [18654358]
