@@ -17048,3 +17048,149 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-27 10:52:42] INFO root fetch - processPackages [haruka-bot]: Remove: archive file [/home/abi/fetcher/tmp/haruka-bot-1.6.0.tar.gz]
 [2023-06-27 10:52:42] INFO root fetch - main [MainThread]: End processing [haruka-bot]: success
 [2023-06-27 10:52:42] INFO root fetch - main [MainThread]: Store serial: [18660114]
+[2023-06-27 10:57:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18660114]
+[2023-06-27 10:57:51] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-27 10:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bayes-lol-client
+[2023-06-27 10:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: json-grep
+[2023-06-27 10:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-sale-commission-product-criteria-discount
+[2023-06-27 10:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-sale-commission-product-criteria
+[2023-06-27 10:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FAIRSave
+[2023-06-27 10:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: overhave
+[2023-06-27 10:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vdk-core
+[2023-06-27 10:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: resotoclient
+[2023-06-27 10:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tempora
+[2023-06-27 10:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simpleshark
+[2023-06-27 10:57:51] INFO root fetch - processPackages [bayes-lol-client]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 10:57:51] INFO root fetch - processPackages [FAIRSave]: New version: [0.0.6.6] Old Version: [0.0.6.5]
+[2023-06-27 10:57:51] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: New version: [14.0.1.0.2.dev5] Old Version: [14.0.1.0.2.dev3]
+[2023-06-27 10:57:51] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria-discount]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev3]
+[2023-06-27 10:57:51] INFO root fetch - processPackages [tempora]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-06-27 10:57:51] INFO root fetch - processPackages [resotoclient]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-06-27 10:57:51] INFO root fetch - processPackages [json-grep]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-27 10:57:51] INFO root fetch - processPackages [simpleshark]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 10:57:51] INFO root fetch - processPackages [vdk-core]: New version: [0.3.912884507] Old Version: [0.3.911852332]
+[2023-06-27 10:57:51] INFO root fetch - processPackages [overhave]: New version: [4.0.2] Old Version: [4.0.0]
+[2023-06-27 10:57:51] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/97/2a/0a3ab3f72f6ab78bc366072c1b128039bdf9df12ae69354188b22f9e45c6/vdk-core-0.3.911852332.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [json-grep]: Downloading https://files.pythonhosted.org/packages/7a/c0/1c4351066ce1a449c6669f39c46342acfeec034ba56a89dde7016bc3d84b/json-grep-1.2.1.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/2a/24/d9eeceda140aebab597e1fb3d6b01f20287f08ef50f95a033635e69635cd/overhave-4.0.0.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [bayes-lol-client]: Downloading https://files.pythonhosted.org/packages/0c/e9/a8936291b07269b0a937f5dfea0a401bcf05136ac29bbfd561881815cbf0/bayes_lol_client-1.0.2.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/00/b0/8603ebd51e03f8965f344c1aaf865a8a6e0bcbd3f6a7e32ced76053a072f/FAIRSave-0.0.6.5.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Downloading https://files.pythonhosted.org/packages/e4/78/e3522c9764d6fef7f27e6efa02d0efeb0b282c6766b6d750f3ab3196ac9a/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-06-27 10:57:51] INFO root fetch - processPackages [tempora]: Downloading https://files.pythonhosted.org/packages/24/9e/fe5328123e2d416b39c5e790165074123c54e34e82aecca33473711dd439/tempora-5.3.0.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [simpleshark]: Downloading https://files.pythonhosted.org/packages/86/68/20bbc717422dc243a676644516de031ceb1d3b6a29d1d26188385fe9c66a/simpleshark-0.0.8.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [resotoclient]: Downloading https://files.pythonhosted.org/packages/b4/4e/e8d4af7a83730f17bc7466345c45c45872d131d8c098f4c0b69bd0496d75/resotoclient-1.4.1.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria-discount]: Downloading https://files.pythonhosted.org/packages/7c/d6/ee1954a70fdba7704c3bd7a15ec749226d9db212d0de71c9e29a5f79e236/odoo14_addon_sale_commission_product_criteria_discount-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-27 10:57:51] INFO root fetch - processPackages [json-grep]: Downloading https://files.pythonhosted.org/packages/12/ac/a9df6b113ea482407a33b881a676e349320107909d5499b0baa49c5d5097/json-grep-1.2.2.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/fd/76/4112861ecbf45b0f9516d3888903b16172181a9d2e468473ab88b1990076/vdk-core-0.3.912884507.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [json-grep]: executing diffoscope
+[2023-06-27 10:57:51] INFO root fetch - processPackages [json-grep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-grep-1.2.1.tar.gz tmp/json-grep-1.2.2.tar.gz --markdown 20230627/j/json-grep/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-27 10:57:51] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/d2/25/9164dff189e4a87bc79dc875a37894d60d943c72e843576520abdf7eacd4/overhave-4.0.2.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [bayes-lol-client]: Downloading https://files.pythonhosted.org/packages/9a/f3/03ee58a13a87a92d4483cbda193b1a2ed2ea1af5f9578c64f2a5a7a59391/bayes_lol_client-1.0.3.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [tempora]: Downloading https://files.pythonhosted.org/packages/81/06/1ee81466dfccb91dd93629cb29716cda7086bac82e72527860290e345884/tempora-5.4.0.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/2c/c9/afcb555a3fb4ed6e7b1c2c52418e9bbcc3fcf8d7db42d4c0605511bd982a/FAIRSave-0.0.6.6.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Downloading https://files.pythonhosted.org/packages/ce/a2/f8e91c6a80c7072c3c1db6fb9345f1fe3868a021f56f3cbcb3f92e73a3e2/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev5-py3-none-any.whl
+[2023-06-27 10:57:51] INFO root fetch - processPackages [vdk-core]: executing diffoscope
+[2023-06-27 10:57:51] INFO root fetch - processPackages [simpleshark]: Downloading https://files.pythonhosted.org/packages/3a/58/0e9a867cf59e97974ea6224d0cc42edc03128dca86f3be2351b70a4912f6/simpleshark-0.0.9.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [vdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-core-0.3.911852332.tar.gz tmp/vdk-core-0.3.912884507.tar.gz --markdown 20230627/v/vdk-core/0.3.911852332-0.3.912884507/diff.md --exclude *.pyd
+[2023-06-27 10:57:51] INFO root fetch - processPackages [bayes-lol-client]: executing diffoscope
+[2023-06-27 10:57:51] INFO root fetch - processPackages [bayes-lol-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayes_lol_client-1.0.2.tar.gz tmp/bayes_lol_client-1.0.3.tar.gz --markdown 20230627/b/bayes-lol-client/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 10:57:51] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-06-27 10:57:51] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-4.0.0.tar.gz tmp/overhave-4.0.2.tar.gz --markdown 20230627/o/overhave/4.0.0-4.0.2/diff.md --exclude *.pyd
+[2023-06-27 10:57:51] INFO root fetch - processPackages [tempora]: executing diffoscope
+[2023-06-27 10:57:51] INFO root fetch - processPackages [tempora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempora-5.3.0.tar.gz tmp/tempora-5.4.0.tar.gz --markdown 20230627/t/tempora/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-06-27 10:57:51] INFO root fetch - processPackages [FAIRSave]: executing diffoscope
+[2023-06-27 10:57:51] INFO root fetch - processPackages [FAIRSave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FAIRSave-0.0.6.5.tar.gz tmp/FAIRSave-0.0.6.6.tar.gz --markdown 20230627/F/FAIRSave/0.0.6.5-0.0.6.6/diff.md --exclude *.pyd
+[2023-06-27 10:57:51] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria-discount]: Downloading https://files.pythonhosted.org/packages/f6/90/6a34bebf9dc93fb17f46f7c2c3b103572c5787ac202108520d1f96d6e5fa/odoo14_addon_sale_commission_product_criteria_discount-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-27 10:57:51] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: executing diffoscope
+[2023-06-27 10:57:51] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev5-py3-none-any.whl.zip --markdown 20230627/o/odoo14-addon-sale-commission-product-criteria/14.0.1.0.2.dev3-14.0.1.0.2.dev5/diff.md --exclude *.pyd
+[2023-06-27 10:57:51] INFO root fetch - processPackages [resotoclient]: Downloading https://files.pythonhosted.org/packages/5c/88/4886a8ccd17c0752522aaec8520b1e8cea08bfe8db3ac4d36e5333180e58/resotoclient-1.5.0.tar.gz
+[2023-06-27 10:57:51] INFO root fetch - processPackages [simpleshark]: executing diffoscope
+[2023-06-27 10:57:51] INFO root fetch - processPackages [simpleshark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleshark-0.0.8.tar.gz tmp/simpleshark-0.0.9.tar.gz --markdown 20230627/s/simpleshark/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 10:57:52] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria-discount]: executing diffoscope
+[2023-06-27 10:57:52] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission_product_criteria_discount-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission_product_criteria_discount-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230627/o/odoo14-addon-sale-commission-product-criteria-discount/14.0.1.0.1.dev3-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-06-27 10:57:52] INFO root fetch - processPackages [resotoclient]: executing diffoscope
+[2023-06-27 10:57:52] INFO root fetch - processPackages [resotoclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotoclient-1.4.1.tar.gz tmp/resotoclient-1.5.0.tar.gz --markdown 20230627/r/resotoclient/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-06-27 10:57:53] INFO root fetch - processPackages [json-grep]: Remove: archive file [/home/abi/fetcher/tmp/json-grep-1.2.1.tar.gz]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [json-grep]: Remove: archive file [/home/abi/fetcher/tmp/json-grep-1.2.2.tar.gz]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [json-grep]: Start processing: certora-cli-alpha-master
+[2023-06-27 10:57:53] INFO root fetch - main [MainThread]: End processing [json-grep]: success
+[2023-06-27 10:57:53] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.2.dev5-py3-none-any.whl.zip]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Start processing: watchtower-browser-testing
+[2023-06-27 10:57:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-product-criteria]: success
+[2023-06-27 10:57:53] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230627.8.55.519584] Old Version: [20230626.9.34.254631]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_product_criteria_discount-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_product_criteria_discount-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria-discount]: Start processing: web-list-info-spider
+[2023-06-27 10:57:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-product-criteria-discount]: success
+[2023-06-27 10:57:53] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [simpleshark]: Remove: archive file [/home/abi/fetcher/tmp/simpleshark-0.0.8.tar.gz]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [simpleshark]: Remove: archive file [/home/abi/fetcher/tmp/simpleshark-0.0.9.tar.gz]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [simpleshark]: Start processing: FAIRSave
+[2023-06-27 10:57:53] INFO root fetch - main [MainThread]: End processing [simpleshark]: success
+[2023-06-27 10:57:53] WARNING root fetch - processPackages [web-list-info-spider]: Skipping, unable to determine old version
+[2023-06-27 10:57:53] INFO root fetch - processPackages [web-list-info-spider]: Start processing: chatllm
+[2023-06-27 10:57:53] INFO root fetch - main [MainThread]: End processing [web-list-info-spider] error
+[2023-06-27 10:57:53] INFO root fetch - processPackages [bayes-lol-client]: Remove: archive file [/home/abi/fetcher/tmp/bayes_lol_client-1.0.2.tar.gz]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [bayes-lol-client]: Remove: archive file [/home/abi/fetcher/tmp/bayes_lol_client-1.0.3.tar.gz]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [bayes-lol-client]: Start processing: mds-account-primanota
+[2023-06-27 10:57:53] INFO root fetch - main [MainThread]: End processing [bayes-lol-client]: success
+[2023-06-27 10:57:53] INFO root fetch - processPackages [FAIRSave]: New version: [0.0.6.7] Old Version: [0.0.6.6]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.5.tar.gz]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.6.tar.gz]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [FAIRSave]: Start processing: hyko-sdk
+[2023-06-27 10:57:53] INFO root fetch - main [MainThread]: End processing [FAIRSave]: success
+[2023-06-27 10:57:53] INFO root fetch - processPackages [chatllm]: New version: [2023.6.27.15.7.5] Old Version: [2023.6.26.13.38.53]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/ed/1e/acb8d47d20170c654a8fb538666399b16e03b797d1152908b33c199ba5a3/certora-cli-alpha-master-20230626.9.34.254631.tar.gz
+[2023-06-27 10:57:53] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 10:57:53] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/2c/c9/afcb555a3fb4ed6e7b1c2c52418e9bbcc3fcf8d7db42d4c0605511bd982a/FAIRSave-0.0.6.6.tar.gz
+[2023-06-27 10:57:53] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37394216>=10485760
+[2023-06-27 10:57:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-27 10:57:53] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/8d/e4/6f32b2d0a174353344a961ed9ee93580e3da4806b549964af4a8d6b1c835/chatllm-2023.6.26.13.38.53.tar.gz
+[2023-06-27 10:57:53] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/90/5d/8f9dfc12312a968b104bf5ff366a5f4e3a73e0f789d459937d93abaa9518/watchtower_browser_testing-0.5.2.tar.gz
+[2023-06-27 10:57:53] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-06-27 10:57:54] INFO root fetch - processPackages [mds-account-primanota]: New version: [6.8.5] Old Version: [6.6.5]
+[2023-06-27 10:57:54] INFO root fetch - processPackages [tempora]: Remove: archive file [/home/abi/fetcher/tmp/tempora-5.3.0.tar.gz]
+[2023-06-27 10:57:54] INFO root fetch - processPackages [tempora]: Remove: archive file [/home/abi/fetcher/tmp/tempora-5.4.0.tar.gz]
+[2023-06-27 10:57:54] INFO root fetch - main [MainThread]: End processing [tempora]: success
+[2023-06-27 10:57:54] INFO root fetch - processPackages [resotoclient]: Remove: archive file [/home/abi/fetcher/tmp/resotoclient-1.4.1.tar.gz]
+[2023-06-27 10:57:54] INFO root fetch - processPackages [resotoclient]: Remove: archive file [/home/abi/fetcher/tmp/resotoclient-1.5.0.tar.gz]
+[2023-06-27 10:57:54] INFO root fetch - main [MainThread]: End processing [resotoclient]: success
+[2023-06-27 10:57:54] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/a2/69/9083cbcf525abd29698e45c933b5dbeac117c387b15c4b3c92274ff44500/FAIRSave-0.0.6.7.tar.gz
+[2023-06-27 10:57:54] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/e6/c2/2388b9cbac4071d843cabb3a545e2d17b0058673cfee3e43a8b4758bef39/chatllm-2023.6.27.15.7.5.tar.gz
+[2023-06-27 10:57:54] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-06-27 10:57:54] INFO root fetch - processPackages [mds-account-primanota]: Downloading https://files.pythonhosted.org/packages/28/8e/de722c4e9b379f63ce7d730f5a19b10aea44001b8a82b8cb80ebdfb8e8eb/mds_account_primanota-6.6.5.tar.gz
+[2023-06-27 10:57:54] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/d1/a3/9aaf765b10932952d8ddac40e300bcf0455756e6a709e58bbdf7c0a4cdaa/watchtower_browser_testing-0.5.3.tar.gz
+[2023-06-27 10:57:54] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-06-27 10:57:54] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230627/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 10:57:54] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-06-27 10:57:54] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.5.2.tar.gz tmp/watchtower_browser_testing-0.5.3.tar.gz --markdown 20230627/w/watchtower-browser-testing/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-27 10:57:54] INFO root fetch - processPackages [FAIRSave]: executing diffoscope
+[2023-06-27 10:57:54] INFO root fetch - processPackages [FAIRSave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FAIRSave-0.0.6.6.tar.gz tmp/FAIRSave-0.0.6.7.tar.gz --markdown 20230627/F/FAIRSave/0.0.6.6-0.0.6.7/diff.md --exclude *.pyd
+[2023-06-27 10:57:54] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-06-27 10:57:54] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2023.6.26.13.38.53.tar.gz tmp/chatllm-2023.6.27.15.7.5.tar.gz --markdown 20230627/c/chatllm/2023.6.26.13.38.53-2023.6.27.15.7.5/diff.md --exclude *.pyd
+[2023-06-27 10:57:54] INFO root fetch - processPackages [mds-account-primanota]: Downloading https://files.pythonhosted.org/packages/2d/e2/43ab90c1211f6bd58c966cc973a5f324db3268a03050ccf09dc96c2acb82/mds_account_primanota-6.8.5.tar.gz
+[2023-06-27 10:57:54] INFO root fetch - processPackages [mds-account-primanota]: executing diffoscope
+[2023-06-27 10:57:54] INFO root fetch - processPackages [mds-account-primanota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mds_account_primanota-6.6.5.tar.gz tmp/mds_account_primanota-6.8.5.tar.gz --markdown 20230627/m/mds-account-primanota/6.6.5-6.8.5/diff.md --exclude *.pyd
+[2023-06-27 10:57:54] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.911852332.tar.gz]
+[2023-06-27 10:57:54] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.912884507.tar.gz]
+[2023-06-27 10:57:54] INFO root fetch - main [MainThread]: End processing [vdk-core]: success
+[2023-06-27 10:57:55] INFO root fetch - processPackages [watchtower-browser-testing]: Remove: archive file [/home/abi/fetcher/tmp/watchtower_browser_testing-0.5.2.tar.gz]
+[2023-06-27 10:57:55] INFO root fetch - processPackages [watchtower-browser-testing]: Remove: archive file [/home/abi/fetcher/tmp/watchtower_browser_testing-0.5.3.tar.gz]
+[2023-06-27 10:57:55] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-06-27 10:57:55] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-06-27 10:57:55] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-06-27 10:57:55] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-06-27 10:57:55] INFO root fetch - processPackages [mds-account-primanota]: Remove: archive file [/home/abi/fetcher/tmp/mds_account_primanota-6.6.5.tar.gz]
+[2023-06-27 10:57:55] INFO root fetch - processPackages [mds-account-primanota]: Remove: archive file [/home/abi/fetcher/tmp/mds_account_primanota-6.8.5.tar.gz]
+[2023-06-27 10:57:55] INFO root fetch - main [MainThread]: End processing [mds-account-primanota]: success
+[2023-06-27 10:57:57] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.26.13.38.53.tar.gz]
+[2023-06-27 10:57:57] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.27.15.7.5.tar.gz]
+[2023-06-27 10:57:57] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-06-27 10:57:57] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.0.0.tar.gz]
+[2023-06-27 10:57:57] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.0.2.tar.gz]
+[2023-06-27 10:57:57] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-06-27 10:58:48] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.6.tar.gz]
+[2023-06-27 10:58:48] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.7.tar.gz]
+[2023-06-27 10:58:48] INFO root fetch - main [MainThread]: End processing [FAIRSave]: success
+[2023-06-27 10:58:48] INFO root fetch - main [MainThread]: Store serial: [18660161]
