@@ -11934,3 +11934,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 05:52:37] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
 [2023-06-27 05:52:37] INFO root fetch - main [MainThread]: End processing [azdev]: success
 [2023-06-27 05:52:37] INFO root fetch - main [MainThread]: Store serial: [18657903]
+[2023-06-27 05:57:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657903]
+[2023-06-27 05:57:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-27 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-server
+[2023-06-27 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-nodeeditor
+[2023-06-27 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edgeiq
+[2023-06-27 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-l10n-it-fatturapa-out
+[2023-06-27 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-assets-management
+[2023-06-27 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oci
+[2023-06-27 05:57:46] INFO root fetch - processPackages [jupyter-server]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-06-27 05:57:46] INFO root fetch - processPackages [jupyterlab-nodeeditor]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-27 05:57:46] INFO root fetch - processPackages [edgeiq]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-27 05:57:46] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: New version: [12.0.3.2.2.99.dev1] Old Version: [12.0.3.2.2]
+[2023-06-27 05:57:46] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/d8/f0/55d467ed6ca1960cde628785001dd6a7566e96d9d8c16a61bdb881bfa82b/jupyterlab_nodeeditor-1.0.1.tar.gz
+[2023-06-27 05:57:46] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/4f/6f/59f3c97524696ea7a36a1f7e4493c0fd11ae60554cd09b27e71105f29ded/odoo12_addon_l10n_it_fatturapa_out-12.0.3.2.2-py3-none-any.whl
+[2023-06-27 05:57:46] INFO root fetch - processPackages [odoo14-addon-assets-management]: New version: [14.0.1.0.5.dev9] Old Version: [14.0.1.0.5.dev6]
+[2023-06-27 05:57:46] INFO root fetch - processPackages [oci]: New version: [2.99.1] Old Version: [2.99.0]
+[2023-06-27 05:57:46] INFO root fetch - processPackages [jupyter-server]: Downloading https://files.pythonhosted.org/packages/ef/59/ba1556d910d6b608d203ca033ed4eef4489415f6afeb4e27fc7d7d56d257/jupyter_server-2.6.0.tar.gz
+[2023-06-27 05:57:47] INFO root fetch - processPackages [edgeiq]: Downloading https://files.pythonhosted.org/packages/7a/80/ba6bbb3f246a07fc1ea13469e4b0889019115bc7a98435b7c21a9d897be3/edgeiq-2.0.0-cp38-none-win_amd64.whl
+[2023-06-27 05:57:47] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/2b/96/b180320c75672943951868d0314d31b5f017f42270c46cd6db85aba22c78/odoo14_addon_assets_management-14.0.1.0.5.dev6-py3-none-any.whl
+[2023-06-27 05:57:47] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/03/4f/f16c0fb73baef56501e9e8534ce0ef59e7f538fdfc12fb6314943a15e224/odoo12_addon_l10n_it_fatturapa_out-12.0.3.2.2.99.dev1-py3-none-any.whl
+[2023-06-27 05:57:47] INFO root fetch - processPackages [jupyter-server]: Downloading https://files.pythonhosted.org/packages/2b/82/f4a31af1a03b1f9fa9fe60bb3713bfb1032500ff9c0704a31688ae40ae66/jupyter_server-2.7.0.tar.gz
+[2023-06-27 05:57:47] INFO root fetch - processPackages [oci]: executing diffoscope
+[2023-06-27 05:57:47] INFO root fetch - processPackages [oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-2.99.0.tar.gz tmp/oci-2.99.1.tar.gz --markdown 20230627/o/oci/2.99.0-2.99.1/diff.md --exclude *.pyd
+[2023-06-27 05:57:47] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/2b/da/0b614bffcf6caafa3ed500ded20f55d65f96b4b22c4f9e0d7eb7db2a6458/odoo14_addon_assets_management-14.0.1.0.5.dev9-py3-none-any.whl
+[2023-06-27 05:57:47] INFO root fetch - processPackages [jupyter-server]: executing diffoscope
+[2023-06-27 05:57:47] INFO root fetch - processPackages [jupyter-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_server-2.6.0.tar.gz tmp/jupyter_server-2.7.0.tar.gz --markdown 20230627/j/jupyter-server/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-06-27 05:57:47] INFO root fetch - processPackages [odoo14-addon-assets-management]: executing diffoscope
+[2023-06-27 05:57:47] INFO root fetch - processPackages [odoo14-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_assets_management-14.0.1.0.5.dev6-py3-none-any.whl.zip tmp/odoo14_addon_assets_management-14.0.1.0.5.dev9-py3-none-any.whl.zip --markdown 20230627/o/odoo14-addon-assets-management/14.0.1.0.5.dev6-14.0.1.0.5.dev9/diff.md --exclude *.pyd
+[2023-06-27 05:57:47] INFO root fetch - processPackages [edgeiq]: Downloading https://files.pythonhosted.org/packages/a9/11/3969abc5b250988661f9fa3499ce23b1bced1844882e71d0f9b1324722f1/edgeiq-2.1.0-cp38-none-win_amd64.whl
+[2023-06-27 05:57:47] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: executing diffoscope
+[2023-06-27 05:57:47] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_fatturapa_out-12.0.3.2.2-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_fatturapa_out-12.0.3.2.2.99.dev1-py3-none-any.whl.zip --markdown 20230627/o/odoo12-addon-l10n-it-fatturapa-out/12.0.3.2.2-12.0.3.2.2.99.dev1/diff.md --exclude *.pyd
+[2023-06-27 05:57:48] INFO root fetch - processPackages [edgeiq]: executing diffoscope
+[2023-06-27 05:57:48] INFO root fetch - processPackages [edgeiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeiq-2.0.0-cp38-none-win_amd64.whl.zip tmp/edgeiq-2.1.0-cp38-none-win_amd64.whl.zip --markdown 20230627/e/edgeiq/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-27 05:57:48] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/4d/5a/9fd1f82ef77007e23eff5bd4c761b86449c2c8e88ccd216e2d2d230394f8/jupyterlab_nodeeditor-1.0.2.tar.gz
+[2023-06-27 05:57:49] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.0.5.dev6-py3-none-any.whl.zip]
+[2023-06-27 05:57:49] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.0.5.dev9-py3-none-any.whl.zip]
+[2023-06-27 05:57:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
+[2023-06-27 05:57:49] INFO root fetch - processPackages [jupyterlab-nodeeditor]: executing diffoscope
+[2023-06-27 05:57:49] INFO root fetch - processPackages [jupyterlab-nodeeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nodeeditor-1.0.1.tar.gz tmp/jupyterlab_nodeeditor-1.0.2.tar.gz --markdown 20230627/j/jupyterlab-nodeeditor/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-27 05:57:51] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_fatturapa_out-12.0.3.2.2-py3-none-any.whl.zip]
+[2023-06-27 05:57:51] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_fatturapa_out-12.0.3.2.2.99.dev1-py3-none-any.whl.zip]
+[2023-06-27 05:57:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-fatturapa-out]: success
+[2023-06-27 05:57:51] INFO root fetch - processPackages [edgeiq]: Remove: archive file [/home/abi/fetcher/tmp/edgeiq-2.0.0-cp38-none-win_amd64.whl.zip]
+[2023-06-27 05:57:51] INFO root fetch - processPackages [edgeiq]: Remove: archive file [/home/abi/fetcher/tmp/edgeiq-2.1.0-cp38-none-win_amd64.whl.zip]
+[2023-06-27 05:57:51] INFO root fetch - main [MainThread]: End processing [edgeiq]: success
+[2023-06-27 05:57:53] INFO root fetch - processPackages [jupyter-server]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server-2.6.0.tar.gz]
+[2023-06-27 05:57:53] INFO root fetch - processPackages [jupyter-server]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server-2.7.0.tar.gz]
+[2023-06-27 05:57:53] INFO root fetch - main [MainThread]: End processing [jupyter-server]: success
+[2023-06-27 05:57:55] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.1.tar.gz]
+[2023-06-27 05:57:55] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.2.tar.gz]
+[2023-06-27 05:57:55] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
+[2023-06-27 06:00:47] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
+[2023-06-27 06:00:47] INFO root fetch - main [MainThread]: End processing [oci] error
+[2023-06-27 06:00:47] INFO root fetch - main [MainThread]: Store serial: [18657921]
