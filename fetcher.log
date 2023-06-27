@@ -20893,3 +20893,171 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 13:11:00] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
 [2023-06-27 13:11:00] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
 [2023-06-27 13:11:00] INFO root fetch - main [MainThread]: Store serial: [18661748]
+[2023-06-27 13:16:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661748]
+[2023-06-27 13:16:09] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-27 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: movie-rec-marking-aicore
+[2023-06-27 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantus
+[2023-06-27 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-27 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spyx
+[2023-06-27 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythoncryptolibraryV2
+[2023-06-27 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mentord
+[2023-06-27 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pywin32-ctypes
+[2023-06-27 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mentord
+[2023-06-27 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stsmfa-cli
+[2023-06-27 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: curcheck-manager
+[2023-06-27 13:16:09] INFO root fetch - processPackages [mentord]: New version: [1.1.1] Old Version: [1.1]
+[2023-06-27 13:16:09] INFO root fetch - processPackages [pythoncryptolibraryV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-27 13:16:09] WARNING root fetch - processPackages [curcheck-manager]: Skipping, unable to determine old version
+[2023-06-27 13:16:09] INFO root fetch - processPackages [curcheck-manager]: Start processing: job-pool
+[2023-06-27 13:16:09] INFO root fetch - processPackages [spyx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 13:16:09] INFO root fetch - main [MainThread]: End processing [curcheck-manager] error
+[2023-06-27 13:16:09] INFO root fetch - processPackages [mentord]: New version: [1.1.1] Old Version: [1.1]
+[2023-06-27 13:16:09] INFO root fetch - processPackages [movie-rec-marking-aicore]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-27 13:16:09] INFO root fetch - processPackages [quantus]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-27 13:16:09] INFO root fetch - processPackages [pywin32-ctypes]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-27 13:16:09] INFO root fetch - processPackages [stsmfa-cli]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-06-27 13:16:09] INFO root fetch - processPackages [job-pool]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-27 13:16:09] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pywin32-ctypes]: Downloading https://files.pythonhosted.org/packages/10/7e/4e7e29bc35dbe22a1fd8bcb0ca4b1370164f8433ed6923e80af3961358b2/pywin32-ctypes-0.2.1.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [job-pool]: Downloading https://files.pythonhosted.org/packages/5f/8b/01a6fc6e4fd1d20126756c772d4a4b106d2e25e1214e97285e8c2aba54a4/job_pool-0.1.1-py3-none-any.whl
+[2023-06-27 13:16:10] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pythoncryptolibraryV2]: Downloading https://files.pythonhosted.org/packages/50/a4/0205f58bfbda34b5dd7d13ff793d2dbfb4b3a517eff9d5e664c51e719a75/pythoncryptolibraryV2-1.0.0.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/28/ae/1b2eaaca6e56f6c26f8c4d88bcdd9fb03cff805377b251478057c6c3f87f/mentord-1.1.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/28/ae/1b2eaaca6e56f6c26f8c4d88bcdd9fb03cff805377b251478057c6c3f87f/mentord-1.1.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [movie-rec-marking-aicore]: Downloading https://files.pythonhosted.org/packages/51/39/1d6ecd7aed04218f9a0c0b067825a18687a1f9b8cd4e8b10fbd81e0ebd60/movie-rec-marking-aicore-0.1.4.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [stsmfa-cli]: Downloading https://files.pythonhosted.org/packages/f5/ac/7077649f0b1afdce69a29693be4c733cd1b246b77e9eca94d40fd5aaa37f/stsmfa_cli-0.1.9.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [quantus]: Downloading https://files.pythonhosted.org/packages/b9/f5/a2aa390c2f1aad5610686d8dccc3f34d3dfb707e604399d251b4ea67ac6b/quantus-0.4.0.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/03/d3/7fb8e0ae16918d31936abec49e12b457a905c8e39fb1405a1236b7e03d85/spyx-0.0.9.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pywin32-ctypes]: Downloading https://files.pythonhosted.org/packages/10/3d/0cfbca45201351fe8c09cca743403e6c2407892e256e25d126ad64dc6bb7/pywin32-ctypes-0.2.2.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-06-27 13:16:10] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.8.tar.gz tmp/spyx-0.0.9.tar.gz --markdown 20230627/s/spyx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230627/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 13:16:10] INFO root fetch - processPackages [job-pool]: Downloading https://files.pythonhosted.org/packages/af/73/0e5115914fc9382f54c53a2581950c5c6c26ce3d51190fbbc1005e063693/job_pool-0.2.0-py3-none-any.whl
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pythoncryptolibraryV2]: Downloading https://files.pythonhosted.org/packages/8d/b3/a65b7637bd5e4bf6a291256584d64efb6c62ae617d7137b5e9b07a6bd996/pythoncryptolibraryV2-1.1.0.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/7a/eb/e31ae43b91bdbc822d5f4a95574f785a77cf51823dbe8981fb2600b4a22c/mentord-1.1.1.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/7a/eb/e31ae43b91bdbc822d5f4a95574f785a77cf51823dbe8981fb2600b4a22c/mentord-1.1.1.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [movie-rec-marking-aicore]: Downloading https://files.pythonhosted.org/packages/c4/f3/d2bf1b3f7ad4c17224170661b7c1c52e21a0cb96af01bdcf76b046304953/movie-rec-marking-aicore-0.1.5.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [stsmfa-cli]: Downloading https://files.pythonhosted.org/packages/ef/5b/993f4191b7d7db5522e909b70bb02ac590da72819cabd9ee234469c02352/stsmfa_cli-1.0.0.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [job-pool]: executing diffoscope
+[2023-06-27 13:16:10] INFO root fetch - processPackages [job-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/job_pool-0.1.1-py3-none-any.whl.zip tmp/job_pool-0.2.0-py3-none-any.whl.zip --markdown 20230627/j/job-pool/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pythoncryptolibraryV2]: executing diffoscope
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pythoncryptolibraryV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncryptolibraryV2-1.0.0.tar.gz tmp/pythoncryptolibraryV2-1.1.0.tar.gz --markdown 20230627/p/pythoncryptolibraryV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pywin32-ctypes]: executing diffoscope
+[2023-06-27 13:16:10] INFO root fetch - processPackages [pywin32-ctypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywin32-ctypes-0.2.1.tar.gz tmp/pywin32-ctypes-0.2.2.tar.gz --markdown 20230627/p/pywin32-ctypes/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-27 13:16:10] INFO root fetch - processPackages [movie-rec-marking-aicore]: executing diffoscope
+[2023-06-27 13:16:10] INFO root fetch - processPackages [movie-rec-marking-aicore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movie-rec-marking-aicore-0.1.4.tar.gz tmp/movie-rec-marking-aicore-0.1.5.tar.gz --markdown 20230627/m/movie-rec-marking-aicore/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 13:16:10] INFO root fetch - processPackages [stsmfa-cli]: executing diffoscope
+[2023-06-27 13:16:10] INFO root fetch - processPackages [stsmfa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stsmfa_cli-0.1.9.tar.gz tmp/stsmfa_cli-1.0.0.tar.gz --markdown 20230627/s/stsmfa-cli/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-27 13:16:10] INFO root fetch - processPackages [quantus]: Downloading https://files.pythonhosted.org/packages/c7/ef/4617aa698847dc78ea22b0a9d0d8a3a9612b084c6c8df76c43e7782c8821/quantus-0.4.1.tar.gz
+[2023-06-27 13:16:10] INFO root fetch - processPackages [quantus]: executing diffoscope
+[2023-06-27 13:16:10] INFO root fetch - processPackages [quantus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantus-0.4.0.tar.gz tmp/quantus-0.4.1.tar.gz --markdown 20230627/q/quantus/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-27 13:16:10] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-27 13:16:10] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.1.tar.gz tmp/mentord-1.1.1.tar.gz --markdown 20230627/m/mentord/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-27 13:16:10] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-27 13:16:10] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.1.tar.gz tmp/mentord-1.1.1.tar.gz --markdown 20230627/m/mentord/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-27 13:16:12] INFO root fetch - processPackages [job-pool]: Remove: archive file [/home/abi/fetcher/tmp/job_pool-0.1.1-py3-none-any.whl.zip]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [job-pool]: Remove: archive file [/home/abi/fetcher/tmp/job_pool-0.2.0-py3-none-any.whl.zip]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [job-pool]: Start processing: openterrace
+[2023-06-27 13:16:12] INFO root fetch - main [MainThread]: End processing [job-pool]: success
+[2023-06-27 13:16:12] INFO root fetch - processPackages [openterrace]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [stsmfa-cli]: Remove: archive file [/home/abi/fetcher/tmp/stsmfa_cli-0.1.9.tar.gz]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [stsmfa-cli]: Remove: archive file [/home/abi/fetcher/tmp/stsmfa_cli-1.0.0.tar.gz]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [stsmfa-cli]: Start processing: pepperize.cdk-private-bucket
+[2023-06-27 13:16:12] INFO root fetch - main [MainThread]: End processing [stsmfa-cli]: success
+[2023-06-27 13:16:12] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.1.tar.gz]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.1.1.tar.gz]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [mentord]: Start processing: Config-OC
+[2023-06-27 13:16:12] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-27 13:16:12] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [Config-OC]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [mentord]: Start processing: qwak-core
+[2023-06-27 13:16:12] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-27 13:16:12] INFO root fetch - processPackages [openterrace]: Downloading https://files.pythonhosted.org/packages/48/c3/5dc46c193554f4f772c02e38058934e4615f2d040e673fc37dd32b414948/openterrace-0.0.6.tar.gz
+[2023-06-27 13:16:12] INFO root fetch - processPackages [movie-rec-marking-aicore]: Remove: archive file [/home/abi/fetcher/tmp/movie-rec-marking-aicore-0.1.4.tar.gz]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [movie-rec-marking-aicore]: Remove: archive file [/home/abi/fetcher/tmp/movie-rec-marking-aicore-0.1.5.tar.gz]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [movie-rec-marking-aicore]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-27 13:16:12] INFO root fetch - main [MainThread]: End processing [movie-rec-marking-aicore]: success
+[2023-06-27 13:16:12] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-06-27 13:16:12] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.9.tar.gz]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [spyx]: Start processing: nonebot-plugin-chess
+[2023-06-27 13:16:12] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-06-27 13:16:12] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 13:16:12] ERROR root fetch - processPackages [Config-OC]: Unable to fetch info: No such project/version 'Config-OC' 1.0.0
+[2023-06-27 13:16:12] INFO root fetch - processPackages [Config-OC]: Start processing: cg
+[2023-06-27 13:16:12] INFO root fetch - main [MainThread]: End processing [Config-OC] error
+[2023-06-27 13:16:12] INFO root fetch - processPackages [pythoncryptolibraryV2]: Remove: archive file [/home/abi/fetcher/tmp/pythoncryptolibraryV2-1.0.0.tar.gz]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [pythoncryptolibraryV2]: Remove: archive file [/home/abi/fetcher/tmp/pythoncryptolibraryV2-1.1.0.tar.gz]
+[2023-06-27 13:16:12] INFO root fetch - main [MainThread]: End processing [pythoncryptolibraryV2]: success
+[2023-06-27 13:16:12] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [nonebot-plugin-chess]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-27 13:16:12] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-27 13:16:12] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230627/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 13:16:12] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-06-27 13:16:12] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-27 13:16:12] INFO root fetch - processPackages [openterrace]: Downloading https://files.pythonhosted.org/packages/2e/63/d2b97802cc12299f0628bd734527108321e40394846a01115a9b5e5ff785/openterrace-0.0.7.tar.gz
+[2023-06-27 13:16:12] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-06-27 13:16:12] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230627/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 13:16:12] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-06-27 13:16:12] INFO root fetch - processPackages [openterrace]: executing diffoscope
+[2023-06-27 13:16:12] INFO root fetch - processPackages [openterrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openterrace-0.0.6.tar.gz tmp/openterrace-0.0.7.tar.gz --markdown 20230627/o/openterrace/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-27 13:16:12] INFO root fetch - processPackages [nonebot-plugin-chess]: Downloading https://files.pythonhosted.org/packages/30/c7/1b8f60f78b1b4aca46f02e8f5e50bf10911ba75da59941e244440a67bcfd/nonebot_plugin_chess-0.3.1.tar.gz
+[2023-06-27 13:16:12] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-06-27 13:16:13] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-27 13:16:13] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230627/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-06-27 13:16:13] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-06-27 13:16:13] INFO root fetch - processPackages [nonebot-plugin-chess]: Downloading https://files.pythonhosted.org/packages/c6/bf/4bd879a673e91530951ecbf34d06794be5b137ef10bd9e9e9ccfa58cb7c0/nonebot_plugin_chess-0.4.0.tar.gz
+[2023-06-27 13:16:13] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-27 13:16:13] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230627/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 13:16:13] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-06-27 13:16:13] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-06-27 13:16:13] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-06-27 13:16:13] INFO root fetch - processPackages [nonebot-plugin-chess]: executing diffoscope
+[2023-06-27 13:16:13] INFO root fetch - processPackages [nonebot-plugin-chess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_chess-0.3.1.tar.gz tmp/nonebot_plugin_chess-0.4.0.tar.gz --markdown 20230627/n/nonebot-plugin-chess/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-27 13:16:13] INFO root fetch - processPackages [pywin32-ctypes]: Remove: archive file [/home/abi/fetcher/tmp/pywin32-ctypes-0.2.1.tar.gz]
+[2023-06-27 13:16:13] INFO root fetch - processPackages [pywin32-ctypes]: Remove: archive file [/home/abi/fetcher/tmp/pywin32-ctypes-0.2.2.tar.gz]
+[2023-06-27 13:16:13] INFO root fetch - main [MainThread]: End processing [pywin32-ctypes]: success
+[2023-06-27 13:16:13] ERROR root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz does not exist
+
+[2023-06-27 13:16:13] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts] error
+[2023-06-27 13:16:14] INFO root fetch - processPackages [openterrace]: Remove: archive file [/home/abi/fetcher/tmp/openterrace-0.0.6.tar.gz]
+[2023-06-27 13:16:14] INFO root fetch - processPackages [openterrace]: Remove: archive file [/home/abi/fetcher/tmp/openterrace-0.0.7.tar.gz]
+[2023-06-27 13:16:14] INFO root fetch - main [MainThread]: End processing [openterrace]: success
+[2023-06-27 13:16:14] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-06-27 13:16:14] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-06-27 13:16:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-06-27 13:16:14] INFO root fetch - processPackages [nonebot-plugin-chess]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chess-0.3.1.tar.gz]
+[2023-06-27 13:16:14] INFO root fetch - processPackages [nonebot-plugin-chess]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chess-0.4.0.tar.gz]
+[2023-06-27 13:16:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chess]: success
+[2023-06-27 13:16:15] INFO root fetch - processPackages [quantus]: Remove: archive file [/home/abi/fetcher/tmp/quantus-0.4.0.tar.gz]
+[2023-06-27 13:16:15] INFO root fetch - processPackages [quantus]: Remove: archive file [/home/abi/fetcher/tmp/quantus-0.4.1.tar.gz]
+[2023-06-27 13:16:15] INFO root fetch - main [MainThread]: End processing [quantus]: success
+[2023-06-27 13:16:19] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-06-27 13:16:19] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-06-27 13:16:19] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-27 13:16:25] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-27 13:16:25] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-06-27 13:16:25] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-27 13:16:25] INFO root fetch - main [MainThread]: Store serial: [18661806]
