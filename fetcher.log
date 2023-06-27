@@ -13508,3 +13508,52 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 08:05:57] INFO root fetch - processPackages [horizonai]: Remove: archive file [/home/abi/fetcher/tmp/horizonai-0.1.9.tar.gz]
 [2023-06-27 08:05:57] INFO root fetch - main [MainThread]: End processing [horizonai]: success
 [2023-06-27 08:05:57] INFO root fetch - main [MainThread]: Store serial: [18658516]
+[2023-06-27 08:11:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658516]
+[2023-06-27 08:11:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-27 08:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tiledb-bioimg
+[2023-06-27 08:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2023-06-27 08:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyrebird-bugit
+[2023-06-27 08:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-game-collection
+[2023-06-27 08:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-ilorest-library
+[2023-06-27 08:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AMAS-sb
+[2023-06-27 08:11:05] INFO root fetch - processPackages [python-ilorest-library]: New version: [4.3.0.0] Old Version: [4.2.0.0]
+[2023-06-27 08:11:05] INFO root fetch - processPackages [tiledb-bioimg]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-27 08:11:05] INFO root fetch - processPackages [lyrebird-bugit]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-27 08:11:05] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-27 08:11:06] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230626] Old Version: [2.4.0.dev20230625]
+[2023-06-27 08:11:06] INFO root fetch - processPackages [AMAS-sb]: New version: [1.0.0] Old Version: [0.3.2]
+[2023-06-27 08:11:06] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-27 08:11:06] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/fb/ff/498f58b998040d6f196f86471303eca08c237392a654f8b8622db813bc8d/pyg_nightly-2.4.0.dev20230625.tar.gz
+[2023-06-27 08:11:06] INFO root fetch - processPackages [python-ilorest-library]: Downloading https://files.pythonhosted.org/packages/37/3d/b6a55f99ccfe8914a8b034280e3e9abd26333580dafec0c5fedaabe9e2e9/python-ilorest-library-4.2.0.0.zip
+[2023-06-27 08:11:06] INFO root fetch - processPackages [tiledb-bioimg]: Downloading https://files.pythonhosted.org/packages/ed/43/ba572b744a9732e7f14486e39e89d2e4d4954a729c0f76b77f3c17088928/tiledb-bioimg-0.2.2.tar.gz
+[2023-06-27 08:11:06] INFO root fetch - processPackages [lyrebird-bugit]: Downloading https://files.pythonhosted.org/packages/d3/95/eace435b1592036295ad9c2b6e0aa3e11d0bb883a7e34745dab498e8a890/lyrebird-bugit-1.9.0.tar.gz
+[2023-06-27 08:11:06] INFO root fetch - processPackages [AMAS-sb]: Downloading https://files.pythonhosted.org/packages/fa/57/36229e08a9846d5bbc36fa740e37242add518d9f5c566bcf69715bfeed41/AMAS-sb-0.3.2.tar.gz
+[2023-06-27 08:11:06] WARNING root fetch - processPackages [tiledb-bioimg]: Skipping package: exceeds size limit 32339295>=10485760
+[2023-06-27 08:11:06] INFO root fetch - main [MainThread]: End processing [tiledb-bioimg] error
+[2023-06-27 08:11:06] WARNING root fetch - processPackages [AMAS-sb]: Skipping package: exceeds size limit 23188267>=10485760
+[2023-06-27 08:11:06] INFO root fetch - main [MainThread]: End processing [AMAS-sb] error
+[2023-06-27 08:11:06] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-27 08:11:06] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/5d/7b/e1bbe59062c2a8c897f58f162c2c882cb09de2a0207ff8810c93e7f24c48/pyg_nightly-2.4.0.dev20230626.tar.gz
+[2023-06-27 08:11:06] INFO root fetch - processPackages [python-ilorest-library]: Downloading https://files.pythonhosted.org/packages/d2/cc/0b3fdf80f4aaa5cdffa5833270b5a0b42a2c72756e2b6596e0a84f22641a/python-ilorest-library-4.3.0.0.zip
+[2023-06-27 08:11:06] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-27 08:11:06] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230627/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-27 08:11:06] INFO root fetch - processPackages [python-ilorest-library]: executing diffoscope
+[2023-06-27 08:11:06] INFO root fetch - processPackages [python-ilorest-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ilorest-library-4.2.0.0.zip tmp/python-ilorest-library-4.3.0.0.zip --markdown 20230627/p/python-ilorest-library/4.2.0.0-4.3.0.0/diff.md --exclude *.pyd
+[2023-06-27 08:11:06] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-27 08:11:06] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230625.tar.gz tmp/pyg_nightly-2.4.0.dev20230626.tar.gz --markdown 20230627/p/pyg-nightly/2.4.0.dev20230625-2.4.0.dev20230626/diff.md --exclude *.pyd
+[2023-06-27 08:11:07] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-27 08:11:07] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-27 08:11:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-27 08:11:07] INFO root fetch - processPackages [python-ilorest-library]: Remove: archive file [/home/abi/fetcher/tmp/python-ilorest-library-4.2.0.0.zip]
+[2023-06-27 08:11:07] INFO root fetch - processPackages [python-ilorest-library]: Remove: archive file [/home/abi/fetcher/tmp/python-ilorest-library-4.3.0.0.zip]
+[2023-06-27 08:11:07] INFO root fetch - main [MainThread]: End processing [python-ilorest-library]: success
+[2023-06-27 08:11:08] INFO root fetch - processPackages [lyrebird-bugit]: Downloading https://files.pythonhosted.org/packages/e5/f0/e11fd63cc79d9b3c22836e7848a7f61dc72450e691ccf4c287491a1fa9ee/lyrebird-bugit-1.9.1.tar.gz
+[2023-06-27 08:11:09] INFO root fetch - processPackages [lyrebird-bugit]: executing diffoscope
+[2023-06-27 08:11:09] INFO root fetch - processPackages [lyrebird-bugit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-bugit-1.9.0.tar.gz tmp/lyrebird-bugit-1.9.1.tar.gz --markdown 20230627/l/lyrebird-bugit/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-27 08:11:11] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230625.tar.gz]
+[2023-06-27 08:11:11] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230626.tar.gz]
+[2023-06-27 08:11:11] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-27 08:11:12] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.0.tar.gz]
+[2023-06-27 08:11:12] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.1.tar.gz]
+[2023-06-27 08:11:12] INFO root fetch - main [MainThread]: End processing [lyrebird-bugit]: success
+[2023-06-27 08:11:12] INFO root fetch - main [MainThread]: Store serial: [18658533]
