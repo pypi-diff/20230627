@@ -12171,3 +12171,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 06:16:30] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.121.0.tar.gz]
 [2023-06-27 06:16:30] INFO root fetch - main [MainThread]: End processing [qtgql]: success
 [2023-06-27 06:16:30] INFO root fetch - main [MainThread]: Store serial: [18657991]
+[2023-06-27 06:21:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657991]
+[2023-06-27 06:21:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-27 06:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vizmath
+[2023-06-27 06:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-nodeeditor
+[2023-06-27 06:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-game-collection
+[2023-06-27 06:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dassana
+[2023-06-27 06:21:39] INFO root fetch - processPackages [jupyterlab-nodeeditor]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 06:21:39] INFO root fetch - processPackages [vizmath]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-27 06:21:39] INFO root fetch - processPackages [dassana]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-06-27 06:21:39] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-27 06:21:39] INFO root fetch - processPackages [vizmath]: Downloading https://files.pythonhosted.org/packages/d5/7a/e04600a655c2cb5cfa91d25de1be8e0eb535f35349f34f5a9769fb68856e/vizmath-0.0.5.tar.gz
+[2023-06-27 06:21:39] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-27 06:21:39] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/4d/5a/9fd1f82ef77007e23eff5bd4c761b86449c2c8e88ccd216e2d2d230394f8/jupyterlab_nodeeditor-1.0.2.tar.gz
+[2023-06-27 06:21:39] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/48/0f/6658b4d180075da60b0c3c1afafc94317c78d46c9075217264f50aa0befa/dassana-0.8.7.tar.gz
+[2023-06-27 06:21:39] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-27 06:21:39] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-27 06:21:39] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230627/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-27 06:21:39] INFO root fetch - processPackages [vizmath]: Downloading https://files.pythonhosted.org/packages/19/b6/7adb71ab1874e3e71ec7f803db163e1f0ee0f21c6f6d1cd3786f399c2268/vizmath-0.0.6.tar.gz
+[2023-06-27 06:21:39] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/66/46/b3cdedec31ab008aa3468fa791eb0fcf6bf7ff309fbb9262efa5781dc938/dassana-0.8.8.tar.gz
+[2023-06-27 06:21:39] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/2e/89/f849a0da4c0603ff09e9b5ae474353b314f5063d196dc35e5ec581de7237/jupyterlab_nodeeditor-1.0.3.tar.gz
+[2023-06-27 06:21:40] INFO root fetch - processPackages [dassana]: executing diffoscope
+[2023-06-27 06:21:40] INFO root fetch - processPackages [dassana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dassana-0.8.7.tar.gz tmp/dassana-0.8.8.tar.gz --markdown 20230627/d/dassana/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-06-27 06:21:40] INFO root fetch - processPackages [jupyterlab-nodeeditor]: executing diffoscope
+[2023-06-27 06:21:40] INFO root fetch - processPackages [jupyterlab-nodeeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nodeeditor-1.0.2.tar.gz tmp/jupyterlab_nodeeditor-1.0.3.tar.gz --markdown 20230627/j/jupyterlab-nodeeditor/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 06:21:40] INFO root fetch - processPackages [vizmath]: executing diffoscope
+[2023-06-27 06:21:40] INFO root fetch - processPackages [vizmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizmath-0.0.5.tar.gz tmp/vizmath-0.0.6.tar.gz --markdown 20230627/v/vizmath/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-27 06:21:41] INFO root fetch - processPackages [vizmath]: Remove: archive file [/home/abi/fetcher/tmp/vizmath-0.0.5.tar.gz]
+[2023-06-27 06:21:41] INFO root fetch - processPackages [vizmath]: Remove: archive file [/home/abi/fetcher/tmp/vizmath-0.0.6.tar.gz]
+[2023-06-27 06:21:41] INFO root fetch - main [MainThread]: End processing [vizmath]: success
+[2023-06-27 06:21:41] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-27 06:21:41] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-27 06:21:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-27 06:21:41] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.7.tar.gz]
+[2023-06-27 06:21:41] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.8.tar.gz]
+[2023-06-27 06:21:41] INFO root fetch - main [MainThread]: End processing [dassana]: success
+[2023-06-27 06:21:46] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.2.tar.gz]
+[2023-06-27 06:21:46] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.3.tar.gz]
+[2023-06-27 06:21:46] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
+[2023-06-27 06:21:46] INFO root fetch - main [MainThread]: Store serial: [18658003]
