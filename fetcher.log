@@ -5349,3 +5349,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 02:40:54] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
 [2023-06-27 02:40:54] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
 [2023-06-27 02:40:54] INFO root fetch - main [MainThread]: Store serial: [18655393]
+[2023-06-27 02:45:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18655393]
+[2023-06-27 02:46:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-27 02:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-26
+[2023-06-27 02:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mujoco-dev
+[2023-06-27 02:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-27 02:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lmt-cli
+[2023-06-27 02:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leqi-algorithm-mic-sdk
+[2023-06-27 02:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: state-machine-semaphore
+[2023-06-27 02:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reliableGPT
+[2023-06-27 02:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pp-project-pkg
+[2023-06-27 02:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openllm
+[2023-06-27 02:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nodify-plugin
+[2023-06-27 02:46:03] INFO root fetch - processPackages [lmt-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 02:46:03] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-27 02:46:03] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-27 02:46:03] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 02:46:03] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.916] Old Version: [0.2.915]
+[2023-06-27 02:46:03] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306270013] Old Version: [1.0.202306270006]
+[2023-06-27 02:46:03] INFO root fetch - processPackages [openllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 02:46:03] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-27 02:46:03] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev543586615] Old Version: [2.3.6.dev543559919]
+[2023-06-27 02:46:03] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-27 02:46:03] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/69/cc/09d77e25ca5797059a9243afde624499915528af92e6833e1f1d095be2d5/openllm-0.1.8.tar.gz
+[2023-06-27 02:46:03] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/98/cc/0b6da5fc7c8825584069e49d218d189dae0081a07fcf35d1862c718ca301/reliableGPT-0.2.915.tar.gz
+[2023-06-27 02:46:03] WARNING root fetch - processPackages [nodify-plugin]: Skipping, unable to determine old version
+[2023-06-27 02:46:03] INFO root fetch - main [MainThread]: End processing [nodify-plugin] error
+[2023-06-27 02:46:03] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-27 02:46:03] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/dd/4b/fce444450557e5bdd993ccfff10c4812d085e35d0129ba817d63a119e9ec/lmt-cli-0.0.8.tar.gz
+[2023-06-27 02:46:03] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/b6/37/1e5213469ac499716da670e5fd01cb2521709f93db3187bc2376d54b9eb8/reliableGPT-0.2.916.tar.gz
+[2023-06-27 02:46:03] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: Downloading https://files.pythonhosted.org/packages/0f/46/17c850430657f84b3e39909b2ed97d5235d1c3a849cea70bde7fe72785ab/leqi-algorithm-mic-sdk-1.9.3.tar.gz
+[2023-06-27 02:46:03] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/ee/cf/7f9acd552aaae479bef7bd0e21693511cc5e1df9d9754c4fb2f2d14283e1/mujoco_dev-2.3.6.dev543559919-cp39-cp39-win_amd64.whl
+[2023-06-27 02:46:03] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/4f/27/91f384d50c430f6383c616206d03d16c1e05f5a4430698469ba79d4f1251/pp_project_pkg-1.0.202306270006-py3-none-any.whl
+[2023-06-27 02:46:03] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-27 02:46:03] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-27 02:46:03] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.915.tar.gz tmp/reliableGPT-0.2.916.tar.gz --markdown 20230627/r/reliableGPT/0.2.915-0.2.916/diff.md --exclude *.pyd
+[2023-06-27 02:46:03] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-27 02:46:04] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/28/3e/a9330f38c746d3d17186006e87b6db6cd783f6aae338b8e382351a3ce53e/openllm-0.1.9.tar.gz
+[2023-06-27 02:46:04] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-27 02:46:04] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230627/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-27 02:46:04] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/be/60/52cf0d164af470f6eec27abddf7be5275d262c8f8984172c6ef7598f0959/lmt-cli-0.0.9.tar.gz
+[2023-06-27 02:46:04] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/23/13/3f1eba10cf3fa88c41bdf2a232bc31968c625beae762953b78a18da36ac5/pp_project_pkg-1.0.202306270013-py3-none-any.whl
+[2023-06-27 02:46:04] INFO root fetch - processPackages [lmt-cli]: executing diffoscope
+[2023-06-27 02:46:04] INFO root fetch - processPackages [lmt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmt-cli-0.0.8.tar.gz tmp/lmt-cli-0.0.9.tar.gz --markdown 20230627/l/lmt-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 02:46:04] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: Downloading https://files.pythonhosted.org/packages/a7/b0/88958e9f07e5e92014f5016897e4a727bf30718767ec3e9eb1e13d8fdf92/leqi-algorithm-mic-sdk-1.9.4.tar.gz
+[2023-06-27 02:46:04] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-27 02:46:04] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-27 02:46:04] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306270006-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306270013-py3-none-any.whl.zip --markdown 20230627/p/pp-project-pkg/1.0.202306270006-1.0.202306270013/diff.md --exclude *.pyd
+[2023-06-27 02:46:04] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-06-27 02:46:04] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.1.8.tar.gz tmp/openllm-0.1.9.tar.gz --markdown 20230627/o/openllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 02:46:04] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-27 02:46:04] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230627/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-27 02:46:04] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/cc/79/750f7cb2278c25952e283de4c7d326d5b230f573da311d2eace339587e11/mujoco_dev-2.3.6.dev543586615-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-27 02:46:04] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: executing diffoscope
+[2023-06-27 02:46:04] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leqi-algorithm-mic-sdk-1.9.3.tar.gz tmp/leqi-algorithm-mic-sdk-1.9.4.tar.gz --markdown 20230627/l/leqi-algorithm-mic-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-06-27 02:46:04] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-27 02:46:05] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-06-27 02:46:05] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev543559919-cp39-cp39-win_amd64.whl.zip tmp/mujoco_dev-2.3.6.dev543586615-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230627/m/mujoco-dev/2.3.6.dev543559919-2.3.6.dev543586615/diff.md --exclude *.pyd
+[2023-06-27 02:46:05] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-27 02:46:05] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-27 02:46:05] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-27 02:46:05] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.915.tar.gz]
+[2023-06-27 02:46:05] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.916.tar.gz]
+[2023-06-27 02:46:05] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-27 02:46:05] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306270006-py3-none-any.whl.zip]
+[2023-06-27 02:46:05] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306270013-py3-none-any.whl.zip]
+[2023-06-27 02:46:05] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-27 02:46:05] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.8.tar.gz]
+[2023-06-27 02:46:05] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.9.tar.gz]
+[2023-06-27 02:46:05] INFO root fetch - main [MainThread]: End processing [lmt-cli]: success
+[2023-06-27 02:46:05] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/leqi-algorithm-mic-sdk-1.9.3.tar.gz]
+[2023-06-27 02:46:05] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/leqi-algorithm-mic-sdk-1.9.4.tar.gz]
+[2023-06-27 02:46:05] INFO root fetch - main [MainThread]: End processing [leqi-algorithm-mic-sdk]: success
+[2023-06-27 02:46:06] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-27 02:46:06] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-27 02:46:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-27 02:46:07] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-27 02:46:07] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230627/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 02:46:08] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.8.tar.gz]
+[2023-06-27 02:46:08] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.9.tar.gz]
+[2023-06-27 02:46:08] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-06-27 02:46:08] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-27 02:46:08] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-27 02:46:08] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-27 02:46:09] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev543559919-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 02:46:09] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev543586615-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-27 02:46:09] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-06-27 02:46:09] INFO root fetch - main [MainThread]: Store serial: [18655434]
