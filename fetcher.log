@@ -14114,3 +14114,80 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 08:53:38] INFO root fetch - processPackages [codebleu]: Remove: archive file [/home/abi/fetcher/tmp/codebleu-0.1.4.tar.gz]
 [2023-06-27 08:53:38] INFO root fetch - main [MainThread]: End processing [codebleu]: success
 [2023-06-27 08:53:38] INFO root fetch - main [MainThread]: Store serial: [18658769]
+[2023-06-27 08:58:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658769]
+[2023-06-27 08:58:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-27 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lumigo-opentelemetry
+[2023-06-27 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: impulsePy
+[2023-06-27 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lns-icloudpy
+[2023-06-27 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telectron
+[2023-06-27 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alignments
+[2023-06-27 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ITK-dev-shared-components
+[2023-06-27 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-apexranklookup
+[2023-06-27 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test-oyster
+[2023-06-27 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: preprocessing-pgp
+[2023-06-27 08:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gcp-sphinx-docfx-yaml
+[2023-06-27 08:58:47] INFO root fetch - processPackages [impulsePy]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-27 08:58:47] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.82]
+[2023-06-27 08:58:47] INFO root fetch - processPackages [nonebot-plugin-apexranklookup]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-27 08:58:47] ERROR root fetch - processPackages [test-oyster]: Unable to get metadata: No such project 'test-oyster'
+[2023-06-27 08:58:47] INFO root fetch - main [MainThread]: End processing [test-oyster] error
+[2023-06-27 08:58:47] WARNING root fetch - processPackages [ITK-dev-shared-components]: Skipping, unable to determine old version
+[2023-06-27 08:58:47] INFO root fetch - processPackages [lns-icloudpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 08:58:47] INFO root fetch - processPackages [alignments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 08:58:47] INFO root fetch - main [MainThread]: End processing [ITK-dev-shared-components] error
+[2023-06-27 08:58:47] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-27 08:58:47] INFO root fetch - processPackages [telectron]: New version: [2.0.70.1] Old Version: [2.0.61.1]
+[2023-06-27 08:58:47] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-06-27 08:58:47] INFO root fetch - processPackages [alignments]: Downloading https://files.pythonhosted.org/packages/bd/77/f73fc2fe020cb61f746c1e33c2ac60b27a02a153786f370430cf0ce590cf/alignments-0.0.8.tar.gz
+[2023-06-27 08:58:47] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/a7/de/92e31568864247ae2e52f827879aebdb401aca27f8531b2642687646fe36/lumigo_opentelemetry-1.0.82-py3-none-any.whl
+[2023-06-27 08:58:47] INFO root fetch - processPackages [impulsePy]: Downloading https://files.pythonhosted.org/packages/19/96/297e91b122df7f09a5df82ece6d9c2b1b047e10cb2485a7a3bbff6c315c1/impulsePy-3.0.0.tar.gz
+[2023-06-27 08:58:47] INFO root fetch - processPackages [alignments]: Downloading https://files.pythonhosted.org/packages/82/b0/c273f8bb366f5d8a55d155f343ac66f0f720ee6b2fcd2d93c0f17e083478/alignments-0.0.9.tar.gz
+[2023-06-27 08:58:47] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-06-27 08:58:47] INFO root fetch - processPackages [lns-icloudpy]: Downloading https://files.pythonhosted.org/packages/cf/3a/8456137443befe019cca6b43aeafc5eb6c52e4ce3707ac14962ae8c6b276/lns-icloudpy-0.0.2.tar.gz
+[2023-06-27 08:58:47] INFO root fetch - processPackages [telectron]: Downloading https://files.pythonhosted.org/packages/55/93/e17ac091ba77e370f92de168ae0415456d09cf71adf27725745f2cdb7d65/telectron-2.0.61.1.tar.gz
+[2023-06-27 08:58:47] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: Downloading https://files.pythonhosted.org/packages/1a/38/448c001a3ba7a2899a22aa2d8d9db050768c66c4e84c4275e57c6f13d976/gcp-sphinx-docfx-yaml-2.0.4.tar.gz
+[2023-06-27 08:58:47] INFO root fetch - processPackages [nonebot-plugin-apexranklookup]: Downloading https://files.pythonhosted.org/packages/10/8e/772f721692529e06b95ac3fb3591d24145058b06c2246b65a20e0d08f01f/nonebot_plugin_apexranklookup-0.1.5.tar.gz
+[2023-06-27 08:58:47] INFO root fetch - processPackages [alignments]: executing diffoscope
+[2023-06-27 08:58:47] INFO root fetch - processPackages [alignments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alignments-0.0.8.tar.gz tmp/alignments-0.0.9.tar.gz --markdown 20230627/a/alignments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 08:58:47] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-06-27 08:58:47] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-06-27 08:58:48] INFO root fetch - processPackages [impulsePy]: Downloading https://files.pythonhosted.org/packages/90/75/bb895892fb85f9868108f6b358a73dd8d4ad7c5a7784c37ed58d71c49c65/impulsePy-3.1.0.tar.gz
+[2023-06-27 08:58:48] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-06-27 08:58:48] INFO root fetch - processPackages [impulsePy]: executing diffoscope
+[2023-06-27 08:58:48] INFO root fetch - processPackages [impulsePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impulsePy-3.0.0.tar.gz tmp/impulsePy-3.1.0.tar.gz --markdown 20230627/i/impulsePy/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-27 08:58:48] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-06-27 08:58:48] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.82-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230627/l/lumigo-opentelemetry/1.0.82-1.0.9/diff.md --exclude *.pyd
+[2023-06-27 08:58:48] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: Downloading https://files.pythonhosted.org/packages/e1/87/bd8404b40326f8f90d4235b7f2df6603184a4b525d2abdc1bcaa4e073f50/gcp-sphinx-docfx-yaml-2.0.5.tar.gz
+[2023-06-27 08:58:48] INFO root fetch - processPackages [lns-icloudpy]: Downloading https://files.pythonhosted.org/packages/c0/41/2206871aa8e445349fae852c7aa2fc13197bca2d3d90fba412862713059f/lns-icloudpy-0.0.3.tar.gz
+[2023-06-27 08:58:48] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: executing diffoscope
+[2023-06-27 08:58:48] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp-sphinx-docfx-yaml-2.0.4.tar.gz tmp/gcp-sphinx-docfx-yaml-2.0.5.tar.gz --markdown 20230627/g/gcp-sphinx-docfx-yaml/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-27 08:58:48] INFO root fetch - processPackages [telectron]: Downloading https://files.pythonhosted.org/packages/4b/34/673057733fd7ab305104850d621b793b02287fd219e2292f8a2f5a18eaae/telectron-2.0.70.1.tar.gz
+[2023-06-27 08:58:48] INFO root fetch - processPackages [lns-icloudpy]: executing diffoscope
+[2023-06-27 08:58:48] INFO root fetch - processPackages [lns-icloudpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lns-icloudpy-0.0.2.tar.gz tmp/lns-icloudpy-0.0.3.tar.gz --markdown 20230627/l/lns-icloudpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 08:58:48] INFO root fetch - processPackages [telectron]: executing diffoscope
+[2023-06-27 08:58:48] INFO root fetch - processPackages [telectron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telectron-2.0.61.1.tar.gz tmp/telectron-2.0.70.1.tar.gz --markdown 20230627/t/telectron/2.0.61.1-2.0.70.1/diff.md --exclude *.pyd
+[2023-06-27 08:58:49] INFO root fetch - processPackages [impulsePy]: Remove: archive file [/home/abi/fetcher/tmp/impulsePy-3.0.0.tar.gz]
+[2023-06-27 08:58:49] INFO root fetch - processPackages [impulsePy]: Remove: archive file [/home/abi/fetcher/tmp/impulsePy-3.1.0.tar.gz]
+[2023-06-27 08:58:49] INFO root fetch - main [MainThread]: End processing [impulsePy]: success
+[2023-06-27 08:58:49] INFO root fetch - processPackages [alignments]: Remove: archive file [/home/abi/fetcher/tmp/alignments-0.0.8.tar.gz]
+[2023-06-27 08:58:49] INFO root fetch - processPackages [alignments]: Remove: archive file [/home/abi/fetcher/tmp/alignments-0.0.9.tar.gz]
+[2023-06-27 08:58:49] INFO root fetch - main [MainThread]: End processing [alignments]: success
+[2023-06-27 08:58:49] INFO root fetch - processPackages [lns-icloudpy]: Remove: archive file [/home/abi/fetcher/tmp/lns-icloudpy-0.0.2.tar.gz]
+[2023-06-27 08:58:49] INFO root fetch - processPackages [lns-icloudpy]: Remove: archive file [/home/abi/fetcher/tmp/lns-icloudpy-0.0.3.tar.gz]
+[2023-06-27 08:58:49] INFO root fetch - main [MainThread]: End processing [lns-icloudpy]: success
+[2023-06-27 08:58:49] INFO root fetch - processPackages [nonebot-plugin-apexranklookup]: Downloading https://files.pythonhosted.org/packages/06/f7/fe99cf86f55f1db868cdd8d8c6b4e4452a8ac99dc9aebb1ce6e7d8b8d8a3/nonebot_plugin_apexranklookup-0.1.6.tar.gz
+[2023-06-27 08:58:49] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.82-py3-none-any.whl.zip]
+[2023-06-27 08:58:49] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip]
+[2023-06-27 08:58:49] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-06-27 08:58:49] INFO root fetch - processPackages [nonebot-plugin-apexranklookup]: executing diffoscope
+[2023-06-27 08:58:49] INFO root fetch - processPackages [nonebot-plugin-apexranklookup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_apexranklookup-0.1.5.tar.gz tmp/nonebot_plugin_apexranklookup-0.1.6.tar.gz --markdown 20230627/n/nonebot-plugin-apexranklookup/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-27 08:58:49] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: Remove: archive file [/home/abi/fetcher/tmp/gcp-sphinx-docfx-yaml-2.0.4.tar.gz]
+[2023-06-27 08:58:49] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: Remove: archive file [/home/abi/fetcher/tmp/gcp-sphinx-docfx-yaml-2.0.5.tar.gz]
+[2023-06-27 08:58:49] INFO root fetch - main [MainThread]: End processing [gcp-sphinx-docfx-yaml]: success
+[2023-06-27 08:58:51] INFO root fetch - processPackages [nonebot-plugin-apexranklookup]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_apexranklookup-0.1.5.tar.gz]
+[2023-06-27 08:58:51] INFO root fetch - processPackages [nonebot-plugin-apexranklookup]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_apexranklookup-0.1.6.tar.gz]
+[2023-06-27 08:58:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-apexranklookup]: success
+[2023-06-27 09:00:48] INFO root fetch - processPackages [telectron]: Remove: archive file [/home/abi/fetcher/tmp/telectron-2.0.61.1.tar.gz]
+[2023-06-27 09:00:48] INFO root fetch - processPackages [telectron]: Remove: archive file [/home/abi/fetcher/tmp/telectron-2.0.70.1.tar.gz]
+[2023-06-27 09:00:48] INFO root fetch - main [MainThread]: End processing [telectron]: success
+[2023-06-27 09:00:48] INFO root fetch - main [MainThread]: Store serial: [18658806]
