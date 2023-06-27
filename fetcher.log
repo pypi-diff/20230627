@@ -16933,3 +16933,118 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-27 10:47:26] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-06-27 10:47:26] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-06-27 10:47:26] INFO root fetch - main [MainThread]: Store serial: [18660008]
+[2023-06-27 10:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18660008]
+[2023-06-27 10:52:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-27 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-smtp4dev
+[2023-06-27 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtor
+[2023-06-27 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JustScan
+[2023-06-27 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glue-helper-lib
+[2023-06-27 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysui
+[2023-06-27 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitalign
+[2023-06-27 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zein
+[2023-06-27 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vgis-utils
+[2023-06-27 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: genopyc
+[2023-06-27 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dcentrapi
+[2023-06-27 10:52:36] WARNING root fetch - processPackages [pytest-smtp4dev]: Skipping, unable to determine old version
+[2023-06-27 10:52:36] INFO root fetch - processPackages [pytest-smtp4dev]: Start processing: pathfind
+[2023-06-27 10:52:36] INFO root fetch - main [MainThread]: End processing [pytest-smtp4dev] error
+[2023-06-27 10:52:36] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-27 10:52:36] INFO root fetch - processPackages [zein]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 10:52:36] WARNING root fetch - processPackages [xtor]: Skipping, unable to determine old version
+[2023-06-27 10:52:36] INFO root fetch - processPackages [xtor]: Start processing: JustScan
+[2023-06-27 10:52:36] INFO root fetch - main [MainThread]: End processing [xtor] error
+[2023-06-27 10:52:36] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-27 10:52:36] INFO root fetch - processPackages [glue-helper-lib]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-27 10:52:36] INFO root fetch - processPackages [genopyc]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-27 10:52:36] INFO root fetch - processPackages [vgis-utils]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 10:52:36] INFO root fetch - processPackages [bitalign]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-27 10:52:36] INFO root fetch - processPackages [pathfind]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 10:52:36] INFO root fetch - processPackages [dcentrapi]: New version: [0.2.91] Old Version: [0.2.9]
+[2023-06-27 10:52:36] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-27 10:52:36] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/96/68/0ce1211916e06607c03a79747e4e44e34ce4e3386d08a4fe895f5d6ae67d/zein-0.0.2.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [glue-helper-lib]: Downloading https://files.pythonhosted.org/packages/44/dd/f10ee85a9d40370548ec3b60b13389f636aa998860750687d3558a47b54a/glue_helper_lib-0.5.0.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/18/c4/6185b8c5cfa92bb9f178afe41246f9f2ec036cb0d07ae27409c995582c67/dcentrapi-0.2.9.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/d1/ef/cd48564705f03e493a98e55822658e1e0c5e8a5a3ce31546cc9e833e6434/vgis_utils-1.0.2.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [bitalign]: Downloading https://files.pythonhosted.org/packages/2c/60/9db99a93726af3323c5ee9c8518cdf1ea658172dbc735af542c654eed3d6/bitalign-0.3.0.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/df/fd/8060c20cdf32607400911d43fc627a8bf48fe7571dc1992ab190b3274d7b/pysui-0.8.0-py3-none-any.whl
+[2023-06-27 10:52:36] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/34/53/6ae7bc5ea06011d431fc8846f30108bbd4a77b64a2b2ab6a7f16a601692c/genopyc-1.1.4-py3-none-any.whl
+[2023-06-27 10:52:36] INFO root fetch - processPackages [pathfind]: Downloading https://files.pythonhosted.org/packages/69/dd/abc8239bdb20309eff359d116f6d621a8a626548d8bcaf11ffa2a8d87283/pathfind-0.0.8.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/34/29/4f387d6b5f3849cb8936093506c7e1f319ad82d4cd872693bef2d6f15ce5/zein-0.0.3.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [glue-helper-lib]: Downloading https://files.pythonhosted.org/packages/d9/63/882d19cd7b02a9a59928af084b60ffa23a82337d9effa6a5e60b8b97f046/glue_helper_lib-0.5.1.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/a1/46/08ea32d10c2fe829ecf90f12e94580b1f9d1bda8ff00d84a34da7c035cb3/dcentrapi-0.2.91.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [glue-helper-lib]: executing diffoscope
+[2023-06-27 10:52:36] INFO root fetch - processPackages [glue-helper-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_helper_lib-0.5.0.tar.gz tmp/glue_helper_lib-0.5.1.tar.gz --markdown 20230627/g/glue-helper-lib/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-27 10:52:36] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-06-27 10:52:36] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.2.9.tar.gz tmp/dcentrapi-0.2.91.tar.gz --markdown 20230627/d/dcentrapi/0.2.9-0.2.91/diff.md --exclude *.pyd
+[2023-06-27 10:52:36] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-06-27 10:52:36] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.2.tar.gz tmp/zein-0.0.3.tar.gz --markdown 20230627/z/zein/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 10:52:36] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/bb/c9/3bfcd4d7c8a88752c1508d1d3e0221ec9d07821a868a41e57a0a1eb81f29/genopyc-1.1.5-py3-none-any.whl
+[2023-06-27 10:52:36] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/c5/96/ffbf6d26974ba72fc78b107443251aa2f7463d6ae99043cd8227ea4fa908/vgis_utils-1.0.3.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-27 10:52:36] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230627/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-27 10:52:36] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-27 10:52:36] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230627/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-27 10:52:36] INFO root fetch - processPackages [bitalign]: Downloading https://files.pythonhosted.org/packages/b8/9c/fce3c9e5cee5dfae839110e0fce95f57982415523ede099c064be2688ea7/bitalign-0.4.0.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-06-27 10:52:36] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-1.1.4-py3-none-any.whl.zip tmp/genopyc-1.1.5-py3-none-any.whl.zip --markdown 20230627/g/genopyc/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-27 10:52:36] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/d0/d5/e2108ab88d1f544ccab9554dcf4127133263950ae9c3e3912ab5bb6db12a/pysui-0.9.0-py3-none-any.whl
+[2023-06-27 10:52:36] INFO root fetch - processPackages [vgis-utils]: executing diffoscope
+[2023-06-27 10:52:36] INFO root fetch - processPackages [pathfind]: Downloading https://files.pythonhosted.org/packages/31/f1/7fff08e1d0db0a137b66e70f858a91389e71d17f9bda30b5d9c4ec234f3c/pathfind-0.0.9.tar.gz
+[2023-06-27 10:52:36] INFO root fetch - processPackages [vgis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_utils-1.0.2.tar.gz tmp/vgis_utils-1.0.3.tar.gz --markdown 20230627/v/vgis-utils/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 10:52:36] INFO root fetch - processPackages [bitalign]: executing diffoscope
+[2023-06-27 10:52:36] INFO root fetch - processPackages [bitalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitalign-0.3.0.tar.gz tmp/bitalign-0.4.0.tar.gz --markdown 20230627/b/bitalign/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-27 10:52:37] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-06-27 10:52:37] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230627/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-27 10:52:37] INFO root fetch - processPackages [pathfind]: executing diffoscope
+[2023-06-27 10:52:37] INFO root fetch - processPackages [pathfind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathfind-0.0.8.tar.gz tmp/pathfind-0.0.9.tar.gz --markdown 20230627/p/pathfind/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 10:52:39] INFO root fetch - processPackages [glue-helper-lib]: Remove: archive file [/home/abi/fetcher/tmp/glue_helper_lib-0.5.0.tar.gz]
+[2023-06-27 10:52:39] INFO root fetch - processPackages [glue-helper-lib]: Remove: archive file [/home/abi/fetcher/tmp/glue_helper_lib-0.5.1.tar.gz]
+[2023-06-27 10:52:39] INFO root fetch - processPackages [glue-helper-lib]: Start processing: orbit-component-base
+[2023-06-27 10:52:39] INFO root fetch - main [MainThread]: End processing [glue-helper-lib]: success
+[2023-06-27 10:52:39] INFO root fetch - processPackages [orbit-component-base]: New version: [1.0.9] Old Version: [1.0.17]
+[2023-06-27 10:52:39] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.2.tar.gz]
+[2023-06-27 10:52:39] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.3.tar.gz]
+[2023-06-27 10:52:39] INFO root fetch - processPackages [zein]: Start processing: haruka-bot
+[2023-06-27 10:52:39] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-06-27 10:52:39] INFO root fetch - processPackages [haruka-bot]: New version: [1.6.0] Old Version: [1.5.4]
+[2023-06-27 10:52:39] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.9.tar.gz]
+[2023-06-27 10:52:39] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.91.tar.gz]
+[2023-06-27 10:52:39] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-06-27 10:52:39] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/cd/49/5dad5072a524c1c468fc8291b4a23d00d61c5019951f464b2711b5b561b8/orbit_component_base-1.0.17.tar.gz
+[2023-06-27 10:52:39] INFO root fetch - processPackages [haruka-bot]: Downloading https://files.pythonhosted.org/packages/4d/a0/15852c300e4c1fe5e74fa367e2388cd02f903d35607237109519fc46108a/haruka-bot-1.5.4.tar.gz
+[2023-06-27 10:52:39] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/d2/67/10fc0971fd85e0d95f32c6146a0e2bd1c6ac0e19c2823b8712f3d6c6e918/orbit_component_base-1.0.9.tar.gz
+[2023-06-27 10:52:39] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-06-27 10:52:39] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-1.0.17.tar.gz tmp/orbit_component_base-1.0.9.tar.gz --markdown 20230627/o/orbit-component-base/1.0.17-1.0.9/diff.md --exclude *.pyd
+[2023-06-27 10:52:39] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.2.tar.gz]
+[2023-06-27 10:52:39] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.3.tar.gz]
+[2023-06-27 10:52:39] INFO root fetch - main [MainThread]: End processing [vgis-utils]: success
+[2023-06-27 10:52:39] INFO root fetch - processPackages [bitalign]: Remove: archive file [/home/abi/fetcher/tmp/bitalign-0.3.0.tar.gz]
+[2023-06-27 10:52:39] INFO root fetch - processPackages [bitalign]: Remove: archive file [/home/abi/fetcher/tmp/bitalign-0.4.0.tar.gz]
+[2023-06-27 10:52:39] INFO root fetch - main [MainThread]: End processing [bitalign]: success
+[2023-06-27 10:52:39] INFO root fetch - processPackages [haruka-bot]: Downloading https://files.pythonhosted.org/packages/45/a4/921f0c7fe0282652706a664819f2377a95ce728d6089ee1920ee74aab598/haruka-bot-1.6.0.tar.gz
+[2023-06-27 10:52:39] INFO root fetch - processPackages [haruka-bot]: executing diffoscope
+[2023-06-27 10:52:39] INFO root fetch - processPackages [haruka-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haruka-bot-1.5.4.tar.gz tmp/haruka-bot-1.6.0.tar.gz --markdown 20230627/h/haruka-bot/1.5.4-1.6.0/diff.md --exclude *.pyd
+[2023-06-27 10:52:40] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.8.0-py3-none-any.whl.zip]
+[2023-06-27 10:52:40] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.9.0-py3-none-any.whl.zip]
+[2023-06-27 10:52:40] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-06-27 10:52:40] INFO root fetch - processPackages [pathfind]: Remove: archive file [/home/abi/fetcher/tmp/pathfind-0.0.8.tar.gz]
+[2023-06-27 10:52:40] INFO root fetch - processPackages [pathfind]: Remove: archive file [/home/abi/fetcher/tmp/pathfind-0.0.9.tar.gz]
+[2023-06-27 10:52:40] INFO root fetch - main [MainThread]: End processing [pathfind]: success
+[2023-06-27 10:52:41] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-27 10:52:41] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-27 10:52:41] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-27 10:52:41] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-1.1.4-py3-none-any.whl.zip]
+[2023-06-27 10:52:41] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-1.1.5-py3-none-any.whl.zip]
+[2023-06-27 10:52:41] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-06-27 10:52:41] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-27 10:52:41] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.17.tar.gz]
+[2023-06-27 10:52:41] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.9.tar.gz]
+[2023-06-27 10:52:41] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-06-27 10:52:42] INFO root fetch - processPackages [haruka-bot]: Remove: archive file [/home/abi/fetcher/tmp/haruka-bot-1.5.4.tar.gz]
+[2023-06-27 10:52:42] INFO root fetch - processPackages [haruka-bot]: Remove: archive file [/home/abi/fetcher/tmp/haruka-bot-1.6.0.tar.gz]
+[2023-06-27 10:52:42] INFO root fetch - main [MainThread]: End processing [haruka-bot]: success
+[2023-06-27 10:52:42] INFO root fetch - main [MainThread]: Store serial: [18660114]
