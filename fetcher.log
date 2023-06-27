@@ -5636,3 +5636,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 03:04:00] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.14.tar.gz]
 [2023-06-27 03:04:00] INFO root fetch - main [MainThread]: End processing [weathon]: success
 [2023-06-27 03:04:00] INFO root fetch - main [MainThread]: Store serial: [18655586]
+[2023-06-27 03:09:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18655586]
+[2023-06-27 03:09:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-27 03:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2023-06-27 03:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-metadata-service
+[2023-06-27 03:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pip-run
+[2023-06-27 03:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lib-preprocessing-REMLA23-team2
+[2023-06-27 03:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WinDeklar
+[2023-06-27 03:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-06-27 03:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sns-notify
+[2023-06-27 03:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-hub
+[2023-06-27 03:09:10] WARNING root fetch - processPackages [WinDeklar]: Skipping, unable to determine old version
+[2023-06-27 03:09:10] INFO root fetch - main [MainThread]: End processing [WinDeklar] error
+[2023-06-27 03:09:10] INFO root fetch - processPackages [pip-run]: New version: [9.5.0] Old Version: [9.4.0]
+[2023-06-27 03:09:10] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: New version: [0.1.3] Old Version: [0.1.17]
+[2023-06-27 03:09:10] INFO root fetch - processPackages [aind-metadata-service]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-27 03:09:10] INFO root fetch - processPackages [llama-hub]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-27 03:09:10] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-27 03:09:10] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 03:09:10] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-27 03:09:10] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-27 03:09:10] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-27 03:09:10] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Downloading https://files.pythonhosted.org/packages/96/83/6b9902732a2fdf7f24abd57e30438750feffabf0abde15bbcb73a2500346/lib_preprocessing_REMLA23_team2-0.1.17.tar.gz
+[2023-06-27 03:09:10] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/d4/8c/f25dcdbcd724a4c153401b55caa6b7476e6281e74111c212647bb55c9d1b/aind_metadata_service-0.4.8.tar.gz
+[2023-06-27 03:09:10] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/82/49/af4df9a8b65f7975df649ed9d970196de50248cc17e029a56e49beb63f91/llama_hub-0.0.4.tar.gz
+[2023-06-27 03:09:10] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-27 03:09:10] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-27 03:09:10] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-27 03:09:10] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-27 03:09:10] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230627/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 03:09:10] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-27 03:09:10] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230627/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-27 03:09:10] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Downloading https://files.pythonhosted.org/packages/9a/fb/d5235045cb6b53e387e0a89c29741fe64fab66531f6520261ddefcd87404/lib_preprocessing_REMLA23_team2-0.1.3.tar.gz
+[2023-06-27 03:09:10] INFO root fetch - processPackages [pip-run]: Downloading https://files.pythonhosted.org/packages/91/09/3593816578d9ffb26adebb74031ff189fdc859c56086d9aaf84e7fe70f6d/pip-run-9.4.0.tar.gz
+[2023-06-27 03:09:10] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: executing diffoscope
+[2023-06-27 03:09:10] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_preprocessing_REMLA23_team2-0.1.17.tar.gz tmp/lib_preprocessing_REMLA23_team2-0.1.3.tar.gz --markdown 20230627/l/lib-preprocessing-REMLA23-team2/0.1.17-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 03:09:10] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/a9/6f/3055e33d92b5401f47703199d02f057c83297db92789bd700ce951a92444/llama_hub-0.0.5.tar.gz
+[2023-06-27 03:09:11] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/90/74/5ae6e959e61add068352c85d5454c3ebca89b9c2bc2c26f97d95904bb6e9/aind_metadata_service-0.4.9.tar.gz
+[2023-06-27 03:09:11] INFO root fetch - processPackages [aind-metadata-service]: executing diffoscope
+[2023-06-27 03:09:11] INFO root fetch - processPackages [aind-metadata-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_metadata_service-0.4.8.tar.gz tmp/aind_metadata_service-0.4.9.tar.gz --markdown 20230627/a/aind-metadata-service/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-27 03:09:11] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-27 03:09:11] INFO root fetch - processPackages [llama-hub]: executing diffoscope
+[2023-06-27 03:09:11] INFO root fetch - processPackages [llama-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_hub-0.0.4.tar.gz tmp/llama_hub-0.0.5.tar.gz --markdown 20230627/l/llama-hub/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-27 03:09:11] INFO root fetch - processPackages [pip-run]: Downloading https://files.pythonhosted.org/packages/09/62/9208b4eecab793f5e59c44e9b071dcb257622e79f053e17f888fe7b787ef/pip-run-9.5.0.tar.gz
+[2023-06-27 03:09:11] INFO root fetch - processPackages [pip-run]: executing diffoscope
+[2023-06-27 03:09:11] INFO root fetch - processPackages [pip-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-run-9.4.0.tar.gz tmp/pip-run-9.5.0.tar.gz --markdown 20230627/p/pip-run/9.4.0-9.5.0/diff.md --exclude *.pyd
+[2023-06-27 03:09:12] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Remove: archive file [/home/abi/fetcher/tmp/lib_preprocessing_REMLA23_team2-0.1.17.tar.gz]
+[2023-06-27 03:09:12] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Remove: archive file [/home/abi/fetcher/tmp/lib_preprocessing_REMLA23_team2-0.1.3.tar.gz]
+[2023-06-27 03:09:12] INFO root fetch - main [MainThread]: End processing [lib-preprocessing-REMLA23-team2]: success
+[2023-06-27 03:09:12] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-27 03:09:12] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-27 03:09:12] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-27 03:09:12] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-27 03:09:12] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230627/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-27 03:09:12] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-27 03:09:12] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-27 03:09:12] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-27 03:09:12] INFO root fetch - processPackages [aind-metadata-service]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_service-0.4.8.tar.gz]
+[2023-06-27 03:09:12] INFO root fetch - processPackages [aind-metadata-service]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_service-0.4.9.tar.gz]
+[2023-06-27 03:09:12] INFO root fetch - main [MainThread]: End processing [aind-metadata-service]: success
+[2023-06-27 03:09:12] INFO root fetch - processPackages [pip-run]: Remove: archive file [/home/abi/fetcher/tmp/pip-run-9.4.0.tar.gz]
+[2023-06-27 03:09:12] INFO root fetch - processPackages [pip-run]: Remove: archive file [/home/abi/fetcher/tmp/pip-run-9.5.0.tar.gz]
+[2023-06-27 03:09:12] INFO root fetch - main [MainThread]: End processing [pip-run]: success
+[2023-06-27 03:09:13] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-27 03:09:13] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-27 03:09:13] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-27 03:09:15] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.4.tar.gz]
+[2023-06-27 03:09:15] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.5.tar.gz]
+[2023-06-27 03:09:15] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
+[2023-06-27 03:09:15] INFO root fetch - main [MainThread]: Store serial: [18655614]
