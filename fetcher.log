@@ -13064,3 +13064,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 07:28:36] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl.zip]
 [2023-06-27 07:28:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
 [2023-06-27 07:28:36] INFO root fetch - main [MainThread]: Store serial: [18658357]
+[2023-06-27 07:33:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658357]
+[2023-06-27 07:33:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-27 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi-template
+[2023-06-27 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2023-06-27 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoamp
+[2023-06-27 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scoamppro
+[2023-06-27 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acore-server
+[2023-06-27 07:33:45] INFO root fetch - processPackages [hyfi-template]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-27 07:33:45] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-27 07:33:45] INFO root fetch - processPackages [scoamppro]: New version: [0.3.1] Old Version: [0.3.0a3]
+[2023-06-27 07:33:45] INFO root fetch - processPackages [scoamp]: New version: [0.3.1] Old Version: [0.3.0a3]
+[2023-06-27 07:33:45] WARNING root fetch - processPackages [acore-server]: Skipping, unable to determine old version
+[2023-06-27 07:33:45] INFO root fetch - main [MainThread]: End processing [acore-server] error
+[2023-06-27 07:33:45] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-27 07:33:45] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/de/d2/3a18537d4af2f791ca4ac2c96432acb2b60bc28e0a3bde512d17945062bc/hyfi_template-0.3.8.tar.gz
+[2023-06-27 07:33:45] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/56/16/bb50e4b668e4d546ac49b608e00a7e95e7651121936188a576b3af704e15/scoamppro-0.3.0a3-py3-none-any.whl
+[2023-06-27 07:33:45] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/c9/be/064a2563803641b4caec765031d4e8f7e4206e1e9efbd217559ca8453b33/scoamp-0.3.0a3-py3-none-any.whl
+[2023-06-27 07:33:45] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-27 07:33:46] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-27 07:33:46] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230627/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-27 07:33:46] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/e9/85/97b8d0060926349bfacf0e35a22836f8f49b2b8bbcfffc5881b5270dd180/scoamp-0.3.1-py3-none-any.whl
+[2023-06-27 07:33:46] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/e1/51/874503c0aacd4627f4b2fc05bfe7f66500930b9ca631043894997f7e1f59/scoamppro-0.3.1-py3-none-any.whl
+[2023-06-27 07:33:46] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/52/9d/a59bbe37a7a9fecd2074109613b3d488a7d0e727283141375549eedf064e/hyfi_template-0.3.9.tar.gz
+[2023-06-27 07:33:46] INFO root fetch - processPackages [scoamp]: executing diffoscope
+[2023-06-27 07:33:46] INFO root fetch - processPackages [scoamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamp-0.3.0a3-py3-none-any.whl.zip tmp/scoamp-0.3.1-py3-none-any.whl.zip --markdown 20230627/s/scoamp/0.3.0a3-0.3.1/diff.md --exclude *.pyd
+[2023-06-27 07:33:46] INFO root fetch - processPackages [scoamppro]: executing diffoscope
+[2023-06-27 07:33:46] INFO root fetch - processPackages [scoamppro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamppro-0.3.0a3-py3-none-any.whl.zip tmp/scoamppro-0.3.1-py3-none-any.whl.zip --markdown 20230627/s/scoamppro/0.3.0a3-0.3.1/diff.md --exclude *.pyd
+[2023-06-27 07:33:46] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-06-27 07:33:46] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.3.8.tar.gz tmp/hyfi_template-0.3.9.tar.gz --markdown 20230627/h/hyfi-template/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-27 07:33:47] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.8.tar.gz]
+[2023-06-27 07:33:47] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.9.tar.gz]
+[2023-06-27 07:33:47] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-06-27 07:33:47] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.0a3-py3-none-any.whl.zip]
+[2023-06-27 07:33:47] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.1-py3-none-any.whl.zip]
+[2023-06-27 07:33:47] INFO root fetch - main [MainThread]: End processing [scoamp]: success
+[2023-06-27 07:33:47] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.3.0a3-py3-none-any.whl.zip]
+[2023-06-27 07:33:47] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.3.1-py3-none-any.whl.zip]
+[2023-06-27 07:33:47] INFO root fetch - main [MainThread]: End processing [scoamppro]: success
+[2023-06-27 07:33:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-27 07:33:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-27 07:33:47] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-27 07:33:47] INFO root fetch - main [MainThread]: Store serial: [18658376]
