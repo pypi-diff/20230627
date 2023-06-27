@@ -5503,3 +5503,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 02:51:35] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-27 02:51:36] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-27 02:51:36] INFO root fetch - main [MainThread]: Store serial: [18655461]
+[2023-06-27 02:56:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18655461]
+[2023-06-27 02:56:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-27 02:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-comprehend-s3olap
+[2023-06-27 02:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: canvasxpress
+[2023-06-27 02:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repid
+[2023-06-27 02:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytheus-backend-rs
+[2023-06-27 02:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphinx-autodoc-typehints
+[2023-06-27 02:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycde
+[2023-06-27 02:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huza
+[2023-06-27 02:56:44] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-27 02:56:44] INFO root fetch - processPackages [repid]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-27 02:56:44] INFO root fetch - processPackages [pytheus-backend-rs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-27 02:56:44] INFO root fetch - processPackages [canvasxpress]: New version: [2023.6.4.1818] Old Version: [2023.6.27.5221]
+[2023-06-27 02:56:44] INFO root fetch - processPackages [sphinx-autodoc-typehints]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-27 02:56:44] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev832]
+[2023-06-27 02:56:44] INFO root fetch - processPackages [huza]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 02:56:44] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-27 02:56:44] INFO root fetch - processPackages [canvasxpress]: Downloading https://files.pythonhosted.org/packages/ed/6b/2d6149527429c0cd70f5fd2bfbfa2b3c9e74f60d2685c18ca5bec93c57d5/canvasxpress-2023.6.27.5221.tar.gz
+[2023-06-27 02:56:44] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-27 02:56:44] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-27 02:56:44] INFO root fetch - processPackages [repid]: Downloading https://files.pythonhosted.org/packages/db/cd/21474cb1a97d34c973c41d362660add22e7a8b381bf832cc8c4abc97dab0/repid-1.2.0.tar.gz
+[2023-06-27 02:56:44] INFO root fetch - processPackages [pytheus-backend-rs]: Downloading https://files.pythonhosted.org/packages/1d/a6/2a82173591d99ca6bb3e1721b5180c07fbd9ed3c928aa92a880de2e992df/pytheus_backend_rs-0.0.5.tar.gz
+[2023-06-27 02:56:44] INFO root fetch - processPackages [sphinx-autodoc-typehints]: Downloading https://files.pythonhosted.org/packages/88/be/7bd6190e23b487206bb94684f49ad79a3b66a2d63ca5db481626f72d6cd7/sphinx-autodoc-typehints-1.8.0.tar.gz
+[2023-06-27 02:56:44] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/ee/eb/f64e8c33f6629575aee347808fa9f0dd6e87d7abdd5ea3d9c516205e868e/pycde-0.2.1.dev832-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-27 02:56:44] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/4a/dc/e8dedef054a8b1138d0206a6b7324a30f569a3f30add09539aed7012c9a6/huza-0.2.8.tar.gz
+[2023-06-27 02:56:45] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 13434292>=10485760
+[2023-06-27 02:56:45] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-06-27 02:56:45] INFO root fetch - processPackages [canvasxpress]: Downloading https://files.pythonhosted.org/packages/50/fd/d2d5da2e92b23d2ca5ae9756e4652a12f13582f1d535725a4b492c19137f/canvasxpress-2023.6.4.1818.tar.gz
+[2023-06-27 02:56:45] INFO root fetch - processPackages [pytheus-backend-rs]: Downloading https://files.pythonhosted.org/packages/c8/15/ddeef58a09e200f2672b1273ab099cafbfeece3e9346ec10b354f7993444/pytheus_backend_rs-0.0.6.tar.gz
+[2023-06-27 02:56:45] INFO root fetch - processPackages [repid]: Downloading https://files.pythonhosted.org/packages/56/55/cbcd68afe357e9f0962cc80468476fb11f6cef428775fd4d85c98ca8e31b/repid-1.3.0.tar.gz
+[2023-06-27 02:56:45] INFO root fetch - processPackages [sphinx-autodoc-typehints]: Downloading https://files.pythonhosted.org/packages/25/5d/c00ab14c1a6731d6ca27841d6b96dd2826140bb8c8fa50470a14988ee309/sphinx-autodoc-typehints-1.9.0.tar.gz
+[2023-06-27 02:56:45] INFO root fetch - processPackages [repid]: executing diffoscope
+[2023-06-27 02:56:45] INFO root fetch - processPackages [repid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repid-1.2.0.tar.gz tmp/repid-1.3.0.tar.gz --markdown 20230627/r/repid/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-27 02:56:45] INFO root fetch - processPackages [canvasxpress]: executing diffoscope
+[2023-06-27 02:56:45] INFO root fetch - processPackages [canvasxpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvasxpress-2023.6.27.5221.tar.gz tmp/canvasxpress-2023.6.4.1818.tar.gz --markdown 20230627/c/canvasxpress/2023.6.27.5221-2023.6.4.1818/diff.md --exclude *.pyd
+[2023-06-27 02:56:45] INFO root fetch - processPackages [sphinx-autodoc-typehints]: executing diffoscope
+[2023-06-27 02:56:45] INFO root fetch - processPackages [sphinx-autodoc-typehints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-autodoc-typehints-1.8.0.tar.gz tmp/sphinx-autodoc-typehints-1.9.0.tar.gz --markdown 20230627/s/sphinx-autodoc-typehints/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-27 02:56:45] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/97/6f/1f32bc0b4d50df2fe53edb286c1e75702196fe17a4417eb12400da611c09/huza-0.2.9.tar.gz
+[2023-06-27 02:56:45] INFO root fetch - processPackages [huza]: executing diffoscope
+[2023-06-27 02:56:45] INFO root fetch - processPackages [huza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huza-0.2.8.tar.gz tmp/huza-0.2.9.tar.gz --markdown 20230627/h/huza/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 02:56:45] INFO root fetch - processPackages [pytheus-backend-rs]: executing diffoscope
+[2023-06-27 02:56:45] INFO root fetch - processPackages [pytheus-backend-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheus_backend_rs-0.0.5.tar.gz tmp/pytheus_backend_rs-0.0.6.tar.gz --markdown 20230627/p/pytheus-backend-rs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-27 02:56:46] INFO root fetch - processPackages [sphinx-autodoc-typehints]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-autodoc-typehints-1.8.0.tar.gz]
+[2023-06-27 02:56:46] INFO root fetch - processPackages [sphinx-autodoc-typehints]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-autodoc-typehints-1.9.0.tar.gz]
+[2023-06-27 02:56:46] INFO root fetch - main [MainThread]: End processing [sphinx-autodoc-typehints]: success
+[2023-06-27 02:56:46] INFO root fetch - processPackages [repid]: Remove: archive file [/home/abi/fetcher/tmp/repid-1.2.0.tar.gz]
+[2023-06-27 02:56:46] INFO root fetch - processPackages [repid]: Remove: archive file [/home/abi/fetcher/tmp/repid-1.3.0.tar.gz]
+[2023-06-27 02:56:46] INFO root fetch - main [MainThread]: End processing [repid]: success
+[2023-06-27 02:56:46] INFO root fetch - processPackages [pytheus-backend-rs]: Remove: archive file [/home/abi/fetcher/tmp/pytheus_backend_rs-0.0.5.tar.gz]
+[2023-06-27 02:56:46] INFO root fetch - processPackages [pytheus-backend-rs]: Remove: archive file [/home/abi/fetcher/tmp/pytheus_backend_rs-0.0.6.tar.gz]
+[2023-06-27 02:56:46] INFO root fetch - main [MainThread]: End processing [pytheus-backend-rs]: success
+[2023-06-27 02:56:46] INFO root fetch - processPackages [huza]: Remove: archive file [/home/abi/fetcher/tmp/huza-0.2.8.tar.gz]
+[2023-06-27 02:56:46] INFO root fetch - processPackages [huza]: Remove: archive file [/home/abi/fetcher/tmp/huza-0.2.9.tar.gz]
+[2023-06-27 02:56:46] INFO root fetch - main [MainThread]: End processing [huza]: success
+[2023-06-27 02:57:13] INFO root fetch - processPackages [canvasxpress]: Remove: archive file [/home/abi/fetcher/tmp/canvasxpress-2023.6.27.5221.tar.gz]
+[2023-06-27 02:57:13] INFO root fetch - processPackages [canvasxpress]: Remove: archive file [/home/abi/fetcher/tmp/canvasxpress-2023.6.4.1818.tar.gz]
+[2023-06-27 02:57:13] INFO root fetch - main [MainThread]: End processing [canvasxpress]: success
+[2023-06-27 02:57:13] INFO root fetch - main [MainThread]: Store serial: [18655544]
