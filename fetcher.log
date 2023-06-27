@@ -19170,3 +19170,201 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 11:59:53] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip]
 [2023-06-27 11:59:53] INFO root fetch - main [MainThread]: End processing [metdig]: success
 [2023-06-27 11:59:53] INFO root fetch - main [MainThread]: Store serial: [18661027]
+[2023-06-27 12:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661027]
+[2023-06-27 12:05:02] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nidalee
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marketplace-sdk
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nexgen
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: small-world-propensity
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imio.history
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zombie-imp
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kiara-plugin.tabular
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ocamlec-plt
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: east-tool
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DirectAdminAPI-SGS-shohani
+[2023-06-27 12:05:02] INFO root fetch - processPackages [nidalee]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 12:05:02] INFO root fetch - processPackages [zombie-imp]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 12:05:02] INFO root fetch - processPackages [marketplace-sdk]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ocamlec-plt]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 12:05:02] INFO root fetch - processPackages [small-world-propensity]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 12:05:02] INFO root fetch - processPackages [east-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-27 12:05:02] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-27 12:05:02] INFO root fetch - processPackages [nexgen]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-27 12:05:02] INFO root fetch - processPackages [kiara-plugin.tabular]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-27 12:05:02] INFO root fetch - processPackages [imio.history]: New version: [1.29] Old Version: [1.28]
+[2023-06-27 12:05:02] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/10/7a/59bae3ebb58ef342466a6f44f31ea5ed574cfcd1206172174c0eae90c40f/nidalee-0.1.8-py3-none-any.whl
+[2023-06-27 12:05:02] INFO root fetch - processPackages [ocamlec-plt]: Downloading https://files.pythonhosted.org/packages/36/16/e407dc3d268176e1040db4ef0171d67582107c8f7749e0bc021091c99ad8/ocamlec_plt-0.0.2.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [small-world-propensity]: Downloading https://files.pythonhosted.org/packages/cc/4d/d3bc0c1fbf3da81f6fd35a20d2a18d464656c5a7cd373fd6958ce516efc4/small_world_propensity-0.0.2.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [marketplace-sdk]: Downloading https://files.pythonhosted.org/packages/1d/54/aa2892dc5ec9f063bc34319b79287322bb8d88c3b3ff0b9ae073bda9c6ab/marketplace_sdk-0.3.6.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [east-tool]: Downloading https://files.pythonhosted.org/packages/aa/b9/a419d04e61bd48ae734d95f9cd4f958486d35393487838669b55b851e22c/east-tool-0.8.0.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [kiara-plugin.tabular]: Downloading https://files.pythonhosted.org/packages/8e/e9/0b21e5742a9e2e4172b29f51badbd5646d0fd2f0448cec209a28211e4929/kiara_plugin.tabular-0.4.8.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [zombie-imp]: Downloading https://files.pythonhosted.org/packages/2b/6a/05740682950939ed048648f3972cdd042d84fca30b5ae8cc3ec33b20738f/zombie-imp-0.0.1.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Downloading https://files.pythonhosted.org/packages/e1/5c/132a03b2d192d958e8579de9d0a36ed2a3dc251ddd3b147a088adc0c12a8/directadminapi_sgs_shohani-0.0.3.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [nexgen]: Downloading https://files.pythonhosted.org/packages/28/9a/c23a52178b2cf80144eb7c741739e6b7dd1c3ec614acf446c1a2e3b992ed/nexgen-0.6.8.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [imio.history]: Downloading https://files.pythonhosted.org/packages/3c/2e/f05a5f89dcead90ef0cb363117517d7eef3e2ca970e921d67e19cd7cfd16/imio.history-1.28.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/7b/aa/5d7542fb6437eddba82a60b311003a8763fdde7cc5d9bce83abd335996cd/nidalee-0.1.9-py3-none-any.whl
+[2023-06-27 12:05:03] INFO root fetch - processPackages [ocamlec-plt]: Downloading https://files.pythonhosted.org/packages/ff/12/f6b6f59397b71cb3c2a86d63e381a0e315d8e2e85647506ebf33bbf37cdc/ocamlec_plt-0.0.3.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [nidalee]: executing diffoscope
+[2023-06-27 12:05:03] INFO root fetch - processPackages [nidalee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nidalee-0.1.8-py3-none-any.whl.zip tmp/nidalee-0.1.9-py3-none-any.whl.zip --markdown 20230627/n/nidalee/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 12:05:03] INFO root fetch - processPackages [zombie-imp]: Downloading https://files.pythonhosted.org/packages/56/93/fa68bd4acc8a08a8cc8eace010754b54bb57e80f252e9c9a2bd13a5ba50a/zombie-imp-0.0.2.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [small-world-propensity]: Downloading https://files.pythonhosted.org/packages/8a/7c/fe900b7dfc93ad2cb2a149010a2c907b72c3ad52752e6bdecbcb4cc96e89/small_world_propensity-0.0.3.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [marketplace-sdk]: Downloading https://files.pythonhosted.org/packages/b2/e0/72f83dc63d3aff3dc22911ca70be10b0871e6422e4fa8f468debb5922db8/marketplace_sdk-0.4.0.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Downloading https://files.pythonhosted.org/packages/46/8e/1191888b2be3e537c80c1a8897f3714995b74169986ea5ae571661d4c0b4/directadminapi_sgs_shohani-0.0.4.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [zombie-imp]: executing diffoscope
+[2023-06-27 12:05:03] INFO root fetch - processPackages [zombie-imp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zombie-imp-0.0.1.tar.gz tmp/zombie-imp-0.0.2.tar.gz --markdown 20230627/z/zombie-imp/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 12:05:03] INFO root fetch - processPackages [small-world-propensity]: executing diffoscope
+[2023-06-27 12:05:03] INFO root fetch - processPackages [kiara-plugin.tabular]: Downloading https://files.pythonhosted.org/packages/ea/e5/eb641d760e93d7cecc1d4c05801550ab0157d160fbd0c2f4c1d8d1026517/kiara_plugin.tabular-0.4.9.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [small-world-propensity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/small_world_propensity-0.0.2.tar.gz tmp/small_world_propensity-0.0.3.tar.gz --markdown 20230627/s/small-world-propensity/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 12:05:03] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: executing diffoscope
+[2023-06-27 12:05:03] INFO root fetch - processPackages [marketplace-sdk]: executing diffoscope
+[2023-06-27 12:05:03] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directadminapi_sgs_shohani-0.0.3.tar.gz tmp/directadminapi_sgs_shohani-0.0.4.tar.gz --markdown 20230627/D/DirectAdminAPI-SGS-shohani/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-27 12:05:03] INFO root fetch - processPackages [marketplace-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketplace_sdk-0.3.6.tar.gz tmp/marketplace_sdk-0.4.0.tar.gz --markdown 20230627/m/marketplace-sdk/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-06-27 12:05:03] INFO root fetch - processPackages [ocamlec-plt]: executing diffoscope
+[2023-06-27 12:05:03] INFO root fetch - processPackages [ocamlec-plt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocamlec_plt-0.0.2.tar.gz tmp/ocamlec_plt-0.0.3.tar.gz --markdown 20230627/o/ocamlec-plt/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 12:05:03] INFO root fetch - processPackages [imio.history]: Downloading https://files.pythonhosted.org/packages/d0/df/ed29a2a2493ff9b7d369dfea9b4ede3eab72946c61bdd955305a3a739c3b/imio.history-1.29.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [east-tool]: Downloading https://files.pythonhosted.org/packages/9b/6f/2e25b49e9a58602e4dce92b098f9a5e902680457f352224bd59321655dd2/east-tool-0.9.0.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [nexgen]: Downloading https://files.pythonhosted.org/packages/a2/08/889ecee59e28c5d8842fc645406d4539ae2a5c47e4181b0c0f058c51213f/nexgen-0.6.9.tar.gz
+[2023-06-27 12:05:03] INFO root fetch - processPackages [imio.history]: executing diffoscope
+[2023-06-27 12:05:03] INFO root fetch - processPackages [imio.history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.history-1.28.tar.gz tmp/imio.history-1.29.tar.gz --markdown 20230627/i/imio.history/1.28-1.29/diff.md --exclude *.pyd
+[2023-06-27 12:05:03] INFO root fetch - processPackages [kiara-plugin.tabular]: executing diffoscope
+[2023-06-27 12:05:03] INFO root fetch - processPackages [kiara-plugin.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.tabular-0.4.8.tar.gz tmp/kiara_plugin.tabular-0.4.9.tar.gz --markdown 20230627/k/kiara-plugin.tabular/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-27 12:05:03] INFO root fetch - processPackages [east-tool]: executing diffoscope
+[2023-06-27 12:05:03] INFO root fetch - processPackages [east-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/east-tool-0.8.0.tar.gz tmp/east-tool-0.9.0.tar.gz --markdown 20230627/e/east-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-27 12:05:03] INFO root fetch - processPackages [nexgen]: executing diffoscope
+[2023-06-27 12:05:03] INFO root fetch - processPackages [nexgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexgen-0.6.8.tar.gz tmp/nexgen-0.6.9.tar.gz --markdown 20230627/n/nexgen/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-27 12:05:05] INFO root fetch - processPackages [small-world-propensity]: Remove: archive file [/home/abi/fetcher/tmp/small_world_propensity-0.0.2.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [small-world-propensity]: Remove: archive file [/home/abi/fetcher/tmp/small_world_propensity-0.0.3.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [small-world-propensity]: Start processing: Kanon4txt
+[2023-06-27 12:05:05] INFO root fetch - main [MainThread]: End processing [small-world-propensity]: success
+[2023-06-27 12:05:05] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.8-py3-none-any.whl.zip]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.9-py3-none-any.whl.zip]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [nidalee]: Start processing: jfExt
+[2023-06-27 12:05:05] INFO root fetch - main [MainThread]: End processing [nidalee]: success
+[2023-06-27 12:05:05] INFO root fetch - processPackages [Kanon4txt]: New version: [0.1.2] Old Version: [0.0.7]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Remove: archive file [/home/abi/fetcher/tmp/directadminapi_sgs_shohani-0.0.3.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Remove: archive file [/home/abi/fetcher/tmp/directadminapi_sgs_shohani-0.0.4.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Start processing: biobb-structure-checking
+[2023-06-27 12:05:05] INFO root fetch - main [MainThread]: End processing [DirectAdminAPI-SGS-shohani]: success
+[2023-06-27 12:05:05] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [biobb-structure-checking]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [ocamlec-plt]: Remove: archive file [/home/abi/fetcher/tmp/ocamlec_plt-0.0.2.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [ocamlec-plt]: Remove: archive file [/home/abi/fetcher/tmp/ocamlec_plt-0.0.3.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [ocamlec-plt]: Start processing: kepalipe
+[2023-06-27 12:05:05] INFO root fetch - main [MainThread]: End processing [ocamlec-plt]: success
+[2023-06-27 12:05:05] WARNING root fetch - processPackages [kepalipe]: Skipping, unable to determine old version
+[2023-06-27 12:05:05] INFO root fetch - processPackages [kepalipe]: Start processing: csoundengine
+[2023-06-27 12:05:05] INFO root fetch - main [MainThread]: End processing [kepalipe] error
+[2023-06-27 12:05:05] INFO root fetch - processPackages [biobb-structure-checking]: Downloading https://files.pythonhosted.org/packages/13/ea/4d959265413c7c1ff458688a842850b0ba3f48040a4cc1f70c5c74ad391f/biobb_structure_checking-3.9.8.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [csoundengine]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [marketplace-sdk]: Remove: archive file [/home/abi/fetcher/tmp/marketplace_sdk-0.3.6.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [marketplace-sdk]: Remove: archive file [/home/abi/fetcher/tmp/marketplace_sdk-0.4.0.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [marketplace-sdk]: Start processing: cht-meteo
+[2023-06-27 12:05:05] INFO root fetch - main [MainThread]: End processing [marketplace-sdk]: success
+[2023-06-27 12:05:05] INFO root fetch - processPackages [cht-meteo]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/c8/db/ecd3a6dde570e5bcffa94161fd6c15d0619d9e7b438d67ad4efad3ebb5b6/Kanon4txt-0.0.7.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [biobb-structure-checking]: Downloading https://files.pythonhosted.org/packages/61/37/9b0ff6d7f2fa5f2a7e5ca2a614ade65edf33e3351c42b2d974896bd59932/biobb_structure_checking-3.9.9.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/7e/65/7ced7dbe4e22e46686d21b1c1f4f9ccdae973749309778d5040775d47b64/csoundengine-1.9.0.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [biobb-structure-checking]: executing diffoscope
+[2023-06-27 12:05:05] INFO root fetch - processPackages [biobb-structure-checking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_structure_checking-3.9.8.tar.gz tmp/biobb_structure_checking-3.9.9.tar.gz --markdown 20230627/b/biobb-structure-checking/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-06-27 12:05:05] INFO root fetch - processPackages [imio.history]: Remove: archive file [/home/abi/fetcher/tmp/imio.history-1.28.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [imio.history]: Remove: archive file [/home/abi/fetcher/tmp/imio.history-1.29.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [imio.history]: Start processing: gacha
+[2023-06-27 12:05:05] INFO root fetch - main [MainThread]: End processing [imio.history]: success
+[2023-06-27 12:05:05] INFO root fetch - processPackages [zombie-imp]: Remove: archive file [/home/abi/fetcher/tmp/zombie-imp-0.0.1.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [zombie-imp]: Remove: archive file [/home/abi/fetcher/tmp/zombie-imp-0.0.2.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [zombie-imp]: Start processing: oswrapper
+[2023-06-27 12:05:05] INFO root fetch - main [MainThread]: End processing [zombie-imp]: success
+[2023-06-27 12:05:05] INFO root fetch - processPackages [gacha]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 12:05:05] WARNING root fetch - processPackages [oswrapper]: Skipping, unable to determine old version
+[2023-06-27 12:05:05] INFO root fetch - processPackages [oswrapper]: Start processing: ocamlec-plt
+[2023-06-27 12:05:05] INFO root fetch - main [MainThread]: End processing [oswrapper] error
+[2023-06-27 12:05:05] INFO root fetch - processPackages [cht-meteo]: Downloading https://files.pythonhosted.org/packages/44/8e/58433188adec37ca521477d23ffd40a423c9edb1bb1fd17e35d076dc289b/cht_meteo-0.0.1.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [ocamlec-plt]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/bf/f1/b6c7904515dd6b35aacd718700be5d4b01ace418a10a131b3edcbe1906a2/Kanon4txt-0.1.2.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [ocamlec-plt]: Downloading https://files.pythonhosted.org/packages/36/16/e407dc3d268176e1040db4ef0171d67582107c8f7749e0bc021091c99ad8/ocamlec_plt-0.0.2.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [kiara-plugin.tabular]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.tabular-0.4.8.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [kiara-plugin.tabular]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.tabular-0.4.9.tar.gz]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [kiara-plugin.tabular]: Start processing: canvaslms
+[2023-06-27 12:05:05] INFO root fetch - main [MainThread]: End processing [kiara-plugin.tabular]: success
+[2023-06-27 12:05:05] INFO root fetch - processPackages [canvaslms]: New version: [2.9] Old Version: [2.8]
+[2023-06-27 12:05:05] INFO root fetch - processPackages [Kanon4txt]: executing diffoscope
+[2023-06-27 12:05:05] INFO root fetch - processPackages [Kanon4txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kanon4txt-0.0.7.tar.gz tmp/Kanon4txt-0.1.2.tar.gz --markdown 20230627/K/Kanon4txt/0.0.7-0.1.2/diff.md --exclude *.pyd
+[2023-06-27 12:05:05] INFO root fetch - processPackages [gacha]: Downloading https://files.pythonhosted.org/packages/35/e4/052f5e0b9cb3eaf72083bf2d525f6c50990ae9ae1d3103c4e69b905eecbe/gacha-1.0.0.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/4a/14/227b8a91163ff83cd5f33dd91852165fa3635f9750a26d2738e5de432cf7/csoundengine-1.9.1.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [ocamlec-plt]: Downloading https://files.pythonhosted.org/packages/ff/12/f6b6f59397b71cb3c2a86d63e381a0e315d8e2e85647506ebf33bbf37cdc/ocamlec_plt-0.0.3.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [cht-meteo]: Downloading https://files.pythonhosted.org/packages/70/d9/538ae37728483af3fc224913f4d295cb7b7e58a7cc612ed04bdee6e1140f/cht_meteo-0.1.0.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [canvaslms]: Downloading https://files.pythonhosted.org/packages/f7/bc/fc0057d60981f3bfea582f62858edbbe5b5d44de7c3da299ff7bea615c01/canvaslms-2.8.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [ocamlec-plt]: executing diffoscope
+[2023-06-27 12:05:05] INFO root fetch - processPackages [cht-meteo]: executing diffoscope
+[2023-06-27 12:05:05] INFO root fetch - processPackages [ocamlec-plt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocamlec_plt-0.0.2.tar.gz tmp/ocamlec_plt-0.0.3.tar.gz --markdown 20230627/o/ocamlec-plt/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-27 12:05:05] INFO root fetch - processPackages [cht-meteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cht_meteo-0.0.1.tar.gz tmp/cht_meteo-0.1.0.tar.gz --markdown 20230627/c/cht-meteo/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-27 12:05:05] INFO root fetch - processPackages [gacha]: Downloading https://files.pythonhosted.org/packages/b1/01/fe975a9ad0971076b1422bc3253a63dc7d58de19f47fffca14148054f864/gacha-1.0.1.tar.gz
+[2023-06-27 12:05:05] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2023-06-27 12:05:05] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20230627/j/jfExt/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-27 12:05:05] INFO root fetch - processPackages [csoundengine]: executing diffoscope
+[2023-06-27 12:05:05] INFO root fetch - processPackages [csoundengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csoundengine-1.9.0.tar.gz tmp/csoundengine-1.9.1.tar.gz --markdown 20230627/c/csoundengine/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-27 12:05:06] INFO root fetch - processPackages [gacha]: executing diffoscope
+[2023-06-27 12:05:06] INFO root fetch - processPackages [gacha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gacha-1.0.0.tar.gz tmp/gacha-1.0.1.tar.gz --markdown 20230627/g/gacha/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 12:05:06] INFO root fetch - processPackages [canvaslms]: Downloading https://files.pythonhosted.org/packages/0f/a5/52ec9c689d2c36d7582dfed7d4351cea2a98eb7f86e931da0885aa0b2f19/canvaslms-2.9.tar.gz
+[2023-06-27 12:05:06] INFO root fetch - processPackages [canvaslms]: executing diffoscope
+[2023-06-27 12:05:06] INFO root fetch - processPackages [canvaslms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvaslms-2.8.tar.gz tmp/canvaslms-2.9.tar.gz --markdown 20230627/c/canvaslms/2.8-2.9/diff.md --exclude *.pyd
+[2023-06-27 12:05:06] INFO root fetch - processPackages [nexgen]: Remove: archive file [/home/abi/fetcher/tmp/nexgen-0.6.8.tar.gz]
+[2023-06-27 12:05:06] INFO root fetch - processPackages [nexgen]: Remove: archive file [/home/abi/fetcher/tmp/nexgen-0.6.9.tar.gz]
+[2023-06-27 12:05:06] INFO root fetch - processPackages [nexgen]: Start processing: rest-api-supporter
+[2023-06-27 12:05:06] INFO root fetch - main [MainThread]: End processing [nexgen]: success
+[2023-06-27 12:05:06] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-27 12:05:06] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/1b/41/fdd3def9cdbf25bcf53cfb27aa28d34bbb9b7ca03ba9d8372dc55345db09/rest-api-supporter-0.0.7.tar.gz
+[2023-06-27 12:05:06] INFO root fetch - processPackages [east-tool]: Remove: archive file [/home/abi/fetcher/tmp/east-tool-0.8.0.tar.gz]
+[2023-06-27 12:05:06] INFO root fetch - processPackages [east-tool]: Remove: archive file [/home/abi/fetcher/tmp/east-tool-0.9.0.tar.gz]
+[2023-06-27 12:05:06] INFO root fetch - processPackages [east-tool]: Start processing: pdf-oralia
+[2023-06-27 12:05:06] INFO root fetch - main [MainThread]: End processing [east-tool]: success
+[2023-06-27 12:05:06] INFO root fetch - processPackages [pdf-oralia]: New version: [0.2.6.5] Old Version: [0.2.5]
+[2023-06-27 12:05:06] INFO root fetch - processPackages [pdf-oralia]: Downloading https://files.pythonhosted.org/packages/53/00/313fc0f638d0436590ed33c75f3334ad429f9b94360daa2ec229fce82d82/pdf_oralia-0.2.5.tar.gz
+[2023-06-27 12:05:06] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-06-27 12:05:07] INFO root fetch - processPackages [biobb-structure-checking]: Remove: archive file [/home/abi/fetcher/tmp/biobb_structure_checking-3.9.8.tar.gz]
+[2023-06-27 12:05:07] INFO root fetch - processPackages [biobb-structure-checking]: Remove: archive file [/home/abi/fetcher/tmp/biobb_structure_checking-3.9.9.tar.gz]
+[2023-06-27 12:05:07] INFO root fetch - processPackages [biobb-structure-checking]: Start processing: python3-pip-skeleton
+[2023-06-27 12:05:07] INFO root fetch - main [MainThread]: End processing [biobb-structure-checking]: success
+[2023-06-27 12:05:07] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-06-27 12:05:07] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.7.tar.gz tmp/rest-api-supporter-0.0.8.tar.gz --markdown 20230627/r/rest-api-supporter/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-27 12:05:07] INFO root fetch - processPackages [pdf-oralia]: Downloading https://files.pythonhosted.org/packages/ea/1e/d0fbae56ae98cf2ee0cdaf5d426baf2683e90759657980a24abbc870fccb/pdf_oralia-0.2.6.5.tar.gz
+[2023-06-27 12:05:07] INFO root fetch - processPackages [python3-pip-skeleton]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-06-27 12:05:07] INFO root fetch - processPackages [pdf-oralia]: executing diffoscope
+[2023-06-27 12:05:07] INFO root fetch - processPackages [pdf-oralia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_oralia-0.2.5.tar.gz tmp/pdf_oralia-0.2.6.5.tar.gz --markdown 20230627/p/pdf-oralia/0.2.5-0.2.6.5/diff.md --exclude *.pyd
+[2023-06-27 12:05:07] INFO root fetch - processPackages [ocamlec-plt]: Remove: archive file [/home/abi/fetcher/tmp/ocamlec_plt-0.0.2.tar.gz]
+[2023-06-27 12:05:07] INFO root fetch - processPackages [ocamlec-plt]: Remove: archive file [/home/abi/fetcher/tmp/ocamlec_plt-0.0.3.tar.gz]
+[2023-06-27 12:05:07] INFO root fetch - main [MainThread]: End processing [ocamlec-plt]: success
+[2023-06-27 12:05:07] INFO root fetch - processPackages [python3-pip-skeleton]: Downloading https://files.pythonhosted.org/packages/cb/eb/e509ffd9e5b0d8124cba0b95c19abeb2913efa8039cf644c0217eaacc667/python3-pip-skeleton-3.4.0.tar.gz
+[2023-06-27 12:05:07] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.0.7.tar.gz]
+[2023-06-27 12:05:07] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.1.2.tar.gz]
+[2023-06-27 12:05:07] INFO root fetch - main [MainThread]: End processing [Kanon4txt]: success
+[2023-06-27 12:05:07] INFO root fetch - processPackages [gacha]: Remove: archive file [/home/abi/fetcher/tmp/gacha-1.0.0.tar.gz]
+[2023-06-27 12:05:07] INFO root fetch - processPackages [gacha]: Remove: archive file [/home/abi/fetcher/tmp/gacha-1.0.1.tar.gz]
+[2023-06-27 12:05:07] INFO root fetch - main [MainThread]: End processing [gacha]: success
+[2023-06-27 12:05:07] INFO root fetch - processPackages [python3-pip-skeleton]: Downloading https://files.pythonhosted.org/packages/f1/5d/8d03ff3cc332498d4cf071a62990297a08b9d9f5a99287ee0988bbfc94b3/python3-pip-skeleton-3.5.0.tar.gz
+[2023-06-27 12:05:07] INFO root fetch - processPackages [python3-pip-skeleton]: executing diffoscope
+[2023-06-27 12:05:07] INFO root fetch - processPackages [python3-pip-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-pip-skeleton-3.4.0.tar.gz tmp/python3-pip-skeleton-3.5.0.tar.gz --markdown 20230627/p/python3-pip-skeleton/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-06-27 12:05:07] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.2.tar.gz]
+[2023-06-27 12:05:07] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
+[2023-06-27 12:05:07] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2023-06-27 12:05:08] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.7.tar.gz]
+[2023-06-27 12:05:08] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-06-27 12:05:08] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-06-27 12:05:08] INFO root fetch - processPackages [cht-meteo]: Remove: archive file [/home/abi/fetcher/tmp/cht_meteo-0.0.1.tar.gz]
+[2023-06-27 12:05:08] INFO root fetch - processPackages [cht-meteo]: Remove: archive file [/home/abi/fetcher/tmp/cht_meteo-0.1.0.tar.gz]
+[2023-06-27 12:05:08] INFO root fetch - main [MainThread]: End processing [cht-meteo]: success
+[2023-06-27 12:05:08] INFO root fetch - processPackages [pdf-oralia]: Remove: archive file [/home/abi/fetcher/tmp/pdf_oralia-0.2.5.tar.gz]
+[2023-06-27 12:05:08] INFO root fetch - processPackages [pdf-oralia]: Remove: archive file [/home/abi/fetcher/tmp/pdf_oralia-0.2.6.5.tar.gz]
+[2023-06-27 12:05:08] INFO root fetch - main [MainThread]: End processing [pdf-oralia]: success
+[2023-06-27 12:05:08] INFO root fetch - processPackages [canvaslms]: Remove: archive file [/home/abi/fetcher/tmp/canvaslms-2.8.tar.gz]
+[2023-06-27 12:05:08] INFO root fetch - processPackages [canvaslms]: Remove: archive file [/home/abi/fetcher/tmp/canvaslms-2.9.tar.gz]
+[2023-06-27 12:05:08] INFO root fetch - main [MainThread]: End processing [canvaslms]: success
+[2023-06-27 12:05:09] INFO root fetch - processPackages [python3-pip-skeleton]: Remove: archive file [/home/abi/fetcher/tmp/python3-pip-skeleton-3.4.0.tar.gz]
+[2023-06-27 12:05:09] INFO root fetch - processPackages [python3-pip-skeleton]: Remove: archive file [/home/abi/fetcher/tmp/python3-pip-skeleton-3.5.0.tar.gz]
+[2023-06-27 12:05:09] INFO root fetch - main [MainThread]: End processing [python3-pip-skeleton]: success
+[2023-06-27 12:05:10] INFO root fetch - processPackages [csoundengine]: Remove: archive file [/home/abi/fetcher/tmp/csoundengine-1.9.0.tar.gz]
+[2023-06-27 12:05:10] INFO root fetch - processPackages [csoundengine]: Remove: archive file [/home/abi/fetcher/tmp/csoundengine-1.9.1.tar.gz]
+[2023-06-27 12:05:10] INFO root fetch - main [MainThread]: End processing [csoundengine]: success
+[2023-06-27 12:05:10] INFO root fetch - main [MainThread]: Store serial: [18661096]
