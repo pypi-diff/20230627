@@ -13816,3 +13816,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 08:32:29] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230627.tar.gz]
 [2023-06-27 08:32:29] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-06-27 08:32:29] INFO root fetch - main [MainThread]: Store serial: [18658629]
+[2023-06-27 08:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658629]
+[2023-06-27 08:37:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-27 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pits
+[2023-06-27 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netdoc
+[2023-06-27 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alignments
+[2023-06-27 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RobokitRS
+[2023-06-27 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mltlk
+[2023-06-27 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-cdk
+[2023-06-27 08:37:42] INFO root fetch - processPackages [RobokitRS]: New version: [1.0.1.9] Old Version: [1.0.1.8]
+[2023-06-27 08:37:42] INFO root fetch - processPackages [alignments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 08:37:42] INFO root fetch - processPackages [pits]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-27 08:37:42] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-27 08:37:42] INFO root fetch - processPackages [netdoc]: New version: [0.9.71] Old Version: [0.9.70]
+[2023-06-27 08:37:42] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-27 08:37:42] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-27 08:37:42] INFO root fetch - processPackages [RobokitRS]: Downloading https://files.pythonhosted.org/packages/01/04/5701d2a2a0fda0b02f51ada3bb25eb91052d0a01ce12f3d9dbbb113481af/RobokitRS-1.0.1.8-py3-none-any.whl
+[2023-06-27 08:37:42] INFO root fetch - processPackages [pits]: Downloading https://files.pythonhosted.org/packages/fe/9b/8c68a6999f6221e6508c414eeba3c155b719e93dd44bd9d14df7e70c691a/pits-0.1.0-py3-none-any.whl
+[2023-06-27 08:37:42] INFO root fetch - processPackages [alignments]: Downloading https://files.pythonhosted.org/packages/bd/77/f73fc2fe020cb61f746c1e33c2ac60b27a02a153786f370430cf0ce590cf/alignments-0.0.8.tar.gz
+[2023-06-27 08:37:42] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f2/ef/1d391989d1fcf09c8c91936ac38fc2ecb4b2432ab959707ae3761c31002a/netdoc-0.9.70.tar.gz
+[2023-06-27 08:37:42] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2023-06-27 08:37:42] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-27 08:37:42] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-27 08:37:42] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230627/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-27 08:37:42] INFO root fetch - processPackages [pits]: Downloading https://files.pythonhosted.org/packages/79/9d/844812903a9d607035425a8d6b1abd6775aa597f566af47e154d6c92cbaa/pits-0.1.1-py3-none-any.whl
+[2023-06-27 08:37:42] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/bc/813dccd0af76852b3fea6f6f9ba3ebc578c1efa3980ff3e4676ac88f2077/netdoc-0.9.71.tar.gz
+[2023-06-27 08:37:42] INFO root fetch - processPackages [RobokitRS]: Downloading https://files.pythonhosted.org/packages/5b/e1/6b22509a1ac44e2d990cec5274b7a7cbc0408b0094de1083d9115bd01968/RobokitRS-1.0.1.9-py3-none-any.whl
+[2023-06-27 08:37:42] INFO root fetch - processPackages [alignments]: Downloading https://files.pythonhosted.org/packages/82/b0/c273f8bb366f5d8a55d155f343ac66f0f720ee6b2fcd2d93c0f17e083478/alignments-0.0.9.tar.gz
+[2023-06-27 08:37:42] INFO root fetch - processPackages [pits]: executing diffoscope
+[2023-06-27 08:37:42] INFO root fetch - processPackages [pits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pits-0.1.0-py3-none-any.whl.zip tmp/pits-0.1.1-py3-none-any.whl.zip --markdown 20230627/p/pits/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-27 08:37:43] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-06-27 08:37:43] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.70.tar.gz tmp/netdoc-0.9.71.tar.gz --markdown 20230627/n/netdoc/0.9.70-0.9.71/diff.md --exclude *.pyd
+[2023-06-27 08:37:43] INFO root fetch - processPackages [RobokitRS]: executing diffoscope
+[2023-06-27 08:37:43] INFO root fetch - processPackages [RobokitRS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobokitRS-1.0.1.8-py3-none-any.whl.zip tmp/RobokitRS-1.0.1.9-py3-none-any.whl.zip --markdown 20230627/R/RobokitRS/1.0.1.8-1.0.1.9/diff.md --exclude *.pyd
+[2023-06-27 08:37:43] INFO root fetch - processPackages [alignments]: executing diffoscope
+[2023-06-27 08:37:43] INFO root fetch - processPackages [alignments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alignments-0.0.8.tar.gz tmp/alignments-0.0.9.tar.gz --markdown 20230627/a/alignments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 08:37:43] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2023-06-27 08:37:43] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-06-27 08:37:43] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230627/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-27 08:37:44] INFO root fetch - processPackages [pits]: Remove: archive file [/home/abi/fetcher/tmp/pits-0.1.0-py3-none-any.whl.zip]
+[2023-06-27 08:37:44] INFO root fetch - processPackages [pits]: Remove: archive file [/home/abi/fetcher/tmp/pits-0.1.1-py3-none-any.whl.zip]
+[2023-06-27 08:37:44] INFO root fetch - main [MainThread]: End processing [pits]: success
+[2023-06-27 08:37:44] INFO root fetch - processPackages [RobokitRS]: Remove: archive file [/home/abi/fetcher/tmp/RobokitRS-1.0.1.8-py3-none-any.whl.zip]
+[2023-06-27 08:37:44] INFO root fetch - processPackages [RobokitRS]: Remove: archive file [/home/abi/fetcher/tmp/RobokitRS-1.0.1.9-py3-none-any.whl.zip]
+[2023-06-27 08:37:44] INFO root fetch - main [MainThread]: End processing [RobokitRS]: success
+[2023-06-27 08:37:44] INFO root fetch - processPackages [alignments]: Remove: archive file [/home/abi/fetcher/tmp/alignments-0.0.8.tar.gz]
+[2023-06-27 08:37:44] INFO root fetch - processPackages [alignments]: Remove: archive file [/home/abi/fetcher/tmp/alignments-0.0.9.tar.gz]
+[2023-06-27 08:37:44] INFO root fetch - main [MainThread]: End processing [alignments]: success
+[2023-06-27 08:37:46] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2023-06-27 08:37:46] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2023-06-27 08:37:46] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-06-27 08:37:46] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-27 08:37:46] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-27 08:37:46] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-27 08:37:48] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.70.tar.gz]
+[2023-06-27 08:37:48] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.71.tar.gz]
+[2023-06-27 08:37:48] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-06-27 08:37:48] INFO root fetch - main [MainThread]: Store serial: [18658661]
