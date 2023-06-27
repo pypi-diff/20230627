@@ -10640,3 +10640,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 04:45:54] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
 [2023-06-27 04:45:54] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-06-27 04:45:54] INFO root fetch - main [MainThread]: Store serial: [18657442]
+[2023-06-27 04:50:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657442]
+[2023-06-27 04:51:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-27 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LLM-Toolbox
+[2023-06-27 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naif-eop-high-prec
+[2023-06-27 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kube-copilot
+[2023-06-27 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-account-invoicing
+[2023-06-27 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: planutils
+[2023-06-27 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sora-sdk
+[2023-06-27 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensoul
+[2023-06-27 04:51:02] INFO root fetch - processPackages [LLM-Toolbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-27 04:51:02] INFO root fetch - processPackages [planutils]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-27 04:51:02] INFO root fetch - processPackages [kube-copilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 04:51:02] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: New version: [16.0.20230609.0] Old Version: [16.0.20230607.1]
+[2023-06-27 04:51:02] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-27 04:51:02] INFO root fetch - processPackages [sora-sdk]: New version: [2023.1.1] Old Version: [2023.1.0.dev9]
+[2023-06-27 04:51:02] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/a2/a7/946a0b88efaaad3d3afbf5e35d6a380c47f7b1895ab6cda88ec0eee63741/LLM-Toolbox-0.1.1.tar.gz
+[2023-06-27 04:51:02] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-27 04:51:02] INFO root fetch - processPackages [tensoul]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 04:51:02] INFO root fetch - processPackages [planutils]: Downloading https://files.pythonhosted.org/packages/3d/d8/d78c06c7250e9b79b2063807f6cb476cb766c984ec52a84eac198a88f026/planutils-0.8.0.tar.gz
+[2023-06-27 04:51:02] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/0e/a6/b07b5cc654c887c97198f5438050d0c0f84c899e70b270079cff06b95290/odoo_addons_oca_account_invoicing-16.0.20230607.1-py3-none-any.whl
+[2023-06-27 04:51:02] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/92/ed/ae22c3eb11fd91f9bc01dbdcba0f4a7c22cef980bf8f5fef46caec814480/kube_copilot-0.1.8.tar.gz
+[2023-06-27 04:51:02] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/2a/10/905293f2089a693c4a8f013c920b09f86a4dea4acf158ef1da3516d8e678/sora_sdk-2023.1.0.dev9.tar.gz
+[2023-06-27 04:51:03] INFO root fetch - processPackages [tensoul]: Downloading https://files.pythonhosted.org/packages/56/e5/8f67351188bb3ad2071f13d1a2002d7b0eab364f151183a0a68c57de31ba/tensoul-0.1.2.tar.gz
+[2023-06-27 04:51:03] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/b6/ca/a8f0cbb883dfecfcae73d981a065600aca3b157bc0fd121a5efa257a70c1/LLM-Toolbox-0.1.2.tar.gz
+[2023-06-27 04:51:03] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11007252>=10485760
+[2023-06-27 04:51:03] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-06-27 04:51:03] INFO root fetch - processPackages [LLM-Toolbox]: executing diffoscope
+[2023-06-27 04:51:03] INFO root fetch - processPackages [LLM-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLM-Toolbox-0.1.1.tar.gz tmp/LLM-Toolbox-0.1.2.tar.gz --markdown 20230627/L/LLM-Toolbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-27 04:51:03] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-27 04:51:03] INFO root fetch - processPackages [planutils]: Downloading https://files.pythonhosted.org/packages/ef/f8/66f36587580377a6d1f162faa4f8ccd8ff2acbb3a5bea12632bc99dfaba6/planutils-0.9.0.tar.gz
+[2023-06-27 04:51:03] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/fd/35/3e18869b47a41c295ac800019e28347fde14879ede6506f97393faade562/kube_copilot-0.1.9.tar.gz
+[2023-06-27 04:51:03] INFO root fetch - processPackages [tensoul]: Downloading https://files.pythonhosted.org/packages/1c/df/c5a778068e3a9c415a8fcdd05d98f8bd1b7e8c0985a6949e590519775696/tensoul-0.1.3.tar.gz
+[2023-06-27 04:51:03] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/9f/8a/8d45c7228a278ce736c38d2337c7cda6e4f180468f8dd66a0e62e539b6b4/odoo_addons_oca_account_invoicing-16.0.20230609.0-py3-none-any.whl
+[2023-06-27 04:51:03] INFO root fetch - processPackages [kube-copilot]: executing diffoscope
+[2023-06-27 04:51:03] INFO root fetch - processPackages [kube-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_copilot-0.1.8.tar.gz tmp/kube_copilot-0.1.9.tar.gz --markdown 20230627/k/kube-copilot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 04:51:03] INFO root fetch - processPackages [planutils]: executing diffoscope
+[2023-06-27 04:51:03] INFO root fetch - processPackages [planutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planutils-0.8.0.tar.gz tmp/planutils-0.9.0.tar.gz --markdown 20230627/p/planutils/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-27 04:51:03] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-27 04:51:03] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230627/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-27 04:51:03] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: executing diffoscope
+[2023-06-27 04:51:03] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoicing-16.0.20230607.1-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoicing-16.0.20230609.0-py3-none-any.whl.zip --markdown 20230627/o/odoo-addons-oca-account-invoicing/16.0.20230607.1-16.0.20230609.0/diff.md --exclude *.pyd
+[2023-06-27 04:51:03] INFO root fetch - processPackages [tensoul]: executing diffoscope
+[2023-06-27 04:51:03] INFO root fetch - processPackages [tensoul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensoul-0.1.2.tar.gz tmp/tensoul-0.1.3.tar.gz --markdown 20230627/t/tensoul/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 04:51:04] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.1.tar.gz]
+[2023-06-27 04:51:04] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.2.tar.gz]
+[2023-06-27 04:51:04] INFO root fetch - main [MainThread]: End processing [LLM-Toolbox]: success
+[2023-06-27 04:51:04] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20230607.1-py3-none-any.whl.zip]
+[2023-06-27 04:51:04] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20230609.0-py3-none-any.whl.zip]
+[2023-06-27 04:51:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoicing]: success
+[2023-06-27 04:51:04] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.8.tar.gz]
+[2023-06-27 04:51:04] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.9.tar.gz]
+[2023-06-27 04:51:04] INFO root fetch - main [MainThread]: End processing [kube-copilot]: success
+[2023-06-27 04:51:04] INFO root fetch - processPackages [tensoul]: Remove: archive file [/home/abi/fetcher/tmp/tensoul-0.1.2.tar.gz]
+[2023-06-27 04:51:04] INFO root fetch - processPackages [tensoul]: Remove: archive file [/home/abi/fetcher/tmp/tensoul-0.1.3.tar.gz]
+[2023-06-27 04:51:04] INFO root fetch - main [MainThread]: End processing [tensoul]: success
+[2023-06-27 04:51:05] INFO root fetch - processPackages [planutils]: Remove: archive file [/home/abi/fetcher/tmp/planutils-0.8.0.tar.gz]
+[2023-06-27 04:51:05] INFO root fetch - processPackages [planutils]: Remove: archive file [/home/abi/fetcher/tmp/planutils-0.9.0.tar.gz]
+[2023-06-27 04:51:05] INFO root fetch - main [MainThread]: End processing [planutils]: success
+[2023-06-27 04:51:07] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-27 04:51:07] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-27 04:51:07] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-27 04:51:07] INFO root fetch - main [MainThread]: Store serial: [18657475]
