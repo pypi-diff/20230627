@@ -19027,3 +19027,146 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 11:54:24] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9192016554667.tar.gz]
 [2023-06-27 11:54:24] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-06-27 11:54:24] INFO root fetch - main [MainThread]: Store serial: [18660977]
+[2023-06-27 11:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18660977]
+[2023-06-27 11:59:35] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssh-remote-control
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stixpy
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nihtest
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metdig
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TEST-TC
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiosumma
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyFRF
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: job-pool
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pinard
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mentord
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ssh-remote-control]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-27 11:59:35] INFO root fetch - processPackages [TEST-TC]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-27 11:59:35] INFO root fetch - processPackages [stixpy]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-06-27 11:59:35] INFO root fetch - processPackages [pyFRF]: New version: [0.41] Old Version: [0.40]
+[2023-06-27 11:59:35] INFO root fetch - processPackages [pinard]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 11:59:35] INFO root fetch - processPackages [mentord]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-27 11:59:35] INFO root fetch - processPackages [nihtest]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-27 11:59:35] INFO root fetch - processPackages [job-pool]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-27 11:59:35] INFO root fetch - processPackages [metdig]: New version: [0.1.9.9.9] Old Version: [0.1.9.9.8]
+[2023-06-27 11:59:35] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-27 11:59:35] INFO root fetch - processPackages [pinard]: Downloading https://files.pythonhosted.org/packages/ce/99/315a67e217085b59b292fdcf01f9edc807f7cf161fb1973565a441a0db57/pinard-1.0.0.tar.gz
+[2023-06-27 11:59:35] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-06-27 11:59:35] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/40/c9/d0ee7f4bf51a8757fbc64e5f061816263169fc0e7d5b750d69ffed9ffea1/mentord-1.0.0.tar.gz
+[2023-06-27 11:59:35] INFO root fetch - processPackages [pyFRF]: Downloading https://files.pythonhosted.org/packages/d5/f2/d85e992583b7172f9796eb4d8054554dc7e657f2bf11a91aa30c85348bcb/pyFRF-0.40.tar.gz
+[2023-06-27 11:59:35] INFO root fetch - processPackages [stixpy]: Downloading https://files.pythonhosted.org/packages/dd/f0/76dda7a39c7db53cb8abe571034b5352fdb3c87ba759365738493e050588/stixpy-0.1.0rc2.tar.gz
+[2023-06-27 11:59:35] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/c9/6c/a5ce7d1d32a03bfec25c4b712ba6f5d568a5106e6c6994bde3cb137fccf9/TEST_TC-0.1.1.tar.gz
+[2023-06-27 11:59:35] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/87/bc/dfb9c16f23bc644ddc1edf6946e891049a9688aa4d32adbbb8a1e5090b76/ssh_remote_control-0.1.7.tar.gz
+[2023-06-27 11:59:35] INFO root fetch - processPackages [job-pool]: Downloading https://files.pythonhosted.org/packages/ae/f5/245970ef90a5059142ef2fab403217516a2b0bed25a820669b908fd170dc/job_pool-0.1.0.tar.gz
+[2023-06-27 11:59:35] INFO root fetch - processPackages [nihtest]: Downloading https://files.pythonhosted.org/packages/45/bd/454232ac31519f11e36e7df117dae4c8bb7e2a3ca33fffbb776fb233d619/nihtest-1.1.0.tar.gz
+[2023-06-27 11:59:35] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-06-27 11:59:35] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/b1/3c/6f99d5b25b3bfab92bfe158379ff91e93f0226f0cfce9bfadd9bd77189e5/metdig-0.1.9.9.8-py3-none-any.whl
+[2023-06-27 11:59:35] INFO root fetch - processPackages [pinard]: Downloading https://files.pythonhosted.org/packages/e6/0a/ea04f6a4fcf71698272cee52ecd0693f3dc90d8f1b407fcfd65435a54979/pinard-1.0.1.tar.gz
+[2023-06-27 11:59:35] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-06-27 11:59:35] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230627/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-27 11:59:35] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/39/b4/7c6b0d22f57ccfaf39f830772bcb2a3839d847012067647ed37af2e53261/mentord-1.0.1.tar.gz
+[2023-06-27 11:59:36] INFO root fetch - processPackages [pinard]: executing diffoscope
+[2023-06-27 11:59:36] INFO root fetch - processPackages [pinard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinard-1.0.0.tar.gz tmp/pinard-1.0.1.tar.gz --markdown 20230627/p/pinard/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 11:59:36] INFO root fetch - processPackages [pyFRF]: Downloading https://files.pythonhosted.org/packages/75/78/b402a077b4102d9fcb40caa51ad59ab1aba5aa7c4abf7fb3422d65eedceb/pyFRF-0.41.tar.gz
+[2023-06-27 11:59:36] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/b7/0e/6b2235bfd904c2c89b6ae486108c08671e08b20ee4a3fd33ba6d37867da4/TEST_TC-0.1.2.tar.gz
+[2023-06-27 11:59:36] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-27 11:59:36] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.0.0.tar.gz tmp/mentord-1.0.1.tar.gz --markdown 20230627/m/mentord/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-27 11:59:36] INFO root fetch - processPackages [job-pool]: Downloading https://files.pythonhosted.org/packages/5f/8b/01a6fc6e4fd1d20126756c772d4a4b106d2e25e1214e97285e8c2aba54a4/job_pool-0.1.1-py3-none-any.whl
+[2023-06-27 11:59:36] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/d0/f3/370d02116e22c40976d3dbf9fe5aa0c96814c478c2c918093451dd5beecb/ssh_remote_control-0.1.8.tar.gz
+[2023-06-27 11:59:36] INFO root fetch - processPackages [pyFRF]: executing diffoscope
+[2023-06-27 11:59:36] INFO root fetch - processPackages [pyFRF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyFRF-0.40.tar.gz tmp/pyFRF-0.41.tar.gz --markdown 20230627/p/pyFRF/0.40-0.41/diff.md --exclude *.pyd
+[2023-06-27 11:59:36] INFO root fetch - processPackages [nihtest]: Downloading https://files.pythonhosted.org/packages/07/66/51726b4b3bf4fd543de4205625e9debd29dea446f89a665afec458e0f356/nihtest-1.1.1.tar.gz
+[2023-06-27 11:59:36] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-06-27 11:59:36] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-0.1.1.tar.gz tmp/TEST_TC-0.1.2.tar.gz --markdown 20230627/T/TEST-TC/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-27 11:59:36] INFO root fetch - processPackages [job-pool]: executing diffoscope
+[2023-06-27 11:59:36] INFO root fetch - processPackages [job-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/job_pool-0.1.0.tar.gz tmp/job_pool-0.1.1-py3-none-any.whl.zip --markdown 20230627/j/job-pool/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-27 11:59:36] INFO root fetch - processPackages [ssh-remote-control]: executing diffoscope
+[2023-06-27 11:59:36] INFO root fetch - processPackages [ssh-remote-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_remote_control-0.1.7.tar.gz tmp/ssh_remote_control-0.1.8.tar.gz --markdown 20230627/s/ssh-remote-control/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-27 11:59:36] INFO root fetch - processPackages [nihtest]: executing diffoscope
+[2023-06-27 11:59:36] INFO root fetch - processPackages [nihtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nihtest-1.1.0.tar.gz tmp/nihtest-1.1.1.tar.gz --markdown 20230627/n/nihtest/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-27 11:59:36] INFO root fetch - processPackages [stixpy]: Downloading https://files.pythonhosted.org/packages/22/65/df210b436e5d1fc874130b9945d2b4987d9f21ad799cfbf2bc282512cedb/stixpy-0.1.0rc3.tar.gz
+[2023-06-27 11:59:36] INFO root fetch - processPackages [stixpy]: executing diffoscope
+[2023-06-27 11:59:36] INFO root fetch - processPackages [stixpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stixpy-0.1.0rc2.tar.gz tmp/stixpy-0.1.0rc3.tar.gz --markdown 20230627/s/stixpy/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-06-27 11:59:37] INFO root fetch - processPackages [pyFRF]: Remove: archive file [/home/abi/fetcher/tmp/pyFRF-0.40.tar.gz]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [pyFRF]: Remove: archive file [/home/abi/fetcher/tmp/pyFRF-0.41.tar.gz]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [pyFRF]: Start processing: scikit-rt
+[2023-06-27 11:59:37] INFO root fetch - main [MainThread]: End processing [pyFRF]: success
+[2023-06-27 11:59:37] INFO root fetch - processPackages [scikit-rt]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [aiosumma]: Start processing: collective.eeafaceted.batchactions
+[2023-06-27 11:59:37] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-06-27 11:59:37] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/1b/3d/eb89bbee6b5c8d365fe39dfbc82850cc30ea0f2fc375c5451a0d6c0c43c7/scikit-rt-0.4.9.tar.gz
+[2023-06-27 11:59:37] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.1.tar.gz]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.2.tar.gz]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [TEST-TC]: Start processing: PyroFork-dev
+[2023-06-27 11:59:37] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-06-27 11:59:37] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.3.dev202306270944] Old Version: [2.2.3.dev202306251641]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.0.tar.gz]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.0.1.tar.gz]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [mentord]: Start processing: cloudnetpy
+[2023-06-27 11:59:37] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-27 11:59:37] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: New version: [1.9] Old Version: [1.8]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/7a/7c/6978d0cc452034e01aab8c3aeff9f2a02f07afe9e39176c575548119cac3/PyroFork-dev-2.2.3.dev202306251641.tar.gz
+[2023-06-27 11:59:37] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/9f/8e/1e9db30d4244fd804b6f2149e641fa5986bf5e7751b686e0fa1115e143dd/scikit-rt-0.5.0.tar.gz
+[2023-06-27 11:59:37] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.7.tar.gz]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.8.tar.gz]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [ssh-remote-control]: Start processing: pdf-oralia
+[2023-06-27 11:59:37] INFO root fetch - main [MainThread]: End processing [ssh-remote-control]: success
+[2023-06-27 11:59:37] INFO root fetch - processPackages [job-pool]: Remove: archive file [/home/abi/fetcher/tmp/job_pool-0.1.0.tar.gz]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [job-pool]: Remove: archive file [/home/abi/fetcher/tmp/job_pool-0.1.1-py3-none-any.whl.zip]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [job-pool]: Start processing: nidalee
+[2023-06-27 11:59:37] INFO root fetch - main [MainThread]: End processing [job-pool]: success
+[2023-06-27 11:59:37] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-27 11:59:37] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-06-27 11:59:37] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.4.9.tar.gz tmp/scikit-rt-0.5.0.tar.gz --markdown 20230627/s/scikit-rt/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-06-27 11:59:38] INFO root fetch - processPackages [pdf-oralia]: New version: [0.2.6.5] Old Version: [0.2.5]
+[2023-06-27 11:59:38] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: Downloading https://files.pythonhosted.org/packages/39/5a/ce701794c8195a6b3f663625ebe3583f5e9fb32de31b6097f3ac6434ca2d/collective.eeafaceted.batchactions-1.8.tar.gz
+[2023-06-27 11:59:38] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/67/f7/11c7f94e1fa3eb9b10b7deda5d74c3b0ff06a9587defb98e4b2e7da85f06/PyroFork-dev-2.2.3.dev202306270944.tar.gz
+[2023-06-27 11:59:38] INFO root fetch - processPackages [nidalee]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 11:59:38] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-06-27 11:59:38] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-06-27 11:59:38] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.3.dev202306251641.tar.gz tmp/PyroFork-dev-2.2.3.dev202306270944.tar.gz --markdown 20230627/P/PyroFork-dev/2.2.3.dev202306251641-2.2.3.dev202306270944/diff.md --exclude *.pyd
+[2023-06-27 11:59:38] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/96/6e/1c393cb969c82fe1c39fc922d6de4aedb7830f5ce13e7be8c7ac41f5115f/metdig-0.1.9.9.9-py3-none-any.whl
+[2023-06-27 11:59:38] INFO root fetch - processPackages [pdf-oralia]: Downloading https://files.pythonhosted.org/packages/53/00/313fc0f638d0436590ed33c75f3334ad429f9b94360daa2ec229fce82d82/pdf_oralia-0.2.5.tar.gz
+[2023-06-27 11:59:38] INFO root fetch - processPackages [pinard]: Remove: archive file [/home/abi/fetcher/tmp/pinard-1.0.0.tar.gz]
+[2023-06-27 11:59:38] INFO root fetch - processPackages [pinard]: Remove: archive file [/home/abi/fetcher/tmp/pinard-1.0.1.tar.gz]
+[2023-06-27 11:59:38] INFO root fetch - main [MainThread]: End processing [pinard]: success
+[2023-06-27 11:59:38] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: Downloading https://files.pythonhosted.org/packages/89/26/25069712384110fa5912ddbc8e6b0d1a3666b599b985e2a8b2487a9c547a/collective.eeafaceted.batchactions-1.9.tar.gz
+[2023-06-27 11:59:38] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/10/7a/59bae3ebb58ef342466a6f44f31ea5ed574cfcd1206172174c0eae90c40f/nidalee-0.1.8-py3-none-any.whl
+[2023-06-27 11:59:38] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: executing diffoscope
+[2023-06-27 11:59:38] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.eeafaceted.batchactions-1.8.tar.gz tmp/collective.eeafaceted.batchactions-1.9.tar.gz --markdown 20230627/c/collective.eeafaceted.batchactions/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-27 11:59:38] INFO root fetch - processPackages [pdf-oralia]: Downloading https://files.pythonhosted.org/packages/ea/1e/d0fbae56ae98cf2ee0cdaf5d426baf2683e90759657980a24abbc870fccb/pdf_oralia-0.2.6.5.tar.gz
+[2023-06-27 11:59:38] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/7b/aa/5d7542fb6437eddba82a60b311003a8763fdde7cc5d9bce83abd335996cd/nidalee-0.1.9-py3-none-any.whl
+[2023-06-27 11:59:38] INFO root fetch - processPackages [pdf-oralia]: executing diffoscope
+[2023-06-27 11:59:38] INFO root fetch - processPackages [pdf-oralia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_oralia-0.2.5.tar.gz tmp/pdf_oralia-0.2.6.5.tar.gz --markdown 20230627/p/pdf-oralia/0.2.5-0.2.6.5/diff.md --exclude *.pyd
+[2023-06-27 11:59:38] INFO root fetch - processPackages [nidalee]: executing diffoscope
+[2023-06-27 11:59:38] INFO root fetch - processPackages [nidalee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nidalee-0.1.8-py3-none-any.whl.zip tmp/nidalee-0.1.9-py3-none-any.whl.zip --markdown 20230627/n/nidalee/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 11:59:39] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-06-27 11:59:39] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-06-27 11:59:39] INFO root fetch - processPackages [nihtest]: Remove: archive file [/home/abi/fetcher/tmp/nihtest-1.1.0.tar.gz]
+[2023-06-27 11:59:39] INFO root fetch - processPackages [nihtest]: Remove: archive file [/home/abi/fetcher/tmp/nihtest-1.1.1.tar.gz]
+[2023-06-27 11:59:39] INFO root fetch - main [MainThread]: End processing [nihtest]: success
+[2023-06-27 11:59:39] INFO root fetch - processPackages [pdf-oralia]: Remove: archive file [/home/abi/fetcher/tmp/pdf_oralia-0.2.5.tar.gz]
+[2023-06-27 11:59:39] INFO root fetch - processPackages [pdf-oralia]: Remove: archive file [/home/abi/fetcher/tmp/pdf_oralia-0.2.6.5.tar.gz]
+[2023-06-27 11:59:39] INFO root fetch - main [MainThread]: End processing [pdf-oralia]: success
+[2023-06-27 11:59:39] INFO root fetch - processPackages [metdig]: executing diffoscope
+[2023-06-27 11:59:39] INFO root fetch - processPackages [metdig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip --markdown 20230627/m/metdig/0.1.9.9.8-0.1.9.9.9/diff.md --exclude *.pyd
+[2023-06-27 11:59:39] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.batchactions-1.8.tar.gz]
+[2023-06-27 11:59:39] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.batchactions-1.9.tar.gz]
+[2023-06-27 11:59:39] INFO root fetch - main [MainThread]: End processing [collective.eeafaceted.batchactions]: success
+[2023-06-27 11:59:40] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.8-py3-none-any.whl.zip]
+[2023-06-27 11:59:40] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.9-py3-none-any.whl.zip]
+[2023-06-27 11:59:40] INFO root fetch - main [MainThread]: End processing [nidalee]: success
+[2023-06-27 11:59:41] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.4.9.tar.gz]
+[2023-06-27 11:59:41] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.0.tar.gz]
+[2023-06-27 11:59:41] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-06-27 11:59:41] INFO root fetch - processPackages [stixpy]: Remove: archive file [/home/abi/fetcher/tmp/stixpy-0.1.0rc2.tar.gz]
+[2023-06-27 11:59:41] INFO root fetch - processPackages [stixpy]: Remove: archive file [/home/abi/fetcher/tmp/stixpy-0.1.0rc3.tar.gz]
+[2023-06-27 11:59:41] INFO root fetch - main [MainThread]: End processing [stixpy]: success
+[2023-06-27 11:59:42] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202306251641.tar.gz]
+[2023-06-27 11:59:42] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202306270944.tar.gz]
+[2023-06-27 11:59:42] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-06-27 11:59:53] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip]
+[2023-06-27 11:59:53] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip]
+[2023-06-27 11:59:53] INFO root fetch - main [MainThread]: End processing [metdig]: success
+[2023-06-27 11:59:53] INFO root fetch - main [MainThread]: Store serial: [18661027]
