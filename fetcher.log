@@ -10076,3 +10076,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 04:16:08] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.9.tar.gz]
 [2023-06-27 04:16:08] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
 [2023-06-27 04:16:08] INFO root fetch - main [MainThread]: Store serial: [18657227]
+[2023-06-27 04:21:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18657227]
+[2023-06-27 04:21:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-27 04:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magic-run-cmd
+[2023-06-27 04:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-ssm-tools
+[2023-06-27 04:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-ssm-tunnel-agent
+[2023-06-27 04:21:17] INFO root fetch - processPackages [aws-ssm-tunnel-agent]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-27 04:21:17] INFO root fetch - processPackages [magic-run-cmd]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-27 04:21:17] INFO root fetch - processPackages [aws-ssm-tools]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-27 04:21:17] INFO root fetch - processPackages [aws-ssm-tunnel-agent]: Downloading https://files.pythonhosted.org/packages/35/c6/c58c1503e8ad8ef4ea39b5913b49733397c579a5b69d60c5c5c5bdcf537f/aws-ssm-tunnel-agent-1.5.1.tar.gz
+[2023-06-27 04:21:17] INFO root fetch - processPackages [aws-ssm-tools]: Downloading https://files.pythonhosted.org/packages/9e/af/6b0cf3a5ac9c9cac9bec1173676bd42503a42285967c963789b191e40825/aws-ssm-tools-1.5.1.tar.gz
+[2023-06-27 04:21:17] INFO root fetch - processPackages [magic-run-cmd]: Downloading https://files.pythonhosted.org/packages/bb/46/1e924d44ed021c8b3026ac3834546dec11976278285ef27a4028dca6a803/magic_run_cmd-1.0.0.tar.gz
+[2023-06-27 04:21:17] INFO root fetch - processPackages [aws-ssm-tunnel-agent]: Downloading https://files.pythonhosted.org/packages/9b/49/05872e2baf1981c54bd82b89dda313d7f5da6a194297acc824667ffb070e/aws-ssm-tunnel-agent-1.6.0.tar.gz
+[2023-06-27 04:21:17] INFO root fetch - processPackages [aws-ssm-tools]: Downloading https://files.pythonhosted.org/packages/c2/85/bceac18bb9a33d32fe08efa6e3b9da04d24b04803bd6763b729de54e0fd5/aws-ssm-tools-1.6.0.tar.gz
+[2023-06-27 04:21:17] INFO root fetch - processPackages [magic-run-cmd]: Downloading https://files.pythonhosted.org/packages/37/e5/513fe06ef7d40b8bc68d356f7aca85598916323a626cf21af4f4f2bee0f5/magic_run_cmd-1.1.0.tar.gz
+[2023-06-27 04:21:17] INFO root fetch - processPackages [aws-ssm-tunnel-agent]: executing diffoscope
+[2023-06-27 04:21:17] INFO root fetch - processPackages [aws-ssm-tunnel-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ssm-tunnel-agent-1.5.1.tar.gz tmp/aws-ssm-tunnel-agent-1.6.0.tar.gz --markdown 20230627/a/aws-ssm-tunnel-agent/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-27 04:21:17] INFO root fetch - processPackages [aws-ssm-tools]: executing diffoscope
+[2023-06-27 04:21:17] INFO root fetch - processPackages [aws-ssm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ssm-tools-1.5.1.tar.gz tmp/aws-ssm-tools-1.6.0.tar.gz --markdown 20230627/a/aws-ssm-tools/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-27 04:21:17] INFO root fetch - processPackages [magic-run-cmd]: executing diffoscope
+[2023-06-27 04:21:17] INFO root fetch - processPackages [magic-run-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_run_cmd-1.0.0.tar.gz tmp/magic_run_cmd-1.1.0.tar.gz --markdown 20230627/m/magic-run-cmd/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-27 04:21:18] INFO root fetch - processPackages [aws-ssm-tunnel-agent]: Remove: archive file [/home/abi/fetcher/tmp/aws-ssm-tunnel-agent-1.5.1.tar.gz]
+[2023-06-27 04:21:18] INFO root fetch - processPackages [aws-ssm-tunnel-agent]: Remove: archive file [/home/abi/fetcher/tmp/aws-ssm-tunnel-agent-1.6.0.tar.gz]
+[2023-06-27 04:21:18] INFO root fetch - main [MainThread]: End processing [aws-ssm-tunnel-agent]: success
+[2023-06-27 04:21:19] INFO root fetch - processPackages [magic-run-cmd]: Remove: archive file [/home/abi/fetcher/tmp/magic_run_cmd-1.0.0.tar.gz]
+[2023-06-27 04:21:19] INFO root fetch - processPackages [magic-run-cmd]: Remove: archive file [/home/abi/fetcher/tmp/magic_run_cmd-1.1.0.tar.gz]
+[2023-06-27 04:21:19] INFO root fetch - main [MainThread]: End processing [magic-run-cmd]: success
+[2023-06-27 04:22:12] INFO root fetch - processPackages [aws-ssm-tools]: Remove: archive file [/home/abi/fetcher/tmp/aws-ssm-tools-1.5.1.tar.gz]
+[2023-06-27 04:22:12] INFO root fetch - processPackages [aws-ssm-tools]: Remove: archive file [/home/abi/fetcher/tmp/aws-ssm-tools-1.6.0.tar.gz]
+[2023-06-27 04:22:12] INFO root fetch - main [MainThread]: End processing [aws-ssm-tools]: success
+[2023-06-27 04:22:12] INFO root fetch - main [MainThread]: Store serial: [18657255]
