@@ -15191,3 +15191,464 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 09:52:12] ERROR root fetch - processPackages [jdcloud-sdk]: Timeout during execution of pkgdiff
 [2023-06-27 09:52:12] INFO root fetch - main [MainThread]: End processing [jdcloud-sdk] error
 [2023-06-27 09:52:12] INFO root fetch - main [MainThread]: Store serial: [18659246]
+[2023-06-27 09:57:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659246]
+[2023-06-27 09:57:21] INFO root fetch - main [MainThread]: Found 54 changed packages
+[2023-06-27 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitlab-arc-fs
+[2023-06-27 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dissect.contrib
+[2023-06-27 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vantage6-common
+[2023-06-27 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vantage6-client
+[2023-06-27 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vantage6
+[2023-06-27 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vantage6-node
+[2023-06-27 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vantage6-server
+[2023-06-27 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dissect.cim
+[2023-06-27 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dissect.ole
+[2023-06-27 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dissect.executable
+[2023-06-27 09:57:21] INFO root fetch - processPackages [dissect.executable]: New version: [1.4.dev2] Old Version: [1.4.dev1]
+[2023-06-27 09:57:21] INFO root fetch - processPackages [gitlab-arc-fs]: New version: [0.0.9.dev1] Old Version: [0.0.8.dev1]
+[2023-06-27 09:57:21] INFO root fetch - processPackages [dissect.contrib]: New version: [1.4.dev3] Old Version: [1.4.dev2]
+[2023-06-27 09:57:21] INFO root fetch - processPackages [dissect.ole]: New version: [3.6.dev3] Old Version: [3.6.dev2]
+[2023-06-27 09:57:21] INFO root fetch - processPackages [vantage6]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-27 09:57:21] INFO root fetch - processPackages [vantage6-common]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-27 09:57:21] INFO root fetch - processPackages [dissect.cim]: New version: [3.7.dev2] Old Version: [3.7.dev1]
+[2023-06-27 09:57:21] INFO root fetch - processPackages [vantage6-server]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-27 09:57:21] INFO root fetch - processPackages [vantage6-node]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-27 09:57:21] INFO root fetch - processPackages [vantage6-client]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.contrib]: Downloading https://files.pythonhosted.org/packages/e0/fb/137c3ebca1b9920f46800bcf0fea6b3e1e2f724ebb0dfd4db2e965770651/dissect.contrib-1.4.dev2.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.ole]: Downloading https://files.pythonhosted.org/packages/fd/de/a0ac16044935ff1acf439a74ffe56fb8e694dfd2082abc7a88d6147ad7a6/dissect.ole-3.6.dev2.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/04/98/abda7369242fa6c3acba2926ec79b399130654bee32e327caf5a0dadd8c3/vantage6-common-3.9.0rc2.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.executable]: Downloading https://files.pythonhosted.org/packages/a2/94/843e12b0a965aeeead1a2aade338ce9b9646e70075d67af07462279a8f17/dissect.executable-1.4.dev1.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0e/13/96cc6617347f539f4105aa2d8c22e0f59367d4839663ee5456fdf3fa2047/gitlab_arc_fs-0.0.8.dev1.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/93/a4/4faa09e9d314fa4e9ae0ddfc4677720ec30f7b78ec12b20c1174cb4e9e1a/vantage6-server-3.9.0rc2.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/79/28/e84e0e783a03637496f2b5fd1c5d7b203696fd490d45d44eebad6876491d/vantage6-3.9.0rc2.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/cc/8a/7abb292e0070d775645f93a42c4c2021a36654aa36658a826b16e872bac6/vantage6-client-3.9.0rc2.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/90/d2/2f29a2ff10348e0426f2c1ddfdf2bd721cdf127d749f7854c12f28ba1a15/vantage6-node-3.9.0rc2.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.cim]: Downloading https://files.pythonhosted.org/packages/1d/9b/749839bf7cdb2c43e9872190ca2f9703715b7725b1bf8996be1153ddda87/dissect.cim-3.7.dev1.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.contrib]: Downloading https://files.pythonhosted.org/packages/25/74/c0cf3f0150362bc00ba3109f80835b50c34c3897ffa635f24c754d913e3a/dissect.contrib-1.4.dev3.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.ole]: Downloading https://files.pythonhosted.org/packages/3e/be/710da54d88af5a1d6753f6072ad332d3523651f24db9a27896afd39aa26c/dissect.ole-3.6.dev3.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.contrib]: executing diffoscope
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.contrib-1.4.dev2.tar.gz tmp/dissect.contrib-1.4.dev3.tar.gz --markdown 20230627/d/dissect.contrib/1.4.dev2-1.4.dev3/diff.md --exclude *.pyd
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.ole]: executing diffoscope
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.ole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.ole-3.6.dev2.tar.gz tmp/dissect.ole-3.6.dev3.tar.gz --markdown 20230627/d/dissect.ole/3.6.dev2-3.6.dev3/diff.md --exclude *.pyd
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/de/cb/1239e1a102d86e002b1436632871ff11e42cf788874d124ddb97ab106a25/vantage6-common-3.9.0rc4.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/b6/05/772b7c5cd3ce82d8fdf717f8697d700fae68bbe7fd79eafb5692d1a39613/vantage6-server-3.9.0rc4.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/03/fa/166d5752a0abe58f0390806f65013f110f78bbde0405ad929520e326893b/vantage6-3.9.0rc4.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/b4/71/a610fd6c37265434474f5572b44b27ff8f5f39318b8c77af5c69bc70b067/vantage6-node-3.9.0rc4.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.executable]: Downloading https://files.pythonhosted.org/packages/ec/a9/63c16eb7217413cdf5f560448b60646a6079eef33c89707fdf465af50b5e/dissect.executable-1.4.dev2.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0f/cd/99d970c989763e4c968b7bc029225b30885ba89e68822868e6b6f5cf5be8/gitlab_arc_fs-0.0.9.dev1.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-3.9.0rc2.tar.gz tmp/vantage6-common-3.9.0rc4.tar.gz --markdown 20230627/v/vantage6-common/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/83/b1/52552994d80009402a91a34427a0306326f0781eaaefc933c31d687d9ae4/vantage6-client-3.9.0rc4.tar.gz
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-3.9.0rc2.tar.gz tmp/vantage6-3.9.0rc4.tar.gz --markdown 20230627/v/vantage6/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.9.0rc2.tar.gz tmp/vantage6-server-3.9.0rc4.tar.gz --markdown 20230627/v/vantage6-server/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.executable]: executing diffoscope
+[2023-06-27 09:57:22] INFO root fetch - processPackages [dissect.executable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.executable-1.4.dev1.tar.gz tmp/dissect.executable-1.4.dev2.tar.gz --markdown 20230627/d/dissect.executable/1.4.dev1-1.4.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:22] INFO root fetch - processPackages [gitlab-arc-fs]: executing diffoscope
+[2023-06-27 09:57:22] INFO root fetch - processPackages [gitlab-arc-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz --markdown 20230627/g/gitlab-arc-fs/0.0.8.dev1-0.0.9.dev1/diff.md --exclude *.pyd
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-3.9.0rc2.tar.gz tmp/vantage6-node-3.9.0rc4.tar.gz --markdown 20230627/v/vantage6-node/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-06-27 09:57:22] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-3.9.0rc2.tar.gz tmp/vantage6-client-3.9.0rc4.tar.gz --markdown 20230627/v/vantage6-client/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-27 09:57:23] INFO root fetch - processPackages [dissect.cim]: Downloading https://files.pythonhosted.org/packages/81/b1/12beeb4c9d7794bff945ec93985f1a46c53ae67c2dce2bc6a5715bc7e3a6/dissect.cim-3.7.dev2.tar.gz
+[2023-06-27 09:57:23] INFO root fetch - processPackages [dissect.cim]: executing diffoscope
+[2023-06-27 09:57:23] INFO root fetch - processPackages [dissect.cim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.cim-3.7.dev1.tar.gz tmp/dissect.cim-3.7.dev2.tar.gz --markdown 20230627/d/dissect.cim/3.7.dev1-3.7.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.ole]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ole-3.6.dev2.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.ole]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ole-3.6.dev3.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.ole]: Start processing: smt
+[2023-06-27 09:57:24] INFO root fetch - main [MainThread]: End processing [dissect.ole]: success
+[2023-06-27 09:57:24] INFO root fetch - processPackages [smt]: New version: [2.0b5] Old Version: [2.0b4]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.contrib]: Remove: archive file [/home/abi/fetcher/tmp/dissect.contrib-1.4.dev2.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.contrib]: Remove: archive file [/home/abi/fetcher/tmp/dissect.contrib-1.4.dev3.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.contrib]: Start processing: dissect.util
+[2023-06-27 09:57:24] INFO root fetch - main [MainThread]: End processing [dissect.contrib]: success
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.util]: New version: [3.9.dev3] Old Version: [3.9.dev2]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [smt]: Downloading https://files.pythonhosted.org/packages/92/11/1316a0d24afe280ac1563b4af4daa9da5bf337b3119552caf1e79a1a10a5/smt-2.0b4.tar.gz
+[2023-06-27 09:57:24] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [gitlab-arc-fs]: Start processing: dissect.evidence
+[2023-06-27 09:57:24] INFO root fetch - main [MainThread]: End processing [gitlab-arc-fs]: success
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.evidence]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-3.9.0rc2.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-3.9.0rc4.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-common]: Start processing: dissect.cstruct
+[2023-06-27 09:57:24] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/ff/91/075a7055521f26f24c223f8484f3d438a3a5f6661509b14505e95efd1170/dissect.util-3.9.dev2.tar.gz
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-3.9.0rc2.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-3.9.0rc4.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6]: Start processing: dissect.clfs
+[2023-06-27 09:57:24] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.cstruct]: New version: [3.8.dev2] Old Version: [3.8.dev1]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.clfs]: New version: [1.6.dev2] Old Version: [1.6.dev1]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-3.9.0rc2.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-3.9.0rc4.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-node]: Start processing: acquire
+[2023-06-27 09:57:24] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.evidence]: Downloading https://files.pythonhosted.org/packages/c6/bd/dc670da13a0b35c1b6133e7047e5aae899000c5fa6ec22389e433699339a/dissect.evidence-3.6.dev1.tar.gz
+[2023-06-27 09:57:24] INFO root fetch - processPackages [acquire]: New version: [3.7.dev5] Old Version: [3.7.dev4]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [smt]: Downloading https://files.pythonhosted.org/packages/6a/12/54156b6922620b33a07e1c80e2ee824c75437381b8bee83ce46904e060e2/smt-2.0b5.tar.gz
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/f9/c1/8c4c10d3b7647ce0bd6a5aabe2fe1b8c180f77aa7cca312f89ec30c55921/dissect.cstruct-3.8.dev1.tar.gz
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.clfs]: Downloading https://files.pythonhosted.org/packages/69/ee/52dde1a1eff9e6482ffa48356d2be213e12dae2e40c30a7dc837d683d22a/dissect.clfs-1.6.dev1.tar.gz
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-3.9.0rc2.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-3.9.0rc4.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-server]: Start processing: dissect.ffs
+[2023-06-27 09:57:24] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-3.9.0rc2.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-3.9.0rc4.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [vantage6-client]: Start processing: tf-nightly-cpu
+[2023-06-27 09:57:24] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.ffs]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [smt]: executing diffoscope
+[2023-06-27 09:57:24] INFO root fetch - processPackages [smt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smt-2.0b4.tar.gz tmp/smt-2.0b5.tar.gz --markdown 20230627/s/smt/2.0b4-2.0b5/diff.md --exclude *.pyd
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/d2/4e/f9983065e8ad5db325fe418f049df121d2a4c9a3f2c2fde338a11907b09c/dissect.util-3.9.dev3.tar.gz
+[2023-06-27 09:57:24] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/e9/01/25dd599c7bb1b07b1a77bce56833bb6a0aaa468c98fa035953e800dfb674/acquire-3.7.dev4.tar.gz
+[2023-06-27 09:57:24] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230627] Old Version: [2.14.0.dev20230626]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.executable]: Remove: archive file [/home/abi/fetcher/tmp/dissect.executable-1.4.dev1.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.executable]: Remove: archive file [/home/abi/fetcher/tmp/dissect.executable-1.4.dev2.tar.gz]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.executable]: Start processing: dissect.etl
+[2023-06-27 09:57:24] INFO root fetch - main [MainThread]: End processing [dissect.executable]: success
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.etl]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.util]: executing diffoscope
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.util-3.9.dev2.tar.gz tmp/dissect.util-3.9.dev3.tar.gz --markdown 20230627/d/dissect.util/3.9.dev2-3.9.dev3/diff.md --exclude *.pyd
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.clfs]: Downloading https://files.pythonhosted.org/packages/91/ab/e4b963d2f6e69f08cfa054981f92eae442a7e5ae2c7e20e4638f013072a4/dissect.clfs-1.6.dev2.tar.gz
+[2023-06-27 09:57:24] INFO root fetch - processPackages [dissect.evidence]: Downloading https://files.pythonhosted.org/packages/3f/ac/1c14aae71bafe0bf041c0ddb106b9049a88fd515ac42ff7f398f32b87ee8/dissect.evidence-3.6.dev2.tar.gz
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.ffs]: Downloading https://files.pythonhosted.org/packages/e5/e9/c0a4b6caef484327b602e40690e2c579120363e7262ece047ca892406f52/dissect.ffs-3.6.dev1.tar.gz
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/61/73/e6db079c8bf267449473fe16add369af49839bc9ed7aac2356873b046341/dissect.cstruct-3.8.dev2.tar.gz
+[2023-06-27 09:57:25] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/25/15/0acfb683f232e1bcbf7708d149bb19fb024f1b85f035eabc2314664384d9/tf_nightly_cpu-2.14.0.dev20230626-cp39-cp39-win_amd64.whl
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.clfs]: executing diffoscope
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.clfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.clfs-1.6.dev1.tar.gz tmp/dissect.clfs-1.6.dev2.tar.gz --markdown 20230627/d/dissect.clfs/1.6.dev1-1.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.evidence]: executing diffoscope
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.evidence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.evidence-3.6.dev1.tar.gz tmp/dissect.evidence-3.6.dev2.tar.gz --markdown 20230627/d/dissect.evidence/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:25] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/8b/c9/d878ac4d24d2ba17fd4b3a4e90fa15ebdfed0c450ce2a3768d9937a7d0b5/acquire-3.7.dev5.tar.gz
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.cstruct]: executing diffoscope
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.cstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.cstruct-3.8.dev1.tar.gz tmp/dissect.cstruct-3.8.dev2.tar.gz --markdown 20230627/d/dissect.cstruct/3.8.dev1-3.8.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.etl]: Downloading https://files.pythonhosted.org/packages/f5/61/25d5692d2b17827100e8c84925685f5f67718c67bd20f06070fa38e52407/dissect.etl-3.6.dev1.tar.gz
+[2023-06-27 09:57:25] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2023-06-27 09:57:25] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.7.dev4.tar.gz tmp/acquire-3.7.dev5.tar.gz --markdown 20230627/a/acquire/3.7.dev4-3.7.dev5/diff.md --exclude *.pyd
+[2023-06-27 09:57:25] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/42/fb/101506ec1eb55ae0e8de9b703ea0ffe878a30cb57e3a415f5a1c5168b515/tf_nightly_cpu-2.14.0.dev20230627-cp39-cp39-win_amd64.whl
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.ffs]: Downloading https://files.pythonhosted.org/packages/8a/f7/3f95094722d42aa41ec1e875797ce4afbab2d02eb3bf16a1557b7b743a94/dissect.ffs-3.6.dev2.tar.gz
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.ffs]: executing diffoscope
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.ffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.ffs-3.6.dev1.tar.gz tmp/dissect.ffs-3.6.dev2.tar.gz --markdown 20230627/d/dissect.ffs/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:25] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-27 09:57:25] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230626-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230627-cp39-cp39-win_amd64.whl.zip --markdown 20230627/t/tf-nightly-cpu/2.14.0.dev20230626-2.14.0.dev20230627/diff.md --exclude *.pyd
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.etl]: Downloading https://files.pythonhosted.org/packages/30/85/14dfa4da9ca8c034915fbb262da14625c9e28f64f6b8bcf37bc0fb360e27/dissect.etl-3.6.dev2.tar.gz
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.etl]: executing diffoscope
+[2023-06-27 09:57:25] INFO root fetch - processPackages [dissect.etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.etl-3.6.dev1.tar.gz tmp/dissect.etl-3.6.dev2.tar.gz --markdown 20230627/d/dissect.etl/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect.clfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.clfs-1.6.dev1.tar.gz]
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect.clfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.clfs-1.6.dev2.tar.gz]
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect.clfs]: Start processing: dopplrSDK
+[2023-06-27 09:57:26] INFO root fetch - main [MainThread]: End processing [dissect.clfs]: success
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dopplrSDK]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect.evidence]: Remove: archive file [/home/abi/fetcher/tmp/dissect.evidence-3.6.dev1.tar.gz]
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect.evidence]: Remove: archive file [/home/abi/fetcher/tmp/dissect.evidence-3.6.dev2.tar.gz]
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect.evidence]: Start processing: dissect
+[2023-06-27 09:57:26] INFO root fetch - main [MainThread]: End processing [dissect.evidence]: success
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect]: New version: [3.7.dev2] Old Version: [3.7.dev1]
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cstruct-3.8.dev1.tar.gz]
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cstruct-3.8.dev2.tar.gz]
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect.cstruct]: Start processing: dissect.eventlog
+[2023-06-27 09:57:26] INFO root fetch - main [MainThread]: End processing [dissect.cstruct]: success
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect.eventlog]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect]: Downloading https://files.pythonhosted.org/packages/e3/e0/dfbbf535b7f3db55ae21dc80b557bc14c36a4f476d96f7851b4efc8a171d/dissect-3.7.dev1.tar.gz
+[2023-06-27 09:57:26] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.7.dev4.tar.gz]
+[2023-06-27 09:57:26] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.7.dev5.tar.gz]
+[2023-06-27 09:57:26] INFO root fetch - processPackages [acquire]: Start processing: dissect.regf
+[2023-06-27 09:57:26] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2023-06-27 09:57:26] INFO root fetch - processPackages [dissect.regf]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/31/ba/503d1f77edc105e8760c2203fda749c6fe80e4dbee9813460783d7610bef/dopplrSDK-2.4.0-py3-none-any.whl
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.util]: Remove: archive file [/home/abi/fetcher/tmp/dissect.util-3.9.dev2.tar.gz]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.util]: Remove: archive file [/home/abi/fetcher/tmp/dissect.util-3.9.dev3.tar.gz]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.util]: Start processing: dissect.thumbcache
+[2023-06-27 09:57:27] INFO root fetch - main [MainThread]: End processing [dissect.util]: success
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.ffs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ffs-3.6.dev1.tar.gz]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.ffs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ffs-3.6.dev2.tar.gz]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.ffs]: Start processing: dissect.extfs
+[2023-06-27 09:57:27] INFO root fetch - main [MainThread]: End processing [dissect.ffs]: success
+[2023-06-27 09:57:27] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230626-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230627-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: dissect.shellitem
+[2023-06-27 09:57:27] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.extfs]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.thumbcache]: New version: [1.5.dev2] Old Version: [1.5.dev1]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.shellitem]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.eventlog]: Downloading https://files.pythonhosted.org/packages/5c/7e/e8d33e9894ad7884f000d6ad24416cebe287611baf98f986327084b68742/dissect.eventlog-3.6.dev1.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.cim]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cim-3.7.dev1.tar.gz]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.cim]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cim-3.7.dev2.tar.gz]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.cim]: Start processing: dissect.hypervisor
+[2023-06-27 09:57:27] INFO root fetch - main [MainThread]: End processing [dissect.cim]: success
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect]: Downloading https://files.pythonhosted.org/packages/aa/92/4fd306c6a3180a75b5fef624fcfda5a8016b111ff922e6efe4614637c83f/dissect-3.7.dev2.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.hypervisor]: New version: [3.8.dev2] Old Version: [3.8.dev1]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.regf]: Downloading https://files.pythonhosted.org/packages/a9/83/131dc8c2e04430c284df08785a22019c53d4429e5165cef5b7ad568efda8/dissect.regf-3.6.dev1.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect]: executing diffoscope
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect-3.7.dev1.tar.gz tmp/dissect-3.7.dev2.tar.gz --markdown 20230627/d/dissect/3.7.dev1-3.7.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/5c/12/7f364b418bb4be74ffa563cd613de0423b46fa574662b21fbb80f7b720a0/dopplrSDK-2.5.0-py3-none-any.whl
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.extfs]: Downloading https://files.pythonhosted.org/packages/b7/82/ad4712a0bd3fffdc4e73aebfea75748b8a021f939dfdd6e90acadcefb785/dissect.extfs-3.6.dev1.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.shellitem]: Downloading https://files.pythonhosted.org/packages/af/ec/4d34603b26a2775da86542723b8e6fb41f082bf9da06771f0ef12a977e20/dissect.shellitem-3.6.dev1.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.thumbcache]: Downloading https://files.pythonhosted.org/packages/2c/fe/25d2893f409c323073ec72c1d49ee957bdd10cfb234928e7393b22e7ee42/dissect.thumbcache-1.5.dev1.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.eventlog]: Downloading https://files.pythonhosted.org/packages/57/bc/82732659e12f81a7f5e1029dcad2a3ab03963c9f2f724b9bb43823d7c943/dissect.eventlog-3.6.dev2.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.hypervisor]: Downloading https://files.pythonhosted.org/packages/10/9f/c96c626def4d8ab78bd8760773ddda910cfd5ae14ab28f6adbc013038910/dissect.hypervisor-3.8.dev1.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-2.4.0-py3-none-any.whl.zip tmp/dopplrSDK-2.5.0-py3-none-any.whl.zip --markdown 20230627/d/dopplrSDK/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.eventlog]: executing diffoscope
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.eventlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.eventlog-3.6.dev1.tar.gz tmp/dissect.eventlog-3.6.dev2.tar.gz --markdown 20230627/d/dissect.eventlog/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.extfs]: Downloading https://files.pythonhosted.org/packages/21/63/69c4e2deef83a589d3d6de3ad3b173855be7182926a21fd672d70110cbf4/dissect.extfs-3.6.dev2.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.shellitem]: Downloading https://files.pythonhosted.org/packages/45/c3/19fa61544d1c71d9ac228c26b84f065ba26703e24d9648378a9efbe62de9/dissect.shellitem-3.6.dev2.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.extfs]: executing diffoscope
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.extfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.extfs-3.6.dev1.tar.gz tmp/dissect.extfs-3.6.dev2.tar.gz --markdown 20230627/d/dissect.extfs/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.shellitem]: executing diffoscope
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.shellitem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.shellitem-3.6.dev1.tar.gz tmp/dissect.shellitem-3.6.dev2.tar.gz --markdown 20230627/d/dissect.shellitem/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.regf]: Downloading https://files.pythonhosted.org/packages/25/de/4b98a4dde204d140f206d63cee4a268b49226e69f6a89fe752060d088983/dissect.regf-3.6.dev2.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.hypervisor]: Downloading https://files.pythonhosted.org/packages/36/23/5707efc5a634c93dedddc6ab083f7a223dd4e157817879bfc4bad38335be/dissect.hypervisor-3.8.dev2.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [smt]: Remove: archive file [/home/abi/fetcher/tmp/smt-2.0b4.tar.gz]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [smt]: Remove: archive file [/home/abi/fetcher/tmp/smt-2.0b5.tar.gz]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [smt]: Start processing: dissect.fat
+[2023-06-27 09:57:27] INFO root fetch - main [MainThread]: End processing [smt]: success
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.fat]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.thumbcache]: Downloading https://files.pythonhosted.org/packages/4d/d1/dbb80fcb97429da9f7939cec8c8008f05f0f9de0547f06ec8f2426f95e47/dissect.thumbcache-1.5.dev2.tar.gz
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.regf]: executing diffoscope
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.regf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.regf-3.6.dev1.tar.gz tmp/dissect.regf-3.6.dev2.tar.gz --markdown 20230627/d/dissect.regf/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.hypervisor]: executing diffoscope
+[2023-06-27 09:57:27] INFO root fetch - processPackages [dissect.hypervisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.hypervisor-3.8.dev1.tar.gz tmp/dissect.hypervisor-3.8.dev2.tar.gz --markdown 20230627/d/dissect.hypervisor/3.8.dev1-3.8.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect.thumbcache]: executing diffoscope
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect.thumbcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.thumbcache-1.5.dev1.tar.gz tmp/dissect.thumbcache-1.5.dev2.tar.gz --markdown 20230627/d/dissect.thumbcache/1.5.dev1-1.5.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect.fat]: Downloading https://files.pythonhosted.org/packages/f7/3c/7eb7be9d703f397aaa54a4f3892405c0c9cd5be424d2404d47fd497c83d5/dissect.fat-3.6.dev1.tar.gz
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect.fat]: Downloading https://files.pythonhosted.org/packages/ec/a5/731da985605c00f7924ab132df0647588477ba38e7c6e657857588b2dc60/dissect.fat-3.6.dev2.tar.gz
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect]: Remove: archive file [/home/abi/fetcher/tmp/dissect-3.7.dev1.tar.gz]
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect]: Remove: archive file [/home/abi/fetcher/tmp/dissect-3.7.dev2.tar.gz]
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect]: Start processing: quan-chem-kit
+[2023-06-27 09:57:28] INFO root fetch - main [MainThread]: End processing [dissect]: success
+[2023-06-27 09:57:28] WARNING root fetch - processPackages [quan-chem-kit]: Skipping, unable to determine old version
+[2023-06-27 09:57:28] INFO root fetch - processPackages [quan-chem-kit]: Start processing: aniya
+[2023-06-27 09:57:28] INFO root fetch - main [MainThread]: End processing [quan-chem-kit] error
+[2023-06-27 09:57:28] WARNING root fetch - processPackages [aniya]: Skipping, unable to determine old version
+[2023-06-27 09:57:28] INFO root fetch - processPackages [aniya]: Start processing: dissect.squashfs
+[2023-06-27 09:57:28] INFO root fetch - main [MainThread]: End processing [aniya] error
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect.fat]: executing diffoscope
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect.fat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.fat-3.6.dev1.tar.gz tmp/dissect.fat-3.6.dev2.tar.gz --markdown 20230627/d/dissect.fat/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect.squashfs]: New version: [1.3.dev3] Old Version: [1.3.dev2]
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-2.4.0-py3-none-any.whl.zip]
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-2.5.0-py3-none-any.whl.zip]
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dopplrSDK]: Start processing: dissect.xfs
+[2023-06-27 09:57:28] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect.xfs]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect.squashfs]: Downloading https://files.pythonhosted.org/packages/83/c6/e2636b11f14d063b271cc99d0334ed2f5587d7cb71a796d2ac06295730a6/dissect.squashfs-1.3.dev2.tar.gz
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect.xfs]: Downloading https://files.pythonhosted.org/packages/24/93/32380fd34c56613bc74a5415eba6bfeada0b7f95a48961d6ae1593ff7de6/dissect.xfs-3.6.dev1.tar.gz
+[2023-06-27 09:57:28] INFO root fetch - processPackages [dissect.extfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.extfs-3.6.dev1.tar.gz]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.extfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.extfs-3.6.dev2.tar.gz]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.extfs]: Start processing: dissect.volume
+[2023-06-27 09:57:29] INFO root fetch - main [MainThread]: End processing [dissect.extfs]: success
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.volume]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.shellitem]: Remove: archive file [/home/abi/fetcher/tmp/dissect.shellitem-3.6.dev1.tar.gz]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.shellitem]: Remove: archive file [/home/abi/fetcher/tmp/dissect.shellitem-3.6.dev2.tar.gz]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.shellitem]: Start processing: resqpy
+[2023-06-27 09:57:29] INFO root fetch - main [MainThread]: End processing [dissect.shellitem]: success
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.squashfs]: Downloading https://files.pythonhosted.org/packages/c9/e0/336eb5dde93a2c976f02a875968352e98ac1c8c9556c6a979f87e3baae62/dissect.squashfs-1.3.dev3.tar.gz
+[2023-06-27 09:57:29] INFO root fetch - processPackages [resqpy]: New version: [4.8.9] Old Version: [4.8.8]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.volume]: Downloading https://files.pythonhosted.org/packages/a1/d6/ed4e78bd6cd86bd8d8afeafc2c0c617b84c4f8f3b1bf0ee276a74fe6c717/dissect.volume-3.6.dev1.tar.gz
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.xfs]: Downloading https://files.pythonhosted.org/packages/ee/7c/7d837f281a158cc9cbf46f0a179a6433157982c2566197a6a0b162fcf4b3/dissect.xfs-3.6.dev2.tar.gz
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.squashfs]: executing diffoscope
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.squashfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.squashfs-1.3.dev2.tar.gz tmp/dissect.squashfs-1.3.dev3.tar.gz --markdown 20230627/d/dissect.squashfs/1.3.dev2-1.3.dev3/diff.md --exclude *.pyd
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.regf]: Remove: archive file [/home/abi/fetcher/tmp/dissect.regf-3.6.dev1.tar.gz]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.regf]: Remove: archive file [/home/abi/fetcher/tmp/dissect.regf-3.6.dev2.tar.gz]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.regf]: Start processing: dissect.sql
+[2023-06-27 09:57:29] INFO root fetch - main [MainThread]: End processing [dissect.regf]: success
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.sql]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.xfs]: executing diffoscope
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.xfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.xfs-3.6.dev1.tar.gz tmp/dissect.xfs-3.6.dev2.tar.gz --markdown 20230627/d/dissect.xfs/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:29] INFO root fetch - processPackages [resqpy]: Downloading https://files.pythonhosted.org/packages/f7/b8/33ba2c1f081d4b93ca73505e9ec3fea03b62adfe83b05eb38d61216cfde7/resqpy-4.8.8.tar.gz
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.volume]: Downloading https://files.pythonhosted.org/packages/16/05/5e15c2c09c6bc6e913e4ee02b81d8ae9d7d3fd96cf40c11f4498e4f7e4ba/dissect.volume-3.6.dev2.tar.gz
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.sql]: Downloading https://files.pythonhosted.org/packages/14/52/9d278c65be0b3f919053de6cbefdc1e30888775b13484b2a7ca8d43f809c/dissect.sql-3.6.dev1.tar.gz
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.volume]: executing diffoscope
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.volume-3.6.dev1.tar.gz tmp/dissect.volume-3.6.dev2.tar.gz --markdown 20230627/d/dissect.volume/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.eventlog]: Remove: archive file [/home/abi/fetcher/tmp/dissect.eventlog-3.6.dev1.tar.gz]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.eventlog]: Remove: archive file [/home/abi/fetcher/tmp/dissect.eventlog-3.6.dev2.tar.gz]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.eventlog]: Start processing: dissect.vmfs
+[2023-06-27 09:57:29] INFO root fetch - main [MainThread]: End processing [dissect.eventlog]: success
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.vmfs]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [resqpy]: Downloading https://files.pythonhosted.org/packages/51/44/15eba2c3d8db1d363c3f3f798ad17e3816f01c8b81a44f4ed5577d39f9db/resqpy-4.8.9.tar.gz
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.hypervisor]: Remove: archive file [/home/abi/fetcher/tmp/dissect.hypervisor-3.8.dev1.tar.gz]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.hypervisor]: Remove: archive file [/home/abi/fetcher/tmp/dissect.hypervisor-3.8.dev2.tar.gz]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.hypervisor]: Start processing: TMDBTraktSyncer
+[2023-06-27 09:57:29] INFO root fetch - main [MainThread]: End processing [dissect.hypervisor]: success
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.sql]: Downloading https://files.pythonhosted.org/packages/2e/11/cdd8b7661daef4591be535d495bb06645476b49197e8bf5a558e6a21fe19/dissect.sql-3.6.dev2.tar.gz
+[2023-06-27 09:57:29] INFO root fetch - processPackages [TMDBTraktSyncer]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.sql]: executing diffoscope
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.sql-3.6.dev1.tar.gz tmp/dissect.sql-3.6.dev2.tar.gz --markdown 20230627/d/dissect.sql/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:29] INFO root fetch - processPackages [dissect.vmfs]: Downloading https://files.pythonhosted.org/packages/ca/00/8d1cbad6768cbc93a01aa04c89258e3e1ce77f44af1332e84fa8c848a8eb/dissect.vmfs-3.6.dev1.tar.gz
+[2023-06-27 09:57:29] INFO root fetch - processPackages [resqpy]: executing diffoscope
+[2023-06-27 09:57:29] INFO root fetch - processPackages [resqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resqpy-4.8.8.tar.gz tmp/resqpy-4.8.9.tar.gz --markdown 20230627/r/resqpy/4.8.8-4.8.9/diff.md --exclude *.pyd
+[2023-06-27 09:57:30] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/59/31/1160a33828b69761a921281a148757abe4d52e390ab4c261131e1d6116e5/TMDBTraktSyncer-1.3.0.tar.gz
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.vmfs]: Downloading https://files.pythonhosted.org/packages/a8/68/1dd137f61fe35c91ef5c888ff007300aa0493d8b962b993557ae347a81a3/dissect.vmfs-3.6.dev2.tar.gz
+[2023-06-27 09:57:30] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/a6/32/9e72b66c2924b5c23770457e9c326913504f41f76508f560590cf7e77b86/TMDBTraktSyncer-1.4.0.tar.gz
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.vmfs]: executing diffoscope
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.vmfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.vmfs-3.6.dev1.tar.gz tmp/dissect.vmfs-3.6.dev2.tar.gz --markdown 20230627/d/dissect.vmfs/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:30] INFO root fetch - processPackages [TMDBTraktSyncer]: executing diffoscope
+[2023-06-27 09:57:30] INFO root fetch - processPackages [TMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMDBTraktSyncer-1.3.0.tar.gz tmp/TMDBTraktSyncer-1.4.0.tar.gz --markdown 20230627/T/TMDBTraktSyncer/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.squashfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.squashfs-1.3.dev2.tar.gz]
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.squashfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.squashfs-1.3.dev3.tar.gz]
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.squashfs]: Start processing: ggvlib
+[2023-06-27 09:57:30] INFO root fetch - main [MainThread]: End processing [dissect.squashfs]: success
+[2023-06-27 09:57:30] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.thumbcache]: Remove: archive file [/home/abi/fetcher/tmp/dissect.thumbcache-1.5.dev1.tar.gz]
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.thumbcache]: Remove: archive file [/home/abi/fetcher/tmp/dissect.thumbcache-1.5.dev2.tar.gz]
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.thumbcache]: Start processing: flow.record
+[2023-06-27 09:57:30] INFO root fetch - main [MainThread]: End processing [dissect.thumbcache]: success
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.xfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.xfs-3.6.dev1.tar.gz]
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.xfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.xfs-3.6.dev2.tar.gz]
+[2023-06-27 09:57:30] INFO root fetch - processPackages [dissect.xfs]: Start processing: taipy-gui
+[2023-06-27 09:57:30] INFO root fetch - main [MainThread]: End processing [dissect.xfs]: success
+[2023-06-27 09:57:30] INFO root fetch - processPackages [flow.record]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-06-27 09:57:30] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/c8/a4/76d1f8bec5b3584ef0e86ce8e53ab63916ffc36fcb0d2d8b4f0d337700c3/ggvlib-0.2.8.tar.gz
+[2023-06-27 09:57:30] INFO root fetch - processPackages [taipy-gui]: New version: [3.0.0.dev0] Old Version: [2.3.1]
+[2023-06-27 09:57:31] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/75/19/1306d119288eee0f03bcde22f90321fae93a0643985eeed93f8d48db6422/taipy-gui-2.3.1.tar.gz
+[2023-06-27 09:57:31] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/34/94/a276f716d8fabdf90cef3cc2a1fccf75e3e71e43c098bb84478fc31b0ff6/ggvlib-0.2.9.tar.gz
+[2023-06-27 09:57:31] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/eb/f7/743164d5e05ae865e54dab364d8f3f0a512e9cd3b5472ed910e78318fea7/flow.record-3.9.dev8-py3-none-any.whl
+[2023-06-27 09:57:31] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2023-06-27 09:57:31] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20230627/g/ggvlib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 09:57:31] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/4f/2d/30bc3b1c66159755e0721df60dc111f297c572ee4aa09b0d21b4e08b041c/taipy-gui-3.0.0.dev0.tar.gz
+[2023-06-27 09:57:31] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/b6/a4/d70ac03ec18bd7f7765a7f6f716e621cc5c9c74458d5c9782d2a357a0429/flow.record-3.9.dev9-py3-none-any.whl
+[2023-06-27 09:57:31] INFO root fetch - processPackages [dissect.vmfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.vmfs-3.6.dev1.tar.gz]
+[2023-06-27 09:57:31] INFO root fetch - processPackages [dissect.vmfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.vmfs-3.6.dev2.tar.gz]
+[2023-06-27 09:57:31] INFO root fetch - processPackages [dissect.vmfs]: Start processing: pybeamline
+[2023-06-27 09:57:31] INFO root fetch - main [MainThread]: End processing [dissect.vmfs]: success
+[2023-06-27 09:57:31] INFO root fetch - processPackages [flow.record]: executing diffoscope
+[2023-06-27 09:57:31] INFO root fetch - processPackages [flow.record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow.record-3.9.dev8-py3-none-any.whl.zip tmp/flow.record-3.9.dev9-py3-none-any.whl.zip --markdown 20230627/f/flow.record/3.9.dev8-3.9.dev9/diff.md --exclude *.pyd
+[2023-06-27 09:57:31] INFO root fetch - processPackages [TMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/TMDBTraktSyncer-1.3.0.tar.gz]
+[2023-06-27 09:57:31] INFO root fetch - processPackages [TMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/TMDBTraktSyncer-1.4.0.tar.gz]
+[2023-06-27 09:57:31] INFO root fetch - processPackages [TMDBTraktSyncer]: Start processing: whoisdomain
+[2023-06-27 09:57:31] INFO root fetch - main [MainThread]: End processing [TMDBTraktSyncer]: success
+[2023-06-27 09:57:31] INFO root fetch - processPackages [pybeamline]: New version: [1.0.3] Old Version: [0.0.3]
+[2023-06-27 09:57:31] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230627.2] Old Version: [1.20230525.9]
+[2023-06-27 09:57:31] INFO root fetch - processPackages [taipy-gui]: executing diffoscope
+[2023-06-27 09:57:31] INFO root fetch - processPackages [taipy-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-gui-2.3.1.tar.gz tmp/taipy-gui-3.0.0.dev0.tar.gz --markdown 20230627/t/taipy-gui/2.3.1-3.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-27 09:57:31] INFO root fetch - processPackages [dissect.sql]: Remove: archive file [/home/abi/fetcher/tmp/dissect.sql-3.6.dev1.tar.gz]
+[2023-06-27 09:57:31] INFO root fetch - processPackages [dissect.sql]: Remove: archive file [/home/abi/fetcher/tmp/dissect.sql-3.6.dev2.tar.gz]
+[2023-06-27 09:57:31] INFO root fetch - processPackages [dissect.sql]: Start processing: dissect.ntfs
+[2023-06-27 09:57:31] INFO root fetch - main [MainThread]: End processing [dissect.sql]: success
+[2023-06-27 09:57:31] INFO root fetch - processPackages [dissect.ntfs]: New version: [3.6.dev4] Old Version: [3.6.dev2]
+[2023-06-27 09:57:31] INFO root fetch - processPackages [pybeamline]: Downloading https://files.pythonhosted.org/packages/52/43/082a931c1ae8314a94dfce551e4d417d2d2b0b4005642ae5f4a12e1b333f/pybeamline-0.0.3.tar.gz
+[2023-06-27 09:57:31] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/ef/ef/287e0bfe0c74574fc54ed41650b10b6596d5ada1336e0594ed6ebff9602d/whoisdomain-1.20230525.9.tar.gz
+[2023-06-27 09:57:32] INFO root fetch - processPackages [pybeamline]: Downloading https://files.pythonhosted.org/packages/fa/d4/dfc055a54d04de9d702a6ac687146e829306091b1ebcfec77ccc89a0027f/pybeamline-1.0.3.tar.gz
+[2023-06-27 09:57:32] INFO root fetch - processPackages [dissect.ntfs]: Downloading https://files.pythonhosted.org/packages/4a/62/53d4522f3ce13fe328982ce5af2f137aecbe1ff15ce6ca78cb52e7891b2e/dissect.ntfs-3.6.dev2.tar.gz
+[2023-06-27 09:57:32] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/f2/5b/9051d6cb4fc48b5ea56cd258be132905f4df239169d323a4576ab85dd87f/whoisdomain-1.20230627.2.tar.gz
+[2023-06-27 09:57:32] INFO root fetch - processPackages [pybeamline]: executing diffoscope
+[2023-06-27 09:57:32] INFO root fetch - processPackages [pybeamline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybeamline-0.0.3.tar.gz tmp/pybeamline-1.0.3.tar.gz --markdown 20230627/p/pybeamline/0.0.3-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 09:57:32] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-06-27 09:57:32] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230525.9.tar.gz tmp/whoisdomain-1.20230627.2.tar.gz --markdown 20230627/w/whoisdomain/1.20230525.9-1.20230627.2/diff.md --exclude *.pyd
+[2023-06-27 09:57:32] INFO root fetch - processPackages [dissect.ntfs]: Downloading https://files.pythonhosted.org/packages/a1/cf/9e2a969403d114cbc31f20d31c3d5e6e8ce9c2de32d4ef051ebac45c0dbc/dissect.ntfs-3.6.dev4.tar.gz
+[2023-06-27 09:57:32] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.8.tar.gz]
+[2023-06-27 09:57:32] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.9.tar.gz]
+[2023-06-27 09:57:32] INFO root fetch - processPackages [ggvlib]: Start processing: cvxpy
+[2023-06-27 09:57:32] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2023-06-27 09:57:32] INFO root fetch - processPackages [dissect.ntfs]: executing diffoscope
+[2023-06-27 09:57:32] INFO root fetch - processPackages [dissect.ntfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.ntfs-3.6.dev2.tar.gz tmp/dissect.ntfs-3.6.dev4.tar.gz --markdown 20230627/d/dissect.ntfs/3.6.dev2-3.6.dev4/diff.md --exclude *.pyd
+[2023-06-27 09:57:32] INFO root fetch - processPackages [cvxpy]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-27 09:57:32] INFO root fetch - processPackages [cvxpy]: Downloading https://files.pythonhosted.org/packages/11/c5/ea7524f47627452d0be21e6869d1a27d3acc11249c40b5e94aeffe8790a4/cvxpy-1.3.1.tar.gz
+[2023-06-27 09:57:33] INFO root fetch - processPackages [dissect.volume]: Remove: archive file [/home/abi/fetcher/tmp/dissect.volume-3.6.dev1.tar.gz]
+[2023-06-27 09:57:33] INFO root fetch - processPackages [dissect.volume]: Remove: archive file [/home/abi/fetcher/tmp/dissect.volume-3.6.dev2.tar.gz]
+[2023-06-27 09:57:33] INFO root fetch - processPackages [dissect.volume]: Start processing: AnyRobot
+[2023-06-27 09:57:33] INFO root fetch - main [MainThread]: End processing [dissect.volume]: success
+[2023-06-27 09:57:33] INFO root fetch - processPackages [AnyRobot]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-27 09:57:33] INFO root fetch - processPackages [resqpy]: Remove: archive file [/home/abi/fetcher/tmp/resqpy-4.8.8.tar.gz]
+[2023-06-27 09:57:33] INFO root fetch - processPackages [resqpy]: Remove: archive file [/home/abi/fetcher/tmp/resqpy-4.8.9.tar.gz]
+[2023-06-27 09:57:33] INFO root fetch - processPackages [resqpy]: Start processing: scrapingapi
+[2023-06-27 09:57:33] INFO root fetch - main [MainThread]: End processing [resqpy]: success
+[2023-06-27 09:57:33] WARNING root fetch - processPackages [scrapingapi]: Skipping, unable to determine old version
+[2023-06-27 09:57:33] INFO root fetch - processPackages [scrapingapi]: Start processing: qqwry-linux-python3
+[2023-06-27 09:57:33] INFO root fetch - main [MainThread]: End processing [scrapingapi] error
+[2023-06-27 09:57:33] INFO root fetch - processPackages [qqwry-linux-python3]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-27 09:57:33] INFO root fetch - processPackages [cvxpy]: Downloading https://files.pythonhosted.org/packages/05/ba/c59c1c519c80ff3824465b5ea62b8bf5fd68ae7099e972f898b0bfcfd309/cvxpy-1.3.2-cp39-cp39-win_amd64.whl
+[2023-06-27 09:57:33] INFO root fetch - processPackages [qqwry-linux-python3]: Downloading https://files.pythonhosted.org/packages/78/1f/eeb63592d7fea71009973491bc095846ce6c3230ce3c10c94224b1e60d19/qqwry-linux-python3-0.0.4.tar.gz
+[2023-06-27 09:57:33] INFO root fetch - processPackages [AnyRobot]: Downloading https://files.pythonhosted.org/packages/ac/1e/33332d42fda9cb4001a454a780c110986dc0f2a10eab6db2d4d348694380/AnyRobot-1.5.2.tar.gz
+[2023-06-27 09:57:33] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev8-py3-none-any.whl.zip]
+[2023-06-27 09:57:33] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev9-py3-none-any.whl.zip]
+[2023-06-27 09:57:33] INFO root fetch - processPackages [flow.record]: Start processing: always-updates
+[2023-06-27 09:57:33] INFO root fetch - main [MainThread]: End processing [flow.record]: success
+[2023-06-27 09:57:33] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-27 09:57:33] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-27 09:57:33] INFO root fetch - processPackages [qqwry-linux-python3]: Downloading https://files.pythonhosted.org/packages/1f/8a/b4947635a20d022c41c8069d87c8017a93bd3b03414b51671805aef0dc6c/qqwry-linux-python3-0.0.5.tar.gz
+[2023-06-27 09:57:33] INFO root fetch - processPackages [cvxpy]: executing diffoscope
+[2023-06-27 09:57:33] INFO root fetch - processPackages [cvxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxpy-1.3.1.tar.gz tmp/cvxpy-1.3.2-cp39-cp39-win_amd64.whl.zip --markdown 20230627/c/cvxpy/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-27 09:57:33] INFO root fetch - processPackages [AnyRobot]: Downloading https://files.pythonhosted.org/packages/a8/c9/4ed8a4c09f24c9b3eb457dcb2deb27c219169af38bf51114f6c00687c365/AnyRobot-1.5.3.tar.gz
+[2023-06-27 09:57:33] INFO root fetch - processPackages [AnyRobot]: executing diffoscope
+[2023-06-27 09:57:33] INFO root fetch - processPackages [AnyRobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnyRobot-1.5.2.tar.gz tmp/AnyRobot-1.5.3.tar.gz --markdown 20230627/A/AnyRobot/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-27 09:57:33] INFO root fetch - processPackages [qqwry-linux-python3]: executing diffoscope
+[2023-06-27 09:57:33] INFO root fetch - processPackages [qqwry-linux-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qqwry-linux-python3-0.0.4.tar.gz tmp/qqwry-linux-python3-0.0.5.tar.gz --markdown 20230627/q/qqwry-linux-python3/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-27 09:57:33] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-27 09:57:33] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-27 09:57:33] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230627/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-27 09:57:34] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230525.9.tar.gz]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230627.2.tar.gz]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [whoisdomain]: Start processing: pywa
+[2023-06-27 09:57:34] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-06-27 09:57:34] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [pybeamline]: Remove: archive file [/home/abi/fetcher/tmp/pybeamline-0.0.3.tar.gz]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [pybeamline]: Remove: archive file [/home/abi/fetcher/tmp/pybeamline-1.0.3.tar.gz]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [pybeamline]: Start processing: always-updates
+[2023-06-27 09:57:34] INFO root fetch - main [MainThread]: End processing [pybeamline]: success
+[2023-06-27 09:57:34] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/fe/18/05f47d05b412ceef8c09aee81b862950c5988ba33fb3408193db56f323fd/pywa-0.0.1rc8-py3-none-any.whl
+[2023-06-27 09:57:34] INFO root fetch - processPackages [dissect.ntfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ntfs-3.6.dev2.tar.gz]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [dissect.ntfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ntfs-3.6.dev4.tar.gz]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [dissect.ntfs]: Start processing: scHPL
+[2023-06-27 09:57:34] INFO root fetch - main [MainThread]: End processing [dissect.ntfs]: success
+[2023-06-27 09:57:34] INFO root fetch - processPackages [scHPL]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/c6/df/1f150bfe016b5e71d7222e4a91c185c455b40d8965e9ac10b73d5909e5f5/pywa-0.0.1rc9-py3-none-any.whl
+[2023-06-27 09:57:34] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-27 09:57:34] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230627/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-27 09:57:34] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-06-27 09:57:34] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc8-py3-none-any.whl.zip tmp/pywa-0.0.1rc9-py3-none-any.whl.zip --markdown 20230627/p/pywa/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-06-27 09:57:34] INFO root fetch - processPackages [scHPL]: Downloading https://files.pythonhosted.org/packages/96/de/9966e26632533379dc305a02b1fb7d2f2cf5e458e2e9a0b024e4ea953208/scHPL-1.0.2.tar.gz
+[2023-06-27 09:57:34] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-2.3.1.tar.gz]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-3.0.0.dev0.tar.gz]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [taipy-gui]: Start processing: BibSane
+[2023-06-27 09:57:34] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
+[2023-06-27 09:57:34] INFO root fetch - processPackages [scHPL]: Downloading https://files.pythonhosted.org/packages/ea/37/64b77627f9efaa2319dff87d544742bef596b1dc7a24f0b08d7bb751d6f2/scHPL-1.0.3.tar.gz
+[2023-06-27 09:57:34] INFO root fetch - processPackages [BibSane]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 09:57:34] INFO root fetch - processPackages [scHPL]: executing diffoscope
+[2023-06-27 09:57:34] INFO root fetch - processPackages [scHPL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scHPL-1.0.2.tar.gz tmp/scHPL-1.0.3.tar.gz --markdown 20230627/s/scHPL/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-27 09:57:35] INFO root fetch - processPackages [BibSane]: Downloading https://files.pythonhosted.org/packages/23/52/25e704ee09d28db33440f48eed00f6cdc465b67ccf955774da451307e1da/BibSane-0.1.2.tar.gz
+[2023-06-27 09:57:35] INFO root fetch - processPackages [qqwry-linux-python3]: Remove: archive file [/home/abi/fetcher/tmp/qqwry-linux-python3-0.0.4.tar.gz]
+[2023-06-27 09:57:35] INFO root fetch - processPackages [qqwry-linux-python3]: Remove: archive file [/home/abi/fetcher/tmp/qqwry-linux-python3-0.0.5.tar.gz]
+[2023-06-27 09:57:35] INFO root fetch - processPackages [qqwry-linux-python3]: Start processing: rustlite
+[2023-06-27 09:57:35] INFO root fetch - main [MainThread]: End processing [qqwry-linux-python3]: success
+[2023-06-27 09:57:35] INFO root fetch - processPackages [AnyRobot]: Remove: archive file [/home/abi/fetcher/tmp/AnyRobot-1.5.2.tar.gz]
+[2023-06-27 09:57:35] INFO root fetch - processPackages [AnyRobot]: Remove: archive file [/home/abi/fetcher/tmp/AnyRobot-1.5.3.tar.gz]
+[2023-06-27 09:57:35] INFO root fetch - processPackages [AnyRobot]: Start processing: dissect.esedb
+[2023-06-27 09:57:35] INFO root fetch - main [MainThread]: End processing [AnyRobot]: success
+[2023-06-27 09:57:35] WARNING root fetch - processPackages [rustlite]: Skipping, unable to determine old version
+[2023-06-27 09:57:35] INFO root fetch - main [MainThread]: End processing [rustlite] error
+[2023-06-27 09:57:35] INFO root fetch - processPackages [dissect.esedb]: New version: [3.8.dev2] Old Version: [3.8.dev1]
+[2023-06-27 09:57:35] INFO root fetch - processPackages [dissect.fat]: Remove: archive file [/home/abi/fetcher/tmp/dissect.fat-3.6.dev1.tar.gz]
+[2023-06-27 09:57:35] INFO root fetch - processPackages [dissect.fat]: Remove: archive file [/home/abi/fetcher/tmp/dissect.fat-3.6.dev2.tar.gz]
+[2023-06-27 09:57:35] INFO root fetch - main [MainThread]: End processing [dissect.fat]: success
+[2023-06-27 09:57:35] INFO root fetch - processPackages [BibSane]: Downloading https://files.pythonhosted.org/packages/87/ec/5acfd6285c97540646c023ee051bce67fff963fcbc0ef9c7d74e204e374f/BibSane-0.1.3.tar.gz
+[2023-06-27 09:57:35] INFO root fetch - processPackages [BibSane]: executing diffoscope
+[2023-06-27 09:57:35] INFO root fetch - processPackages [BibSane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BibSane-0.1.2.tar.gz tmp/BibSane-0.1.3.tar.gz --markdown 20230627/B/BibSane/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 09:57:35] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-27 09:57:35] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-27 09:57:35] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-27 09:57:35] INFO root fetch - processPackages [dissect.esedb]: Downloading https://files.pythonhosted.org/packages/5c/b6/7d88db69fa67ea46f3082919414768ed6077ecce7cb7b0afb4ed6f99823d/dissect.esedb-3.8.dev1.tar.gz
+[2023-06-27 09:57:35] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-27 09:57:35] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc8-py3-none-any.whl.zip]
+[2023-06-27 09:57:35] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc9-py3-none-any.whl.zip]
+[2023-06-27 09:57:35] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-06-27 09:57:35] INFO root fetch - processPackages [cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy-1.3.1.tar.gz]
+[2023-06-27 09:57:35] INFO root fetch - processPackages [cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy-1.3.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 09:57:35] INFO root fetch - main [MainThread]: End processing [cvxpy]: success
+[2023-06-27 09:57:36] INFO root fetch - processPackages [dissect.esedb]: Downloading https://files.pythonhosted.org/packages/08/bc/a14d191c394d380c1e1f3969d290b5dd9eb660d8d1406248187a9c4b2251/dissect.esedb-3.8.dev2.tar.gz
+[2023-06-27 09:57:36] INFO root fetch - processPackages [scHPL]: Remove: archive file [/home/abi/fetcher/tmp/scHPL-1.0.2.tar.gz]
+[2023-06-27 09:57:36] INFO root fetch - processPackages [scHPL]: Remove: archive file [/home/abi/fetcher/tmp/scHPL-1.0.3.tar.gz]
+[2023-06-27 09:57:36] INFO root fetch - main [MainThread]: End processing [scHPL]: success
+[2023-06-27 09:57:36] INFO root fetch - processPackages [dissect.esedb]: executing diffoscope
+[2023-06-27 09:57:36] INFO root fetch - processPackages [dissect.esedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.esedb-3.8.dev1.tar.gz tmp/dissect.esedb-3.8.dev2.tar.gz --markdown 20230627/d/dissect.esedb/3.8.dev1-3.8.dev2/diff.md --exclude *.pyd
+[2023-06-27 09:57:36] INFO root fetch - processPackages [BibSane]: Remove: archive file [/home/abi/fetcher/tmp/BibSane-0.1.2.tar.gz]
+[2023-06-27 09:57:36] INFO root fetch - processPackages [BibSane]: Remove: archive file [/home/abi/fetcher/tmp/BibSane-0.1.3.tar.gz]
+[2023-06-27 09:57:36] INFO root fetch - main [MainThread]: End processing [BibSane]: success
+[2023-06-27 09:57:37] INFO root fetch - processPackages [dissect.esedb]: Remove: archive file [/home/abi/fetcher/tmp/dissect.esedb-3.8.dev1.tar.gz]
+[2023-06-27 09:57:37] INFO root fetch - processPackages [dissect.esedb]: Remove: archive file [/home/abi/fetcher/tmp/dissect.esedb-3.8.dev2.tar.gz]
+[2023-06-27 09:57:37] INFO root fetch - main [MainThread]: End processing [dissect.esedb]: success
+[2023-06-27 09:57:54] INFO root fetch - processPackages [dissect.etl]: Remove: archive file [/home/abi/fetcher/tmp/dissect.etl-3.6.dev1.tar.gz]
+[2023-06-27 09:57:54] INFO root fetch - processPackages [dissect.etl]: Remove: archive file [/home/abi/fetcher/tmp/dissect.etl-3.6.dev2.tar.gz]
+[2023-06-27 09:57:54] INFO root fetch - main [MainThread]: End processing [dissect.etl]: success
+[2023-06-27 09:57:54] INFO root fetch - main [MainThread]: Store serial: [18659453]
