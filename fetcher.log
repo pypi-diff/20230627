@@ -12763,3 +12763,133 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 07:12:26] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-27 07:12:26] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-27 07:12:26] INFO root fetch - main [MainThread]: Store serial: [18658253]
+[2023-06-27 07:17:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18658253]
+[2023-06-27 07:17:35] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-27 07:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aicodebot
+[2023-06-27 07:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fandango
+[2023-06-27 07:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ahoy-dtu-webthing
+[2023-06-27 07:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-runtime-nightly
+[2023-06-27 07:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aranet4
+[2023-06-27 07:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: panic
+[2023-06-27 07:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: databricks-session
+[2023-06-27 07:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-sale-order-product-assortment
+[2023-06-27 07:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-sale-automatic-workflow
+[2023-06-27 07:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tabulation
+[2023-06-27 07:17:35] INFO root fetch - processPackages [fandango]: New version: [15.6.7] Old Version: [15.6.4]
+[2023-06-27 07:17:35] INFO root fetch - processPackages [aicodebot]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-27 07:17:35] INFO root fetch - processPackages [panic]: New version: [9.2.1] Old Version: [9.1.4]
+[2023-06-27 07:17:35] INFO root fetch - processPackages [ahoy-dtu-webthing]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-27 07:17:35] INFO root fetch - processPackages [aranet4]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-27 07:17:35] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: New version: [15.0.2.0.0.1] Old Version: [15.0.2.0.0]
+[2023-06-27 07:17:35] INFO root fetch - processPackages [databricks-session]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 07:17:35] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: New version: [14.0.1.3.5.dev1] Old Version: [14.0.1.3.4.dev6]
+[2023-06-27 07:17:35] WARNING root fetch - processPackages [tabulation]: Skipping, unable to determine old version
+[2023-06-27 07:17:35] INFO root fetch - processPackages [tabulation]: Start processing: odoo-addon-sale-order-general-discount-triple
+[2023-06-27 07:17:35] INFO root fetch - main [MainThread]: End processing [tabulation] error
+[2023-06-27 07:17:35] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: Downloading https://files.pythonhosted.org/packages/be/1d/f446daa58307b68bc86ea9eb93ff12f0a058e4ecf771d44dea00bdf0365e/odoo_addon_sale_order_product_assortment-15.0.2.0.0-py3-none-any.whl
+[2023-06-27 07:17:35] INFO root fetch - processPackages [fandango]: Downloading https://files.pythonhosted.org/packages/9c/cc/3a718a3c2463250c6e486f1abe872eae3f11b7e9ec0f655ee15c9358c4a7/fandango-15.6.4.tar.gz
+[2023-06-27 07:17:35] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/ad/92/28fe5983d885e9a8a9756964f554206ceb0fb9ee3fd376b103e54f626db5/aicodebot-0.5.1.tar.gz
+[2023-06-27 07:17:35] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount-triple]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-27 07:17:35] INFO root fetch - processPackages [aranet4]: Downloading https://files.pythonhosted.org/packages/69/4b/483b9c67fbeb22a6fd7ffdd82271b313e4998891f54092356891aa5dfe4a/aranet4-2.2.0.tar.gz
+[2023-06-27 07:17:35] INFO root fetch - processPackages [panic]: Downloading https://files.pythonhosted.org/packages/9e/77/4cb6dd2b4ac23ef64e47cf954f650925c757ca6b7e074dcdfef7151d645a/panic-9.1.4.tar.gz
+[2023-06-27 07:17:36] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230626] Old Version: [2.14.0.dev20230625]
+[2023-06-27 07:17:36] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/e4/a1/1ce90c7d0d630840375087a1de3a56177f601de7864488884b82ad6e81e6/ahoy_dtu_webthing-0.1.4.tar.gz
+[2023-06-27 07:17:36] INFO root fetch - processPackages [databricks-session]: Downloading https://files.pythonhosted.org/packages/ec/a5/5ebc4085e3f99b13a4091619c29d6d4aa071f07f92719c3b1b6511826c38/databricks_session-0.1.8.tar.gz
+[2023-06-27 07:17:36] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/f4/e5/086736b6d2f34dd52dbd279474b598c2469b5415e35abf4629c4a60fab80/odoo14_addon_sale_automatic_workflow-14.0.1.3.4.dev6-py3-none-any.whl
+[2023-06-27 07:17:36] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/0d/0e/65319b0e151cc6129e005b1269ff0103ab9ce80197e265b8d0c8bc656616/tflite_runtime_nightly-2.14.0.dev20230625-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-27 07:17:36] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount-triple]: Downloading https://files.pythonhosted.org/packages/f4/4c/167d70956f8cdf84d9d35b2370456a5e900eddee3e8d4984473dc680ec91/odoo_addon_sale_order_general_discount_triple-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-27 07:17:36] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: Downloading https://files.pythonhosted.org/packages/f2/45/733dd9b880ee546ac6414c011a79e954c5bc1207eeabd01864cc305df4d5/odoo_addon_sale_order_product_assortment-15.0.2.0.0.1-py3-none-any.whl
+[2023-06-27 07:17:36] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/3f/91/78d75ca50f4ead4f3bddb096920414a3fded72a2091db2c4d363466b236e/aicodebot-0.5.2.tar.gz
+[2023-06-27 07:17:36] INFO root fetch - processPackages [panic]: Downloading https://files.pythonhosted.org/packages/ca/c7/12e9a1721cf9f6496591ae6b1e3dc1bf2753128eb54e2e69f73261192353/panic-9.2.1.tar.gz
+[2023-06-27 07:17:36] INFO root fetch - processPackages [aranet4]: Downloading https://files.pythonhosted.org/packages/8c/57/c5b1a55155cf30853cc552332940d48a5770faa785c608afa776420e8557/aranet4-2.2.1.tar.gz
+[2023-06-27 07:17:36] INFO root fetch - processPackages [databricks-session]: Downloading https://files.pythonhosted.org/packages/b8/2a/39a73d94defb36ca11f883565f4fa4160b84e6a3bbb8032303048a17abf9/databricks_session-0.1.9.tar.gz
+[2023-06-27 07:17:36] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: executing diffoscope
+[2023-06-27 07:17:36] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_product_assortment-15.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_sale_order_product_assortment-15.0.2.0.0.1-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-sale-order-product-assortment/15.0.2.0.0-15.0.2.0.0.1/diff.md --exclude *.pyd
+[2023-06-27 07:17:36] INFO root fetch - processPackages [fandango]: Downloading https://files.pythonhosted.org/packages/65/c2/53ca47bd300b2d51a74c993ad42b61be978a75dfa2ca19e5005c0eed24e3/fandango-15.6.7.tar.gz
+[2023-06-27 07:17:36] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/5f/11/e9137adbffe8dc2ee353b9056785df5c4856aa2183a757a2ebebf18d3fa3/ahoy_dtu_webthing-0.1.5.tar.gz
+[2023-06-27 07:17:36] INFO root fetch - processPackages [panic]: executing diffoscope
+[2023-06-27 07:17:36] INFO root fetch - processPackages [panic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panic-9.1.4.tar.gz tmp/panic-9.2.1.tar.gz --markdown 20230627/p/panic/9.1.4-9.2.1/diff.md --exclude *.pyd
+[2023-06-27 07:17:36] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/65/2f/b56279101f51e33a9f6a3271e95be1485a574f7384ba230c5096bd549eed/odoo14_addon_sale_automatic_workflow-14.0.1.3.5.dev1-py3-none-any.whl
+[2023-06-27 07:17:36] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-06-27 07:17:36] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.5.1.tar.gz tmp/aicodebot-0.5.2.tar.gz --markdown 20230627/a/aicodebot/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-27 07:17:36] INFO root fetch - processPackages [aranet4]: executing diffoscope
+[2023-06-27 07:17:36] INFO root fetch - processPackages [aranet4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aranet4-2.2.0.tar.gz tmp/aranet4-2.2.1.tar.gz --markdown 20230627/a/aranet4/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-27 07:17:36] INFO root fetch - processPackages [databricks-session]: executing diffoscope
+[2023-06-27 07:17:36] INFO root fetch - processPackages [databricks-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_session-0.1.8.tar.gz tmp/databricks_session-0.1.9.tar.gz --markdown 20230627/d/databricks-session/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 07:17:36] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount-triple]: Downloading https://files.pythonhosted.org/packages/ba/f7/a828fae811dfd57dfe68eaa8c2e80af0352af35b1c3441485efda3c1a6ef/odoo_addon_sale_order_general_discount_triple-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-27 07:17:36] INFO root fetch - processPackages [fandango]: executing diffoscope
+[2023-06-27 07:17:36] INFO root fetch - processPackages [fandango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fandango-15.6.4.tar.gz tmp/fandango-15.6.7.tar.gz --markdown 20230627/f/fandango/15.6.4-15.6.7/diff.md --exclude *.pyd
+[2023-06-27 07:17:36] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: executing diffoscope
+[2023-06-27 07:17:36] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.4.dev6-py3-none-any.whl.zip tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.5.dev1-py3-none-any.whl.zip --markdown 20230627/o/odoo14-addon-sale-automatic-workflow/14.0.1.3.4.dev6-14.0.1.3.5.dev1/diff.md --exclude *.pyd
+[2023-06-27 07:17:36] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount-triple]: executing diffoscope
+[2023-06-27 07:17:36] INFO root fetch - processPackages [ahoy-dtu-webthing]: executing diffoscope
+[2023-06-27 07:17:36] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount-triple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_general_discount_triple-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_order_general_discount_triple-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230627/o/odoo-addon-sale-order-general-discount-triple/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-27 07:17:36] INFO root fetch - processPackages [ahoy-dtu-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahoy_dtu_webthing-0.1.4.tar.gz tmp/ahoy_dtu_webthing-0.1.5.tar.gz --markdown 20230627/a/ahoy-dtu-webthing/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 07:17:37] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/ac/fb/8d9c55711dbd5ada4cfc60bfe748d48bb29127d2bda580bdf77cf7cd5c07/tflite_runtime_nightly-2.14.0.dev20230626-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-27 07:17:37] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-27 07:17:37] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230625-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230626-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230627/t/tflite-runtime-nightly/2.14.0.dev20230625-2.14.0.dev20230626/diff.md --exclude *.pyd
+[2023-06-27 07:17:37] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_assortment-15.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-27 07:17:37] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_assortment-15.0.2.0.0.1-py3-none-any.whl.zip]
+[2023-06-27 07:17:37] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: Start processing: tflite-support-nightly
+[2023-06-27 07:17:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-product-assortment]: success
+[2023-06-27 07:17:38] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230626] Old Version: [0.4.4.dev20230625]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/d6/35/c6f2f902fff6ebc2a88c584b1250080a284e85da18bc427fcfaeb1ff2e77/tflite_support_nightly-0.4.4.dev20230625-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-27 07:17:38] INFO root fetch - processPackages [aranet4]: Remove: archive file [/home/abi/fetcher/tmp/aranet4-2.2.0.tar.gz]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [aranet4]: Remove: archive file [/home/abi/fetcher/tmp/aranet4-2.2.1.tar.gz]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [aranet4]: Start processing: odoo-addons-oca-sale-workflow
+[2023-06-27 07:17:38] INFO root fetch - main [MainThread]: End processing [aranet4]: success
+[2023-06-27 07:17:38] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60815123>=10485760
+[2023-06-27 07:17:38] INFO root fetch - processPackages [tflite-support-nightly]: Start processing: gaohn-common-utils
+[2023-06-27 07:17:38] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-06-27 07:17:38] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230626.0] Old Version: [16.0.20230622.0]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.83] Old Version: [0.0.82]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.5.1.tar.gz]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.5.2.tar.gz]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [aicodebot]: Start processing: ahoy-dtu-webthing
+[2023-06-27 07:17:38] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-06-27 07:17:38] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/6c/0f/3dcf9a7ce518df252a2411f1feb47440843be3045d44244d342fb92eb49a/odoo_addons_oca_sale_workflow-16.0.20230622.0-py3-none-any.whl
+[2023-06-27 07:17:38] INFO root fetch - processPackages [ahoy-dtu-webthing]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/46/9f/b2e0cc86c25636462254d8770fc8bc1e7a0fb3dd9b51fa90dc72d25184d4/gaohn-common-utils-0.0.82.tar.gz
+[2023-06-27 07:17:38] INFO root fetch - processPackages [databricks-session]: Remove: archive file [/home/abi/fetcher/tmp/databricks_session-0.1.8.tar.gz]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [databricks-session]: Remove: archive file [/home/abi/fetcher/tmp/databricks_session-0.1.9.tar.gz]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [databricks-session]: Start processing: tabulation
+[2023-06-27 07:17:38] INFO root fetch - main [MainThread]: End processing [databricks-session]: success
+[2023-06-27 07:17:38] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount-triple]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_general_discount_triple-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount-triple]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_general_discount_triple-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-27 07:17:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-general-discount-triple]: success
+[2023-06-27 07:17:38] WARNING root fetch - processPackages [tabulation]: Skipping, unable to determine old version
+[2023-06-27 07:17:38] INFO root fetch - main [MainThread]: End processing [tabulation] error
+[2023-06-27 07:17:38] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.1.4.tar.gz]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.1.5.tar.gz]
+[2023-06-27 07:17:38] INFO root fetch - main [MainThread]: End processing [ahoy-dtu-webthing]: success
+[2023-06-27 07:17:38] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/5f/11/e9137adbffe8dc2ee353b9056785df5c4856aa2183a757a2ebebf18d3fa3/ahoy_dtu_webthing-0.1.5.tar.gz
+[2023-06-27 07:17:38] INFO root fetch - processPackages [ahoy-dtu-webthing]: executing diffoscope
+[2023-06-27 07:17:38] INFO root fetch - processPackages [ahoy-dtu-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahoy_dtu_webthing-0.1.4.tar.gz tmp/ahoy_dtu_webthing-0.1.5.tar.gz --markdown 20230627/a/ahoy-dtu-webthing/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-27 07:17:38] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/19/a2/b3f9c3a493fb7dbeee868ca4a75259a20b1d8770fa1a9d441acab4f35c3f/odoo_addons_oca_sale_workflow-16.0.20230626.0-py3-none-any.whl
+[2023-06-27 07:17:38] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.4.dev6-py3-none-any.whl.zip]
+[2023-06-27 07:17:38] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.5.dev1-py3-none-any.whl.zip]
+[2023-06-27 07:17:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-automatic-workflow]: success
+[2023-06-27 07:17:38] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/5a/ee/24d852341b8dd7af99884b31006e1e2ca3e0586c833d9e2e6b1c2cd8af6c/gaohn-common-utils-0.0.83.tar.gz
+[2023-06-27 07:17:38] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-06-27 07:17:38] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230622.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230626.0-py3-none-any.whl.zip --markdown 20230627/o/odoo-addons-oca-sale-workflow/16.0.20230622.0-16.0.20230626.0/diff.md --exclude *.pyd
+[2023-06-27 07:17:38] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-27 07:17:38] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.82.tar.gz tmp/gaohn-common-utils-0.0.83.tar.gz --markdown 20230627/g/gaohn-common-utils/0.0.82-0.0.83/diff.md --exclude *.pyd
+[2023-06-27 07:17:39] ERROR root fetch - processPackages [ahoy-dtu-webthing]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/ahoy_dtu_webthing-0.1.4.tar.gz: No such file or directory
+
+[2023-06-27 07:17:39] INFO root fetch - main [MainThread]: End processing [ahoy-dtu-webthing] error
+[2023-06-27 07:17:39] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230622.0-py3-none-any.whl.zip]
+[2023-06-27 07:17:39] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230626.0-py3-none-any.whl.zip]
+[2023-06-27 07:17:39] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-06-27 07:17:39] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.82.tar.gz]
+[2023-06-27 07:17:39] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.83.tar.gz]
+[2023-06-27 07:17:39] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-27 07:17:40] INFO root fetch - processPackages [panic]: Remove: archive file [/home/abi/fetcher/tmp/panic-9.1.4.tar.gz]
+[2023-06-27 07:17:40] INFO root fetch - processPackages [panic]: Remove: archive file [/home/abi/fetcher/tmp/panic-9.2.1.tar.gz]
+[2023-06-27 07:17:40] INFO root fetch - main [MainThread]: End processing [panic]: success
+[2023-06-27 07:17:41] INFO root fetch - processPackages [fandango]: Remove: archive file [/home/abi/fetcher/tmp/fandango-15.6.4.tar.gz]
+[2023-06-27 07:17:41] INFO root fetch - processPackages [fandango]: Remove: archive file [/home/abi/fetcher/tmp/fandango-15.6.7.tar.gz]
+[2023-06-27 07:17:41] INFO root fetch - main [MainThread]: End processing [fandango]: success
+[2023-06-27 07:18:11] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230625-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-27 07:18:11] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230626-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-27 07:18:11] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-27 07:18:11] INFO root fetch - main [MainThread]: Store serial: [18658308]
