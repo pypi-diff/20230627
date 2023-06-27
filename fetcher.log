@@ -21474,3 +21474,102 @@ AssertionError: tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz does not exist
 [2023-06-27 13:37:42] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230627-py3-none-win_amd64.whl.zip]
 [2023-06-27 13:37:42] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-06-27 13:37:42] INFO root fetch - main [MainThread]: Store serial: [18661977]
+[2023-06-27 13:42:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661977]
+[2023-06-27 13:42:52] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-27 13:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sj-tool
+[2023-06-27 13:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cluedin
+[2023-06-27 13:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deezer-oauth-cli
+[2023-06-27 13:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyPreservica
+[2023-06-27 13:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangounittest
+[2023-06-27 13:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: all-repos-envvar
+[2023-06-27 13:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcentrapi
+[2023-06-27 13:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fraggler
+[2023-06-27 13:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightcon
+[2023-06-27 13:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo13-addon-stock-quant-reservation-info-mrp
+[2023-06-27 13:42:52] INFO root fetch - processPackages [dcentrapi]: New version: [0.2.93] Old Version: [0.2.92]
+[2023-06-27 13:42:52] INFO root fetch - processPackages [cluedin]: New version: [2.2.0] Old Version: [2.1.0rc1]
+[2023-06-27 13:42:52] INFO root fetch - processPackages [pyPreservica]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-27 13:42:52] WARNING root fetch - processPackages [fraggler]: Skipping, unable to determine old version
+[2023-06-27 13:42:52] INFO root fetch - processPackages [fraggler]: Start processing: pytorch-show
+[2023-06-27 13:42:52] INFO root fetch - main [MainThread]: End processing [fraggler] error
+[2023-06-27 13:42:52] INFO root fetch - processPackages [all-repos-envvar]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-06-27 13:42:52] WARNING root fetch - processPackages [djangounittest]: Skipping, unable to determine old version
+[2023-06-27 13:42:52] INFO root fetch - processPackages [djangounittest]: Start processing: orchestrator-core
+[2023-06-27 13:42:52] INFO root fetch - main [MainThread]: End processing [djangounittest] error
+[2023-06-27 13:42:52] INFO root fetch - processPackages [deezer-oauth-cli]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-06-27 13:42:52] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-27 13:42:52] INFO root fetch - processPackages [lightcon]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-27 13:42:52] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/15/ba/3ed5f9d7c1a8915d502034e4a58e7ce6b37ddb7ac38e343dd4932b6fd2ea/dcentrapi-0.2.92.tar.gz
+[2023-06-27 13:42:52] WARNING root fetch - processPackages [odoo13-addon-stock-quant-reservation-info-mrp]: Skipping, unable to determine old version
+[2023-06-27 13:42:52] INFO root fetch - processPackages [odoo13-addon-stock-quant-reservation-info-mrp]: Start processing: nonebot-plugin-boardgame
+[2023-06-27 13:42:52] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-quant-reservation-info-mrp] error
+[2023-06-27 13:42:52] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-27 13:42:52] INFO root fetch - processPackages [orchestrator-core]: New version: [1.1.1rc3] Old Version: [1.1.1rc2]
+[2023-06-27 13:42:52] WARNING root fetch - processPackages [pytorch-show]: Skipping, unable to determine old version
+[2023-06-27 13:42:52] INFO root fetch - processPackages [pytorch-show]: Start processing: fraggler
+[2023-06-27 13:42:52] INFO root fetch - main [MainThread]: End processing [pytorch-show] error
+[2023-06-27 13:42:52] ERROR root fetch - processPackages [fraggler]: Unable to get metadata: No such project 'fraggler'
+[2023-06-27 13:42:52] INFO root fetch - main [MainThread]: End processing [fraggler] error
+[2023-06-27 13:42:52] INFO root fetch - processPackages [cluedin]: Downloading https://files.pythonhosted.org/packages/e5/8f/c67eaadd45fa69240539751233b885a3a8f2c9fbdba31bab54dcb6c998d0/cluedin-2.1.0rc1.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [deezer-oauth-cli]: Downloading https://files.pythonhosted.org/packages/e7/8d/92d7d452579ff6b420d3b430c62f7c3295241b7bba5e124f586b3971fddb/deezer_oauth_cli-0.4.0.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/a0/f1/26db8b4e3881132f5058440102a976a0fba50a28ecf7155939ae6ee5f281/orchestrator_core-1.1.1rc2.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [all-repos-envvar]: Downloading https://files.pythonhosted.org/packages/44/4a/bfcbe242fd17c48ef0267c10060fc6183a60e560497ae037bec41214ffc8/all_repos_envvar-0.3.0.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [pyPreservica]: Downloading https://files.pythonhosted.org/packages/09/02/c8284838090acca818b065fa4f0eca6209c51ce31465f22cc15eaaa8db15/pyPreservica-2.0.1.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [nonebot-plugin-boardgame]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-27 13:42:52] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/9d/48/219659179f67627d3a4a99e889a9539af8eaf8621500d8f66cdbfddcff23/dcentrapi-0.2.93.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [lightcon]: Downloading https://files.pythonhosted.org/packages/5f/dc/445a14a18e703c078774fd1c063257650bbb30fd1f7f3966fa639c0d57d7/lightcon-1.4.1.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-27 13:42:52] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-06-27 13:42:52] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.2.92.tar.gz tmp/dcentrapi-0.2.93.tar.gz --markdown 20230627/d/dcentrapi/0.2.92-0.2.93/diff.md --exclude *.pyd
+[2023-06-27 13:42:52] INFO root fetch - processPackages [nonebot-plugin-boardgame]: Downloading https://files.pythonhosted.org/packages/06/87/a7b3a0fd5639646222368ca5fb9758fcdca8751d39daa58f3bcdbc7bd7d0/nonebot_plugin_boardgame-0.2.1.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-27 13:42:52] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230627/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-27 13:42:52] INFO root fetch - processPackages [pyPreservica]: Downloading https://files.pythonhosted.org/packages/9e/61/1fd296bb59f42d2b8da23342547ed318d3fb23dd2155bd7f98c117e55d75/pyPreservica-2.0.2.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [cluedin]: Downloading https://files.pythonhosted.org/packages/c4/ef/56fa46dc51949d313612c57b68aca528704fc612965e4d983e007b53afeb/cluedin-2.2.0.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [all-repos-envvar]: Downloading https://files.pythonhosted.org/packages/c7/eb/671246c96508499b0d925f0a54b9db23a0f1fe5650e6dfbb47ff9f2a753e/all_repos_envvar-1.0.0.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [pyPreservica]: executing diffoscope
+[2023-06-27 13:42:52] INFO root fetch - processPackages [pyPreservica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPreservica-2.0.1.tar.gz tmp/pyPreservica-2.0.2.tar.gz --markdown 20230627/p/pyPreservica/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-27 13:42:52] INFO root fetch - processPackages [deezer-oauth-cli]: Downloading https://files.pythonhosted.org/packages/5f/f8/cc423cd5de6d65a401009ae7f0aebc8250b16494801ab01794a497ddfa66/deezer_oauth_cli-1.0.0.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [lightcon]: Downloading https://files.pythonhosted.org/packages/63/7c/80a40b6b05c0f31d4534aecaf29e0c9aa054546ce83b9deed9e69941df01/lightcon-1.4.2.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [all-repos-envvar]: executing diffoscope
+[2023-06-27 13:42:52] INFO root fetch - processPackages [all-repos-envvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/all_repos_envvar-0.3.0.tar.gz tmp/all_repos_envvar-1.0.0.tar.gz --markdown 20230627/a/all-repos-envvar/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-27 13:42:52] INFO root fetch - processPackages [cluedin]: executing diffoscope
+[2023-06-27 13:42:52] INFO root fetch - processPackages [cluedin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluedin-2.1.0rc1.tar.gz tmp/cluedin-2.2.0.tar.gz --markdown 20230627/c/cluedin/2.1.0rc1-2.2.0/diff.md --exclude *.pyd
+[2023-06-27 13:42:52] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/e0/52/ea3d303df46919caab478f9162dcc12b26f43aec2880bcfb259970c124f3/orchestrator_core-1.1.1rc3.tar.gz
+[2023-06-27 13:42:52] INFO root fetch - processPackages [deezer-oauth-cli]: executing diffoscope
+[2023-06-27 13:42:52] INFO root fetch - processPackages [deezer-oauth-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deezer_oauth_cli-0.4.0.tar.gz tmp/deezer_oauth_cli-1.0.0.tar.gz --markdown 20230627/d/deezer-oauth-cli/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-27 13:42:52] INFO root fetch - processPackages [lightcon]: executing diffoscope
+[2023-06-27 13:42:52] INFO root fetch - processPackages [lightcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightcon-1.4.1.tar.gz tmp/lightcon-1.4.2.tar.gz --markdown 20230627/l/lightcon/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-27 13:42:52] INFO root fetch - processPackages [nonebot-plugin-boardgame]: Downloading https://files.pythonhosted.org/packages/60/ee/619253f57ebbc900dc28ee2c4b19f85690cc9fcc2dbf3d83373151369421/nonebot_plugin_boardgame-0.3.0.tar.gz
+[2023-06-27 13:42:53] INFO root fetch - processPackages [nonebot-plugin-boardgame]: executing diffoscope
+[2023-06-27 13:42:53] INFO root fetch - processPackages [nonebot-plugin-boardgame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_boardgame-0.2.1.tar.gz tmp/nonebot_plugin_boardgame-0.3.0.tar.gz --markdown 20230627/n/nonebot-plugin-boardgame/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-27 13:42:53] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2023-06-27 13:42:53] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-1.1.1rc2.tar.gz tmp/orchestrator_core-1.1.1rc3.tar.gz --markdown 20230627/o/orchestrator-core/1.1.1rc2-1.1.1rc3/diff.md --exclude *.pyd
+[2023-06-27 13:42:55] INFO root fetch - processPackages [all-repos-envvar]: Remove: archive file [/home/abi/fetcher/tmp/all_repos_envvar-0.3.0.tar.gz]
+[2023-06-27 13:42:55] INFO root fetch - processPackages [all-repos-envvar]: Remove: archive file [/home/abi/fetcher/tmp/all_repos_envvar-1.0.0.tar.gz]
+[2023-06-27 13:42:55] INFO root fetch - main [MainThread]: End processing [all-repos-envvar]: success
+[2023-06-27 13:42:55] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-27 13:42:55] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-27 13:42:55] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-27 13:42:55] INFO root fetch - processPackages [cluedin]: Remove: archive file [/home/abi/fetcher/tmp/cluedin-2.1.0rc1.tar.gz]
+[2023-06-27 13:42:55] INFO root fetch - processPackages [cluedin]: Remove: archive file [/home/abi/fetcher/tmp/cluedin-2.2.0.tar.gz]
+[2023-06-27 13:42:55] INFO root fetch - main [MainThread]: End processing [cluedin]: success
+[2023-06-27 13:42:55] INFO root fetch - processPackages [deezer-oauth-cli]: Remove: archive file [/home/abi/fetcher/tmp/deezer_oauth_cli-0.4.0.tar.gz]
+[2023-06-27 13:42:55] INFO root fetch - processPackages [deezer-oauth-cli]: Remove: archive file [/home/abi/fetcher/tmp/deezer_oauth_cli-1.0.0.tar.gz]
+[2023-06-27 13:42:55] INFO root fetch - main [MainThread]: End processing [deezer-oauth-cli]: success
+[2023-06-27 13:42:55] INFO root fetch - processPackages [nonebot-plugin-boardgame]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_boardgame-0.2.1.tar.gz]
+[2023-06-27 13:42:55] INFO root fetch - processPackages [nonebot-plugin-boardgame]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_boardgame-0.3.0.tar.gz]
+[2023-06-27 13:42:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-boardgame]: success
+[2023-06-27 13:42:55] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.92.tar.gz]
+[2023-06-27 13:42:55] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.93.tar.gz]
+[2023-06-27 13:42:55] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-06-27 13:42:56] INFO root fetch - processPackages [lightcon]: Remove: archive file [/home/abi/fetcher/tmp/lightcon-1.4.1.tar.gz]
+[2023-06-27 13:42:56] INFO root fetch - processPackages [lightcon]: Remove: archive file [/home/abi/fetcher/tmp/lightcon-1.4.2.tar.gz]
+[2023-06-27 13:42:56] INFO root fetch - main [MainThread]: End processing [lightcon]: success
+[2023-06-27 13:42:56] INFO root fetch - processPackages [pyPreservica]: Remove: archive file [/home/abi/fetcher/tmp/pyPreservica-2.0.1.tar.gz]
+[2023-06-27 13:42:56] INFO root fetch - processPackages [pyPreservica]: Remove: archive file [/home/abi/fetcher/tmp/pyPreservica-2.0.2.tar.gz]
+[2023-06-27 13:42:56] INFO root fetch - main [MainThread]: End processing [pyPreservica]: success
+[2023-06-27 13:43:00] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.1.1rc2.tar.gz]
+[2023-06-27 13:43:00] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.1.1rc3.tar.gz]
+[2023-06-27 13:43:00] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2023-06-27 13:43:00] INFO root fetch - main [MainThread]: Store serial: [18662041]
