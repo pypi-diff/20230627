@@ -19502,3 +19502,203 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 12:11:20] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-27 12:11:20] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-27 12:11:20] INFO root fetch - main [MainThread]: Store serial: [18661146]
+[2023-06-27 12:16:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661146]
+[2023-06-27 12:16:31] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-27 12:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazyforecast
+[2023-06-27 12:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Common
+[2023-06-27 12:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: XGEE
+[2023-06-27 12:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mwtoolbox
+[2023-06-27 12:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TEST-TC
+[2023-06-27 12:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sj-tool
+[2023-06-27 12:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nidalee
+[2023-06-27 12:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libadvian
+[2023-06-27 12:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oswrapper
+[2023-06-27 12:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parsagon
+[2023-06-27 12:16:31] INFO root fetch - processPackages [lazyforecast]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-27 12:16:31] WARNING root fetch - processPackages [oswrapper]: Skipping, unable to determine old version
+[2023-06-27 12:16:31] INFO root fetch - processPackages [oswrapper]: Start processing: v-quantum-annealing
+[2023-06-27 12:16:31] INFO root fetch - main [MainThread]: End processing [oswrapper] error
+[2023-06-27 12:16:31] INFO root fetch - processPackages [nidalee]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-27 12:16:31] INFO root fetch - processPackages [mwtoolbox]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 12:16:31] INFO root fetch - processPackages [XGEE]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-27 12:16:31] INFO root fetch - processPackages [parsagon]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-27 12:16:31] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-27 12:16:31] INFO root fetch - processPackages [TEST-TC]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-27 12:16:31] INFO root fetch - processPackages [libadvian]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-06-27 12:16:31] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 12:16:31] INFO root fetch - processPackages [Geode-Common]: New version: [26.1.2rc1] Old Version: [26.1.1rc1]
+[2023-06-27 12:16:31] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/10/7a/59bae3ebb58ef342466a6f44f31ea5ed574cfcd1206172174c0eae90c40f/nidalee-0.1.8-py3-none-any.whl
+[2023-06-27 12:16:31] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-27 12:16:31] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-06-27 12:16:31] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/0b/2e/0e7907568399f6d00fbcbcce7a7ffd283180761bdce6551c7a7ca276cfed/TEST_TC-0.1.3.tar.gz
+[2023-06-27 12:16:31] INFO root fetch - processPackages [libadvian]: Downloading https://files.pythonhosted.org/packages/14/3b/8ae4b037cab14f4fdb439b7b6ae289a6f2fccb4d0e8b1f60550fe7d0c205/libadvian-1.3.1.tar.gz
+[2023-06-27 12:16:31] INFO root fetch - processPackages [lazyforecast]: Downloading https://files.pythonhosted.org/packages/5d/d8/954248aa60a49b8839017ae5d95e02efa6eb8861fafcb228b50feb22a19a/lazyforecast-0.0.0.tar.gz
+[2023-06-27 12:16:31] INFO root fetch - processPackages [XGEE]: Downloading https://files.pythonhosted.org/packages/59/ba/f2316fe394feb7bdc557f945b9042e1dfffc669d99c08b1e597430d1467b/XGEE-0.2.9.tar.gz
+[2023-06-27 12:16:31] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/08/96/c1640381356178a69a31248f0528824a61a06e96f0f682f4a4bffcb7d06a/parsagon-0.7.1.tar.gz
+[2023-06-27 12:16:31] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/73/35/654faef8114f9d18b044ed9b19d98f4b90772be790c5fb1bf1fd04f304b1/Geode_Common-26.1.1rc1-cp39-cp39-win_amd64.whl
+[2023-06-27 12:16:31] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-27 12:16:31] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-06-27 12:16:31] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/7b/aa/5d7542fb6437eddba82a60b311003a8763fdde7cc5d9bce83abd335996cd/nidalee-0.1.9-py3-none-any.whl
+[2023-06-27 12:16:31] INFO root fetch - processPackages [mwtoolbox]: Downloading https://files.pythonhosted.org/packages/29/26/129f81aff0f6c0c934f736f4778f66d8e69a498f2e48e978f7f1c5df976e/mwtoolbox-0.0.1-py3-none-any.whl
+[2023-06-27 12:16:31] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-27 12:16:31] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230627/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-27 12:16:31] INFO root fetch - processPackages [nidalee]: executing diffoscope
+[2023-06-27 12:16:31] INFO root fetch - processPackages [nidalee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nidalee-0.1.8-py3-none-any.whl.zip tmp/nidalee-0.1.9-py3-none-any.whl.zip --markdown 20230627/n/nidalee/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-27 12:16:31] INFO root fetch - processPackages [lazyforecast]: Downloading https://files.pythonhosted.org/packages/93/b1/df60a089af7f62ff12a6b5fc0f90019eeb9db9ed486fb4abce5a564f77bd/lazyforecast-0.0.1.tar.gz
+[2023-06-27 12:16:31] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-06-27 12:16:31] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230627/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 12:16:31] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/cc/0a/b1afcc1b2b30ce92248bc68e4f7d3ac5faee47b8f8284da276d319b77e2a/TEST_TC-0.1.4.tar.gz
+[2023-06-27 12:16:31] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/6d/75/f501e1eb76db2375f2a0e913f09bf3875e3d181311d1aed61bcfc0dd5952/parsagon-0.7.2.tar.gz
+[2023-06-27 12:16:31] INFO root fetch - processPackages [libadvian]: Downloading https://files.pythonhosted.org/packages/be/43/41a8bdd3d61be9536c6fdd7a4df9f92615f297e4d8bfe6717f6d23174a64/libadvian-1.4.0.tar.gz
+[2023-06-27 12:16:31] INFO root fetch - processPackages [lazyforecast]: executing diffoscope
+[2023-06-27 12:16:31] INFO root fetch - processPackages [lazyforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyforecast-0.0.0.tar.gz tmp/lazyforecast-0.0.1.tar.gz --markdown 20230627/l/lazyforecast/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-27 12:16:31] INFO root fetch - processPackages [parsagon]: executing diffoscope
+[2023-06-27 12:16:31] INFO root fetch - processPackages [parsagon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsagon-0.7.1.tar.gz tmp/parsagon-0.7.2.tar.gz --markdown 20230627/p/parsagon/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-27 12:16:31] INFO root fetch - processPackages [libadvian]: executing diffoscope
+[2023-06-27 12:16:31] INFO root fetch - processPackages [libadvian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libadvian-1.3.1.tar.gz tmp/libadvian-1.4.0.tar.gz --markdown 20230627/l/libadvian/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-06-27 12:16:31] INFO root fetch - processPackages [mwtoolbox]: Downloading https://files.pythonhosted.org/packages/a7/44/d23c3da444d3fa5d6115ec974ab19ca44545ce9d56cf576c6023a701cc9a/mwtoolbox-0.0.2-py3-none-any.whl
+[2023-06-27 12:16:32] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-06-27 12:16:32] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-0.1.3.tar.gz tmp/TEST_TC-0.1.4.tar.gz --markdown 20230627/T/TEST-TC/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-27 12:16:32] INFO root fetch - processPackages [mwtoolbox]: executing diffoscope
+[2023-06-27 12:16:32] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/6d/42/7984f7a107ca72bf6120bbf2df0176c9ec8014a20b1c430933ebf9b5935d/Geode_Common-26.1.2rc1-cp39-cp39-win_amd64.whl
+[2023-06-27 12:16:32] INFO root fetch - processPackages [mwtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwtoolbox-0.0.1-py3-none-any.whl.zip tmp/mwtoolbox-0.0.2-py3-none-any.whl.zip --markdown 20230627/m/mwtoolbox/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 12:16:32] INFO root fetch - processPackages [XGEE]: Downloading https://files.pythonhosted.org/packages/7d/bd/e4f1e8c67ff788e2b20b0d44be528ac2eee49344d1fcc84d09e9c51a02f5/XGEE-0.3.0.tar.gz
+[2023-06-27 12:16:32] INFO root fetch - processPackages [XGEE]: executing diffoscope
+[2023-06-27 12:16:32] INFO root fetch - processPackages [XGEE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XGEE-0.2.9.tar.gz tmp/XGEE-0.3.0.tar.gz --markdown 20230627/X/XGEE/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-27 12:16:32] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-06-27 12:16:32] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-26.1.1rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-26.1.2rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230627/G/Geode-Common/26.1.1rc1-26.1.2rc1/diff.md --exclude *.pyd
+[2023-06-27 12:16:33] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [sj-tool]: Start processing: dissect.target
+[2023-06-27 12:16:33] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-27 12:16:33] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-06-27 12:16:33] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.8-py3-none-any.whl.zip]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.9-py3-none-any.whl.zip]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [nidalee]: Start processing: SpatialCluster
+[2023-06-27 12:16:33] INFO root fetch - main [MainThread]: End processing [nidalee]: success
+[2023-06-27 12:16:33] INFO root fetch - processPackages [SpatialCluster]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-06-27 12:16:33] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-06-27 12:16:33] INFO root fetch - processPackages [dissect.target]: Start processing: lite-tools
+[2023-06-27 12:16:33] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-06-27 12:16:33] INFO root fetch - processPackages [lazyforecast]: Remove: archive file [/home/abi/fetcher/tmp/lazyforecast-0.0.0.tar.gz]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [lazyforecast]: Remove: archive file [/home/abi/fetcher/tmp/lazyforecast-0.0.1.tar.gz]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [lazyforecast]: Start processing: traceml
+[2023-06-27 12:16:33] INFO root fetch - main [MainThread]: End processing [lazyforecast]: success
+[2023-06-27 12:16:33] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/d151970554e6582252b98c3108705d13085a7dc34245e27d8a84aa9dc7fb/lite_tools-0.4.9.8-py3-none-any.whl
+[2023-06-27 12:16:33] INFO root fetch - processPackages [traceml]: New version: [1.1.0rc9] Old Version: [1.1.0rc8]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/4f/d0/5d0f8b1c02939930bb0869256a8b195440c471193011abb2a5938d30d8fb/SpatialCluster-0.0.80.tar.gz
+[2023-06-27 12:16:33] INFO root fetch - processPackages [libadvian]: Remove: archive file [/home/abi/fetcher/tmp/libadvian-1.3.1.tar.gz]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [libadvian]: Remove: archive file [/home/abi/fetcher/tmp/libadvian-1.4.0.tar.gz]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [libadvian]: Start processing: haupt
+[2023-06-27 12:16:33] INFO root fetch - main [MainThread]: End processing [libadvian]: success
+[2023-06-27 12:16:33] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.3.tar.gz]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.4.tar.gz]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [TEST-TC]: Start processing: polyaxon-sdk
+[2023-06-27 12:16:33] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-06-27 12:16:33] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.7.1.tar.gz]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.7.2.tar.gz]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [parsagon]: Start processing: esentity
+[2023-06-27 12:16:33] INFO root fetch - main [MainThread]: End processing [parsagon]: success
+[2023-06-27 12:16:33] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/40/02/c8d1ce34f7fdcb6015276185ff6ef593475a639f13f131e8d0da62426dbc/lite_tools-0.4.9.9-py3-none-any.whl
+[2023-06-27 12:16:33] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2023-06-27 12:16:33] INFO root fetch - processPackages [haupt]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [polyaxon-sdk]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-06-27 12:16:33] INFO root fetch - processPackages [traceml]: Downloading https://files.pythonhosted.org/packages/18/01/7d66c9b0fd27fc2f3355ceef2ff4d505cffd9f62b891de4b0f127dddddc7/traceml-1.1.0rc8.tar.gz
+[2023-06-27 12:16:33] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-06-27 12:16:33] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230627/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-06-27 12:16:33] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2023-06-27 12:16:33] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/9a/12/7d550441bb0b8a09aa8b4ed03f2557ac00593b9de40598dc0797cdacced9/SpatialCluster-0.0.9.tar.gz
+[2023-06-27 12:16:33] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/24/5c/3c2116c4c091572ea71837a0a5b587480c70fe9bc9b9314faab1283a51ef/haupt-2.0.0rc8.tar.gz
+[2023-06-27 12:16:33] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/d4/c5/c802a77a0ad631c6a7323593733e48fbf5995736cdeeadd349718bd773de/polyaxon-sdk-2.0.0rc8.tar.gz
+[2023-06-27 12:16:34] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2023-06-27 12:16:34] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20230627/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-27 12:16:34] INFO root fetch - processPackages [SpatialCluster]: executing diffoscope
+[2023-06-27 12:16:34] INFO root fetch - processPackages [SpatialCluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpatialCluster-0.0.80.tar.gz tmp/SpatialCluster-0.0.9.tar.gz --markdown 20230627/S/SpatialCluster/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 12:16:34] INFO root fetch - processPackages [traceml]: Downloading https://files.pythonhosted.org/packages/5e/23/ce9ea5dacf3bac42ca00c81b2e5cb904c4cb73d93bb86421473aebb8bacc/traceml-1.1.0rc9.tar.gz
+[2023-06-27 12:16:34] INFO root fetch - processPackages [traceml]: executing diffoscope
+[2023-06-27 12:16:34] INFO root fetch - processPackages [traceml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceml-1.1.0rc8.tar.gz tmp/traceml-1.1.0rc9.tar.gz --markdown 20230627/t/traceml/1.1.0rc8-1.1.0rc9/diff.md --exclude *.pyd
+[2023-06-27 12:16:34] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/39/f2/020ec35aa3274b97325faef6c6c40e653d77f15a7267d26a28182c1b6b1d/polyaxon-sdk-2.0.0rc9.tar.gz
+[2023-06-27 12:16:34] INFO root fetch - processPackages [mwtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/mwtoolbox-0.0.1-py3-none-any.whl.zip]
+[2023-06-27 12:16:34] INFO root fetch - processPackages [mwtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/mwtoolbox-0.0.2-py3-none-any.whl.zip]
+[2023-06-27 12:16:34] INFO root fetch - processPackages [mwtoolbox]: Start processing: JustScan
+[2023-06-27 12:16:34] INFO root fetch - main [MainThread]: End processing [mwtoolbox]: success
+[2023-06-27 12:16:34] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-27 12:16:34] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-27 12:16:34] INFO root fetch - processPackages [polyaxon-sdk]: executing diffoscope
+[2023-06-27 12:16:34] INFO root fetch - processPackages [polyaxon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-sdk-2.0.0rc8.tar.gz tmp/polyaxon-sdk-2.0.0rc9.tar.gz --markdown 20230627/p/polyaxon-sdk/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-06-27 12:16:34] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/c0/38/1aa064950319f9e0d15c797b9d80e038849e3f19f2c743dfef1a99add52d/haupt-2.0.0rc9.tar.gz
+[2023-06-27 12:16:34] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-27 12:16:34] INFO root fetch - processPackages [haupt]: executing diffoscope
+[2023-06-27 12:16:34] INFO root fetch - processPackages [haupt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haupt-2.0.0rc8.tar.gz tmp/haupt-2.0.0rc9.tar.gz --markdown 20230627/h/haupt/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-06-27 12:16:34] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-27 12:16:34] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230627/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-27 12:16:35] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2023-06-27 12:16:35] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2023-06-27 12:16:35] INFO root fetch - processPackages [esentity]: Start processing: polyaxon
+[2023-06-27 12:16:35] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2023-06-27 12:16:35] INFO root fetch - processPackages [polyaxon]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-06-27 12:16:35] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip]
+[2023-06-27 12:16:35] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip]
+[2023-06-27 12:16:35] INFO root fetch - processPackages [lite-tools]: Start processing: hypertune
+[2023-06-27 12:16:35] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-06-27 12:16:35] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/e9/bb/9995ae95c9e723f5a5d3093e6609b130cafabc79ab39a4bff3544139b80b/polyaxon-2.0.0rc8.tar.gz
+[2023-06-27 12:16:35] INFO root fetch - processPackages [hypertune]: New version: [1.1.0rc9] Old Version: [1.1.0rc8]
+[2023-06-27 12:16:35] INFO root fetch - processPackages [traceml]: Remove: archive file [/home/abi/fetcher/tmp/traceml-1.1.0rc8.tar.gz]
+[2023-06-27 12:16:35] INFO root fetch - processPackages [traceml]: Remove: archive file [/home/abi/fetcher/tmp/traceml-1.1.0rc9.tar.gz]
+[2023-06-27 12:16:35] INFO root fetch - processPackages [traceml]: Start processing: akerbp.mlops
+[2023-06-27 12:16:35] INFO root fetch - main [MainThread]: End processing [traceml]: success
+[2023-06-27 12:16:35] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.0a6] Old Version: [3.2.0a5]
+[2023-06-27 12:16:35] INFO root fetch - processPackages [hypertune]: Downloading https://files.pythonhosted.org/packages/57/6b/7b039df434fb0f9d90a3b931d4370292d6fd8af4586c89a47936b6386b03/hypertune-1.1.0rc8.tar.gz
+[2023-06-27 12:16:35] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/0d/a2/4810bbad06d483e02a3e945f9f65f1bd63b0ee1fda3d7e5c6477b912d773/akerbp.mlops-3.2.0a5.tar.gz
+[2023-06-27 12:16:35] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/76/ca/1ced661d2c482fabf6f565d771a2be403aa7d4cef1e56e3543502b1d2d3d/polyaxon-2.0.0rc9.tar.gz
+[2023-06-27 12:16:36] INFO root fetch - processPackages [polyaxon]: executing diffoscope
+[2023-06-27 12:16:36] INFO root fetch - processPackages [polyaxon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-2.0.0rc8.tar.gz tmp/polyaxon-2.0.0rc9.tar.gz --markdown 20230627/p/polyaxon/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-06-27 12:16:36] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/24/22/29388e8f8ae1c453dca68f4bd8625134ef9309eececbeb918f62b49639a0/akerbp.mlops-3.2.0a6.tar.gz
+[2023-06-27 12:16:36] INFO root fetch - processPackages [hypertune]: Downloading https://files.pythonhosted.org/packages/9d/aa/3b2ab32fe7ee90260db599b1d556b75a28655afd428a1eacfea0e53c9888/hypertune-1.1.0rc9.tar.gz
+[2023-06-27 12:16:36] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-06-27 12:16:36] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.0a5.tar.gz tmp/akerbp.mlops-3.2.0a6.tar.gz --markdown 20230627/a/akerbp.mlops/3.2.0a5-3.2.0a6/diff.md --exclude *.pyd
+[2023-06-27 12:16:36] INFO root fetch - processPackages [hypertune]: executing diffoscope
+[2023-06-27 12:16:36] INFO root fetch - processPackages [hypertune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypertune-1.1.0rc8.tar.gz tmp/hypertune-1.1.0rc9.tar.gz --markdown 20230627/h/hypertune/1.1.0rc8-1.1.0rc9/diff.md --exclude *.pyd
+[2023-06-27 12:16:36] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-27 12:16:36] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-27 12:16:36] INFO root fetch - processPackages [JustScan]: Start processing: spotPython
+[2023-06-27 12:16:36] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-27 12:16:36] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-27 12:16:36] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-27 12:16:37] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-27 12:16:37] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-06-27 12:16:37] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-06-27 12:16:37] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-06-27 12:16:37] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-27 12:16:37] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230627/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-27 12:16:37] INFO root fetch - processPackages [hypertune]: Remove: archive file [/home/abi/fetcher/tmp/hypertune-1.1.0rc8.tar.gz]
+[2023-06-27 12:16:37] INFO root fetch - processPackages [hypertune]: Remove: archive file [/home/abi/fetcher/tmp/hypertune-1.1.0rc9.tar.gz]
+[2023-06-27 12:16:37] INFO root fetch - main [MainThread]: End processing [hypertune]: success
+[2023-06-27 12:16:37] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.0a5.tar.gz]
+[2023-06-27 12:16:37] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.0a6.tar.gz]
+[2023-06-27 12:16:37] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-06-27 12:16:37] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.80.tar.gz]
+[2023-06-27 12:16:37] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.9.tar.gz]
+[2023-06-27 12:16:37] INFO root fetch - main [MainThread]: End processing [SpatialCluster]: success
+[2023-06-27 12:16:39] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.0.0rc8.tar.gz]
+[2023-06-27 12:16:39] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.0.0rc9.tar.gz]
+[2023-06-27 12:16:39] INFO root fetch - main [MainThread]: End processing [haupt]: success
+[2023-06-27 12:16:42] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.0.0rc8.tar.gz]
+[2023-06-27 12:16:42] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.0.0rc9.tar.gz]
+[2023-06-27 12:16:42] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
+[2023-06-27 12:16:42] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.0.0rc8.tar.gz]
+[2023-06-27 12:16:42] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.0.0rc9.tar.gz]
+[2023-06-27 12:16:42] INFO root fetch - main [MainThread]: End processing [polyaxon-sdk]: success
+[2023-06-27 12:16:46] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 12:16:46] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-27 12:16:46] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-06-27 12:16:49] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-27 12:16:49] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-27 12:16:49] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-27 12:16:50] INFO root fetch - processPackages [XGEE]: Remove: archive file [/home/abi/fetcher/tmp/XGEE-0.2.9.tar.gz]
+[2023-06-27 12:16:50] INFO root fetch - processPackages [XGEE]: Remove: archive file [/home/abi/fetcher/tmp/XGEE-0.3.0.tar.gz]
+[2023-06-27 12:16:50] INFO root fetch - main [MainThread]: End processing [XGEE]: success
+[2023-06-27 12:16:50] INFO root fetch - main [MainThread]: Store serial: [18661218]
