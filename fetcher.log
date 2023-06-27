@@ -5436,3 +5436,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 02:46:09] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev543586615-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-27 02:46:09] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-06-27 02:46:09] INFO root fetch - main [MainThread]: Store serial: [18655434]
+[2023-06-27 02:51:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18655434]
+[2023-06-27 02:51:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-27 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfds-nightly
+[2023-06-27 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2023-06-27 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubric-nightly
+[2023-06-27 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databricks-session
+[2023-06-27 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: balrogo
+[2023-06-27 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbrlabs-pulumi-eks
+[2023-06-27 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: srsinst.sr542
+[2023-06-27 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-utils
+[2023-06-27 02:51:22] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.0.5a1687823535] Old Version: [0.0.4a1687719722]
+[2023-06-27 02:51:22] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-27 02:51:22] WARNING root fetch - processPackages [databricks-session]: Skipping, unable to determine old version
+[2023-06-27 02:51:22] INFO root fetch - main [MainThread]: End processing [databricks-session] error
+[2023-06-27 02:51:22] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/bd/55/a07ee86fd54fdef59c11fa9ed3aab72e871edf54a0c524ef3ca5f6262174/lbrlabs_pulumi_eks-0.0.4a1687719722.tar.gz
+[2023-06-27 02:51:22] INFO root fetch - processPackages [srsinst.sr542]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-27 02:51:22] INFO root fetch - processPackages [neon-utils]: New version: [1.5.1a7] Old Version: [1.5.1a6]
+[2023-06-27 02:51:22] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-27 02:51:22] INFO root fetch - processPackages [balrogo]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-06-27 02:51:22] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-27 02:51:22] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306270046] Old Version: [4.9.2.dev202306270045]
+[2023-06-27 02:51:22] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306270046] Old Version: [4.9.2.dev202306270045]
+[2023-06-27 02:51:22] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/4c/39/b4fc169eb49d2c4bfe1d4747ed4b239f854422ea71d7578c5b21bd14a8dd/neon-utils-1.5.1a6.tar.gz
+[2023-06-27 02:51:22] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-27 02:51:22] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230627/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-27 02:51:22] INFO root fetch - processPackages [srsinst.sr542]: Downloading https://files.pythonhosted.org/packages/52/01/340a4c6803627846370afa6ea8d2bb1f3b66278c1c1260fcea4d87115a91/srsinst.sr542-0.0.4.tar.gz
+[2023-06-27 02:51:22] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/6a/2f/16f56ab1a05c240cf25156f5155539fb1ba039636225fc976fda91dce3b6/lbrlabs_pulumi_eks-0.0.5a1687823535.tar.gz
+[2023-06-27 02:51:22] INFO root fetch - processPackages [balrogo]: Downloading https://files.pythonhosted.org/packages/e5/d6/d18f04894fada4fc37c5f1729a7f6362df724f4e073dc76b7750a35c2d36/balrogo-1.6.6.tar.gz
+[2023-06-27 02:51:22] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/41/3e/1d977b92482585709588a4805d1726cf75cddac3784ef3397a1aa460f431/tfds-nightly-4.9.2.dev202306270045.tar.gz
+[2023-06-27 02:51:22] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/41/3e/1d977b92482585709588a4805d1726cf75cddac3784ef3397a1aa460f431/tfds-nightly-4.9.2.dev202306270045.tar.gz
+[2023-06-27 02:51:22] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2023-06-27 02:51:22] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.0.4a1687719722.tar.gz tmp/lbrlabs_pulumi_eks-0.0.5a1687823535.tar.gz --markdown 20230627/l/lbrlabs-pulumi-eks/0.0.4a1687719722-0.0.5a1687823535/diff.md --exclude *.pyd
+[2023-06-27 02:51:22] INFO root fetch - processPackages [srsinst.sr542]: Downloading https://files.pythonhosted.org/packages/ed/e2/18d4599c7c4805db0408811521de5bc58343d04d199edfb5eca289c73af9/srsinst.sr542-0.1.0.tar.gz
+[2023-06-27 02:51:22] INFO root fetch - processPackages [balrogo]: Downloading https://files.pythonhosted.org/packages/4e/6b/237c4215406b982a04bebe723462e4f2be50348926a212c29ae8c118b511/balrogo-1.6.7.tar.gz
+[2023-06-27 02:51:22] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/f5/56/affd21c21ea1d915b7bb4c6d2f875ba2a5053d047bc6be3a47ec1be85d65/neon-utils-1.5.1a7.tar.gz
+[2023-06-27 02:51:23] INFO root fetch - processPackages [srsinst.sr542]: executing diffoscope
+[2023-06-27 02:51:23] INFO root fetch - processPackages [srsinst.sr542]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srsinst.sr542-0.0.4.tar.gz tmp/srsinst.sr542-0.1.0.tar.gz --markdown 20230627/s/srsinst.sr542/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-27 02:51:23] INFO root fetch - processPackages [balrogo]: executing diffoscope
+[2023-06-27 02:51:23] INFO root fetch - processPackages [balrogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balrogo-1.6.6.tar.gz tmp/balrogo-1.6.7.tar.gz --markdown 20230627/b/balrogo/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-06-27 02:51:23] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-06-27 02:51:23] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-utils-1.5.1a6.tar.gz tmp/neon-utils-1.5.1a7.tar.gz --markdown 20230627/n/neon-utils/1.5.1a6-1.5.1a7/diff.md --exclude *.pyd
+[2023-06-27 02:51:23] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/ab/66/189d8ce142bf4cc3bc16bce9d7bbc3e9c745e9c3aa6c3d1a53afa56cbe1e/tfds_nightly-4.9.2.dev202306270046-py3-none-any.whl
+[2023-06-27 02:51:23] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/ab/66/189d8ce142bf4cc3bc16bce9d7bbc3e9c745e9c3aa6c3d1a53afa56cbe1e/tfds_nightly-4.9.2.dev202306270046-py3-none-any.whl
+[2023-06-27 02:51:23] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-27 02:51:23] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-27 02:51:23] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-27 02:51:23] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.4a1687719722.tar.gz]
+[2023-06-27 02:51:23] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.5a1687823535.tar.gz]
+[2023-06-27 02:51:23] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2023-06-27 02:51:24] INFO root fetch - processPackages [srsinst.sr542]: Remove: archive file [/home/abi/fetcher/tmp/srsinst.sr542-0.0.4.tar.gz]
+[2023-06-27 02:51:24] INFO root fetch - processPackages [srsinst.sr542]: Remove: archive file [/home/abi/fetcher/tmp/srsinst.sr542-0.1.0.tar.gz]
+[2023-06-27 02:51:24] INFO root fetch - main [MainThread]: End processing [srsinst.sr542]: success
+[2023-06-27 02:51:24] INFO root fetch - processPackages [balrogo]: Remove: archive file [/home/abi/fetcher/tmp/balrogo-1.6.6.tar.gz]
+[2023-06-27 02:51:24] INFO root fetch - processPackages [balrogo]: Remove: archive file [/home/abi/fetcher/tmp/balrogo-1.6.7.tar.gz]
+[2023-06-27 02:51:24] INFO root fetch - main [MainThread]: End processing [balrogo]: success
+[2023-06-27 02:51:24] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-27 02:51:24] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306270045.tar.gz tmp/tfds_nightly-4.9.2.dev202306270046-py3-none-any.whl.zip --markdown 20230627/t/tfds-nightly/4.9.2.dev202306270045-4.9.2.dev202306270046/diff.md --exclude *.pyd
+[2023-06-27 02:51:24] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-27 02:51:24] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306270045.tar.gz tmp/tfds_nightly-4.9.2.dev202306270046-py3-none-any.whl.zip --markdown 20230627/t/tfds-nightly/4.9.2.dev202306270045-4.9.2.dev202306270046/diff.md --exclude *.pyd
+[2023-06-27 02:51:24] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.5.1a6.tar.gz]
+[2023-06-27 02:51:24] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.5.1a7.tar.gz]
+[2023-06-27 02:51:24] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-06-27 02:51:35] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306270045.tar.gz]
+[2023-06-27 02:51:35] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202306270046-py3-none-any.whl.zip]
+[2023-06-27 02:51:35] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-27 02:51:36] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-27 02:51:36] INFO root fetch - main [MainThread]: Store serial: [18655461]
