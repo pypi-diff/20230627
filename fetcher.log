@@ -20108,3 +20108,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 12:37:52] INFO root fetch - processPackages [vxpy]: Remove: archive file [/home/abi/fetcher/tmp/vxpy-0.1.3.tar.gz]
 [2023-06-27 12:37:52] INFO root fetch - main [MainThread]: End processing [vxpy]: success
 [2023-06-27 12:37:52] INFO root fetch - main [MainThread]: Store serial: [18661380]
+[2023-06-27 12:42:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18661380]
+[2023-06-27 12:43:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-27 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ffmpegcv
+[2023-06-27 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovito
+[2023-06-27 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Kanon4txt
+[2023-06-27 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redhat-qe-cloud-tools
+[2023-06-27 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emmett-sentry
+[2023-06-27 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ezstorages
+[2023-06-27 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: learn-python-ceg-test
+[2023-06-27 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QuNet
+[2023-06-27 12:43:04] INFO root fetch - processPackages [emmett-sentry]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-27 12:43:04] INFO root fetch - processPackages [Kanon4txt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-27 12:43:04] INFO root fetch - processPackages [learn-python-ceg-test]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-27 12:43:04] INFO root fetch - processPackages [ffmpegcv]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-27 12:43:04] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-27 12:43:04] INFO root fetch - processPackages [ovito]: New version: [3.9.0.dev91] Old Version: [3.9.0.dev78]
+[2023-06-27 12:43:04] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/eb/2d/ef00b6f0820a0413261e00a1573a302fa1d7dea53f2ed0816581b8b917fe/Kanon4txt-0.1.3.tar.gz
+[2023-06-27 12:43:04] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/a9/d0/96e00f09600eab2493dda63715aa490c6e7873282fc170a9cc857d92618f/ffmpegcv-0.3.4.tar.gz
+[2023-06-27 12:43:04] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-27 12:43:04] WARNING root fetch - processPackages [ezstorages]: Skipping, unable to determine old version
+[2023-06-27 12:43:04] INFO root fetch - main [MainThread]: End processing [ezstorages] error
+[2023-06-27 12:43:04] INFO root fetch - processPackages [emmett-sentry]: Downloading https://files.pythonhosted.org/packages/28/95/5d8de45ff2b88f856f5746d26dfc63d4f67ed0b2620237bd97369d3c157f/emmett_sentry-0.5.1.tar.gz
+[2023-06-27 12:43:04] INFO root fetch - processPackages [learn-python-ceg-test]: Downloading https://files.pythonhosted.org/packages/9d/87/801271b78e284a05eafaeed53e8c0059c62734a39a9f1a1360959bd48b76/learn_python_ceg_test-1.0.1.tar.gz
+[2023-06-27 12:43:04] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/3e/15/530560d5fe19671d33492400148eda4aa91798aaa82e2bed190bc223f5fa/redhat_qe_cloud_tools-1.0.6.tar.gz
+[2023-06-27 12:43:04] INFO root fetch - processPackages [ovito]: Downloading https://files.pythonhosted.org/packages/32/5b/5b40e83a1b4df915cdbc2e5c5b9aa356ec6c72dea371237f8b74c48052f5/ovito-3.9.0.dev78-cp39-cp39-win_amd64.whl
+[2023-06-27 12:43:04] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/de/2a/304b241476800c74640a2625ac0b3b1e343b984f983561b41d6e6b13234d/Kanon4txt-0.1.4.tar.gz
+[2023-06-27 12:43:04] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/f5/0a/95e9360b4271032912b6d7e2598786103bfb8f18553926ab33e5a19e2574/ffmpegcv-0.3.5.tar.gz
+[2023-06-27 12:43:04] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-06-27 12:43:04] WARNING root fetch - processPackages [ovito]: Skipping package: exceeds size limit 74072146>=10485760
+[2023-06-27 12:43:04] INFO root fetch - main [MainThread]: End processing [ovito] error
+[2023-06-27 12:43:04] INFO root fetch - processPackages [Kanon4txt]: executing diffoscope
+[2023-06-27 12:43:04] INFO root fetch - processPackages [Kanon4txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kanon4txt-0.1.3.tar.gz tmp/Kanon4txt-0.1.4.tar.gz --markdown 20230627/K/Kanon4txt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-27 12:43:04] INFO root fetch - processPackages [emmett-sentry]: Downloading https://files.pythonhosted.org/packages/a2/c4/06d8448c6dd31694124ca89f2c86a040e963e1eb73519537c3cf192448be/emmett_sentry-0.5.2.tar.gz
+[2023-06-27 12:43:04] INFO root fetch - processPackages [ffmpegcv]: executing diffoscope
+[2023-06-27 12:43:04] INFO root fetch - processPackages [ffmpegcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpegcv-0.3.4.tar.gz tmp/ffmpegcv-0.3.5.tar.gz --markdown 20230627/f/ffmpegcv/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-27 12:43:04] INFO root fetch - processPackages [emmett-sentry]: executing diffoscope
+[2023-06-27 12:43:04] INFO root fetch - processPackages [emmett-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett_sentry-0.5.1.tar.gz tmp/emmett_sentry-0.5.2.tar.gz --markdown 20230627/e/emmett-sentry/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-27 12:43:04] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-06-27 12:43:04] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/83/f7/86d44f22f3095adf36579ac0561e0caf9a981d47075fb9bcec32656a6f8f/redhat_qe_cloud_tools-1.0.7.tar.gz
+[2023-06-27 12:43:04] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2023-06-27 12:43:04] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.6.tar.gz tmp/redhat_qe_cloud_tools-1.0.7.tar.gz --markdown 20230627/r/redhat-qe-cloud-tools/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-27 12:43:04] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-27 12:43:04] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230627/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-27 12:43:04] INFO root fetch - processPackages [learn-python-ceg-test]: Downloading https://files.pythonhosted.org/packages/4e/6a/6c2d124e15296a9c9b500075be67427c9c7a6928506742759fbcb6b038a4/learn_python_ceg_test-1.0.2.tar.gz
+[2023-06-27 12:43:04] INFO root fetch - processPackages [learn-python-ceg-test]: executing diffoscope
+[2023-06-27 12:43:04] INFO root fetch - processPackages [learn-python-ceg-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learn_python_ceg_test-1.0.1.tar.gz tmp/learn_python_ceg_test-1.0.2.tar.gz --markdown 20230627/l/learn-python-ceg-test/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-27 12:43:05] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.1.3.tar.gz]
+[2023-06-27 12:43:05] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.1.4.tar.gz]
+[2023-06-27 12:43:05] INFO root fetch - main [MainThread]: End processing [Kanon4txt]: success
+[2023-06-27 12:43:06] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.6.tar.gz]
+[2023-06-27 12:43:06] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.7.tar.gz]
+[2023-06-27 12:43:06] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2023-06-27 12:43:06] INFO root fetch - processPackages [learn-python-ceg-test]: Remove: archive file [/home/abi/fetcher/tmp/learn_python_ceg_test-1.0.1.tar.gz]
+[2023-06-27 12:43:06] INFO root fetch - processPackages [learn-python-ceg-test]: Remove: archive file [/home/abi/fetcher/tmp/learn_python_ceg_test-1.0.2.tar.gz]
+[2023-06-27 12:43:06] INFO root fetch - main [MainThread]: End processing [learn-python-ceg-test]: success
+[2023-06-27 12:43:06] INFO root fetch - processPackages [emmett-sentry]: Remove: archive file [/home/abi/fetcher/tmp/emmett_sentry-0.5.1.tar.gz]
+[2023-06-27 12:43:06] INFO root fetch - processPackages [emmett-sentry]: Remove: archive file [/home/abi/fetcher/tmp/emmett_sentry-0.5.2.tar.gz]
+[2023-06-27 12:43:06] INFO root fetch - main [MainThread]: End processing [emmett-sentry]: success
+[2023-06-27 12:43:06] INFO root fetch - processPackages [ffmpegcv]: Remove: archive file [/home/abi/fetcher/tmp/ffmpegcv-0.3.4.tar.gz]
+[2023-06-27 12:43:06] INFO root fetch - processPackages [ffmpegcv]: Remove: archive file [/home/abi/fetcher/tmp/ffmpegcv-0.3.5.tar.gz]
+[2023-06-27 12:43:06] INFO root fetch - main [MainThread]: End processing [ffmpegcv]: success
+[2023-06-27 12:43:06] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-06-27 12:43:06] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-06-27 12:43:06] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-27 12:43:06] INFO root fetch - main [MainThread]: Store serial: [18661429]
