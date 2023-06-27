@@ -16018,3 +16018,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-27 10:08:39] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.7.tar.gz]
 [2023-06-27 10:08:39] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
 [2023-06-27 10:08:39] INFO root fetch - main [MainThread]: Store serial: [18659610]
+[2023-06-27 10:13:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18659610]
+[2023-06-27 10:13:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-27 10:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: login-gmail-selenium
+[2023-06-27 10:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zein
+[2023-06-27 10:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rustlite
+[2023-06-27 10:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catio
+[2023-06-27 10:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akerbp.mlops
+[2023-06-27 10:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: otel-tracer
+[2023-06-27 10:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-netdiscover
+[2023-06-27 10:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drf-misc
+[2023-06-27 10:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deskAssistant
+[2023-06-27 10:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DeepStorm
+[2023-06-27 10:13:55] INFO root fetch - processPackages [zein]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-27 10:13:55] WARNING root fetch - processPackages [catio]: Skipping, unable to determine old version
+[2023-06-27 10:13:55] INFO root fetch - processPackages [catio]: Start processing: pydoclint
+[2023-06-27 10:13:55] INFO root fetch - main [MainThread]: End processing [catio] error
+[2023-06-27 10:13:55] INFO root fetch - processPackages [rustlite]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-27 10:13:55] WARNING root fetch - processPackages [DeepStorm]: Skipping, unable to determine old version
+[2023-06-27 10:13:55] INFO root fetch - processPackages [DeepStorm]: Start processing: owl2yams
+[2023-06-27 10:13:55] INFO root fetch - main [MainThread]: End processing [DeepStorm] error
+[2023-06-27 10:13:55] INFO root fetch - processPackages [deskAssistant]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-27 10:13:55] INFO root fetch - processPackages [login-gmail-selenium]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-27 10:13:55] INFO root fetch - processPackages [otel-tracer]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-27 10:13:55] INFO root fetch - processPackages [drf-misc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-27 10:13:55] INFO root fetch - processPackages [pydoclint]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-27 10:13:56] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.0a6] Old Version: [3.2.0a5]
+[2023-06-27 10:13:56] INFO root fetch - processPackages [python-netdiscover]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-27 10:13:56] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/88/64/f0f85cdb501e1d74fe72d7b3b306ad13f100598b427f8ff0e8568dc3a68f/pydoclint-0.0.8.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/ba/dc/2dcb6bf113540fd454794640eb01c2729c8daa4bf190aadc6f5321616317/drf_misc-0.0.5.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/9e/be/c9c1232b13de68c1beabb111432c1ef6fa9fd4b7ccd8a1d81e364b13c0f8/otel_tracer-0.0.9-py3-none-any.whl
+[2023-06-27 10:13:56] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/19/e0/a548478556826e1c3381eb14122c6120e4f0e8ef366f63b32e1ea6fba633/zein-0.0.1.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [owl2yams]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-27 10:13:56] INFO root fetch - processPackages [rustlite]: Downloading https://files.pythonhosted.org/packages/9b/8b/8010d40022f392e787f2b3684020ca6740c62dd62982a8ec9f80db069bae/rustlite-0.1.2.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [deskAssistant]: Downloading https://files.pythonhosted.org/packages/26/2a/cd73507366dee2d2d68b37fa7d9e06feff767a839a70c10648e6ed5af156/deskAssistant-0.0.7.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/08/fc/a46479a39d8bd265031e3186beb56d28f720613929d6a32ec23a11b6798b/pydoclint-0.0.9.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [python-netdiscover]: Downloading https://files.pythonhosted.org/packages/c1/c7/db0a141f5bac7b2480025b0daef63094a06b7cdb250852607a8efea898f8/python-netdiscover-0.2.0.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [login-gmail-selenium]: Downloading https://files.pythonhosted.org/packages/39/83/e8121e3a3877269ba6f93b9b0ff4fb253cd85716c457d678af64e50a91d1/login_gmail_selenium-1.1.9.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/0d/a2/4810bbad06d483e02a3e945f9f65f1bd63b0ee1fda3d7e5c6477b912d773/akerbp.mlops-3.2.0a5.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/22/42/eb50084d54345d2ec3ab03d2042c9620892de2ffeb11751abf5b4d9e2c6c/drf_misc-0.0.6.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/33/0e/29099b58e22637ff6aeffd992f2dbc37002e297d4c70d7913a40c4542be1/otel_tracer-0.1.0-py3-none-any.whl
+[2023-06-27 10:13:56] INFO root fetch - processPackages [owl2yams]: Downloading https://files.pythonhosted.org/packages/af/bd/bbfaf8a610b054d836e285ddee205aa0fab4a6f638b7d582a5ee9a0f770d/owl2yams-1.3.0.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/96/68/0ce1211916e06607c03a79747e4e44e34ce4e3386d08a4fe895f5d6ae67d/zein-0.0.2.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-06-27 10:13:56] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.8.tar.gz tmp/pydoclint-0.0.9.tar.gz --markdown 20230627/p/pydoclint/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-27 10:13:56] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-06-27 10:13:56] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.0.5.tar.gz tmp/drf_misc-0.0.6.tar.gz --markdown 20230627/d/drf-misc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-27 10:13:56] INFO root fetch - processPackages [otel-tracer]: executing diffoscope
+[2023-06-27 10:13:56] INFO root fetch - processPackages [otel-tracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otel_tracer-0.0.9-py3-none-any.whl.zip tmp/otel_tracer-0.1.0-py3-none-any.whl.zip --markdown 20230627/o/otel-tracer/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-27 10:13:56] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-06-27 10:13:56] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.1.tar.gz tmp/zein-0.0.2.tar.gz --markdown 20230627/z/zein/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-27 10:13:56] INFO root fetch - processPackages [rustlite]: Downloading https://files.pythonhosted.org/packages/a5/23/434e943848f8fa26f93bc9425baef68e8382398212c9dc5b49f38574aa95/rustlite-0.1.3.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [deskAssistant]: Downloading https://files.pythonhosted.org/packages/d7/35/169a76d990d1f914eebbfd0f92deb2bd6126659d4bcd802ee5e25b1f266b/deskAssistant-0.0.8.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [python-netdiscover]: Downloading https://files.pythonhosted.org/packages/cf/6c/c771e552855b7d05ce91856ab7f07f189aba0ad1abb837ce9cb9d19f293d/python-netdiscover-0.3.0.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [rustlite]: executing diffoscope
+[2023-06-27 10:13:56] INFO root fetch - processPackages [rustlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustlite-0.1.2.tar.gz tmp/rustlite-0.1.3.tar.gz --markdown 20230627/r/rustlite/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-27 10:13:56] INFO root fetch - processPackages [deskAssistant]: executing diffoscope
+[2023-06-27 10:13:56] INFO root fetch - processPackages [deskAssistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deskAssistant-0.0.7.tar.gz tmp/deskAssistant-0.0.8.tar.gz --markdown 20230627/d/deskAssistant/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-27 10:13:56] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/24/22/29388e8f8ae1c453dca68f4bd8625134ef9309eececbeb918f62b49639a0/akerbp.mlops-3.2.0a6.tar.gz
+[2023-06-27 10:13:56] INFO root fetch - processPackages [python-netdiscover]: executing diffoscope
+[2023-06-27 10:13:56] INFO root fetch - processPackages [python-netdiscover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-netdiscover-0.2.0.tar.gz tmp/python-netdiscover-0.3.0.tar.gz --markdown 20230627/p/python-netdiscover/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-27 10:13:56] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-06-27 10:13:56] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.0a5.tar.gz tmp/akerbp.mlops-3.2.0a6.tar.gz --markdown 20230627/a/akerbp.mlops/3.2.0a5-3.2.0a6/diff.md --exclude *.pyd
+[2023-06-27 10:13:57] INFO root fetch - processPackages [owl2yams]: Downloading https://files.pythonhosted.org/packages/9a/54/73320e82b5d6d73b4cf23227621ea425ff1540349da371d6ce16844bca57/owl2yams-1.4.0.tar.gz
+[2023-06-27 10:13:57] INFO root fetch - processPackages [login-gmail-selenium]: Downloading https://files.pythonhosted.org/packages/bc/21/64cf0fcf546675df61f95d6d1bc8ca3dc5de3124a41a2b3b76c18545ddb4/login_gmail_selenium-1.2.0.tar.gz
+[2023-06-27 10:13:57] INFO root fetch - processPackages [owl2yams]: executing diffoscope
+[2023-06-27 10:13:57] INFO root fetch - processPackages [owl2yams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owl2yams-1.3.0.tar.gz tmp/owl2yams-1.4.0.tar.gz --markdown 20230627/o/owl2yams/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-27 10:13:57] INFO root fetch - processPackages [login-gmail-selenium]: executing diffoscope
+[2023-06-27 10:13:57] INFO root fetch - processPackages [login-gmail-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230627:/home/abi/fetcher/20230627:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/login_gmail_selenium-1.1.9.tar.gz tmp/login_gmail_selenium-1.2.0.tar.gz --markdown 20230627/l/login-gmail-selenium/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-27 10:13:57] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.1.tar.gz]
+[2023-06-27 10:13:57] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.2.tar.gz]
+[2023-06-27 10:13:57] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-06-27 10:13:57] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.0.9-py3-none-any.whl.zip]
+[2023-06-27 10:13:57] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.1.0-py3-none-any.whl.zip]
+[2023-06-27 10:13:57] INFO root fetch - main [MainThread]: End processing [otel-tracer]: success
+[2023-06-27 10:13:57] INFO root fetch - processPackages [rustlite]: Remove: archive file [/home/abi/fetcher/tmp/rustlite-0.1.2.tar.gz]
+[2023-06-27 10:13:57] INFO root fetch - processPackages [rustlite]: Remove: archive file [/home/abi/fetcher/tmp/rustlite-0.1.3.tar.gz]
+[2023-06-27 10:13:57] INFO root fetch - main [MainThread]: End processing [rustlite]: success
+[2023-06-27 10:13:58] INFO root fetch - processPackages [deskAssistant]: Remove: archive file [/home/abi/fetcher/tmp/deskAssistant-0.0.7.tar.gz]
+[2023-06-27 10:13:58] INFO root fetch - processPackages [deskAssistant]: Remove: archive file [/home/abi/fetcher/tmp/deskAssistant-0.0.8.tar.gz]
+[2023-06-27 10:13:58] INFO root fetch - main [MainThread]: End processing [deskAssistant]: success
+[2023-06-27 10:13:58] INFO root fetch - processPackages [python-netdiscover]: Remove: archive file [/home/abi/fetcher/tmp/python-netdiscover-0.2.0.tar.gz]
+[2023-06-27 10:13:58] INFO root fetch - processPackages [python-netdiscover]: Remove: archive file [/home/abi/fetcher/tmp/python-netdiscover-0.3.0.tar.gz]
+[2023-06-27 10:13:58] INFO root fetch - main [MainThread]: End processing [python-netdiscover]: success
+[2023-06-27 10:13:58] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.5.tar.gz]
+[2023-06-27 10:13:58] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.6.tar.gz]
+[2023-06-27 10:13:58] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-06-27 10:14:00] INFO root fetch - processPackages [login-gmail-selenium]: Remove: archive file [/home/abi/fetcher/tmp/login_gmail_selenium-1.1.9.tar.gz]
+[2023-06-27 10:14:00] INFO root fetch - processPackages [login-gmail-selenium]: Remove: archive file [/home/abi/fetcher/tmp/login_gmail_selenium-1.2.0.tar.gz]
+[2023-06-27 10:14:00] INFO root fetch - main [MainThread]: End processing [login-gmail-selenium]: success
+[2023-06-27 10:14:00] INFO root fetch - processPackages [owl2yams]: Remove: archive file [/home/abi/fetcher/tmp/owl2yams-1.3.0.tar.gz]
+[2023-06-27 10:14:00] INFO root fetch - processPackages [owl2yams]: Remove: archive file [/home/abi/fetcher/tmp/owl2yams-1.4.0.tar.gz]
+[2023-06-27 10:14:00] INFO root fetch - main [MainThread]: End processing [owl2yams]: success
+[2023-06-27 10:14:00] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.0a5.tar.gz]
+[2023-06-27 10:14:00] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.0a6.tar.gz]
+[2023-06-27 10:14:00] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-06-27 10:14:52] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.8.tar.gz]
+[2023-06-27 10:14:52] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.9.tar.gz]
+[2023-06-27 10:14:52] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-06-27 10:14:52] INFO root fetch - main [MainThread]: Store serial: [18659653]
